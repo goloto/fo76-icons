@@ -10,8 +10,9 @@ const cleanup = async () => {
     }
 
     const file = Bun.file(`./icons/${fileName}`);
-    const iconString = await file.text();
-    const dom = new JSDOM(iconString, {contentType: 'text/xml'});
+    const originalString = await file.text();
+    const cleanedString = originalString.replace(/(^[ \t]*\n)/gm, "");
+    const dom = new JSDOM(cleanedString, {contentType: 'text/xml'});
     const defs = dom?.window?.document?.querySelector('defs');
 
     defs?.parentNode?.removeChild(defs);
