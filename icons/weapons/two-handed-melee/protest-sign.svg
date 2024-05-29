@@ -1,19 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 333 594">
-  <defs>
-    <style>
-      .cls-1, .cls-2 {
-        stroke-width: 0px;
-      }
-
-      .cls-2 {
-        fill: #fff;
-      }
-    </style>
-  </defs>
+  
   <g id="cW5ltD.tif">
     <g>
-      <path class="cls-2" d="m333,594H0V0h333v594ZM156.75,211.04v380.56h12.88V211.03h160.76V2.32H4.01v208.72h152.74Z"/>
+      
       <path class="cls-1" d="m156.75,211.04H4.01V2.32h326.38v208.71h-160.76v380.57h-12.88V211.04Z"/>
     </g>
   </g>
