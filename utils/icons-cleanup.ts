@@ -1,0 +1,29 @@
+import { readdir } from "node:fs/promises";
+import {JSDOM} from 'jsdom';
+
+const cleanup = async () => {
+  const files = await readdir('./icons', {recursive: true});
+
+  files.forEach(async (fileName) => {
+    if (!fileName.includes('.svg')) {
+      return;
+    }
+
+    const file = Bun.file(`./icons/${fileName}`);
+    const iconString = await file.text();
+    const dom = new JSDOM(iconString, {contentType: 'text/xml'});
+    const defs = dom?.window?.document?.querySelector('defs');
+
+    defs?.parentNode?.removeChild(defs);
+
+    while (dom?.window?.document?.querySelector('.cls-2')) {
+      const uselessNodes = dom?.window?.document?.querySelector('.cls-2');
+
+      uselessNodes?.parentNode?.removeChild(uselessNodes);
+    }
+
+    Bun.write(`./icons/${fileName}`, dom.serialize());
+  });
+}
+
+await cleanup();

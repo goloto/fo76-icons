@@ -1,0 +1,17 @@
+{
+  "name": "fo76-icon-tags",
+  "type": "module",
+  "scripts": {
+    "icons-cleanup": "bun run ./utils/icons-cleanup.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/jsdom": "^21.1.6",
+    "jsdom": "^24.1.0"
+  }
+}
