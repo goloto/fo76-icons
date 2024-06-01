@@ -1,5 +1,5 @@
 import { readdir } from "node:fs/promises";
-import {JSDOM} from 'jsdom';
+import { JSDOM } from 'jsdom';
 
 const cleanup = async () => {
   const files = await readdir('./icons', {recursive: true});

@@ -2,7 +2,8 @@
   "name": "fo76-icon-tags",
   "type": "module",
   "scripts": {
-    "icons-cleanup": "bun run ./utils/icons-cleanup.ts"
+    "icons-cleanup": "bun run ./utils/icons-cleanup.ts",
+    "gen-info": "bun run ./utils/info-generator.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
