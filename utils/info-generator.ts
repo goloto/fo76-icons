@@ -10,7 +10,7 @@ interface IconInfo {
   isFallback?: boolean;
 }
 
-type SubCategory = Record<string, IconInfo[]>;
+type Subcategories = Record<string, IconInfo[]>;
 
 const ICONS_DIRECTORY = './icons';
 const CATEGORIES = ['armor', 'weapons'];
@@ -18,62 +18,78 @@ const CATEGORIES = ['armor', 'weapons'];
 const generateInfo = async () => {
   CATEGORIES.forEach(async (category) => {
     const files = await readdir(`${ICONS_DIRECTORY}/${category}`, {recursive: true});
-    const subcategories: SubCategory = {};
+    const subcategories = createSubcategoriesRecord(files);
 
-    files.forEach(async (filePath) => {
-      const [subcategory, fullName] = filePath.split('/');
+    Object.entries(subcategories).forEach(async ([subcategory, info]) => {
+      const mergedSubcategory = await mergeSubcategory([subcategory, info], category);
 
-      if (fullName === undefined) {
-        return;
-      }
-
-      const [name, extension] = fullName.split('.');
-
-      if (extension !== 'svg') {
-        return;
-      }
-
-      subcategories[subcategory] = [
-        ...(subcategories[subcategory] ?? []),
-        { name },
-      ]
+      await Bun.write(getInfoPath(category, subcategory), JSON.stringify(mergedSubcategory, null, "\t"));
     });
+  });
+};
 
-    Object.entries(subcategories).forEach(async ([name, info]) => {
-      const subcategoryFile = Bun.file(`${ICONS_DIRECTORY}/${category}/${name}/info.json`);
-      const isFileExist = await subcategoryFile.exists();
+const createSubcategoriesRecord = (files: string[]): Subcategories => {
+  return files.reduce((accumulator, filePath) => {
+    const [subcategory, fullName] = filePath.split('/');
 
-      if (!isFileExist) {
-        await Bun.write(`${ICONS_DIRECTORY}/${category}/${name}/info.json`, JSON.stringify(info));
+    if (fullName === undefined) {
+      return accumulator;
+    }
 
-        return;
-      }
+    const [name, extension] = fullName.split('.');
 
-      const text = await subcategoryFile.text();
-      const oldInfo = JSON.parse(text);
+    if (extension !== 'svg') {
+      return accumulator;
+    }
 
-      if (!isIconInfo(oldInfo)) {
-        return;
-      }
+    return {
+      ...accumulator,
+      [subcategory]: [
+        ...(accumulator[subcategory] ?? []),
+        createDefaultInfo(name),
+      ],
+    }
+  }, <Subcategories>{});
+}
 
-      const newInfo = info.map((item) => {
-        const duplicate = oldInfo.find((value) => value.name === item.name);
+const mergeSubcategory = async ([subcategory, info]: [string, IconInfo[]], category: string): Promise<IconInfo[]> => {
+  const subcategoryFile = Bun.file(getInfoPath(category, subcategory));
+  const isFileExist = await subcategoryFile.exists();
+  const sortedInfo = info.sort((a,b) => a.name.charCodeAt(0) - b.name.charCodeAt(0));
 
-        if (duplicate) {
-          return duplicate;
-        }
+  // если файла не существует - сразу записываем его
+  if (!isFileExist) {
+    return sortedInfo;
+  }
 
-        return item;
-      });
+  const text = await subcategoryFile.text();
+  const oldItem = JSON.parse(text);
 
-      await Bun.write(`${ICONS_DIRECTORY}/${category}/${name}/info.json`, JSON.stringify(newInfo, null, "\t"));
-    });
+  if (!isIconInfo(oldItem)) {
+    return [];
+  }
 
+  // ищем дубликаты элементов массива
+  return sortedInfo.map((currentItem) => {
+    const duplicate = oldItem.find((value) => value.name === currentItem.name);
+
+    if (!duplicate) {
+      return currentItem;
+    }
+    
+    // добавляет новые поля в уже существующие сущности, если такое поле уже не было в файле
+    return Object.keys(currentItem).reduce((accumulator, key) => ({
+      ...accumulator,
+      [key]: Object.hasOwn(duplicate, key) ? duplicate[key] : currentItem[key],
+    }), duplicate);
   });
 }
 
-const isIconInfo = (input: any): input is IconInfo[] => {
-  return Array.isArray(input);
-}
+const createDefaultInfo = (name: string) => ({ name, include: [] });
+
+const getInfoPath = (category: string, subcategory: string) => 
+  `${ICONS_DIRECTORY}/${category}/${subcategory}/info.json`;
+
+const isIconInfo = (input: any): input is IconInfo[] => Array.isArray(input);
 
 await generateInfo();
