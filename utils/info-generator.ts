@@ -14,9 +14,8 @@ type Subcategories = Record<string, IconInfo[]>;
 
 const ICONS_DIRECTORY = './icons';
 const CATEGORIES = ['armor', 'weapons'];
-const CHAR_START = Number.parseInt('2270', 16);
 const HEADER_GENERATOR = (function* () {
-  let start = CHAR_START;
+  let start = Number.parseInt('2270', 16);
 
   while (true) {
     start += 1;
@@ -56,7 +55,7 @@ const createSubcategoriesRecord = (files: string[]): Subcategories => {
       ...accumulator,
       [subcategory]: [
         ...(accumulator[subcategory] ?? []),
-        createDefaultInfo(name, HEADER_GENERATOR),
+        createDefaultInfo(name),
       ],
     }
   }, <Subcategories>{});
@@ -101,9 +100,9 @@ const mergeSubcategory = async ([subcategory, info]: [string, IconInfo[]], categ
   });
 }
 
-const createDefaultInfo = (name: string, headerGen: Generator) => ({ 
+const createDefaultInfo = (name: string) => ({ 
   name, 
-  header: headerGen.next().value.toString(16),
+  header: HEADER_GENERATOR.next().value.toString(16),
   include: [] 
 });
 
