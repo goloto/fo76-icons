@@ -57,7 +57,6 @@ const mergeSubcategory = async ([subcategory, info]: [string, IconInfo[]], categ
   const isFileExist = await subcategoryFile.exists();
   const sortedInfo = info.sort((a,b) => a.name.charCodeAt(0) - b.name.charCodeAt(0));
 
-  // если файла не существует - сразу записываем его
   if (!isFileExist) {
     return sortedInfo;
   }
@@ -69,7 +68,6 @@ const mergeSubcategory = async ([subcategory, info]: [string, IconInfo[]], categ
     return [];
   }
 
-  // ищем дубликаты элементов массива
   return sortedInfo.map((currentItem) => {
     const duplicate = oldItem.find((value) => value.name === currentItem.name);
 
@@ -77,7 +75,6 @@ const mergeSubcategory = async ([subcategory, info]: [string, IconInfo[]], categ
       return currentItem;
     }
     
-    // добавляет новые поля в уже существующие сущности, если такое поле уже не было в файле
     return Object.keys(currentItem).reduce((accumulator, key) => ({
       ...accumulator,
       [key]: Object.hasOwn(duplicate, key) ? duplicate[key] : currentItem[key],
