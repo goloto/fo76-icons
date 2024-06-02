@@ -66,7 +66,7 @@ const generateInfo = async () => {
         return item;
       });
 
-      await Bun.write(`${ICONS_DIRECTORY}/${category}/${name}/info.json`, JSON.stringify(newInfo));
+      await Bun.write(`${ICONS_DIRECTORY}/${category}/${name}/info.json`, JSON.stringify(newInfo, null, "\t"));
     });
 
   });
