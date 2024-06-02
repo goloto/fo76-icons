@@ -1,0 +1,117 @@
+[
+	{
+		"name": "auto-axe",
+		"header": "22a9",
+		"include": []
+	},
+	{
+		"name": "bone-hammer",
+		"header": "22a7",
+		"include": []
+	},
+	{
+		"name": "baseball-bat",
+		"header": "22ad",
+		"include": []
+	},
+	{
+		"name": "board",
+		"header": "22b4",
+		"include": []
+	},
+	{
+		"name": "chainsaw",
+		"header": "22a6",
+		"include": []
+	},
+	{
+		"name": "electro-enforcer",
+		"header": "22a5",
+		"include": []
+	},
+	{
+		"name": "fire-axe",
+		"header": "22b3",
+		"include": []
+	},
+	{
+		"name": "gulper-smacker",
+		"header": "22ab",
+		"include": []
+	},
+	{
+		"name": "groknaks-axe",
+		"header": "22b5",
+		"include": []
+	},
+	{
+		"name": "golf-club",
+		"header": "22b7",
+		"include": []
+	},
+	{
+		"name": "multi-purpose-axe",
+		"header": "22a4",
+		"include": []
+	},
+	{
+		"name": "mr-handy-buzz-blade",
+		"header": "22b6",
+		"include": []
+	},
+	{
+		"name": "protest-sign",
+		"header": "22a2",
+		"include": []
+	},
+	{
+		"name": "pool-cue",
+		"header": "22a3",
+		"include": []
+	},
+	{
+		"name": "sheepsquatch-staff",
+		"header": "22a1",
+		"include": []
+	},
+	{
+		"name": "super-sledge",
+		"header": "22aa",
+		"include": []
+	},
+	{
+		"name": "sledgehammer",
+		"header": "22ac",
+		"include": []
+	},
+	{
+		"name": "shepherds-crook",
+		"header": "22af",
+		"include": []
+	},
+	{
+		"name": "spear",
+		"header": "22b0",
+		"include": []
+	},
+	{
+		"name": "shovel",
+		"header": "22b1",
+		"include": []
+	},
+	{
+		"name": "the-tenderizer",
+		"header": "22ae",
+		"include": []
+	},
+	{
+		"name": "war-drum",
+		"header": "22a8",
+		"include": []
+	},
+	{
+		"name": "war-glaive",
+		"header": "22b2",
+		"include": []
+	}
+]

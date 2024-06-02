@@ -1,0 +1,47 @@
+[
+	{
+		"name": "boxing-glove",
+		"header": "22be",
+		"include": []
+	},
+	{
+		"name": "bear-arm",
+		"header": "22bf",
+		"include": []
+	},
+	{
+		"name": "deathclaw-gauntlet",
+		"header": "22bd",
+		"include": []
+	},
+	{
+		"name": "death-tambo",
+		"header": "22c0",
+		"include": []
+	},
+	{
+		"name": "gauntlet",
+		"header": "22b8",
+		"include": []
+	},
+	{
+		"name": "knuckles",
+		"header": "22b9",
+		"include": []
+	},
+	{
+		"name": "meet-hook",
+		"header": "22bb",
+		"include": []
+	},
+	{
+		"name": "mole-miner-gauntlet",
+		"header": "22bc",
+		"include": []
+	},
+	{
+		"name": "power-fist",
+		"header": "22ba",
+		"include": []
+	}
+]

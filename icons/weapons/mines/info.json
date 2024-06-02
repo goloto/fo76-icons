@@ -1,0 +1,37 @@
+[
+	{
+		"name": "bottlecap-mine",
+		"header": "22da",
+		"include": []
+	},
+	{
+		"name": "cryo-mine",
+		"header": "22d6",
+		"include": []
+	},
+	{
+		"name": "fragmentation-mine",
+		"header": "22d4",
+		"include": []
+	},
+	{
+		"name": "nuka-mine",
+		"header": "22d9",
+		"include": []
+	},
+	{
+		"name": "plasma-mine",
+		"header": "22d5",
+		"include": []
+	},
+	{
+		"name": "pulse-mine",
+		"header": "22d7",
+		"include": []
+	},
+	{
+		"name": "red-fireworks-mine",
+		"header": "22d8",
+		"include": []
+	}
+]

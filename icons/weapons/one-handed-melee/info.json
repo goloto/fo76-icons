@@ -1,0 +1,147 @@
+[
+	{
+		"name": "assaultron-blade",
+		"header": "228d",
+		"include": []
+	},
+	{
+		"name": "bowie-knife",
+		"header": "2280",
+		"include": []
+	},
+	{
+		"name": "baton",
+		"header": "2281",
+		"include": []
+	},
+	{
+		"name": "bone-club",
+		"header": "2298",
+		"include": []
+	},
+	{
+		"name": "cattleprod",
+		"header": "227e",
+		"include": []
+	},
+	{
+		"name": "commie-whacker",
+		"header": "2282",
+		"include": []
+	},
+	{
+		"name": "cultist-dagger",
+		"header": "2283",
+		"include": []
+	},
+	{
+		"name": "combat-knife",
+		"header": "2285",
+		"include": []
+	},
+	{
+		"name": "cultist-blade",
+		"header": "2286",
+		"include": []
+	},
+	{
+		"name": "chinese-officer-sword",
+		"header": "2292",
+		"include": []
+	},
+	{
+		"name": "drill",
+		"header": "2296",
+		"include": []
+	},
+	{
+		"name": "guitar-sword",
+		"header": "227d",
+		"include": []
+	},
+	{
+		"name": "hatchet",
+		"header": "227f",
+		"include": []
+	},
+	{
+		"name": "lead-pipe",
+		"header": "2293",
+		"include": []
+	},
+	{
+		"name": "machete",
+		"header": "2288",
+		"include": []
+	},
+	{
+		"name": "meteoritic-sword",
+		"header": "2289",
+		"include": []
+	},
+	{
+		"name": "plasma-cutter",
+		"header": "2284",
+		"include": []
+	},
+	{
+		"name": "paddle-ball",
+		"header": "2290",
+		"include": []
+	},
+	{
+		"name": "pipe-wrench",
+		"header": "2299",
+		"include": []
+	},
+	{
+		"name": "revolutionary-sword",
+		"header": "2287",
+		"include": []
+	},
+	{
+		"name": "rolling-pin",
+		"header": "228c",
+		"include": []
+	},
+	{
+		"name": "ripper",
+		"header": "228e",
+		"include": []
+	},
+	{
+		"name": "shishkebab",
+		"header": "228a",
+		"include": []
+	},
+	{
+		"name": "switchblade",
+		"header": "228b",
+		"include": []
+	},
+	{
+		"name": "sheepsquatch-club",
+		"header": "2291",
+		"include": []
+	},
+	{
+		"name": "sickle",
+		"header": "2294",
+		"include": []
+	},
+	{
+		"name": "ski-sword",
+		"header": "2297",
+		"include": []
+	},
+	{
+		"name": "tire-iron",
+		"header": "228f",
+		"include": []
+	},
+	{
+		"name": "walking-cane",
+		"header": "2295",
+		"include": []
+	}
+]

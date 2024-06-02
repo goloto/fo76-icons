@@ -1,0 +1,87 @@
+[
+	{
+		"name": "10mm-submachine-gun",
+		"header": "22fb",
+		"include": ["edid|0010DB0F"]
+	},
+	{
+		"name": "alien-disintegrator",
+		"header": "22f3",
+		"include": ["edid|0062FE8E"]
+	},
+	{
+		"name": "assault-rifle",
+		"header": "22f6",
+		"include": ["edid|0000463F"]
+	},
+	{
+		"name": "black-powder-rifle",
+		"header": "22f7",
+		"include": ["edid|00091BB4"]
+	},
+	{
+		"name": "combat-rifle",
+		"header": "22f8",
+		"include": ["edid|000DF42E"]
+	},
+	{
+		"name": "enclave-plasma-rifle",
+		"header": "22fc",
+		"include": ["edid|002FD97A"]
+	},
+	{
+		"name": "gauss-rifle",
+		"header": "22f1",
+		"include": ["edid|000D1EB0"]
+	},
+	{
+		"name": "hunting-rifle",
+		"header": "22ee",
+		"include": ["edid|0004F46A"]
+	},
+	{
+		"name": "handmade-rifle",
+		"header": "22f4",
+		"include": ["edid|00113854"]
+	},
+	{
+		"name": "lever-action-rifle",
+		"header": "22fa",
+		"include": ["edid|00110E32"]
+	},
+	{
+		"name": "radium-rifle",
+		"header": "22ef",
+		"include": ["edid|00110D41"]
+	},
+	{
+		"name": "railway-rifle",
+		"header": "22f0",
+		"include": ["edid|000FE268"]
+	},
+	{
+		"name": "syringer",
+		"header": "22f2",
+		"include": ["edid|0014D09E"]
+	},
+	{
+		"name": "submachine-gun",
+		"header": "22fd",
+		"include": ["edid|0015B043"]
+	},
+	{
+		"name": "the-dragon",
+		"header": "22ed",
+		"include": ["edid|00046946"]
+	},
+	{
+		"name": "tesla-rifle",
+		"header": "22f5",
+		"include": ["edid|0010F0EC"]
+	},
+	{
+		"name": "the-fixer",
+		"header": "22f9",
+		"include": ["edid|0046D2A1"]
+	}
+]

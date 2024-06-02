@@ -1,0 +1,37 @@
+[
+	{
+		"name": "auto-grenade-launcher",
+		"header": "229b",
+		"include": []
+	},
+	{
+		"name": "broadsider",
+		"header": "229f",
+		"include": []
+	},
+	{
+		"name": "fat-man",
+		"header": "229e",
+		"include": []
+	},
+	{
+		"name": "hellstorm-missile-launcher",
+		"header": "229a",
+		"include": []
+	},
+	{
+		"name": "missile-launcher",
+		"header": "229c",
+		"include": []
+	},
+	{
+		"name": "m79-grenade-launcher",
+		"header": "22a0",
+		"include": []
+	},
+	{
+		"name": "thirst-zapper",
+		"header": "229d",
+		"include": []
+	}
+]

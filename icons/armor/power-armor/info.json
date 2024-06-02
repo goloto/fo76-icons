@@ -1,0 +1,62 @@
+[
+	{
+		"name": "excavator",
+		"header": "2275",
+		"include": []
+	},
+	{
+		"name": "hellcat",
+		"header": "2276",
+		"include": []
+	},
+	{
+		"name": "pa-frame",
+		"header": "2277",
+		"include": []
+	},
+	{
+		"name": "raider",
+		"header": "2279",
+		"include": []
+	},
+	{
+		"name": "strangler-heart",
+		"header": "2272",
+		"include": []
+	},
+	{
+		"name": "t-60",
+		"header": "2273",
+		"include": []
+	},
+	{
+		"name": "t-65",
+		"header": "2274",
+		"include": []
+	},
+	{
+		"name": "t-51",
+		"header": "227a",
+		"include": []
+	},
+	{
+		"name": "t-45",
+		"header": "227b",
+		"include": []
+	},
+	{
+		"name": "union",
+		"header": "2278",
+		"include": []
+	},
+	{
+		"name": "ultracite",
+		"header": "227c",
+		"include": []
+	},
+	{
+		"name": "x-01",
+		"header": "2271",
+		"include": []
+	}
+]

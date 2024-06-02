@@ -1,0 +1,132 @@
+[
+	{
+		"name": "artillery-smoke-grenade",
+		"header": "2310",
+		"include": []
+	},
+	{
+		"name": "bug-grenade",
+		"header": "2300",
+		"include": []
+	},
+	{
+		"name": "baseball-grenade",
+		"header": "2314",
+		"include": []
+	},
+	{
+		"name": "cryogenic-grenade",
+		"header": "2317",
+		"include": []
+	},
+	{
+		"name": "dross",
+		"header": "2305",
+		"include": []
+	},
+	{
+		"name": "dynamite-bundle",
+		"header": "230f",
+		"include": []
+	},
+	{
+		"name": "dynamite",
+		"header": "2313",
+		"include": []
+	},
+	{
+		"name": "explosive-bait",
+		"header": "2316",
+		"include": []
+	},
+	{
+		"name": "floater-flamer-grenade",
+		"header": "2304",
+		"include": []
+	},
+	{
+		"name": "floater-gnasher-grenade",
+		"header": "2307",
+		"include": []
+	},
+	{
+		"name": "fragmentation-grenade",
+		"header": "2309",
+		"include": []
+	},
+	{
+		"name": "fragmentation-grenade-MIRV",
+		"header": "230c",
+		"include": []
+	},
+	{
+		"name": "flare",
+		"header": "230e",
+		"include": []
+	},
+	{
+		"name": "floater-freezer-grenade",
+		"header": "2312",
+		"include": []
+	},
+	{
+		"name": "meat-clever",
+		"header": "2301",
+		"include": []
+	},
+	{
+		"name": "molotov-cocktail",
+		"header": "230d",
+		"include": []
+	},
+	{
+		"name": "nuka-grenade",
+		"header": "2315",
+		"include": []
+	},
+	{
+		"name": "orbital-strike-beacon",
+		"header": "2311",
+		"include": []
+	},
+	{
+		"name": "pumpkin-grenade",
+		"header": "22ff",
+		"include": []
+	},
+	{
+		"name": "plasma-grenade",
+		"header": "2303",
+		"include": []
+	},
+	{
+		"name": "pulse-grenade",
+		"header": "230a",
+		"include": []
+	},
+	{
+		"name": "throwing-knife",
+		"header": "22fe",
+		"include": []
+	},
+	{
+		"name": "turbo-fert-fertilizer",
+		"header": "2302",
+		"include": []
+	},
+	{
+		"name": "trail-fireworks",
+		"header": "2306",
+		"include": []
+	},
+	{
+		"name": "tomahawk",
+		"header": "2308",
+		"include": []
+	},
+	{
+		"name": "vertibot-signal-grenade",
+		"header": "230b",
+		"include": []
+	}
+]

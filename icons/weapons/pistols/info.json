@@ -1,0 +1,77 @@
+[
+	{
+		"name": "10mm-pistol",
+		"header": "22e6",
+		"include": []
+	},
+	{
+		"name": "44-pistol",
+		"header": "22e1",
+		"include": []
+	},
+	{
+		"name": "alien-bluster",
+		"header": "22dc",
+		"include": []
+	},
+	{
+		"name": "assaultron-head",
+		"header": "22e5",
+		"include": []
+	},
+	{
+		"name": "black-powder-pistol",
+		"header": "22dd",
+		"include": []
+	},
+	{
+		"name": "crusader-pistol",
+		"header": "22e7",
+		"include": []
+	},
+	{
+		"name": "flare-gun",
+		"header": "22de",
+		"include": []
+	},
+	{
+		"name": "gamma-gun",
+		"header": "22df",
+		"include": []
+	},
+	{
+		"name": "gauss-pistol",
+		"header": "22e2",
+		"include": []
+	},
+	{
+		"name": "laser-gun",
+		"header": "22e4",
+		"include": []
+	},
+	{
+		"name": "pipe-revolver",
+		"header": "22e3",
+		"include": []
+	},
+	{
+		"name": "plasma-gun",
+		"header": "22e8",
+		"include": []
+	},
+	{
+		"name": "pipe-gun",
+		"header": "22e9",
+		"include": []
+	},
+	{
+		"name": "single-action-revolver",
+		"header": "22e0",
+		"include": []
+	},
+	{
+		"name": "western-pistol",
+		"header": "22db",
+		"include": []
+	}
+]
