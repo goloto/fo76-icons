@@ -14,6 +14,16 @@ type Subcategories = Record<string, IconInfo[]>;
 
 const ICONS_DIRECTORY = './icons';
 const CATEGORIES = ['armor', 'weapons'];
+const CHAR_START = Number.parseInt('2270', 16);
+const HEADER_GENERATOR = (function* () {
+  let start = CHAR_START;
+
+  while (true) {
+    start += 1;
+
+    yield start;
+  }
+})();
 
 const generateInfo = async () => {
   CATEGORIES.forEach(async (category) => {
@@ -46,7 +56,7 @@ const createSubcategoriesRecord = (files: string[]): Subcategories => {
       ...accumulator,
       [subcategory]: [
         ...(accumulator[subcategory] ?? []),
-        createDefaultInfo(name),
+        createDefaultInfo(name, HEADER_GENERATOR),
       ],
     }
   }, <Subcategories>{});
@@ -75,14 +85,27 @@ const mergeSubcategory = async ([subcategory, info]: [string, IconInfo[]], categ
       return currentItem;
     }
     
-    return Object.keys(currentItem).reduce((accumulator, key) => ({
-      ...accumulator,
-      [key]: Object.hasOwn(duplicate, key) ? duplicate[key] : currentItem[key],
-    }), duplicate);
+    return Object.keys(currentItem).reduce((accumulator, key) => {
+      if (key === 'header') {
+        return ({
+          ...accumulator,
+          [key]: currentItem[key],
+        });
+      }
+
+      return ({
+        ...accumulator,
+        [key]: Object.hasOwn(duplicate, key) ? duplicate[key] : currentItem[key],
+      })
+    }, duplicate);
   });
 }
 
-const createDefaultInfo = (name: string) => ({ name, include: [] });
+const createDefaultInfo = (name: string, headerGen: Generator) => ({ 
+  name, 
+  header: headerGen.next().value.toString(16),
+  include: [] 
+});
 
 const getInfoPath = (category: string, subcategory: string) => 
   `${ICONS_DIRECTORY}/${category}/${subcategory}/info.json`;
