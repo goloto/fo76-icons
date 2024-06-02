@@ -14,6 +14,7 @@ type Subcategories = Record<string, IconInfo[]>;
 
 const ICONS_DIRECTORY = './icons';
 const CATEGORIES = ['armor', 'weapons'];
+const NON_MERGED_ATTRS = ['header'];
 const HEADER_GENERATOR = (function* () {
   let start = Number.parseInt('2270', 16);
 
@@ -85,7 +86,7 @@ const mergeSubcategory = async ([subcategory, info]: [string, IconInfo[]], categ
     }
     
     return Object.keys(currentItem).reduce((accumulator, key) => {
-      if (key === 'header') {
+      if (NON_MERGED_ATTRS.includes(key)) {
         return ({
           ...accumulator,
           [key]: currentItem[key],
