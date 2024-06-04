@@ -1,16 +1,5 @@
 import { readdir } from "node:fs/promises";
-
-interface IconInfo {
-  name: string;
-  header?: string;
-  include?: string[];
-  exclude?: string[];
-  isEnabled?: boolean;
-  isFullReplaced?: boolean;
-  isFallback?: boolean;
-}
-
-type Subcategories = Record<string, IconInfo[]>;
+import type { IconInfo, Subcategories } from "./types";
 
 const ICONS_DIRECTORY = './icons';
 const CATEGORIES = ['armor', 'weapons'];
@@ -103,7 +92,7 @@ const mergeSubcategory = async ([subcategory, info]: [string, IconInfo[]], categ
 
 const createDefaultInfo = (name: string) => ({ 
   name, 
-  header: HEADER_GENERATOR.next().value.toString(16),
+  header: '0x' + HEADER_GENERATOR.next().value.toString(16),
   include: [] 
 });
 
