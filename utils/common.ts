@@ -1,3 +1,3 @@
 import type { IconInfo } from "./types";
 
-export const isIconInfo = (input: any): input is IconInfo[] => Array.isArray(input);
+export const isIconInfoArray = (input: any): input is IconInfo[] => Array.isArray(input);

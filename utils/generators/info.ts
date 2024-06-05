@@ -1,6 +1,6 @@
 import { readdir } from "node:fs/promises";
-import type { IconInfo, Subcategories } from "./types";
-import { isIconInfo } from "./common";
+import type { IconInfo, Subcategories } from "../types";
+import { isIconInfoArray } from "../common";
 
 const ICONS_DIRECTORY = './icons';
 const CATEGORIES = ['armor', 'weapons'];
@@ -64,7 +64,7 @@ const mergeSubcategory = async (subcategory: string, info: IconInfo[], category:
   const text = await subcategoryFile.text();
   const oldItem = JSON.parse(text);
 
-  if (!isIconInfo(oldItem)) {
+  if (!isIconInfoArray(oldItem)) {
     return [];
   }
 

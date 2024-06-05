@@ -3,7 +3,9 @@
   "type": "module",
   "scripts": {
     "icons-cleanup": "bun run ./utils/icons-cleanup.ts",
-    "gen-info": "bun run ./utils/info-generator.ts"
+    "gen-info": "bun run ./utils/generators/info.ts",
+    "gen-headers": "bun run ./utils/generators/headers.ts",
+    "gen-font-config": "bun run ./utils/generators/font-config.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"

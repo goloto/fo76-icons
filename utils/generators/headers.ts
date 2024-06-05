@@ -1,4 +1,4 @@
-import type { IconInfo } from "./types";
+import type { IconInfo } from "../types";
 
 const FILE_HEADER = `#Do Not Edit
 [version=3]
