@@ -7,3 +7,5 @@ const generateAll = async () => {
   await generateHeaders();
   await generateFontConfig();
 }
+
+await generateAll();
