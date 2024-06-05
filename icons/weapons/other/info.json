@@ -1,12 +1,12 @@
 [
 	{
 		"name": "binoculars",
-		"header": "22c2",
+		"header": "0xf11d",
 		"include": []
 	},
 	{
 		"name": "prosnap-deluxe-camera",
-		"header": "22c1",
+		"header": "0xf11c",
 		"include": []
 	}
 ]

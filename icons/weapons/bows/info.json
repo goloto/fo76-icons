@@ -1,17 +1,17 @@
 [
 	{
 		"name": "bow",
-		"header": "22eb",
+		"header": "0xf15d",
 		"include": []
 	},
 	{
 		"name": "crossbow",
-		"header": "22ea",
+		"header": "0xf15c",
 		"include": []
 	},
 	{
 		"name": "compound-bow",
-		"header": "22ec",
+		"header": "0xf15e",
 		"include": []
 	}
 ]

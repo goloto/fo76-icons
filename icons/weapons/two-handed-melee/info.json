@@ -1,117 +1,117 @@
 [
 	{
 		"name": "auto-axe",
-		"header": "22a9",
+		"header": "0xf0f5",
 		"include": []
 	},
 	{
 		"name": "bone-hammer",
-		"header": "22a7",
+		"header": "0xf0f3",
 		"include": []
 	},
 	{
 		"name": "baseball-bat",
-		"header": "22ad",
+		"header": "0xf0f9",
 		"include": []
 	},
 	{
 		"name": "board",
-		"header": "22b4",
+		"header": "0xf100",
 		"include": []
 	},
 	{
 		"name": "chainsaw",
-		"header": "22a6",
+		"header": "0xf0f2",
 		"include": []
 	},
 	{
 		"name": "electro-enforcer",
-		"header": "22a5",
+		"header": "0xf0f1",
 		"include": []
 	},
 	{
 		"name": "fire-axe",
-		"header": "22b3",
+		"header": "0xf0ff",
 		"include": []
 	},
 	{
 		"name": "gulper-smacker",
-		"header": "22ab",
+		"header": "0xf0f7",
 		"include": []
 	},
 	{
 		"name": "groknaks-axe",
-		"header": "22b5",
+		"header": "0xf101",
 		"include": []
 	},
 	{
 		"name": "golf-club",
-		"header": "22b7",
+		"header": "0xf103",
 		"include": []
 	},
 	{
 		"name": "multi-purpose-axe",
-		"header": "22a4",
+		"header": "0xf0f0",
 		"include": []
 	},
 	{
 		"name": "mr-handy-buzz-blade",
-		"header": "22b6",
+		"header": "0xf102",
 		"include": []
 	},
 	{
 		"name": "protest-sign",
-		"header": "22a2",
+		"header": "0xf0ee",
 		"include": []
 	},
 	{
 		"name": "pool-cue",
-		"header": "22a3",
+		"header": "0xf0ef",
 		"include": []
 	},
 	{
 		"name": "sheepsquatch-staff",
-		"header": "22a1",
+		"header": "0xf0ed",
 		"include": []
 	},
 	{
 		"name": "super-sledge",
-		"header": "22aa",
+		"header": "0xf0f6",
 		"include": []
 	},
 	{
 		"name": "sledgehammer",
-		"header": "22ac",
+		"header": "0xf0f8",
 		"include": []
 	},
 	{
 		"name": "shepherds-crook",
-		"header": "22af",
+		"header": "0xf0fb",
 		"include": []
 	},
 	{
 		"name": "spear",
-		"header": "22b0",
+		"header": "0xf0fc",
 		"include": []
 	},
 	{
 		"name": "shovel",
-		"header": "22b1",
+		"header": "0xf0fd",
 		"include": []
 	},
 	{
 		"name": "the-tenderizer",
-		"header": "22ae",
+		"header": "0xf0fa",
 		"include": []
 	},
 	{
 		"name": "war-drum",
-		"header": "22a8",
+		"header": "0xf0f4",
 		"include": []
 	},
 	{
 		"name": "war-glaive",
-		"header": "22b2",
+		"header": "0xf0fe",
 		"include": []
 	}
 ]

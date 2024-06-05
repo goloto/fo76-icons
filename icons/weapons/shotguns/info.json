@@ -1,27 +1,27 @@
 [
 	{
 		"name": "combat-shotgun",
-		"header": "22d3",
+		"header": "0xf131",
 		"include": []
 	},
 	{
 		"name": "double-barrel-shotgun",
-		"header": "22d0",
+		"header": "0xf12e",
 		"include": []
 	},
 	{
 		"name": "gauss-shotgun",
-		"header": "22d2",
+		"header": "0xf130",
 		"include": []
 	},
 	{
 		"name": "pump-action-shotgun",
-		"header": "22cf",
+		"header": "0xf12d",
 		"include": []
 	},
 	{
 		"name": "pepper-shaker",
-		"header": "22d1",
+		"header": "0xf12f",
 		"include": []
 	}
 ]

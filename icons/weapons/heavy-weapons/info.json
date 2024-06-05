@@ -1,62 +1,62 @@
 [
 	{
 		"name": "50cal-machine-gun",
-		"header": "22c6",
+		"header": "0xf162",
 		"include": []
 	},
 	{
 		"name": "cryolator",
-		"header": "22c5",
+		"header": "0xf161",
 		"include": []
 	},
 	{
 		"name": "cremator",
-		"header": "22cb",
+		"header": "0xf167",
 		"include": []
 	},
 	{
 		"name": "flamer",
-		"header": "22cd",
+		"header": "0xf169",
 		"include": []
 	},
 	{
 		"name": "gatling-laser",
-		"header": "22c4",
+		"header": "0xf160",
 		"include": []
 	},
 	{
 		"name": "gauss-minigun",
-		"header": "22c7",
+		"header": "0xf163",
 		"include": []
 	},
 	{
 		"name": "gatling-gun",
-		"header": "22c9",
+		"header": "0xf165",
 		"include": []
 	},
 	{
 		"name": "gatling-plasma",
-		"header": "22ce",
+		"header": "0xf16a",
 		"include": []
 	},
 	{
 		"name": "harpoon-gun",
-		"header": "22c3",
+		"header": "0xf15f",
 		"include": []
 	},
 	{
 		"name": "light-machine-gun",
-		"header": "22ca",
+		"header": "0xf166",
 		"include": []
 	},
 	{
 		"name": "minigun",
-		"header": "22c8",
+		"header": "0xf164",
 		"include": []
 	},
 	{
 		"name": "plasma-caster",
-		"header": "22cc",
+		"header": "0xf168",
 		"include": []
 	}
 ]
