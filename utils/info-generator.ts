@@ -1,11 +1,12 @@
 import { readdir } from "node:fs/promises";
 import type { IconInfo, Subcategories } from "./types";
+import { isIconInfo } from "./common";
 
 const ICONS_DIRECTORY = './icons';
 const CATEGORIES = ['armor', 'weapons'];
 const NON_MERGED_ATTRS = ['header'];
 const HEADER_GENERATOR = (function* () {
-  let start = Number.parseInt('2270', 16);
+  let start = Number.parseInt('F0E0', 16);
 
   while (true) {
     start += 1;
@@ -15,16 +16,16 @@ const HEADER_GENERATOR = (function* () {
 })();
 
 const generateInfo = async () => {
-  CATEGORIES.forEach(async (category) => {
+  for (const category of CATEGORIES) {
     const files = await readdir(`${ICONS_DIRECTORY}/${category}`, {recursive: true});
     const subcategories = createSubcategoriesRecord(files);
 
-    Object.entries(subcategories).forEach(async ([subcategory, info]) => {
-      const mergedSubcategory = await mergeSubcategory([subcategory, info], category);
+    for (const [subcategory, info] of Object.entries(subcategories)) {
+      const mergedSubcategory = await mergeSubcategory(subcategory, info, category);
 
       await Bun.write(getInfoPath(category, subcategory), JSON.stringify(mergedSubcategory, null, "\t"));
-    });
-  });
+    }
+  }
 };
 
 const createSubcategoriesRecord = (files: string[]): Subcategories => {
@@ -51,7 +52,7 @@ const createSubcategoriesRecord = (files: string[]): Subcategories => {
   }, <Subcategories>{});
 }
 
-const mergeSubcategory = async ([subcategory, info]: [string, IconInfo[]], category: string): Promise<IconInfo[]> => {
+const mergeSubcategory = async (subcategory: string, info: IconInfo[], category: string): Promise<IconInfo[]> => {
   const subcategoryFile = Bun.file(getInfoPath(category, subcategory));
   const isFileExist = await subcategoryFile.exists();
   const sortedInfo = info.sort((a,b) => a.name.charCodeAt(0) - b.name.charCodeAt(0));
@@ -98,7 +99,5 @@ const createDefaultInfo = (name: string) => ({
 
 const getInfoPath = (category: string, subcategory: string) => 
   `${ICONS_DIRECTORY}/${category}/${subcategory}/info.json`;
-
-const isIconInfo = (input: any): input is IconInfo[] => Array.isArray(input);
 
 await generateInfo();
