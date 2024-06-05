@@ -75,7 +75,7 @@ const mergeSubcategory = async (subcategory: string, info: IconInfo[], category:
       return currentItem;
     }
     
-    return Object.keys(currentItem).reduce((accumulator, key) => {
+    return (Object.keys(currentItem) as Array<keyof IconInfo>).reduce((accumulator, key) => {
       if (NON_MERGED_ATTRS.includes(key)) {
         return ({
           ...accumulator,
