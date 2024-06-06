@@ -23,7 +23,7 @@ const RULE_TEMPLATE = `[StartRule]
  %
 [EndRule]`;
 
-export const generateHeaders = async () => {
+export const buildHeaders = async () => {
   const file = Bun.file('./icons/weapons/rifles/info.json');
   const text = await file.text();
   const json = JSON.parse(text) as IconInfo[];
@@ -67,4 +67,4 @@ const createUtf8BomString = (str: string): Blob => {
   ], { type: "text/plain;charset=utf-8" });
 }
 
-await generateHeaders();
+await buildHeaders();

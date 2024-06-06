@@ -1,6 +1,6 @@
 import type { IconInfo } from "../types";
 
-const generate = async () => {
+const buildUnicodeMap = async () => {
   const file = Bun.file('./icons/weapons/rifles/info.json');
   const text = await file.text();
   const json = JSON.parse(text) as IconInfo[];
@@ -8,4 +8,4 @@ const generate = async () => {
   json.forEach(item => console.log(item?.header + ' ' + item?.name.replace('-', '_') +'\r'));
 }
 
-await generate();
+await buildUnicodeMap();

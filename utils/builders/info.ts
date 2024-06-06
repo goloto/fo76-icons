@@ -15,7 +15,7 @@ const HEADER_GENERATOR = (function* () {
   }
 })();
 
-export const generateInfo = async () => {
+export const buildInfo = async () => {
   for (const category of CATEGORIES) {
     const files = await readdir(`${ICONS_DIRECTORY}/${category}`, {recursive: true});
     const subcategories = createSubcategoriesRecord(files);
@@ -100,4 +100,4 @@ const createDefaultInfo = (name: string) => ({
 const getInfoPath = (category: string, subcategory: string) => 
   `${ICONS_DIRECTORY}/${category}/${subcategory}/info.json`;
 
-await generateInfo();
+await buildInfo();

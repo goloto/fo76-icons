@@ -31,7 +31,7 @@ map "$Typewriter_Font" = "VeteranTypewriterRedacted" Normal
 validNameChars "\`1234567890-=~!@#$%^&*():_+QWERTYUIOP[]ASDFGHJKL;'ZXCVBNM,./qwertyuiop{}\\asdfghjkl;'zxcvbnm?|ЎўЈ¤Ґ¦§Ё©Є«®Ї°Ііґ¶·ё№є»јЅѕїДАБВГЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэю я%custom-characters% "
 validBookChars "\`1234567890-=~!@#$%^&*():_+QWERTYUIOP[]ASDFGHJKL;'ZXCVBNM,./qwertyuiop{}\\asdfghjkl;'zxcvbnm<>?|ЎўЈ¤Ґ¦§Ё©Є«®Ї°Ііґ¶·ё№є»јЅѕїДАБВГЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэю я "`;
 
-export const generateFontConfig = async () => {
+export const buildFontConfig = async () => {
   let characters = '';
   const files = await readdir('./icons', {recursive: true});
 
@@ -64,4 +64,4 @@ const getCharFromHeader = (info: IconInfo): string => {
   return String.fromCharCode(Number.parseInt(info.header, 16));
 }
 
-await generateFontConfig();
+await buildFontConfig();
