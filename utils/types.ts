@@ -1,3 +1,5 @@
+export type Info = Record<string, IconInfo>;
+
 export interface IconInfo {
   name: string;
   header?: string;
@@ -7,5 +9,3 @@ export interface IconInfo {
   isFullReplaced?: boolean;
   isFallback?: boolean;
 }
-
-export type Subcategories = Record<string, IconInfo[]>;

@@ -1,6 +1,5 @@
 import { readdir } from "node:fs/promises";
-import type { IconInfo } from "../types";
-import { isIconInfoArray } from "../common";
+import { getCharFromHexadecimal, isIconInfoArray } from "../common";
 
 const FONT_CONFIG_TEMPLATE = `fontlib "fonts_ru"
 map "$76HandwrittenIlliterate" = "HandwrittenIlliterate" Normal
@@ -49,19 +48,11 @@ export const buildFontConfig = async () => {
     }
 
     characters += json.reduce((accumulator, info) => {
-      return accumulator + getCharFromHeader(info)
+      return accumulator + getCharFromHexadecimal(info?.header)
     }, '');
   }
 
   await Bun.write('./headers/fontconfig_ru.txt', FONT_CONFIG_TEMPLATE.replace('%custom-characters%', characters));
-}
-
-const getCharFromHeader = (info: IconInfo): string => {
-  if (!info?.header) {
-    return '';
-  }
-
-  return String.fromCharCode(Number.parseInt(info.header, 16));
 }
 
 await buildFontConfig();

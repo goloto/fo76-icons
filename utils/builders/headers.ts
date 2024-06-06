@@ -1,3 +1,4 @@
+import { getCharFromHexadecimal } from "../common";
 import type { IconInfo } from "../types";
 
 const FILE_HEADER = `#Do Not Edit
@@ -30,7 +31,7 @@ export const buildHeaders = async () => {
 
   const result = json.reduce((accumulator: string, item) => {
     const {header, include} = item;
-    const ruleWithHeader = RULE_TEMPLATE.replace('$', formatHeader(header));
+    const ruleWithHeader = RULE_TEMPLATE.replace('$', getCharFromHexadecimal(header));
     const concatenatedInclude = concatenateInclude(include);
     const ruleWithInclude = ruleWithHeader.replace('%', concatenatedInclude);
 
@@ -38,14 +39,6 @@ export const buildHeaders = async () => {
   }, `${FILE_HEADER}`) as string;
 
   await Bun.write('./headers/rules.txt', createUtf8BomString(result));
-}
-
-const formatHeader = (str?: string): string => {
-  if (!str) {
-    return '';
-  }
-
-  return String.fromCharCode(Number.parseInt(str, 16));
 }
 
 const concatenateInclude = (array?: string[]): string => {
