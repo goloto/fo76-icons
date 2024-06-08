@@ -1,11 +1,16 @@
-import type { IconInfo } from "../types";
+import { readInfoFile, readUnicodeMapFile } from "../common";
 
-const buildUnicodeMap = async () => {
-  const file = Bun.file('./icons/weapons/rifles/info.json');
-  const text = await file.text();
-  const json = JSON.parse(text) as IconInfo[];
+const TEMPLATE_LINK = '%custom-names%';
 
-  json.forEach(item => console.log(item?.header + ' ' + item?.name.replace('-', '_') +'\r'));
+export const buildUnicodeMap = async () => {
+  const info = await readInfoFile();
+  const map = await readUnicodeMapFile();
+  const slicedMap = map.slice(0, map.indexOf(TEMPLATE_LINK) + TEMPLATE_LINK.length) + '\r'; 
+  const newMap = Object.values(info).reduce((accumulator, item) => {
+    return accumulator + item.header + ' ' + item.name + '\r';
+  }, slicedMap);
+  
+  await Bun.write('./fontlab/standard.nam', newMap);
 }
 
 await buildUnicodeMap();
