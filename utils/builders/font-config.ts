@@ -1,5 +1,5 @@
 import { readdir } from "node:fs/promises";
-import { getCharFromHexadecimal, isIconInfoArray } from "../common";
+import { ICONS_DIRECTORY, getCharFromHexadecimal, isIconInfoArray, readInfoFile } from "../common";
 
 const FONT_CONFIG_TEMPLATE = `fontlib "fonts_ru"
 map "$76HandwrittenIlliterate" = "HandwrittenIlliterate" Normal
@@ -32,22 +32,20 @@ validBookChars "\`1234567890-=~!@#$%^&*():_+QWERTYUIOP[]ASDFGHJKL;'ZXCVBNM,./qwe
 
 export const buildFontConfig = async () => {
   let characters = '';
-  const files = await readdir('./icons', {recursive: true});
+  const files = await readdir(ICONS_DIRECTORY, {recursive: true});
 
   for (let fileName of files) {
     if (!fileName.includes('info.json')) {
       continue;
     }
 
-    const file = Bun.file(`./icons/${fileName}`);
-    const text = await file.text();
-    const json = JSON.parse(text);
+    const info = await readInfoFile();
 
-    if (!isIconInfoArray(json)) {
+    if (!isIconInfoArray(info)) {
       continue;
     }
 
-    characters += json.reduce((accumulator, info) => {
+    characters += info.reduce((accumulator, info) => {
       return accumulator + getCharFromHexadecimal(info?.header)
     }, '');
   }

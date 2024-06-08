@@ -1,4 +1,4 @@
-import { getCharFromHexadecimal } from "../common";
+import { ICONS_DIRECTORY, getCharFromHexadecimal, readInfoFile } from "../common";
 import type { IconInfo } from "../types";
 
 const FILE_HEADER = `#Do Not Edit
@@ -25,11 +25,8 @@ const RULE_TEMPLATE = `[StartRule]
 [EndRule]`;
 
 export const buildHeaders = async () => {
-  const file = Bun.file('./icons/weapons/rifles/info.json');
-  const text = await file.text();
-  const json = JSON.parse(text) as IconInfo[];
-
-  const result = json.reduce((accumulator: string, item) => {
+  const info = await readInfoFile();
+  const result = Object.entries(info).reduce((accumulator: string, [key, item]) => {
     const {header, include} = item;
     const ruleWithHeader = RULE_TEMPLATE.replace('$', getCharFromHexadecimal(header));
     const concatenatedInclude = concatenateInclude(include);
