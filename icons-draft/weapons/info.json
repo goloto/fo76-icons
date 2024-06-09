@@ -1,0 +1,1310 @@
+{
+	"default_plasma_mine": {
+		"name": "default_plasma_mine",
+		"header": "0x2266",
+		"include": [],
+		"exclude": []
+	},
+	"default_handmade_rifle": {
+		"name": "default_handmade_rifle",
+		"header": "0x2267",
+		"include": [],
+		"exclude": []
+	},
+	"default_stimpack": {
+		"name": "default_stimpack",
+		"header": "0x2268",
+		"include": [],
+		"exclude": []
+	},
+	"default_gauss_rifle": {
+		"name": "default_gauss_rifle",
+		"header": "0x2269",
+		"include": [],
+		"exclude": []
+	},
+	"default_apparel": {
+		"name": "default_apparel",
+		"header": "0x226a",
+		"include": [],
+		"exclude": []
+	},
+	"default_grenade": {
+		"name": "default_grenade",
+		"header": "0x226b",
+		"include": [],
+		"exclude": []
+	},
+	"default_pulse_mine": {
+		"name": "default_pulse_mine",
+		"header": "0x226c",
+		"include": [],
+		"exclude": []
+	},
+	"default_flamer": {
+		"name": "default_flamer",
+		"header": "0x226d",
+		"include": [],
+		"exclude": []
+	},
+	"default_ripper": {
+		"name": "default_ripper",
+		"header": "0x226e",
+		"include": [],
+		"exclude": []
+	},
+	"default_mini_nuke": {
+		"name": "default_mini_nuke",
+		"header": "0x226f",
+		"include": [],
+		"exclude": []
+	},
+	"default_alien_blaster": {
+		"name": "default_alien_blaster",
+		"header": "0x2270",
+		"include": [],
+		"exclude": []
+	},
+	"default_laser_pistol": {
+		"name": "default_laser_pistol",
+		"header": "0x2271",
+		"include": [],
+		"exclude": []
+	},
+	"default_two_handed_melee": {
+		"name": "default_two_handed_melee",
+		"header": "0x2272",
+		"include": [],
+		"exclude": []
+	},
+	"default_helmet": {
+		"name": "default_helmet",
+		"header": "0x2273",
+		"include": [],
+		"exclude": []
+	},
+	"default_plasma_rifle": {
+		"name": "default_plasma_rifle",
+		"header": "0x2274",
+		"include": [],
+		"exclude": []
+	},
+	"default_minigun": {
+		"name": "default_minigun",
+		"header": "0x2275",
+		"include": [],
+		"exclude": []
+	},
+	"default_star": {
+		"name": "default_star",
+		"header": "0x2276",
+		"include": [],
+		"exclude": []
+	},
+	"default_flare_gun": {
+		"name": "default_flare_gun",
+		"header": "0x2277",
+		"include": [],
+		"exclude": []
+	},
+	"default_stealth": {
+		"name": "default_stealth",
+		"header": "0x2278",
+		"include": [],
+		"exclude": []
+	},
+	"default_rocket": {
+		"name": "default_rocket",
+		"header": "0x2279",
+		"include": [],
+		"exclude": []
+	},
+	"default_weapon": {
+		"name": "default_weapon",
+		"header": "0x227a",
+		"include": [],
+		"exclude": []
+	},
+	"default_aid": {
+		"name": "default_aid",
+		"header": "0x227b",
+		"include": [],
+		"exclude": []
+	},
+	"default_star_filled": {
+		"name": "default_star_filled",
+		"header": "0x227c",
+		"include": [],
+		"exclude": []
+	},
+	"default_cryo_mine": {
+		"name": "default_cryo_mine",
+		"header": "0x227d",
+		"include": [],
+		"exclude": []
+	},
+	"default_soup": {
+		"name": "default_soup",
+		"header": "0x227e",
+		"include": [],
+		"exclude": []
+	},
+	"default_plasma_grenade": {
+		"name": "default_plasma_grenade",
+		"header": "0x227f",
+		"include": [],
+		"exclude": []
+	},
+	"default_plasma_pistol": {
+		"name": "default_plasma_pistol",
+		"header": "0x2280",
+		"include": [],
+		"exclude": []
+	},
+	"default_blood": {
+		"name": "default_blood",
+		"header": "0x2281",
+		"include": [],
+		"exclude": []
+	},
+	"default_frost": {
+		"name": "default_frost",
+		"header": "0x2282",
+		"include": [],
+		"exclude": []
+	},
+	"default_gamma_pistol": {
+		"name": "default_gamma_pistol",
+		"header": "0x2283",
+		"include": [],
+		"exclude": []
+	},
+	"default_unarmed": {
+		"name": "default_unarmed",
+		"header": "0x2284",
+		"include": [],
+		"exclude": []
+	},
+	"default_armor": {
+		"name": "default_armor",
+		"header": "0x2285",
+		"include": [],
+		"exclude": []
+	},
+	"default_alchogol": {
+		"name": "default_alchogol",
+		"header": "0x2286",
+		"include": [],
+		"exclude": []
+	},
+	"default_damage_resistance": {
+		"name": "default_damage_resistance",
+		"header": "0x2287",
+		"include": [],
+		"exclude": []
+	},
+	"default_ballistic_ammo": {
+		"name": "default_ballistic_ammo",
+		"header": "0x2288",
+		"include": [],
+		"exclude": []
+	},
+	"default_pulse_grenade": {
+		"name": "default_pulse_grenade",
+		"header": "0x2289",
+		"include": [],
+		"exclude": []
+	},
+	"default_one_handed_melee": {
+		"name": "default_one_handed_melee",
+		"header": "0x228a",
+		"include": [],
+		"exclude": []
+	},
+	"default_laser_rifle": {
+		"name": "default_laser_rifle",
+		"header": "0x228b",
+		"include": [],
+		"exclude": []
+	},
+	"default_shotgun": {
+		"name": "default_shotgun",
+		"header": "0x228c",
+		"include": [],
+		"exclude": []
+	},
+	"default_aim": {
+		"name": "default_aim",
+		"header": "0x228d",
+		"include": [],
+		"exclude": []
+	},
+	"default_energy": {
+		"name": "default_energy",
+		"header": "0x228e",
+		"include": [],
+		"exclude": []
+	},
+	"default_fire": {
+		"name": "default_fire",
+		"header": "0x228f",
+		"include": [],
+		"exclude": []
+	},
+	"default_shishkebab": {
+		"name": "default_shishkebab",
+		"header": "0x2290",
+		"include": [],
+		"exclude": []
+	},
+	"default_railway_rifle": {
+		"name": "default_railway_rifle",
+		"header": "0x2291",
+		"include": [],
+		"exclude": []
+	},
+	"default_mine": {
+		"name": "default_mine",
+		"header": "0x2292",
+		"include": [],
+		"exclude": []
+	},
+	"default_bottlecap_mine": {
+		"name": "default_bottlecap_mine",
+		"header": "0x2293",
+		"include": [],
+		"exclude": []
+	},
+	"default_chems": {
+		"name": "default_chems",
+		"header": "0x2294",
+		"include": [],
+		"exclude": []
+	},
+	"default_nuka_cola": {
+		"name": "default_nuka_cola",
+		"header": "0x2295",
+		"include": [],
+		"exclude": []
+	},
+	"default_workshop": {
+		"name": "default_workshop",
+		"header": "0x2296",
+		"include": [],
+		"exclude": []
+	},
+	"default_flamer_grenade": {
+		"name": "default_flamer_grenade",
+		"header": "0x2297",
+		"include": [],
+		"exclude": []
+	},
+	"default_radiation": {
+		"name": "default_radiation",
+		"header": "0x2298",
+		"include": [],
+		"exclude": []
+	},
+	"default_gatling_laser": {
+		"name": "default_gatling_laser",
+		"header": "0x2299",
+		"include": [],
+		"exclude": []
+	},
+	"default_cryo_grenade": {
+		"name": "default_cryo_grenade",
+		"header": "0x229a",
+		"include": [],
+		"exclude": []
+	},
+	"default_syringer": {
+		"name": "default_syringer",
+		"header": "0x229b",
+		"include": [],
+		"exclude": []
+	},
+	"prosnap_deluxe_camera": {
+		"name": "prosnap_deluxe_camera",
+		"header": "0x229c",
+		"include": [],
+		"exclude": []
+	},
+	"binoculars": {
+		"name": "binoculars",
+		"header": "0x229d",
+		"include": [],
+		"exclude": []
+	},
+	"throwing_knife": {
+		"name": "throwing_knife",
+		"header": "0x229e",
+		"include": [],
+		"exclude": []
+	},
+	"pumpkin_grenade": {
+		"name": "pumpkin_grenade",
+		"header": "0x229f",
+		"include": [],
+		"exclude": []
+	},
+	"bug_grenade": {
+		"name": "bug_grenade",
+		"header": "0x22a0",
+		"include": [],
+		"exclude": []
+	},
+	"meat_clever": {
+		"name": "meat_clever",
+		"header": "0x22a1",
+		"include": [],
+		"exclude": []
+	},
+	"turbo_fert_fertilizer": {
+		"name": "turbo_fert_fertilizer",
+		"header": "0x22a2",
+		"include": [],
+		"exclude": []
+	},
+	"plasma_grenade": {
+		"name": "plasma_grenade",
+		"header": "0x22a3",
+		"include": [],
+		"exclude": []
+	},
+	"floater_flamer_grenade": {
+		"name": "floater_flamer_grenade",
+		"header": "0x22a4",
+		"include": [],
+		"exclude": []
+	},
+	"dross": {
+		"name": "dross",
+		"header": "0x22a5",
+		"include": [],
+		"exclude": []
+	},
+	"trail_fireworks": {
+		"name": "trail_fireworks",
+		"header": "0x22a6",
+		"include": [],
+		"exclude": []
+	},
+	"floater_gnasher_grenade": {
+		"name": "floater_gnasher_grenade",
+		"header": "0x22a7",
+		"include": [],
+		"exclude": []
+	},
+	"tomahawk": {
+		"name": "tomahawk",
+		"header": "0x22a8",
+		"include": [],
+		"exclude": []
+	},
+	"fragmentation_grenade": {
+		"name": "fragmentation_grenade",
+		"header": "0x22a9",
+		"include": [],
+		"exclude": []
+	},
+	"pulse_grenade": {
+		"name": "pulse_grenade",
+		"header": "0x22aa",
+		"include": [],
+		"exclude": []
+	},
+	"vertibot_signal_grenade": {
+		"name": "vertibot_signal_grenade",
+		"header": "0x22ab",
+		"include": [],
+		"exclude": []
+	},
+	"fragmentation_grenade_MIRV": {
+		"name": "fragmentation_grenade_MIRV",
+		"header": "0x22ac",
+		"include": [],
+		"exclude": []
+	},
+	"molotov_cocktail": {
+		"name": "molotov_cocktail",
+		"header": "0x22ad",
+		"include": [],
+		"exclude": []
+	},
+	"flare": {
+		"name": "flare",
+		"header": "0x22ae",
+		"include": [],
+		"exclude": []
+	},
+	"dynamite_bundle": {
+		"name": "dynamite_bundle",
+		"header": "0x22af",
+		"include": [],
+		"exclude": []
+	},
+	"artillery_smoke_grenade": {
+		"name": "artillery_smoke_grenade",
+		"header": "0x22b0",
+		"include": [],
+		"exclude": []
+	},
+	"orbital_strike_beacon": {
+		"name": "orbital_strike_beacon",
+		"header": "0x22b1",
+		"include": [],
+		"exclude": []
+	},
+	"floater_freezer_grenade": {
+		"name": "floater_freezer_grenade",
+		"header": "0x22b2",
+		"include": [],
+		"exclude": []
+	},
+	"dynamite": {
+		"name": "dynamite",
+		"header": "0x22b3",
+		"include": [],
+		"exclude": []
+	},
+	"baseball_grenade": {
+		"name": "baseball_grenade",
+		"header": "0x22b4",
+		"include": [],
+		"exclude": []
+	},
+	"nuka_grenade": {
+		"name": "nuka_grenade",
+		"header": "0x22b5",
+		"include": [],
+		"exclude": []
+	},
+	"explosive_bait": {
+		"name": "explosive_bait",
+		"header": "0x22b6",
+		"include": [],
+		"exclude": []
+	},
+	"cryogenic_grenade": {
+		"name": "cryogenic_grenade",
+		"header": "0x22b7",
+		"include": [],
+		"exclude": []
+	},
+	"fragmentation_mine": {
+		"name": "fragmentation_mine",
+		"header": "0x22b8",
+		"include": [],
+		"exclude": []
+	},
+	"plasma_mine": {
+		"name": "plasma_mine",
+		"header": "0x22b9",
+		"include": [],
+		"exclude": []
+	},
+	"cryo_mine": {
+		"name": "cryo_mine",
+		"header": "0x22ba",
+		"include": [],
+		"exclude": []
+	},
+	"pulse_mine": {
+		"name": "pulse_mine",
+		"header": "0x22bb",
+		"include": [],
+		"exclude": []
+	},
+	"red_fireworks_mine": {
+		"name": "red_fireworks_mine",
+		"header": "0x22bc",
+		"include": [],
+		"exclude": []
+	},
+	"nuka_mine": {
+		"name": "nuka_mine",
+		"header": "0x22bd",
+		"include": [],
+		"exclude": []
+	},
+	"bottlecap_mine": {
+		"name": "bottlecap_mine",
+		"header": "0x22be",
+		"include": [],
+		"exclude": []
+	},
+	"the_dragon": {
+		"name": "the_dragon",
+		"header": "0x22bf",
+		"include": [],
+		"exclude": []
+	},
+	"hunting_rifle": {
+		"name": "hunting_rifle",
+		"header": "0x22c0",
+		"include": [],
+		"exclude": []
+	},
+	"radium_rifle": {
+		"name": "radium_rifle",
+		"header": "0x22c1",
+		"include": [],
+		"exclude": []
+	},
+	"railway_rifle": {
+		"name": "railway_rifle",
+		"header": "0x22c2",
+		"include": [],
+		"exclude": []
+	},
+	"gauss_rifle": {
+		"name": "gauss_rifle",
+		"header": "0x22c3",
+		"include": [],
+		"exclude": []
+	},
+	"syringer": {
+		"name": "syringer",
+		"header": "0x22c4",
+		"include": [],
+		"exclude": []
+	},
+	"alien_disintegrator": {
+		"name": "alien_disintegrator",
+		"header": "0x22c5",
+		"include": [],
+		"exclude": []
+	},
+	"handmade_rifle": {
+		"name": "handmade_rifle",
+		"header": "0x22c6",
+		"include": [],
+		"exclude": []
+	},
+	"ten_mm_submachine_gun": {
+		"name": "ten_mm_submachine_gun",
+		"header": "0x22c7",
+		"include": [],
+		"exclude": []
+	},
+	"tesla_rifle": {
+		"name": "tesla_rifle",
+		"header": "0x22c8",
+		"include": [],
+		"exclude": []
+	},
+	"assault_rifle": {
+		"name": "assault_rifle",
+		"header": "0x22c9",
+		"include": [],
+		"exclude": []
+	},
+	"black_powder_rifle": {
+		"name": "black_powder_rifle",
+		"header": "0x22ca",
+		"include": [],
+		"exclude": []
+	},
+	"combat_rifle": {
+		"name": "combat_rifle",
+		"header": "0x22cb",
+		"include": [],
+		"exclude": []
+	},
+	"the_fixer": {
+		"name": "the_fixer",
+		"header": "0x22cc",
+		"include": [],
+		"exclude": []
+	},
+	"lever_action_rifle": {
+		"name": "lever_action_rifle",
+		"header": "0x22cd",
+		"include": [],
+		"exclude": []
+	},
+	"enclave_plasma_rifle": {
+		"name": "enclave_plasma_rifle",
+		"header": "0x22ce",
+		"include": [],
+		"exclude": []
+	},
+	"submachine_gun": {
+		"name": "submachine_gun",
+		"header": "0x22cf",
+		"include": [],
+		"exclude": []
+	},
+	"western_pistol": {
+		"name": "western_pistol",
+		"header": "0x22d0",
+		"include": [],
+		"exclude": []
+	},
+	"alien_bluster": {
+		"name": "alien_bluster",
+		"header": "0x22d1",
+		"include": [],
+		"exclude": []
+	},
+	"black_powder_pistol": {
+		"name": "black_powder_pistol",
+		"header": "0x22d2",
+		"include": [],
+		"exclude": []
+	},
+	"ten_mm_pistol": {
+		"name": "ten_mm_pistol",
+		"header": "0x22d3",
+		"include": [],
+		"exclude": []
+	},
+	"flare_gun": {
+		"name": "flare_gun",
+		"header": "0x22d4",
+		"include": [],
+		"exclude": []
+	},
+	"gamma_gun": {
+		"name": "gamma_gun",
+		"header": "0x22d5",
+		"include": [],
+		"exclude": []
+	},
+	"single_action_revolver": {
+		"name": "single_action_revolver",
+		"header": "0x22d6",
+		"include": [],
+		"exclude": []
+	},
+	"gauss_pistol": {
+		"name": "gauss_pistol",
+		"header": "0x22d7",
+		"include": [],
+		"exclude": []
+	},
+	"pipe_revolver": {
+		"name": "pipe_revolver",
+		"header": "0x22d8",
+		"include": [],
+		"exclude": []
+	},
+	"fourty_four_pistol": {
+		"name": "fourty_four_pistol",
+		"header": "0x22d9",
+		"include": [],
+		"exclude": []
+	},
+	"laser_gun": {
+		"name": "laser_gun",
+		"header": "0x22da",
+		"include": [],
+		"exclude": []
+	},
+	"assaultron_head": {
+		"name": "assaultron_head",
+		"header": "0x22db",
+		"include": [],
+		"exclude": []
+	},
+	"crusader_pistol": {
+		"name": "crusader_pistol",
+		"header": "0x22dc",
+		"include": [],
+		"exclude": []
+	},
+	"plasma_gun": {
+		"name": "plasma_gun",
+		"header": "0x22dd",
+		"include": [],
+		"exclude": []
+	},
+	"pipe_gun": {
+		"name": "pipe_gun",
+		"header": "0x22de",
+		"include": [],
+		"exclude": []
+	},
+	"pump_action_shotgun": {
+		"name": "pump_action_shotgun",
+		"header": "0x22df",
+		"include": [],
+		"exclude": []
+	},
+	"double_barrel_shotgun": {
+		"name": "double_barrel_shotgun",
+		"header": "0x22e0",
+		"include": [],
+		"exclude": []
+	},
+	"pepper_shaker": {
+		"name": "pepper_shaker",
+		"header": "0x22e1",
+		"include": [],
+		"exclude": []
+	},
+	"gauss_shotgun": {
+		"name": "gauss_shotgun",
+		"header": "0x22e2",
+		"include": [],
+		"exclude": []
+	},
+	"combat_shotgun": {
+		"name": "combat_shotgun",
+		"header": "0x22e3",
+		"include": [],
+		"exclude": []
+	},
+	"harpoon_gun": {
+		"name": "harpoon_gun",
+		"header": "0x22e4",
+		"include": [],
+		"exclude": []
+	},
+	"gatling_laser": {
+		"name": "gatling_laser",
+		"header": "0x22e5",
+		"include": [],
+		"exclude": []
+	},
+	"cryolator": {
+		"name": "cryolator",
+		"header": "0x22e6",
+		"include": [],
+		"exclude": []
+	},
+	"gauss_minigun": {
+		"name": "gauss_minigun",
+		"header": "0x22e7",
+		"include": [],
+		"exclude": []
+	},
+	"minigun": {
+		"name": "minigun",
+		"header": "0x22e8",
+		"include": [],
+		"exclude": []
+	},
+	"gatling_gun": {
+		"name": "gatling_gun",
+		"header": "0x22e9",
+		"include": [],
+		"exclude": []
+	},
+	"light_machine_gun": {
+		"name": "light_machine_gun",
+		"header": "0x22ea",
+		"include": [],
+		"exclude": []
+	},
+	"cremator": {
+		"name": "cremator",
+		"header": "0x22eb",
+		"include": [],
+		"exclude": []
+	},
+	"fifty_cal_machine_gun": {
+		"name": "fifty_cal_machine_gun",
+		"header": "0x22ec",
+		"include": [],
+		"exclude": []
+	},
+	"plasma_caster": {
+		"name": "plasma_caster",
+		"header": "0x22ed",
+		"include": [],
+		"exclude": []
+	},
+	"flamer": {
+		"name": "flamer",
+		"header": "0x22ee",
+		"include": [],
+		"exclude": []
+	},
+	"gatling_plasma": {
+		"name": "gatling_plasma",
+		"header": "0x22ef",
+		"include": [],
+		"exclude": []
+	},
+	"hellstorm_missile_launcher": {
+		"name": "hellstorm_missile_launcher",
+		"header": "0x22f0",
+		"include": [],
+		"exclude": []
+	},
+	"auto_grenade_launcher": {
+		"name": "auto_grenade_launcher",
+		"header": "0x22f1",
+		"include": [],
+		"exclude": []
+	},
+	"missile_launcher": {
+		"name": "missile_launcher",
+		"header": "0x22f2",
+		"include": [],
+		"exclude": []
+	},
+	"thirst_zapper": {
+		"name": "thirst_zapper",
+		"header": "0x22f3",
+		"include": [],
+		"exclude": []
+	},
+	"fat_man": {
+		"name": "fat_man",
+		"header": "0x22f4",
+		"include": [],
+		"exclude": []
+	},
+	"broadsider": {
+		"name": "broadsider",
+		"header": "0x22f5",
+		"include": [],
+		"exclude": []
+	},
+	"m_seventy_nine_grenade_launcher": {
+		"name": "m_seventy_nine_grenade_launcher",
+		"header": "0x22f6",
+		"include": [],
+		"exclude": []
+	},
+	"guitar_sword": {
+		"name": "guitar_sword",
+		"header": "0x22f7",
+		"include": [],
+		"exclude": []
+	},
+	"cattleprod": {
+		"name": "cattleprod",
+		"header": "0x22f8",
+		"include": [],
+		"exclude": []
+	},
+	"hatchet": {
+		"name": "hatchet",
+		"header": "0x22f9",
+		"include": [],
+		"exclude": []
+	},
+	"bowie_knife": {
+		"name": "bowie_knife",
+		"header": "0x22fa",
+		"include": [],
+		"exclude": []
+	},
+	"baton": {
+		"name": "baton",
+		"header": "0x22fb",
+		"include": [],
+		"exclude": []
+	},
+	"commie_whacker": {
+		"name": "commie_whacker",
+		"header": "0x22fc",
+		"include": [],
+		"exclude": []
+	},
+	"cultist_dagger": {
+		"name": "cultist_dagger",
+		"header": "0x22fd",
+		"include": [],
+		"exclude": []
+	},
+	"plasma_cutter": {
+		"name": "plasma_cutter",
+		"header": "0x22fe",
+		"include": [],
+		"exclude": []
+	},
+	"combat_knife": {
+		"name": "combat_knife",
+		"header": "0x22ff",
+		"include": [],
+		"exclude": []
+	},
+	"cultist_blade": {
+		"name": "cultist_blade",
+		"header": "0x2300",
+		"include": [],
+		"exclude": []
+	},
+	"revolutionary_sword": {
+		"name": "revolutionary_sword",
+		"header": "0x2301",
+		"include": [],
+		"exclude": []
+	},
+	"machete": {
+		"name": "machete",
+		"header": "0x2302",
+		"include": [],
+		"exclude": []
+	},
+	"meteoritic_sword": {
+		"name": "meteoritic_sword",
+		"header": "0x2303",
+		"include": [],
+		"exclude": []
+	},
+	"shishkebab": {
+		"name": "shishkebab",
+		"header": "0x2304",
+		"include": [],
+		"exclude": []
+	},
+	"switchblade": {
+		"name": "switchblade",
+		"header": "0x2305",
+		"include": [],
+		"exclude": []
+	},
+	"rolling_pin": {
+		"name": "rolling_pin",
+		"header": "0x2306",
+		"include": [],
+		"exclude": []
+	},
+	"assaultron_blade": {
+		"name": "assaultron_blade",
+		"header": "0x2307",
+		"include": [],
+		"exclude": []
+	},
+	"ripper": {
+		"name": "ripper",
+		"header": "0x2308",
+		"include": [],
+		"exclude": []
+	},
+	"tire_iron": {
+		"name": "tire_iron",
+		"header": "0x2309",
+		"include": [],
+		"exclude": []
+	},
+	"paddle_ball": {
+		"name": "paddle_ball",
+		"header": "0x230a",
+		"include": [],
+		"exclude": []
+	},
+	"sheepsquatch_club": {
+		"name": "sheepsquatch_club",
+		"header": "0x230b",
+		"include": [],
+		"exclude": []
+	},
+	"chinese_officer_sword": {
+		"name": "chinese_officer_sword",
+		"header": "0x230c",
+		"include": [],
+		"exclude": []
+	},
+	"lead_pipe": {
+		"name": "lead_pipe",
+		"header": "0x230d",
+		"include": [],
+		"exclude": []
+	},
+	"sickle": {
+		"name": "sickle",
+		"header": "0x230e",
+		"include": [],
+		"exclude": []
+	},
+	"walking_cane": {
+		"name": "walking_cane",
+		"header": "0x230f",
+		"include": [],
+		"exclude": []
+	},
+	"drill": {
+		"name": "drill",
+		"header": "0x2310",
+		"include": [],
+		"exclude": []
+	},
+	"ski_sword": {
+		"name": "ski_sword",
+		"header": "0x2311",
+		"include": [],
+		"exclude": []
+	},
+	"bone_club": {
+		"name": "bone_club",
+		"header": "0x2312",
+		"include": [],
+		"exclude": []
+	},
+	"pipe_wrench": {
+		"name": "pipe_wrench",
+		"header": "0x2313",
+		"include": [],
+		"exclude": []
+	},
+	"sheepsquatch_staff": {
+		"name": "sheepsquatch_staff",
+		"header": "0x2314",
+		"include": [],
+		"exclude": []
+	},
+	"protest_sign": {
+		"name": "protest_sign",
+		"header": "0x2315",
+		"include": [],
+		"exclude": []
+	},
+	"pool_cue": {
+		"name": "pool_cue",
+		"header": "0x2316",
+		"include": [],
+		"exclude": []
+	},
+	"multi_purpose_axe": {
+		"name": "multi_purpose_axe",
+		"header": "0x2317",
+		"include": [],
+		"exclude": []
+	},
+	"electro_enforcer": {
+		"name": "electro_enforcer",
+		"header": "0x2318",
+		"include": [],
+		"exclude": []
+	},
+	"chainsaw": {
+		"name": "chainsaw",
+		"header": "0x2319",
+		"include": [],
+		"exclude": []
+	},
+	"bone_hammer": {
+		"name": "bone_hammer",
+		"header": "0x231a",
+		"include": [],
+		"exclude": []
+	},
+	"war_drum": {
+		"name": "war_drum",
+		"header": "0x231b",
+		"include": [],
+		"exclude": []
+	},
+	"auto_axe": {
+		"name": "auto_axe",
+		"header": "0x231c",
+		"include": [],
+		"exclude": []
+	},
+	"super_sledge": {
+		"name": "super_sledge",
+		"header": "0x231d",
+		"include": [],
+		"exclude": []
+	},
+	"gulper_smacker": {
+		"name": "gulper_smacker",
+		"header": "0x231e",
+		"include": [],
+		"exclude": []
+	},
+	"sledgehammer": {
+		"name": "sledgehammer",
+		"header": "0x231f",
+		"include": [],
+		"exclude": []
+	},
+	"baseball_bat": {
+		"name": "baseball_bat",
+		"header": "0x2320",
+		"include": [],
+		"exclude": []
+	},
+	"the_tenderizer": {
+		"name": "the_tenderizer",
+		"header": "0x2321",
+		"include": [],
+		"exclude": []
+	},
+	"shepherds_crook": {
+		"name": "shepherds_crook",
+		"header": "0x2322",
+		"include": [],
+		"exclude": []
+	},
+	"spear": {
+		"name": "spear",
+		"header": "0x2323",
+		"include": [],
+		"exclude": []
+	},
+	"shovel": {
+		"name": "shovel",
+		"header": "0x2324",
+		"include": [],
+		"exclude": []
+	},
+	"war_glaive": {
+		"name": "war_glaive",
+		"header": "0x2325",
+		"include": [],
+		"exclude": []
+	},
+	"fire_axe": {
+		"name": "fire_axe",
+		"header": "0x2326",
+		"include": [],
+		"exclude": []
+	},
+	"board": {
+		"name": "board",
+		"header": "0x2327",
+		"include": [],
+		"exclude": []
+	},
+	"groknaks_axe": {
+		"name": "groknaks_axe",
+		"header": "0x2328",
+		"include": [],
+		"exclude": []
+	},
+	"mr_handy_buzz_blade": {
+		"name": "mr_handy_buzz_blade",
+		"header": "0x2329",
+		"include": [],
+		"exclude": []
+	},
+	"golf_club": {
+		"name": "golf_club",
+		"header": "0x232a",
+		"include": [],
+		"exclude": []
+	},
+	"gauntlet": {
+		"name": "gauntlet",
+		"header": "0x232b",
+		"include": [],
+		"exclude": []
+	},
+	"knuckles": {
+		"name": "knuckles",
+		"header": "0x232c",
+		"include": [],
+		"exclude": []
+	},
+	"power_fist": {
+		"name": "power_fist",
+		"header": "0x232d",
+		"include": [],
+		"exclude": []
+	},
+	"meet_hook": {
+		"name": "meet_hook",
+		"header": "0x232e",
+		"include": [],
+		"exclude": []
+	},
+	"mole_miner_gauntlet": {
+		"name": "mole_miner_gauntlet",
+		"header": "0x232f",
+		"include": [],
+		"exclude": []
+	},
+	"deathclaw_gauntlet": {
+		"name": "deathclaw_gauntlet",
+		"header": "0x2330",
+		"include": [],
+		"exclude": []
+	},
+	"boxing_glove": {
+		"name": "boxing_glove",
+		"header": "0x2331",
+		"include": [],
+		"exclude": []
+	},
+	"bear_arm": {
+		"name": "bear_arm",
+		"header": "0x2332",
+		"include": [],
+		"exclude": []
+	},
+	"death_tambo": {
+		"name": "death_tambo",
+		"header": "0x2333",
+		"include": [],
+		"exclude": []
+	},
+	"t_forty_five": {
+		"name": "t_forty_five",
+		"header": "0x2334",
+		"include": [],
+		"exclude": []
+	},
+	"strangler_heart": {
+		"name": "strangler_heart",
+		"header": "0x2335",
+		"include": [],
+		"exclude": []
+	},
+	"t_sixty_five": {
+		"name": "t_sixty_five",
+		"header": "0x2336",
+		"include": [],
+		"exclude": []
+	},
+	"t_fifty_one": {
+		"name": "t_fifty_one",
+		"header": "0x2337",
+		"include": [],
+		"exclude": []
+	},
+	"excavator": {
+		"name": "excavator",
+		"header": "0x2338",
+		"include": [],
+		"exclude": []
+	},
+	"hellcat": {
+		"name": "hellcat",
+		"header": "0x2339",
+		"include": [],
+		"exclude": []
+	},
+	"pa_frame": {
+		"name": "pa_frame",
+		"header": "0x233a",
+		"include": [],
+		"exclude": []
+	},
+	"union": {
+		"name": "union",
+		"header": "0x233b",
+		"include": [],
+		"exclude": []
+	},
+	"x_zero_one": {
+		"name": "x_zero_one",
+		"header": "0x233c",
+		"include": [],
+		"exclude": []
+	},
+	"raider": {
+		"name": "raider",
+		"header": "0x233d",
+		"include": [],
+		"exclude": []
+	},
+	"ultracite": {
+		"name": "ultracite",
+		"header": "0x233e",
+		"include": [],
+		"exclude": []
+	},
+	"t_sixty": {
+		"name": "t_sixty",
+		"header": "0x233f",
+		"include": [],
+		"exclude": []
+	}
+}
