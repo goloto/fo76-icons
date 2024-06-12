@@ -1,5 +1,5 @@
-import { ICONS_DIRECTORY, getCharFromHexadecimal, readInfoFile } from "../common";
-import type { IconInfo } from "../types";
+import { readInfoFile } from "../reading";
+import { getCharFromHexadecimal } from "../common";
 
 const FILE_HEADER = `#Do Not Edit
 [version=3]

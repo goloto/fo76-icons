@@ -4,6 +4,8 @@
   "scripts": {
     "icons-cleanup": "bun run ./utils/icons-cleanup.ts",
     "build": "bun run ./utils/builders/all.ts",
+    "build-dirs-order": "bun run ./utils/builders/dirs-order.ts",
+    "build-items-order": "bun run ./utils/builders/items-order.ts",
     "build-info": "bun run ./utils/builders/info.ts",
     "build-headers": "bun run ./utils/builders/headers.ts",
     "build-font-config": "bun run ./utils/builders/font-config.ts",

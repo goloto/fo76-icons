@@ -1,6 +1,4 @@
-export type Info = Record<string, IconInfo>;
-
-export interface IconInfo {
+export interface Info {
   name: string;
   header?: string;
   include?: string[];
@@ -9,3 +7,13 @@ export interface IconInfo {
   isFullReplaced?: boolean;
   isFallback?: boolean;
 }
+
+export type InfoMap = Record<string, Info>;
+
+interface Directory {
+  name: string;
+  order: number;
+  isDeleted: boolean;
+}
+
+export type DirectoryOrderMap = Record<string, Directory>;

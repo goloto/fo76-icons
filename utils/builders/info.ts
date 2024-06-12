@@ -1,7 +1,10 @@
 import { readdir } from "node:fs/promises";
-import { ICONS_DIRECTORY, getNumFromHexadecimal, getSafeFileName, readInfoFile, readOrderFile } from "../common";
-import type { Info } from "../types";
+import { readInfoFile } from "../reading";
+import { ICONS_DIRECTORY } from "../const";
+import type { InfoMap } from "../types";
 import { ICONS_ORDER } from "../const";
+import { getNumFromHexadecimal, getSafeFileName } from "../common";
+import { writeJson } from "../writing";
 
 const HEADER_GENERATOR = (function* () {
   let start = getNumFromHexadecimal('2265');
@@ -19,7 +22,7 @@ export const buildInfo = async () => {
 
   for (const iconDir of ICONS_ORDER) {
     const files = await readdir(`${ICONS_DIRECTORY}/${iconDir}`);
-    const newInfo: Info = files.reduce((accumulator, fileName) => {
+    const newInfo: InfoMap = files.reduce((accumulator, fileName) => {
       if (!fileName.includes('.svg')) {
         return accumulator;
       }
@@ -40,12 +43,12 @@ export const buildInfo = async () => {
         ...accumulator,
         [iconName]: createDefaultInfo(iconName),
       }
-    }, <Info>{});
+    }, <InfoMap>{});
   
     concatenatedInfo = {...concatenatedInfo, ...newInfo};
   };
 
-  await Bun.write(`${ICONS_DIRECTORY}/info.json`, JSON.stringify(concatenatedInfo, null, '\t'));
+  await writeJson(`${ICONS_DIRECTORY}/info.json`, concatenatedInfo);
 };
 
 

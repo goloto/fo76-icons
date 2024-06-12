@@ -1,5 +1,7 @@
 import { readdir } from "node:fs/promises";
-import { ICONS_DIRECTORY, getCharFromHexadecimal, isIconInfoArray, readInfoFile } from "../common";
+import { readInfoFile } from "../reading";
+import { ICONS_DIRECTORY } from "../const";
+import { getCharFromHexadecimal, isIconInfoArray } from "../common";
 
 const FONT_CONFIG_TEMPLATE = `fontlib "fonts_ru"
 map "$76HandwrittenIlliterate" = "HandwrittenIlliterate" Normal

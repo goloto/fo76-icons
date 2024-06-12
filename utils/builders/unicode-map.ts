@@ -1,4 +1,4 @@
-import { readInfoFile, readUnicodeMapFile } from "../common";
+import { readInfoFile, readUnicodeMapFile } from "../reading";
 
 const TEMPLATE_LINK = '%custom-names%';
 
