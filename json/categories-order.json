@@ -1,0 +1,52 @@
+{
+	"notes": {
+		"name": "notes",
+		"order": 0,
+		"isDeleted": false
+	},
+	"ammo": {
+		"name": "ammo",
+		"order": 1,
+		"isDeleted": false
+	},
+	"weapons": {
+		"name": "weapons",
+		"order": 2,
+		"isDeleted": false
+	},
+	"aid": {
+		"name": "aid",
+		"order": 3,
+		"isDeleted": false
+	},
+	"armor": {
+		"name": "armor",
+		"order": 4,
+		"isDeleted": false
+	},
+	"food": {
+		"name": "food",
+		"order": 5,
+		"isDeleted": false
+	},
+	"apparel": {
+		"name": "apparel",
+		"order": 6,
+		"isDeleted": false
+	},
+	"misc": {
+		"name": "misc",
+		"order": 7,
+		"isDeleted": false
+	},
+	"modifications": {
+		"name": "modifications",
+		"order": 8,
+		"isDeleted": false
+	},
+	"junk": {
+		"name": "junk",
+		"order": 9,
+		"isDeleted": false
+	}
+}

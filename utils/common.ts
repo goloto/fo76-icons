@@ -19,3 +19,20 @@ export const getSafeFileName = (filePath: string): string => {
 
   return safeFilePath.reverse().join('');
 }
+
+export const filterRecursiveDirs = (item: string) => {
+  const splittedDirs = item.split('/');
+  const result = splittedDirs.reduce((accumulator, item) => {
+    if (accumulator === false) {
+      return accumulator;
+    }
+
+    if (item[0] === '.') {
+      return false;
+    }
+
+    return true;
+  }, true);
+
+  return result;
+}

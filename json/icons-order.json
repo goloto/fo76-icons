@@ -1,0 +1,147 @@
+[
+	{
+		"name": "note",
+		"order": 0,
+		"isDeleted": false
+	},
+	{
+		"name": "plan",
+		"order": 1,
+		"isDeleted": false
+	},
+	{
+		"name": "ballistic_ammo",
+		"order": 2,
+		"isDeleted": false
+	},
+	{
+		"name": "rocket",
+		"order": 3,
+		"isDeleted": false
+	},
+	{
+		"name": "grenade",
+		"order": 4,
+		"isDeleted": false
+	},
+	{
+		"name": "one_handed_melee",
+		"order": 5,
+		"isDeleted": false
+	},
+	{
+		"name": "mine",
+		"order": 6,
+		"isDeleted": false
+	},
+	{
+		"name": "unarmed",
+		"order": 7,
+		"isDeleted": false
+	},
+	{
+		"name": "two_handed_melee",
+		"order": 8,
+		"isDeleted": false
+	},
+	{
+		"name": "weapon",
+		"order": 9,
+		"isDeleted": false
+	},
+	{
+		"name": "doctors_bag",
+		"order": 10,
+		"isDeleted": false
+	},
+	{
+		"name": "chems",
+		"order": 11,
+		"isDeleted": false
+	},
+	{
+		"name": "stimpack",
+		"order": 12,
+		"isDeleted": false
+	},
+	{
+		"name": "helmet",
+		"order": 13,
+		"isDeleted": false
+	},
+	{
+		"name": "chest_armor",
+		"order": 14,
+		"isDeleted": false
+	},
+	{
+		"name": "bottle_of_wine",
+		"order": 15,
+		"isDeleted": false
+	},
+	{
+		"name": "corn",
+		"order": 16,
+		"isDeleted": false
+	},
+	{
+		"name": "cake",
+		"order": 17,
+		"isDeleted": false
+	},
+	{
+		"name": "bottle_of_water",
+		"order": 18,
+		"isDeleted": false
+	},
+	{
+		"name": "soup",
+		"order": 19,
+		"isDeleted": false
+	},
+	{
+		"name": "berry",
+		"order": 20,
+		"isDeleted": false
+	},
+	{
+		"name": "tea",
+		"order": 21,
+		"isDeleted": false
+	},
+	{
+		"name": "leaf",
+		"order": 22,
+		"isDeleted": false
+	},
+	{
+		"name": "raw_meat",
+		"order": 23,
+		"isDeleted": false
+	},
+	{
+		"name": "apparel",
+		"order": 24,
+		"isDeleted": false
+	},
+	{
+		"name": "opened_box",
+		"order": 25,
+		"isDeleted": false
+	},
+	{
+		"name": "key",
+		"order": 26,
+		"isDeleted": false
+	},
+	{
+		"name": "quest",
+		"order": 27,
+		"isDeleted": false
+	},
+	{
+		"name": "junk",
+		"order": 28,
+		"isDeleted": false
+	}
+]

@@ -10,10 +10,10 @@ export interface Info {
 
 export type InfoMap = Record<string, Info>;
 
-interface Directory {
+export interface ItemOrder {
   name: string;
   order: number;
   isDeleted: boolean;
 }
 
-export type DirectoryOrderMap = Record<string, Directory>;
+export type ItemOrderMap = Record<string, ItemOrder>;
