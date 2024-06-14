@@ -1,6 +1,6 @@
 import { buildCategoryOrder } from "./categories-order";
 import { buildIconsOrder } from "./icons-order";
-import { buildInfo } from "./info";
+import { buildIconRules } from "./icons-rules";
 import { buildHeaders } from "./headers";
 import { buildFontConfig } from "./font-config";
 import { buildUnicodeMap } from "./unicode-map";
@@ -8,7 +8,7 @@ import { buildUnicodeMap } from "./unicode-map";
 const buildAll = async () => {
   await buildCategoryOrder();
   await buildIconsOrder();
-  await buildInfo();
+  await buildIconRules();
   await buildHeaders();
   await buildFontConfig();
   await buildUnicodeMap();

@@ -1,4 +1,4 @@
-import { readInfoFile } from "../reading";
+import { readIconRulesFile } from "../reading";
 import { getCharFromHexadecimal } from "../common";
 
 const FILE_HEADER = `#Do Not Edit
@@ -25,7 +25,7 @@ const RULE_TEMPLATE = `[StartRule]
 [EndRule]`;
 
 export const buildHeaders = async () => {
-  const info = await readInfoFile();
+  const info = await readIconRulesFile();
   const result = Object.entries(info).reduce((accumulator: string, [key, item]) => {
     const {header, include} = item;
     const ruleWithHeader = RULE_TEMPLATE.replace('$', getCharFromHexadecimal(header));

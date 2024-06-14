@@ -1,6 +1,6 @@
-import type { Info } from "./types";
+import type { IconRule } from "./types";
 
-export const isIconInfoArray = (input: any): input is Info[] => Array.isArray(input);
+export const isIconInfoArray = (input: any): input is IconRule[] => Array.isArray(input);
 
 export const getNumFromHexadecimal = (str: string): number => Number.parseInt(str, 16);
 

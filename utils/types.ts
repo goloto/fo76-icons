@@ -1,5 +1,6 @@
-export interface Info {
+export interface IconRule {
   name: string;
+  isDeleted: boolean;
   header?: string;
   include?: string[];
   exclude?: string[];
@@ -8,7 +9,7 @@ export interface Info {
   isFallback?: boolean;
 }
 
-export type InfoMap = Record<string, Info>;
+export type IconRuleMap = Record<string, IconRule>;
 
 export interface ItemOrder {
   name: string;

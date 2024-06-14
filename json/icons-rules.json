@@ -1,0 +1,205 @@
+[
+	{
+		"name": "note",
+		"isDeleted": false,
+		"header": "0x2266",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "plan",
+		"isDeleted": false,
+		"header": "0x2267",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "ballistic_ammo",
+		"isDeleted": false,
+		"header": "0x2268",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "rocket",
+		"isDeleted": false,
+		"header": "0x2269",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "grenade",
+		"isDeleted": false,
+		"header": "0x226a",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "one_handed_melee",
+		"isDeleted": false,
+		"header": "0x226b",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "mine",
+		"isDeleted": false,
+		"header": "0x226c",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "unarmed",
+		"isDeleted": false,
+		"header": "0x226d",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "two_handed_melee",
+		"isDeleted": false,
+		"header": "0x226e",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "weapon",
+		"isDeleted": false,
+		"header": "0x226f",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "doctors_bag",
+		"isDeleted": false,
+		"header": "0x2270",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "chems",
+		"isDeleted": false,
+		"header": "0x2271",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "stimpack",
+		"isDeleted": false,
+		"header": "0x2272",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "helmet",
+		"isDeleted": false,
+		"header": "0x2273",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "chest_armor",
+		"isDeleted": false,
+		"header": "0x2274",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "bottle_of_wine",
+		"isDeleted": false,
+		"header": "0x2275",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "corn",
+		"isDeleted": false,
+		"header": "0x2276",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "cake",
+		"isDeleted": false,
+		"header": "0x2277",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "bottle_of_water",
+		"isDeleted": false,
+		"header": "0x2278",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "soup",
+		"isDeleted": false,
+		"header": "0x2279",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "berry",
+		"isDeleted": false,
+		"header": "0x227a",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "tea",
+		"isDeleted": false,
+		"header": "0x227b",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "leaf",
+		"isDeleted": false,
+		"header": "0x227c",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "raw_meat",
+		"isDeleted": false,
+		"header": "0x227d",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "apparel",
+		"isDeleted": false,
+		"header": "0x227e",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "opened_box",
+		"isDeleted": false,
+		"header": "0x227f",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "key",
+		"isDeleted": false,
+		"header": "0x2280",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "quest",
+		"isDeleted": false,
+		"header": "0x2281",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"name": "junk",
+		"isDeleted": false,
+		"header": "0x2282",
+		"include": [],
+		"exclude": []
+	}
+]

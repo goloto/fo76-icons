@@ -1,5 +1,5 @@
 import { readdir } from "node:fs/promises";
-import { readInfoFile } from "../reading";
+import { readIconRulesFile } from "../reading";
 import { ICONS_DIRECTORY } from "../const";
 import { getCharFromHexadecimal, isIconInfoArray } from "../common";
 
@@ -41,7 +41,7 @@ export const buildFontConfig = async () => {
       continue;
     }
 
-    const info = await readInfoFile();
+    const info = await readIconRulesFile();
 
     if (!isIconInfoArray(info)) {
       continue;
