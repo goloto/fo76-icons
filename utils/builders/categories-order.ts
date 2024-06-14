@@ -1,7 +1,7 @@
 import { readdir } from "node:fs/promises";
 import { ICONS_DIRECTORY, JSON_DIRECTORY } from "../const";
-import { readCategoriesOrderFile } from "../reading";
-import { writeJson } from "../writing";
+import { readCategoriesOrderFile } from "../file-reading";
+import { writeJson } from "../file-writing";
 
 export const buildCategoryOrder = async () => {
   const directories = await readdir(`${ICONS_DIRECTORY}`);

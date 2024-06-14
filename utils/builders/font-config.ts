@@ -1,5 +1,5 @@
 import { readdir } from "node:fs/promises";
-import { readIconRulesFile } from "../reading";
+import { readIconRulesFile } from "../file-reading";
 import { ICONS_DIRECTORY } from "../const";
 import { getCharFromHexadecimal, isIconInfoArray } from "../common";
 

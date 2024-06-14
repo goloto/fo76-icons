@@ -1,7 +1,7 @@
 import { buildCategoryOrder } from "./categories-order";
 import { buildIconsOrder } from "./icons-order";
 import { buildIconRules } from "./icons-rules";
-import { buildHeaders } from "./headers";
+import { buildHeaders } from "./icons-headers";
 import { buildFontConfig } from "./font-config";
 import { buildUnicodeMap } from "./unicode-map";
 

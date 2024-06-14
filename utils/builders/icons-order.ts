@@ -1,8 +1,8 @@
 import { ICONS_DIRECTORY, JSON_DIRECTORY } from "../const";
-import { readCategoriesOrderFile, readIconsOrderFile } from "../reading";
+import { readCategoriesOrderFile, readIconsOrderFile } from "../file-reading";
 import { readdir } from "node:fs/promises";
 import type { ItemOrder } from "../types";
-import { writeJson } from "../writing";
+import { writeJson } from "../file-writing";
 import { filterRecursiveDirs } from "../common";
 
 export const buildIconsOrder = async () => {

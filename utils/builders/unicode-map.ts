@@ -1,4 +1,4 @@
-import { readIconRulesFile, readUnicodeMapFile } from "../reading";
+import { readIconRulesFile, readUnicodeMapFile } from "../file-reading";
 
 const TEMPLATE_LINK = '%custom-names%';
 

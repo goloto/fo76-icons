@@ -1,8 +1,8 @@
-import { readIconRulesFile, readIconsOrderFile } from "../reading";
+import { readIconRulesFile, readIconsOrderFile } from "../file-reading";
 import { JSON_DIRECTORY } from "../const";
 import type { IconRule, IconRuleMap } from "../types";
 import { getNumFromHexadecimal } from "../common";
-import { writeJson } from "../writing";
+import { writeJson } from "../file-writing";
 
 export const buildIconRules = async () => {
   const iconRules = await readIconRulesFile();
