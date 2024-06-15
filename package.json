@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "icons-cleanup": "bun run ./utils/icons-cleanup.ts",
-    "build": "bun run ./utils/builders/all.ts",
+    "build-all": "bun run ./utils/builders/all.ts",
     "build-categories-order": "bun run ./utils/builders/categories-order.ts",
     "build-icons-order": "bun run ./utils/builders/icons-order.ts",
     "build-icons-rules": "bun run ./utils/builders/icons-rules.ts",
