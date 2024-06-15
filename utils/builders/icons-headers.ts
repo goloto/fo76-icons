@@ -7,6 +7,8 @@ const INCLUDE_ANCHOR = '%include%';
 const EXCLUDE_ANCHOR = '%exclude%';
 const RIGHT_SIGNATURE_ANCHOR = '%right-signature%';
 const LEFT_SIGNATURE_ANCHOR = '%left-signature%';
+const IS_ANY_KEYWORD_ANCHOR = '%any-keyword%';
+const IS_INCLUSIVE_OR_ANCHOR = '%inclusive-or%';
 const FILE_HEADER = `#Do Not Edit
 [version=3]
 [StartHeader]
@@ -20,11 +22,11 @@ const RULE_TEMPLATE = `[StartRule]
  enabled=-1
  tagID=default
  noKW=0
- anyKW=0
+ anyKW=${IS_ANY_KEYWORD_ANCHOR}
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=${IS_INCLUSIVE_OR_ANCHOR}
  isFallBack=0
  fallbackBank=0
  ${INCLUDE_ANCHOR}
@@ -40,6 +42,8 @@ export const buildHeaders = async () => {
         header, 
         rightSignature, 
         leftSignature, 
+        isAnyKeyword,
+        isInclusiveOr,
         include, 
         exclude
       } = item;
@@ -47,6 +51,8 @@ export const buildHeaders = async () => {
         .replace(HEADER_ANCHOR, getCharFromHexadecimal(header))
         .replace(RIGHT_SIGNATURE_ANCHOR, rightSignature)
         .replace(LEFT_SIGNATURE_ANCHOR, leftSignature)
+        .replace(IS_ANY_KEYWORD_ANCHOR, replaceBoolean(isAnyKeyword))
+        .replace(IS_INCLUSIVE_OR_ANCHOR, replaceBoolean(isInclusiveOr))
         .replace(INCLUDE_ANCHOR, concatenateInclude(include))
         .replace(EXCLUDE_ANCHOR, concatenateExclude(exclude));
 
@@ -75,5 +81,7 @@ const concatenateRules = (rule: string, array?: string[]): string => {
     return `${accumulator}${newLine}${rule}_${index}=${includeItem}`;
   }, '');
 }
+
+const replaceBoolean = (flag: boolean) => flag ? '-1': '0';
 
 await buildHeaders();

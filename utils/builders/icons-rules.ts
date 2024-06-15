@@ -54,6 +54,7 @@ const createDefaultInfo = (item: IconOrder): IconRule => ({
   leftSignature: ICONS_CATEGORY_SIGNATURE_MAP[item.category],
   isDeleted: false,
   isAnyKeyword: false,
+  isInclusiveOr: false,
   header: generateIconHeader(),
   include: [],
   exclude: [],

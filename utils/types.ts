@@ -6,6 +6,7 @@ export interface IconRule {
   rightSignature: RightSignature;
   isDeleted: boolean;
   isAnyKeyword: boolean;
+  isInclusiveOr: boolean;
   header?: string;
   include?: string[];
   exclude?: string[];
