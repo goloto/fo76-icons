@@ -10,7 +10,7 @@
 			"ekwd|ObjectTypeRecipe",
 			"ekwd|MagazineKeyword"
 		],
-		"isAnyKeyword": true,
+		"isAnyKeyword": false,
 		"isInclusiveOr": false
 	},
 	{
@@ -220,7 +220,7 @@
 		"exclude": [
 			"ekwd|ObjectTypeStimpak"
 		],
-		"isAnyKeyword": true,
+		"isAnyKeyword": false,
 		"isInclusiveOr": false
 	},
 	{

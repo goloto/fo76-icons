@@ -12,7 +12,7 @@
  enabled=-1
  tagID=default
  noKW=0
- anyKW=-1
+ anyKW=0
  hasCompo=0
  preProcess=0
  fullReplace=0
@@ -295,7 +295,7 @@
  enabled=-1
  tagID=default
  noKW=0
- anyKW=-1
+ anyKW=0
  hasCompo=0
  preProcess=0
  fullReplace=0
@@ -376,7 +376,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=ekwd|IngredientTypeMoldy
  Exclude_0=
 [EndRule]
 
