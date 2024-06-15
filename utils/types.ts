@@ -1,5 +1,9 @@
+import type { LeftSignature, RightSignature } from "./const";
+
 export interface IconRule {
   name: string;
+  rightSignature: RightSignature;
+  leftSignature: LeftSignature;
   isDeleted: boolean;
   header?: string;
   include?: string[];
@@ -11,10 +15,16 @@ export interface IconRule {
 
 export type IconRuleMap = Record<string, IconRule>;
 
-export interface ItemOrder {
+export interface CategoryOrder {
   name: string;
   order: number;
   isDeleted: boolean;
 }
 
-export type ItemOrderMap = Record<string, ItemOrder>;
+export type CategoryOrderMap = Record<string, CategoryOrder>;
+
+export interface IconOrder extends CategoryOrder {
+  category: string;
+}
+
+export type IconOrderMap = Record<string, IconOrder>;

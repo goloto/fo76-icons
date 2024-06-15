@@ -2,146 +2,175 @@
 	{
 		"name": "note",
 		"order": 0,
+		"category": "notes",
 		"isDeleted": false
 	},
 	{
 		"name": "plan",
 		"order": 1,
+		"category": "notes",
 		"isDeleted": false
 	},
 	{
 		"name": "ballistic_ammo",
 		"order": 2,
+		"category": "ammo",
 		"isDeleted": false
 	},
 	{
 		"name": "rocket",
 		"order": 3,
+		"category": "ammo",
 		"isDeleted": false
 	},
 	{
 		"name": "grenade",
 		"order": 4,
+		"category": "weapons",
 		"isDeleted": false
 	},
 	{
 		"name": "one_handed_melee",
 		"order": 5,
+		"category": "weapons",
 		"isDeleted": false
 	},
 	{
 		"name": "mine",
 		"order": 6,
+		"category": "weapons",
 		"isDeleted": false
 	},
 	{
 		"name": "unarmed",
 		"order": 7,
+		"category": "weapons",
 		"isDeleted": false
 	},
 	{
 		"name": "two_handed_melee",
 		"order": 8,
+		"category": "weapons",
 		"isDeleted": false
 	},
 	{
 		"name": "weapon",
 		"order": 9,
+		"category": "weapons",
 		"isDeleted": false
 	},
 	{
 		"name": "doctors_bag",
 		"order": 10,
+		"category": "aid",
 		"isDeleted": false
 	},
 	{
 		"name": "chems",
 		"order": 11,
+		"category": "aid",
 		"isDeleted": false
 	},
 	{
 		"name": "stimpack",
 		"order": 12,
+		"category": "aid",
 		"isDeleted": false
 	},
 	{
 		"name": "helmet",
 		"order": 13,
+		"category": "armor",
 		"isDeleted": false
 	},
 	{
 		"name": "chest_armor",
 		"order": 14,
+		"category": "armor",
 		"isDeleted": false
 	},
 	{
 		"name": "bottle_of_wine",
 		"order": 15,
+		"category": "food",
 		"isDeleted": false
 	},
 	{
 		"name": "corn",
 		"order": 16,
+		"category": "food",
 		"isDeleted": false
 	},
 	{
 		"name": "cake",
 		"order": 17,
+		"category": "food",
 		"isDeleted": false
 	},
 	{
 		"name": "bottle_of_water",
 		"order": 18,
+		"category": "food",
 		"isDeleted": false
 	},
 	{
 		"name": "soup",
 		"order": 19,
+		"category": "food",
 		"isDeleted": false
 	},
 	{
 		"name": "berry",
 		"order": 20,
+		"category": "food",
 		"isDeleted": false
 	},
 	{
 		"name": "tea",
 		"order": 21,
+		"category": "food",
 		"isDeleted": false
 	},
 	{
 		"name": "leaf",
 		"order": 22,
+		"category": "food",
 		"isDeleted": false
 	},
 	{
 		"name": "raw_meat",
 		"order": 23,
+		"category": "food",
 		"isDeleted": false
 	},
 	{
 		"name": "apparel",
 		"order": 24,
+		"category": "apparel",
 		"isDeleted": false
 	},
 	{
 		"name": "opened_box",
 		"order": 25,
+		"category": "misc",
 		"isDeleted": false
 	},
 	{
 		"name": "key",
 		"order": 26,
+		"category": "misc",
 		"isDeleted": false
 	},
 	{
 		"name": "quest",
 		"order": 27,
+		"category": "misc",
 		"isDeleted": false
 	},
 	{
 		"name": "junk",
 		"order": 28,
+		"category": "junk",
 		"isDeleted": false
 	}
 ]

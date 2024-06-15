@@ -1,7 +1,7 @@
 import { ICONS_DIRECTORY, JSON_DIRECTORY } from "../const";
 import { readCategoriesOrderFile, readIconsOrderFile } from "../file-reading";
 import { readdir } from "node:fs/promises";
-import type { ItemOrder } from "../types";
+import type { IconOrder } from "../types";
 import { writeJson } from "../file-writing";
 import { filterRecursiveDirs } from "../common";
 
@@ -12,7 +12,7 @@ export const buildIconsOrder = async () => {
     .filter((item) => !item.isDeleted)
     .sort((itemA, itemB) => itemA.order - itemB.order);
   const itemsOrder = await sortedCategoriesOrder
-    .reduce<Promise<ItemOrder[]>>(async (accumulator, dir) => {
+    .reduce<Promise<IconOrder[]>>(async (accumulator, dir) => {
       const awaitedAccumulator = await accumulator;
       const dirIcons = await readdir(`${ICONS_DIRECTORY}/${dir.name}`);
       const filteredDirIcons = dirIcons
@@ -26,14 +26,15 @@ export const buildIconsOrder = async () => {
         .map((item, index) => ({
           name: item.name,
           order: awaitedAccumulator.length + index,
+          category: dir.name,
           isDeleted: false,
         }));
 
-    return [
-      ...awaitedAccumulator,
-      ...newCategoryIconsOrder,
-    ]
-  }, Promise.resolve([]));
+      return [
+        ...awaitedAccumulator,
+        ...newCategoryIconsOrder,
+      ]
+    }, Promise.resolve([]));
 
   await writeJson(`${JSON_DIRECTORY}/icons-order.json`, itemsOrder);
 }

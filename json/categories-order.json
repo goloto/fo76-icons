@@ -39,14 +39,14 @@
 		"order": 7,
 		"isDeleted": false
 	},
-	"modifications": {
-		"name": "modifications",
+	"junk": {
+		"name": "junk",
 		"order": 8,
 		"isDeleted": false
 	},
-	"junk": {
-		"name": "junk",
-		"order": 9,
-		"isDeleted": false
+	"modifications": {
+		"name": "modifications",
+		"order": 8,
+		"isDeleted": true
 	}
 }

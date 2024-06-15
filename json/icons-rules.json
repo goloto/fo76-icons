@@ -1,6 +1,8 @@
 [
 	{
 		"name": "note",
+		"leftSignature": "BOOK",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x2266",
 		"include": [],
@@ -8,6 +10,8 @@
 	},
 	{
 		"name": "plan",
+		"leftSignature": "BOOK",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x2267",
 		"include": [],
@@ -15,6 +19,8 @@
 	},
 	{
 		"name": "ballistic_ammo",
+		"leftSignature": "AMMO",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x2268",
 		"include": [],
@@ -22,6 +28,8 @@
 	},
 	{
 		"name": "rocket",
+		"leftSignature": "AMMO",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x2269",
 		"include": [],
@@ -29,6 +37,8 @@
 	},
 	{
 		"name": "grenade",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x226a",
 		"include": [],
@@ -36,6 +46,8 @@
 	},
 	{
 		"name": "one_handed_melee",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x226b",
 		"include": [],
@@ -43,6 +55,8 @@
 	},
 	{
 		"name": "mine",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x226c",
 		"include": [],
@@ -50,6 +64,8 @@
 	},
 	{
 		"name": "unarmed",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x226d",
 		"include": [],
@@ -57,6 +73,8 @@
 	},
 	{
 		"name": "two_handed_melee",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x226e",
 		"include": [],
@@ -64,6 +82,8 @@
 	},
 	{
 		"name": "weapon",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x226f",
 		"include": [],
@@ -71,6 +91,8 @@
 	},
 	{
 		"name": "doctors_bag",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x2270",
 		"include": [],
@@ -78,6 +100,8 @@
 	},
 	{
 		"name": "chems",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x2271",
 		"include": [],
@@ -85,6 +109,8 @@
 	},
 	{
 		"name": "stimpack",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x2272",
 		"include": [],
@@ -92,6 +118,8 @@
 	},
 	{
 		"name": "helmet",
+		"leftSignature": "ARMO",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x2273",
 		"include": [],
@@ -99,6 +127,8 @@
 	},
 	{
 		"name": "chest_armor",
+		"leftSignature": "ARMO",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x2274",
 		"include": [],
@@ -106,6 +136,8 @@
 	},
 	{
 		"name": "bottle_of_wine",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x2275",
 		"include": [],
@@ -113,6 +145,8 @@
 	},
 	{
 		"name": "corn",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x2276",
 		"include": [],
@@ -120,6 +154,8 @@
 	},
 	{
 		"name": "cake",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x2277",
 		"include": [],
@@ -127,6 +163,8 @@
 	},
 	{
 		"name": "bottle_of_water",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x2278",
 		"include": [],
@@ -134,6 +172,8 @@
 	},
 	{
 		"name": "soup",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x2279",
 		"include": [],
@@ -141,6 +181,8 @@
 	},
 	{
 		"name": "berry",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x227a",
 		"include": [],
@@ -148,6 +190,8 @@
 	},
 	{
 		"name": "tea",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x227b",
 		"include": [],
@@ -155,6 +199,8 @@
 	},
 	{
 		"name": "leaf",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x227c",
 		"include": [],
@@ -162,6 +208,8 @@
 	},
 	{
 		"name": "raw_meat",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x227d",
 		"include": [],
@@ -169,6 +217,8 @@
 	},
 	{
 		"name": "apparel",
+		"leftSignature": "ARMO",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x227e",
 		"include": [],
@@ -176,6 +226,8 @@
 	},
 	{
 		"name": "opened_box",
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x227f",
 		"include": [],
@@ -183,6 +235,8 @@
 	},
 	{
 		"name": "key",
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x2280",
 		"include": [],
@@ -190,6 +244,8 @@
 	},
 	{
 		"name": "quest",
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x2281",
 		"include": [],
@@ -197,6 +253,8 @@
 	},
 	{
 		"name": "junk",
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x2282",
 		"include": [],

@@ -1,6 +1,6 @@
+import type { IconOrder, IconRule, IconRuleMap } from "../types";
 import { readIconRulesFile, readIconsOrderFile } from "../file-reading";
-import { JSON_DIRECTORY } from "../const";
-import type { IconRule, IconRuleMap } from "../types";
+import { ICONS_CATEGORY_SIGNATURE_MAP, JSON_DIRECTORY, RightSignature } from "../const";
 import { getNumFromHexadecimal } from "../common";
 import { writeJson } from "../file-writing";
 
@@ -29,7 +29,7 @@ export const buildIconRules = async () => {
         return [...accumulator, rule]
       }
 
-      return [...accumulator, createDefaultInfo(item.name)]
+      return [...accumulator, createDefaultInfo(item)]
     }, <IconRule[]>[]);
   const result = [...mergedIconRules, ...deletedIconRules];
 
@@ -48,8 +48,10 @@ const HEADER_GENERATOR = (function* () {
 
 const generateIconHeader = (): string => '0x' + HEADER_GENERATOR.next().value.toString(16);
 
-const createDefaultInfo = (name: string): IconRule => ({ 
-  name, 
+const createDefaultInfo = (item: IconOrder): IconRule => ({ 
+  name: item.name, 
+  leftSignature: ICONS_CATEGORY_SIGNATURE_MAP[item.category],
+  rightSignature: RightSignature.FULL,
   isDeleted: false,
   header: generateIconHeader(),
   include: [],

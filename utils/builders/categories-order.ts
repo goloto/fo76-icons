@@ -36,7 +36,7 @@ export const buildCategoryOrder = async () => {
     }
   }, {});
 
-  await writeJson(`${JSON_DIRECTORY}/dirs.json`,result);
+  await writeJson(`${JSON_DIRECTORY}/categories-order.json`,result);
 }
 
 await buildCategoryOrder();

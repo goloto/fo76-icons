@@ -1,3 +1,6 @@
+export const ICONS_DIRECTORY = './icons';
+export const JSON_DIRECTORY = './json';
+
 export enum RightSignature {
   WNAM = 'WNAM',
   DESC = 'DESC',
@@ -9,7 +12,7 @@ export enum LeftSignature {
   Alchemy = 'ALCH',
   Ammunition = 'AMMO',
   Armor = 'ARMO',
-  Book = 'BOOL',
+  Book = 'BOOK',
   Component = 'CMPO',
   Currency = 'CNCY',
   Container = 'CONT',
@@ -31,21 +34,14 @@ export enum LeftSignature {
   Weapon = 'WEAP',
 }
 
-export const ICONS_DIRECTORY = './icons';
-export const JSON_DIRECTORY = './json';
-
-export const ICONS_ORDER = [
-  'default',
-  'weapons/other',
-  'weapons/thrown',
-  'weapons/mines',
-  'weapons/rifles',
-  'weapons/pistols',
-  'weapons/shotguns',
-  'weapons/heavy-weapons',
-  'weapons/explosive-guns',
-  'weapons/one-handed-melee',
-  'weapons/two-handed-melee',
-  'weapons/unarmed',
-  'armor/power-armor'
-]
+export const ICONS_CATEGORY_SIGNATURE_MAP: Record<string, LeftSignature> = {
+  aid: LeftSignature.Alchemy,
+  ammo: LeftSignature.Ammunition,
+  apparel: LeftSignature.Armor,
+  armor: LeftSignature.Armor,
+  food: LeftSignature.Alchemy,
+  junk: LeftSignature.Misc,
+  notes: LeftSignature.Book,
+  weapons: LeftSignature.Weapon,
+  misc: LeftSignature.Misc
+}
