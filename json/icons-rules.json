@@ -4,7 +4,7 @@
 		"leftSignature": "BOOK",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2266",
+		"header": "0x2284",
 		"include": [
 			"edid|note"
 		],
@@ -15,7 +15,7 @@
 		"leftSignature": "BOOK",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2267",
+		"header": "0x2285",
 		"include": [
 			"kwd_|ObjectTypeRecipe"
 		],
@@ -26,7 +26,7 @@
 		"leftSignature": "AMMO",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2268",
+		"header": "0x2286",
 		"include": [
 			"kwd_|AmmoTypeExplosive|003896DF",
 			"kwd_|ObjectTypeAmmo|000F4AE8"
@@ -38,7 +38,7 @@
 		"leftSignature": "AMMO",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2269",
+		"header": "0x2287",
 		"include": [],
 		"exclude": []
 	},
@@ -47,7 +47,7 @@
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x226a",
+		"header": "0x2288",
 		"include": [
 			"kwd_|WeaponTypeGrenade|0010C415"
 		],
@@ -58,7 +58,7 @@
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x226b",
+		"header": "0x2289",
 		"include": [
 			"kwd_|WeaponTypeMelee1H"
 		],
@@ -69,7 +69,7 @@
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x226c",
+		"header": "0x228a",
 		"include": [
 			"kwd_|AnimsMine|000E56C4"
 		],
@@ -80,7 +80,7 @@
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x226d",
+		"header": "0x228b",
 		"include": [
 			"kwd_|WeaponTypeUnarmed"
 		],
@@ -91,7 +91,7 @@
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x226e",
+		"header": "0x228c",
 		"include": [
 			"kwd_|WeaponTypeMelee2H"
 		],
@@ -102,10 +102,19 @@
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x226f",
+		"header": "0x228d",
 		"include": [
 			"kwd_|ObjectTypeWeapon"
 		],
+		"exclude": []
+	},
+	{
+		"name": "stimpak",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"header": "0x228e",
+		"include": [],
 		"exclude": []
 	},
 	{
@@ -113,8 +122,10 @@
 		"leftSignature": "BOOK",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2270",
-		"include": ["kwd_|MagazineKeyword"],
+		"header": "0x228f",
+		"include": [
+			"kwd_|MagazineKeyword"
+		],
 		"exclude": []
 	},
 	{
@@ -122,7 +133,7 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2271",
+		"header": "0x2290",
 		"include": [],
 		"exclude": []
 	},
@@ -131,19 +142,10 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2272",
+		"header": "0x2291",
 		"include": [
 			"kwd_|ObjectTypeChem"
 		],
-		"exclude": []
-	},
-	{
-		"name": "stimpack",
-		"leftSignature": "ALCH",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"header": "0x2273",
-		"include": [],
 		"exclude": []
 	},
 	{
@@ -151,7 +153,7 @@
 		"leftSignature": "ARMO",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2274",
+		"header": "0x2292",
 		"include": [
 			"kwd_|ArmorBodyPartHead"
 		],
@@ -162,7 +164,7 @@
 		"leftSignature": "ARMO",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2275",
+		"header": "0x2293",
 		"include": [
 			"kwd_|ObjectTypeArmor"
 		],
@@ -173,7 +175,7 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2276",
+		"header": "0x2294",
 		"include": [
 			"kwd_|DrinkTypeAlcohol"
 		],
@@ -184,7 +186,7 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2277",
+		"header": "0x2295",
 		"include": [
 			"kwd_|PlantTypeCorn"
 		],
@@ -195,7 +197,7 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2278",
+		"header": "0x2296",
 		"include": [
 			"kwd_|ObjectTypeCakesPies"
 		],
@@ -206,7 +208,7 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2279",
+		"header": "0x2297",
 		"include": [
 			"kwd_|DrinkTypeWater"
 		],
@@ -217,7 +219,7 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x227a",
+		"header": "0x2298",
 		"include": [
 			"kwd_|MealTypeSoup"
 		],
@@ -228,7 +230,7 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x227b",
+		"header": "0x2299",
 		"include": [
 			"kwd_|PlantTypeBerry"
 		],
@@ -239,7 +241,7 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x227c",
+		"header": "0x229a",
 		"include": [
 			"kwd_|DrinkTypeTea"
 		],
@@ -250,7 +252,7 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x227d",
+		"header": "0x229b",
 		"include": [
 			"kwd_|IngredientTypeHerb"
 		],
@@ -261,7 +263,7 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x227e",
+		"header": "0x229c",
 		"include": [
 			"kwd_|IngredientTypeMeat"
 		],
@@ -272,7 +274,7 @@
 		"leftSignature": "ARMO",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x227f",
+		"header": "0x229d",
 		"include": [
 			"kwd_|ObjectTypeClothing"
 		],
@@ -283,7 +285,7 @@
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2280",
+		"header": "0x229e",
 		"include": [],
 		"exclude": []
 	},
@@ -292,7 +294,7 @@
 		"leftSignature": "KEYM",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2281",
+		"header": "0x229f",
 		"include": [
 			"edid|key"
 		],
@@ -303,7 +305,7 @@
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2282",
+		"header": "0x22a0",
 		"include": [],
 		"exclude": []
 	},
@@ -312,7 +314,7 @@
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2283",
+		"header": "0x22a1",
 		"include": [],
 		"exclude": []
 	}

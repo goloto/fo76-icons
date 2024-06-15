@@ -60,25 +60,25 @@
 		"isDeleted": false
 	},
 	{
-		"name": "magazine",
+		"name": "stimpak",
 		"order": 10,
+		"category": "aid",
+		"isDeleted": false
+	},
+	{
+		"name": "magazine",
+		"order": 11,
 		"category": "notes",
 		"isDeleted": false
 	},
 	{
 		"name": "doctors_bag",
-		"order": 11,
-		"category": "aid",
-		"isDeleted": false
-	},
-	{
-		"name": "chems",
 		"order": 12,
 		"category": "aid",
 		"isDeleted": false
 	},
 	{
-		"name": "stimpack",
+		"name": "chems",
 		"order": 13,
 		"category": "aid",
 		"isDeleted": false
