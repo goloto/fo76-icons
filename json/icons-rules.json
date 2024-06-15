@@ -5,7 +5,9 @@
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x2266",
-		"include": [],
+		"include": [
+			"edid|note"
+		],
 		"exclude": []
 	},
 	{
@@ -14,7 +16,9 @@
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x2267",
-		"include": [],
+		"include": [
+			"kwd_|ObjectTypeRecipe"
+		],
 		"exclude": []
 	},
 	{
@@ -23,7 +27,10 @@
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x2268",
-		"include": [],
+		"include": [
+			"kwd_|AmmoTypeExplosive|003896DF",
+			"kwd_|ObjectTypeAmmo|000F4AE8"
+		],
 		"exclude": []
 	},
 	{
@@ -41,7 +48,9 @@
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x226a",
-		"include": [],
+		"include": [
+			"kwd_|WeaponTypeGrenade|0010C415"
+		],
 		"exclude": []
 	},
 	{
@@ -50,7 +59,9 @@
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x226b",
-		"include": [],
+		"include": [
+			"kwd_|WeaponTypeMelee1H"
+		],
 		"exclude": []
 	},
 	{
@@ -59,7 +70,9 @@
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x226c",
-		"include": [],
+		"include": [
+			"kwd_|AnimsMine|000E56C4"
+		],
 		"exclude": []
 	},
 	{
@@ -68,7 +81,9 @@
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x226d",
-		"include": [],
+		"include": [
+			"kwd_|WeaponTypeUnarmed"
+		],
 		"exclude": []
 	},
 	{
@@ -77,7 +92,9 @@
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x226e",
-		"include": [],
+		"include": [
+			"kwd_|WeaponTypeMelee2H"
+		],
 		"exclude": []
 	},
 	{
@@ -86,20 +103,22 @@
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x226f",
-		"include": [],
+		"include": [
+			"kwd_|ObjectTypeWeapon"
+		],
+		"exclude": []
+	},
+	{
+		"name": "magazine",
+		"leftSignature": "BOOK",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"header": "0x2270",
+		"include": ["kwd_|MagazineKeyword"],
 		"exclude": []
 	},
 	{
 		"name": "doctors_bag",
-		"leftSignature": "ALCH",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"header": "0x2270",
-		"include": [],
-		"exclude": []
-	},
-	{
-		"name": "chems",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -108,11 +127,22 @@
 		"exclude": []
 	},
 	{
-		"name": "stimpack",
+		"name": "chems",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x2272",
+		"include": [
+			"kwd_|ObjectTypeChem"
+		],
+		"exclude": []
+	},
+	{
+		"name": "stimpack",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"header": "0x2273",
 		"include": [],
 		"exclude": []
 	},
@@ -121,8 +151,10 @@
 		"leftSignature": "ARMO",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2273",
-		"include": [],
+		"header": "0x2274",
+		"include": [
+			"kwd_|ArmorBodyPartHead"
+		],
 		"exclude": []
 	},
 	{
@@ -130,8 +162,10 @@
 		"leftSignature": "ARMO",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2274",
-		"include": [],
+		"header": "0x2275",
+		"include": [
+			"kwd_|ObjectTypeArmor"
+		],
 		"exclude": []
 	},
 	{
@@ -139,8 +173,10 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2275",
-		"include": [],
+		"header": "0x2276",
+		"include": [
+			"kwd_|DrinkTypeAlcohol"
+		],
 		"exclude": []
 	},
 	{
@@ -148,8 +184,10 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2276",
-		"include": [],
+		"header": "0x2277",
+		"include": [
+			"kwd_|PlantTypeCorn"
+		],
 		"exclude": []
 	},
 	{
@@ -157,8 +195,10 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2277",
-		"include": [],
+		"header": "0x2278",
+		"include": [
+			"kwd_|ObjectTypeCakesPies"
+		],
 		"exclude": []
 	},
 	{
@@ -166,8 +206,10 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2278",
-		"include": [],
+		"header": "0x2279",
+		"include": [
+			"kwd_|DrinkTypeWater"
+		],
 		"exclude": []
 	},
 	{
@@ -175,8 +217,10 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2279",
-		"include": [],
+		"header": "0x227a",
+		"include": [
+			"kwd_|MealTypeSoup"
+		],
 		"exclude": []
 	},
 	{
@@ -184,8 +228,10 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x227a",
-		"include": [],
+		"header": "0x227b",
+		"include": [
+			"kwd_|PlantTypeBerry"
+		],
 		"exclude": []
 	},
 	{
@@ -193,8 +239,10 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x227b",
-		"include": [],
+		"header": "0x227c",
+		"include": [
+			"kwd_|DrinkTypeTea"
+		],
 		"exclude": []
 	},
 	{
@@ -202,8 +250,10 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x227c",
-		"include": [],
+		"header": "0x227d",
+		"include": [
+			"kwd_|IngredientTypeHerb"
+		],
 		"exclude": []
 	},
 	{
@@ -211,8 +261,10 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x227d",
-		"include": [],
+		"header": "0x227e",
+		"include": [
+			"kwd_|IngredientTypeMeat"
+		],
 		"exclude": []
 	},
 	{
@@ -220,21 +272,14 @@
 		"leftSignature": "ARMO",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x227e",
-		"include": [],
+		"header": "0x227f",
+		"include": [
+			"kwd_|ObjectTypeClothing"
+		],
 		"exclude": []
 	},
 	{
 		"name": "opened_box",
-		"leftSignature": "MISC",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"header": "0x227f",
-		"include": [],
-		"exclude": []
-	},
-	{
-		"name": "key",
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -243,11 +288,22 @@
 		"exclude": []
 	},
 	{
+		"name": "key",
+		"leftSignature": "KEYM",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"header": "0x2281",
+		"include": [
+			"edid|key"
+		],
+		"exclude": []
+	},
+	{
 		"name": "quest",
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2281",
+		"header": "0x2282",
 		"include": [],
 		"exclude": []
 	},
@@ -256,7 +312,7 @@
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2282",
+		"header": "0x2283",
 		"include": [],
 		"exclude": []
 	}

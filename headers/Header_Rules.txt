@@ -19,7 +19,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=edid|note
  Exclude_0=
 [EndRule]
 
@@ -37,7 +37,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=kwd_|ObjectTypeRecipe
  Exclude_0=
 [EndRule]
 
@@ -55,7 +55,8 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=kwd_|AmmoTypeExplosive|003896DF
+ Include_1=kwd_|ObjectTypeAmmo|000F4AE8
  Exclude_0=
 [EndRule]
 
@@ -91,7 +92,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=kwd_|WeaponTypeGrenade|0010C415
  Exclude_0=
 [EndRule]
 
@@ -109,7 +110,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=kwd_|WeaponTypeMelee1H
  Exclude_0=
 [EndRule]
 
@@ -127,7 +128,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=kwd_|AnimsMine|000E56C4
  Exclude_0=
 [EndRule]
 
@@ -145,7 +146,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=kwd_|WeaponTypeUnarmed
  Exclude_0=
 [EndRule]
 
@@ -163,7 +164,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=kwd_|WeaponTypeMelee2H
  Exclude_0=
 [EndRule]
 
@@ -181,14 +182,14 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=kwd_|ObjectTypeWeapon
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=≰
  rSig=FULL
- fSig=ALCH
+ fSig=BOOK
  enabled=-1
  tagID=default
  noKW=0
@@ -199,7 +200,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=kwd_|MagazineKeyword
  Exclude_0=
 [EndRule]
 
@@ -235,14 +236,14 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=kwd_|ObjectTypeChem
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=≳
  rSig=FULL
- fSig=ARMO
+ fSig=ALCH
  enabled=-1
  tagID=default
  noKW=0
@@ -271,14 +272,14 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=kwd_|ArmorBodyPartHead
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=≵
  rSig=FULL
- fSig=ALCH
+ fSig=ARMO
  enabled=-1
  tagID=default
  noKW=0
@@ -289,7 +290,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=kwd_|ObjectTypeArmor
  Exclude_0=
 [EndRule]
 
@@ -307,7 +308,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=kwd_|DrinkTypeAlcohol
  Exclude_0=
 [EndRule]
 
@@ -325,7 +326,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=kwd_|PlantTypeCorn
  Exclude_0=
 [EndRule]
 
@@ -343,7 +344,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=kwd_|ObjectTypeCakesPies
  Exclude_0=
 [EndRule]
 
@@ -361,7 +362,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=kwd_|DrinkTypeWater
  Exclude_0=
 [EndRule]
 
@@ -379,7 +380,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=kwd_|MealTypeSoup
  Exclude_0=
 [EndRule]
 
@@ -397,7 +398,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=kwd_|PlantTypeBerry
  Exclude_0=
 [EndRule]
 
@@ -415,7 +416,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=kwd_|DrinkTypeTea
  Exclude_0=
 [EndRule]
 
@@ -433,12 +434,30 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=kwd_|IngredientTypeHerb
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=≾
+ rSig=FULL
+ fSig=ALCH
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=kwd_|IngredientTypeMeat
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=≿
  rSig=FULL
  fSig=ARMO
  enabled=-1
@@ -451,25 +470,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=≿
- rSig=FULL
- fSig=MISC
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=
+ Include_0=kwd_|ObjectTypeClothing
  Exclude_0=
 [EndRule]
 
@@ -494,6 +495,24 @@
 [StartRule]
  Header=⊁
  rSig=FULL
+ fSig=KEYM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|key
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊂
+ rSig=FULL
  fSig=MISC
  enabled=-1
  tagID=default
@@ -510,7 +529,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊂
+ Header=⊃
  rSig=FULL
  fSig=MISC
  enabled=-1
