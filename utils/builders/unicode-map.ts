@@ -6,8 +6,10 @@ export const buildUnicodeMap = async () => {
   const iconRules = await readIconRulesFile();
   const map = await readUnicodeMapFile();
   const slicedMap = map.slice(0, map.indexOf(TEMPLATE_LINK) + TEMPLATE_LINK.length) + '\r'; 
-  const newMap = Object.values(iconRules).reduce((accumulator, item) => {
-    return accumulator + item.header + ' ' + item.name + '\r';
+  const newMap = iconRules.reduce((accumulator, item, index) => {
+    const newLine = index + 1 < iconRules.length ? '\r' : '';
+
+    return `${accumulator}${item.header} ${item.name}${newLine}`;
   }, slicedMap);
   
   await Bun.write('./fontlab/standard.nam', newMap);

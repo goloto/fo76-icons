@@ -44,6 +44,11 @@
 		"order": 8,
 		"isDeleted": false
 	},
+	"keys": {
+		"name": "keys",
+		"order": 9,
+		"isDeleted": false
+	},
 	"modifications": {
 		"name": "modifications",
 		"order": 8,

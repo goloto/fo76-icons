@@ -41,6 +41,7 @@ export const ICONS_CATEGORY_SIGNATURE_MAP: Record<string, LeftSignature> = {
   armor: LeftSignature.Armor,
   food: LeftSignature.Alchemy,
   junk: LeftSignature.Misc,
+  keys: LeftSignature.Key,
   notes: LeftSignature.Book,
   weapons: LeftSignature.Weapon,
   misc: LeftSignature.Misc
