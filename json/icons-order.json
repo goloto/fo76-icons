@@ -36,19 +36,19 @@
 		"isDeleted": false
 	},
 	{
-		"name": "one_handed_melee",
+		"name": "mine",
 		"order": 6,
 		"category": "weapons",
 		"isDeleted": false
 	},
 	{
-		"name": "mine",
+		"name": "unarmed",
 		"order": 7,
 		"category": "weapons",
 		"isDeleted": false
 	},
 	{
-		"name": "unarmed",
+		"name": "one_handed_melee",
 		"order": 8,
 		"category": "weapons",
 		"isDeleted": false
@@ -66,15 +66,15 @@
 		"isDeleted": false
 	},
 	{
-		"name": "stimpak",
+		"name": "magazine",
 		"order": 11,
-		"category": "aid",
+		"category": "notes",
 		"isDeleted": false
 	},
 	{
-		"name": "magazine",
+		"name": "stimpak",
 		"order": 12,
-		"category": "notes",
+		"category": "aid",
 		"isDeleted": false
 	},
 	{
@@ -90,55 +90,55 @@
 		"isDeleted": false
 	},
 	{
-		"name": "helmet",
+		"name": "chest_armor",
 		"order": 15,
 		"category": "armor",
 		"isDeleted": false
 	},
 	{
-		"name": "chest_armor",
+		"name": "helmet",
 		"order": 16,
 		"category": "armor",
 		"isDeleted": false
 	},
 	{
-		"name": "vegan_food",
+		"name": "tea",
 		"order": 17,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "alcohol_glass",
+		"name": "vegan_food",
 		"order": 18,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "nuka_cola",
+		"name": "bottle_of_water",
 		"order": 19,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "bottle_of_wine",
+		"name": "nuka_cola",
 		"order": 20,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "corn",
+		"name": "alcohol_glass",
 		"order": 21,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "cake",
+		"name": "bottle_of_wine",
 		"order": 22,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "bottle_of_water",
+		"name": "corn",
 		"order": 23,
 		"category": "food",
 		"isDeleted": false
@@ -156,13 +156,13 @@
 		"isDeleted": false
 	},
 	{
-		"name": "tea",
+		"name": "leaf",
 		"order": 26,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "leaf",
+		"name": "cake",
 		"order": 27,
 		"category": "food",
 		"isDeleted": false

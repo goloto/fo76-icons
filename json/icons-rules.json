@@ -73,23 +73,11 @@
 		"isAnyKeyword": false
 	},
 	{
-		"name": "one_handed_melee",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"header": "0x228f",
-		"include": [
-			"ekwd|WeaponTypeMelee1H"
-		],
-		"exclude": [],
-		"isAnyKeyword": false
-	},
-	{
 		"name": "mine",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2290",
+		"header": "0x228f",
 		"include": [
 			"ekwd|WeaponTypeMine"
 		],
@@ -101,9 +89,21 @@
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2291",
+		"header": "0x2290",
 		"include": [
 			"ekwd|WeaponTypeUnarmed"
+		],
+		"exclude": [],
+		"isAnyKeyword": false
+	},
+	{
+		"name": "one_handed_melee",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"header": "0x2291",
+		"include": [
+			"ekwd|WeaponTypeMelee1H"
 		],
 		"exclude": [],
 		"isAnyKeyword": false
@@ -133,23 +133,11 @@
 		"isAnyKeyword": false
 	},
 	{
-		"name": "stimpak",
-		"leftSignature": "ALCH",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"header": "0x2294",
-		"include": [
-			"ekwd|ObjectTypeStimpak"
-		],
-		"exclude": [],
-		"isAnyKeyword": false
-	},
-	{
 		"name": "magazine",
 		"leftSignature": "BOOK",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2295",
+		"header": "0x2294",
 		"include": [
 			"ekwd|MagazineKeyword|001D4A70",
 			"ekwd|MagazineTypeTeslaScience",
@@ -163,6 +151,18 @@
 			"ekwd|MagazineTypeGunsAndBullets",
 			"ekwd|MagazineTypeUSCovertOperations",
 			"ekwd|MagazineTypeTumblers"
+		],
+		"exclude": [],
+		"isAnyKeyword": false
+	},
+	{
+		"name": "stimpak",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"header": "0x2295",
+		"include": [
+			"ekwd|ObjectTypeStimpak"
 		],
 		"exclude": [],
 		"isAnyKeyword": false
@@ -195,11 +195,23 @@
 		"isAnyKeyword": false
 	},
 	{
-		"name": "helmet",
+		"name": "chest_armor",
 		"leftSignature": "ARMO",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x2298",
+		"include": [
+			"ekwd|ObjectTypeArmor"
+		],
+		"exclude": [],
+		"isAnyKeyword": false
+	},
+	{
+		"name": "helmet",
+		"leftSignature": "ARMO",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"header": "0x2299",
 		"include": [
 			"ekwd|ArmorBodyPartHead"
 		],
@@ -207,13 +219,13 @@
 		"isAnyKeyword": false
 	},
 	{
-		"name": "chest_armor",
-		"leftSignature": "ARMO",
+		"name": "tea",
+		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x2299",
+		"header": "0x229a",
 		"include": [
-			"ekwd|ObjectTypeArmor"
+			"ekwd|DrinkTypeTea"
 		],
 		"exclude": [],
 		"isAnyKeyword": false
@@ -224,11 +236,36 @@
 		"leftSignature": "ALCH",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"header": "0x229a",
+		"header": "0x229b",
 		"include": [
 			"ekwd|ObjectTypeFood",
 			"ekwd|MealTypeCooked",
 			"ekwd|IngredientTypeFruit"
+		],
+		"exclude": []
+	},
+	{
+		"name": "bottle_of_water",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"header": "0x229c",
+		"include": [
+			"ekwd|DrinkTypeWater"
+		],
+		"exclude": [],
+		"isAnyKeyword": false
+	},
+	{
+		"name": "nuka_cola",
+		"rightSignature": "FULL",
+		"leftSignature": "ALCH",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"header": "0x229d",
+		"include": [
+			"ekwd|ObjectTypeDrink",
+			"ekwd|DrinkTypeSoda"
 		],
 		"exclude": []
 	},
@@ -238,23 +275,10 @@
 		"leftSignature": "ALCH",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"header": "0x229b",
+		"header": "0x229e",
 		"include": [
 			"ekwd|ObjectTypeDrink",
 			"ekwd|DrinkTypeAlcohol"
-		],
-		"exclude": []
-	},
-	{
-		"name": "nuka_cola",
-		"rightSignature": "FULL",
-		"leftSignature": "ALCH",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"header": "0x229c",
-		"include": [
-			"ekwd|ObjectTypeDrink",
-			"ekwd|DrinkTypeSoda"
 		],
 		"exclude": []
 	},
@@ -263,7 +287,7 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x229d",
+		"header": "0x229f",
 		"include": [
 			"ekwd|ObjectTypeDrink",
 			"ekwd|DrinkTypeAlcohol",
@@ -277,33 +301,9 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x229e",
-		"include": [
-			"ekwd|PlantTypeCorn"
-		],
-		"exclude": [],
-		"isAnyKeyword": false
-	},
-	{
-		"name": "cake",
-		"leftSignature": "ALCH",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"header": "0x229f",
-		"include": [
-			"ekwd|ObjectTypeCakesPies"
-		],
-		"exclude": [],
-		"isAnyKeyword": false
-	},
-	{
-		"name": "bottle_of_water",
-		"leftSignature": "ALCH",
-		"rightSignature": "FULL",
-		"isDeleted": false,
 		"header": "0x22a0",
 		"include": [
-			"ekwd|DrinkTypeWater"
+			"ekwd|PlantTypeCorn"
 		],
 		"exclude": [],
 		"isAnyKeyword": false
@@ -334,23 +334,11 @@
 		"isAnyKeyword": false
 	},
 	{
-		"name": "tea",
-		"leftSignature": "ALCH",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"header": "0x22a3",
-		"include": [
-			"ekwd|DrinkTypeTea"
-		],
-		"exclude": [],
-		"isAnyKeyword": false
-	},
-	{
 		"name": "leaf",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22a4",
+		"header": "0x22a3",
 		"include": [
 			"ekwd|IngredientTypeHerb",
 			"ekwd|MealTypeRaw"
@@ -359,6 +347,18 @@
 			"ekwd|DrinkTypeTea",
 			"ekwd|IngredientTypeMeat"
 		],
+		"isAnyKeyword": false
+	},
+	{
+		"name": "cake",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"header": "0x22a4",
+		"include": [
+			"ekwd|ObjectTypeCakesPies"
+		],
+		"exclude": [],
 		"isAnyKeyword": false
 	},
 	{
