@@ -6,13 +6,13 @@
 [EndHeader]
 
 [StartRule]
- Header=⊉
+ Header=⊐
  rSig=BOOK
  fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
- anyKW=0
+ anyKW=-1
  hasCompo=0
  preProcess=0
  fullReplace=0
@@ -25,7 +25,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊊
+ Header=⊑
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -43,7 +43,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊋
+ Header=⊒
  rSig=NOTE
  fSig=FULL
  enabled=-1
@@ -53,15 +53,45 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
  Include_0=edid|holotape
+ Include_1=ekwd|UnsellableObject
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⊌
+ Header=⊓
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|MagazineKeyword
+ Include_1=ekwd|MagazineTypeTeslaScience
+ Include_2=ekwd|MagazineTypeScout
+ Include_3=ekwd|MagazineTypeGrognak
+ Include_4=ekwd|MagazineTypeBackwoodsman
+ Include_5=ekwd|MagazineTypeLiveAndLove
+ Include_6=ekwd|MagazineTypeBedtime
+ Include_7=ekwd|MagazineTypeAwesome
+ Include_8=ekwd|MagazineTypeUnstoppables
+ Include_9=ekwd|MagazineTypeGunsAndBullets
+ Include_10=ekwd|MagazineTypeUSCovertOperations
+ Include_11=ekwd|MagazineTypeTumblers
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊔
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -79,7 +109,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊍
+ Header=⊕
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -97,7 +127,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊎
+ Header=⊖
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -115,7 +145,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊏
+ Header=⊗
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -133,7 +163,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊐
+ Header=⊘
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -151,7 +181,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊑
+ Header=⊙
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -169,7 +199,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊒
+ Header=⊚
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -187,7 +217,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊓
+ Header=⊛
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -205,8 +235,8 @@
 [EndRule]
 
 [StartRule]
- Header=⊔
- rSig=BOOK
+ Header=⊜
+ rSig=ALCH
  fSig=FULL
  enabled=-1
  tagID=default
@@ -218,23 +248,30 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|MagazineKeyword|001D4A70
- Include_1=ekwd|MagazineTypeTeslaScience
- Include_2=ekwd|MagazineTypeScout
- Include_3=ekwd|MagazineTypeGrognak
- Include_4=ekwd|MagazineTypeBackwoodsman
- Include_5=ekwd|MagazineTypeLiveAndLove
- Include_6=ekwd|MagazineTypeBedtime
- Include_7=ekwd|MagazineTypeAwesome
- Include_8=ekwd|MagazineTypeUnstoppables
- Include_9=ekwd|MagazineTypeGunsAndBullets
- Include_10=ekwd|MagazineTypeUSCovertOperations
- Include_11=ekwd|MagazineTypeTumblers
+ Include_0=edid|003DF247
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⊕
+ Header=⊝
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|BobbleheadKeyword
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -252,13 +289,13 @@
 [EndRule]
 
 [StartRule]
- Header=⊖
+ Header=⊟
  rSig=ALCH
  fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
- anyKW=0
+ anyKW=-1
  hasCompo=0
  preProcess=0
  fullReplace=0
@@ -266,11 +303,12 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|ChemTypeHealing
+ Include_1=ekwd|ChemTypeRadaway
  Exclude_0=ekwd|ObjectTypeStimpak
 [EndRule]
 
 [StartRule]
- Header=⊗
+ Header=⊠
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -285,11 +323,11 @@
  fallbackBank=0
  Include_0=ekwd|ObjectTypeChem
  Include_1=ekwd|AddictionKeyword
- Exclude_0=
+ Exclude_0=ekwd|ChemTypeHealing
 [EndRule]
 
 [StartRule]
- Header=⊘
+ Header=⊡
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -307,7 +345,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊙
+ Header=⊢
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -325,7 +363,25 @@
 [EndRule]
 
 [StartRule]
- Header=⊚
+ Header=⊣
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊤
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -343,7 +399,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊛
+ Header=⊥
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -363,7 +419,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊜
+ Header=⊦
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -381,7 +437,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊝
+ Header=⊧
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -400,7 +456,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊞
+ Header=⊨
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -419,7 +475,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊟
+ Header=⊩
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -439,7 +495,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊠
+ Header=⊪
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -457,7 +513,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊡
+ Header=⊫
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -476,7 +532,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊢
+ Header=⊬
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -494,7 +550,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊣
+ Header=⊭
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -514,7 +570,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊤
+ Header=⊮
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -532,7 +588,27 @@
 [EndRule]
 
 [StartRule]
- Header=⊥
+ Header=⊯
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeFood
+ Include_1=ekwd|IngredientTypeMeat
+ Include_2=ekwd|MealTypeCooked
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊰
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -551,7 +627,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊦
+ Header=⊱
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -569,7 +645,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊧
+ Header=⊲
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -582,6 +658,60 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
+ Include_0=edid|005A5443
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊳
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|token
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊴
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|Moon_CryptidCardKeyword
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊵
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
  Include_0=ekwd|ObjectTypeToy
  Include_1=ekwd|ObjectTypeSports
  Include_2=ekwd|ObjectTypeSmokes
@@ -589,7 +719,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊨
+ Header=⊶
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -607,7 +737,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊩
+ Header=⊷
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -617,7 +747,7 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|NoAutoScrapJunk
@@ -626,7 +756,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊪
+ Header=⊸
  rSig=KEYM
  fSig=FULL
  enabled=-1
@@ -644,7 +774,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊫
+ Header=⊹
  rSig=KEYM
  fSig=FULL
  enabled=-1

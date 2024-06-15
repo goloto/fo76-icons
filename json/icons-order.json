@@ -18,194 +18,236 @@
 		"isDeleted": false
 	},
 	{
-		"name": "ballistic_ammo",
+		"name": "magazine",
 		"order": 3,
-		"category": "ammo",
+		"category": "notes",
 		"isDeleted": false
 	},
 	{
-		"name": "rocket",
+		"name": "ballistic_ammo",
 		"order": 4,
 		"category": "ammo",
 		"isDeleted": false
 	},
 	{
-		"name": "grenade",
+		"name": "rocket",
 		"order": 5,
-		"category": "weapons",
+		"category": "ammo",
 		"isDeleted": false
 	},
 	{
-		"name": "mine",
+		"name": "grenade",
 		"order": 6,
 		"category": "weapons",
 		"isDeleted": false
 	},
 	{
-		"name": "unarmed",
+		"name": "mine",
 		"order": 7,
 		"category": "weapons",
 		"isDeleted": false
 	},
 	{
-		"name": "one_handed_melee",
+		"name": "unarmed",
 		"order": 8,
 		"category": "weapons",
 		"isDeleted": false
 	},
 	{
-		"name": "two_handed_melee",
+		"name": "one_handed_melee",
 		"order": 9,
 		"category": "weapons",
 		"isDeleted": false
 	},
 	{
-		"name": "weapon",
+		"name": "two_handed_melee",
 		"order": 10,
 		"category": "weapons",
 		"isDeleted": false
 	},
 	{
-		"name": "magazine",
+		"name": "weapon",
 		"order": 11,
-		"category": "notes",
+		"category": "weapons",
 		"isDeleted": false
 	},
 	{
-		"name": "stimpak",
+		"name": "lunchbox",
 		"order": 12,
 		"category": "aid",
 		"isDeleted": false
 	},
 	{
-		"name": "doctors_bag",
+		"name": "bobblehead",
 		"order": 13,
 		"category": "aid",
 		"isDeleted": false
 	},
 	{
-		"name": "chems",
+		"name": "stimpak",
 		"order": 14,
 		"category": "aid",
 		"isDeleted": false
 	},
 	{
-		"name": "chest_armor",
+		"name": "doctors_bag",
 		"order": 15,
+		"category": "aid",
+		"isDeleted": false
+	},
+	{
+		"name": "chems",
+		"order": 16,
+		"category": "aid",
+		"isDeleted": false
+	},
+	{
+		"name": "chest_armor",
+		"order": 17,
 		"category": "armor",
 		"isDeleted": false
 	},
 	{
 		"name": "helmet",
-		"order": 16,
+		"order": 18,
 		"category": "armor",
 		"isDeleted": false
 	},
 	{
-		"name": "tea",
-		"order": 17,
-		"category": "food",
-		"isDeleted": false
-	},
-	{
-		"name": "vegan_food",
-		"order": 18,
-		"category": "food",
-		"isDeleted": false
-	},
-	{
-		"name": "bottle_of_water",
+		"name": "moldy_food",
 		"order": 19,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "nuka_cola",
+		"name": "tea",
 		"order": 20,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "alcohol_glass",
+		"name": "vegan_food",
 		"order": 21,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "bottle_of_wine",
+		"name": "bottle_of_water",
 		"order": 22,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "corn",
+		"name": "nuka_cola",
 		"order": 23,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "soup",
+		"name": "alcohol_glass",
 		"order": 24,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "berry",
+		"name": "bottle_of_wine",
 		"order": 25,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "leaf",
+		"name": "corn",
 		"order": 26,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "cake",
+		"name": "soup",
 		"order": 27,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "raw_meat",
+		"name": "berry",
 		"order": 28,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "apparel",
+		"name": "leaf",
 		"order": 29,
+		"category": "food",
+		"isDeleted": false
+	},
+	{
+		"name": "cake",
+		"order": 30,
+		"category": "food",
+		"isDeleted": false
+	},
+	{
+		"name": "cooked_meat",
+		"order": 31,
+		"category": "food",
+		"isDeleted": false
+	},
+	{
+		"name": "raw_meat",
+		"order": 32,
+		"category": "food",
+		"isDeleted": false
+	},
+	{
+		"name": "apparel",
+		"order": 33,
 		"category": "apparel",
 		"isDeleted": false
 	},
 	{
+		"name": "treasure_note",
+		"order": 34,
+		"category": "misc",
+		"isDeleted": false
+	},
+	{
+		"name": "token",
+		"order": 35,
+		"category": "misc",
+		"isDeleted": false
+	},
+	{
+		"name": "cards",
+		"order": 36,
+		"category": "misc",
+		"isDeleted": false
+	},
+	{
 		"name": "opened_box",
-		"order": 30,
+		"order": 37,
 		"category": "misc",
 		"isDeleted": false
 	},
 	{
 		"name": "quest",
-		"order": 31,
+		"order": 38,
 		"category": "misc",
 		"isDeleted": false
 	},
 	{
 		"name": "junk",
-		"order": 32,
+		"order": 39,
 		"category": "junk",
 		"isDeleted": false
 	},
 	{
 		"name": "keycard",
-		"order": 33,
+		"order": 40,
 		"category": "notes",
 		"isDeleted": false
 	},
 	{
 		"name": "key",
-		"order": 34,
+		"order": 41,
 		"category": "misc",
 		"isDeleted": false
 	}
