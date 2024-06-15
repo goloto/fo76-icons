@@ -33,24 +33,9 @@ validNameChars "\`1234567890-=~!@#$%^&*():_+QWERTYUIOP[]ASDFGHJKL;'ZXCVBNM,./qwe
 validBookChars "\`1234567890-=~!@#$%^&*():_+QWERTYUIOP[]ASDFGHJKL;'ZXCVBNM,./qwertyuiop{}\\asdfghjkl;'zxcvbnm<>?|ЎўЈ¤Ґ¦§Ё©Є«®Ї°Ііґ¶·ё№є»јЅѕїДАБВГЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэю я "`;
 
 export const buildFontConfig = async () => {
-  let characters = '';
-  const files = await readdir(ICONS_DIRECTORY, {recursive: true});
-
-  for (let fileName of files) {
-    if (!fileName.includes('info.json')) {
-      continue;
-    }
-
-    const info = await readIconRulesFile();
-
-    if (!isIconInfoArray(info)) {
-      continue;
-    }
-
-    characters += info.reduce((accumulator, info) => {
-      return accumulator + getCharFromHexadecimal(info?.header)
-    }, '');
-  }
+  const iconRules = await readIconRulesFile();
+  const characters = iconRules
+    .reduce((accumulator, item) => `${accumulator}${getCharFromHexadecimal(item?.header)}`, '');
 
   await Bun.write('./headers/fontconfig_ru.txt', FONT_CONFIG_TEMPLATE.replace('%custom-characters%', characters));
 }
