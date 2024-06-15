@@ -1,12 +1,14 @@
 import { ICONS_DIRECTORY, JSON_DIRECTORY } from "../const";
 import { readCategoriesOrderFile, readIconsOrderFile } from "../file-reading";
 import { readdir } from "node:fs/promises";
-import type { IconOrder } from "../types";
+import type { IconOrder, IconOrderMap } from "../types";
 import { writeJson } from "../file-writing";
 import { filterRecursiveDirs } from "../common";
 
 export const buildIconsOrder = async () => {
   const iconsOrderJson = await readIconsOrderFile();
+  const iconsOrderMap = iconsOrderJson
+    .reduce((accumulator, item) => ({...accumulator, [item.name]: item}), <IconOrderMap>{});
   const categoriesOrderJson = await readCategoriesOrderFile();
   const sortedCategoriesOrder = Object.values(categoriesOrderJson)
     .filter((item) => !item.isDeleted)
@@ -15,24 +17,27 @@ export const buildIconsOrder = async () => {
     .reduce<Promise<IconOrder[]>>(async (accumulator, dir) => {
       const awaitedAccumulator = await accumulator;
       const dirIcons = await readdir(`${ICONS_DIRECTORY}/${dir.name}`);
-      const filteredDirIcons = dirIcons
+      const mergedIconsOrder = dirIcons
         .filter(filterRecursiveDirs)
-        .map((item) => item.replace('.svg', ''));
-      const currentCategoryIconsOrder = iconsOrderJson
-        .filter((item) => filteredDirIcons.includes(item.name))
+        .map((item) => item.replace('.svg', ''))
+        .map((item, index): IconOrder => {
+          if (item in iconsOrderMap) {
+            return iconsOrderMap[item];
+          }
+          
+          return {
+            name: item,
+            order: index,
+            category: dir.name,
+            isDeleted: false,
+          }
+        })
         .sort((itemA, itemB) => itemA.order - itemB.order)
-        .map((item, index) => ({...item, order: index}));
-      const newCategoryIconsOrder = currentCategoryIconsOrder
-        .map((item, index) => ({
-          name: item.name,
-          order: awaitedAccumulator.length + index,
-          category: dir.name,
-          isDeleted: false,
-        }));
+        .map((item, index) => ({...item, order: awaitedAccumulator.length + index}));
 
       return [
         ...awaitedAccumulator,
-        ...newCategoryIconsOrder,
+        ...mergedIconsOrder,
       ]
     }, Promise.resolve([]));
 

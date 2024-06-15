@@ -60,116 +60,122 @@
 		"isDeleted": false
 	},
 	{
-		"name": "doctors_bag",
+		"name": "magazine",
 		"order": 10,
-		"category": "aid",
+		"category": "notes",
 		"isDeleted": false
 	},
 	{
-		"name": "chems",
+		"name": "doctors_bag",
 		"order": 11,
 		"category": "aid",
 		"isDeleted": false
 	},
 	{
-		"name": "stimpack",
+		"name": "chems",
 		"order": 12,
 		"category": "aid",
 		"isDeleted": false
 	},
 	{
-		"name": "helmet",
+		"name": "stimpack",
 		"order": 13,
-		"category": "armor",
+		"category": "aid",
 		"isDeleted": false
 	},
 	{
-		"name": "chest_armor",
+		"name": "helmet",
 		"order": 14,
 		"category": "armor",
 		"isDeleted": false
 	},
 	{
-		"name": "bottle_of_wine",
+		"name": "chest_armor",
 		"order": 15,
-		"category": "food",
+		"category": "armor",
 		"isDeleted": false
 	},
 	{
-		"name": "corn",
+		"name": "bottle_of_wine",
 		"order": 16,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "cake",
+		"name": "corn",
 		"order": 17,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "bottle_of_water",
+		"name": "cake",
 		"order": 18,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "soup",
+		"name": "bottle_of_water",
 		"order": 19,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "berry",
+		"name": "soup",
 		"order": 20,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "tea",
+		"name": "berry",
 		"order": 21,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "leaf",
+		"name": "tea",
 		"order": 22,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "raw_meat",
+		"name": "leaf",
 		"order": 23,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "apparel",
+		"name": "raw_meat",
 		"order": 24,
+		"category": "food",
+		"isDeleted": false
+	},
+	{
+		"name": "apparel",
+		"order": 25,
 		"category": "apparel",
 		"isDeleted": false
 	},
 	{
 		"name": "opened_box",
-		"order": 25,
-		"category": "misc",
-		"isDeleted": false
-	},
-	{
-		"name": "key",
 		"order": 26,
 		"category": "misc",
 		"isDeleted": false
 	},
 	{
-		"name": "quest",
+		"name": "key",
 		"order": 27,
 		"category": "misc",
 		"isDeleted": false
 	},
 	{
-		"name": "junk",
+		"name": "quest",
 		"order": 28,
+		"category": "misc",
+		"isDeleted": false
+	},
+	{
+		"name": "junk",
+		"order": 29,
 		"category": "junk",
 		"isDeleted": false
 	}
