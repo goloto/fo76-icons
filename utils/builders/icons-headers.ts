@@ -15,8 +15,8 @@ const FILE_HEADER = `#Do Not Edit
 [EndHeader]`;
 const RULE_TEMPLATE = `[StartRule]
  Header=${HEADER_ANCHOR}
- rSig=${RIGHT_SIGNATURE_ANCHOR}
- fSig=${LEFT_SIGNATURE_ANCHOR}
+ rSig=${LEFT_SIGNATURE_ANCHOR}
+ fSig=${RIGHT_SIGNATURE_ANCHOR}
  enabled=-1
  tagID=default
  noKW=0

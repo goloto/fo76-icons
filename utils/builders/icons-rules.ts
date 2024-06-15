@@ -50,8 +50,8 @@ const generateIconHeader = (): string => '0x' + HEADER_GENERATOR.next().value.to
 
 const createDefaultInfo = (item: IconOrder): IconRule => ({ 
   name: item.name, 
-  leftSignature: ICONS_CATEGORY_SIGNATURE_MAP[item.category],
   rightSignature: RightSignature.FULL,
+  leftSignature: ICONS_CATEGORY_SIGNATURE_MAP[item.category],
   isDeleted: false,
   header: generateIconHeader(),
   include: [],

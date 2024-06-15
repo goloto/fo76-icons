@@ -7,8 +7,8 @@
 
 [StartRule]
  Header=⊄
- rSig=FULL
- fSig=BOOK
+ rSig=BOOK
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -25,8 +25,8 @@
 
 [StartRule]
  Header=⊅
- rSig=FULL
- fSig=BOOK
+ rSig=BOOK
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -43,8 +43,8 @@
 
 [StartRule]
  Header=⊆
- rSig=FULL
- fSig=AMMO
+ rSig=AMMO
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -62,8 +62,8 @@
 
 [StartRule]
  Header=⊇
- rSig=FULL
- fSig=AMMO
+ rSig=AMMO
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -80,8 +80,8 @@
 
 [StartRule]
  Header=⊈
- rSig=FULL
- fSig=WEAP
+ rSig=WEAP
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -98,8 +98,8 @@
 
 [StartRule]
  Header=⊉
- rSig=FULL
- fSig=WEAP
+ rSig=WEAP
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -116,8 +116,8 @@
 
 [StartRule]
  Header=⊊
- rSig=FULL
- fSig=WEAP
+ rSig=WEAP
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -134,8 +134,8 @@
 
 [StartRule]
  Header=⊋
- rSig=FULL
- fSig=WEAP
+ rSig=WEAP
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -152,8 +152,8 @@
 
 [StartRule]
  Header=⊌
- rSig=FULL
- fSig=WEAP
+ rSig=WEAP
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -170,8 +170,8 @@
 
 [StartRule]
  Header=⊍
- rSig=FULL
- fSig=WEAP
+ rSig=WEAP
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -188,8 +188,8 @@
 
 [StartRule]
  Header=⊎
- rSig=FULL
- fSig=ALCH
+ rSig=ALCH
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -206,8 +206,8 @@
 
 [StartRule]
  Header=⊏
- rSig=FULL
- fSig=BOOK
+ rSig=BOOK
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -224,8 +224,8 @@
 
 [StartRule]
  Header=⊐
- rSig=FULL
- fSig=ALCH
+ rSig=ALCH
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -242,8 +242,8 @@
 
 [StartRule]
  Header=⊑
- rSig=FULL
- fSig=ALCH
+ rSig=ALCH
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -260,8 +260,8 @@
 
 [StartRule]
  Header=⊒
- rSig=FULL
- fSig=ARMO
+ rSig=ARMO
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -278,8 +278,8 @@
 
 [StartRule]
  Header=⊓
- rSig=FULL
- fSig=ARMO
+ rSig=ARMO
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -296,8 +296,8 @@
 
 [StartRule]
  Header=⊔
- rSig=FULL
- fSig=ALCH
+ rSig=ALCH
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -314,8 +314,8 @@
 
 [StartRule]
  Header=⊕
- rSig=FULL
- fSig=ALCH
+ rSig=ALCH
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -332,8 +332,8 @@
 
 [StartRule]
  Header=⊖
- rSig=FULL
- fSig=ALCH
+ rSig=ALCH
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -350,8 +350,8 @@
 
 [StartRule]
  Header=⊗
- rSig=FULL
- fSig=ALCH
+ rSig=ALCH
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -368,8 +368,8 @@
 
 [StartRule]
  Header=⊘
- rSig=FULL
- fSig=ALCH
+ rSig=ALCH
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -386,8 +386,8 @@
 
 [StartRule]
  Header=⊙
- rSig=FULL
- fSig=ALCH
+ rSig=ALCH
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -404,8 +404,8 @@
 
 [StartRule]
  Header=⊚
- rSig=FULL
- fSig=ALCH
+ rSig=ALCH
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -422,8 +422,8 @@
 
 [StartRule]
  Header=⊛
- rSig=FULL
- fSig=ALCH
+ rSig=ALCH
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -440,8 +440,8 @@
 
 [StartRule]
  Header=⊜
- rSig=FULL
- fSig=ALCH
+ rSig=ALCH
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -458,8 +458,8 @@
 
 [StartRule]
  Header=⊝
- rSig=FULL
- fSig=ARMO
+ rSig=ARMO
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -476,8 +476,8 @@
 
 [StartRule]
  Header=⊞
- rSig=FULL
- fSig=MISC
+ rSig=MISC
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -494,8 +494,8 @@
 
 [StartRule]
  Header=⊟
- rSig=FULL
- fSig=KEYM
+ rSig=KEYM
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -512,8 +512,8 @@
 
 [StartRule]
  Header=⊠
- rSig=FULL
- fSig=MISC
+ rSig=MISC
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -530,8 +530,8 @@
 
 [StartRule]
  Header=⊡
- rSig=FULL
- fSig=MISC
+ rSig=MISC
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0

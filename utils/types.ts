@@ -2,8 +2,8 @@ import type { LeftSignature, RightSignature } from "./const";
 
 export interface IconRule {
   name: string;
-  rightSignature: RightSignature;
   leftSignature: LeftSignature;
+  rightSignature: RightSignature;
   isDeleted: boolean;
   header?: string;
   include?: string[];
