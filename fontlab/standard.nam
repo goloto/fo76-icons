@@ -1,3 +1,6 @@
+%%FONTLAB NAMETABLE: FontLab 7
+% Version 4.4.3 / 2023-02-03
+% See README-standardnam.md for description and licensing info
 0x000D !controlCR
 0x000D >CR
 0x0020 !Space
@@ -20170,4 +20173,4 @@
 0x2263 >strictlyequivalent
 0x2264 lessequal
 0x2265 greaterequal
-%custom-names%
+%custom-names%0x2266 note0x2267 plan0x2268 ballistic_ammo0x2269 rocket0x226a grenade0x226b one_handed_melee0x226c mine0x226d unarmed0x226e two_handed_melee0x226f weapon0x2270 magazine0x2271 doctors_bag0x2272 chems0x2273 stimpack0x2274 helmet0x2275 chest_armor0x2276 bottle_of_wine0x2277 corn0x2278 cake0x2279 bottle_of_water0x227a soup0x227b berry0x227c tea0x227d leaf0x227e raw_meat0x227f apparel0x2280 opened_box0x2281 key0x2282 quest0x2283 junk
