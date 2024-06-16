@@ -1,6 +1,6 @@
 import type { IconOrder, IconRule, IconRuleMap } from "../types";
 import { readIconRulesFile, readIconsOrderFile } from "../file-reading";
-import { ICONS_CATEGORY_SIGNATURE_MAP, JSON_DIRECTORY, RightSignature } from "../const";
+import { ICONS_DEFAULT_RULES, JSON_DIRECTORY } from "../const";
 import { getNumFromHexadecimal } from "../common";
 import { writeJson } from "../file-writing";
 
@@ -50,14 +50,14 @@ const generateIconHeader = (): string => '0x' + HEADER_GENERATOR.next().value.to
 
 const createDefaultInfo = (item: IconOrder): IconRule => ({ 
   name: item.name, 
-  rightSignature: RightSignature.FULL,
-  leftSignature: ICONS_CATEGORY_SIGNATURE_MAP[item.category],
   isDeleted: false,
   isAnyKeyword: false,
   isInclusiveOr: false,
+  isFullReplace: false,
   header: generateIconHeader(),
   include: [],
   exclude: [],
+  ...ICONS_DEFAULT_RULES[item.category],
 });
 
 await buildIconRules();
