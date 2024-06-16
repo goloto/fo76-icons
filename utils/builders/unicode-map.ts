@@ -1,4 +1,5 @@
 import { readIconRulesFile, readUnicodeMapFile } from "../file-reading";
+import { writeUtf8BomString } from "../file-writing";
 
 const TEMPLATE_LINK = '%custom-names%';
 
@@ -12,7 +13,7 @@ export const buildUnicodeMap = async () => {
     return `${accumulator}${item.header} ${item.name}${newLine}`;
   }, slicedMap);
   
-  await Bun.write('./fontlab/standard.nam', newMap);
+  await writeUtf8BomString('./fontlab/standard.nam', newMap);
 }
 
 await buildUnicodeMap();
