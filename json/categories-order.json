@@ -1,52 +1,62 @@
 {
+	"legendary": {
+		"name": "legendary",
+		"order": 0,
+		"isDeleted": false
+	},
 	"notes": {
 		"name": "notes",
-		"order": 0,
+		"order": 1,
 		"isDeleted": false
 	},
 	"ammo": {
 		"name": "ammo",
-		"order": 1,
+		"order": 2,
 		"isDeleted": false
 	},
 	"weapons": {
 		"name": "weapons",
-		"order": 2,
+		"order": 3,
 		"isDeleted": false
 	},
 	"aid": {
 		"name": "aid",
-		"order": 3,
+		"order": 4,
 		"isDeleted": false
 	},
 	"armor": {
 		"name": "armor",
-		"order": 4,
+		"order": 5,
 		"isDeleted": false
 	},
 	"food": {
 		"name": "food",
-		"order": 5,
+		"order": 6,
 		"isDeleted": false
 	},
 	"apparel": {
 		"name": "apparel",
-		"order": 6,
+		"order": 7,
 		"isDeleted": false
 	},
 	"misc": {
 		"name": "misc",
-		"order": 7,
+		"order": 8,
 		"isDeleted": false
 	},
 	"junk": {
 		"name": "junk",
-		"order": 8,
+		"order": 9,
 		"isDeleted": false
 	},
 	"keys": {
 		"name": "keys",
-		"order": 9,
+		"order": 10,
+		"isDeleted": false
+	},
+	"events": {
+		"name": "events",
+		"order": 11,
 		"isDeleted": false
 	},
 	"modifications": {
