@@ -144,13 +144,13 @@
 		"isDeleted": false
 	},
 	{
-		"name": "alcohol_glass",
+		"name": "bottle_of_wine",
 		"order": 24,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "bottle_of_wine",
+		"name": "alcohol_glass",
 		"order": 25,
 		"category": "food",
 		"isDeleted": false

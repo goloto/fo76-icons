@@ -47,18 +47,7 @@
 		"isDeleted": false,
 		"header": "0x2293",
 		"include": [
-			"ekwd|MagazineKeyword",
-			"ekwd|MagazineTypeTeslaScience",
-			"ekwd|MagazineTypeScout",
-			"ekwd|MagazineTypeGrognak",
-			"ekwd|MagazineTypeBackwoodsman",
-			"ekwd|MagazineTypeLiveAndLove",
-			"ekwd|MagazineTypeBedtime",
-			"ekwd|MagazineTypeAwesome",
-			"ekwd|MagazineTypeUnstoppables",
-			"ekwd|MagazineTypeGunsAndBullets",
-			"ekwd|MagazineTypeUSCovertOperations",
-			"ekwd|MagazineTypeTumblers"
+			"ekwd|MagazineKeyword"
 		],
 		"exclude": [],
 		"isAnyKeyword": false,
@@ -177,7 +166,7 @@
 		"isInclusiveOr": false,
 		"header": "0x229c",
 		"include": [
-			"edid|003DF247"
+			"edid|lunchbox"
 		],
 		"exclude": []
 	},
@@ -334,25 +323,11 @@
 		"isInclusiveOr": false
 	},
 	{
-		"name": "alcohol_glass",
-		"rightSignature": "FULL",
-		"leftSignature": "ALCH",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"header": "0x22a8",
-		"include": [
-			"ekwd|ObjectTypeDrink",
-			"ekwd|DrinkTypeAlcohol"
-		],
-		"exclude": [],
-		"isInclusiveOr": false
-	},
-	{
 		"name": "bottle_of_wine",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22a9",
+		"header": "0x22a8",
 		"include": [
 			"ekwd|ObjectTypeDrink",
 			"ekwd|DrinkTypeAlcohol",
@@ -360,6 +335,20 @@
 		],
 		"exclude": [],
 		"isAnyKeyword": false,
+		"isInclusiveOr": false
+	},
+	{
+		"name": "alcohol_glass",
+		"rightSignature": "FULL",
+		"leftSignature": "ALCH",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"header": "0x22a9",
+		"include": [
+			"ekwd|ObjectTypeDrink",
+			"ekwd|DrinkTypeAlcohol"
+		],
+		"exclude": [],
 		"isInclusiveOr": false
 	},
 	{
@@ -483,7 +472,7 @@
 		"isInclusiveOr": false,
 		"header": "0x22b2",
 		"include": [
-			"edid|005A5443"
+			"edid|Treasury_Note"
 		],
 		"exclude": []
 	},
@@ -534,7 +523,9 @@
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"header": "0x22b6",
-		"include": [],
+		"include": [
+			"edid|TreasureMap"
+		],
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false
@@ -561,7 +552,9 @@
 		"isAnyKeyword": false,
 		"header": "0x22b8",
 		"include": [
-			"edid|keycard"
+			"edid|keycard",
+			"edid|idcard",
+			"edid|password"
 		],
 		"exclude": [],
 		"isInclusiveOr": false
@@ -576,7 +569,9 @@
 			"edid|key"
 		],
 		"exclude": [
-			"edid|keycard"
+			"edid|keycard",
+			"edid|idcard",
+			"edid|password"
 		],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false
