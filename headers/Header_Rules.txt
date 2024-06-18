@@ -15,7 +15,7 @@
  anyKW=0
  hasCompo=0
  preProcess=0
- fullReplace=0
+ fullReplace=-1
  includeOR=0
  isFallBack=0
  fallbackBank=0
@@ -33,7 +33,7 @@
  anyKW=0
  hasCompo=0
  preProcess=0
- fullReplace=0
+ fullReplace=-1
  includeOR=0
  isFallBack=0
  fallbackBank=0
@@ -51,7 +51,7 @@
  anyKW=0
  hasCompo=0
  preProcess=0
- fullReplace=0
+ fullReplace=-1
  includeOR=-1
  isFallBack=0
  fallbackBank=0
@@ -70,7 +70,7 @@
  anyKW=0
  hasCompo=0
  preProcess=0
- fullReplace=0
+ fullReplace=-1
  includeOR=0
  isFallBack=0
  fallbackBank=0
@@ -88,7 +88,7 @@
  anyKW=0
  hasCompo=0
  preProcess=0
- fullReplace=0
+ fullReplace=-1
  includeOR=-1
  isFallBack=0
  fallbackBank=0
@@ -107,7 +107,7 @@
  anyKW=0
  hasCompo=0
  preProcess=0
- fullReplace=0
+ fullReplace=-1
  includeOR=-1
  isFallBack=0
  fallbackBank=0
@@ -126,7 +126,7 @@
  anyKW=0
  hasCompo=0
  preProcess=0
- fullReplace=0
+ fullReplace=-1
  includeOR=0
  isFallBack=0
  fallbackBank=0
@@ -144,7 +144,7 @@
  anyKW=0
  hasCompo=0
  preProcess=0
- fullReplace=0
+ fullReplace=-1
  includeOR=-1
  isFallBack=0
  fallbackBank=0
@@ -163,7 +163,7 @@
  anyKW=0
  hasCompo=0
  preProcess=0
- fullReplace=0
+ fullReplace=-1
  includeOR=0
  isFallBack=0
  fallbackBank=0
@@ -181,7 +181,7 @@
  anyKW=0
  hasCompo=0
  preProcess=0
- fullReplace=0
+ fullReplace=-1
  includeOR=0
  isFallBack=0
  fallbackBank=0
@@ -199,12 +199,12 @@
  anyKW=0
  hasCompo=0
  preProcess=0
- fullReplace=0
+ fullReplace=-1
  includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=HasLegendary_Armor_LessDMGBugs
- Include_1=HasLegendary_Weapon_DamageVsBugs
+ Include_0=ekwd|HasLegendary_Armor_LessDMGBugs
+ Include_1=ekwd|HasLegendary_Weapon_DamageVsBugs
  Exclude_0=
 [EndRule]
 
@@ -218,7 +218,7 @@
  anyKW=0
  hasCompo=0
  preProcess=0
- fullReplace=0
+ fullReplace=-1
  includeOR=0
  isFallBack=0
  fallbackBank=0
@@ -236,7 +236,7 @@
  anyKW=0
  hasCompo=0
  preProcess=0
- fullReplace=0
+ fullReplace=-1
  includeOR=-1
  isFallBack=0
  fallbackBank=0
@@ -255,7 +255,7 @@
  anyKW=0
  hasCompo=0
  preProcess=0
- fullReplace=0
+ fullReplace=-1
  includeOR=0
  isFallBack=0
  fallbackBank=0
@@ -273,7 +273,7 @@
  anyKW=0
  hasCompo=0
  preProcess=0
- fullReplace=0
+ fullReplace=-1
  includeOR=0
  isFallBack=0
  fallbackBank=0
@@ -291,7 +291,7 @@
  anyKW=0
  hasCompo=0
  preProcess=0
- fullReplace=0
+ fullReplace=-1
  includeOR=-1
  isFallBack=0
  fallbackBank=0
@@ -310,7 +310,7 @@
  anyKW=0
  hasCompo=0
  preProcess=0
- fullReplace=0
+ fullReplace=-1
  includeOR=-1
  isFallBack=0
  fallbackBank=0
@@ -329,7 +329,7 @@
  anyKW=0
  hasCompo=0
  preProcess=0
- fullReplace=0
+ fullReplace=-1
  includeOR=-1
  isFallBack=0
  fallbackBank=0
@@ -348,7 +348,7 @@
  anyKW=0
  hasCompo=0
  preProcess=0
- fullReplace=0
+ fullReplace=-1
  includeOR=0
  isFallBack=0
  fallbackBank=0
@@ -366,7 +366,7 @@
  anyKW=0
  hasCompo=0
  preProcess=0
- fullReplace=0
+ fullReplace=-1
  includeOR=-1
  isFallBack=0
  fallbackBank=0

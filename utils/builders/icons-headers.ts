@@ -9,6 +9,7 @@ const RIGHT_SIGNATURE_ANCHOR = '%right-signature%';
 const LEFT_SIGNATURE_ANCHOR = '%left-signature%';
 const IS_ANY_KEYWORD_ANCHOR = '%any-keyword%';
 const IS_INCLUSIVE_OR_ANCHOR = '%inclusive-or%';
+const IS_FULL_REPLACED = '%full-replaced%';
 const FILE_HEADER = `#Do Not Edit
 [version=3]
 [StartHeader]
@@ -25,7 +26,7 @@ const RULE_TEMPLATE = `[StartRule]
  anyKW=${IS_ANY_KEYWORD_ANCHOR}
  hasCompo=0
  preProcess=0
- fullReplace=0
+ fullReplace=${IS_FULL_REPLACED}
  includeOR=${IS_INCLUSIVE_OR_ANCHOR}
  isFallBack=0
  fallbackBank=0
@@ -44,6 +45,7 @@ export const buildHeaders = async () => {
         leftSignature, 
         isAnyKeyword,
         isInclusiveOr,
+        isFullReplaced,
         include, 
         exclude
       } = item;
@@ -53,6 +55,7 @@ export const buildHeaders = async () => {
         .replace(LEFT_SIGNATURE_ANCHOR, leftSignature)
         .replace(IS_ANY_KEYWORD_ANCHOR, replaceBoolean(isAnyKeyword))
         .replace(IS_INCLUSIVE_OR_ANCHOR, replaceBoolean(isInclusiveOr))
+        .replace(IS_FULL_REPLACED, replaceBoolean(isFullReplaced))
         .replace(INCLUDE_ANCHOR, concatenateInclude(include))
         .replace(EXCLUDE_ANCHOR, concatenateExclude(exclude));
 

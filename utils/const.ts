@@ -37,53 +37,62 @@ export enum LeftSignature {
 }
 
 export const ICONS_DEFAULT_RULES: Record<
-    string, 
-    Pick<IconRule, 'leftSignature' | 'rightSignature'> 
-      & Partial<Pick<IconRule, 'isFullReplace'>>
-  > = {
+  string, 
+  Pick<IconRule, 'leftSignature' | 'rightSignature' | 'isFullReplaced'>
+> = {
   aid: {
     rightSignature: RightSignature.FULL,
     leftSignature: LeftSignature.Alchemy,
+    isFullReplaced: true,
   },
   ammo: {
     leftSignature: LeftSignature.Ammunition,
     rightSignature: RightSignature.FULL,
+    isFullReplaced: true,
   },
   apparel: {
     leftSignature: LeftSignature.Armor,
-    rightSignature: RightSignature.FULL
+    rightSignature: RightSignature.FULL,
+    isFullReplaced: true,
   },
   armor: {
     leftSignature: LeftSignature.Armor,
     rightSignature: RightSignature.FULL,
+    isFullReplaced: true,
   },
   food: {
     leftSignature: LeftSignature.Alchemy,
     rightSignature: RightSignature.FULL,
+    isFullReplaced: true,
   },
   junk: {
     leftSignature: LeftSignature.Misc,
     rightSignature: RightSignature.FULL,
+    isFullReplaced: true,
   },
   keys: {
     leftSignature: LeftSignature.Key,
     rightSignature: RightSignature.FULL,
+    isFullReplaced: true,
   },
   legendary: {
     leftSignature: LeftSignature.InstanceNamingRules,
     rightSignature: RightSignature.WNAM,
-    isFullReplace: true,
+    isFullReplaced: true,
   },
   notes: {
     leftSignature: LeftSignature.Book,
     rightSignature: RightSignature.FULL,
+    isFullReplaced: true,
   },
   weapons: {
     leftSignature: LeftSignature.Weapon,
     rightSignature: RightSignature.FULL,
+    isFullReplaced: true,
   },
   misc: {
     leftSignature: LeftSignature.Misc,
     rightSignature: RightSignature.FULL,
+    isFullReplaced: true,
   },
 };

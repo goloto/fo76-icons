@@ -53,7 +53,6 @@ const createDefaultInfo = (item: IconOrder): IconRule => ({
   isDeleted: false,
   isAnyKeyword: false,
   isInclusiveOr: false,
-  isFullReplace: false,
   header: generateIconHeader(),
   include: [],
   exclude: [],

@@ -7,12 +7,11 @@ export interface IconRule {
   isDeleted: boolean;
   isAnyKeyword: boolean;
   isInclusiveOr: boolean;
-  isFullReplace: boolean;
+  isFullReplaced: boolean;
   header?: string;
   include?: string[];
   exclude?: string[];
   isEnabled?: boolean;
-  isFullReplaced?: boolean;
   isFallback?: boolean;
 }
 

@@ -11,7 +11,7 @@
 			"ekwd|HasLegendary_Weapon_DamageInverseHealth"
 		],
 		"exclude": [],
-		"isFullReplace": true
+		"isFullReplaced": true
 	},
 	{
 		"name": "broken_shield",
@@ -25,14 +25,14 @@
 			"ekwd|HasLegendary_Weapon_AntiArmor"
 		],
 		"exclude": [],
-		"isFullReplace": true
+		"isFullReplaced": true
 	},
 	{
 		"name": "food_and_wine",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
-		"isFullReplace": true,
+		"isFullReplaced": true,
 		"header": "0x22a7",
 		"include": [
 			"ekwd|HasLegendary_Weapon_Gourmand",
@@ -47,7 +47,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": true,
+		"isFullReplaced": true,
 		"header": "0x22a8",
 		"include": [
 			"ekwd|HasLegendary_Weapon_AccuracyNotInCombat"
@@ -61,7 +61,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
-		"isFullReplace": true,
+		"isFullReplaced": true,
 		"header": "0x22a9",
 		"include": [
 			"ekwd|HasLegendary_Armor_LessDMGScorched",
@@ -76,7 +76,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
-		"isFullReplace": true,
+		"isFullReplaced": true,
 		"header": "0x22aa",
 		"include": [
 			"ekwd|HasLegendary_Armor_LessDMGGhouls",
@@ -91,7 +91,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": true,
+		"isFullReplaced": true,
 		"header": "0x22ab",
 		"include": [
 			"ekwd|HasLegendary_Weapon_AmmoCapacity4x"
@@ -105,7 +105,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
-		"isFullReplace": true,
+		"isFullReplaced": true,
 		"header": "0x22ac",
 		"include": [
 			"ekwd|HasLegendary_Armor_ResistancesNight",
@@ -125,7 +125,7 @@
 		"header": "0x22ad",
 		"include": [],
 		"exclude": [],
-		"isFullReplace": true
+		"isFullReplaced": true
 	},
 	{
 		"name": "viking_helmet",
@@ -139,7 +139,7 @@
 			"ekwd|HasLegendary_Weapon_DamageUnarmored"
 		],
 		"exclude": [],
-		"isFullReplace": true
+		"isFullReplaced": true
 	},
 	{
 		"name": "cockroach",
@@ -150,18 +150,18 @@
 		"isInclusiveOr": true,
 		"header": "0x22af",
 		"include": [
-			"HasLegendary_Armor_LessDMGBugs",
-			"HasLegendary_Weapon_DamageVsBugs"
+			"ekwd|HasLegendary_Armor_LessDMGBugs",
+			"ekwd|HasLegendary_Weapon_DamageVsBugs"
 		],
 		"exclude": [],
-		"isFullReplace": true
+		"isFullReplaced": true
 	},
 	{
 		"name": "two_bullets",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": true,
+		"isFullReplaced": true,
 		"header": "0x22b0",
 		"include": [
 			"ekwd|HasLegendary_Weapon_TwoShot"
@@ -183,14 +183,14 @@
 			"ekwd|HasLegendary_Weapon_DamageVsPlayers"
 		],
 		"exclude": [],
-		"isFullReplace": true
+		"isFullReplaced": true
 	},
 	{
 		"name": "pills",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": true,
+		"isFullReplaced": true,
 		"header": "0x22b2",
 		"include": [
 			"ekwd|HasLegendary_Weapon_DamageAddiction"
@@ -204,7 +204,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": true,
+		"isFullReplaced": true,
 		"header": "0x22b3",
 		"include": [
 			"ekwd|HasLegendary_Weapon_DamageConsecutiveHits"
@@ -218,7 +218,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
-		"isFullReplace": true,
+		"isFullReplaced": true,
 		"header": "0x22b4",
 		"include": [
 			"ekwd|HasLegendary_Weapon_DamageVsRobots",
@@ -233,7 +233,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
-		"isFullReplace": true,
+		"isFullReplaced": true,
 		"header": "0x22b5",
 		"include": [
 			"ekwd|HasLegendary_Armor_LessDMGSupermutants",
@@ -256,7 +256,7 @@
 			"ekwd|HasLegendary_Weapon_DamageViaCaps"
 		],
 		"exclude": [],
-		"isFullReplace": true
+		"isFullReplaced": true
 	},
 	{
 		"name": "health_below_forty",
@@ -270,14 +270,14 @@
 			"ekwd|HasLegendary_Weapon_Execute"
 		],
 		"exclude": [],
-		"isFullReplace": true
+		"isFullReplaced": true
 	},
 	{
 		"name": "wolf",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
-		"isFullReplace": true,
+		"isFullReplaced": true,
 		"header": "0x22b8",
 		"include": [
 			"ekwd|HasLegendary_Weapon_DamageVsAnimals",
@@ -300,7 +300,7 @@
 		],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "plan",
@@ -314,7 +314,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "videotape",
@@ -329,7 +329,7 @@
 		],
 		"exclude": [],
 		"isInclusiveOr": true,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "magazine",
@@ -343,7 +343,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "ballistic_ammo",
@@ -357,7 +357,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "rocket",
@@ -371,7 +371,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "grenade",
@@ -385,7 +385,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "mine",
@@ -399,7 +399,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "unarmed",
@@ -413,7 +413,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "one_handed_melee",
@@ -427,7 +427,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "two_handed_melee",
@@ -441,7 +441,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "weapon",
@@ -455,7 +455,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "lunchbox",
@@ -469,7 +469,7 @@
 			"edid|lunchbox"
 		],
 		"exclude": [],
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "bobblehead",
@@ -483,7 +483,7 @@
 		],
 		"exclude": [],
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "stimpak",
@@ -497,7 +497,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "doctors_bag",
@@ -514,7 +514,7 @@
 		],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "chems",
@@ -531,7 +531,7 @@
 		],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "chest_armor",
@@ -545,7 +545,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "helmet",
@@ -559,7 +559,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "moldy_food",
@@ -573,7 +573,7 @@
 			"ekwd|IngredientTypeMoldy"
 		],
 		"exclude": [],
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "tea",
@@ -587,7 +587,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "vegan_food",
@@ -603,7 +603,7 @@
 		],
 		"exclude": [],
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "bottle_of_water",
@@ -617,7 +617,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "nuka_cola",
@@ -632,7 +632,7 @@
 		],
 		"exclude": [],
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "bottle_of_wine",
@@ -648,7 +648,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "alcohol_glass",
@@ -663,7 +663,7 @@
 		],
 		"exclude": [],
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "corn",
@@ -677,7 +677,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "soup",
@@ -692,7 +692,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "berry",
@@ -706,7 +706,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "leaf",
@@ -724,7 +724,7 @@
 		],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "cake",
@@ -738,7 +738,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "cooked_meat",
@@ -754,7 +754,7 @@
 			"ekwd|MealTypeCooked"
 		],
 		"exclude": [],
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "raw_meat",
@@ -769,7 +769,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "apparel",
@@ -783,7 +783,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "treasure_note",
@@ -797,7 +797,7 @@
 			"edid|Treasury_Note"
 		],
 		"exclude": [],
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "token",
@@ -811,7 +811,7 @@
 			"edid|token"
 		],
 		"exclude": [],
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "cards",
@@ -825,7 +825,7 @@
 			"ekwd|Moon_CryptidCardKeyword"
 		],
 		"exclude": [],
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "opened_box",
@@ -841,7 +841,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "quest",
@@ -855,7 +855,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "junk",
@@ -870,7 +870,7 @@
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "keycard",
@@ -886,7 +886,7 @@
 		],
 		"exclude": [],
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "key",
@@ -904,14 +904,14 @@
 		],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false
+		"isFullReplaced": false
 	},
 	{
 		"name": "eviction_notice",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplace": false,
+		"isFullReplaced": false,
 		"header": "0x22e3",
 		"include": [],
 		"exclude": []
