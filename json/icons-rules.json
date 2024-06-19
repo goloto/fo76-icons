@@ -6,7 +6,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"header": "0x22a5",
+		"header": "0x22b1",
 		"include": [
 			"ekwd|HasLegendary_Weapon_DamageInverseHealth"
 		],
@@ -20,7 +20,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"header": "0x22a6",
+		"header": "0x22b2",
 		"include": [
 			"ekwd|HasLegendary_Weapon_AntiArmor"
 		],
@@ -33,7 +33,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": true,
-		"header": "0x22a7",
+		"header": "0x22b3",
 		"include": [
 			"ekwd|HasLegendary_Weapon_Gourmand",
 			"ekwd|HasLegendary_Armor_Overeater"
@@ -48,7 +48,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x22a8",
+		"header": "0x22b4",
 		"include": [
 			"ekwd|HasLegendary_Weapon_AccuracyNotInCombat"
 		],
@@ -62,7 +62,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": true,
-		"header": "0x22a9",
+		"header": "0x22b5",
 		"include": [
 			"ekwd|HasLegendary_Armor_LessDMGScorched",
 			"ekwd|HasLegendary_Weapon_DamageVsScorched"
@@ -77,7 +77,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": true,
-		"header": "0x22aa",
+		"header": "0x22b6",
 		"include": [
 			"ekwd|HasLegendary_Armor_LessDMGGhouls",
 			"ekwd|HasLegendary_Weapon_DamageVsGhouls"
@@ -92,7 +92,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x22ab",
+		"header": "0x22b7",
 		"include": [
 			"ekwd|HasLegendary_Weapon_AmmoCapacity4x"
 		],
@@ -106,7 +106,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": true,
-		"header": "0x22ac",
+		"header": "0x22b8",
 		"include": [
 			"ekwd|HasLegendary_Armor_ResistancesNight",
 			"ekwd|HasLegendary_Weapon_DamageNight"
@@ -122,7 +122,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"header": "0x22ad",
+		"header": "0x22b9",
 		"include": [],
 		"exclude": [],
 		"isFullReplaced": true
@@ -134,7 +134,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"header": "0x22ae",
+		"header": "0x22ba",
 		"include": [
 			"ekwd|HasLegendary_Weapon_DamageUnarmored"
 		],
@@ -148,7 +148,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
-		"header": "0x22af",
+		"header": "0x22bb",
 		"include": [
 			"ekwd|HasLegendary_Armor_LessDMGBugs",
 			"ekwd|HasLegendary_Weapon_DamageVsBugs"
@@ -162,7 +162,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x22b0",
+		"header": "0x22bc",
 		"include": [
 			"ekwd|HasLegendary_Weapon_TwoShot"
 		],
@@ -177,7 +177,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
-		"header": "0x22b1",
+		"header": "0x22bd",
 		"include": [
 			"ekwd|HasLegendary_Armor_LessDMGHumans",
 			"ekwd|HasLegendary_Weapon_DamageVsPlayers"
@@ -191,7 +191,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x22b2",
+		"header": "0x22be",
 		"include": [
 			"ekwd|HasLegendary_Weapon_DamageAddiction"
 		],
@@ -205,7 +205,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x22b3",
+		"header": "0x22bf",
 		"include": [
 			"ekwd|HasLegendary_Weapon_DamageConsecutiveHits"
 		],
@@ -219,7 +219,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": true,
-		"header": "0x22b4",
+		"header": "0x22c0",
 		"include": [
 			"ekwd|HasLegendary_Weapon_DamageVsRobots",
 			"ekwd|HasLegendary_Armor_LessDMGRobots"
@@ -234,7 +234,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": true,
-		"header": "0x22b5",
+		"header": "0x22c1",
 		"include": [
 			"ekwd|HasLegendary_Armor_LessDMGSupermutants",
 			"ekwd|HasLegendary_Weapon_DamageVsSupermutants"
@@ -250,7 +250,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
-		"header": "0x22b6",
+		"header": "0x22c2",
 		"include": [
 			"ekwd|HasLegendary_Armor_ResistancesProportionalCaps",
 			"ekwd|HasLegendary_Weapon_DamageViaCaps"
@@ -265,7 +265,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"header": "0x22b7",
+		"header": "0x22c3",
 		"include": [
 			"ekwd|HasLegendary_Weapon_Execute"
 		],
@@ -278,7 +278,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": true,
-		"header": "0x22b8",
+		"header": "0x22c4",
 		"include": [
 			"ekwd|HasLegendary_Weapon_DamageVsAnimals",
 			"ekwd|HasLegendary_Armor_LessDMGAnimals"
@@ -292,7 +292,7 @@
 		"leftSignature": "BOOK",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22b9",
+		"header": "0x22c5",
 		"include": [],
 		"exclude": [
 			"ekwd|ObjectTypeRecipe",
@@ -307,7 +307,7 @@
 		"leftSignature": "BOOK",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22ba",
+		"header": "0x22c6",
 		"include": [
 			"ekwd|ObjectTypeRecipe"
 		],
@@ -322,7 +322,7 @@
 		"leftSignature": "NOTE",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"header": "0x22bb",
+		"header": "0x22c7",
 		"include": [
 			"edid|holotape",
 			"ekwd|UnsellableObject"
@@ -332,17 +332,29 @@
 		"isFullReplaced": false
 	},
 	{
-		"name": "magazine",
-		"leftSignature": "BOOK",
-		"rightSignature": "FULL",
+		"name": "mini_nuke",
 		"isDeleted": false,
-		"header": "0x22bc",
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"header": "0x22c8",
+		"include": [],
+		"exclude": [],
+		"leftSignature": "AMMO",
+		"rightSignature": "FULL",
+		"isFullReplaced": false
+	},
+	{
+		"name": "fusion_core",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"header": "0x22c9",
 		"include": [
-			"ekwd|MagazineKeyword"
+			"ekwd|AmmoTypeFusionCore"
 		],
 		"exclude": [],
-		"isAnyKeyword": false,
-		"isInclusiveOr": true,
+		"leftSignature": "AMMO",
+		"rightSignature": "FULL",
 		"isFullReplaced": false
 	},
 	{
@@ -350,7 +362,7 @@
 		"leftSignature": "AMMO",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22bd",
+		"header": "0x22ca",
 		"include": [
 			"ekwd|ObjectTypeAmmo"
 		],
@@ -364,7 +376,7 @@
 		"leftSignature": "AMMO",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22be",
+		"header": "0x22cb",
 		"include": [
 			"edid|000CABA3"
 		],
@@ -374,11 +386,39 @@
 		"isFullReplaced": false
 	},
 	{
+		"name": "binoculars",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"header": "0x22cc",
+		"include": [
+			"ekwd|ma_binoculars"
+		],
+		"exclude": [],
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isFullReplaced": false
+	},
+	{
+		"name": "camera",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"header": "0x22cd",
+		"include": [
+			"ekwd|ObjectTypeCamera"
+		],
+		"exclude": [],
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isFullReplaced": false
+	},
+	{
 		"name": "grenade",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22bf",
+		"header": "0x22ce",
 		"include": [
 			"ekwd|WeaponTypeGrenade"
 		],
@@ -392,7 +432,7 @@
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22c0",
+		"header": "0x22cf",
 		"include": [
 			"ekwd|WeaponTypeMine"
 		],
@@ -406,7 +446,7 @@
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22c1",
+		"header": "0x22d0",
 		"include": [
 			"ekwd|WeaponTypeUnarmed"
 		],
@@ -420,7 +460,7 @@
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22c2",
+		"header": "0x22d1",
 		"include": [
 			"ekwd|WeaponTypeMelee1H"
 		],
@@ -434,7 +474,7 @@
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22c3",
+		"header": "0x22d2",
 		"include": [
 			"ekwd|WeaponTypeMelee2H"
 		],
@@ -448,7 +488,7 @@
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22c4",
+		"header": "0x22d3",
 		"include": [
 			"ekwd|ObjectTypeWeapon"
 		],
@@ -458,13 +498,41 @@
 		"isFullReplaced": false
 	},
 	{
+		"name": "mutation_serum",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"header": "0x22d4",
+		"include": [
+			"ekwd|ObjectTypeSerum"
+		],
+		"exclude": [],
+		"rightSignature": "FULL",
+		"leftSignature": "ALCH",
+		"isFullReplaced": false
+	},
+	{
+		"name": "magazine",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"header": "0x22d5",
+		"include": [
+			"ekwd|MagazineKeyword"
+		],
+		"exclude": [],
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false
+	},
+	{
 		"name": "lunchbox",
 		"rightSignature": "FULL",
 		"leftSignature": "ALCH",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"header": "0x22c5",
+		"header": "0x22d6",
 		"include": [
 			"edid|lunchbox"
 		],
@@ -477,7 +545,7 @@
 		"leftSignature": "ALCH",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"header": "0x22c6",
+		"header": "0x22d7",
 		"include": [
 			"ekwd|BobbleheadKeyword"
 		],
@@ -490,7 +558,7 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22c7",
+		"header": "0x22d8",
 		"include": [
 			"ekwd|ObjectTypeStimpak"
 		],
@@ -504,16 +572,14 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22c8",
+		"header": "0x22d9",
 		"include": [
 			"ekwd|ChemTypeHealing",
 			"ekwd|ChemTypeRadaway"
 		],
-		"exclude": [
-			"ekwd|ObjectTypeStimpak"
-		],
+		"exclude": [],
 		"isAnyKeyword": false,
-		"isInclusiveOr": false,
+		"isInclusiveOr": true,
 		"isFullReplaced": false
 	},
 	{
@@ -521,16 +587,27 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22c9",
+		"header": "0x22da",
 		"include": [
-			"ekwd|ObjectTypeChem",
-			"ekwd|AddictionKeyword"
+			"ekwd|ObjectTypeChem"
 		],
-		"exclude": [
-			"ekwd|ChemTypeHealing"
-		],
+		"exclude": [],
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false
+	},
+	{
+		"name": "power_armor_helmet",
+		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
+		"header": "0x22db",
+		"include": [
+			"ekwd|ArmorTypePower"
+		],
+		"exclude": [],
+		"leftSignature": "ARMO",
+		"rightSignature": "FULL",
 		"isFullReplaced": false
 	},
 	{
@@ -538,7 +615,7 @@
 		"leftSignature": "ARMO",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22ca",
+		"header": "0x22dc",
 		"include": [
 			"ekwd|ObjectTypeArmor"
 		],
@@ -552,13 +629,71 @@
 		"leftSignature": "ARMO",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22cb",
+		"header": "0x22dd",
 		"include": [
-			"ekwd|ArmorBodyPartHead"
+			"ekwd|ArmorBodyPartHead",
+			"ekwd|ClothingTypeHat"
+		],
+		"exclude": [],
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false
+	},
+	{
+		"name": "candy",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"header": "0x22de",
+		"include": [
+			"ekwd|ObjectTypeCandy"
+		],
+		"exclude": [],
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isFullReplaced": false
+	},
+	{
+		"name": "raw_plant",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"header": "0x22df",
+		"include": [
+			"ekwd|PlantTypeVegetable",
+			"ekwd|PlantTypeGourd"
+		],
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isFullReplaced": false
+	},
+	{
+		"name": "alcohol",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"header": "0x22e0",
+		"include": [
+			"ekwd|ObjectTypeDrink",
+			"ekwd|DrinkTypeAlcohol"
 		],
 		"exclude": [],
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
+		"isFullReplaced": false
+	},
+	{
+		"name": "food",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"header": "0x22e1",
+		"include": [
+			"ekwd|ObjectTypeFood"
+		],
+		"exclude": [],
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
 		"isFullReplaced": false
 	},
 	{
@@ -568,7 +703,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"header": "0x22cc",
+		"header": "0x22e2",
 		"include": [
 			"ekwd|IngredientTypeMoldy"
 		],
@@ -580,7 +715,7 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22cd",
+		"header": "0x22e3",
 		"include": [
 			"ekwd|DrinkTypeTea"
 		],
@@ -595,7 +730,7 @@
 		"leftSignature": "ALCH",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"header": "0x22ce",
+		"header": "0x22e4",
 		"include": [
 			"ekwd|ObjectTypeFood",
 			"ekwd|MealTypeCooked",
@@ -610,7 +745,7 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22cf",
+		"header": "0x22e5",
 		"include": [
 			"ekwd|DrinkTypeWater"
 		],
@@ -625,41 +760,10 @@
 		"leftSignature": "ALCH",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"header": "0x22d0",
+		"header": "0x22e6",
 		"include": [
 			"ekwd|ObjectTypeDrink",
 			"ekwd|DrinkTypeSoda"
-		],
-		"exclude": [],
-		"isInclusiveOr": false,
-		"isFullReplaced": false
-	},
-	{
-		"name": "bottle_of_wine",
-		"leftSignature": "ALCH",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"header": "0x22d1",
-		"include": [
-			"ekwd|ObjectTypeDrink",
-			"ekwd|DrinkTypeAlcohol",
-			"ekwd|FermenterItem"
-		],
-		"exclude": [],
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false
-	},
-	{
-		"name": "alcohol_glass",
-		"rightSignature": "FULL",
-		"leftSignature": "ALCH",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"header": "0x22d2",
-		"include": [
-			"ekwd|ObjectTypeDrink",
-			"ekwd|DrinkTypeAlcohol"
 		],
 		"exclude": [],
 		"isInclusiveOr": false,
@@ -670,7 +774,7 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22d3",
+		"header": "0x22e7",
 		"include": [
 			"ekwd|PlantTypeCorn"
 		],
@@ -684,7 +788,7 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22d4",
+		"header": "0x22e8",
 		"include": [
 			"ekwd|ObjectTypeFood",
 			"ekwd|MealTypeSoup"
@@ -699,31 +803,14 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22d5",
+		"header": "0x22e9",
 		"include": [
-			"ekwd|PlantTypeBerry"
+			"ekwd|PlantTypeBerry",
+			"ekwd|PlantTypeCranberries"
 		],
 		"exclude": [],
 		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false
-	},
-	{
-		"name": "leaf",
-		"leftSignature": "ALCH",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"header": "0x22d6",
-		"include": [
-			"ekwd|IngredientTypeHerb",
-			"ekwd|MealTypeRaw"
-		],
-		"exclude": [
-			"ekwd|DrinkTypeTea",
-			"ekwd|IngredientTypeMeat"
-		],
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
+		"isInclusiveOr": true,
 		"isFullReplaced": false
 	},
 	{
@@ -731,7 +818,7 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22d7",
+		"header": "0x22ea",
 		"include": [
 			"ekwd|ObjectTypeCakesPies"
 		],
@@ -747,7 +834,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"header": "0x22d8",
+		"header": "0x22eb",
 		"include": [
 			"ekwd|ObjectTypeFood",
 			"ekwd|IngredientTypeMeat",
@@ -761,7 +848,7 @@
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22d9",
+		"header": "0x22ec",
 		"include": [
 			"ekwd|ObjectTypeFood",
 			"ekwd|IngredientTypeMeat"
@@ -772,11 +859,39 @@
 		"isFullReplaced": false
 	},
 	{
+		"name": "glasses",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"header": "0x22ed",
+		"include": [
+			"ekwd|ArmorBodyPartEyes"
+		],
+		"exclude": [],
+		"leftSignature": "ARMO",
+		"rightSignature": "FULL",
+		"isFullReplaced": false
+	},
+	{
+		"name": "mask",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"header": "0x22ee",
+		"include": [
+			"ekwd|ClothingTypeMask"
+		],
+		"exclude": [],
+		"leftSignature": "ARMO",
+		"rightSignature": "FULL",
+		"isFullReplaced": false
+	},
+	{
 		"name": "apparel",
 		"leftSignature": "ARMO",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22da",
+		"header": "0x22ef",
 		"include": [
 			"ekwd|ObjectTypeClothing"
 		],
@@ -786,13 +901,43 @@
 		"isFullReplaced": false
 	},
 	{
+		"name": "ore",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"header": "0x22f0",
+		"include": [
+			"edid|ore"
+		],
+		"exclude": [
+			"edid|SCORE_Recipe"
+		],
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
+		"isFullReplaced": false
+	},
+	{
+		"name": "nuclear_case",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"header": "0x22f1",
+		"include": [
+			"ekwd|ObjectTypeNukeKeycard"
+		],
+		"exclude": [],
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
+		"isFullReplaced": false
+	},
+	{
 		"name": "treasure_note",
 		"rightSignature": "FULL",
 		"leftSignature": "MISC",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"header": "0x22db",
+		"header": "0x22f2",
 		"include": [
 			"edid|Treasury_Note"
 		],
@@ -806,7 +951,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"header": "0x22dc",
+		"header": "0x22f3",
 		"include": [
 			"edid|token"
 		],
@@ -820,7 +965,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"header": "0x22dd",
+		"header": "0x22f4",
 		"include": [
 			"ekwd|Moon_CryptidCardKeyword"
 		],
@@ -832,7 +977,7 @@
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22de",
+		"header": "0x22f5",
 		"include": [
 			"ekwd|ObjectTypeToy",
 			"ekwd|ObjectTypeSports",
@@ -848,7 +993,7 @@
 		"leftSignature": "BOOK",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22df",
+		"header": "0x22f6",
 		"include": [
 			"edid|TreasureMap"
 		],
@@ -858,18 +1003,29 @@
 		"isFullReplaced": false
 	},
 	{
+		"name": "components",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"header": "0x22f7",
+		"include": [
+			"ekwd|ObjectTypeComponent"
+		],
+		"exclude": [],
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
+		"isFullReplaced": false
+	},
+	{
 		"name": "junk",
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22e0",
-		"include": [
-			"ekwd|NoAutoScrapJunk",
-			"ekwd|ObjectTypeComponent"
-		],
+		"header": "0x22f8",
+		"include": [],
 		"exclude": [],
-		"isAnyKeyword": false,
-		"isInclusiveOr": true,
+		"isAnyKeyword": true,
+		"isInclusiveOr": false,
 		"isFullReplaced": false
 	},
 	{
@@ -878,7 +1034,7 @@
 		"leftSignature": "KEYM",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"header": "0x22e1",
+		"header": "0x22f9",
 		"include": [
 			"edid|keycard",
 			"edid|idcard",
@@ -893,7 +1049,7 @@
 		"leftSignature": "KEYM",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"header": "0x22e2",
+		"header": "0x22fa",
 		"include": [
 			"edid|key"
 		],
@@ -912,7 +1068,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22e3",
+		"header": "0x22fb",
 		"include": [],
 		"exclude": []
 	}

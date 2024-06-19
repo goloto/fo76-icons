@@ -6,7 +6,7 @@
 [EndHeader]
 
 [StartRule]
- Header=⊥
+ Header=⊱
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -24,7 +24,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊦
+ Header=⊲
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -42,7 +42,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊧
+ Header=⊳
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -61,7 +61,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊨
+ Header=⊴
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -79,7 +79,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊩
+ Header=⊵
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -98,7 +98,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊪
+ Header=⊶
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -117,7 +117,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊫
+ Header=⊷
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -135,7 +135,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊬
+ Header=⊸
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -154,7 +154,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊭
+ Header=⊹
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -172,7 +172,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊮
+ Header=⊺
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -190,7 +190,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊯
+ Header=⊻
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -209,7 +209,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊰
+ Header=⊼
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -227,7 +227,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊱
+ Header=⊽
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -246,7 +246,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊲
+ Header=⊾
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -264,7 +264,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊳
+ Header=⊿
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -282,7 +282,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊴
+ Header=⋀
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -301,7 +301,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊵
+ Header=⋁
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -320,7 +320,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊶
+ Header=⋂
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -339,7 +339,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊷
+ Header=⋃
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -357,7 +357,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊸
+ Header=⋄
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -376,7 +376,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊹
+ Header=⋅
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -395,7 +395,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊺
+ Header=⋆
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -413,7 +413,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊻
+ Header=⋇
  rSig=NOTE
  fSig=FULL
  enabled=-1
@@ -432,8 +432,8 @@
 [EndRule]
 
 [StartRule]
- Header=⊼
- rSig=BOOK
+ Header=⋈
+ rSig=AMMO
  fSig=FULL
  enabled=-1
  tagID=default
@@ -442,15 +442,33 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=-1
+ includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|MagazineKeyword
+ Include_0=
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⊽
+ Header=⋉
+ rSig=AMMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|AmmoTypeFusionCore
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋊
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -468,7 +486,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊾
+ Header=⋋
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -486,7 +504,43 @@
 [EndRule]
 
 [StartRule]
- Header=⊿
+ Header=⋌
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ma_binoculars
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋍
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeCamera
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋎
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -504,7 +558,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋀
+ Header=⋏
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -522,7 +576,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋁
+ Header=⋐
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -540,7 +594,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋂
+ Header=⋑
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -558,7 +612,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋃
+ Header=⋒
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -576,7 +630,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋄
+ Header=⋓
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -594,7 +648,43 @@
 [EndRule]
 
 [StartRule]
- Header=⋅
+ Header=⋔
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeSerum
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋕
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|MagazineKeyword
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋖
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -612,7 +702,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋆
+ Header=⋗
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -630,7 +720,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋇
+ Header=⋘
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -648,7 +738,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋈
+ Header=⋙
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -658,17 +748,35 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|ChemTypeHealing
  Include_1=ekwd|ChemTypeRadaway
- Exclude_0=ekwd|ObjectTypeStimpak
+ Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⋉
+ Header=⋚
  rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeChem
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋛
+ rSig=ARMO
  fSig=FULL
  enabled=-1
  tagID=default
@@ -680,13 +788,12 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ObjectTypeChem
- Include_1=ekwd|AddictionKeyword
- Exclude_0=ekwd|ChemTypeHealing
+ Include_0=ekwd|ArmorTypePower
+ Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⋊
+ Header=⋜
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -704,8 +811,27 @@
 [EndRule]
 
 [StartRule]
- Header=⋋
+ Header=⋝
  rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ArmorBodyPartHead
+ Include_1=ekwd|ClothingTypeHat
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋞
+ rSig=ALCH
  fSig=FULL
  enabled=-1
  tagID=default
@@ -717,12 +843,68 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ArmorBodyPartHead
+ Include_0=ekwd|ObjectTypeCandy
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⋌
+ Header=⋟
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PlantTypeVegetable
+ Include_1=ekwd|PlantTypeGourd
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋠
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeDrink
+ Include_1=ekwd|DrinkTypeAlcohol
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋡
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeFood
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋢
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -740,7 +922,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋍
+ Header=⋣
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -758,7 +940,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋎
+ Header=⋤
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -778,7 +960,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋏
+ Header=⋥
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -796,7 +978,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋐
+ Header=⋦
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -815,46 +997,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋑
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ObjectTypeDrink
- Include_1=ekwd|DrinkTypeAlcohol
- Include_2=ekwd|FermenterItem
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⋒
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ObjectTypeDrink
- Include_1=ekwd|DrinkTypeAlcohol
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⋓
+ Header=⋧
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -872,7 +1015,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋔
+ Header=⋨
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -891,7 +1034,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋕
+ Header=⋩
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -901,35 +1044,16 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|PlantTypeBerry
+ Include_1=ekwd|PlantTypeCranberries
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⋖
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|IngredientTypeHerb
- Include_1=ekwd|MealTypeRaw
- Exclude_0=ekwd|DrinkTypeTea
- Exclude_1=ekwd|IngredientTypeMeat
-[EndRule]
-
-[StartRule]
- Header=⋗
+ Header=⋪
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -947,7 +1071,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋘
+ Header=⋫
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -967,7 +1091,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋙
+ Header=⋬
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -986,7 +1110,43 @@
 [EndRule]
 
 [StartRule]
- Header=⋚
+ Header=⋭
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ArmorBodyPartEyes
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋮
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ClothingTypeMask
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋯
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1004,7 +1164,43 @@
 [EndRule]
 
 [StartRule]
- Header=⋛
+ Header=⋰
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|ore
+ Exclude_0=edid|SCORE_Recipe
+[EndRule]
+
+[StartRule]
+ Header=⋱
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeNukeKeycard
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋲
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1022,7 +1218,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋜
+ Header=⋳
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1040,7 +1236,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋝
+ Header=⋴
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1058,7 +1254,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋞
+ Header=⋵
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1078,7 +1274,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋟
+ Header=⋶
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -1096,7 +1292,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋠
+ Header=⋷
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1106,16 +1302,33 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=-1
+ includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|NoAutoScrapJunk
- Include_1=ekwd|ObjectTypeComponent
+ Include_0=ekwd|ObjectTypeComponent
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⋡
+ Header=⋸
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=-1
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋹
  rSig=KEYM
  fSig=FULL
  enabled=-1
@@ -1135,7 +1348,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋢
+ Header=⋺
  rSig=KEYM
  fSig=FULL
  enabled=-1
@@ -1155,7 +1368,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋣
+ Header=⋻
  rSig=undefined
  fSig=undefined
  enabled=-1

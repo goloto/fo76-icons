@@ -138,242 +138,314 @@
 		"isDeleted": false
 	},
 	{
-		"name": "magazine",
+		"name": "mini_nuke",
 		"order": 23,
-		"category": "notes",
+		"category": "ammo",
 		"isDeleted": false
 	},
 	{
-		"name": "ballistic_ammo",
+		"name": "fusion_core",
 		"order": 24,
 		"category": "ammo",
 		"isDeleted": false
 	},
 	{
-		"name": "rocket",
+		"name": "ballistic_ammo",
 		"order": 25,
 		"category": "ammo",
 		"isDeleted": false
 	},
 	{
-		"name": "grenade",
+		"name": "rocket",
 		"order": 26,
-		"category": "weapons",
+		"category": "ammo",
 		"isDeleted": false
 	},
 	{
-		"name": "mine",
+		"name": "binoculars",
 		"order": 27,
 		"category": "weapons",
 		"isDeleted": false
 	},
 	{
-		"name": "unarmed",
+		"name": "camera",
 		"order": 28,
 		"category": "weapons",
 		"isDeleted": false
 	},
 	{
-		"name": "one_handed_melee",
+		"name": "grenade",
 		"order": 29,
 		"category": "weapons",
 		"isDeleted": false
 	},
 	{
-		"name": "two_handed_melee",
+		"name": "mine",
 		"order": 30,
 		"category": "weapons",
 		"isDeleted": false
 	},
 	{
-		"name": "weapon",
+		"name": "unarmed",
 		"order": 31,
 		"category": "weapons",
 		"isDeleted": false
 	},
 	{
-		"name": "lunchbox",
+		"name": "one_handed_melee",
 		"order": 32,
-		"category": "aid",
+		"category": "weapons",
 		"isDeleted": false
 	},
 	{
-		"name": "bobblehead",
+		"name": "two_handed_melee",
 		"order": 33,
-		"category": "aid",
+		"category": "weapons",
 		"isDeleted": false
 	},
 	{
-		"name": "stimpak",
+		"name": "weapon",
 		"order": 34,
-		"category": "aid",
+		"category": "weapons",
 		"isDeleted": false
 	},
 	{
-		"name": "doctors_bag",
+		"name": "mutation_serum",
 		"order": 35,
 		"category": "aid",
 		"isDeleted": false
 	},
 	{
-		"name": "chems",
+		"name": "magazine",
 		"order": 36,
+		"category": "notes",
+		"isDeleted": false
+	},
+	{
+		"name": "lunchbox",
+		"order": 37,
 		"category": "aid",
 		"isDeleted": false
 	},
 	{
+		"name": "bobblehead",
+		"order": 38,
+		"category": "aid",
+		"isDeleted": false
+	},
+	{
+		"name": "stimpak",
+		"order": 39,
+		"category": "aid",
+		"isDeleted": false
+	},
+	{
+		"name": "doctors_bag",
+		"order": 40,
+		"category": "aid",
+		"isDeleted": false
+	},
+	{
+		"name": "chems",
+		"order": 41,
+		"category": "aid",
+		"isDeleted": false
+	},
+	{
+		"name": "power_armor_helmet",
+		"order": 42,
+		"category": "armor",
+		"isDeleted": false
+	},
+	{
 		"name": "chest_armor",
-		"order": 37,
+		"order": 43,
 		"category": "armor",
 		"isDeleted": false
 	},
 	{
 		"name": "helmet",
-		"order": 38,
+		"order": 44,
 		"category": "armor",
 		"isDeleted": false
 	},
 	{
-		"name": "moldy_food",
-		"order": 39,
-		"category": "food",
-		"isDeleted": false
-	},
-	{
-		"name": "tea",
-		"order": 40,
-		"category": "food",
-		"isDeleted": false
-	},
-	{
-		"name": "vegan_food",
-		"order": 41,
-		"category": "food",
-		"isDeleted": false
-	},
-	{
-		"name": "bottle_of_water",
-		"order": 42,
-		"category": "food",
-		"isDeleted": false
-	},
-	{
-		"name": "nuka_cola",
-		"order": 43,
-		"category": "food",
-		"isDeleted": false
-	},
-	{
-		"name": "bottle_of_wine",
-		"order": 44,
-		"category": "food",
-		"isDeleted": false
-	},
-	{
-		"name": "alcohol_glass",
+		"name": "candy",
 		"order": 45,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "corn",
+		"name": "raw_plant",
 		"order": 46,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "soup",
+		"name": "alcohol",
 		"order": 47,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "berry",
+		"name": "food",
 		"order": 48,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "leaf",
+		"name": "moldy_food",
 		"order": 49,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "cake",
+		"name": "tea",
 		"order": 50,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "cooked_meat",
+		"name": "vegan_food",
 		"order": 51,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "raw_meat",
+		"name": "bottle_of_water",
 		"order": 52,
 		"category": "food",
 		"isDeleted": false
 	},
 	{
-		"name": "apparel",
+		"name": "nuka_cola",
 		"order": 53,
+		"category": "food",
+		"isDeleted": false
+	},
+	{
+		"name": "corn",
+		"order": 54,
+		"category": "food",
+		"isDeleted": false
+	},
+	{
+		"name": "soup",
+		"order": 55,
+		"category": "food",
+		"isDeleted": false
+	},
+	{
+		"name": "berry",
+		"order": 56,
+		"category": "food",
+		"isDeleted": false
+	},
+	{
+		"name": "cake",
+		"order": 57,
+		"category": "food",
+		"isDeleted": false
+	},
+	{
+		"name": "cooked_meat",
+		"order": 58,
+		"category": "food",
+		"isDeleted": false
+	},
+	{
+		"name": "raw_meat",
+		"order": 59,
+		"category": "food",
+		"isDeleted": false
+	},
+	{
+		"name": "glasses",
+		"order": 60,
 		"category": "apparel",
 		"isDeleted": false
 	},
 	{
+		"name": "mask",
+		"order": 61,
+		"category": "apparel",
+		"isDeleted": false
+	},
+	{
+		"name": "apparel",
+		"order": 62,
+		"category": "apparel",
+		"isDeleted": false
+	},
+	{
+		"name": "ore",
+		"order": 63,
+		"category": "misc",
+		"isDeleted": false
+	},
+	{
+		"name": "nuclear_case",
+		"order": 64,
+		"category": "misc",
+		"isDeleted": false
+	},
+	{
 		"name": "treasure_note",
-		"order": 54,
+		"order": 65,
 		"category": "misc",
 		"isDeleted": false
 	},
 	{
 		"name": "token",
-		"order": 55,
+		"order": 66,
 		"category": "misc",
 		"isDeleted": false
 	},
 	{
 		"name": "cards",
-		"order": 56,
+		"order": 67,
 		"category": "misc",
 		"isDeleted": false
 	},
 	{
 		"name": "opened_box",
-		"order": 57,
+		"order": 68,
 		"category": "misc",
 		"isDeleted": false
 	},
 	{
 		"name": "quest",
-		"order": 58,
+		"order": 69,
 		"category": "misc",
 		"isDeleted": false
 	},
 	{
+		"name": "components",
+		"order": 70,
+		"category": "junk",
+		"isDeleted": false
+	},
+	{
 		"name": "junk",
-		"order": 59,
+		"order": 71,
 		"category": "junk",
 		"isDeleted": false
 	},
 	{
 		"name": "keycard",
-		"order": 60,
+		"order": 72,
 		"category": "notes",
 		"isDeleted": false
 	},
 	{
 		"name": "key",
-		"order": 61,
+		"order": 73,
 		"category": "misc",
 		"isDeleted": false
 	},
 	{
 		"name": "eviction_notice",
-		"order": 62,
+		"order": 74,
 		"category": "events",
 		"isDeleted": false
 	}
