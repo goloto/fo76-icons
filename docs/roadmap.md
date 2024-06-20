@@ -32,9 +32,10 @@
  - [ ] Raw plant
  - [ ] Moldy food
  - [ ] Cooked plant food
- - [ ] Cooled meat food
+ - [ ] Cooked meat food
  - [x] Tea
  - [ ] Soup
+ - [ ] Meat Soup
  - [x] Water
  - [ ] Toxic Water
  - [x] Nuka-cola
@@ -59,6 +60,7 @@
  - [ ] Legendary Module
  - [ ] Legendary Core
  - [ ] Toys
+ - [ ] Flux
  - [ ] Unscrappable misc
  - [ ] Rest junk
 
