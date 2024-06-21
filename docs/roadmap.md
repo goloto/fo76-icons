@@ -8,6 +8,8 @@
  - [ ] Pistols
  - [ ] Rifles
  - [ ] Heavy weapons
+ - [ ] Binoculars
+ - [ ] Camera
 
 ### Armor Tab
  - [ ] Armor
@@ -18,10 +20,13 @@
  - [ ] Power Armor 
 
 ### Apparel Tab
- - [ ] Head
+ - [ ] Hat
  - [ ] Helmet
  - [ ] Glasses
  - [ ] Mask
+ - [ ] Dress
+ - [ ] Costume
+ - [ ] Spacesuit
 
 ### Food Tab
  - [ ] Weight increaser
@@ -61,6 +66,7 @@
  - [ ] Legendary Core
  - [ ] Toys
  - [ ] Flux
+ - [ ] Bulk
  - [ ] Unscrappable misc
  - [ ] Rest junk
 
