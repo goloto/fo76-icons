@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2287",
+		"header": "0x2284",
 		"include": [
 			"edid|lunchbox"
 		],
@@ -23,7 +23,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x228a",
+		"header": "0x2285",
 		"include": [
 			"ekwd|ObjectTypeStimpak"
 		],
@@ -38,7 +38,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x2284",
+		"header": "0x2286",
 		"include": [
 			"ekwd|ChemTypeHealing",
 			"ekwd|ChemTypeRadaway"
@@ -54,7 +54,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x2286",
+		"header": "0x2287",
 		"include": [
 			"ekwd|ObjectTypeChem"
 		],
@@ -69,7 +69,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2289",
+		"header": "0x2288",
 		"include": [
 			"ekwd|ObjectTypeSerum"
 		],
@@ -84,7 +84,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x2288",
+		"header": "0x2289",
 		"include": [
 			"ekwd|MagazineKeyword"
 		],
@@ -99,7 +99,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2285",
+		"header": "0x228a",
 		"include": [
 			"ekwd|BobbleheadKeyword"
 		],

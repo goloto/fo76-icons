@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a1",
+		"header": "0x229d",
 		"include": [
 			"edid|Treasury_Note"
 		],
@@ -23,7 +23,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a2",
+		"header": "0x229e",
 		"include": [
 			"ekwd|ObjectTypeNukeKeycard"
 		],
@@ -38,7 +38,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x229e",
+		"header": "0x229f",
 		"include": [
 			"edid|token"
 		],
@@ -53,7 +53,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a4",
+		"header": "0x22a0",
 		"include": [
 			"ekwd|Moon_CryptidCardKeyword"
 		],
@@ -68,7 +68,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a3",
+		"header": "0x22a1",
 		"include": [
 			"ekwd|ObjectTypeComponent"
 		],
@@ -83,7 +83,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x229d",
+		"header": "0x22a2",
 		"include": [
 			"ekwd|ObjectTypeToy",
 			"ekwd|ObjectTypeSports",
@@ -100,12 +100,38 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a0",
+		"header": "0x22a3",
 		"include": [
 			"edid|ore"
 		],
 		"exclude": [
 			"edid|SCORE_Recipe"
 		]
+	},
+	{
+		"order": 7,
+		"iconName": "junk",
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22a4",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"order": 8,
+		"iconName": "quest",
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x227e",
+		"include": [],
+		"exclude": []
 	}
 ]

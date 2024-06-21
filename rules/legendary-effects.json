@@ -160,7 +160,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": true,
-		"header": "0x2271",
+		"header": "0x2270",
 		"include": [
 			"ekwd|HasLegendary_Armor_LessDMGBugs",
 			"ekwd|HasLegendary_Weapon_DamageVsBugs"
@@ -176,7 +176,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x2270",
+		"header": "0x2271",
 		"include": [
 			"ekwd|HasLegendary_Weapon_TwoShot"
 		],
@@ -269,7 +269,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": true,
-		"header": "0x2278",
+		"header": "0x2277",
 		"include": [
 			"ekwd|HasLegendary_Armor_ResistancesProportionalCaps",
 			"ekwd|HasLegendary_Weapon_DamageViaCaps"
@@ -285,7 +285,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x2277",
+		"header": "0x2278",
 		"include": [
 			"ekwd|HasLegendary_Weapon_Execute"
 		],
