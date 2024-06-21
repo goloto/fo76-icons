@@ -35,10 +35,7 @@ export const buildIconsOrder = async () => {
         .sort((itemA, itemB) => itemA.order - itemB.order)
         .map((item, index) => ({...item, order: awaitedAccumulator.length + index}));
 
-      return [
-        ...awaitedAccumulator,
-        ...mergedIconsOrder,
-      ]
+      return awaitedAccumulator.concat(mergedIconsOrder);
     }, Promise.resolve([]));
 
   await writeJson(`${JSON_DIRECTORY}/icons-order.json`, itemsOrder);
