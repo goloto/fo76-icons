@@ -1,0 +1,48 @@
+[
+	{
+		"order": 0,
+		"iconName": "power_armor_helmet",
+		"leftSignature": "ARMO",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22ad",
+		"include": [
+			"ekwd|ArmorTypePower"
+		],
+		"exclude": []
+	},
+	{
+		"order": 1,
+		"iconName": "helmet",
+		"leftSignature": "ARMO",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x22ae",
+		"include": [
+			"ekwd|ArmorBodyPartHead",
+			"ekwd|ClothingTypeHat"
+		],
+		"exclude": []
+	},
+	{
+		"order": 2,
+		"iconName": "chest_armor",
+		"leftSignature": "ARMO",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22af",
+		"include": [
+			"ekwd|ObjectTypeArmor"
+		],
+		"exclude": []
+	}
+]

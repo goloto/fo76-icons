@@ -1,0 +1,108 @@
+[
+	{
+		"order": 0,
+		"iconName": "lunchbox",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2287",
+		"include": [
+			"edid|lunchbox"
+		],
+		"exclude": []
+	},
+	{
+		"order": 1,
+		"iconName": "stimpak",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x228a",
+		"include": [
+			"ekwd|ObjectTypeStimpak"
+		],
+		"exclude": []
+	},
+	{
+		"order": 2,
+		"iconName": "doctors_bag",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x2284",
+		"include": [
+			"ekwd|ChemTypeHealing",
+			"ekwd|ChemTypeRadaway"
+		],
+		"exclude": []
+	},
+	{
+		"order": 3,
+		"iconName": "chems",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x2286",
+		"include": [
+			"ekwd|ObjectTypeChem"
+		],
+		"exclude": []
+	},
+	{
+		"order": 4,
+		"iconName": "mutation_serum",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2289",
+		"include": [
+			"ekwd|ObjectTypeSerum"
+		],
+		"exclude": []
+	},
+	{
+		"order": 5,
+		"iconName": "magazine",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x2288",
+		"include": [
+			"ekwd|MagazineKeyword"
+		],
+		"exclude": []
+	},
+	{
+		"order": 6,
+		"iconName": "bobblehead",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2285",
+		"include": [
+			"ekwd|BobbleheadKeyword"
+		],
+		"exclude": []
+	}
+]

@@ -1,0 +1,38 @@
+[
+	{
+		"order": 0,
+		"iconName": "keycard",
+		"leftSignature": "KEYM",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x227b",
+		"include": [
+			"edid|keycard",
+			"edid|idcard",
+			"edid|password"
+		],
+		"exclude": []
+	},
+	{
+		"order": 1,
+		"iconName": "key",
+		"leftSignature": "KEYM",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x227a",
+		"include": [
+			"edid|key"
+		],
+		"exclude": [
+			"edid|keycard",
+			"edid|idcard",
+			"edid|password"
+		]
+	}
+]

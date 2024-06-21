@@ -1,67 +1,50 @@
 [
 	{
-		"name": "legendary",
-		"order": 0,
-		"isDeleted": false
-	},
-	{
-		"name": "notes",
-		"order": 1,
-		"isDeleted": false
-	},
-	{
-		"name": "ammo",
-		"order": 2,
-		"isDeleted": false
-	},
-	{
-		"name": "weapons",
-		"order": 3,
-		"isDeleted": false
-	},
-	{
-		"name": "aid",
-		"order": 4,
-		"isDeleted": false
-	},
-	{
-		"name": "armor",
-		"order": 5,
-		"isDeleted": false
-	},
-	{
-		"name": "food",
-		"order": 6,
-		"isDeleted": false
-	},
-	{
-		"name": "apparel",
-		"order": 7,
-		"isDeleted": false
-	},
-	{
-		"name": "misc",
-		"order": 8,
-		"isDeleted": false
-	},
-	{
-		"name": "modifications",
-		"order": 8,
-		"isDeleted": true
-	},
-	{
-		"name": "junk",
-		"order": 9,
-		"isDeleted": false
+		"name": "legendary-effects",
+		"order": 0
 	},
 	{
 		"name": "keys",
-		"order": 10,
-		"isDeleted": false
+		"order": 1
 	},
 	{
-		"name": "events",
-		"order": 11,
-		"isDeleted": false
+		"name": "notes",
+		"order": 2
+	},
+	{
+		"name": "holotapes",
+		"order": 3
+	},
+	{
+		"name": "ammo",
+		"order": 4
+	},
+	{
+		"name": "aid",
+		"order": 5
+	},
+	{
+		"name": "food",
+		"order": 6
+	},
+	{
+		"name": "apparel",
+		"order": 7
+	},
+	{
+		"name": "misc",
+		"order": 8
+	},
+	{
+		"name": "weapons",
+		"order": 9
+	},
+	{
+		"name": "armor",
+		"order": 10
+	},
+	{
+		"name": "mods",
+		"order": 11
 	}
 ]

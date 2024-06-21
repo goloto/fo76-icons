@@ -1,0 +1,48 @@
+[
+	{
+		"order": 0,
+		"iconName": "plan",
+		"leftSignature": "BOOK",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x227d",
+		"include": [
+			"ekwd|ObjectTypeRecipe"
+		],
+		"exclude": []
+	},
+	{
+		"order": 1,
+		"iconName": "note",
+		"leftSignature": "BOOK",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x227c",
+		"include": [],
+		"exclude": [
+			"ekwd|ObjectTypeRecipe",
+			"ekwd|MagazineKeyword"
+		]
+	},
+	{
+		"order": 2,
+		"iconName": "quest",
+		"leftSignature": "BOOK",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x227e",
+		"include": [
+			"edid|TreasureMap"
+		],
+		"exclude": []
+	}
+]

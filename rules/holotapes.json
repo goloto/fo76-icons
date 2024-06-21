@@ -1,0 +1,18 @@
+[
+	{
+		"order": 0,
+		"iconName": "videotape",
+		"leftSignature": "NOTE",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x227f",
+		"include": [
+			"edid|holotape",
+			"ekwd|UnsellableObject"
+		],
+		"exclude": []
+	}
+]

@@ -1,0 +1,236 @@
+[
+	{
+		"order": 0,
+		"iconName": "moldy_food",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x228d",
+		"include": [
+			"ekwd|IngredientTypeMoldy"
+		],
+		"exclude": []
+	},
+	{
+		"order": 1,
+		"iconName": "bottle_of_water",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2292",
+		"include": [
+			"ekwd|DrinkTypeWater"
+		],
+		"exclude": []
+	},
+	{
+		"order": 2,
+		"iconName": "nuka_cola",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2296",
+		"include": [
+			"ekwd|ObjectTypeDrink",
+			"ekwd|DrinkTypeSoda"
+		],
+		"exclude": []
+	},
+	{
+		"order": 3,
+		"iconName": "alcohol",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x228b",
+		"include": [
+			"ekwd|ObjectTypeDrink",
+			"ekwd|DrinkTypeAlcohol"
+		],
+		"exclude": []
+	},
+	{
+		"order": 4,
+		"iconName": "tea",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2295",
+		"include": [
+			"ekwd|DrinkTypeTea"
+		],
+		"exclude": []
+	},
+	{
+		"order": 5,
+		"iconName": "vegan_food",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x228c",
+		"include": [
+			"ekwd|ObjectTypeFood",
+			"ekwd|MealTypeCooked",
+			"ekwd|IngredientTypeFruit"
+		],
+		"exclude": []
+	},
+	{
+		"order": 6,
+		"iconName": "soup",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2293",
+		"include": [
+			"ekwd|ObjectTypeFood",
+			"ekwd|MealTypeSoup"
+		],
+		"exclude": []
+	},
+	{
+		"order": 7,
+		"iconName": "food",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2298",
+		"include": [
+			"ekwd|ObjectTypeFood"
+		],
+		"exclude": []
+	},
+	{
+		"order": 8,
+		"iconName": "candy",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2290",
+		"include": [
+			"ekwd|ObjectTypeCandy"
+		],
+		"exclude": []
+	},
+	{
+		"order": 9,
+		"iconName": "cake",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2291",
+		"include": [
+			"ekwd|ObjectTypeCakesPies"
+		],
+		"exclude": []
+	},
+	{
+		"order": 10,
+		"iconName": "cooked_meat",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x228e",
+		"include": [
+			"ekwd|ObjectTypeFood",
+			"ekwd|IngredientTypeMeat",
+			"ekwd|MealTypeCooked"
+		],
+		"exclude": []
+	},
+	{
+		"order": 11,
+		"iconName": "raw_meat",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2299",
+		"include": [
+			"ekwd|ObjectTypeFood",
+			"ekwd|IngredientTypeMeat"
+		],
+		"exclude": []
+	},
+	{
+		"order": 12,
+		"iconName": "raw_plant",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2297",
+		"include": [
+			"ekwd|PlantTypeVegetable",
+			"ekwd|PlantTypeGourd"
+		]
+	},
+	{
+		"order": 13,
+		"iconName": "corn",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x228f",
+		"include": [
+			"ekwd|PlantTypeCorn"
+		],
+		"exclude": []
+	},
+	{
+		"order": 14,
+		"iconName": "berry",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x2294",
+		"include": [
+			"ekwd|PlantTypeBerry",
+			"ekwd|PlantTypeCranberries"
+		],
+		"exclude": []
+	}
+]

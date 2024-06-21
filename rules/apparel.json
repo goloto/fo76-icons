@@ -1,0 +1,47 @@
+[
+	{
+		"order": 0,
+		"iconName": "glasses",
+		"leftSignature": "ARMO",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x229b",
+		"include": [
+			"ekwd|ArmorBodyPartEyes"
+		],
+		"exclude": []
+	},
+	{
+		"order": 1,
+		"iconName": "mask",
+		"leftSignature": "ARMO",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x229c",
+		"include": [
+			"ekwd|ClothingTypeMask"
+		],
+		"exclude": []
+	},
+	{
+		"order": 2,
+		"iconName": "apparel",
+		"leftSignature": "ARMO",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x229a",
+		"include": [
+			"ekwd|ObjectTypeClothing"
+		],
+		"exclude": []
+	}
+]

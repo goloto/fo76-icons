@@ -1,0 +1,310 @@
+[
+	{
+		"order": 0,
+		"iconName": "blood",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": true,
+		"header": "0x2266",
+		"include": [
+			"ekwd|HasLegendary_Weapon_DamageInverseHealth"
+		],
+		"exclude": []
+	},
+	{
+		"order": 1,
+		"iconName": "broken_shield",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": true,
+		"header": "0x2267",
+		"include": [
+			"ekwd|HasLegendary_Weapon_AntiArmor"
+		],
+		"exclude": []
+	},
+	{
+		"order": 2,
+		"iconName": "food_and_wine",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": true,
+		"header": "0x2268",
+		"include": [
+			"ekwd|HasLegendary_Weapon_Gourmand",
+			"ekwd|HasLegendary_Armor_Overeater"
+		],
+		"exclude": []
+	},
+	{
+		"order": 3,
+		"iconName": "accuracy",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": true,
+		"header": "0x2269",
+		"include": [
+			"ekwd|HasLegendary_Weapon_AccuracyNotInCombat"
+		],
+		"exclude": []
+	},
+	{
+		"order": 4,
+		"iconName": "scorched_head",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": true,
+		"header": "0x226a",
+		"include": [
+			"ekwd|HasLegendary_Armor_LessDMGScorched",
+			"ekwd|HasLegendary_Weapon_DamageVsScorched"
+		],
+		"exclude": []
+	},
+	{
+		"order": 5,
+		"iconName": "ghoul_vault_head",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": true,
+		"header": "0x226b",
+		"include": [
+			"ekwd|HasLegendary_Armor_LessDMGGhouls",
+			"ekwd|HasLegendary_Weapon_DamageVsGhouls"
+		],
+		"exclude": []
+	},
+	{
+		"order": 6,
+		"iconName": "four_bullets",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": true,
+		"header": "0x226c",
+		"include": [
+			"ekwd|HasLegendary_Weapon_AmmoCapacity4x"
+		],
+		"exclude": []
+	},
+	{
+		"order": 7,
+		"iconName": "night",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": true,
+		"header": "0x226d",
+		"include": [
+			"ekwd|HasLegendary_Armor_ResistancesNight",
+			"ekwd|HasLegendary_Weapon_DamageNight"
+		],
+		"exclude": []
+	},
+	{
+		"order": 8,
+		"iconName": "shuriken",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": true,
+		"header": "0x226e",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"order": 9,
+		"iconName": "viking_helmet",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": true,
+		"header": "0x226f",
+		"include": [
+			"ekwd|HasLegendary_Weapon_DamageUnarmored"
+		],
+		"exclude": []
+	},
+	{
+		"order": 10,
+		"iconName": "cockroach",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": true,
+		"header": "0x2271",
+		"include": [
+			"ekwd|HasLegendary_Armor_LessDMGBugs",
+			"ekwd|HasLegendary_Weapon_DamageVsBugs"
+		],
+		"exclude": []
+	},
+	{
+		"order": 11,
+		"iconName": "two_bullets",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": true,
+		"header": "0x2270",
+		"include": [
+			"ekwd|HasLegendary_Weapon_TwoShot"
+		],
+		"exclude": []
+	},
+	{
+		"order": 12,
+		"iconName": "human",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": true,
+		"header": "0x2272",
+		"include": [
+			"ekwd|HasLegendary_Armor_LessDMGHumans",
+			"ekwd|HasLegendary_Weapon_DamageVsPlayers"
+		],
+		"exclude": []
+	},
+	{
+		"order": 13,
+		"iconName": "pills",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": true,
+		"header": "0x2273",
+		"include": [
+			"ekwd|HasLegendary_Weapon_DamageAddiction"
+		],
+		"exclude": []
+	},
+	{
+		"order": 14,
+		"iconName": "flying_bullets",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": true,
+		"header": "0x2274",
+		"include": [
+			"ekwd|HasLegendary_Weapon_DamageConsecutiveHits"
+		],
+		"exclude": []
+	},
+	{
+		"order": 15,
+		"iconName": "mr_handy",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": true,
+		"header": "0x2275",
+		"include": [
+			"ekwd|HasLegendary_Weapon_DamageVsRobots",
+			"ekwd|HasLegendary_Armor_LessDMGRobots"
+		],
+		"exclude": []
+	},
+	{
+		"order": 16,
+		"iconName": "super_mutant_head",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": true,
+		"header": "0x2276",
+		"include": [
+			"ekwd|HasLegendary_Armor_LessDMGSupermutants",
+			"ekwd|HasLegendary_Weapon_DamageVsSupermutants"
+		],
+		"exclude": []
+	},
+	{
+		"order": 17,
+		"iconName": "aristocrat_hat",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": true,
+		"header": "0x2278",
+		"include": [
+			"ekwd|HasLegendary_Armor_ResistancesProportionalCaps",
+			"ekwd|HasLegendary_Weapon_DamageViaCaps"
+		],
+		"exclude": []
+	},
+	{
+		"order": 18,
+		"iconName": "health_below_forty",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": true,
+		"header": "0x2277",
+		"include": [
+			"ekwd|HasLegendary_Weapon_Execute"
+		],
+		"exclude": []
+	},
+	{
+		"order": 19,
+		"iconName": "wolf",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": true,
+		"header": "0x2279",
+		"include": [
+			"ekwd|HasLegendary_Weapon_DamageVsAnimals",
+			"ekwd|HasLegendary_Armor_LessDMGAnimals"
+		],
+		"exclude": []
+	}
+]

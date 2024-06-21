@@ -1,0 +1,111 @@
+[
+	{
+		"order": 0,
+		"iconName": "treasure_note",
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22a1",
+		"include": [
+			"edid|Treasury_Note"
+		],
+		"exclude": []
+	},
+	{
+		"order": 1,
+		"iconName": "nuclear_case",
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22a2",
+		"include": [
+			"ekwd|ObjectTypeNukeKeycard"
+		],
+		"exclude": []
+	},
+	{
+		"order": 2,
+		"iconName": "token",
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x229e",
+		"include": [
+			"edid|token"
+		],
+		"exclude": []
+	},
+	{
+		"order": 3,
+		"iconName": "cards",
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22a4",
+		"include": [
+			"ekwd|Moon_CryptidCardKeyword"
+		],
+		"exclude": []
+	},
+	{
+		"order": 4,
+		"iconName": "components",
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22a3",
+		"include": [
+			"ekwd|ObjectTypeComponent"
+		],
+		"exclude": []
+	},
+	{
+		"order": 5,
+		"iconName": "opened_box",
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x229d",
+		"include": [
+			"ekwd|ObjectTypeToy",
+			"ekwd|ObjectTypeSports",
+			"ekwd|ObjectTypeSmokes"
+		],
+		"exclude": []
+	},
+	{
+		"order": 6,
+		"iconName": "ore",
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22a0",
+		"include": [
+			"edid|ore"
+		],
+		"exclude": [
+			"edid|SCORE_Recipe"
+		]
+	}
+]

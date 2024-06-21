@@ -1,0 +1,122 @@
+[
+	{
+		"order": 0,
+		"iconName": "binoculars",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22aa",
+		"include": [
+			"ekwd|ma_binoculars"
+		],
+		"exclude": []
+	},
+	{
+		"order": 1,
+		"iconName": "camera",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22a8",
+		"include": [
+			"ekwd|ObjectTypeCamera"
+		],
+		"exclude": []
+	},
+	{
+		"order": 2,
+		"iconName": "grenade",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22a6",
+		"include": [
+			"ekwd|WeaponTypeGrenade"
+		],
+		"exclude": []
+	},
+	{
+		"order": 3,
+		"iconName": "mine",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22a7",
+		"include": [
+			"ekwd|WeaponTypeMine"
+		],
+		"exclude": []
+	},
+	{
+		"order": 4,
+		"iconName": "unarmed",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22a9",
+		"include": [
+			"ekwd|WeaponTypeUnarmed"
+		],
+		"exclude": []
+	},
+	{
+		"order": 5,
+		"iconName": "one_handed_melee",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22a5",
+		"include": [
+			"ekwd|WeaponTypeMelee1H"
+		],
+		"exclude": []
+	},
+	{
+		"order": 6,
+		"iconName": "two_handed_melee",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22ab",
+		"include": [
+			"ekwd|WeaponTypeMelee2H"
+		],
+		"exclude": []
+	},
+	{
+		"order": 7,
+		"iconName": "weapon",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22ac",
+		"include": [
+			"ekwd|ObjectTypeWeapon"
+		],
+		"exclude": []
+	}
+]

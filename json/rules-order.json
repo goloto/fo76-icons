@@ -1,0 +1,372 @@
+[
+	{
+		"name": "blood",
+		"order": 0,
+		"category": "legendary-effects"
+	},
+	{
+		"name": "broken_shield",
+		"order": 1,
+		"category": "legendary-effects"
+	},
+	{
+		"name": "food_and_wine",
+		"order": 2,
+		"category": "legendary-effects"
+	},
+	{
+		"name": "accuracy",
+		"order": 3,
+		"category": "legendary-effects"
+	},
+	{
+		"name": "scorched_head",
+		"order": 4,
+		"category": "legendary-effects"
+	},
+	{
+		"name": "ghoul_vault_head",
+		"order": 5,
+		"category": "legendary-effects"
+	},
+	{
+		"name": "four_bullets",
+		"order": 6,
+		"category": "legendary-effects"
+	},
+	{
+		"name": "night",
+		"order": 7,
+		"category": "legendary-effects"
+	},
+	{
+		"name": "shuriken",
+		"order": 8,
+		"category": "legendary-effects"
+	},
+	{
+		"name": "viking_helmet",
+		"order": 9,
+		"category": "legendary-effects"
+	},
+	{
+		"name": "cockroach",
+		"order": 10,
+		"category": "legendary-effects"
+	},
+	{
+		"name": "two_bullets",
+		"order": 11,
+		"category": "legendary-effects"
+	},
+	{
+		"name": "human",
+		"order": 12,
+		"category": "legendary-effects"
+	},
+	{
+		"name": "pills",
+		"order": 13,
+		"category": "legendary-effects"
+	},
+	{
+		"name": "flying_bullets",
+		"order": 14,
+		"category": "legendary-effects"
+	},
+	{
+		"name": "mr_handy",
+		"order": 15,
+		"category": "legendary-effects"
+	},
+	{
+		"name": "super_mutant_head",
+		"order": 16,
+		"category": "legendary-effects"
+	},
+	{
+		"name": "aristocrat_hat",
+		"order": 17,
+		"category": "legendary-effects"
+	},
+	{
+		"name": "health_below_forty",
+		"order": 18,
+		"category": "legendary-effects"
+	},
+	{
+		"name": "wolf",
+		"order": 19,
+		"category": "legendary-effects"
+	},
+	{
+		"name": "keycard",
+		"order": 20,
+		"category": "keys"
+	},
+	{
+		"name": "key",
+		"order": 21,
+		"category": "keys"
+	},
+	{
+		"name": "plan",
+		"order": 22,
+		"category": "notes"
+	},
+	{
+		"name": "note",
+		"order": 23,
+		"category": "notes"
+	},
+	{
+		"name": "quest",
+		"order": 24,
+		"category": "notes"
+	},
+	{
+		"name": "videotape",
+		"order": 25,
+		"category": "holotapes"
+	},
+	{
+		"name": "mini_nuke",
+		"order": 26,
+		"category": "ammo"
+	},
+	{
+		"name": "fusion_core",
+		"order": 27,
+		"category": "ammo"
+	},
+	{
+		"name": "rocket",
+		"order": 28,
+		"category": "ammo"
+	},
+	{
+		"name": "ballistic_ammo",
+		"order": 29,
+		"category": "ammo"
+	},
+	{
+		"name": "lunchbox",
+		"order": 30,
+		"category": "aid"
+	},
+	{
+		"name": "stimpak",
+		"order": 31,
+		"category": "aid"
+	},
+	{
+		"name": "doctors_bag",
+		"order": 32,
+		"category": "aid"
+	},
+	{
+		"name": "chems",
+		"order": 33,
+		"category": "aid"
+	},
+	{
+		"name": "mutation_serum",
+		"order": 34,
+		"category": "aid"
+	},
+	{
+		"name": "magazine",
+		"order": 35,
+		"category": "aid"
+	},
+	{
+		"name": "bobblehead",
+		"order": 36,
+		"category": "aid"
+	},
+	{
+		"name": "moldy_food",
+		"order": 37,
+		"category": "food"
+	},
+	{
+		"name": "bottle_of_water",
+		"order": 38,
+		"category": "food"
+	},
+	{
+		"name": "nuka_cola",
+		"order": 39,
+		"category": "food"
+	},
+	{
+		"name": "alcohol",
+		"order": 40,
+		"category": "food"
+	},
+	{
+		"name": "tea",
+		"order": 41,
+		"category": "food"
+	},
+	{
+		"name": "vegan_food",
+		"order": 42,
+		"category": "food"
+	},
+	{
+		"name": "soup",
+		"order": 43,
+		"category": "food"
+	},
+	{
+		"name": "food",
+		"order": 44,
+		"category": "food"
+	},
+	{
+		"name": "candy",
+		"order": 45,
+		"category": "food"
+	},
+	{
+		"name": "cake",
+		"order": 46,
+		"category": "food"
+	},
+	{
+		"name": "cooked_meat",
+		"order": 47,
+		"category": "food"
+	},
+	{
+		"name": "raw_meat",
+		"order": 48,
+		"category": "food"
+	},
+	{
+		"name": "raw_plant",
+		"order": 49,
+		"category": "food"
+	},
+	{
+		"name": "corn",
+		"order": 50,
+		"category": "food"
+	},
+	{
+		"name": "berry",
+		"order": 51,
+		"category": "food"
+	},
+	{
+		"name": "glasses",
+		"order": 52,
+		"category": "apparel"
+	},
+	{
+		"name": "mask",
+		"order": 53,
+		"category": "apparel"
+	},
+	{
+		"name": "apparel",
+		"order": 54,
+		"category": "apparel"
+	},
+	{
+		"name": "treasure_note",
+		"order": 55,
+		"category": "misc"
+	},
+	{
+		"name": "nuclear_case",
+		"order": 56,
+		"category": "misc"
+	},
+	{
+		"name": "token",
+		"order": 57,
+		"category": "misc"
+	},
+	{
+		"name": "cards",
+		"order": 58,
+		"category": "misc"
+	},
+	{
+		"name": "components",
+		"order": 59,
+		"category": "misc"
+	},
+	{
+		"name": "opened_box",
+		"order": 60,
+		"category": "misc"
+	},
+	{
+		"name": "ore",
+		"order": 61,
+		"category": "misc"
+	},
+	{
+		"name": "junk",
+		"order": 62,
+		"category": "misc"
+	},
+	{
+		"name": "binoculars",
+		"order": 63,
+		"category": "weapons"
+	},
+	{
+		"name": "camera",
+		"order": 64,
+		"category": "weapons"
+	},
+	{
+		"name": "grenade",
+		"order": 65,
+		"category": "weapons"
+	},
+	{
+		"name": "mine",
+		"order": 66,
+		"category": "weapons"
+	},
+	{
+		"name": "unarmed",
+		"order": 67,
+		"category": "weapons"
+	},
+	{
+		"name": "one_handed_melee",
+		"order": 68,
+		"category": "weapons"
+	},
+	{
+		"name": "two_handed_melee",
+		"order": 69,
+		"category": "weapons"
+	},
+	{
+		"name": "weapon",
+		"order": 70,
+		"category": "weapons"
+	},
+	{
+		"name": "power_armor_helmet",
+		"order": 71,
+		"category": "armor"
+	},
+	{
+		"name": "helmet",
+		"order": 72,
+		"category": "armor"
+	},
+	{
+		"name": "chest_armor",
+		"order": 73,
+		"category": "armor"
+	}
+]
