@@ -37,6 +37,22 @@ export enum LeftSignature {
   Weapon = 'WEAP',
 }
 
+export const SORTED_RULES_KEYS: Array<keyof IconRule> = [
+  'order',
+  'iconName',
+  'leftSignature',
+  'rightSignature',
+  'isDeleted',
+  'isAnyKeyword',
+  'isInclusiveOr',
+  'isFullReplaced',
+  'header',
+  'include',
+  'exclude',
+  'isEnabled',
+  'isFallback'
+];
+
 export const ICONS_DEFAULT_RULES: Record<
   string, 
   Pick<IconRule, 'leftSignature' | 'rightSignature' | 'isFullReplaced'>

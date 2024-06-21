@@ -36,3 +36,6 @@ export const filterRecursiveDirs = (item: string) => {
 
   return result;
 }
+
+export const sortByOrder = (itemA: { order: number }, itemB: { order: number }) =>
+  itemA.order - itemB.order;

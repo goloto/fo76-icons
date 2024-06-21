@@ -1,14 +1,14 @@
-import { buildCategoryOrder } from "./categories-order";
-import { buildIconsOrder } from "./icons-order";
+import { buildCategoryOrder } from "./build-category-order";
 import { buildIconRules } from "./icons-rules";
 import { buildHeaders } from "./icons-headers";
 import { buildFontConfig } from "./font-config";
 import { buildUnicodeMap } from "./unicode-map";
+import { readIcons } from "./read-icons";
 
 const build = async () => {
   const categoryOrder = await buildCategoryOrder();
-  const iconsOrder = await buildIconsOrder(categoryOrder);
-  const iconRules = await buildIconRules(iconsOrder);
+  const iconNames = await readIcons(categoryOrder);
+  const iconRules = await buildIconRules(categoryOrder, iconNames);
 
   await buildHeaders(iconRules);
   await buildFontConfig(iconRules);
