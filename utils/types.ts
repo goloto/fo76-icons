@@ -23,8 +23,6 @@ export interface CategoryOrder {
   isDeleted: boolean;
 }
 
-export type CategoryOrderMap = Record<string, CategoryOrder>;
-
 export interface IconOrder extends CategoryOrder {
   category: string;
 }

@@ -31,7 +31,7 @@ export const buildIconRules = async () => {
 
       return [...accumulator, createDefaultInfo(item)]
     }, <IconRule[]>[]);
-  const result = [...mergedIconRules, ...deletedIconRules];
+  const result = mergedIconRules.concat(deletedIconRules);
 
   await writeJson(`${JSON_DIRECTORY}/icons-rules.json`, result);
 }

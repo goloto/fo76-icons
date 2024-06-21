@@ -10,7 +10,7 @@ export const buildIconsOrder = async () => {
   const iconsOrderMap = iconsOrderJson
     .reduce((accumulator, item) => ({...accumulator, [item.name]: item}), <IconOrderMap>{});
   const categoriesOrderJson = await readCategoriesOrderFile();
-  const sortedCategoriesOrder = Object.values(categoriesOrderJson)
+  const sortedCategoriesOrder = categoriesOrderJson
     .filter((item) => !item.isDeleted)
     .sort((itemA, itemB) => itemA.order - itemB.order);
   const itemsOrder = await sortedCategoriesOrder

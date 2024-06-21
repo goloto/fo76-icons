@@ -8,12 +8,10 @@ export const buildCategoryOrder = async () => {
   const clearedDirectories = directories
     .filter((item) => item[0] !== '.');
   const directoriesOrder = await readCategoriesOrderFile();
-  const deletedDirectories = Object
-    .values(directoriesOrder)
+  const deletedDirectories = directoriesOrder
     .filter((item) => !clearedDirectories.includes(item.name))
     .map((item) => ({...item, isDeleted: true}));
-  const existedDirectories = Object
-    .values(directoriesOrder)
+  const existedDirectories = directoriesOrder
     .filter((item) => clearedDirectories.includes(item.name))
     .sort((itemA, itemB) => itemA.order - itemB.order)
     .map((item, index) => ({...item, order: index}));
@@ -29,12 +27,9 @@ export const buildCategoryOrder = async () => {
 
     return accumulator
   }, existedDirectories);
-  const result = [...newDirectories, ...deletedDirectories].reduce((accumulator, item, index) => {
-    return {
-      ...accumulator,
-      [item.name]: item,
-    }
-  }, {});
+  const result = newDirectories
+    .concat(deletedDirectories)
+    .sort((itemA, itemB) => itemA.order - itemB.order);
 
   await writeJson(`${JSON_DIRECTORY}/categories-order.json`,result);
 }
