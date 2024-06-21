@@ -1,9 +1,9 @@
-import { readIconRulesFile, readUnicodeMapFile } from "../file-reading";
+import { readUnicodeMapFile } from "../file-reading";
+import type { IconRule } from "../types";
 
 const TEMPLATE_LINK = '%custom-names%';
 
-export const buildUnicodeMap = async () => {
-  const iconRules = await readIconRulesFile();
+export const buildUnicodeMap = async (iconRules: IconRule[]) => {
   const map = await readUnicodeMapFile();
   const slicedMap = map.slice(0, map.indexOf(TEMPLATE_LINK) + TEMPLATE_LINK.length) + '\r'; 
   const newMap = iconRules.reduce((accumulator, item, index) => {
@@ -14,5 +14,3 @@ export const buildUnicodeMap = async () => {
   
   await Bun.write('./fontlab/standard.nam', newMap);
 }
-
-await buildUnicodeMap();

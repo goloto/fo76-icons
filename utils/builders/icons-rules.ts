@@ -1,10 +1,10 @@
 import type { IconOrder, IconRule, IconRuleMap } from "../types";
-import { readIconRulesFile, readIconsOrderFile } from "../file-reading";
+import { readIconRulesFile } from "../file-reading";
 import { ICONS_DEFAULT_RULES, JSON_DIRECTORY } from "../const";
 import { getNumFromHexadecimal } from "../common";
 import { writeJson } from "../file-writing";
 
-export const buildIconRules = async () => {
+export const buildIconRules = async (iconOrder: IconOrder[]): Promise<IconRule[]> => {
   const iconRules = await readIconRulesFile();
   const iconRulesKeys = iconRules.map((item) => item.name);
   const iconRulesMap = iconRules
@@ -12,7 +12,6 @@ export const buildIconRules = async () => {
       ...accumulator,
       [item.name]: item
     }), <IconRuleMap>{});
-  const iconOrder = await readIconsOrderFile();
   const sortedIconOrder = iconOrder.sort((itemA, itemB) => itemA.order - itemB.order);
   const deletedIconRules = iconRules
     .filter((item) => !iconRulesKeys.includes(item.name))
@@ -34,6 +33,8 @@ export const buildIconRules = async () => {
   const result = mergedIconRules.concat(deletedIconRules);
 
   await writeJson(`${JSON_DIRECTORY}/icons-rules.json`, result);
+
+  return result;
 }
 
 const HEADER_GENERATOR = (function* () {
@@ -58,5 +59,3 @@ const createDefaultInfo = (item: IconOrder): IconRule => ({
   exclude: [],
   ...ICONS_DEFAULT_RULES[item.category],
 });
-
-await buildIconRules();

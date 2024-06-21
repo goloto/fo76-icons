@@ -1,45 +1,26 @@
-import { ICONS_DIRECTORY, JSON_DIRECTORY } from "../const";
-import { readCategoriesOrderFile, readIconsOrderFile } from "../file-reading";
-import { readdir } from "node:fs/promises";
-import type { IconOrder, IconOrderMap } from "../types";
+import { JSON_DIRECTORY, RULES_DIRECTORY } from "../const";
+import { readFileAsJson } from "../file-reading";
+import type { CategoryOrder, IconOrder, IconRule } from "../types";
 import { writeJson } from "../file-writing";
-import { filterRecursiveDirs } from "../common";
 
-export const buildIconsOrder = async () => {
-  const iconsOrderJson = await readIconsOrderFile();
-  const iconsOrderMap = iconsOrderJson
-    .reduce((accumulator, item) => ({...accumulator, [item.name]: item}), <IconOrderMap>{});
-  const categoriesOrderJson = await readCategoriesOrderFile();
-  const sortedCategoriesOrder = categoriesOrderJson
-    .filter((item) => !item.isDeleted)
-    .sort((itemA, itemB) => itemA.order - itemB.order);
-  const itemsOrder = await sortedCategoriesOrder
-    .reduce<Promise<IconOrder[]>>(async (accumulator, dir) => {
+export const buildIconsOrder = async (categoriesOrderJson: CategoryOrder[]): Promise<IconOrder[]> => {
+  const itemsOrder = await categoriesOrderJson
+    .sort((itemA, itemB) => itemA.order - itemB.order)
+    .reduce<Promise<IconOrder[]>>(async (accumulator, category) => {
       const awaitedAccumulator = await accumulator;
-      const dirIcons = await readdir(`${ICONS_DIRECTORY}/${dir.name}`);
-      const mergedIconsOrder = dirIcons
-        .filter(filterRecursiveDirs)
-        .map((item) => item.replace('.svg', ''))
-        .map((item, index): IconOrder => {
-          if (item in iconsOrderMap) {
-            return iconsOrderMap[item];
-          }
-          
-          return {
-            name: item,
-            order: index,
-            category: dir.name,
-            isDeleted: false,
-          }
-        })
-        .sort((itemA, itemB) => itemA.order - itemB.order)
+      const iconRules = await readFileAsJson<IconRule[]>(`${RULES_DIRECTORY}/${category.name}.json`);
+      const mergedIconsOrder = iconRules
+        .map((item, index) => ({
+          name: item.name,
+          order: index,
+          category: category.name,
+        }))
         .map((item, index) => ({...item, order: awaitedAccumulator.length + index}));
 
       return awaitedAccumulator.concat(mergedIconsOrder);
     }, Promise.resolve([]));
 
   await writeJson(`${JSON_DIRECTORY}/icons-order.json`, itemsOrder);
+
+  return itemsOrder;
 }
-
-await buildIconsOrder();
-

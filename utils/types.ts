@@ -20,7 +20,6 @@ export type IconRuleMap = Record<string, IconRule>;
 export interface CategoryOrder {
   name: string;
   order: number;
-  isDeleted: boolean;
 }
 
 export interface IconOrder extends CategoryOrder {

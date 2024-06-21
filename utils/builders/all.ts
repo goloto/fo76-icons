@@ -5,13 +5,14 @@ import { buildHeaders } from "./icons-headers";
 import { buildFontConfig } from "./font-config";
 import { buildUnicodeMap } from "./unicode-map";
 
-const buildAll = async () => {
-  await buildCategoryOrder();
-  await buildIconsOrder();
-  await buildIconRules();
-  await buildHeaders();
-  await buildFontConfig();
-  await buildUnicodeMap();
+const build = async () => {
+  const categoryOrder = await buildCategoryOrder();
+  const iconsOrder = await buildIconsOrder(categoryOrder);
+  const iconRules = await buildIconRules(iconsOrder);
+
+  await buildHeaders(iconRules);
+  await buildFontConfig(iconRules);
+  await buildUnicodeMap(iconRules);
 }
 
-await buildAll();
+await build();

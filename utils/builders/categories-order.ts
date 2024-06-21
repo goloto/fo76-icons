@@ -1,37 +1,35 @@
 import { readdir } from "node:fs/promises";
-import { ICONS_DIRECTORY, JSON_DIRECTORY } from "../const";
+import { JSON_DIRECTORY, RULES_DIRECTORY } from "../const";
 import { readCategoriesOrderFile } from "../file-reading";
 import { writeJson } from "../file-writing";
+import type { CategoryOrder } from "../types";
 
-export const buildCategoryOrder = async () => {
-  const directories = await readdir(`${ICONS_DIRECTORY}`);
+export const buildCategoryOrder = async (): Promise<CategoryOrder[]> => {
+  const directories = await readdir(`${RULES_DIRECTORY}`);
   const clearedDirectories = directories
-    .filter((item) => item[0] !== '.');
+    .filter((item) => item[0] !== '.json')
+    .map((item) => item.replace('.json', ''));
   const directoriesOrder = await readCategoriesOrderFile();
-  const deletedDirectories = directoriesOrder
-    .filter((item) => !clearedDirectories.includes(item.name))
-    .map((item) => ({...item, isDeleted: true}));
   const existedDirectories = directoriesOrder
     .filter((item) => clearedDirectories.includes(item.name))
     .sort((itemA, itemB) => itemA.order - itemB.order)
     .map((item, index) => ({...item, order: index}));
   const simplifiedExistedDirectories = existedDirectories
     .map((item) => item.name);
-  const newDirectories = clearedDirectories.reduce((accumulator, item, index) => {
+  const newDirectories = clearedDirectories.reduce((accumulator, item) => {
     if (!simplifiedExistedDirectories.includes(item)) {
       return [
         ...accumulator,
-        {name: item, order: accumulator.length, isDeleted: false},
+        {name: item, order: accumulator.length},
       ]
     }
 
     return accumulator
   }, existedDirectories);
   const result = newDirectories
-    .concat(deletedDirectories)
     .sort((itemA, itemB) => itemA.order - itemB.order);
 
   await writeJson(`${JSON_DIRECTORY}/categories-order.json`,result);
-}
 
-await buildCategoryOrder();
+  return result;
+}

@@ -1,7 +1,5 @@
-import { readdir } from "node:fs/promises";
-import { readIconRulesFile } from "../file-reading";
-import { ICONS_DIRECTORY } from "../const";
-import { getCharFromHexadecimal, isIconInfoArray } from "../common";
+import { getCharFromHexadecimal } from "../common";
+import type { IconRule } from "../types";
 
 const FONT_CONFIG_TEMPLATE = `fontlib "fonts_ru"
 map "$76HandwrittenIlliterate" = "HandwrittenIlliterate" Normal
@@ -32,12 +30,9 @@ map "$Typewriter_Font" = "VeteranTypewriterRedacted" Normal
 validNameChars "\`1234567890-=~!@#$%^&*():_+QWERTYUIOP[]ASDFGHJKL;'ZXCVBNM,./qwertyuiop{}\\asdfghjkl;'zxcvbnm?|ЎўЈ¤Ґ¦§Ё©Є«®Ї°Ііґ¶·ё№є»јЅѕїДАБВГЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэю я%custom-characters% "
 validBookChars "\`1234567890-=~!@#$%^&*():_+QWERTYUIOP[]ASDFGHJKL;'ZXCVBNM,./qwertyuiop{}\\asdfghjkl;'zxcvbnm<>?|ЎўЈ¤Ґ¦§Ё©Є«®Ї°Ііґ¶·ё№є»јЅѕїДАБВГЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэю я "`;
 
-export const buildFontConfig = async () => {
-  const iconRules = await readIconRulesFile();
+export const buildFontConfig = async (iconRules: IconRule[]) => {
   const characters = iconRules
     .reduce((accumulator, item) => `${accumulator}${getCharFromHexadecimal(item?.header)}`, '');
 
   await Bun.write('./headers/fontconfig_ru.txt', FONT_CONFIG_TEMPLATE.replace('%custom-characters%', characters));
 }
-
-await buildFontConfig();

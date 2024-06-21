@@ -17,7 +17,7 @@ export const readUnicodeMapFile = async (): Promise<string> => {
   return await readFileAsText('./fontlab/standard.nam');
 }
 
-const readFileAsJson = async <T extends unknown>(path: string) => {
+export const readFileAsJson = async <T extends unknown>(path: string) => {
   const str = await readFileAsText(path);
   const json = JSON.parse(str) as T;
 

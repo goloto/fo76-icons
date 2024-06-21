@@ -2,6 +2,7 @@ import type { IconRule } from "./types";
 
 export const ICONS_DIRECTORY = './icons';
 export const JSON_DIRECTORY = './json';
+export const RULES_DIRECTORY = './rules';
 
 export enum RightSignature {
   WNAM = 'WNAM',

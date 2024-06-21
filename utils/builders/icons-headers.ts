@@ -1,6 +1,6 @@
-import { readIconRulesFile } from "../file-reading";
 import { getCharFromHexadecimal } from "../common";
 import { writeUtf8BomString } from "../file-writing";
+import type { IconRule } from "../types";
 
 const HEADER_ANCHOR = '%header%';
 const INCLUDE_ANCHOR = '%include%';
@@ -34,8 +34,7 @@ const RULE_TEMPLATE = `[StartRule]
  ${EXCLUDE_ANCHOR}
 [EndRule]`;
 
-export const buildHeaders = async () => {
-  const iconRules = await readIconRulesFile();
+export const buildHeaders = async (iconRules: IconRule[]) => {
   const result = Object.values(iconRules)
     .filter((item) => !item.isDeleted)
     .reduce((accumulator: string, item) => {
@@ -86,5 +85,3 @@ const concatenateRules = (rule: string, array?: string[]): string => {
 }
 
 const replaceBoolean = (flag: boolean) => flag ? '-1': '0';
-
-await buildHeaders();
