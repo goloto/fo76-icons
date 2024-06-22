@@ -9,7 +9,9 @@
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
 		"header": "0x2281",
-		"include": [],
+		"include": [
+			"edid|FatManMiniNuke"
+		],
 		"exclude": []
 	},
 	{
@@ -38,7 +40,7 @@
 		"isFullReplaced": false,
 		"header": "0x2283",
 		"include": [
-			"edid|000CABA3"
+			"edid|missile"
 		],
 		"exclude": []
 	},

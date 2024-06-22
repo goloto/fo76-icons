@@ -6,7 +6,7 @@
 [EndHeader]
 
 [StartRule]
- Header=≦
+ Header=#blood#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -24,7 +24,7 @@
 [EndRule]
 
 [StartRule]
- Header=≧
+ Header=#broken_shield#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -42,7 +42,7 @@
 [EndRule]
 
 [StartRule]
- Header=≨
+ Header=#food_and_wine#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -61,7 +61,7 @@
 [EndRule]
 
 [StartRule]
- Header=≩
+ Header=#accuracy#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -79,7 +79,7 @@
 [EndRule]
 
 [StartRule]
- Header=≪
+ Header=#scorched_head#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -98,7 +98,7 @@
 [EndRule]
 
 [StartRule]
- Header=≫
+ Header=#ghoul_vault_head#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -117,7 +117,7 @@
 [EndRule]
 
 [StartRule]
- Header=≬
+ Header=#four_bullets#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -135,7 +135,7 @@
 [EndRule]
 
 [StartRule]
- Header=≭
+ Header=#night#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -154,7 +154,7 @@
 [EndRule]
 
 [StartRule]
- Header=≮
+ Header=#shuriken#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -172,7 +172,7 @@
 [EndRule]
 
 [StartRule]
- Header=≯
+ Header=#viking_helmet#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -190,7 +190,7 @@
 [EndRule]
 
 [StartRule]
- Header=≰
+ Header=#cockroach#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -209,7 +209,7 @@
 [EndRule]
 
 [StartRule]
- Header=≱
+ Header=#two_bullets#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -227,7 +227,7 @@
 [EndRule]
 
 [StartRule]
- Header=≲
+ Header=#human#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -246,7 +246,7 @@
 [EndRule]
 
 [StartRule]
- Header=≳
+ Header=#pills#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -264,7 +264,7 @@
 [EndRule]
 
 [StartRule]
- Header=≴
+ Header=#flying_bullets#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -282,7 +282,7 @@
 [EndRule]
 
 [StartRule]
- Header=≵
+ Header=#mr_handy#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -301,7 +301,7 @@
 [EndRule]
 
 [StartRule]
- Header=≶
+ Header=#super_mutant_head#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -320,7 +320,7 @@
 [EndRule]
 
 [StartRule]
- Header=≷
+ Header=#aristocrat_hat#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -339,7 +339,7 @@
 [EndRule]
 
 [StartRule]
- Header=≸
+ Header=#health_below_forty#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -357,7 +357,7 @@
 [EndRule]
 
 [StartRule]
- Header=≹
+ Header=#wolf#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -376,7 +376,7 @@
 [EndRule]
 
 [StartRule]
- Header=≺
+ Header=#caps#
  rSig=CNCY
  fSig=FULL
  enabled=-1
@@ -394,7 +394,7 @@
 [EndRule]
 
 [StartRule]
- Header=≻
+ Header=#keycard#
  rSig=KEYM
  fSig=FULL
  enabled=-1
@@ -414,7 +414,7 @@
 [EndRule]
 
 [StartRule]
- Header=≼
+ Header=#key#
  rSig=KEYM
  fSig=FULL
  enabled=-1
@@ -434,7 +434,7 @@
 [EndRule]
 
 [StartRule]
- Header=≽
+ Header=#plan#
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -452,7 +452,7 @@
 [EndRule]
 
 [StartRule]
- Header=≾
+ Header=#note#
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -471,7 +471,7 @@
 [EndRule]
 
 [StartRule]
- Header=≿
+ Header=#quest#
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -489,7 +489,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊀
+ Header=#videotape#
  rSig=NOTE
  fSig=FULL
  enabled=-1
@@ -508,7 +508,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊁
+ Header=#mini_nuke#
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -521,12 +521,12 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=edid|FatManMiniNuke
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⊂
+ Header=#fusion_core#
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -544,7 +544,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊃
+ Header=#rocket#
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -557,12 +557,12 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|000CABA3
+ Include_0=edid|missile
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⊄
+ Header=#ballistic_ammo#
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -580,7 +580,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊅
+ Header=#lunchbox#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -598,7 +598,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊆
+ Header=#stimpak#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -616,7 +616,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊇
+ Header=#radaway#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -635,7 +635,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊈
+ Header=#doctors_bag#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -653,7 +653,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊉
+ Header=#chems#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -671,7 +671,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊊
+ Header=#mutation_serum#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -689,7 +689,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊋
+ Header=#magazine#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -707,7 +707,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊌
+ Header=#bobblehead#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -725,7 +725,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊍
+ Header=#moldy_food#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -743,7 +743,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊎
+ Header=#bottle_of_water#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -761,7 +761,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊏
+ Header=#nuka_cola#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -780,7 +780,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊐
+ Header=#alcohol#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -799,7 +799,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊑
+ Header=#tea#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -817,7 +817,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊒
+ Header=#vegan_food#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -837,7 +837,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊓
+ Header=#soup#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -857,7 +857,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊔
+ Header=#canned_food#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -876,7 +876,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊕
+ Header=#food#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -894,7 +894,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊖
+ Header=#candy#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -912,7 +912,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊗
+ Header=#cake#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -930,7 +930,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊘
+ Header=#meat_soup#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -950,7 +950,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊙
+ Header=#cooked_meat#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -970,7 +970,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊚
+ Header=#raw_meat#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -989,7 +989,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊛
+ Header=#raw_plant#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1008,7 +1008,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊜
+ Header=#berry#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1027,7 +1027,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊝
+ Header=#corn#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1045,7 +1045,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊞
+ Header=#tato#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1064,7 +1064,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊟
+ Header=#helmet#
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1082,7 +1082,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊠
+ Header=#fedora_hat#
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1101,7 +1101,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊡
+ Header=#fasnacht_mask#
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1120,7 +1120,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊢
+ Header=#gas_mask#
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1139,7 +1139,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊣
+ Header=#glasses#
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1158,7 +1158,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊤
+ Header=#apparel#
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1176,7 +1176,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊥
+ Header=#treasure_note#
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1194,7 +1194,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊦
+ Header=#nuclear_case#
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1212,7 +1212,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊧
+ Header=#repair_kit#
  rSig=UTIL
  fSig=FULL
  enabled=-1
@@ -1230,7 +1230,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊨
+ Header=#flux#
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1248,7 +1248,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊩
+ Header=#token#
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1266,7 +1266,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊪
+ Header=#cards#
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1284,7 +1284,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊫
+ Header=#components#
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1302,7 +1302,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊬
+ Header=#opened_box#
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1322,7 +1322,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊭
+ Header=#ore#
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1340,7 +1340,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊮
+ Header=#teddy_bear#
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1358,7 +1358,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊯
+ Header=#junk#
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1376,7 +1376,7 @@
 [EndRule]
 
 [StartRule]
- Header=≿
+ Header=#quest#
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1394,7 +1394,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊰
+ Header=#binoculars#
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1412,7 +1412,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊱
+ Header=#camera#
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1430,7 +1430,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊲
+ Header=#grenade#
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1448,7 +1448,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊳
+ Header=#mine#
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1466,7 +1466,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊴
+ Header=#unarmed#
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1484,7 +1484,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊵
+ Header=#one_handed_melee#
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1502,7 +1502,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊶
+ Header=#two_handed_melee#
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1520,7 +1520,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊷
+ Header=#weapon#
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1538,7 +1538,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊸
+ Header=#power_armor_helmet#
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1556,7 +1556,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊹
+ Header=#chest_armor#
  rSig=ARMO
  fSig=FULL
  enabled=-1

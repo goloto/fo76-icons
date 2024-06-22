@@ -38,31 +38,44 @@ export const buildHeaders = async (iconRules: IconRule[]) => {
   const result = Object.values(iconRules)
     .filter((item) => !item.isDeleted)
     .reduce((accumulator: string, item) => {
-      const {
-        header, 
-        rightSignature, 
-        leftSignature, 
-        isAnyKeyword,
-        isInclusiveOr,
-        isFullReplaced,
-        include, 
-        exclude
-      } = item;
-      const rules = RULE_TEMPLATE
-        .replace(HEADER_ANCHOR, getCharFromHexadecimal(header))
-        .replace(RIGHT_SIGNATURE_ANCHOR, rightSignature)
-        .replace(LEFT_SIGNATURE_ANCHOR, leftSignature)
-        .replace(IS_ANY_KEYWORD_ANCHOR, replaceBoolean(isAnyKeyword))
-        .replace(IS_INCLUSIVE_OR_ANCHOR, replaceBoolean(isInclusiveOr))
-        .replace(IS_FULL_REPLACED, replaceBoolean(isFullReplaced))
-        .replace(INCLUDE_ANCHOR, concatenateInclude(include))
-        .replace(EXCLUDE_ANCHOR, concatenateExclude(exclude));
+      const rules = replaceAnchors(item)
+        .replace(HEADER_ANCHOR, getCharFromHexadecimal(item.header));
 
       return `${accumulator}\r\n\r\n${rules}`;
     }, `${FILE_HEADER}`);
 
-  await writeUtf8BomString('./headers/Header_Rules.txt', result);
+    const resultForTesting = Object.values(iconRules)
+    .filter((item) => !item.isDeleted)
+    .reduce((accumulator: string, item) => {
+      const rules = replaceAnchors(item)
+        .replace(HEADER_ANCHOR, `#${item.iconName}#`);
+
+      return `${accumulator}\r\n\r\n${rules}`;
+    }, `${FILE_HEADER}`);
+
+  await writeUtf8BomString('./headers/HeaderRules.txt', result);
+  await writeUtf8BomString('./headers/HeaderRules_testing.txt', resultForTesting);
 }
+
+const replaceAnchors = ({
+  rightSignature, 
+  leftSignature, 
+  isAnyKeyword,
+  isInclusiveOr,
+  isFullReplaced,
+  include, 
+  exclude
+}: IconRule): string => {
+  return RULE_TEMPLATE
+    .replace(RIGHT_SIGNATURE_ANCHOR, rightSignature)
+    .replace(LEFT_SIGNATURE_ANCHOR, leftSignature)
+    .replace(IS_ANY_KEYWORD_ANCHOR, replaceBoolean(isAnyKeyword))
+    .replace(IS_INCLUSIVE_OR_ANCHOR, replaceBoolean(isInclusiveOr))
+    .replace(IS_FULL_REPLACED, replaceBoolean(isFullReplaced))
+    .replace(INCLUDE_ANCHOR, concatenateInclude(include))
+    .replace(EXCLUDE_ANCHOR, concatenateExclude(exclude));
+}
+
 
 const concatenateExclude = (array?: string[]) => {
   return concatenateRules('Exclude', array);
