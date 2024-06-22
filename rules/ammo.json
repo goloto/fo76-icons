@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2280",
+		"header": "0x2281",
 		"include": [],
 		"exclude": []
 	},
@@ -21,7 +21,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2281",
+		"header": "0x2282",
 		"include": [
 			"ekwd|AmmoTypeFusionCore"
 		],
@@ -36,7 +36,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2282",
+		"header": "0x2283",
 		"include": [
 			"edid|000CABA3"
 		],
@@ -51,7 +51,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2283",
+		"header": "0x2284",
 		"include": [
 			"ekwd|ObjectTypeAmmo"
 		],

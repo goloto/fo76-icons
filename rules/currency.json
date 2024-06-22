@@ -1,17 +1,16 @@
 [
 	{
 		"order": 0,
-		"iconName": "videotape",
-		"leftSignature": "NOTE",
+		"iconName": "caps",
+		"leftSignature": "CNCY",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"isInclusiveOr": true,
+		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2280",
+		"header": "0x227a",
 		"include": [
-			"edid|holotape",
-			"ekwd|UnsellableObject"
+			"edid|Caps001"
 		],
 		"exclude": []
 	}

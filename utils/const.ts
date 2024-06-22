@@ -77,13 +77,18 @@ export const ICONS_DEFAULT_RULES: Record<
     rightSignature: RightSignature.FULL,
     isFullReplaced: false,
   },
+  currency: {
+    leftSignature: LeftSignature.Currency,
+    rightSignature: RightSignature.FULL,
+    isFullReplaced: false,
+  },
   food: {
     leftSignature: LeftSignature.Alchemy,
     rightSignature: RightSignature.FULL,
     isFullReplaced: false,
   },
-  junk: {
-    leftSignature: LeftSignature.Misc,
+  holotapes: {
+    leftSignature: LeftSignature.Note,
     rightSignature: RightSignature.FULL,
     isFullReplaced: false,
   },
@@ -92,10 +97,20 @@ export const ICONS_DEFAULT_RULES: Record<
     rightSignature: RightSignature.FULL,
     isFullReplaced: false,
   },
-  legendary: {
+  "legendary-effects": {
     leftSignature: LeftSignature.InstanceNamingRules,
     rightSignature: RightSignature.WNAM,
     isFullReplaced: true,
+  },
+  misc: {
+    leftSignature: LeftSignature.Misc,
+    rightSignature: RightSignature.FULL,
+    isFullReplaced: false,
+  },
+  mods: {
+    leftSignature: LeftSignature.Modification,
+    rightSignature: RightSignature.FULL,
+    isFullReplaced: false,
   },
   notes: {
     leftSignature: LeftSignature.Book,
@@ -104,11 +119,6 @@ export const ICONS_DEFAULT_RULES: Record<
   },
   weapons: {
     leftSignature: LeftSignature.Weapon,
-    rightSignature: RightSignature.FULL,
-    isFullReplaced: false,
-  },
-  misc: {
-    leftSignature: LeftSignature.Misc,
     rightSignature: RightSignature.FULL,
     isFullReplaced: false,
   },

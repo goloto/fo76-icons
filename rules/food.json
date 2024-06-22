@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x228b",
+		"header": "0x228c",
 		"include": [
 			"ekwd|IngredientTypeMoldy"
 		],
@@ -23,7 +23,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x228c",
+		"header": "0x228d",
 		"include": [
 			"ekwd|DrinkTypeWater"
 		],
@@ -38,7 +38,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x228d",
+		"header": "0x228e",
 		"include": [
 			"ekwd|ObjectTypeDrink",
 			"ekwd|DrinkTypeSoda"
@@ -54,7 +54,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x228e",
+		"header": "0x228f",
 		"include": [
 			"ekwd|ObjectTypeDrink",
 			"ekwd|DrinkTypeAlcohol"
@@ -70,7 +70,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x228f",
+		"header": "0x2290",
 		"include": [
 			"ekwd|DrinkTypeTea"
 		],
@@ -85,7 +85,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2290",
+		"header": "0x2291",
 		"include": [
 			"ekwd|ObjectTypeFood",
 			"ekwd|MealTypeCooked",
@@ -102,7 +102,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2291",
+		"header": "0x2292",
 		"include": [
 			"ekwd|ObjectTypeFood",
 			"ekwd|MealTypeSoup"
@@ -118,7 +118,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2292",
+		"header": "0x2293",
 		"include": [
 			"ekwd|ObjectTypeFood"
 		],
@@ -133,7 +133,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2293",
+		"header": "0x2294",
 		"include": [
 			"ekwd|ObjectTypeCandy"
 		],
@@ -148,7 +148,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2294",
+		"header": "0x2295",
 		"include": [
 			"ekwd|ObjectTypeCakesPies"
 		],
@@ -163,7 +163,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2295",
+		"header": "0x2296",
 		"include": [
 			"ekwd|ObjectTypeFood",
 			"ekwd|IngredientTypeMeat",
@@ -180,7 +180,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2296",
+		"header": "0x2297",
 		"include": [
 			"ekwd|ObjectTypeFood",
 			"ekwd|IngredientTypeMeat"
@@ -196,7 +196,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2297",
+		"header": "0x2298",
 		"include": [
 			"ekwd|PlantTypeVegetable",
 			"ekwd|PlantTypeGourd"
@@ -211,7 +211,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2298",
+		"header": "0x2299",
 		"include": [
 			"ekwd|PlantTypeCorn"
 		],
@@ -226,7 +226,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x2299",
+		"header": "0x229a",
 		"include": [
 			"ekwd|PlantTypeBerry",
 			"ekwd|PlantTypeCranberries"

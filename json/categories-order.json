@@ -4,47 +4,51 @@
 		"order": 0
 	},
 	{
-		"name": "keys",
+		"name": "currency",
 		"order": 1
 	},
 	{
-		"name": "notes",
+		"name": "keys",
 		"order": 2
 	},
 	{
-		"name": "holotapes",
+		"name": "notes",
 		"order": 3
 	},
 	{
-		"name": "ammo",
+		"name": "holotapes",
 		"order": 4
 	},
 	{
-		"name": "aid",
+		"name": "ammo",
 		"order": 5
 	},
 	{
-		"name": "food",
+		"name": "aid",
 		"order": 6
 	},
 	{
-		"name": "apparel",
+		"name": "food",
 		"order": 7
 	},
 	{
-		"name": "misc",
+		"name": "apparel",
 		"order": 8
 	},
 	{
-		"name": "weapons",
+		"name": "misc",
 		"order": 9
 	},
 	{
-		"name": "armor",
+		"name": "weapons",
 		"order": 10
 	},
 	{
-		"name": "mods",
+		"name": "armor",
 		"order": 11
+	},
+	{
+		"name": "mods",
+		"order": 12
 	}
 ]
