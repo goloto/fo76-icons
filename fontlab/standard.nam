@@ -20173,7 +20173,8 @@
 0x2263 >strictlyequivalent
 0x2264 lessequal
 0x2265 greaterequal
-%custom-names%0x2266 blood
+%custom-names%
+0x2266 blood
 0x2267 broken_shield
 0x2268 food_and_wine
 0x2269 accuracy
