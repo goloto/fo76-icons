@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a1",
+		"header": "0x22a2",
 		"include": [
 			"edid|Treasury_Note"
 		],
@@ -23,7 +23,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a2",
+		"header": "0x22a3",
 		"include": [
 			"ekwd|ObjectTypeNukeKeycard"
 		],
@@ -38,7 +38,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a3",
+		"header": "0x22a4",
 		"include": [
 			"edid|token"
 		],
@@ -53,7 +53,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a4",
+		"header": "0x22a5",
 		"include": [
 			"ekwd|Moon_CryptidCardKeyword"
 		],
@@ -68,7 +68,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a5",
+		"header": "0x22a6",
 		"include": [
 			"ekwd|ObjectTypeComponent"
 		],
@@ -83,7 +83,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22a6",
+		"header": "0x22a7",
 		"include": [
 			"ekwd|ObjectTypeToy",
 			"ekwd|ObjectTypeSports",
@@ -100,7 +100,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a7",
+		"header": "0x22a8",
 		"include": [
 			"edid|ore"
 		],
@@ -117,7 +117,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a8",
+		"header": "0x22a9",
 		"include": [],
 		"exclude": []
 	},
@@ -132,6 +132,21 @@
 		"isFullReplaced": false,
 		"header": "0x227f",
 		"include": [],
+		"exclude": []
+	},
+	{
+		"order": 9,
+		"iconName": "repair_kit",
+		"leftSignature": "UTIL",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22aa",
+		"include": [
+			"edid|RepairKit"
+		],
 		"exclude": []
 	}
 ]

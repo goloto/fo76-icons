@@ -105,6 +105,7 @@
 		"header": "0x2292",
 		"include": [
 			"ekwd|ObjectTypeFood",
+			"ekwd|IngredientTypeVegetable",
 			"ekwd|MealTypeSoup"
 		],
 		"exclude": []
@@ -156,7 +157,7 @@
 	},
 	{
 		"order": 10,
-		"iconName": "cooked_meat",
+		"iconName": "meat_soup",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -165,15 +166,15 @@
 		"isFullReplaced": false,
 		"header": "0x2296",
 		"include": [
-			"ekwd|ObjectTypeFood",
+			"ekwd|ObjectTypeSoup",
 			"ekwd|IngredientTypeMeat",
-			"ekwd|MealTypeCooked"
+			"ekwd|MealTypeSoup"
 		],
 		"exclude": []
 	},
 	{
 		"order": 11,
-		"iconName": "raw_meat",
+		"iconName": "cooked_meat",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -183,13 +184,14 @@
 		"header": "0x2297",
 		"include": [
 			"ekwd|ObjectTypeFood",
-			"ekwd|IngredientTypeMeat"
+			"ekwd|IngredientTypeMeat",
+			"ekwd|MealTypeCooked"
 		],
 		"exclude": []
 	},
 	{
 		"order": 12,
-		"iconName": "raw_plant",
+		"iconName": "raw_meat",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -198,13 +200,14 @@
 		"isFullReplaced": false,
 		"header": "0x2298",
 		"include": [
-			"ekwd|PlantTypeVegetable",
-			"ekwd|PlantTypeGourd"
-		]
+			"ekwd|ObjectTypeFood",
+			"ekwd|IngredientTypeMeat"
+		],
+		"exclude": []
 	},
 	{
 		"order": 13,
-		"iconName": "corn",
+		"iconName": "raw_plant",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -213,12 +216,27 @@
 		"isFullReplaced": false,
 		"header": "0x2299",
 		"include": [
+			"ekwd|PlantTypeVegetable",
+			"ekwd|PlantTypeGourd"
+		]
+	},
+	{
+		"order": 14,
+		"iconName": "corn",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x229a",
+		"include": [
 			"ekwd|PlantTypeCorn"
 		],
 		"exclude": []
 	},
 	{
-		"order": 14,
+		"order": 15,
 		"iconName": "berry",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -226,7 +244,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x229a",
+		"header": "0x229b",
 		"include": [
 			"ekwd|PlantTypeBerry",
 			"ekwd|PlantTypeCranberries"
