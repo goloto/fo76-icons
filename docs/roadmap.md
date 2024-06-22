@@ -3,6 +3,15 @@
 ### Common
  - [x] Merge icons with Cyrillized Font Library
 
+### Currency
+ - [x] Caps
+ - [ ] Marks
+ - [ ] Possum badge
+ - [ ] Tadpole badge
+ - [ ] Gold bullion
+ - [ ] Legendary token
+ - [ ] Legendary core
+
 ### Weapon Tab 
  - [ ] Unique weapons
  - [ ] Pistols
@@ -62,8 +71,8 @@
  - [ ] Repair kit
  - [x] Nuke card
  - [x] Cards
- - [ ] Legendary Module
- - [ ] Legendary Core
+ - [ ] Legendary token
+ - [ ] Legendary core
  - [ ] Toys
  - [ ] Flux
  - [ ] Bulk
