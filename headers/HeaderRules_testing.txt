@@ -795,7 +795,7 @@
  fallbackBank=0
  Include_0=ekwd|ObjectTypeDrink
  Include_1=ekwd|DrinkTypeAlcohol
- Exclude_0=
+ Exclude_0=ekwd|DrinkTypeTea
 [EndRule]
 
 [StartRule]
@@ -813,7 +813,7 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|DrinkTypeTea
- Exclude_0=
+ Exclude_0=ekwd|IngredientTypeBlood
 [EndRule]
 
 [StartRule]
@@ -833,7 +833,7 @@
  Include_0=ekwd|ObjectTypeFood
  Include_1=ekwd|MealTypeCooked
  Include_2=ekwd|IngredientTypeFruit
- Exclude_0=
+ Exclude_0=ekwd|IngredientTypeMeat
 [EndRule]
 
 [StartRule]
@@ -853,7 +853,7 @@
  Include_0=ekwd|ObjectTypeFood
  Include_1=ekwd|IngredientTypeVegetable
  Include_2=ekwd|MealTypeSoup
- Exclude_0=
+ Exclude_0=ekwd|IngredientTypeMeat
 [EndRule]
 
 [StartRule]
@@ -872,25 +872,8 @@
  fallbackBank=0
  Include_0=ekwd|ObjectTypeFood
  Include_1=ekwd|MealTypePackaged
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#food#
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ObjectTypeFood
- Exclude_0=
+ Exclude_0=ekwd|ObjectTypeCandy
+ Exclude_1=ekwd|ObjectTypeCakesPies
 [EndRule]
 
 [StartRule]
@@ -940,12 +923,15 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ObjectTypeSoup
- Include_1=ekwd|IngredientTypeMeat
- Include_2=ekwd|MealTypeSoup
+ Include_0=edid|GulperMeatCooked
+ Include_1=edid|RadStagMeatTastyStew
+ Include_2=edid|ScorchBeastTastyStew
+ Include_3=edid|StingwingMeatTastyStew
+ Include_4=edid|VenisonAndTatoStew_Psycho
+ Include_5=edid|VenisonAndTatoStew_Spiced
  Exclude_0=
 [EndRule]
 
@@ -966,7 +952,7 @@
  Include_0=ekwd|ObjectTypeFood
  Include_1=ekwd|IngredientTypeMeat
  Include_2=ekwd|MealTypeCooked
- Exclude_0=
+ Exclude_0=ekwd|MealTypeSoup
 [EndRule]
 
 [StartRule]
@@ -985,7 +971,7 @@
  fallbackBank=0
  Include_0=ekwd|ObjectTypeFood
  Include_1=ekwd|IngredientTypeMeat
- Exclude_0=
+ Exclude_0=ekwd|MealTypeCooked
 [EndRule]
 
 [StartRule]
@@ -1060,6 +1046,24 @@
  fallbackBank=0
  Include_0=ekwd|PlantTypeTato
  Include_1=edid|TatoVegetableFruit
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#food#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeFood
  Exclude_0=
 [EndRule]
 

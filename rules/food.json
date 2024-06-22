@@ -59,7 +59,9 @@
 			"ekwd|ObjectTypeDrink",
 			"ekwd|DrinkTypeAlcohol"
 		],
-		"exclude": []
+		"exclude": [
+			"ekwd|DrinkTypeTea"
+		]
 	},
 	{
 		"order": 4,
@@ -74,7 +76,9 @@
 		"include": [
 			"ekwd|DrinkTypeTea"
 		],
-		"exclude": []
+		"exclude": [
+			"ekwd|IngredientTypeBlood"
+		]
 	},
 	{
 		"order": 5,
@@ -91,7 +95,9 @@
 			"ekwd|MealTypeCooked",
 			"ekwd|IngredientTypeFruit"
 		],
-		"exclude": []
+		"exclude": [
+			"ekwd|IngredientTypeMeat"
+		]
 	},
 	{
 		"order": 6,
@@ -108,7 +114,9 @@
 			"ekwd|IngredientTypeVegetable",
 			"ekwd|MealTypeSoup"
 		],
-		"exclude": []
+		"exclude": [
+			"ekwd|IngredientTypeMeat"
+		]
 	},
 	{
 		"order": 7,
@@ -124,11 +132,14 @@
 			"ekwd|ObjectTypeFood",
 			"ekwd|MealTypePackaged"
 		],
-		"exclude": []
+		"exclude": [
+			"ekwd|ObjectTypeCandy",
+			"ekwd|ObjectTypeCakesPies"
+		]
 	},
 	{
 		"order": 8,
-		"iconName": "food",
+		"iconName": "candy",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -137,13 +148,13 @@
 		"isFullReplaced": false,
 		"header": "0x2295",
 		"include": [
-			"ekwd|ObjectTypeFood"
+			"ekwd|ObjectTypeCandy"
 		],
 		"exclude": []
 	},
 	{
 		"order": 9,
-		"iconName": "candy",
+		"iconName": "cake",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -152,28 +163,33 @@
 		"isFullReplaced": false,
 		"header": "0x2296",
 		"include": [
-			"ekwd|ObjectTypeCandy"
-		],
-		"exclude": []
-	},
-	{
-		"order": 10,
-		"iconName": "cake",
-		"leftSignature": "ALCH",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2297",
-		"include": [
 			"ekwd|ObjectTypeCakesPies"
 		],
 		"exclude": []
 	},
 	{
-		"order": 11,
+		"order": 10,
 		"iconName": "meat_soup",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x2297",
+		"include": [
+			"edid|GulperMeatCooked",
+			"edid|RadStagMeatTastyStew",
+			"edid|ScorchBeastTastyStew",
+			"edid|StingwingMeatTastyStew",
+			"edid|VenisonAndTatoStew_Psycho",
+			"edid|VenisonAndTatoStew_Spiced"
+		],
+		"exclude": []
+	},
+	{
+		"order": 11,
+		"iconName": "cooked_meat",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -182,15 +198,17 @@
 		"isFullReplaced": false,
 		"header": "0x2298",
 		"include": [
-			"ekwd|ObjectTypeSoup",
+			"ekwd|ObjectTypeFood",
 			"ekwd|IngredientTypeMeat",
-			"ekwd|MealTypeSoup"
+			"ekwd|MealTypeCooked"
 		],
-		"exclude": []
+		"exclude": [
+			"ekwd|MealTypeSoup"
+		]
 	},
 	{
 		"order": 12,
-		"iconName": "cooked_meat",
+		"iconName": "raw_meat",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -200,14 +218,15 @@
 		"header": "0x2299",
 		"include": [
 			"ekwd|ObjectTypeFood",
-			"ekwd|IngredientTypeMeat",
-			"ekwd|MealTypeCooked"
+			"ekwd|IngredientTypeMeat"
 		],
-		"exclude": []
+		"exclude": [
+			"ekwd|MealTypeCooked"
+		]
 	},
 	{
 		"order": 13,
-		"iconName": "raw_meat",
+		"iconName": "raw_plant",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -216,28 +235,12 @@
 		"isFullReplaced": false,
 		"header": "0x229a",
 		"include": [
-			"ekwd|ObjectTypeFood",
-			"ekwd|IngredientTypeMeat"
-		],
-		"exclude": []
-	},
-	{
-		"order": 14,
-		"iconName": "raw_plant",
-		"leftSignature": "ALCH",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x229b",
-		"include": [
 			"ekwd|PlantTypeVegetable",
 			"ekwd|PlantTypeGourd"
 		]
 	},
 	{
-		"order": 15,
+		"order": 14,
 		"iconName": "berry",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -245,7 +248,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x229c",
+		"header": "0x229b",
 		"include": [
 			"ekwd|PlantTypeBerry",
 			"ekwd|PlantTypeCranberries"
@@ -253,8 +256,23 @@
 		"exclude": []
 	},
 	{
-		"order": 16,
+		"order": 15,
 		"iconName": "corn",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x229c",
+		"include": [
+			"ekwd|PlantTypeCorn"
+		],
+		"exclude": []
+	},
+	{
+		"order": 16,
+		"iconName": "tato",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -263,13 +281,14 @@
 		"isFullReplaced": false,
 		"header": "0x229d",
 		"include": [
-			"ekwd|PlantTypeCorn"
+			"ekwd|PlantTypeTato",
+			"edid|TatoVegetableFruit"
 		],
 		"exclude": []
 	},
 	{
 		"order": 17,
-		"iconName": "tato",
+		"iconName": "food",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -278,8 +297,7 @@
 		"isFullReplaced": false,
 		"header": "0x229e",
 		"include": [
-			"ekwd|PlantTypeTato",
-			"edid|TatoVegetableFruit"
+			"ekwd|ObjectTypeFood"
 		],
 		"exclude": []
 	}
