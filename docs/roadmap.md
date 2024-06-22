@@ -29,12 +29,15 @@
  - [ ] Power Armor 
 
 ### Apparel Tab
- - [ ] Hat
- - [ ] Helmet
- - [ ] Glasses
- - [ ] Mask
+ - [x] Fedora hat
+ - [ ] Raider hat
+ - [ ] Beret
+ - [x] Helmet
+ - [x] Glasses
+ - [x] Gasmask
+ - [x] Fasnacht mask
  - [ ] Dress
- - [ ] Costume
+ - [ ] Suit
  - [ ] Spacesuit
 
 ### Food Tab

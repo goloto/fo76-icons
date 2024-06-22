@@ -997,10 +997,10 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ArmorBodyPartEyes
+ Include_0=ekwd|ArmorBodyPartHead
  Exclude_0=
 [EndRule]
 
@@ -1015,10 +1015,11 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=-1
+ includeOR=0
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|ClothingTypeMask
+ Include_1=ekwd|ClothingTypeFedora
  Exclude_0=
 [EndRule]
 
@@ -1036,13 +1037,14 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ObjectTypeClothing
+ Include_0=ekwd|ClothingTypeMask
+ Include_1=ekwd|HatTypeFasnachtMask
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=⊞
- rSig=MISC
+ rSig=ARMO
  fSig=FULL
  enabled=-1
  tagID=default
@@ -1051,16 +1053,17 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=edid|Treasury_Note
+ Include_0=ekwd|ClothingTypeMask
+ Include_1=ekwd|ClothingTypeGasMask
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=⊟
- rSig=MISC
+ rSig=ARMO
  fSig=FULL
  enabled=-1
  tagID=default
@@ -1072,13 +1075,14 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ObjectTypeNukeKeycard
+ Include_0=ekwd|ObjectTypeClothing
+ Include_1=ekwd|ArmorBodyPartEyes
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=⊠
- rSig=MISC
+ rSig=ARMO
  fSig=FULL
  enabled=-1
  tagID=default
@@ -1090,7 +1094,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|token
+ Include_0=ekwd|ObjectTypeClothing
  Exclude_0=
 [EndRule]
 
@@ -1108,7 +1112,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|Moon_CryptidCardKeyword
+ Include_0=edid|Treasury_Note
  Exclude_0=
 [EndRule]
 
@@ -1126,12 +1130,66 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ObjectTypeComponent
+ Include_0=ekwd|ObjectTypeNukeKeycard
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=⊣
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|token
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊤
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|Moon_CryptidCardKeyword
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊥
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeComponent
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊦
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1151,7 +1209,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊤
+ Header=⊧
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1169,7 +1227,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊥
+ Header=⊨
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1205,7 +1263,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊦
+ Header=⊩
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1223,7 +1281,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊧
+ Header=⊪
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1241,7 +1299,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊨
+ Header=⊫
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1259,7 +1317,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊩
+ Header=⊬
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1277,7 +1335,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊪
+ Header=⊭
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1295,7 +1353,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊫
+ Header=⊮
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1313,7 +1371,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊬
+ Header=⊯
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1331,7 +1389,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊭
+ Header=⊰
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1349,7 +1407,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊮
+ Header=⊱
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1367,26 +1425,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊯
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ArmorBodyPartHead
- Include_1=ekwd|ClothingTypeHat
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⊰
+ Header=⊲
  rSig=ARMO
  fSig=FULL
  enabled=-1

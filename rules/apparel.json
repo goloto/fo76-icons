@@ -1,37 +1,38 @@
 [
 	{
 		"order": 0,
-		"iconName": "glasses",
-		"leftSignature": "ARMO",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x229b",
-		"include": [
-			"ekwd|ArmorBodyPartEyes"
-		],
-		"exclude": []
-	},
-	{
-		"order": 1,
-		"iconName": "mask",
+		"iconName": "helmet",
 		"leftSignature": "ARMO",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
+		"header": "0x229b",
+		"include": [
+			"ekwd|ArmorBodyPartHead"
+		],
+		"exclude": []
+	},
+	{
+		"order": 1,
+		"iconName": "fedora_hat",
+		"leftSignature": "ARMO",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
 		"header": "0x229c",
 		"include": [
-			"ekwd|ClothingTypeMask"
+			"ekwd|ClothingTypeMask",
+			"ekwd|ClothingTypeFedora"
 		],
 		"exclude": []
 	},
 	{
 		"order": 2,
-		"iconName": "apparel",
+		"iconName": "fasnacht_mask",
 		"leftSignature": "ARMO",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -39,6 +40,54 @@
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
 		"header": "0x229d",
+		"include": [
+			"ekwd|ClothingTypeMask",
+			"ekwd|HatTypeFasnachtMask"
+		],
+		"exclude": []
+	},
+	{
+		"order": 3,
+		"iconName": "gas_mask",
+		"leftSignature": "ARMO",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x229e",
+		"include": [
+			"ekwd|ClothingTypeMask",
+			"ekwd|ClothingTypeGasMask"
+		],
+		"exclude": []
+	},
+	{
+		"order": 4,
+		"iconName": "glasses",
+		"leftSignature": "ARMO",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x229f",
+		"include": [
+			"ekwd|ObjectTypeClothing",
+			"ekwd|ArmorBodyPartEyes"
+		],
+		"exclude": []
+	},
+	{
+		"order": 5,
+		"iconName": "apparel",
+		"leftSignature": "ARMO",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22a0",
 		"include": [
 			"ekwd|ObjectTypeClothing"
 		],
