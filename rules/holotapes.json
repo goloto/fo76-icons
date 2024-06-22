@@ -5,14 +5,11 @@
 		"leftSignature": "NOTE",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": true,
+		"isAnyKeyword": true,
+		"isInclusiveOr": false,
 		"isFullReplaced": false,
 		"header": "0x2280",
-		"include": [
-			"edid|holotape",
-			"ekwd|UnsellableObject"
-		],
+		"include": [],
 		"exclude": []
 	}
 ]

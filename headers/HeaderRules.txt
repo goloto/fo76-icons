@@ -495,15 +495,14 @@
  enabled=-1
  tagID=default
  noKW=0
- anyKW=0
+ anyKW=-1
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=-1
+ includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|holotape
- Include_1=ekwd|UnsellableObject
+ Include_0=
  Exclude_0=
 [EndRule]
 
@@ -1320,12 +1319,10 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=-1
+ includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ObjectTypeToy
- Include_1=ekwd|ObjectTypeSports
- Include_2=ekwd|ObjectTypeSmokes
+ Include_0=edid|Bulk
  Exclude_0=
 [EndRule]
 
@@ -1372,7 +1369,7 @@
  enabled=-1
  tagID=default
  noKW=0
- anyKW=0
+ anyKW=-1
  hasCompo=0
  preProcess=0
  fullReplace=0

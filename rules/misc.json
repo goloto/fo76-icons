@@ -111,13 +111,11 @@
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"isInclusiveOr": true,
+		"isInclusiveOr": false,
 		"isFullReplaced": false,
 		"header": "0x22ac",
 		"include": [
-			"ekwd|ObjectTypeToy",
-			"ekwd|ObjectTypeSports",
-			"ekwd|ObjectTypeSmokes"
+			"edid|Bulk"
 		],
 		"exclude": []
 	},
@@ -159,7 +157,7 @@
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"isAnyKeyword": false,
+		"isAnyKeyword": true,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
 		"header": "0x22af",
