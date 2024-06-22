@@ -31,23 +31,23 @@
 	},
 	{
 		"order": 2,
-		"iconName": "doctors_bag",
+		"iconName": "radaway",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"isInclusiveOr": true,
+		"isInclusiveOr": false,
 		"isFullReplaced": false,
 		"header": "0x2287",
 		"include": [
-			"ekwd|ChemTypeHealing",
+			"ekwd|ObjectTypeChem",
 			"ekwd|ChemTypeRadaway"
 		],
 		"exclude": []
 	},
 	{
 		"order": 3,
-		"iconName": "chems",
+		"iconName": "doctors_bag",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -56,12 +56,27 @@
 		"isFullReplaced": false,
 		"header": "0x2288",
 		"include": [
-			"ekwd|ObjectTypeChem"
+			"ekwd|ChemTypeHealing"
 		],
 		"exclude": []
 	},
 	{
 		"order": 4,
+		"iconName": "chems",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x2289",
+		"include": [
+			"ekwd|ObjectTypeChem"
+		],
+		"exclude": []
+	},
+	{
+		"order": 5,
 		"iconName": "mutation_serum",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -69,14 +84,14 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2289",
+		"header": "0x228a",
 		"include": [
 			"ekwd|ObjectTypeSerum"
 		],
 		"exclude": []
 	},
 	{
-		"order": 5,
+		"order": 6,
 		"iconName": "magazine",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -84,14 +99,14 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x228a",
+		"header": "0x228b",
 		"include": [
 			"ekwd|MagazineKeyword"
 		],
 		"exclude": []
 	},
 	{
-		"order": 6,
+		"order": 7,
 		"iconName": "bobblehead",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -99,7 +114,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x228b",
+		"header": "0x228c",
 		"include": [
 			"ekwd|BobbleheadKeyword"
 		],

@@ -626,10 +626,10 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=-1
+ includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ChemTypeHealing
+ Include_0=ekwd|ObjectTypeChem
  Include_1=ekwd|ChemTypeRadaway
  Exclude_0=
 [EndRule]
@@ -648,12 +648,30 @@
  includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ObjectTypeChem
+ Include_0=ekwd|ChemTypeHealing
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=⊉
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeChem
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊊
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -671,7 +689,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊊
+ Header=⊋
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -689,7 +707,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊋
+ Header=⊌
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -707,7 +725,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊌
+ Header=⊍
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -725,24 +743,6 @@
 [EndRule]
 
 [StartRule]
- Header=⊍
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|DrinkTypeWater
- Exclude_0=
-[EndRule]
-
-[StartRule]
  Header=⊎
  rSig=ALCH
  fSig=FULL
@@ -756,8 +756,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ObjectTypeDrink
- Include_1=ekwd|DrinkTypeSoda
+ Include_0=ekwd|DrinkTypeWater
  Exclude_0=
 [EndRule]
 
@@ -776,7 +775,7 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|ObjectTypeDrink
- Include_1=ekwd|DrinkTypeAlcohol
+ Include_1=ekwd|DrinkTypeSoda
  Exclude_0=
 [EndRule]
 
@@ -794,12 +793,31 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|DrinkTypeTea
+ Include_0=ekwd|ObjectTypeDrink
+ Include_1=ekwd|DrinkTypeAlcohol
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=⊑
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|DrinkTypeTea
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊒
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -819,7 +837,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊒
+ Header=⊓
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -839,24 +857,6 @@
 [EndRule]
 
 [StartRule]
- Header=⊓
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ObjectTypeFood
- Exclude_0=
-[EndRule]
-
-[StartRule]
  Header=⊔
  rSig=ALCH
  fSig=FULL
@@ -870,7 +870,8 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ObjectTypeCandy
+ Include_0=ekwd|ObjectTypeFood
+ Include_1=ekwd|MealTypePackaged
  Exclude_0=
 [EndRule]
 
@@ -888,12 +889,48 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ObjectTypeCakesPies
+ Include_0=ekwd|ObjectTypeFood
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=⊖
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeCandy
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊗
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeCakesPies
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊘
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -913,7 +950,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊗
+ Header=⊙
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -933,7 +970,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊘
+ Header=⊚
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -952,7 +989,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊙
+ Header=⊛
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -971,25 +1008,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊚
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|PlantTypeCorn
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⊛
+ Header=⊜
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1008,7 +1027,44 @@
 [EndRule]
 
 [StartRule]
- Header=⊜
+ Header=⊝
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PlantTypeCorn
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PlantTypeTato
+ Include_1=edid|TatoVegetableFruit
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊟
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1026,7 +1082,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊝
+ Header=⊠
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1045,7 +1101,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊞
+ Header=⊡
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1064,7 +1120,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊟
+ Header=⊢
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1083,7 +1139,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊠
+ Header=⊣
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1102,7 +1158,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊡
+ Header=⊤
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1120,7 +1176,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊢
+ Header=⊥
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1138,7 +1194,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊣
+ Header=⊦
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1156,7 +1212,43 @@
 [EndRule]
 
 [StartRule]
- Header=⊤
+ Header=⊧
+ rSig=UTIL
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|RepairKit
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊨
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeFlux
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊩
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1174,7 +1266,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊥
+ Header=⊪
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1192,7 +1284,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊦
+ Header=⊫
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1210,7 +1302,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊧
+ Header=⊬
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1230,7 +1322,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊨
+ Header=⊭
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1248,7 +1340,25 @@
 [EndRule]
 
 [StartRule]
- Header=⊩
+ Header=⊮
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeTeddyBear
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊯
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1284,25 +1394,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊪
- rSig=UTIL
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|RepairKit
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⊫
+ Header=⊰
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1320,7 +1412,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊬
+ Header=⊱
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1338,7 +1430,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊭
+ Header=⊲
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1356,7 +1448,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊮
+ Header=⊳
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1374,7 +1466,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊯
+ Header=⊴
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1392,7 +1484,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊰
+ Header=⊵
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1410,7 +1502,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊱
+ Header=⊶
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1428,7 +1520,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊲
+ Header=⊷
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1446,7 +1538,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊳
+ Header=⊸
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1464,7 +1556,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊴
+ Header=⊹
  rSig=ARMO
  fSig=FULL
  enabled=-1
