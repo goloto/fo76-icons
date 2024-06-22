@@ -44,15 +44,15 @@
  - [ ] Weight increaser
  - [x] Cakes and candy
  - [x] Alcohol
- - [ ] Pre-war food
+ - [x] Pre-war food
  - [ ] Raw meet
  - [ ] Raw plant
- - [ ] Moldy food
+ - [x] Moldy food
  - [ ] Cooked plant food
  - [ ] Cooked meat food
  - [x] Tea
- - [ ] Soup
- - [ ] Meat Soup
+ - [x] Soup
+ - [x] Meat Soup
  - [x] Water
  - [ ] Toxic Water
  - [x] Nuka-cola
@@ -66,18 +66,18 @@
  - [x] Stimpaks
  - [x] Chems
  - [x] Healing items
- - [ ] Anti-rad items
+ - [x] Anti-rad items
 
 ### Misc Tab
  - [x] Components
  - [ ] Creature corpse
- - [ ] Repair kit
+ - [x] Repair kit
  - [x] Nuke card
  - [x] Cards
  - [ ] Legendary token
  - [ ] Legendary core
  - [ ] Toys
- - [ ] Flux
+ - [x] Flux
  - [ ] Bulk
  - [ ] Unscrappable misc
  - [ ] Rest junk
