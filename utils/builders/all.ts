@@ -1,4 +1,4 @@
-import { buildCategoryOrder } from "./build-category-order";
+import { buildCategoryOrder } from "./category-order";
 import { buildIconRules } from "./icons-rules";
 import { buildHeaders } from "./icons-headers";
 import { buildFontConfig } from "./font-config";

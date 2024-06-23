@@ -35,22 +35,22 @@ const RULE_TEMPLATE = `[StartRule]
 [EndRule]`;
 
 export const buildHeaders = async (iconRules: IconRule[]) => {
-  const result = Object.values(iconRules)
-    .filter((item) => !item.isDeleted)
+  const filteredIconRules = iconRules.filter((item) => !item.isDeleted)
+
+  const result = filteredIconRules
     .reduce((accumulator: string, item) => {
-      const rules = replaceAnchors(item)
+      const rule = replaceAnchors(item)
         .replace(HEADER_ANCHOR, getCharFromHexadecimal(item.header));
 
-      return `${accumulator}\r\n\r\n${rules}`;
+      return `${accumulator}\r\n\r\n${rule}`;
     }, `${FILE_HEADER}`);
 
-    const resultForTesting = Object.values(iconRules)
-    .filter((item) => !item.isDeleted)
+    const resultForTesting = filteredIconRules
     .reduce((accumulator: string, item) => {
-      const rules = replaceAnchors(item)
+      const rule = replaceAnchors(item)
         .replace(HEADER_ANCHOR, `#${item.iconName}#`);
 
-      return `${accumulator}\r\n\r\n${rules}`;
+      return `${accumulator}\r\n\r\n${rule}`;
     }, `${FILE_HEADER}`);
 
   await writeUtf8BomString('./headers/HeaderRules.txt', result);
