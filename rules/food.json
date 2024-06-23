@@ -1,16 +1,17 @@
 [
 	{
 		"order": 0,
-		"iconName": "moldy_food",
+		"iconName": "toxic",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"isInclusiveOr": false,
+		"isInclusiveOr": true,
 		"isFullReplaced": false,
 		"header": "0x228d",
 		"include": [
-			"ekwd|IngredientTypeMoldy"
+			"ekwd|moldy",
+			"ekwd|toxic"
 		],
 		"exclude": []
 	},

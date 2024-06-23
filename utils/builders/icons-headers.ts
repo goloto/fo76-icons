@@ -36,17 +36,13 @@ const RULE_TEMPLATE = `[StartRule]
 
 export const buildHeaders = async (iconRules: IconRule[]) => {
   const filteredIconRules = iconRules.filter((item) => !item.isDeleted)
-  const result = reduceRules(filteredIconRules, (item) => {
-    return replaceAnchors(item)
-      .replace(HEADER_ANCHOR, getCharFromHexadecimal(item.header));
-  });
-  const resultForTesting = reduceRules(filteredIconRules, (item) => {
-    return replaceAnchors(item)
-      .replace(HEADER_ANCHOR, `#${item.iconName}#`);
-  });
+  const regularResult = reduceRules(filteredIconRules, (item) => replaceAnchors(item)
+      .replace(HEADER_ANCHOR, getCharFromHexadecimal(item.header)));
+  const testingResult = reduceRules(filteredIconRules, (item) => replaceAnchors(item)
+      .replace(HEADER_ANCHOR, `#${item.iconName}#`));
 
-  await writeUtf8BomString('./headers/HeaderRules.txt', result);
-  await writeUtf8BomString('./headers/HeaderRules_testing.txt', resultForTesting);
+  await writeUtf8BomString('./headers/HeaderRules.txt', regularResult);
+  await writeUtf8BomString('./headers/HeaderRules_testing.txt', testingResult);
 }
 
 const reduceRules = (rules: IconRule[], callback: (item: IconRule) => string): string => {
