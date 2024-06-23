@@ -36,26 +36,47 @@
  - [x] Glasses
  - [x] Gasmask
  - [x] Fasnacht mask
+ - [ ] Mask
  - [ ] Dress
  - [ ] Suit
  - [ ] Spacesuit
+ - [ ] Underarmor
 
 ### Food Tab
  - [ ] Weight increaser
- - [x] Cakes and candy
+ - [x] Moldy/toxic
+ - [ ] Flux plant
+ - [ ] Flavor
+ - [x] Water
+ - [x] Nuka-cola
  - [x] Alcohol
- - [x] Pre-war food
- - [ ] Raw meet
- - [ ] Raw plant
- - [x] Moldy food
- - [ ] Cooked plant food
- - [ ] Cooked meat food
  - [x] Tea
  - [x] Soup
+ - [ ] Cooked vegetable food
+ - [ ] Cooked fruit food
+ - [ ] Cooked herb food
  - [x] Meat Soup
- - [x] Water
- - [ ] Toxic Water
- - [x] Nuka-cola
+ - [ ] Cooked meat food
+ - [x] Cakes and candy
+ - [x] Pre-war food
+ - [x] Corn
+ - [ ] Fungus
+ - [ ] Vegetable
+ - [x] Tato
+ - [ ] Fruit
+ - [x] Berry
+ - [ ] Flower
+ - [ ] Raw meet
+ - [ ] Egg
+
+### Holotapes
+ - [x] Holotapes
+ - [ ] Silo state tape
+
+### Keys
+ - [x] Key
+ - [ ] ID card
+ - [ ] Password
 
 ### Aid Tab
  - [x] Mutation serum
@@ -67,18 +88,22 @@
  - [x] Chems
  - [x] Healing items
  - [x] Anti-rad items
+ - [ ] Blood items
 
 ### Misc Tab
- - [x] Components
- - [ ] Creature corpse
- - [x] Repair kit
- - [x] Nuke card
- - [x] Cards
+ - [x] Treasure note
  - [ ] Legendary token
  - [ ] Legendary core
- - [ ] Toys
+ - [x] Repair kit
+ - [x] Nuke card
  - [x] Flux
- - [ ] Bulk
+ - [x] Tokens
+ - [x] Cards
+ - [x] Components
+ - [x] Bulk
+ - [ ] Creature corpse
+ - [ ] Ore
+ - [ ] Toys
  - [ ] Unscrappable misc
  - [ ] Rest junk
 
