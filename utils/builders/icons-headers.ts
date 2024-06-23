@@ -36,25 +36,25 @@ const RULE_TEMPLATE = `[StartRule]
 
 export const buildHeaders = async (iconRules: IconRule[]) => {
   const filteredIconRules = iconRules.filter((item) => !item.isDeleted)
-
-  const result = filteredIconRules
-    .reduce((accumulator: string, item) => {
-      const rule = replaceAnchors(item)
-        .replace(HEADER_ANCHOR, getCharFromHexadecimal(item.header));
-
-      return `${accumulator}\r\n\r\n${rule}`;
-    }, `${FILE_HEADER}`);
-
-    const resultForTesting = filteredIconRules
-    .reduce((accumulator: string, item) => {
-      const rule = replaceAnchors(item)
-        .replace(HEADER_ANCHOR, `#${item.iconName}#`);
-
-      return `${accumulator}\r\n\r\n${rule}`;
-    }, `${FILE_HEADER}`);
+  const result = reduceRules(filteredIconRules, (item) => {
+    return replaceAnchors(item)
+      .replace(HEADER_ANCHOR, getCharFromHexadecimal(item.header));
+  });
+  const resultForTesting = reduceRules(filteredIconRules, (item) => {
+    return replaceAnchors(item)
+      .replace(HEADER_ANCHOR, `#${item.iconName}#`);
+  });
 
   await writeUtf8BomString('./headers/HeaderRules.txt', result);
   await writeUtf8BomString('./headers/HeaderRules_testing.txt', resultForTesting);
+}
+
+const reduceRules = (rules: IconRule[], callback: (item: IconRule) => string): string => {
+  return rules.reduce((accumulator: string, item) => {
+    const rule = callback(item);
+
+    return `${accumulator}\r\n\r\n${rule}`;
+  }, `${FILE_HEADER}`);
 }
 
 const replaceAnchors = ({
