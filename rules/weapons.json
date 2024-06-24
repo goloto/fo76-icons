@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c3",
+		"header": "0x22c0",
 		"include": [
 			"ekwd|ma_binoculars"
 		],
@@ -23,7 +23,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c4",
+		"header": "0x22c1",
 		"include": [
 			"ekwd|ObjectTypeCamera"
 		],
@@ -38,7 +38,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c5",
+		"header": "0x22c2",
 		"include": [
 			"ekwd|WeaponTypeGrenade"
 		],
@@ -53,7 +53,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c6",
+		"header": "0x22c3",
 		"include": [
 			"ekwd|WeaponTypeMine"
 		],
@@ -68,7 +68,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c7",
+		"header": "0x22c4",
 		"include": [
 			"ekwd|WeaponTypeUnarmed"
 		],
@@ -83,7 +83,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c8",
+		"header": "0x22c5",
 		"include": [
 			"ekwd|WeaponTypeMelee1H"
 		],
@@ -98,7 +98,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c9",
+		"header": "0x22c6",
 		"include": [
 			"ekwd|WeaponTypeMelee2H"
 		],
@@ -113,7 +113,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22ca",
+		"header": "0x22c7",
 		"include": [
 			"ekwd|ObjectTypeWeapon"
 		],

@@ -701,7 +701,7 @@
  includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ObjectTypeRadx
+ Include_0=edid|Radx
  Include_1=edid|RadShield
  Include_2=edid|Radiation_RadXtreme
  Include_3=edid|TrenchMed_Pitt
@@ -722,7 +722,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|AddictionKeywordMentats
+ Include_0=ekwd|ObjectTypeBloodPack
  Exclude_0=
 [EndRule]
 
@@ -740,7 +740,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ObjectTypeBloodPack
+ Include_0=ekwd|AddictionKeywordMentats
  Exclude_0=
 [EndRule]
 
@@ -758,7 +758,8 @@
  includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ChemTypeHealing
+ Include_0=edid|Buffout
+ Include_1=edid|Bufftats
  Exclude_0=
 [EndRule]
 
@@ -773,55 +774,20 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ChemTypeBuffout
- Exclude_0=
+ Include_0=edid|Psycho
+ Include_1=edid|Overdrive
+ Include_2=edid|ChemBlend
+ Include_3=edid|Fury
+ Include_4=edid|SurvivalShortcut
+ Include_5=edid|BrawlingChemist
+ Exclude_0=edid|VenisonAndTatoStew_Psycho
 [EndRule]
 
 [StartRule]
  Header=⊐
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ChemTypePsycho
- Include_1=edid|Overdrive
- Include_2=edid|W05_MQR_203P_ChemBlend
- Include_3=edid|LGN_SurvivalShortcut_Chem01
- Include_4=edid|LGN_BrawlingChemist_Chem01
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⊑
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ObjectTypeChem
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⊒
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -839,7 +805,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊓
+ Header=⊑
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -857,7 +823,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊔
+ Header=⊒
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -875,7 +841,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊕
+ Header=⊓
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -890,11 +856,12 @@
  fallbackBank=0
  Include_0=ekwd|moldy
  Include_1=ekwd|toxic
+ Include_2=edid|diseased
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⊖
+ Header=⊔
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -912,7 +879,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊗
+ Header=⊕
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -931,7 +898,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊘
+ Header=⊖
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -950,7 +917,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊙
+ Header=⊗
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -968,7 +935,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊚
+ Header=⊘
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -988,7 +955,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊛
+ Header=⊙
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1008,7 +975,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊜
+ Header=⊚
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1028,7 +995,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊝
+ Header=⊛
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1046,43 +1013,43 @@
 [EndRule]
 
 [StartRule]
+ Header=⊜
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|FancyLadSnackCakes
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊝
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|FancyLadSnackCakes
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=⊞
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|FancyLadSnackCakes
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⊟
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|FancyLadSnackCakes
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⊠
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1100,7 +1067,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊡
+ Header=⊟
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1114,11 +1081,11 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|ObjectTypeCakesPies
- Exclude_0=
+ Exclude_0=ekwd|IngredientTypeMeat
 [EndRule]
 
 [StartRule]
- Header=⊢
+ Header=⊠
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1141,7 +1108,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊣
+ Header=⊡
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1161,7 +1128,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊤
+ Header=⊢
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1180,7 +1147,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊥
+ Header=⊣
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1198,7 +1165,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊦
+ Header=⊤
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1216,7 +1183,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊧
+ Header=⊥
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1234,7 +1201,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊨
+ Header=⊦
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1252,7 +1219,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊩
+ Header=⊧
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1271,7 +1238,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊪
+ Header=⊨
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1289,7 +1256,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊫
+ Header=⊩
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1307,7 +1274,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊬
+ Header=⊪
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1325,7 +1292,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊭
+ Header=⊫
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1335,15 +1302,21 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ObjectTypeFungus
- Exclude_0=
+ Include_0=edid|BlightVegetable
+ Include_1=edid|BrainFungusVegetable
+ Include_2=edid|GutShroomVegetable
+ Include_3=edid|CaveFungusVegetable
+ Include_4=edid|GlowingFungusVegetable
+ Include_5=edid|MegaSlothMushroomVegetable
+ Include_6=edid|FirecapVegetable
+ Exclude_0=ekwd|MealTypeCooked
 [EndRule]
 
 [StartRule]
- Header=⊮
+ Header=⊬
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1362,25 +1335,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊯
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ObjectTypeFood
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⊰
+ Header=⊭
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1398,7 +1353,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊱
+ Header=⊮
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1416,7 +1371,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊲
+ Header=⊯
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1438,7 +1393,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊳
+ Header=⊰
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1457,7 +1412,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊴
+ Header=⊱
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1476,7 +1431,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊵
+ Header=⊲
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1495,7 +1450,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊶
+ Header=⊳
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1513,7 +1468,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊷
+ Header=⊴
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1532,7 +1487,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊸
+ Header=⊵
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1550,7 +1505,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊹
+ Header=⊶
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1568,7 +1523,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊺
+ Header=⊷
  rSig=UTIL
  fSig=FULL
  enabled=-1
@@ -1586,7 +1541,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊻
+ Header=⊸
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1604,7 +1559,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊼
+ Header=⊹
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1622,7 +1577,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊽
+ Header=⊺
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1640,7 +1595,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊾
+ Header=⊻
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1658,7 +1613,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊿
+ Header=⊼
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1676,7 +1631,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋀
+ Header=⊽
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1694,7 +1649,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋁
+ Header=⊾
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1712,7 +1667,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋂
+ Header=⊿
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1748,7 +1703,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋃
+ Header=⋀
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1766,7 +1721,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋄
+ Header=⋁
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1784,7 +1739,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋅
+ Header=⋂
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1802,7 +1757,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋆
+ Header=⋃
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1820,7 +1775,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋇
+ Header=⋄
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1838,7 +1793,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋈
+ Header=⋅
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1856,7 +1811,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋉
+ Header=⋆
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1874,7 +1829,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋊
+ Header=⋇
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -1892,7 +1847,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋋
+ Header=⋈
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1910,7 +1865,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋌
+ Header=⋉
  rSig=ARMO
  fSig=FULL
  enabled=-1

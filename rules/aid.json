@@ -56,7 +56,7 @@
 		"isFullReplaced": false,
 		"header": "0x228b",
 		"include": [
-			"ekwd|ObjectTypeRadx",
+			"edid|Radx",
 			"edid|RadShield",
 			"edid|Radiation_RadXtreme",
 			"edid|TrenchMed_Pitt"
@@ -65,7 +65,7 @@
 	},
 	{
 		"order": 4,
-		"iconName": "mentats",
+		"iconName": "blood_pack",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -74,13 +74,13 @@
 		"isFullReplaced": false,
 		"header": "0x228c",
 		"include": [
-			"ekwd|AddictionKeywordMentats"
+			"ekwd|ObjectTypeBloodPack"
 		],
 		"exclude": []
 	},
 	{
 		"order": 5,
-		"iconName": "blood_pack",
+		"iconName": "mentats",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -89,13 +89,13 @@
 		"isFullReplaced": false,
 		"header": "0x228d",
 		"include": [
-			"ekwd|ObjectTypeBloodPack"
+			"ekwd|AddictionKeywordMentats"
 		],
 		"exclude": []
 	},
 	{
 		"order": 6,
-		"iconName": "doctors_bag",
+		"iconName": "buffout",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -104,27 +104,13 @@
 		"isFullReplaced": false,
 		"header": "0x228e",
 		"include": [
-			"ekwd|ChemTypeHealing"
+			"edid|Buffout",
+			"edid|Bufftats"
 		],
 		"exclude": []
 	},
 	{
 		"order": 7,
-		"iconName": "buffout",
-		"leftSignature": "ALCH",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x228f",
-		"include": [
-			"ekwd|ChemTypeBuffout"
-		],
-		"exclude": []
-	},
-	{
-		"order": 8,
 		"iconName": "psycho",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -132,19 +118,37 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
+		"header": "0x228f",
+		"include": [
+			"edid|Psycho",
+			"edid|Overdrive",
+			"edid|ChemBlend",
+			"edid|Fury",
+			"edid|SurvivalShortcut",
+			"edid|BrawlingChemist"
+		],
+		"exclude": [
+			"edid|VenisonAndTatoStew_Psycho"
+		]
+	},
+	{
+		"order": 8,
+		"iconName": "mutation_serum",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
 		"header": "0x2290",
 		"include": [
-			"ekwd|ChemTypePsycho",
-			"edid|Overdrive",
-			"edid|W05_MQR_203P_ChemBlend",
-			"edid|LGN_SurvivalShortcut_Chem01",
-			"edid|LGN_BrawlingChemist_Chem01"
+			"ekwd|ObjectTypeSerum"
 		],
 		"exclude": []
 	},
 	{
 		"order": 9,
-		"iconName": "chems",
+		"iconName": "magazine",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -153,42 +157,12 @@
 		"isFullReplaced": false,
 		"header": "0x2291",
 		"include": [
-			"ekwd|ObjectTypeChem"
-		],
-		"exclude": []
-	},
-	{
-		"order": 10,
-		"iconName": "mutation_serum",
-		"leftSignature": "ALCH",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2292",
-		"include": [
-			"ekwd|ObjectTypeSerum"
-		],
-		"exclude": []
-	},
-	{
-		"order": 11,
-		"iconName": "magazine",
-		"leftSignature": "ALCH",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": true,
-		"isFullReplaced": false,
-		"header": "0x2293",
-		"include": [
 			"ekwd|MagazineKeyword"
 		],
 		"exclude": []
 	},
 	{
-		"order": 12,
+		"order": 10,
 		"iconName": "bobblehead",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -196,7 +170,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2294",
+		"header": "0x2292",
 		"include": [
 			"ekwd|BobbleheadKeyword"
 		],
