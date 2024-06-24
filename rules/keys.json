@@ -1,12 +1,12 @@
 [
 	{
 		"order": 0,
-		"iconName": "keycard",
+		"iconName": "access_card",
 		"leftSignature": "KEYM",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"isInclusiveOr": false,
+		"isInclusiveOr": true,
 		"isFullReplaced": false,
 		"header": "0x227b",
 		"include": [

@@ -58,5 +58,50 @@
 			"ekwd|ObjectTypeAmmo"
 		],
 		"exclude": []
+	},
+	{
+		"order": 4,
+		"iconName": "fuel",
+		"leftSignature": "AMMO",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2285",
+		"include": [
+			"edid|fuel"
+		],
+		"exclude": []
+	},
+	{
+		"order": 5,
+		"iconName": "fusion_cell",
+		"leftSignature": "AMMO",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2286",
+		"include": [
+			"edid|FusionCell"
+		],
+		"exclude": []
+	},
+	{
+		"order": 6,
+		"iconName": "gamma_round",
+		"leftSignature": "AMMO",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2287",
+		"include": [
+			"edid|GammaCell"
+		],
+		"exclude": []
 	}
 ]

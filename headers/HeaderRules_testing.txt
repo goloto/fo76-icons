@@ -394,7 +394,7 @@
 [EndRule]
 
 [StartRule]
- Header=#keycard#
+ Header=#access_card#
  rSig=KEYM
  fSig=FULL
  enabled=-1
@@ -404,7 +404,7 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
  Include_0=edid|keycard
@@ -489,7 +489,7 @@
 [EndRule]
 
 [StartRule]
- Header=#videotape#
+ Header=#holotape#
  rSig=NOTE
  fSig=FULL
  enabled=-1
@@ -579,6 +579,60 @@
 [EndRule]
 
 [StartRule]
+ Header=#fuel#
+ rSig=AMMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|fuel
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#fusion_cell#
+ rSig=AMMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|FusionCell
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#gamma_round#
+ rSig=AMMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|GammaCell
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#lunchbox#
  rSig=ALCH
  fSig=FULL
@@ -634,6 +688,63 @@
 [EndRule]
 
 [StartRule]
+ Header=#rad_x#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeRadx
+ Include_1=edid|RadShield
+ Include_2=edid|Radiation_RadXtreme
+ Include_3=edid|TrenchMed_Pitt
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#mentats#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|AddictionKeywordMentats
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#blood_pack#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeBloodPack
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#doctors_bag#
  rSig=ALCH
  fSig=FULL
@@ -648,6 +759,46 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|ChemTypeHealing
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#buffout#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ChemTypeBuffout
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#psycho#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ChemTypePsycho
+ Include_1=edid|Overdrive
+ Include_2=edid|W05_MQR_203P_ChemBlend
+ Include_3=edid|LGN_SurvivalShortcut_Chem01
+ Include_4=edid|LGN_BrawlingChemist_Chem01
  Exclude_0=
 [EndRule]
 
@@ -877,6 +1028,60 @@
 [EndRule]
 
 [StartRule]
+ Header=#bubblegum#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|bubblegum
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#snack_cakes#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|FancyLadSnackCakes
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#sugar_bombs#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|FancyLadSnackCakes
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#candy#
  rSig=ALCH
  fSig=FULL
@@ -895,7 +1100,7 @@
 [EndRule]
 
 [StartRule]
- Header=#cake#
+ Header=#perfect_pie#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -975,7 +1180,7 @@
 [EndRule]
 
 [StartRule]
- Header=#raw_plant#
+ Header=#cranberry#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -988,8 +1193,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|PlantTypeVegetable
- Include_1=ekwd|PlantTypeGourd
+ Include_0=edid|CranberryFruit
  Exclude_0=
 [EndRule]
 
@@ -1008,7 +1212,24 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|PlantTypeBerry
- Include_1=ekwd|PlantTypeCranberries
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#gourd#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|GourdVegetable
  Exclude_0=
 [EndRule]
 
@@ -1050,6 +1271,97 @@
 [EndRule]
 
 [StartRule]
+ Header=#carrot#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|CarrotVegetable
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#flower#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeFlowers
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#mutfruit#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|MutfruitFruit
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#mushrooms#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeFungus
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#raw_plant#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PlantTypeVegetable
+ Include_1=ekwd|PlantTypeGourd
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#food#
  rSig=ALCH
  fSig=FULL
@@ -1064,6 +1376,42 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|ObjectTypeFood
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#flavor#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|IngredientTypeFlavor
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#egg#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=
  Exclude_0=
 [EndRule]
 
