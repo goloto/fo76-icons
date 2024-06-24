@@ -46,7 +46,7 @@
  - [ ] Weight increaser
  - [x] Moldy/toxic
  - [ ] Flux plant
- - [ ] Flavor
+ - [x] Flavor
  - [x] Water
  - [x] Nuka-cola
  - [x] Alcohol
@@ -56,17 +56,22 @@
  - [ ] Cooked fruit food
  - [ ] Cooked herb food
  - [x] Meat Soup
- - [ ] Cooked meat food
+ - [x] Cooked meat food
  - [x] Cakes and candy
  - [x] Pre-war food
+ - [x] Cranberry
+ - [x] Gourd
  - [x] Corn
- - [ ] Fungus
+ - [x] Tato
+ - [x] Carrot
+ - [x] Flower
+ - [x] Mutfruit
+ - [x] Fungus
  - [ ] Vegetable
  - [x] Tato
- - [ ] Fruit
  - [x] Berry
- - [ ] Flower
- - [ ] Raw meet
+ - [x] Flower
+ - [x] Raw meet
  - [ ] Egg
 
 ### Holotapes
@@ -75,32 +80,32 @@
 
 ### Keys
  - [x] Key
- - [ ] ID card
- - [ ] Password
+ - [x] ID card
 
 ### Aid Tab
- - [x] Mutation serum
- - [x] Magazines
+ - [ ] Mutation serum
+ - [ ] Magazines
  - [ ] Bobbleheads
  - [ ] Scout's
- - [x] Lunchbox
+ - [ ] Lunchbox
  - [x] Stimpaks
- - [x] Chems
- - [x] Healing items
- - [x] Anti-rad items
- - [ ] Blood items
+ - [x] Radaway
+ - [x] Rad-x
+ - [x] Blood packs
+ - [x] Mentats
+ - [x] Psycho
 
 ### Misc Tab
- - [x] Treasure note
+ - [ ] Treasure note
  - [ ] Legendary token
  - [ ] Legendary core
  - [x] Repair kit
- - [x] Nuke card
+ - [ ] Nuke card
  - [x] Flux
- - [x] Tokens
- - [x] Cards
- - [x] Components
- - [x] Bulk
+ - [ ] Tokens
+ - [ ] Cards
+ - [ ] Components
+ - [ ] Bulk
  - [ ] Creature corpse
  - [ ] Ore
  - [ ] Toys
@@ -111,13 +116,14 @@
  - [ ] Modification
 
 ### Ammo Tab
- - [x] Ballistic
- - [ ] Energy
+ - [ ] Ballistic
+ - [x] Fuel
+ - [x] Fusion cell
+ - [x] Gamma round
  - [ ] Arrow
- - [x] Power Core
+ - [ ] Power Core
  - [ ] Rocket
- - [ ] Balls
- - [ ] Cannon ball
+ - [x] Balls
 
 ### Legendary weapon effects
  - [x] Anti-Armor
