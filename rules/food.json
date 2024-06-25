@@ -10,9 +10,10 @@
 		"isFullReplaced": false,
 		"header": "0x2293",
 		"include": [
-			"ekwd|moldy",
-			"ekwd|toxic",
-			"edid|diseased"
+			"edid|moldy",
+			"edid|diseased",
+			"edid|MoldyFood",
+			"edid|SpoiledFood"
 		],
 		"exclude": []
 	},

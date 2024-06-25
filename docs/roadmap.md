@@ -68,9 +68,10 @@
  - [x] Mutfruit
  - [x] Fungus
  - [ ] Vegetable
+ - [ ] Fruit
  - [x] Tato
- - [x] Berry
- - [x] Flower
+ - [ ] Berry
+ - [ ] Flower
  - [x] Raw meet
  - [ ] Egg
 

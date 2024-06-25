@@ -854,9 +854,10 @@
  includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|moldy
- Include_1=ekwd|toxic
- Include_2=edid|diseased
+ Include_0=edid|moldy
+ Include_1=edid|diseased
+ Include_2=edid|MoldyFood
+ Include_3=edid|SpoiledFood
  Exclude_0=
 [EndRule]
 
