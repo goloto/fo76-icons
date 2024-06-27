@@ -6,6 +6,25 @@
 [EndHeader]
 
 [StartRule]
+ Header=#unyielding#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Weapon_Steady
+ Include_1=ekwd|HasLegendary_Armor_LowHealthIncreasesStats
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#blood#
  rSig=INNR
  fSig=WNAM
@@ -227,7 +246,7 @@
 [EndRule]
 
 [StartRule]
- Header=#human#
+ Header=#assassin#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -320,7 +339,7 @@
 [EndRule]
 
 [StartRule]
- Header=#aristocrat_hat#
+ Header=#aristocrat#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -372,6 +391,42 @@
  fallbackBank=0
  Include_0=ekwd|HasLegendary_Weapon_DamageVsAnimals
  Include_1=ekwd|HasLegendary_Armor_LessDMGAnimals
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#bolstering#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Armor_ResistancesInverseHealth
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#chameleon#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Armor_Chameleon
  Exclude_0=
 [EndRule]
 
@@ -709,6 +764,42 @@
 [EndRule]
 
 [StartRule]
+ Header=#med_x#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|medx
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#addictol#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Addictol
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#blood_pack#
  rSig=ALCH
  fSig=FULL
@@ -723,6 +814,43 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|ObjectTypeBloodPack
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#x_cell#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|XCell
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#glowing_blood#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|GlowingOneBlood
+ Include_1=edid|BloodpackGlowing
  Exclude_0=
 [EndRule]
 
@@ -880,6 +1008,24 @@
 [EndRule]
 
 [StartRule]
+ Header=#dirty_water#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|WaterDirty
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#nuka_cola#
  rSig=ALCH
  fSig=FULL
@@ -936,7 +1082,7 @@
 [EndRule]
 
 [StartRule]
- Header=#vegan_food#
+ Header=#salad#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1086,6 +1232,31 @@
 [EndRule]
 
 [StartRule]
+ Header=#pie#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|PumpkinPieTasty
+ Include_1=edid|PotholePotpie
+ Include_2=edid|CarnivalPie
+ Include_3=edid|MysteryMeatPieTasty
+ Include_4=edid|StarlightBerryCookedCobbler
+ Include_5=edid|MirelurkAndBloodleafGourmet
+ Include_6=edid|CranberryCookedCobbler
+ Include_7=edid|SheepsquatchMeatTasty
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#meat_soup#
  rSig=ALCH
  fSig=FULL
@@ -1148,6 +1319,28 @@
 [EndRule]
 
 [StartRule]
+ Header=#egg#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|MirelurkEgg
+ Include_1=edid|DeathclawEgg
+ Include_2=edid|MothmanEgg
+ Include_3=edid|RadToadEgg
+ Include_4=edid|RadscorpionEgg
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#cranberry#
  rSig=ALCH
  fSig=FULL
@@ -1198,6 +1391,24 @@
  isFallBack=0
  fallbackBank=0
  Include_0=edid|GourdVegetable
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#melon#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|MelonFruit
  Exclude_0=
 [EndRule]
 
@@ -1350,24 +1561,6 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|IngredientTypeFlavor
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#egg#
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=
  Exclude_0=
 [EndRule]
 

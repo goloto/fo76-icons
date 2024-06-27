@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22b5",
+		"header": "0x22bf",
 		"include": [
 			"edid|Treasury_Note"
 		],
@@ -23,7 +23,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22b6",
+		"header": "0x22c0",
 		"include": [
 			"ekwd|ObjectTypeNukeKeycard"
 		],
@@ -38,7 +38,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22b7",
+		"header": "0x22c1",
 		"include": [
 			"edid|RepairKit"
 		],
@@ -53,7 +53,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22b8",
+		"header": "0x22c2",
 		"include": [
 			"ekwd|ObjectTypeFlux"
 		],
@@ -68,7 +68,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22b9",
+		"header": "0x22c3",
 		"include": [
 			"edid|token"
 		],
@@ -83,7 +83,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22ba",
+		"header": "0x22c4",
 		"include": [
 			"ekwd|Moon_CryptidCardKeyword"
 		],
@@ -98,7 +98,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22bb",
+		"header": "0x22c5",
 		"include": [
 			"ekwd|ObjectTypeComponent"
 		],
@@ -113,7 +113,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22bc",
+		"header": "0x22c6",
 		"include": [
 			"edid|Bulk"
 		],
@@ -128,7 +128,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22bd",
+		"header": "0x22c7",
 		"include": [
 			"edid|ore"
 		],
@@ -145,7 +145,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22be",
+		"header": "0x22c8",
 		"include": [
 			"ekwd|ObjectTypeTeddyBear"
 		],
@@ -160,7 +160,7 @@
 		"isAnyKeyword": true,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22bf",
+		"header": "0x22c9",
 		"include": [],
 		"exclude": []
 	},
@@ -173,7 +173,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x227f",
+		"header": "0x2282",
 		"include": [],
 		"exclude": []
 	}
