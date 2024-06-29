@@ -386,5 +386,20 @@
 			"ekwd|HasLegendary_Armor_Weightless"
 		],
 		"exclude": []
+	},
+	{
+		"order": 25,
+		"iconName": "life_saving",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": true,
+		"header": "0x227f",
+		"include": [
+			"ekwd|HasLegendary_Armor_AutoRevive"
+		],
+		"exclude": []
 	}
 ]

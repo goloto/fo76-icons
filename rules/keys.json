@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x2280",
+		"header": "0x2281",
 		"include": [
 			"edid|keycard",
 			"edid|idcard",
@@ -25,7 +25,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2281",
+		"header": "0x2282",
 		"include": [
 			"edid|key"
 		],
