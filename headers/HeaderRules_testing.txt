@@ -154,7 +154,7 @@
 [EndRule]
 
 [StartRule]
- Header=#night#
+ Header=#nocturnal#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -634,7 +634,7 @@
 [EndRule]
 
 [StartRule]
- Header=#40mm_grenade#
+ Header=#forty_mm_grenade#
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -725,24 +725,6 @@
  isFallBack=0
  fallbackBank=0
  Include_0=edid|GammaCell
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#forty_mm_grenade#
- rSig=AMMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=
  Exclude_0=
 [EndRule]
 
@@ -1375,6 +1357,11 @@
  Include_0=ekwd|ObjectTypeFood
  Include_1=ekwd|IngredientTypeMeat
  Exclude_0=ekwd|MealTypeCooked
+ Exclude_1=edid|MirelurkEgg
+ Exclude_2=edid|DeathclawEgg
+ Exclude_3=edid|MothmanEgg
+ Exclude_4=edid|RadToadEgg
+ Exclude_5=edid|RadscorpionEgg
 [EndRule]
 
 [StartRule]

@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2286",
+		"header": "0x2285",
 		"include": [
 			"edid|FatManMiniNuke"
 		],
@@ -23,7 +23,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2287",
+		"header": "0x2286",
 		"include": [
 			"ekwd|AmmoTypeFusionCore"
 		],
@@ -38,7 +38,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2288",
+		"header": "0x2287",
 		"include": [
 			"edid|missile"
 		],
@@ -46,14 +46,14 @@
 	},
 	{
 		"order": 3,
-		"iconName": "40mm_grenade",
+		"iconName": "forty_mm_grenade",
 		"leftSignature": "AMMO",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2289",
+		"header": "0x2288",
 		"include": [
 			"edid|AmmoGrenadeLauncher"
 		],
@@ -68,7 +68,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x228a",
+		"header": "0x2289",
 		"include": [
 			"ekwd|ObjectTypeAmmo"
 		],
@@ -90,7 +90,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x228b",
+		"header": "0x228a",
 		"include": [
 			"edid|fuel"
 		],
@@ -105,7 +105,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x228c",
+		"header": "0x228b",
 		"include": [
 			"edid|FusionCell"
 		],
@@ -120,23 +120,10 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x228d",
+		"header": "0x228c",
 		"include": [
 			"edid|GammaCell"
 		],
-		"exclude": []
-	},
-	{
-		"order": 8,
-		"iconName": "forty_mm_grenade",
-		"leftSignature": "AMMO",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2285",
-		"include": [],
 		"exclude": []
 	}
 ]
