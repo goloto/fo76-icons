@@ -44,5 +44,18 @@
 			"edid|TreasureMap"
 		],
 		"exclude": []
+	},
+	{
+		"order": 3,
+		"iconName": "check",
+		"leftSignature": "BOOK",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2283",
+		"include": [],
+		"exclude": []
 	}
 ]
