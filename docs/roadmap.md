@@ -152,13 +152,13 @@
  - [x] Junkie's
  - [ ] Medic's
  - [x] Mutant Slayer's
- - [ ] Mutant's
- - [ ] Nocturnal
- - [ ] Quad
- - [ ] Stalker's
+ - [x] Mutant's
+ - [x] Nocturnal
+ - [x] Quad
+ - [x] Stalker's
  - [ ] Suppressor's
  - [x] Troubleshooter's
- - [ ] Two Shot
+ - [x] Two Shot
  - [ ] Vampire's
  - [x] Zealot's
 
@@ -181,20 +181,20 @@
  - [x] Bolstering
  - [x] Chameleon
  - [ ] Cloaking
- - [ ] Exterminator's
- - [ ] Ghoul Slayer's
- - [ ] Hunter's
- - [ ] Life Saving
- - [ ] Mutant's
- - [ ] Mutant Slayer's
- - [ ] Nocturnal
+ - [x] Exterminator's
+ - [x] Ghoul Slayer's
+ - [x] Hunter's
+ - [x] Life Saving
+ - [x] Mutant's
+ - [x] Mutant Slayer's
+ - [x] Nocturnal
  - [ ] Overeater's
  - [ ] Regenerating
- - [ ] Troubleshooter's
+ - [x] Troubleshooter's
  - [x] Unyielding
  - [ ] Vanguard's
  - [ ] Weightless
- - [ ] Zealot's
+ - [x] Zealot's
 
 ### Special Armor Effect
  - [ ] Shadowed
