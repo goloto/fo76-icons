@@ -46,34 +46,36 @@
  - [ ] Weight increaser
  - [x] Moldy/toxic
  - [ ] Flux plant
- - [x] Flavor
- - [x] Water
+ - [x] Bottle of water
+ - [ ] Dirty water
  - [x] Nuka-cola
  - [x] Alcohol
  - [x] Tea
+ - [x] Salad
  - [x] Soup
- - [ ] Cooked vegetable food
- - [ ] Cooked fruit food
- - [ ] Cooked herb food
+ - [x] Canned food
+ - [x] Bubblegum
+ - [x] Snack cakes
+ - [x] Sugar bombs
+ - [x] Candy
+ - [ ] Perfect pie
+ - [x] Pie
  - [x] Meat Soup
- - [x] Cooked meat food
- - [x] Cakes and candy
- - [x] Pre-war food
+ - [x] Cooked meat
+ - [x] Raw meat
+ - [x] Egg
  - [x] Cranberry
+ - [ ] Berry
  - [x] Gourd
+ - [x] Melon
  - [x] Corn
  - [x] Tato
  - [x] Carrot
  - [x] Flower
  - [x] Mutfruit
- - [x] Fungus
- - [ ] Vegetable
- - [ ] Fruit
- - [x] Tato
- - [ ] Berry
- - [ ] Flower
- - [x] Raw meet
- - [ ] Egg
+ - [x] Mushrooms
+ - [x] Raw plant
+ - [x] Flavor
 
 ### Holotapes
  - [x] Holotapes
@@ -84,17 +86,22 @@
  - [x] ID card
 
 ### Aid Tab
- - [ ] Mutation serum
- - [ ] Magazines
- - [ ] Bobbleheads
- - [ ] Scout's
  - [ ] Lunchbox
- - [x] Stimpaks
+ - [ ] Scout's
+ - [x] Stimpak
  - [x] Radaway
  - [x] Rad-x
- - [x] Blood packs
+ - [x] Med-x
+ - [x] Addictol
+ - [x] Blood pack
+ - [x] Glowing blood pack
+ - [x] X-cell
  - [x] Mentats
+ - [x] Buffout
  - [x] Psycho
+ - [ ] Mutation serum
+ - [ ] Magazines
+ - [x] Bobbleheads
 
 ### Misc Tab
  - [ ] Treasure note
@@ -117,14 +124,16 @@
  - [ ] Modification
 
 ### Ammo Tab
- - [ ] Ballistic
+ - [x] Mini nuke
+ - [x] Fusion core
+ - [x] Rocket
+ - [x] 40mm grenade
+ - [x] Ballistic
  - [x] Fuel
  - [x] Fusion cell
  - [x] Gamma round
  - [ ] Arrow
- - [ ] Power Core
- - [ ] Rocket
- - [x] Balls
+ - [ ] Balls
 
 ### Legendary weapon effects
  - [x] Anti-Armor
@@ -169,20 +178,20 @@
  - [x] Aristocrat's
  - [x] Assassin's
  - [ ] Auto Stim
- - [ ] Bolstering
- - [ ] Chameleon
+ - [x] Bolstering
+ - [x] Chameleon
  - [ ] Cloaking
- - [x] Exterminator's
- - [x] Ghoul Slayer's
- - [x] Hunter's
+ - [ ] Exterminator's
+ - [ ] Ghoul Slayer's
+ - [ ] Hunter's
  - [ ] Life Saving
  - [ ] Mutant's
- - [x] Mutant Slayer's
+ - [ ] Mutant Slayer's
  - [ ] Nocturnal
- - [x] Overeater's
+ - [ ] Overeater's
  - [ ] Regenerating
  - [ ] Troubleshooter's
- - [ ] Unyielding
+ - [x] Unyielding
  - [ ] Vanguard's
  - [ ] Weightless
  - [ ] Zealot's
