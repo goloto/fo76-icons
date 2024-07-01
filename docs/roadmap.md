@@ -151,7 +151,7 @@
  - [x] Ghoul Slayer's
  - [x] Gourmand's
  - [x] Hunter's
- - [ ] Instigating
+ - [x] Instigating
  - [ ] Juggernaut's
  - [x] Junkie's
  - [ ] Medic's
