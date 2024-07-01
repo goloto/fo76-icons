@@ -3,7 +3,8 @@
   "type": "module",
   "scripts": {
     "icons-cleanup": "bun run ./utils/icons-cleanup.ts",
-    "build-all": "bun run ./utils/builders/all.ts"
+    "build-all": "bun run ./utils/builders/all.ts",
+    "optimize-svg": "svgo ./icons/aid ./icons/ammo ./icons/apparel ./icons/armor ./icons/currency ./icons/events ./icons/food ./icons/holotapes ./icons/keys ./icons/legendary-effects ./icons/misc  ./icons/notes ./icons/weapons"
   },
   "devDependencies": {
     "@types/bun": "latest"
@@ -13,6 +14,7 @@
   },
   "dependencies": {
     "@types/jsdom": "^21.1.6",
-    "jsdom": "^24.1.0"
+    "jsdom": "^24.1.0",
+    "svgo": "^3.3.2"
   }
 }
