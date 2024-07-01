@@ -46,10 +46,14 @@
  - [ ] Weight increaser
  - [x] Moldy/toxic
  - [ ] Flux plant
- - [x] Bottle of water
- - [ ] Dirty water
+ - [x] Clear water
+ - [x] Dirty water
+ - [ ] Milk
  - [x] Nuka-cola
- - [x] Alcohol
+ - [x] Wine
+ - [x] Strong alcohol
+ - [x] Beer
+ - [x] Lemonade
  - [x] Tea
  - [x] Salad
  - [x] Soup
@@ -65,7 +69,7 @@
  - [x] Raw meat
  - [x] Egg
  - [x] Cranberry
- - [ ] Berry
+ - [x] Berry
  - [x] Gourd
  - [x] Melon
  - [x] Corn
