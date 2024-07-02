@@ -154,16 +154,16 @@
  - [x] Instigating
  - [ ] Juggernaut's
  - [x] Junkie's
- - [ ] Medic's
+ - [x] Medic's
  - [x] Mutant Slayer's
  - [x] Mutant's
  - [x] Nocturnal
  - [x] Quad
  - [x] Stalker's
- - [ ] Suppressor's
+ - [x] Suppressor's
  - [x] Troubleshooter's
  - [x] Two Shot
- - [ ] Vampire's
+ - [x] Vampire's
  - [x] Zealot's
 
 ### Special weapon effects
@@ -184,7 +184,7 @@
  - [ ] Auto Stim
  - [x] Bolstering
  - [x] Chameleon
- - [ ] Cloaking
+ - [x] Cloaking
  - [x] Exterminator's
  - [x] Ghoul Slayer's
  - [x] Hunter's
