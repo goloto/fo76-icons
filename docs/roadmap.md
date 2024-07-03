@@ -152,7 +152,7 @@
  - [x] Gourmand's
  - [x] Hunter's
  - [x] Instigating
- - [ ] Juggernaut's
+ - [x] Juggernaut's
  - [x] Junkie's
  - [x] Medic's
  - [x] Mutant Slayer's
