@@ -181,7 +181,7 @@
 ### Legendary Armor Effects   
  - [x] Aristocrat's
  - [x] Assassin's
- - [ ] Auto Stim
+ - [x] Auto Stim
  - [x] Bolstering
  - [x] Chameleon
  - [x] Cloaking
@@ -192,12 +192,12 @@
  - [x] Mutant's
  - [x] Mutant Slayer's
  - [x] Nocturnal
- - [ ] Overeater's
+ - [x] Overeater's
  - [ ] Regenerating
  - [x] Troubleshooter's
  - [x] Unyielding
- - [ ] Vanguard's
- - [ ] Weightless
+ - [x] Vanguard's
+ - [x] Weightless
  - [x] Zealot's
 
 ### Special Armor Effect
