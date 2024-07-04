@@ -958,11 +958,11 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
  Include_0=edid|SURV_DiseaseCure_HerbalMedicine
- Include_1=ekwd|SURV_DiseaseCure_Antibiotics
+ Include_1=edid|SURV_DiseaseCure_Antibiotics
  Exclude_0=
 [EndRule]
 

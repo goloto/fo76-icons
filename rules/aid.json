@@ -25,7 +25,7 @@
 		"isFullReplaced": false,
 		"header": "0x2299",
 		"include": [
-			"edid|SURV_DiseaseCure_HerbalMedicine",
+			"ekwd|SURV_DiseaseCure_HerbalMedicine",
 			"ekwd|SURV_DiseaseCure_Antibiotics"
 		],
 		"exclude": []
