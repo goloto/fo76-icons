@@ -193,7 +193,7 @@
  - [x] Mutant Slayer's
  - [x] Nocturnal
  - [x] Overeater's
- - [ ] Regenerating
+ - [x] Regenerating
  - [x] Troubleshooter's
  - [x] Unyielding
  - [x] Vanguard's
