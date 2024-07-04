@@ -117,6 +117,42 @@
 [EndRule]
 
 [StartRule]
+ Header=#instigating#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Weapon_DamageFirstBlood
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#jaggernaut#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Weapon_DamageViaHealth
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#mutant#
  rSig=INNR
  fSig=WNAM
@@ -190,7 +226,7 @@
 [EndRule]
 
 [StartRule]
- Header=#scorched_head#
+ Header=#weightless#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -200,11 +236,10 @@
  hasCompo=0
  preProcess=0
  fullReplace=-1
- includeOR=-1
+ includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|HasLegendary_Armor_LessDMGScorched
- Include_1=ekwd|HasLegendary_Weapon_DamageVsScorched
+ Include_0=ekwd|HasLegendary_Armor_Weightless
  Exclude_0=
 [EndRule]
 
@@ -222,8 +257,8 @@
  includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|HasLegendary_Armor_LessDMGGhouls
- Include_1=ekwd|HasLegendary_Weapon_DamageVsGhouls
+ Include_0=ekwd|HasLegendary_Armor_LessDMGScorched
+ Include_1=ekwd|HasLegendary_Weapon_DamageVsScorched
  Exclude_0=
 [EndRule]
 
@@ -451,24 +486,6 @@
 [EndRule]
 
 [StartRule]
- Header=#weightless#
- rSig=INNR
- fSig=WNAM
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=-1
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|HasLegendary_Armor_Weightless
- Exclude_0=
-[EndRule]
-
-[StartRule]
  Header=#life_saving#
  rSig=INNR
  fSig=WNAM
@@ -483,6 +500,134 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|HasLegendary_Armor_AutoRevive
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#vanguard#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Armor_ResistancesProportionalHealth
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#cloaking#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Armor_GettingMeleedTriggersInvisibility
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#supressor#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Weapon_DebuffDamage
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#vampire#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Weapon_Vampire
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#medic#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Weapon_CitsHealGroup
+ Include_1=ekwd|dn_BackPack_Standard_Material_Medical
+ Include_2=ekwd|dn_HasMisc_MedicPump
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#auto_stim#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Armor_LowHealthTriggersStimpak
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#regenerating#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Armor_HealthRegen
  Exclude_0=
 [EndRule]
 
@@ -799,6 +944,25 @@
  isFallBack=0
  fallbackBank=0
  Include_0=edid|lunchbox
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#antibiotics#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|SURV_DiseaseCure_HerbalMedicine
+ Include_1=ekwd|SURV_DiseaseCure_Antibiotics
  Exclude_0=
 [EndRule]
 
@@ -1142,7 +1306,7 @@
 [EndRule]
 
 [StartRule]
- Header=#alcohol#
+ Header=#beer#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1155,9 +1319,44 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ObjectTypeDrink
- Include_1=ekwd|DrinkTypeAlcohol
- Exclude_0=ekwd|DrinkTypeTea
+ Include_0=ekwd|BeerAlcoholType
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#wine#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|WineAlcoholType
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#whiskey#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|DrinkTypeLiquor
+ Exclude_0=
 [EndRule]
 
 [StartRule]
@@ -1329,7 +1528,7 @@
 [EndRule]
 
 [StartRule]
- Header=#perfect_pie#
+ Header=#cake#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1461,24 +1660,6 @@
 [EndRule]
 
 [StartRule]
- Header=#cranberry#
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|CranberryFruit
- Exclude_0=
-[EndRule]
-
-[StartRule]
  Header=#berry#
  rSig=ALCH
  fSig=FULL
@@ -1497,79 +1678,6 @@
 [EndRule]
 
 [StartRule]
- Header=#gourd#
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|GourdVegetable
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#melon#
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|MelonFruit
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#corn#
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|PlantTypeCorn
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#tato#
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|PlantTypeTato
- Include_1=edid|TatoVegetableFruit
- Exclude_0=
-[EndRule]
-
-[StartRule]
  Header=#carrot#
  rSig=ALCH
  fSig=FULL
@@ -1583,7 +1691,9 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|CarrotVegetable
+ Include_0=ekwd|PlantTypeVegetable
+ Include_1=ekwd|PlantTypeGourd
+ Include_2=ekwd|PlantTypeMelon
  Exclude_0=
 [EndRule]
 
@@ -1645,25 +1755,6 @@
  Include_5=edid|MegaSlothMushroomVegetable
  Include_6=edid|FirecapVegetable
  Exclude_0=ekwd|MealTypeCooked
-[EndRule]
-
-[StartRule]
- Header=#raw_plant#
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|PlantTypeVegetable
- Include_1=ekwd|PlantTypeGourd
- Exclude_0=
 [EndRule]
 
 [StartRule]

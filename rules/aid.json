@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2290",
+		"header": "0x2298",
 		"include": [
 			"edid|lunchbox"
 		],
@@ -16,6 +16,22 @@
 	},
 	{
 		"order": 1,
+		"iconName": "antibiotics",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2299",
+		"include": [
+			"edid|SURV_DiseaseCure_HerbalMedicine",
+			"ekwd|SURV_DiseaseCure_Antibiotics"
+		],
+		"exclude": []
+	},
+	{
+		"order": 2,
 		"iconName": "stimpak",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -23,14 +39,14 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2291",
+		"header": "0x229a",
 		"include": [
 			"ekwd|ObjectTypeStimpak"
 		],
 		"exclude": []
 	},
 	{
-		"order": 2,
+		"order": 3,
 		"iconName": "radaway",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -38,7 +54,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2292",
+		"header": "0x229b",
 		"include": [
 			"ekwd|ObjectTypeChem",
 			"ekwd|ChemTypeRadaway"
@@ -46,7 +62,7 @@
 		"exclude": []
 	},
 	{
-		"order": 3,
+		"order": 4,
 		"iconName": "rad_x",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -54,7 +70,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x2293",
+		"header": "0x229c",
 		"include": [
 			"edid|Radx",
 			"edid|RadShield",
@@ -64,7 +80,7 @@
 		"exclude": []
 	},
 	{
-		"order": 4,
+		"order": 5,
 		"iconName": "med_x",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -72,14 +88,14 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2294",
+		"header": "0x229d",
 		"include": [
 			"edid|medx"
 		],
 		"exclude": []
 	},
 	{
-		"order": 5,
+		"order": 6,
 		"iconName": "addictol",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -87,14 +103,14 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2295",
+		"header": "0x229e",
 		"include": [
 			"edid|Addictol"
 		],
 		"exclude": []
 	},
 	{
-		"order": 6,
+		"order": 7,
 		"iconName": "blood_pack",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -102,14 +118,14 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2296",
+		"header": "0x229f",
 		"include": [
 			"ekwd|ObjectTypeBloodPack"
 		],
 		"exclude": []
 	},
 	{
-		"order": 7,
+		"order": 8,
 		"iconName": "glowing_blood",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -117,7 +133,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x2297",
+		"header": "0x22a0",
 		"include": [
 			"edid|GlowingOneBlood",
 			"edid|BloodpackGlowing"
@@ -125,7 +141,7 @@
 		"exclude": []
 	},
 	{
-		"order": 8,
+		"order": 9,
 		"iconName": "x_cell",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -133,14 +149,14 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2298",
+		"header": "0x22a1",
 		"include": [
 			"edid|XCell"
 		],
 		"exclude": []
 	},
 	{
-		"order": 9,
+		"order": 10,
 		"iconName": "mentats",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -148,14 +164,14 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2299",
+		"header": "0x22a2",
 		"include": [
 			"ekwd|AddictionKeywordMentats"
 		],
 		"exclude": []
 	},
 	{
-		"order": 10,
+		"order": 11,
 		"iconName": "buffout",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -163,7 +179,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x229a",
+		"header": "0x22a3",
 		"include": [
 			"edid|Buffout",
 			"edid|Bufftats"
@@ -171,7 +187,7 @@
 		"exclude": []
 	},
 	{
-		"order": 11,
+		"order": 12,
 		"iconName": "psycho",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -179,7 +195,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x229b",
+		"header": "0x22a4",
 		"include": [
 			"edid|Psycho",
 			"edid|Overdrive",
@@ -193,7 +209,7 @@
 		]
 	},
 	{
-		"order": 12,
+		"order": 13,
 		"iconName": "mutation_serum",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -201,14 +217,14 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x229c",
+		"header": "0x22a5",
 		"include": [
 			"ekwd|ObjectTypeSerum"
 		],
 		"exclude": []
 	},
 	{
-		"order": 13,
+		"order": 14,
 		"iconName": "magazine",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -216,14 +232,14 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x229d",
+		"header": "0x22a6",
 		"include": [
 			"ekwd|MagazineKeyword"
 		],
 		"exclude": []
 	},
 	{
-		"order": 14,
+		"order": 15,
 		"iconName": "bobblehead",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -231,7 +247,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x229e",
+		"header": "0x22a7",
 		"include": [
 			"ekwd|BobbleheadKeyword"
 		],

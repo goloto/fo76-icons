@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22d8",
+		"header": "0x22dd",
 		"include": [
 			"ekwd|ArmorTypePower"
 		],
@@ -23,7 +23,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22d9",
+		"header": "0x22de",
 		"include": [
 			"ekwd|ObjectTypeArmor"
 		],

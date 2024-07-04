@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2288",
+		"header": "0x2290",
 		"include": [
 			"edid|FatManMiniNuke"
 		],
@@ -23,7 +23,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2289",
+		"header": "0x2291",
 		"include": [
 			"ekwd|AmmoTypeFusionCore"
 		],
@@ -38,7 +38,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x228a",
+		"header": "0x2292",
 		"include": [
 			"edid|missile"
 		],
@@ -53,7 +53,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x228b",
+		"header": "0x2293",
 		"include": [
 			"edid|AmmoGrenadeLauncher"
 		],
@@ -68,7 +68,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x228c",
+		"header": "0x2294",
 		"include": [
 			"ekwd|ObjectTypeAmmo"
 		],
@@ -90,7 +90,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x228d",
+		"header": "0x2295",
 		"include": [
 			"edid|fuel"
 		],
@@ -105,7 +105,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x228e",
+		"header": "0x2296",
 		"include": [
 			"edid|FusionCell"
 		],
@@ -120,7 +120,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x228f",
+		"header": "0x2297",
 		"include": [
 			"edid|GammaCell"
 		],
