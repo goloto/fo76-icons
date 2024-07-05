@@ -21,12 +21,12 @@
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"isInclusiveOr": false,
+		"isInclusiveOr": true,
 		"isFullReplaced": false,
 		"header": "0x2299",
 		"include": [
-			"ekwd|SURV_DiseaseCure_HerbalMedicine",
-			"ekwd|SURV_DiseaseCure_Antibiotics"
+			"edid|SURV_DiseaseCure_HerbalMedicine",
+			"edid|SURV_DiseaseCure_Antibiotics"
 		],
 		"exclude": []
 	},
