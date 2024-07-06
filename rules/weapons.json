@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22d5",
+		"header": "0x22d9",
 		"include": [
 			"ekwd|ma_binoculars"
 		],
@@ -23,7 +23,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22d6",
+		"header": "0x22da",
 		"include": [
 			"ekwd|ObjectTypeCamera"
 		],
@@ -31,67 +31,7 @@
 	},
 	{
 		"order": 2,
-		"iconName": "grenade",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x22d7",
-		"include": [
-			"ekwd|WeaponTypeGrenade"
-		],
-		"exclude": []
-	},
-	{
-		"order": 3,
 		"iconName": "mine",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x22d8",
-		"include": [
-			"ekwd|WeaponTypeMine"
-		],
-		"exclude": []
-	},
-	{
-		"order": 4,
-		"iconName": "unarmed",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x22d9",
-		"include": [
-			"ekwd|WeaponTypeUnarmed"
-		],
-		"exclude": []
-	},
-	{
-		"order": 5,
-		"iconName": "one_handed_melee",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x22da",
-		"include": [
-			"ekwd|WeaponTypeMelee1H"
-		],
-		"exclude": []
-	},
-	{
-		"order": 6,
-		"iconName": "two_handed_melee",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -100,13 +40,13 @@
 		"isFullReplaced": false,
 		"header": "0x22db",
 		"include": [
-			"ekwd|WeaponTypeMelee2H"
+			"ekwd|WeaponTypeMine"
 		],
 		"exclude": []
 	},
 	{
-		"order": 7,
-		"iconName": "weapon",
+		"order": 3,
+		"iconName": "unarmed",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -114,6 +54,51 @@
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
 		"header": "0x22dc",
+		"include": [
+			"ekwd|WeaponTypeUnarmed"
+		],
+		"exclude": []
+	},
+	{
+		"order": 4,
+		"iconName": "one_handed_melee",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22dd",
+		"include": [
+			"ekwd|WeaponTypeMelee1H"
+		],
+		"exclude": []
+	},
+	{
+		"order": 5,
+		"iconName": "two_handed_melee",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22de",
+		"include": [
+			"ekwd|WeaponTypeMelee2H"
+		],
+		"exclude": []
+	},
+	{
+		"order": 6,
+		"iconName": "weapon",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22df",
 		"include": [
 			"ekwd|ObjectTypeWeapon"
 		],

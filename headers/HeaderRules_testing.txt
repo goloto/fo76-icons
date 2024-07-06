@@ -6,6 +6,42 @@
 [EndHeader]
 
 [StartRule]
+ Header=#caps#
+ rSig=CNCY
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Caps001
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#grenade#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|WeaponTypeGrenade
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#unyielding#
  rSig=INNR
  fSig=WNAM
@@ -222,24 +258,6 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|HasLegendary_Weapon_TwoShot
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#weightless#
- rSig=INNR
- fSig=WNAM
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=-1
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|HasLegendary_Armor_Weightless
  Exclude_0=
 [EndRule]
 
@@ -632,8 +650,26 @@
 [EndRule]
 
 [StartRule]
- Header=#caps#
- rSig=CNCY
+ Header=#weightless#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Armor_Weightless
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#treasure_note#
+ rSig=MISC
  fSig=FULL
  enabled=-1
  tagID=default
@@ -645,7 +681,205 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|Caps001
+ Include_0=edid|Treasury_Note
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#nuke_card#
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeNukeKeycard
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#repair_kit#
+ rSig=UTIL
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|RepairKit
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#flux#
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeFlux
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#token#
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|token
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#cards#
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|Moon_CryptidCardKeyword
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#components#
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeComponent
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#opened_box#
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Bulk
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#ore#
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|ore
+ Exclude_0=edid|SCORE_Recipe
+[EndRule]
+
+[StartRule]
+ Header=#teddy_bear#
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeTeddyBear
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#junk#
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=-1
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#quest#
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=
  Exclude_0=
 [EndRule]
 
@@ -1836,6 +2070,24 @@
 [EndRule]
 
 [StartRule]
+ Header=#beret#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|beret
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#gas_mask#
  rSig=ARMO
  fSig=FULL
@@ -1873,6 +2125,42 @@
 [EndRule]
 
 [StartRule]
+ Header=#dress#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ClothingTypeDress
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#suit#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ClothingTypeFormalWear
+ Exclude_0=ekwd|ClothingTypeDress
+[EndRule]
+
+[StartRule]
  Header=#apparel#
  rSig=ARMO
  fSig=FULL
@@ -1889,222 +2177,8 @@
  Include_0=ekwd|ObjectTypeClothing
  Exclude_0=ekwd|ClothingTypeHat
  Exclude_1=ekwd|ClothingTypeGasMask
-[EndRule]
-
-[StartRule]
- Header=#treasure_note#
- rSig=MISC
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|Treasury_Note
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#nuke_card#
- rSig=MISC
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ObjectTypeNukeKeycard
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#repair_kit#
- rSig=UTIL
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|RepairKit
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#flux#
- rSig=MISC
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ObjectTypeFlux
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#token#
- rSig=MISC
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|token
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#cards#
- rSig=MISC
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|Moon_CryptidCardKeyword
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#components#
- rSig=MISC
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ObjectTypeComponent
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#opened_box#
- rSig=MISC
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|Bulk
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#ore#
- rSig=MISC
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|ore
- Exclude_0=edid|SCORE_Recipe
-[EndRule]
-
-[StartRule]
- Header=#teddy_bear#
- rSig=MISC
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ObjectTypeTeddyBear
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#junk#
- rSig=MISC
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=-1
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#quest#
- rSig=MISC
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=
- Exclude_0=
+ Exclude_2=ekwd|ClothingTypeDress
+ Exclude_3=ekwd|ClothingTypeFormalWear
 [EndRule]
 
 [StartRule]
@@ -2140,24 +2214,6 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|ObjectTypeCamera
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#grenade#
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|WeaponTypeGrenade
  Exclude_0=
 [EndRule]
 
@@ -2270,6 +2326,42 @@
 [EndRule]
 
 [StartRule]
+ Header=#underarmor#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeUnderarmor
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#spacesuit#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ClothingTypeSpacesuit
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#chest_armor#
  rSig=ARMO
  fSig=FULL
@@ -2285,4 +2377,84 @@
  fallbackBank=0
  Include_0=ekwd|ObjectTypeArmor
  Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#armor_right_arm#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeArmor
+ Include_1=ekwd|ArmorBodyTypeHands
+ Include_2=ekwd|ma_Armor_ArmRight
+ Exclude_0=ekwd|ArmorTypePower
+[EndRule]
+
+[StartRule]
+ Header=#armor_left_arm#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeArmor
+ Include_1=ekwd|ArmorBodyTypeHands
+ Include_2=ekwd|ma_Armor_ArmLeft
+ Exclude_0=ekwd|ArmorTypePower
+[EndRule]
+
+[StartRule]
+ Header=#armor_right_leg#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeArmor
+ Include_1=ekwd|ArmorBodyTypeFeet
+ Include_2=ekwd|ma_Armor_LegRight
+ Exclude_0=ekwd|ArmorTypePower
+[EndRule]
+
+[StartRule]
+ Header=#armor_left_leg#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeArmor
+ Include_1=ekwd|ArmorBodyTypeFeet
+ Include_2=ekwd|ma_Armor_LegLeft
+ Exclude_0=ekwd|ArmorTypePower
 [EndRule]

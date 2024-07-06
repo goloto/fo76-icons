@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2298",
+		"header": "0x22a4",
 		"include": [
 			"edid|lunchbox"
 		],
@@ -23,7 +23,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x2299",
+		"header": "0x22a5",
 		"include": [
 			"edid|SURV_DiseaseCure_HerbalMedicine",
 			"edid|SURV_DiseaseCure_Antibiotics"
@@ -39,7 +39,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x229a",
+		"header": "0x22a6",
 		"include": [
 			"ekwd|ObjectTypeStimpak"
 		],
@@ -54,7 +54,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x229b",
+		"header": "0x22a7",
 		"include": [
 			"ekwd|ObjectTypeChem",
 			"ekwd|ChemTypeRadaway"
@@ -70,7 +70,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x229c",
+		"header": "0x22a8",
 		"include": [
 			"edid|Radx",
 			"edid|RadShield",
@@ -88,7 +88,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x229d",
+		"header": "0x22a9",
 		"include": [
 			"edid|medx"
 		],
@@ -103,7 +103,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x229e",
+		"header": "0x22aa",
 		"include": [
 			"edid|Addictol"
 		],
@@ -118,7 +118,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x229f",
+		"header": "0x22ab",
 		"include": [
 			"ekwd|ObjectTypeBloodPack"
 		],
@@ -133,7 +133,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22a0",
+		"header": "0x22ac",
 		"include": [
 			"edid|GlowingOneBlood",
 			"edid|BloodpackGlowing"
@@ -149,7 +149,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a1",
+		"header": "0x22ad",
 		"include": [
 			"edid|XCell"
 		],
@@ -164,7 +164,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a2",
+		"header": "0x22ae",
 		"include": [
 			"ekwd|AddictionKeywordMentats"
 		],
@@ -179,7 +179,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22a3",
+		"header": "0x22af",
 		"include": [
 			"edid|Buffout",
 			"edid|Bufftats"
@@ -195,7 +195,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22a4",
+		"header": "0x22b0",
 		"include": [
 			"edid|Psycho",
 			"edid|Overdrive",
@@ -217,7 +217,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a5",
+		"header": "0x22b1",
 		"include": [
 			"ekwd|ObjectTypeSerum"
 		],
@@ -232,7 +232,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22a6",
+		"header": "0x22b2",
 		"include": [
 			"ekwd|MagazineKeyword"
 		],
@@ -247,7 +247,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a7",
+		"header": "0x22b3",
 		"include": [
 			"ekwd|BobbleheadKeyword"
 		],

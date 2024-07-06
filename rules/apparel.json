@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22c4",
+		"header": "0x22d0",
 		"include": [
 			"ekwd|ClothingTypeHat",
 			"ekwd|ArmorBodyPartHead"
@@ -29,7 +29,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c5",
+		"header": "0x22d1",
 		"include": [
 			"ekwd|ClothingTypeHat",
 			"ekwd|ClothingTypeFedora"
@@ -45,7 +45,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c6",
+		"header": "0x22d2",
 		"include": [
 			"ekwd|ClothingTypeHat",
 			"ekwd|HatTypeFasnachtMask"
@@ -54,6 +54,21 @@
 	},
 	{
 		"order": 3,
+		"iconName": "beret",
+		"leftSignature": "ARMO",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22d3",
+		"include": [
+			"edid|beret"
+		],
+		"exclude": []
+	},
+	{
+		"order": 4,
 		"iconName": "gas_mask",
 		"leftSignature": "ARMO",
 		"rightSignature": "FULL",
@@ -61,7 +76,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c7",
+		"header": "0x22d4",
 		"include": [
 			"ekwd|ClothingTypeMask",
 			"ekwd|ClothingTypeGasMask"
@@ -69,7 +84,7 @@
 		"exclude": []
 	},
 	{
-		"order": 4,
+		"order": 5,
 		"iconName": "glasses",
 		"leftSignature": "ARMO",
 		"rightSignature": "FULL",
@@ -77,14 +92,46 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c8",
+		"header": "0x22d5",
 		"include": [
 			"ekwd|ClothingTypeGlasses"
 		],
 		"exclude": []
 	},
 	{
-		"order": 5,
+		"order": 6,
+		"iconName": "dress",
+		"leftSignature": "ARMO",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22d6",
+		"include": [
+			"ekwd|ClothingTypeDress"
+		],
+		"exclude": []
+	},
+	{
+		"order": 7,
+		"iconName": "suit",
+		"leftSignature": "ARMO",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22d7",
+		"include": [
+			"ekwd|ClothingTypeFormalWear"
+		],
+		"exclude": [
+			"ekwd|ClothingTypeDress"
+		]
+	},
+	{
+		"order": 8,
 		"iconName": "apparel",
 		"leftSignature": "ARMO",
 		"rightSignature": "FULL",
@@ -92,13 +139,15 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c9",
+		"header": "0x22d8",
 		"include": [
 			"ekwd|ObjectTypeClothing"
 		],
 		"exclude": [
 			"ekwd|ClothingTypeHat",
-			"ekwd|ClothingTypeGasMask"
+			"ekwd|ClothingTypeGasMask",
+			"ekwd|ClothingTypeDress",
+			"ekwd|ClothingTypeFormalWear"
 		]
 	}
 ]

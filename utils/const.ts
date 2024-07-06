@@ -117,6 +117,11 @@ export const ICONS_DEFAULT_RULES: Record<
     rightSignature: RightSignature.FULL,
     isFullReplaced: false,
   },
+  "thrown-weapons" : {
+    leftSignature: LeftSignature.Weapon,
+    rightSignature: RightSignature.FULL,
+    isFullReplaced: false,
+  },
   weapons: {
     leftSignature: LeftSignature.Weapon,
     rightSignature: RightSignature.FULL,

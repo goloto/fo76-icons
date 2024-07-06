@@ -1,54 +1,58 @@
 [
 	{
-		"name": "legendary-effects",
+		"name": "currency",
 		"order": 0
 	},
 	{
-		"name": "currency",
+		"name": "thrown-weapons",
 		"order": 1
 	},
 	{
-		"name": "keys",
+		"name": "legendary-effects",
 		"order": 2
 	},
 	{
-		"name": "notes",
+		"name": "misc",
 		"order": 3
 	},
 	{
-		"name": "holotapes",
+		"name": "keys",
 		"order": 4
 	},
 	{
-		"name": "ammo",
+		"name": "notes",
 		"order": 5
 	},
 	{
-		"name": "aid",
+		"name": "holotapes",
 		"order": 6
 	},
 	{
-		"name": "food",
+		"name": "ammo",
 		"order": 7
 	},
 	{
-		"name": "apparel",
+		"name": "aid",
 		"order": 8
 	},
 	{
-		"name": "misc",
+		"name": "food",
 		"order": 9
 	},
 	{
-		"name": "weapons",
+		"name": "apparel",
 		"order": 10
 	},
 	{
-		"name": "armor",
+		"name": "weapons",
 		"order": 11
 	},
 	{
-		"name": "mods",
+		"name": "armor",
 		"order": 12
+	},
+	{
+		"name": "mods",
+		"order": 13
 	}
 ]
