@@ -401,7 +401,7 @@
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"isInclusiveOr": false,
+		"isInclusiveOr": true,
 		"isFullReplaced": false,
 		"header": "0x22cb",
 		"include": [
@@ -409,7 +409,9 @@
 			"ekwd|PlantTypeGourd",
 			"ekwd|PlantTypeMelon"
 		],
-		"exclude": []
+		"exclude": [
+			"ekwd|PlantTypeFlowers"
+		]
 	},
 	{
 		"order": 24,
