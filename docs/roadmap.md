@@ -21,26 +21,26 @@
  - [ ] Camera
 
 ### Armor Tab
- - [ ] Armor
- - [ ] Armor Right arm
- - [ ] Armor Left arm
- - [ ] Armor Right leg
- - [ ] Armor Left leg
- - [ ] Power Armor 
+ - [x] Armor chest
+ - [x] Armor right arm
+ - [x] Armor left arm
+ - [x] Armor right leg
+ - [x] Armor left leg
+ - [ ] Power armor 
 
 ### Apparel Tab
  - [x] Fedora hat
  - [ ] Raider hat
- - [ ] Beret
+ - [x] Beret
  - [x] Helmet
  - [x] Glasses
  - [x] Gasmask
  - [x] Fasnacht mask
  - [ ] Mask
- - [ ] Dress
- - [ ] Suit
- - [ ] Spacesuit
- - [ ] Underarmor
+ - [x] Dress
+ - [x] Suit
+ - [x] Spacesuit
+ - [x] Underarmor
 
 ### Food Tab
  - [ ] Weight increaser
