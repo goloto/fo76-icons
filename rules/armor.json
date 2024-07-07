@@ -57,7 +57,11 @@
 		"include": [
 			"ekwd|ObjectTypeArmor"
 		],
-		"exclude": []
+		"exclude": [
+			"ekwd|ClothingTypeSpacesuit",
+			"ekwd|ArmorBodyPartHands",
+			"ekwd|ArmorBodyPartFeet"
+		]
 	},
 	{
 		"order": 4,
@@ -71,8 +75,8 @@
 		"header": "0x22e4",
 		"include": [
 			"ekwd|ObjectTypeArmor",
-			"ekwd|ArmorBodyTypeHands",
-			"ekwd|ma_Armor_ArmRight"
+			"ekwd|ArmorBodyPartHands",
+			"ekwd|ArmRight"
 		],
 		"exclude": [
 			"ekwd|ArmorTypePower"
@@ -90,8 +94,8 @@
 		"header": "0x22e5",
 		"include": [
 			"ekwd|ObjectTypeArmor",
-			"ekwd|ArmorBodyTypeHands",
-			"ekwd|ma_Armor_ArmLeft"
+			"ekwd|ArmorBodyPartHands",
+			"ekwd|ArmLeft"
 		],
 		"exclude": [
 			"ekwd|ArmorTypePower"
@@ -109,8 +113,8 @@
 		"header": "0x22e6",
 		"include": [
 			"ekwd|ObjectTypeArmor",
-			"ekwd|ArmorBodyTypeFeet",
-			"ekwd|ma_Armor_LegRight"
+			"ekwd|ArmorBodyPartFeet",
+			"ekwd|LegRight"
 		],
 		"exclude": [
 			"ekwd|ArmorTypePower"
@@ -128,8 +132,8 @@
 		"header": "0x22e7",
 		"include": [
 			"ekwd|ObjectTypeArmor",
-			"ekwd|ArmorBodyTypeFeet",
-			"ekwd|ma_Armor_LegLeft"
+			"ekwd|ArmorBodyPartFeet",
+			"ekwd|LegLeft"
 		],
 		"exclude": [
 			"ekwd|ArmorTypePower"
