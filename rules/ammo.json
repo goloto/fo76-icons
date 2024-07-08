@@ -61,7 +61,7 @@
 	},
 	{
 		"order": 4,
-		"iconName": "ballistic_ammo",
+		"iconName": "fuel",
 		"leftSignature": "AMMO",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -69,6 +69,66 @@
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
 		"header": "0x22a0",
+		"include": [
+			"edid|fuel"
+		],
+		"exclude": []
+	},
+	{
+		"order": 5,
+		"iconName": "fusion_cell",
+		"leftSignature": "AMMO",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22a1",
+		"include": [
+			"edid|FusionCell"
+		],
+		"exclude": []
+	},
+	{
+		"order": 6,
+		"iconName": "gamma_round",
+		"leftSignature": "AMMO",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22a2",
+		"include": [
+			"edid|GammaCell"
+		],
+		"exclude": []
+	},
+	{
+		"order": 7,
+		"iconName": "arrows",
+		"leftSignature": "AMMO",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22a3",
+		"include": [
+			"edid|arrow"
+		],
+		"exclude": []
+	},
+	{
+		"order": 8,
+		"iconName": "ballistic_ammo",
+		"leftSignature": "AMMO",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22a4",
 		"include": [
 			"ekwd|ObjectTypeAmmo"
 		],
@@ -80,50 +140,5 @@
 			"edid|FusionCell",
 			"edid|GammaCell"
 		]
-	},
-	{
-		"order": 5,
-		"iconName": "fuel",
-		"leftSignature": "AMMO",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x22a1",
-		"include": [
-			"edid|fuel"
-		],
-		"exclude": []
-	},
-	{
-		"order": 6,
-		"iconName": "fusion_cell",
-		"leftSignature": "AMMO",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x22a2",
-		"include": [
-			"edid|FusionCell"
-		],
-		"exclude": []
-	},
-	{
-		"order": 7,
-		"iconName": "gamma_round",
-		"leftSignature": "AMMO",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x22a3",
-		"include": [
-			"edid|GammaCell"
-		],
-		"exclude": []
 	}
 ]

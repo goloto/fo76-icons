@@ -794,7 +794,7 @@
 [EndRule]
 
 [StartRule]
- Header=#opened_box#
+ Header=#bulk#
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -1087,29 +1087,6 @@
 [EndRule]
 
 [StartRule]
- Header=#ballistic_ammo#
- rSig=AMMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ObjectTypeAmmo
- Exclude_0=edid|FatManMiniNuke
- Exclude_1=ekwd|AmmoTypeFusionCore
- Exclude_2=edid|AmmoGrenadeLauncher
- Exclude_3=edid|fuel
- Exclude_4=edid|FusionCell
- Exclude_5=edid|GammaCell
-[EndRule]
-
-[StartRule]
  Header=#fuel#
  rSig=AMMO
  fSig=FULL
@@ -1164,6 +1141,47 @@
 [EndRule]
 
 [StartRule]
+ Header=#arrows#
+ rSig=AMMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|arrow
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#ballistic_ammo#
+ rSig=AMMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeAmmo
+ Exclude_0=edid|FatManMiniNuke
+ Exclude_1=ekwd|AmmoTypeFusionCore
+ Exclude_2=edid|AmmoGrenadeLauncher
+ Exclude_3=edid|fuel
+ Exclude_4=edid|FusionCell
+ Exclude_5=edid|GammaCell
+[EndRule]
+
+[StartRule]
  Header=#lunchbox#
  rSig=ALCH
  fSig=FULL
@@ -1178,6 +1196,24 @@
  isFallBack=0
  fallbackBank=0
  Include_0=edid|lunchbox
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#scout#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Banner_Consumable
  Exclude_0=
 [EndRule]
 
@@ -1540,6 +1576,24 @@
 [EndRule]
 
 [StartRule]
+ Header=#weight_increaser#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|CarryWeight
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#beer#
  rSig=ALCH
  fSig=FULL
@@ -1627,6 +1681,24 @@
  fallbackBank=0
  Include_0=ekwd|DrinkTypeTea
  Exclude_0=ekwd|IngredientTypeBlood
+[EndRule]
+
+[StartRule]
+ Header=#milk#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|milk
+ Exclude_0=
 [EndRule]
 
 [StartRule]
@@ -1989,6 +2061,25 @@
  Include_5=edid|MegaSlothMushroomVegetable
  Include_6=edid|FirecapVegetable
  Exclude_0=ekwd|MealTypeCooked
+[EndRule]
+
+[StartRule]
+ Header=#honey#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|honey
+ Exclude_0=ekwd|DrinkTypeAlcohol
+ Exclude_1=ekwd|ObjectTypeCandy
 [EndRule]
 
 [StartRule]

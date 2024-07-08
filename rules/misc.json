@@ -106,7 +106,7 @@
 	},
 	{
 		"order": 7,
-		"iconName": "opened_box",
+		"iconName": "bulk",
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
 		"isDeleted": false,
