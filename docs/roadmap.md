@@ -43,12 +43,12 @@
  - [x] Underarmor
 
 ### Food Tab
- - [ ] Weight increaser
+ - [x] Weight increaser
  - [x] Moldy/toxic
  - [ ] Flux plant
  - [x] Clear water
  - [x] Dirty water
- - [ ] Milk
+ - [x] Milk
  - [x] Nuka-cola
  - [x] Wine
  - [x] Strong alcohol
@@ -62,7 +62,6 @@
  - [x] Snack cakes
  - [x] Sugar bombs
  - [x] Candy
- - [ ] Perfect pie
  - [x] Pie
  - [x] Meat Soup
  - [x] Cooked meat
@@ -90,8 +89,8 @@
  - [x] ID card
 
 ### Aid Tab
- - [ ] Lunchbox
- - [ ] Scout's
+ - [x] Lunchbox
+ - [x] Scout's
  - [x] Stimpak
  - [x] Radaway
  - [x] Rad-x
@@ -103,7 +102,7 @@
  - [x] Mentats
  - [x] Buffout
  - [x] Psycho
- - [ ] Mutation serum
+ - [x] Mutation serum
  - [ ] Magazines
  - [x] Bobbleheads
 
@@ -112,12 +111,12 @@
  - [ ] Legendary token
  - [ ] Legendary core
  - [x] Repair kit
- - [ ] Nuke card
+ - [x] Nuke card
  - [x] Flux
  - [ ] Tokens
  - [ ] Cards
  - [ ] Components
- - [ ] Bulk
+ - [x] Bulk
  - [ ] Creature corpse
  - [ ] Ore
  - [ ] Toys
@@ -136,7 +135,7 @@
  - [x] Fuel
  - [x] Fusion cell
  - [x] Gamma round
- - [ ] Arrow
+ - [x] Arrow
  - [ ] Balls
 
 ### Legendary weapon effects
