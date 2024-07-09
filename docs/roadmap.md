@@ -43,6 +43,8 @@
  - [x] Underarmor
 
 ### Food Tab
+ - [x] Holiday gift
+ - [x] Treasure hunt chest
  - [x] Weight increaser
  - [x] Moldy/toxic
  - [ ] Flux plant
@@ -53,36 +55,31 @@
  - [x] Wine
  - [x] Strong alcohol
  - [x] Beer
+ - [x] Fermented alcohol
  - [x] Lemonade
  - [x] Tea
- - [x] Salad
- - [x] Soup
+ - [x] Vegetable food
+ - [x] Vegetable soup
  - [x] Canned food
  - [x] Bubblegum
  - [x] Snack cakes
  - [x] Sugar bombs
  - [x] Candy
  - [x] Pie
+ - [x] Raw meat
  - [x] Meat Soup
  - [x] Cooked meat
- - [x] Raw meat
  - [x] Egg
- - [x] Cranberry
  - [x] Berry
- - [x] Gourd
- - [x] Melon
- - [x] Corn
- - [x] Tato
- - [x] Carrot
+ - [x] Vegetable
+ - [x] Fruit
  - [x] Flower
- - [x] Mutfruit
  - [x] Mushrooms
- - [x] Raw plant
  - [x] Flavor
 
 ### Holotapes
  - [x] Holotapes
- - [ ] Silo state tape
+ - [x] Silo state tape
 
 ### Keys
  - [x] Key
@@ -91,6 +88,9 @@
 ### Aid Tab
  - [x] Lunchbox
  - [x] Scout's
+ - [x] Holiday gift
+ - [x] Treasure hunt chest
+ - [ ] Mutation event chest
  - [x] Stimpak
  - [x] Radaway
  - [x] Rad-x
@@ -102,8 +102,9 @@
  - [x] Mentats
  - [x] Buffout
  - [x] Psycho
+ - [x] Day tripper
  - [x] Mutation serum
- - [ ] Magazines
+ - [x] Magazines
  - [x] Bobbleheads
 
 ### Misc Tab
@@ -117,7 +118,7 @@
  - [ ] Cards
  - [ ] Components
  - [x] Bulk
- - [ ] Creature corpse
+ - [x] Creature corpse
  - [ ] Ore
  - [ ] Toys
  - [ ] Unscrappable misc
