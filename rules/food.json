@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22bb",
+		"header": "0x22bc",
 		"include": [
 			"edid|moldy",
 			"edid|diseased",
@@ -26,7 +26,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22bc",
+		"header": "0x22bd",
 		"include": [
 			"ekwd|DrinkTypeWater"
 		],
@@ -43,7 +43,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22bd",
+		"header": "0x22be",
 		"include": [
 			"edid|WaterDirty"
 		],
@@ -58,7 +58,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22be",
+		"header": "0x22bf",
 		"include": [
 			"ekwd|ObjectTypeDrink",
 			"ekwd|DrinkTypeSoda"
@@ -74,7 +74,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22bf",
+		"header": "0x22c0",
 		"include": [
 			"edid|CarryWeight"
 		],
@@ -89,7 +89,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c0",
+		"header": "0x22c1",
 		"include": [
 			"ekwd|BeerAlcoholType"
 		],
@@ -104,7 +104,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c1",
+		"header": "0x22c2",
 		"include": [
 			"ekwd|WineAlcoholType"
 		],
@@ -119,7 +119,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c2",
+		"header": "0x22c3",
 		"include": [
 			"ekwd|DrinkTypeLiquor"
 		],
@@ -134,7 +134,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c3",
+		"header": "0x22c4",
 		"include": [
 			"ekwd|FermenterItem"
 		],
@@ -149,7 +149,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c4",
+		"header": "0x22c5",
 		"include": [
 			"ekwd|DrinkTypeJuice"
 		],
@@ -164,7 +164,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c5",
+		"header": "0x22c6",
 		"include": [
 			"ekwd|DrinkTypeTea"
 		],
@@ -181,7 +181,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c6",
+		"header": "0x22c7",
 		"include": [
 			"edid|milk"
 		],
@@ -196,7 +196,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c7",
+		"header": "0x22c8",
 		"include": [
 			"ekwd|ObjectTypeFood",
 			"ekwd|MealTypeCooked",
@@ -215,7 +215,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c8",
+		"header": "0x22c9",
 		"include": [
 			"ekwd|ObjectTypeFood",
 			"ekwd|IngredientTypeVegetable",
@@ -234,7 +234,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c9",
+		"header": "0x22ca",
 		"include": [
 			"ekwd|ObjectTypeFood",
 			"ekwd|MealTypePackaged"
@@ -253,7 +253,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22ca",
+		"header": "0x22cb",
 		"include": [
 			"edid|bubblegum"
 		],
@@ -268,7 +268,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22cb",
+		"header": "0x22cc",
 		"include": [
 			"edid|FancyLadSnackCakes"
 		],
@@ -283,7 +283,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22cc",
+		"header": "0x22cd",
 		"include": [
 			"edid|FancyLadSnackCakes"
 		],
@@ -298,7 +298,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22cd",
+		"header": "0x22ce",
 		"include": [
 			"ekwd|ObjectTypeCandy"
 		],
@@ -313,7 +313,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22ce",
+		"header": "0x22cf",
 		"include": [
 			"ekwd|ObjectTypeCakesPies"
 		],
@@ -330,7 +330,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22cf",
+		"header": "0x22d0",
 		"include": [
 			"edid|PumpkinPieTasty",
 			"edid|PotholePotpie",
@@ -352,7 +352,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22d0",
+		"header": "0x22d1",
 		"include": [
 			"edid|GulperMeatCooked",
 			"edid|RadStagMeatTastyStew",
@@ -372,7 +372,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22d1",
+		"header": "0x22d2",
 		"include": [
 			"ekwd|ObjectTypeFood",
 			"ekwd|IngredientTypeMeat",
@@ -391,7 +391,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22d2",
+		"header": "0x22d3",
 		"include": [
 			"ekwd|ObjectTypeFood",
 			"ekwd|IngredientTypeMeat"
@@ -414,7 +414,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22d3",
+		"header": "0x22d4",
 		"include": [
 			"edid|MirelurkEgg",
 			"edid|DeathclawEgg",
@@ -433,7 +433,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22d4",
+		"header": "0x22d5",
 		"include": [
 			"ekwd|PlantTypeBerry"
 		],
@@ -448,7 +448,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22d5",
+		"header": "0x22d6",
 		"include": [
 			"ekwd|PlantTypeVegetable",
 			"ekwd|PlantTypeGourd",
@@ -467,7 +467,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22d6",
+		"header": "0x22d7",
 		"include": [
 			"ekwd|ObjectTypeFlowers"
 		],
@@ -482,7 +482,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22d7",
+		"header": "0x22d8",
 		"include": [
 			"edid|MutfruitFruit"
 		],
@@ -497,7 +497,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22d8",
+		"header": "0x22d9",
 		"include": [
 			"edid|BlightVegetable",
 			"edid|BrainFungusVegetable",
@@ -520,7 +520,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22d9",
+		"header": "0x22da",
 		"include": [
 			"edid|honey"
 		],
@@ -538,7 +538,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22da",
+		"header": "0x22db",
 		"include": [
 			"ekwd|IngredientTypeFlavor"
 		],

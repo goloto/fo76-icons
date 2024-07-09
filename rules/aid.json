@@ -145,7 +145,7 @@
 	},
 	{
 		"order": 9,
-		"iconName": "addictol",
+		"iconName": "stealthboy",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -154,13 +154,13 @@
 		"isFullReplaced": false,
 		"header": "0x22b0",
 		"include": [
-			"edid|Addictol"
+			"edid|stealth"
 		],
 		"exclude": []
 	},
 	{
 		"order": 10,
-		"iconName": "blood_pack",
+		"iconName": "addictol",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -169,12 +169,32 @@
 		"isFullReplaced": false,
 		"header": "0x22b1",
 		"include": [
-			"ekwd|ObjectTypeBloodPack"
+			"edid|Addictol"
 		],
 		"exclude": []
 	},
 	{
 		"order": 11,
+		"iconName": "blood_pack",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22b2",
+		"include": [
+			"edid|TickBlood",
+			"edid|Bloodpack",
+			"edid|BloodpackIrradiated"
+		],
+		"exclude": [
+			"edid|GlowingOneBlood",
+			"edid|BloodpackGlowing"
+		]
+	},
+	{
+		"order": 12,
 		"iconName": "glowing_blood",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -182,7 +202,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22b2",
+		"header": "0x22b3",
 		"include": [
 			"edid|GlowingOneBlood",
 			"edid|BloodpackGlowing"
@@ -190,23 +210,8 @@
 		"exclude": []
 	},
 	{
-		"order": 12,
-		"iconName": "x_cell",
-		"leftSignature": "ALCH",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x22b3",
-		"include": [
-			"edid|XCell"
-		],
-		"exclude": []
-	},
-	{
 		"order": 13,
-		"iconName": "mentats",
+		"iconName": "x_cell",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -215,12 +220,27 @@
 		"isFullReplaced": false,
 		"header": "0x22b4",
 		"include": [
-			"ekwd|AddictionKeywordMentats"
+			"edid|XCell"
 		],
 		"exclude": []
 	},
 	{
 		"order": 14,
+		"iconName": "mentats",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22b5",
+		"include": [
+			"ekwd|AddictionKeywordMentats"
+		],
+		"exclude": []
+	},
+	{
+		"order": 15,
 		"iconName": "buffout",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -228,7 +248,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22b5",
+		"header": "0x22b6",
 		"include": [
 			"edid|Buffout",
 			"edid|Bufftats"
@@ -236,7 +256,7 @@
 		"exclude": []
 	},
 	{
-		"order": 15,
+		"order": 16,
 		"iconName": "psycho",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -244,7 +264,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22b6",
+		"header": "0x22b7",
 		"include": [
 			"edid|Psycho",
 			"edid|Overdrive",
@@ -259,23 +279,8 @@
 		]
 	},
 	{
-		"order": 16,
-		"iconName": "mutation_serum",
-		"leftSignature": "ALCH",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x22b7",
-		"include": [
-			"ekwd|ObjectTypeSerum"
-		],
-		"exclude": []
-	},
-	{
 		"order": 17,
-		"iconName": "day_tripper",
+		"iconName": "mutation_serum",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -284,12 +289,27 @@
 		"isFullReplaced": false,
 		"header": "0x22b8",
 		"include": [
-			"edid|DayTripper"
+			"ekwd|ObjectTypeSerum"
 		],
 		"exclude": []
 	},
 	{
 		"order": 18,
+		"iconName": "day_tripper",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22b9",
+		"include": [
+			"edid|DayTripper"
+		],
+		"exclude": []
+	},
+	{
+		"order": 19,
 		"iconName": "magazine",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -297,14 +317,14 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22b9",
+		"header": "0x22ba",
 		"include": [
 			"ekwd|MagazineKeyword"
 		],
 		"exclude": []
 	},
 	{
-		"order": 19,
+		"order": 20,
 		"iconName": "bobblehead",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -312,7 +332,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22ba",
+		"header": "0x22bb",
 		"include": [
 			"ekwd|BobbleheadKeyword"
 		],
