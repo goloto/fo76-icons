@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a5",
+		"header": "0x22a7",
 		"include": [
 			"edid|lunchbox"
 		],
@@ -23,7 +23,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a6",
+		"header": "0x22a8",
 		"include": [
 			"edid|Banner_Consumable"
 		],
@@ -31,38 +31,7 @@
 	},
 	{
 		"order": 2,
-		"iconName": "antibiotics",
-		"leftSignature": "ALCH",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": true,
-		"isFullReplaced": false,
-		"header": "0x22a7",
-		"include": [
-			"edid|SURV_DiseaseCure_HerbalMedicine",
-			"edid|SURV_DiseaseCure_Antibiotics"
-		],
-		"exclude": []
-	},
-	{
-		"order": 3,
-		"iconName": "stimpak",
-		"leftSignature": "ALCH",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x22a8",
-		"include": [
-			"ekwd|ObjectTypeStimpak"
-		],
-		"exclude": []
-	},
-	{
-		"order": 4,
-		"iconName": "radaway",
+		"iconName": "treasure_hunt_chest",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -71,13 +40,74 @@
 		"isFullReplaced": false,
 		"header": "0x22a9",
 		"include": [
+			"edid|TreasureHunt_Chest"
+		],
+		"exclude": []
+	},
+	{
+		"order": 3,
+		"iconName": "holiday_gift",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22aa",
+		"include": [
+			"edid|HolidayGift"
+		],
+		"exclude": []
+	},
+	{
+		"order": 4,
+		"iconName": "antibiotics",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x22ab",
+		"include": [
+			"edid|SURV_DiseaseCure_HerbalMedicine",
+			"edid|SURV_DiseaseCure_Antibiotics"
+		],
+		"exclude": []
+	},
+	{
+		"order": 5,
+		"iconName": "stimpak",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22ac",
+		"include": [
+			"ekwd|ObjectTypeStimpak"
+		],
+		"exclude": []
+	},
+	{
+		"order": 6,
+		"iconName": "radaway",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22ad",
+		"include": [
 			"ekwd|ObjectTypeChem",
 			"ekwd|ChemTypeRadaway"
 		],
 		"exclude": []
 	},
 	{
-		"order": 5,
+		"order": 7,
 		"iconName": "rad_x",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -85,7 +115,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22aa",
+		"header": "0x22ae",
 		"include": [
 			"edid|Radx",
 			"edid|RadShield",
@@ -95,69 +125,8 @@
 		"exclude": []
 	},
 	{
-		"order": 6,
-		"iconName": "med_x",
-		"leftSignature": "ALCH",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x22ab",
-		"include": [
-			"edid|medx"
-		],
-		"exclude": []
-	},
-	{
-		"order": 7,
-		"iconName": "addictol",
-		"leftSignature": "ALCH",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x22ac",
-		"include": [
-			"edid|Addictol"
-		],
-		"exclude": []
-	},
-	{
 		"order": 8,
-		"iconName": "blood_pack",
-		"leftSignature": "ALCH",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x22ad",
-		"include": [
-			"ekwd|ObjectTypeBloodPack"
-		],
-		"exclude": []
-	},
-	{
-		"order": 9,
-		"iconName": "glowing_blood",
-		"leftSignature": "ALCH",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": true,
-		"isFullReplaced": false,
-		"header": "0x22ae",
-		"include": [
-			"edid|GlowingOneBlood",
-			"edid|BloodpackGlowing"
-		],
-		"exclude": []
-	},
-	{
-		"order": 10,
-		"iconName": "x_cell",
+		"iconName": "med_x",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -166,13 +135,13 @@
 		"isFullReplaced": false,
 		"header": "0x22af",
 		"include": [
-			"edid|XCell"
+			"edid|medx"
 		],
 		"exclude": []
 	},
 	{
-		"order": 11,
-		"iconName": "mentats",
+		"order": 9,
+		"iconName": "addictol",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -181,29 +150,28 @@
 		"isFullReplaced": false,
 		"header": "0x22b0",
 		"include": [
-			"ekwd|AddictionKeywordMentats"
+			"edid|Addictol"
 		],
 		"exclude": []
 	},
 	{
-		"order": 12,
-		"iconName": "buffout",
+		"order": 10,
+		"iconName": "blood_pack",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"isInclusiveOr": true,
+		"isInclusiveOr": false,
 		"isFullReplaced": false,
 		"header": "0x22b1",
 		"include": [
-			"edid|Buffout",
-			"edid|Bufftats"
+			"ekwd|ObjectTypeBloodPack"
 		],
 		"exclude": []
 	},
 	{
-		"order": 13,
-		"iconName": "psycho",
+		"order": 11,
+		"iconName": "glowing_blood",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -211,6 +179,68 @@
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
 		"header": "0x22b2",
+		"include": [
+			"edid|GlowingOneBlood",
+			"edid|BloodpackGlowing"
+		],
+		"exclude": []
+	},
+	{
+		"order": 12,
+		"iconName": "x_cell",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22b3",
+		"include": [
+			"edid|XCell"
+		],
+		"exclude": []
+	},
+	{
+		"order": 13,
+		"iconName": "mentats",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22b4",
+		"include": [
+			"ekwd|AddictionKeywordMentats"
+		],
+		"exclude": []
+	},
+	{
+		"order": 14,
+		"iconName": "buffout",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x22b5",
+		"include": [
+			"edid|Buffout",
+			"edid|Bufftats"
+		],
+		"exclude": []
+	},
+	{
+		"order": 15,
+		"iconName": "psycho",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x22b6",
 		"include": [
 			"edid|Psycho",
 			"edid|Overdrive",
@@ -224,7 +254,7 @@
 		]
 	},
 	{
-		"order": 14,
+		"order": 16,
 		"iconName": "mutation_serum",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -232,14 +262,29 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22b3",
+		"header": "0x22b7",
 		"include": [
 			"ekwd|ObjectTypeSerum"
 		],
 		"exclude": []
 	},
 	{
-		"order": 15,
+		"order": 17,
+		"iconName": "day_tripper",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22b8",
+		"include": [
+			"edid|DayTripper"
+		],
+		"exclude": []
+	},
+	{
+		"order": 18,
 		"iconName": "magazine",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -247,14 +292,14 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22b4",
+		"header": "0x22b9",
 		"include": [
 			"ekwd|MagazineKeyword"
 		],
 		"exclude": []
 	},
 	{
-		"order": 16,
+		"order": 19,
 		"iconName": "bobblehead",
 		"leftSignature": "ALCH",
 		"rightSignature": "FULL",
@@ -262,7 +307,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22b5",
+		"header": "0x22ba",
 		"include": [
 			"ekwd|BobbleheadKeyword"
 		],

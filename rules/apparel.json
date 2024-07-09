@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22d5",
+		"header": "0x22db",
 		"include": [
 			"ekwd|ClothingTypeHat",
 			"ekwd|ArmorBodyPartHead"
@@ -29,7 +29,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22d6",
+		"header": "0x22dc",
 		"include": [
 			"ekwd|ClothingTypeHat",
 			"ekwd|ClothingTypeFedora"
@@ -45,7 +45,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22d7",
+		"header": "0x22dd",
 		"include": [
 			"ekwd|ClothingTypeHat",
 			"ekwd|HatTypeFasnachtMask"
@@ -61,7 +61,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22d8",
+		"header": "0x22de",
 		"include": [
 			"edid|beret"
 		],
@@ -76,7 +76,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22d9",
+		"header": "0x22df",
 		"include": [
 			"ekwd|ClothingTypeMask",
 			"ekwd|ClothingTypeGasMask"
@@ -92,7 +92,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22da",
+		"header": "0x22e0",
 		"include": [
 			"ekwd|ClothingTypeGlasses"
 		],
@@ -107,7 +107,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22db",
+		"header": "0x22e1",
 		"include": [
 			"ekwd|ClothingTypeDress"
 		],
@@ -122,7 +122,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22dc",
+		"header": "0x22e2",
 		"include": [
 			"ekwd|ClothingTypeFormalWear"
 		],
@@ -139,7 +139,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22dd",
+		"header": "0x22e3",
 		"include": [
 			"ekwd|ObjectTypeClothing"
 		],

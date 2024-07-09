@@ -1,6 +1,21 @@
 [
 	{
 		"order": 0,
+		"iconName": "silo_tape",
+		"leftSignature": "NOTE",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x229c",
+		"include": [
+			"edid|SiloStateTape"
+		],
+		"exclude": []
+	},
+	{
+		"order": 1,
 		"iconName": "holotape",
 		"leftSignature": "NOTE",
 		"rightSignature": "FULL",
@@ -8,7 +23,7 @@
 		"isAnyKeyword": true,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x229b",
+		"header": "0x229d",
 		"include": [],
 		"exclude": []
 	}

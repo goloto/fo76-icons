@@ -76,22 +76,24 @@
 	},
 	{
 		"order": 5,
-		"iconName": "cards",
+		"iconName": "corpse",
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"isInclusiveOr": false,
+		"isInclusiveOr": true,
 		"isFullReplaced": false,
 		"header": "0x228f",
 		"include": [
-			"ekwd|Moon_CryptidCardKeyword"
+			"ekwd|ObjectTypeBones",
+			"ekwd|ObjectTypeHumanSkull",
+			"ekwd|BoneType"
 		],
 		"exclude": []
 	},
 	{
 		"order": 6,
-		"iconName": "components",
+		"iconName": "cards",
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -100,13 +102,13 @@
 		"isFullReplaced": false,
 		"header": "0x2290",
 		"include": [
-			"ekwd|ObjectTypeComponent"
+			"ekwd|Moon_CryptidCardKeyword"
 		],
 		"exclude": []
 	},
 	{
 		"order": 7,
-		"iconName": "bulk",
+		"iconName": "components",
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -115,13 +117,13 @@
 		"isFullReplaced": false,
 		"header": "0x2291",
 		"include": [
-			"edid|Bulk"
+			"ekwd|ObjectTypeComponent"
 		],
 		"exclude": []
 	},
 	{
 		"order": 8,
-		"iconName": "ore",
+		"iconName": "bulk",
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -130,15 +132,13 @@
 		"isFullReplaced": false,
 		"header": "0x2292",
 		"include": [
-			"edid|ore"
+			"edid|Bulk"
 		],
-		"exclude": [
-			"edid|SCORE_Recipe"
-		]
+		"exclude": []
 	},
 	{
 		"order": 9,
-		"iconName": "teddy_bear",
+		"iconName": "ore",
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -147,12 +147,29 @@
 		"isFullReplaced": false,
 		"header": "0x2293",
 		"include": [
+			"edid|ore"
+		],
+		"exclude": [
+			"edid|SCORE_Recipe"
+		]
+	},
+	{
+		"order": 10,
+		"iconName": "teddy_bear",
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2294",
+		"include": [
 			"ekwd|ObjectTypeTeddyBear"
 		],
 		"exclude": []
 	},
 	{
-		"order": 10,
+		"order": 11,
 		"iconName": "junk",
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
@@ -160,12 +177,12 @@
 		"isAnyKeyword": true,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2294",
+		"header": "0x2295",
 		"include": [],
 		"exclude": []
 	},
 	{
-		"order": 11,
+		"order": 12,
 		"iconName": "quest",
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
@@ -173,7 +190,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2295",
+		"header": "0x2296",
 		"include": [],
 		"exclude": []
 	}
