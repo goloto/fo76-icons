@@ -906,6 +906,12 @@
  Include_6=edid|organics
  Include_7=edid|databank
  Include_8=edid|RecallKey
+ Include_9=edid|TheMazeID
+ Include_10=edid|CongressionalID
+ Include_11=edid|BiometricData
+ Include_12=edid|RDClearance
+ Include_13=edid|TaggerdyID
+ Include_14=edid|SeniorExecID
  Exclude_0=
 [EndRule]
 
@@ -933,6 +939,12 @@
  Exclude_6=edid|organics
  Exclude_7=edid|databank
  Exclude_8=edid|RecallKey
+ Exclude_9=edid|TheMazeID
+ Exclude_10=edid|CongressionalID
+ Exclude_11=edid|BiometricData
+ Exclude_12=edid|RDClearance
+ Exclude_13=edid|TaggerdyID
+ Exclude_14=edid|SeniorExecID
 [EndRule]
 
 [StartRule]

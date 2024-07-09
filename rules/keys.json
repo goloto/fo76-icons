@@ -18,7 +18,13 @@
 			"edid|terminal",
 			"edid|organics",
 			"edid|databank",
-			"edid|RecallKey"
+			"edid|RecallKey",
+			"edid|TheMazeID",
+			"edid|CongressionalID",
+			"edid|BiometricData",
+			"edid|RDClearance",
+			"edid|TaggerdyID",
+			"edid|SeniorExecID"
 		],
 		"exclude": []
 	},
@@ -44,7 +50,13 @@
 			"edid|terminal",
 			"edid|organics",
 			"edid|databank",
-			"edid|RecallKey"
+			"edid|RecallKey",
+			"edid|TheMazeID",
+			"edid|CongressionalID",
+			"edid|BiometricData",
+			"edid|RDClearance",
+			"edid|TaggerdyID",
+			"edid|SeniorExecID"
 		]
 	}
 ]
