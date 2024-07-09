@@ -137,7 +137,9 @@
 		"include": [
 			"edid|medx",
 			"edid|calmex",
-			"edid|FormulaP"
+			"edid|FormulaP",
+			"edid|FormulaB",
+			"edid|FormulaQ"
 		],
 		"exclude": []
 	},
