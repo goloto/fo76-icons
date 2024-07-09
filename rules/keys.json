@@ -11,10 +11,14 @@
 		"header": "0x2296",
 		"include": [
 			"edid|keycard",
-			"edid|idcard",
 			"edid|password",
 			"edid|code",
-			"edid|login"
+			"edid|card",
+			"edid|login",
+			"edid|terminal",
+			"edid|organics",
+			"edid|databank",
+			"edid|RecallKey"
 		],
 		"exclude": []
 	},
@@ -33,8 +37,14 @@
 		],
 		"exclude": [
 			"edid|keycard",
-			"edid|idcard",
-			"edid|password"
+			"edid|password",
+			"edid|code",
+			"edid|card",
+			"edid|login",
+			"edid|terminal",
+			"edid|organics",
+			"edid|databank",
+			"edid|RecallKey"
 		]
 	}
 ]

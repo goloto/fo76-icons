@@ -898,10 +898,14 @@
  isFallBack=0
  fallbackBank=0
  Include_0=edid|keycard
- Include_1=edid|idcard
- Include_2=edid|password
- Include_3=edid|code
+ Include_1=edid|password
+ Include_2=edid|code
+ Include_3=edid|card
  Include_4=edid|login
+ Include_5=edid|terminal
+ Include_6=edid|organics
+ Include_7=edid|databank
+ Include_8=edid|RecallKey
  Exclude_0=
 [EndRule]
 
@@ -921,8 +925,14 @@
  fallbackBank=0
  Include_0=edid|key
  Exclude_0=edid|keycard
- Exclude_1=edid|idcard
- Exclude_2=edid|password
+ Exclude_1=edid|password
+ Exclude_2=edid|code
+ Exclude_3=edid|card
+ Exclude_4=edid|login
+ Exclude_5=edid|terminal
+ Exclude_6=edid|organics
+ Exclude_7=edid|databank
+ Exclude_8=edid|RecallKey
 [EndRule]
 
 [StartRule]
