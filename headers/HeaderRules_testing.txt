@@ -1403,10 +1403,12 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
  Include_0=edid|medx
+ Include_1=edid|calmex
+ Include_2=edid|FormulaP
  Exclude_0=
 [EndRule]
 
@@ -1540,6 +1542,7 @@
  Include_3=edid|Fury
  Include_4=edid|SurvivalShortcut
  Include_5=edid|BrawlingChemist
+ Include_6=edid|DaddyO
  Exclude_0=edid|VenisonAndTatoStew_Psycho
 [EndRule]
 

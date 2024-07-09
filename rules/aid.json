@@ -131,11 +131,13 @@
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"isInclusiveOr": false,
+		"isInclusiveOr": true,
 		"isFullReplaced": false,
 		"header": "0x22af",
 		"include": [
-			"edid|medx"
+			"edid|medx",
+			"edid|calmex",
+			"edid|FormulaP"
 		],
 		"exclude": []
 	},
@@ -247,7 +249,8 @@
 			"edid|ChemBlend",
 			"edid|Fury",
 			"edid|SurvivalShortcut",
-			"edid|BrawlingChemist"
+			"edid|BrawlingChemist",
+			"edid|DaddyO"
 		],
 		"exclude": [
 			"edid|VenisonAndTatoStew_Psycho"
