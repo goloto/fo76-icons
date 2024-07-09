@@ -12,7 +12,9 @@
 		"include": [
 			"edid|keycard",
 			"edid|idcard",
-			"edid|password"
+			"edid|password",
+			"edid|code",
+			"edid|login"
 		],
 		"exclude": []
 	},

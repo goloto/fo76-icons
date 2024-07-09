@@ -900,6 +900,8 @@
  Include_0=edid|keycard
  Include_1=edid|idcard
  Include_2=edid|password
+ Include_3=edid|code
+ Include_4=edid|login
  Exclude_0=
 [EndRule]
 
