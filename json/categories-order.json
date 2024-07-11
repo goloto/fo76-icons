@@ -8,6 +8,10 @@
 		"order": 1
 	},
 	{
+		"name": "mines",
+		"order": 1
+	},
+	{
 		"name": "legendary-effects",
 		"order": 2
 	},
@@ -46,6 +50,10 @@
 	{
 		"name": "weapons",
 		"order": 11
+	},
+	{
+		"name": "melee-weapons",
+		"order": 12
 	},
 	{
 		"name": "armor",

@@ -1,0 +1,32 @@
+[
+  {
+		"order": 0,
+		"iconName": "one_handed_melee",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22e9",
+		"include": [
+			"ekwd|WeaponTypeMelee1H"
+		],
+		"exclude": []
+	},
+	{
+		"order": 1,
+		"iconName": "two_handed_melee",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22ea",
+		"include": [
+			"ekwd|WeaponTypeMelee2H"
+		],
+		"exclude": []
+	}
+]

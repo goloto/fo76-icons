@@ -1,16 +1,16 @@
 [
-	{
+  {
 		"order": 0,
-		"iconName": "fragmentation_grenade",
+		"iconName": "fragmentation_mine",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2267",
+		"header": "0x22e7",
 		"include": [
-			"ekwd|WeaponTypeGrenade"
+			"ekwd|WeaponTypeMine"
 		],
 		"exclude": []
 	}
