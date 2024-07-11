@@ -53,6 +53,12 @@ export const SORTED_RULES_KEYS: Array<keyof IconRule> = [
   'isFallback'
 ];
 
+const DEFAULT_WEAPON_RULES = {
+  leftSignature: LeftSignature.Weapon,
+  rightSignature: RightSignature.FULL,
+  isFullReplaced: false,
+};
+
 export const ICONS_DEFAULT_RULES: Record<
   string, 
   Pick<IconRule, 'leftSignature' | 'rightSignature' | 'isFullReplaced'>
@@ -102,6 +108,8 @@ export const ICONS_DEFAULT_RULES: Record<
     rightSignature: RightSignature.WNAM,
     isFullReplaced: true,
   },
+  "melee-weapons": DEFAULT_WEAPON_RULES,
+  mines: DEFAULT_WEAPON_RULES,
   misc: {
     leftSignature: LeftSignature.Misc,
     rightSignature: RightSignature.FULL,
@@ -117,14 +125,10 @@ export const ICONS_DEFAULT_RULES: Record<
     rightSignature: RightSignature.FULL,
     isFullReplaced: false,
   },
-  "thrown-weapons" : {
-    leftSignature: LeftSignature.Weapon,
-    rightSignature: RightSignature.FULL,
-    isFullReplaced: false,
-  },
-  weapons: {
-    leftSignature: LeftSignature.Weapon,
-    rightSignature: RightSignature.FULL,
-    isFullReplaced: false,
-  },
+  "thrown-weapons" : DEFAULT_WEAPON_RULES,
+  rifles: DEFAULT_WEAPON_RULES,
+  "heavy-weapons": DEFAULT_WEAPON_RULES,
+  shotguns: DEFAULT_WEAPON_RULES,
+  pistols: DEFAULT_WEAPON_RULES,
+  weapons: DEFAULT_WEAPON_RULES,
 };
