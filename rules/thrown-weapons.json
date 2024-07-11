@@ -1,7 +1,7 @@
 [
 	{
 		"order": 0,
-		"iconName": "fragmentation_grenade",
+		"iconName": "nuka_grenade",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -10,7 +10,88 @@
 		"isFullReplaced": false,
 		"header": "0x2267",
 		"include": [
-			"ekwd|WeaponTypeGrenade"
+			"edid|NukaGrenade"
+		],
+		"exclude": []
+	},
+	{
+		"order": 1,
+		"iconName": "plasma_grenade",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2268",
+		"include": [
+			"edid|PlasmaGrenade"
+		],
+		"exclude": []
+	},
+	{
+		"order": 2,
+		"iconName": "cryo_grenade",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2269",
+		"include": [
+			"edid|CryoGrenade"
+		],
+		"exclude": []
+	},
+	{
+		"order": 3,
+		"iconName": "pulse_grenade",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x226a",
+		"include": [
+			"edid|PulseGrenade"
+		],
+		"exclude": []
+	},
+	{
+		"order": 4,
+		"iconName": "fragmentation_grenade",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x226b",
+		"include": [
+			"edid|WeaponTypeGrenade"
+		],
+		"exclude": [
+			"edid|PulseGrenade",
+			"edid|NukaGrenade",
+			"edid|SuiciderBomb",
+			"edid|PlasmaGrenade",
+			"edid|CryoGrenade"
+		]
+	},
+	{
+		"order": 5,
+		"iconName": "thrown_bomb",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x226c",
+		"include": [
+			"edid|SuiciderBomb"
 		],
 		"exclude": []
 	}

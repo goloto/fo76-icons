@@ -9,51 +9,43 @@
 	},
 	{
 		"name": "mines",
-		"order": 1
-	},
-	{
-		"name": "legendary-effects",
 		"order": 2
 	},
 	{
-		"name": "misc",
+		"name": "legendary-effects",
 		"order": 3
 	},
 	{
-		"name": "keys",
+		"name": "misc",
 		"order": 4
 	},
 	{
-		"name": "notes",
+		"name": "keys",
 		"order": 5
 	},
 	{
-		"name": "holotapes",
+		"name": "notes",
 		"order": 6
 	},
 	{
-		"name": "ammo",
+		"name": "holotapes",
 		"order": 7
 	},
 	{
-		"name": "aid",
+		"name": "ammo",
 		"order": 8
 	},
 	{
-		"name": "food",
+		"name": "aid",
 		"order": 9
 	},
 	{
-		"name": "apparel",
+		"name": "food",
 		"order": 10
 	},
 	{
-		"name": "weapons",
+		"name": "apparel",
 		"order": 11
-	},
-	{
-		"name": "melee-weapons",
-		"order": 12
 	},
 	{
 		"name": "armor",
@@ -62,5 +54,29 @@
 	{
 		"name": "mods",
 		"order": 13
+	},
+	{
+		"name": "weapons",
+		"order": 14
+	},
+	{
+		"name": "melee-weapons",
+		"order": 15
+	},
+	{
+		"name": "heavy-weapons",
+		"order": 16
+	},
+	{
+		"name": "rifles",
+		"order": 17
+	},
+	{
+		"name": "shotguns",
+		"order": 18
+	},
+	{
+		"name": "pistols",
+		"order": 19
 	}
 ]

@@ -1,109 +1,114 @@
 [
 	{
 		"order": 0,
-		"iconName": "binoculars",
+		"iconName": "alien_bluster",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22f8",
+		"header": "0x2322",
 		"include": [
-			"edid|binoculars"
+			"edid|AlienBlaster"
 		],
 		"exclude": []
 	},
 	{
 		"order": 1,
-		"iconName": "camera",
+		"iconName": "gamma_gun",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22f9",
+		"header": "0x2323",
 		"include": [
-			"edid|camera"
+			"edid|GammaGun"
 		],
 		"exclude": []
 	},
 	{
 		"order": 2,
-		"iconName": "assaultron_head",
+		"iconName": "plasma_pistol",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22fa",
-		"include": [
-			"edid|AssaultronHead"
-		],
+		"header": "0x2324",
+		"include": [],
 		"exclude": []
 	},
 	{
 		"order": 3,
-		"iconName": "syringer",
+		"iconName": "laser_pistol",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22fb",
-		"include": [
-			"edid|syringer"
-		],
+		"header": "0x2325",
+		"include": [],
 		"exclude": []
 	},
 	{
 		"order": 4,
-		"iconName": "bow",
+		"iconName": "revolver",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22fc",
+		"header": "0x2326",
 		"include": [
-			"edid|bow"
-		],
-		"exclude": [
-			"edid|CompoundBow",
-			"edid|Bowie",
-			"edid|crossbow"
-		]
-	},
-	{
-		"order": 5,
-		"iconName": "compound_bow",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x22fd",
-		"include": [
-			"edid|CompoundBow"
+			"edid|revoler"
 		],
 		"exclude": []
 	},
 	{
-		"order": 6,
-		"iconName": "weapon",
+		"order": 5,
+		"iconName": "pipe_revolver",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22fe",
+		"header": "0x2327",
 		"include": [],
+		"exclude": []
+	},
+	{
+		"order": 6,
+		"iconName": "pipe_pistol",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2328",
+		"include": [],
+		"exclude": []
+	},
+	{
+		"order": 7,
+		"iconName": "flare_gun",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2329",
+		"include": [
+			"edid|FlareGun"
+		],
 		"exclude": []
 	}
 ]

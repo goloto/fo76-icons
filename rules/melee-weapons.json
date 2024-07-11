@@ -1,6 +1,149 @@
 [
-  {
+	{
 		"order": 0,
+		"iconName": "power_fist",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x22ff",
+		"include": [
+			"edid|PowerFist",
+			"edid|Gauntlet"
+		],
+		"exclude": []
+	},
+	{
+		"order": 1,
+		"iconName": "unarmed",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2300",
+		"include": [
+			"ekwd|WeaponTypeUnarmed"
+		],
+		"exclude": [
+			"edid|PowerFist",
+			"edid|Gauntlet"
+		]
+	},
+	{
+		"order": 2,
+		"iconName": "chainsaw",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2301",
+		"include": [
+			"edid|chainsaw"
+		],
+		"exclude": []
+	},
+	{
+		"order": 3,
+		"iconName": "shishkebab",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2302",
+		"include": [
+			"edid|shishkebab"
+		],
+		"exclude": []
+	},
+	{
+		"order": 4,
+		"iconName": "ripper",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2303",
+		"include": [
+			"edid|ripper"
+		],
+		"exclude": []
+	},
+	{
+		"order": 5,
+		"iconName": "knife",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2304",
+		"include": [
+			"edid|knife"
+		],
+		"exclude": [
+			"edid|Throwing_Knife"
+		]
+	},
+	{
+		"order": 6,
+		"iconName": "machete",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2305",
+		"include": [
+			"edid|machete"
+		],
+		"exclude": []
+	},
+	{
+		"order": 7,
+		"iconName": "one_handed_axe",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2306",
+		"include": [
+			"ekwd|WeaponTypeAxe",
+			"ekwd|WeaponTypeMelee1H"
+		],
+		"exclude": []
+	},
+	{
+		"order": 8,
+		"iconName": "one_handed_bat",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2307",
+		"include": [
+			"ekwd|WeaponTypeBlunt",
+			"ekwd|WeaponTypeMelee1H"
+		],
+		"exclude": []
+	},
+	{
+		"order": 9,
 		"iconName": "one_handed_melee",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
@@ -8,14 +151,77 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22e9",
+		"header": "0x2308",
 		"include": [
 			"ekwd|WeaponTypeMelee1H"
 		],
 		"exclude": []
 	},
 	{
-		"order": 1,
+		"order": 10,
+		"iconName": "super_sledge",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2309",
+		"include": [
+			"edid|SuperSledge"
+		],
+		"exclude": []
+	},
+	{
+		"order": 11,
+		"iconName": "two_handed_bat",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x230a",
+		"include": [
+			"ekwd|WeaponTypeBlunt",
+			"ekwd|WeaponTypeMelee2H"
+		],
+		"exclude": []
+	},
+	{
+		"order": 12,
+		"iconName": "two_handed_axe",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x230b",
+		"include": [
+			"ekwd|WeaponTypeAxe",
+			"ekwd|WeaponTypeMelee2H"
+		],
+		"exclude": []
+	},
+	{
+		"order": 13,
+		"iconName": "two_handed_sword",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x230c",
+		"include": [
+			"ekwd|WeaponTypeSword",
+			"ekwd|WeaponTypeMelee2H"
+		],
+		"exclude": []
+	},
+	{
+		"order": 14,
 		"iconName": "two_handed_melee",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
@@ -23,7 +229,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22ea",
+		"header": "0x230d",
 		"include": [
 			"ekwd|WeaponTypeMelee2H"
 		],

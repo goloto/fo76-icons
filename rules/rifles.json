@@ -1,153 +1,146 @@
 [
 	{
 		"order": 0,
-		"iconName": "helmet",
-		"leftSignature": "ARMO",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": true,
-		"isFullReplaced": false,
-		"header": "0x22e7",
-		"include": [
-			"ekwd|ClothingTypeHat",
-			"ekwd|ArmorBodyPartHead"
-		],
-		"exclude": [
-			"ekwd|ClothingTypeGasMask",
-			"ekwd|ClothingTypeFedora",
-			"ekwd|HatTypeFasnachtMask",
-			"ekwd|ClothingTypeGlasses"
-		]
-	},
-	{
-		"order": 1,
-		"iconName": "fedora_hat",
-		"leftSignature": "ARMO",
+		"iconName": "handmade_rifle",
+		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22e8",
+		"header": "0x2318",
 		"include": [
-			"ekwd|ClothingTypeHat",
-			"ekwd|ClothingTypeFedora"
+			"edid|HandmadeRifle"
+		],
+		"exclude": []
+	},
+	{
+		"order": 1,
+		"iconName": "railway_rifle",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2319",
+		"include": [
+			"edid|RailwayRifle"
 		],
 		"exclude": []
 	},
 	{
 		"order": 2,
-		"iconName": "fasnacht_mask",
-		"leftSignature": "ARMO",
+		"iconName": "tesla_rifle",
+		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22e9",
+		"header": "0x231a",
 		"include": [
-			"ekwd|ClothingTypeHat",
-			"ekwd|HatTypeFasnachtMask"
+			"edid|LightningGun"
 		],
 		"exclude": []
 	},
 	{
 		"order": 3,
-		"iconName": "beret",
-		"leftSignature": "ARMO",
+		"iconName": "gauss_rifle",
+		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22ea",
+		"header": "0x231b",
 		"include": [
-			"edid|beret"
+			"edid|GaussRifle"
 		],
 		"exclude": []
 	},
 	{
 		"order": 4,
-		"iconName": "gas_mask",
-		"leftSignature": "ARMO",
+		"iconName": "plasma_rifle",
+		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22eb",
+		"header": "0x231c",
 		"include": [
-			"ekwd|ClothingTypeMask",
-			"ekwd|ClothingTypeGasMask"
+			"edid|PlasmaGun"
 		],
 		"exclude": []
 	},
 	{
 		"order": 5,
-		"iconName": "glasses",
-		"leftSignature": "ARMO",
+		"iconName": "laser_rifle",
+		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22ec",
+		"header": "0x231d",
 		"include": [
-			"ekwd|ClothingTypeGlasses"
+			"edid|LaserGun"
 		],
 		"exclude": []
 	},
 	{
 		"order": 6,
-		"iconName": "dress",
-		"leftSignature": "ARMO",
+		"iconName": "pipe_rifle",
+		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22ed",
+		"header": "0x231e",
 		"include": [
-			"ekwd|ClothingTypeDress"
+			"edid|PipeGun"
 		],
 		"exclude": []
 	},
 	{
 		"order": 7,
-		"iconName": "suit",
-		"leftSignature": "ARMO",
+		"iconName": "laser_musket",
+		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22ee",
+		"header": "0x231f",
 		"include": [
-			"ekwd|ClothingTypeFormalWear"
+			"edid|LaserMusket"
 		],
-		"exclude": [
-			"ekwd|ClothingTypeDress"
-		]
+		"exclude": []
 	},
 	{
 		"order": 8,
-		"iconName": "apparel",
-		"leftSignature": "ARMO",
+		"iconName": "rifle",
+		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22ef",
+		"header": "0x2320",
 		"include": [
-			"ekwd|ObjectTypeClothing"
+			"ekwd|WeaponTypeRifle"
 		],
 		"exclude": [
-			"ekwd|ClothingTypeHat",
-			"ekwd|ClothingTypeGasMask",
-			"ekwd|ClothingTypeDress",
-			"ekwd|ClothingTypeFormalWear"
+			"edid|HandmadeRifle",
+			"edid|RailwayRifle",
+			"edid|LightningGun",
+			"edid|GaussRifle",
+			"edid|PlasmaGun",
+			"edid|LaserGun",
+			"edid|PipeGun",
+			"edid|LaserMusket"
 		]
 	}
 ]

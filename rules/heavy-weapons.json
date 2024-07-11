@@ -1,153 +1,154 @@
 [
 	{
 		"order": 0,
-		"iconName": "helmet",
-		"leftSignature": "ARMO",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": true,
-		"isFullReplaced": false,
-		"header": "0x22e7",
-		"include": [
-			"ekwd|ClothingTypeHat",
-			"ekwd|ArmorBodyPartHead"
-		],
-		"exclude": [
-			"ekwd|ClothingTypeGasMask",
-			"ekwd|ClothingTypeFedora",
-			"ekwd|HatTypeFasnachtMask",
-			"ekwd|ClothingTypeGlasses"
-		]
-	},
-	{
-		"order": 1,
-		"iconName": "fedora_hat",
-		"leftSignature": "ARMO",
+		"iconName": "flamer",
+		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22e8",
+		"header": "0x230e",
 		"include": [
-			"ekwd|ClothingTypeHat",
-			"ekwd|ClothingTypeFedora"
+			"ekwd|WeaponTypeFlamer"
+		],
+		"exclude": []
+	},
+	{
+		"order": 1,
+		"iconName": "cryolator",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x230f",
+		"include": [
+			"ekwd|WeaponTypeCryolator"
 		],
 		"exclude": []
 	},
 	{
 		"order": 2,
-		"iconName": "fasnacht_mask",
-		"leftSignature": "ARMO",
+		"iconName": "machine_gun",
+		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22e9",
+		"header": "0x2310",
 		"include": [
-			"ekwd|ClothingTypeHat",
-			"ekwd|HatTypeFasnachtMask"
+			"ekwd|50calMachineGun"
 		],
 		"exclude": []
 	},
 	{
 		"order": 3,
-		"iconName": "beret",
-		"leftSignature": "ARMO",
+		"iconName": "light_machine_gun",
+		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22ea",
+		"header": "0x2311",
 		"include": [
-			"edid|beret"
+			"ekwd|mg42"
 		],
 		"exclude": []
 	},
 	{
 		"order": 4,
-		"iconName": "gas_mask",
-		"leftSignature": "ARMO",
+		"iconName": "gatling_laser",
+		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22eb",
+		"header": "0x2312",
 		"include": [
-			"ekwd|ClothingTypeMask",
-			"ekwd|ClothingTypeGasMask"
+			"ekwd|GatlingLaser"
 		],
 		"exclude": []
 	},
 	{
 		"order": 5,
-		"iconName": "glasses",
-		"leftSignature": "ARMO",
+		"iconName": "minigun",
+		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22ec",
+		"header": "0x2313",
 		"include": [
-			"ekwd|ClothingTypeGlasses"
+			"edid|minigun"
 		],
 		"exclude": []
 	},
 	{
 		"order": 6,
-		"iconName": "dress",
-		"leftSignature": "ARMO",
+		"iconName": "grenade_launcher",
+		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22ed",
+		"header": "0x2314",
 		"include": [
-			"ekwd|ClothingTypeDress"
+			"edid|m79"
 		],
 		"exclude": []
 	},
 	{
 		"order": 7,
-		"iconName": "suit",
-		"leftSignature": "ARMO",
+		"iconName": "auto_grenade_launcher",
+		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22ee",
+		"header": "0x2315",
 		"include": [
-			"ekwd|ClothingTypeFormalWear"
+			"edid|GrenadeLauncher"
 		],
 		"exclude": [
-			"ekwd|ClothingTypeDress"
+			"ekwd|m79"
 		]
 	},
 	{
 		"order": 8,
-		"iconName": "apparel",
-		"leftSignature": "ARMO",
+		"iconName": "harpoon_gun",
+		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22ef",
+		"header": "0x2316",
 		"include": [
-			"ekwd|ObjectTypeClothing"
+			"edid|HarpoonGun"
 		],
-		"exclude": [
-			"ekwd|ClothingTypeHat",
-			"ekwd|ClothingTypeGasMask",
-			"ekwd|ClothingTypeDress",
-			"ekwd|ClothingTypeFormalWear"
-		]
+		"exclude": []
+	},
+	{
+		"order": 9,
+		"iconName": "junk_jet",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2317",
+		"include": [
+			"edid|JunkJet"
+		],
+		"exclude": []
 	}
 ]
