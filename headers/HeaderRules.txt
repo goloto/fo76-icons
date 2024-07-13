@@ -913,6 +913,71 @@
 [EndRule]
 
 [StartRule]
+ Header=
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=-1
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=
+ Exclude_0=ekwd|HasLegendary_Weapon_Steady
+ Exclude_1=ekwd|HasLegendary_Armor_LowHealthIncreasesStats
+ Exclude_2=ekwd|HasLegendary_Weapon_AntiArmor
+ Exclude_3=ekwd|HasLegendary_Weapon_DamageInverseHealth
+ Exclude_4=ekwd|HasLegendary_Weapon_DamageAddiction
+ Exclude_5=ekwd|HasLegendary_Weapon_Gourmand
+ Exclude_6=ekwd|HasLegendary_Armor_Overeater
+ Exclude_7=ekwd|HasLegendary_Armor_ResistancesProportionalCaps
+ Exclude_8=ekwd|HasLegendary_Weapon_DamageViaCaps
+ Exclude_9=ekwd|HasLegendary_Weapon_DamageFirstBlood
+ Exclude_10=ekwd|HasLegendary_Weapon_DamageViaHealth
+ Exclude_11=ekwd|HasLegendary_Armor_ResistancesMutation
+ Exclude_12=ekwd|HasLegendary_Weapon_DamageWithMutation
+ Exclude_13=ekwd|HasLegendary_Weapon_DamageUnarmored
+ Exclude_14=ekwd|HasLegendary_Weapon_AmmoCapacity4x
+ Exclude_15=ekwd|HasLegendary_Weapon_TwoShot
+ Exclude_16=ekwd|HasLegendary_Armor_LessDMGScorched
+ Exclude_17=ekwd|HasLegendary_Weapon_DamageVsScorched
+ Exclude_18=ekwd|HasLegendary_Armor_ResistancesNight
+ Exclude_19=ekwd|HasLegendary_Weapon_DamageNight
+ Exclude_20=ekwd|HasLegendary_Armor_LessDMGBugs
+ Exclude_21=ekwd|HasLegendary_Weapon_DamageVsBugs
+ Exclude_22=ekwd|HasLegendary_Armor_LessDMGHumans
+ Exclude_23=ekwd|HasLegendary_Weapon_DamageVsPlayers
+ Exclude_24=ekwd|HasLegendary_Weapon_DamageConsecutiveHits
+ Exclude_25=ekwd|HasLegendary_Weapon_DamageVsRobots
+ Exclude_26=ekwd|HasLegendary_Armor_LessDMGRobots
+ Exclude_27=ekwd|HasLegendary_Armor_LessDMGSupermutants
+ Exclude_28=ekwd|HasLegendary_Weapon_DamageVsSupermutants
+ Exclude_29=ekwd|HasLegendary_Weapon_Execute
+ Exclude_30=ekwd|HasLegendary_Weapon_DamageVsAnimals
+ Exclude_31=ekwd|HasLegendary_Armor_LessDMGAnimals
+ Exclude_32=ekwd|HasLegendary_Armor_ResistancesInverseHealth
+ Exclude_33=ekwd|HasLegendary_Weapon_AccuracyNotInCombat
+ Exclude_34=ekwd|HasLegendary_Armor_Chameleon
+ Exclude_35=ekwd|HasLegendary_Weapon_DamageVsGhouls
+ Exclude_36=ekwd|HasLegendary_Armor_LessDMGGhouls
+ Exclude_37=ekwd|HasLegendary_Armor_AutoRevive
+ Exclude_38=ekwd|HasLegendary_Armor_ResistancesProportionalHealth
+ Exclude_39=ekwd|HasLegendary_Armor_GettingMeleedTriggersInvisibility
+ Exclude_40=ekwd|HasLegendary_Weapon_DebuffDamage
+ Exclude_41=ekwd|HasLegendary_Weapon_Vampire
+ Exclude_42=ekwd|HasLegendary_Weapon_CitsHealGroup
+ Exclude_43=ekwd|dn_BackPack_Standard_Material_Medical
+ Exclude_44=ekwd|dn_HasMisc_MedicPump
+ Exclude_45=ekwd|HasLegendary_Armor_LowHealthTriggersStimpak
+ Exclude_46=ekwd|HasLegendary_Armor_HealthRegen
+ Exclude_47=ekwd|HasLegendary_Armor_Weightless
+[EndRule]
+
+[StartRule]
  Header=⊗
  rSig=MISC
  fSig=FULL

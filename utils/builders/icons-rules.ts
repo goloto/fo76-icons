@@ -1,4 +1,5 @@
-import type { CategoryOrder, IconOrder, IconRule } from "../types";
+import { LeftSignature, RightSignature } from "../const";
+import type { CategoryOrder, IconRule } from "../types";
 import { readFileAsJson } from "../file-reading";
 import { ICONS_DEFAULT_RULES, RULES_DIRECTORY, SORTED_RULES_KEYS } from "../const";
 import { getNumFromHexadecimal, sortByOrder } from "../common";
@@ -22,6 +23,8 @@ export const buildIconRules = async (categoryOrder: CategoryOrder[], iconNames: 
         }, [])
       const updatedRules = categoryRules
         .concat(newRules)
+        .filter((rule) => !rule.isInjected)
+        .concat(injectRules(category.name, categoryRules))
         .map(sortRuleKeys)
         .sort(sortByOrder)
         .map(updateOrderAndHeader); 
@@ -34,10 +37,38 @@ export const buildIconRules = async (categoryOrder: CategoryOrder[], iconNames: 
     return concatenatedRules;
 }
 
+const injectRules = (category: string, rules: IconRule[]): IconRule[] => {
+  switch (category) {
+    case 'legendary-effects':
+      return [{
+        order: 99,
+        iconName: '_injected_innr_eraser',
+        leftSignature: LeftSignature.InstanceNamingRules,
+        rightSignature: RightSignature.WNAM,
+        isInjected: true,
+        isDeleted: false,
+        isAnyKeyword: true,
+        isInclusiveOr: false,
+        isFullReplaced: true,
+        header: '',
+        include: [],
+        exclude: rules.reduce<string[]>(concatAllIncludeRules, []),
+      }];
+
+    default:
+      return [];  
+  }
+}
+
+const concatAllIncludeRules = (accumulator: string[], rule: IconRule): string[] => 
+  rule?.include 
+    ? accumulator.concat(rule.include) 
+    : accumulator;
+
 const updateOrderAndHeader = (item: IconRule, index: number) => ({
   ...item,
   order: index,
-  header: generateIconHeader(item.iconName),
+  header: item.isInjected ? '' : generateIconHeader(item.iconName),
 })
 
 const sortRuleKeys = (item: IconRule) => {
@@ -77,6 +108,7 @@ const generateIconHeader = (iconName: string): string => {
 const createDefaultInfo = (iconName: string, category: string): IconRule => ({
   order: 999, 
   iconName: iconName, 
+  isInjected: false,
   isDeleted: false,
   isAnyKeyword: false,
   isInclusiveOr: false,

@@ -9,6 +9,10 @@ export const buildUnicodeMap = async (iconRules: IconRule[]) => {
   const newMap = iconRules.reduce((accumulator, item, index) => {
     const newLine = index + 1 < iconRules.length ? '\r\n' : '';
 
+    if (!item.header || !item.iconName) {
+      return accumulator;
+    }
+
     return `${accumulator}${item.header} ${item.iconName}${newLine}`;
   }, slicedMap);
   

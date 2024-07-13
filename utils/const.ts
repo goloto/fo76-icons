@@ -44,6 +44,7 @@ export const SORTED_RULES_KEYS: Array<keyof IconRule> = [
   'iconName',
   'leftSignature',
   'rightSignature',
+  'isInjected',
   'isDeleted',
   'isAnyKeyword',
   'isInclusiveOr',

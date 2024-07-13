@@ -5,6 +5,7 @@ export interface IconRule {
   order: number;
   leftSignature: LeftSignature;
   rightSignature: RightSignature;
+  isInjected: boolean;
   isDeleted: boolean;
   isAnyKeyword: boolean;
   isInclusiveOr: boolean;
