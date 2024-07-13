@@ -87,11 +87,20 @@
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"isInclusiveOr": false,
+		"isInclusiveOr": true,
 		"isFullReplaced": false,
 		"header": "0x22ce",
 		"include": [
-			"ekwd|BeerAlcoholType"
+			"edid|beer",
+			"edid|BallisticBock",
+			"edid|HoppyHunter",
+			"edid|NewRiverRedAle",
+			"edid|OakHollerLager",
+			"edid|BlackwaterBrew",
+			"edid|HighVoltageHefe",
+			"edid|RadAntLager",
+			"edid|OldPossum",
+			"edid|PickaxePilsner"
 		],
 		"exclude": []
 	},
@@ -359,7 +368,8 @@
 			"edid|ScorchBeastTastyStew",
 			"edid|StingwingMeatTastyStew",
 			"edid|VenisonAndTatoStew_Psycho",
-			"edid|VenisonAndTatoStew_Spiced"
+			"edid|VenisonAndTatoStew_Spiced",
+			"edid|ChickenMeatCookedSoup"
 		],
 		"exclude": []
 	},
@@ -465,11 +475,13 @@
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"isInclusiveOr": false,
+		"isInclusiveOr": true,
 		"isFullReplaced": false,
 		"header": "0x22e4",
 		"include": [
-			"ekwd|ObjectTypeFlowers"
+			"ekwd|ObjectTypeFlowers",
+			"ekwd|PlantTypeAster",
+			"ekwd|PlantTypeStranglerHerb"
 		],
 		"exclude": []
 	},

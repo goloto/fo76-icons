@@ -1991,10 +1991,19 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|BeerAlcoholType
+ Include_0=edid|beer
+ Include_1=edid|BallisticBock
+ Include_2=edid|HoppyHunter
+ Include_3=edid|NewRiverRedAle
+ Include_4=edid|OakHollerLager
+ Include_5=edid|BlackwaterBrew
+ Include_6=edid|HighVoltageHefe
+ Include_7=edid|RadAntLager
+ Include_8=edid|OldPossum
+ Include_9=edid|PickaxePilsner
  Exclude_0=
 [EndRule]
 
@@ -2301,6 +2310,7 @@
  Include_3=edid|StingwingMeatTastyStew
  Include_4=edid|VenisonAndTatoStew_Psycho
  Include_5=edid|VenisonAndTatoStew_Spiced
+ Include_6=edid|ChickenMeatCookedSoup
  Exclude_0=
 [EndRule]
 
@@ -2419,10 +2429,12 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|ObjectTypeFlowers
+ Include_1=ekwd|PlantTypeAster
+ Include_2=ekwd|PlantTypeStranglerHerb
  Exclude_0=
 [EndRule]
 
