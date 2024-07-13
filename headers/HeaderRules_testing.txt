@@ -2771,7 +2771,12 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|PowerArmor
- Exclude_0=
+ Exclude_0=ekwd|PowerArmor_Helmet
+ Exclude_1=ekwd|PowerArmor_LeftArm
+ Exclude_2=ekwd|PowerArmor_RightArm
+ Exclude_3=ekwd|PowerArmor_LeftLeg
+ Exclude_4=ekwd|PowerArmor_RightLeg
+ Exclude_5=ekwd|PowerArmor_Torso
 [EndRule]
 
 [StartRule]

@@ -12,7 +12,14 @@
 		"include": [
 			"ekwd|PowerArmor"
 		],
-		"exclude": []
+		"exclude": [
+			"ekwd|PowerArmor_Helmet",
+			"ekwd|PowerArmor_LeftArm",
+			"ekwd|PowerArmor_RightArm",
+			"ekwd|PowerArmor_LeftLeg",
+			"ekwd|PowerArmor_RightLeg",
+			"ekwd|PowerArmor_Torso"
+		]
 	},
 	{
 		"order": 1,

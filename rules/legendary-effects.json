@@ -533,7 +533,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "",
+		"header": " ",
 		"include": [],
 		"exclude": [
 			"ekwd|CustomItemName",
