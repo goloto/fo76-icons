@@ -1,6 +1,21 @@
 [
 	{
 		"order": 0,
+		"iconName": "gauss_pistol",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x232b",
+		"include": [
+			"edid|GaussPistol"
+		],
+		"exclude": []
+	},
+	{
+		"order": 1,
 		"iconName": "alien_bluster",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
@@ -8,14 +23,14 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2322",
+		"header": "0x232c",
 		"include": [
 			"edid|AlienBlaster"
 		],
 		"exclude": []
 	},
 	{
-		"order": 1,
+		"order": 2,
 		"iconName": "gamma_gun",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
@@ -23,14 +38,14 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2323",
+		"header": "0x232d",
 		"include": [
 			"edid|GammaGun"
 		],
 		"exclude": []
 	},
 	{
-		"order": 2,
+		"order": 3,
 		"iconName": "plasma_pistol",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
@@ -38,12 +53,12 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2324",
+		"header": "0x232e",
 		"include": [],
 		"exclude": []
 	},
 	{
-		"order": 3,
+		"order": 4,
 		"iconName": "laser_pistol",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
@@ -51,27 +66,28 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2325",
+		"header": "0x232f",
 		"include": [],
 		"exclude": []
 	},
 	{
-		"order": 4,
+		"order": 5,
 		"iconName": "revolver",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"isInclusiveOr": false,
+		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x2326",
+		"header": "0x2330",
 		"include": [
-			"edid|revoler"
+			"edid|revolver",
+			"edid|44"
 		],
 		"exclude": []
 	},
 	{
-		"order": 5,
+		"order": 6,
 		"iconName": "pipe_revolver",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
@@ -79,12 +95,12 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2327",
+		"header": "0x2331",
 		"include": [],
 		"exclude": []
 	},
 	{
-		"order": 6,
+		"order": 7,
 		"iconName": "pipe_pistol",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
@@ -92,12 +108,14 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2328",
-		"include": [],
+		"header": "0x2332",
+		"include": [
+			"edid|PipeBoltAction"
+		],
 		"exclude": []
 	},
 	{
-		"order": 7,
+		"order": 8,
 		"iconName": "flare_gun",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
@@ -105,9 +123,39 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2329",
+		"header": "0x2333",
 		"include": [
 			"edid|FlareGun"
+		],
+		"exclude": []
+	},
+	{
+		"order": 9,
+		"iconName": "crusader_pistol",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2334",
+		"include": [
+			"edid|BoSPistol"
+		],
+		"exclude": []
+	},
+	{
+		"order": 10,
+		"iconName": "thirst_zapper",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2335",
+		"include": [
+			"edid|ThirstZapper"
 		],
 		"exclude": []
 	}

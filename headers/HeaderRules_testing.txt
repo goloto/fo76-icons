@@ -24,6 +24,24 @@
 [EndRule]
 
 [StartRule]
+ Header=#meat_clever#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ThrowingKnife
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#nuka_grenade#
  rSig=WEAP
  fSig=FULL
@@ -109,12 +127,14 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|WeaponTypeGrenade
+ Include_0=ekwd|WeaponTypeGrenade
  Exclude_0=edid|PulseGrenade
  Exclude_1=edid|NukaGrenade
  Exclude_2=edid|SuiciderBomb
  Exclude_3=edid|PlasmaGrenade
  Exclude_4=edid|CryoGrenade
+ Exclude_5=edid|dynamite
+ Exclude_6=ekwd|ThrowingKnife
 [EndRule]
 
 [StartRule]
@@ -128,17 +148,36 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
  Include_0=edid|SuiciderBomb
+ Include_1=edid|TurboFertFertilizer
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#dynamite#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|dynamite
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=#cryo_mine#
- rSig=undefined
- fSig=undefined
+ rSig=WEAP
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -155,8 +194,8 @@
 
 [StartRule]
  Header=#plasma_mine#
- rSig=undefined
- fSig=undefined
+ rSig=WEAP
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -173,8 +212,8 @@
 
 [StartRule]
  Header=#pulse_mine#
- rSig=undefined
- fSig=undefined
+ rSig=WEAP
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -191,8 +230,8 @@
 
 [StartRule]
  Header=#bottlecap_mine#
- rSig=undefined
- fSig=undefined
+ rSig=WEAP
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -209,8 +248,8 @@
 
 [StartRule]
  Header=#nuke_mine#
- rSig=undefined
- fSig=undefined
+ rSig=WEAP
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
@@ -2913,10 +2952,11 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=edid|10mm
+ Include_1=edid|crossbow
  Exclude_0=
 [EndRule]
 
@@ -3288,6 +3328,42 @@
 [EndRule]
 
 [StartRule]
+ Header=#gatling_plasma#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|GatlingPlasma
+ Exclude_0=ekwd|GatlingLaser
+[EndRule]
+
+[StartRule]
+ Header=#gatling_gun#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|GatlingGun
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#minigun#
  rSig=WEAP
  fSig=FULL
@@ -3302,6 +3378,42 @@
  isFallBack=0
  fallbackBank=0
  Include_0=edid|minigun
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#broadsider#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|broadsider
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#hellstorm_missile_launcher#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|BOSRocketLauncher
  Exclude_0=
 [EndRule]
 
@@ -3342,6 +3454,24 @@
 [EndRule]
 
 [StartRule]
+ Header=#fatman#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|fatman
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#harpoon_gun#
  rSig=WEAP
  fSig=FULL
@@ -3374,6 +3504,24 @@
  isFallBack=0
  fallbackBank=0
  Include_0=edid|JunkJet
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#fixer#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|fixer
  Exclude_0=
 [EndRule]
 
@@ -3428,6 +3576,24 @@
  isFallBack=0
  fallbackBank=0
  Include_0=edid|LightningGun
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#alien_disintegrator#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|AlienRifle
  Exclude_0=
 [EndRule]
 
@@ -3536,14 +3702,17 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|WeaponTypeRifle
- Exclude_0=edid|HandmadeRifle
- Exclude_1=edid|RailwayRifle
- Exclude_2=edid|LightningGun
- Exclude_3=edid|GaussRifle
- Exclude_4=edid|PlasmaGun
- Exclude_5=edid|LaserGun
- Exclude_6=edid|PipeGun
- Exclude_7=edid|LaserMusket
+ Exclude_0=edid|fixer
+ Exclude_1=edid|HandmadeRifle
+ Exclude_2=edid|RailwayRifle
+ Exclude_3=edid|LightningGun
+ Exclude_4=edid|AlienRifle
+ Exclude_5=edid|GaussRifle
+ Exclude_6=edid|PlasmaGun
+ Exclude_7=edid|LaserGun
+ Exclude_8=edid|PipeGun
+ Exclude_9=edid|LaserMusket
+ Exclude_10=edid|WesternSpirit
 [EndRule]
 
 [StartRule]
@@ -3557,10 +3726,29 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|shotgun
+ Include_1=edid|WesternSpirit
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#gauss_pistol#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|WeaponTypeShotgun
+ Include_0=edid|GaussPistol
  Exclude_0=
 [EndRule]
 
@@ -3647,10 +3835,11 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=edid|revoler
+ Include_0=edid|revolver
+ Include_1=edid|44
  Exclude_0=
 [EndRule]
 
@@ -3686,7 +3875,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=edid|PipeBoltAction
  Exclude_0=
 [EndRule]
 
@@ -3705,5 +3894,41 @@
  isFallBack=0
  fallbackBank=0
  Include_0=edid|FlareGun
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#crusader_pistol#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|BoSPistol
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#thirst_zapper#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|ThirstZapper
  Exclude_0=
 [EndRule]

@@ -2,10 +2,13 @@
 	{
 		"order": 0,
 		"iconName": "cryo_mine",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"header": "0x226d",
+		"isFullReplaced": false,
+		"header": "0x226f",
 		"include": [
 			"edid|CryoMine"
 		],
@@ -14,10 +17,13 @@
 	{
 		"order": 1,
 		"iconName": "plasma_mine",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"header": "0x226e",
+		"isFullReplaced": false,
+		"header": "0x2270",
 		"include": [
 			"edid|PlasmaMine"
 		],
@@ -26,10 +32,13 @@
 	{
 		"order": 2,
 		"iconName": "pulse_mine",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"header": "0x226f",
+		"isFullReplaced": false,
+		"header": "0x2271",
 		"include": [
 			"edid|PulseMine"
 		],
@@ -38,10 +47,13 @@
 	{
 		"order": 3,
 		"iconName": "bottlecap_mine",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"header": "0x2270",
+		"isFullReplaced": false,
+		"header": "0x2272",
 		"include": [
 			"edid|BottlecapMine"
 		],
@@ -50,10 +62,13 @@
 	{
 		"order": 4,
 		"iconName": "nuke_mine",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"header": "0x2271",
+		"isFullReplaced": false,
+		"header": "0x2273",
 		"include": [
 			"edid|NukeMine"
 		],
@@ -68,7 +83,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2272",
+		"header": "0x2274",
 		"include": [
 			"ekwd|WeaponTypeMine"
 		],

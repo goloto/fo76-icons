@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": true,
-		"header": "0x2273",
+		"header": "0x2275",
 		"include": [
 			"ekwd|HasLegendary_Weapon_Steady",
 			"ekwd|HasLegendary_Armor_LowHealthIncreasesStats"
@@ -24,7 +24,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x2274",
+		"header": "0x2276",
 		"include": [
 			"ekwd|HasLegendary_Weapon_AntiArmor"
 		],
@@ -39,7 +39,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x2275",
+		"header": "0x2277",
 		"include": [
 			"ekwd|HasLegendary_Weapon_DamageInverseHealth"
 		],
@@ -54,7 +54,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x2276",
+		"header": "0x2278",
 		"include": [
 			"ekwd|HasLegendary_Weapon_DamageAddiction"
 		],
@@ -69,7 +69,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": true,
-		"header": "0x2277",
+		"header": "0x2279",
 		"include": [
 			"ekwd|HasLegendary_Weapon_Gourmand",
 			"ekwd|HasLegendary_Armor_Overeater"
@@ -85,7 +85,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": true,
-		"header": "0x2278",
+		"header": "0x227a",
 		"include": [
 			"ekwd|HasLegendary_Armor_ResistancesProportionalCaps",
 			"ekwd|HasLegendary_Weapon_DamageViaCaps"
@@ -101,7 +101,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x2279",
+		"header": "0x227b",
 		"include": [
 			"ekwd|HasLegendary_Weapon_DamageFirstBlood"
 		],
@@ -116,7 +116,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x227a",
+		"header": "0x227c",
 		"include": [
 			"ekwd|HasLegendary_Weapon_DamageViaHealth"
 		],
@@ -131,7 +131,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": true,
-		"header": "0x227b",
+		"header": "0x227d",
 		"include": [
 			"ekwd|HasLegendary_Armor_ResistancesMutation",
 			"ekwd|HasLegendary_Weapon_DamageWithMutation"
@@ -147,7 +147,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x227c",
+		"header": "0x227e",
 		"include": [
 			"ekwd|HasLegendary_Weapon_DamageUnarmored"
 		],
@@ -162,7 +162,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x227d",
+		"header": "0x227f",
 		"include": [
 			"ekwd|HasLegendary_Weapon_AmmoCapacity4x"
 		],
@@ -177,7 +177,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x227e",
+		"header": "0x2280",
 		"include": [
 			"ekwd|HasLegendary_Weapon_TwoShot"
 		],
@@ -192,7 +192,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": true,
-		"header": "0x227f",
+		"header": "0x2281",
 		"include": [
 			"ekwd|HasLegendary_Armor_LessDMGScorched",
 			"ekwd|HasLegendary_Weapon_DamageVsScorched"
@@ -208,7 +208,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": true,
-		"header": "0x2280",
+		"header": "0x2282",
 		"include": [
 			"ekwd|HasLegendary_Armor_ResistancesNight",
 			"ekwd|HasLegendary_Weapon_DamageNight"
@@ -224,7 +224,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": true,
-		"header": "0x2281",
+		"header": "0x2283",
 		"include": [
 			"ekwd|HasLegendary_Armor_LessDMGBugs",
 			"ekwd|HasLegendary_Weapon_DamageVsBugs"
@@ -240,7 +240,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": true,
-		"header": "0x2282",
+		"header": "0x2284",
 		"include": [
 			"ekwd|HasLegendary_Armor_LessDMGHumans",
 			"ekwd|HasLegendary_Weapon_DamageVsPlayers"
@@ -256,7 +256,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x2283",
+		"header": "0x2285",
 		"include": [
 			"ekwd|HasLegendary_Weapon_DamageConsecutiveHits"
 		],
@@ -271,7 +271,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": true,
-		"header": "0x2284",
+		"header": "0x2286",
 		"include": [
 			"ekwd|HasLegendary_Weapon_DamageVsRobots",
 			"ekwd|HasLegendary_Armor_LessDMGRobots"
@@ -287,7 +287,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": true,
-		"header": "0x2285",
+		"header": "0x2287",
 		"include": [
 			"ekwd|HasLegendary_Armor_LessDMGSupermutants",
 			"ekwd|HasLegendary_Weapon_DamageVsSupermutants"
@@ -303,7 +303,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x2286",
+		"header": "0x2288",
 		"include": [
 			"ekwd|HasLegendary_Weapon_Execute"
 		],
@@ -318,7 +318,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": true,
-		"header": "0x2287",
+		"header": "0x2289",
 		"include": [
 			"ekwd|HasLegendary_Weapon_DamageVsAnimals",
 			"ekwd|HasLegendary_Armor_LessDMGAnimals"
@@ -334,7 +334,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x2288",
+		"header": "0x228a",
 		"include": [
 			"ekwd|HasLegendary_Armor_ResistancesInverseHealth"
 		],
@@ -349,7 +349,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x2289",
+		"header": "0x228b",
 		"include": [
 			"ekwd|HasLegendary_Weapon_AccuracyNotInCombat"
 		],
@@ -364,7 +364,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x228a",
+		"header": "0x228c",
 		"include": [
 			"ekwd|HasLegendary_Armor_Chameleon"
 		],
@@ -379,7 +379,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": true,
-		"header": "0x228b",
+		"header": "0x228d",
 		"include": [
 			"ekwd|HasLegendary_Weapon_DamageVsGhouls",
 			"ekwd|HasLegendary_Armor_LessDMGGhouls"
@@ -395,7 +395,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x228c",
+		"header": "0x228e",
 		"include": [
 			"ekwd|HasLegendary_Armor_AutoRevive"
 		],
@@ -410,7 +410,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x228d",
+		"header": "0x228f",
 		"include": [
 			"ekwd|HasLegendary_Armor_ResistancesProportionalHealth"
 		],
@@ -425,7 +425,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x228e",
+		"header": "0x2290",
 		"include": [
 			"ekwd|HasLegendary_Armor_GettingMeleedTriggersInvisibility"
 		],
@@ -440,7 +440,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x228f",
+		"header": "0x2291",
 		"include": [
 			"ekwd|HasLegendary_Weapon_DebuffDamage"
 		],
@@ -455,7 +455,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x2290",
+		"header": "0x2292",
 		"include": [
 			"ekwd|HasLegendary_Weapon_Vampire"
 		],
@@ -470,7 +470,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": true,
-		"header": "0x2291",
+		"header": "0x2293",
 		"include": [
 			"ekwd|HasLegendary_Weapon_CitsHealGroup",
 			"ekwd|dn_BackPack_Standard_Material_Medical",
@@ -487,7 +487,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x2292",
+		"header": "0x2294",
 		"include": [
 			"ekwd|HasLegendary_Armor_LowHealthTriggersStimpak"
 		],
@@ -502,7 +502,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x2293",
+		"header": "0x2295",
 		"include": [
 			"ekwd|HasLegendary_Armor_HealthRegen"
 		],
@@ -517,7 +517,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": true,
-		"header": "0x2294",
+		"header": "0x2296",
 		"include": [
 			"ekwd|HasLegendary_Armor_Weightless"
 		],

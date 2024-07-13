@@ -1,7 +1,7 @@
 [
 	{
 		"order": 0,
-		"iconName": "nuka_grenade",
+		"iconName": "meat_clever",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -10,13 +10,13 @@
 		"isFullReplaced": false,
 		"header": "0x2267",
 		"include": [
-			"edid|NukaGrenade"
+			"ekwd|ThrowingKnife"
 		],
 		"exclude": []
 	},
 	{
 		"order": 1,
-		"iconName": "plasma_grenade",
+		"iconName": "nuka_grenade",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -25,13 +25,13 @@
 		"isFullReplaced": false,
 		"header": "0x2268",
 		"include": [
-			"edid|PlasmaGrenade"
+			"edid|NukaGrenade"
 		],
 		"exclude": []
 	},
 	{
 		"order": 2,
-		"iconName": "cryo_grenade",
+		"iconName": "plasma_grenade",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -40,13 +40,13 @@
 		"isFullReplaced": false,
 		"header": "0x2269",
 		"include": [
-			"edid|CryoGrenade"
+			"edid|PlasmaGrenade"
 		],
 		"exclude": []
 	},
 	{
 		"order": 3,
-		"iconName": "pulse_grenade",
+		"iconName": "cryo_grenade",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -55,13 +55,13 @@
 		"isFullReplaced": false,
 		"header": "0x226a",
 		"include": [
-			"edid|PulseGrenade"
+			"edid|CryoGrenade"
 		],
 		"exclude": []
 	},
 	{
 		"order": 4,
-		"iconName": "fragmentation_grenade",
+		"iconName": "pulse_grenade",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -70,19 +70,13 @@
 		"isFullReplaced": false,
 		"header": "0x226b",
 		"include": [
-			"edid|WeaponTypeGrenade"
+			"edid|PulseGrenade"
 		],
-		"exclude": [
-			"edid|PulseGrenade",
-			"edid|NukaGrenade",
-			"edid|SuiciderBomb",
-			"edid|PlasmaGrenade",
-			"edid|CryoGrenade"
-		]
+		"exclude": []
 	},
 	{
 		"order": 5,
-		"iconName": "thrown_bomb",
+		"iconName": "fragmentation_grenade",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -91,7 +85,46 @@
 		"isFullReplaced": false,
 		"header": "0x226c",
 		"include": [
-			"edid|SuiciderBomb"
+			"ekwd|WeaponTypeGrenade"
+		],
+		"exclude": [
+			"edid|PulseGrenade",
+			"edid|NukaGrenade",
+			"edid|SuiciderBomb",
+			"edid|PlasmaGrenade",
+			"edid|CryoGrenade",
+			"edid|dynamite",
+			"ekwd|ThrowingKnife"
+		]
+	},
+	{
+		"order": 6,
+		"iconName": "thrown_bomb",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x226d",
+		"include": [
+			"edid|SuiciderBomb",
+			"edid|TurboFertFertilizer"
+		],
+		"exclude": []
+	},
+	{
+		"order": 7,
+		"iconName": "dynamite",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x226e",
+		"include": [
+			"edid|dynamite"
 		],
 		"exclude": []
 	}

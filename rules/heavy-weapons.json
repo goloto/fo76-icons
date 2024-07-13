@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x230e",
+		"header": "0x2310",
 		"include": [
 			"ekwd|WeaponTypeFlamer"
 		],
@@ -23,7 +23,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x230f",
+		"header": "0x2311",
 		"include": [
 			"ekwd|WeaponTypeCryolator"
 		],
@@ -38,7 +38,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2310",
+		"header": "0x2312",
 		"include": [
 			"ekwd|50calMachineGun"
 		],
@@ -53,7 +53,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2311",
+		"header": "0x2313",
 		"include": [
 			"ekwd|mg42"
 		],
@@ -68,7 +68,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2312",
+		"header": "0x2314",
 		"include": [
 			"ekwd|GatlingLaser"
 		],
@@ -76,37 +76,7 @@
 	},
 	{
 		"order": 5,
-		"iconName": "minigun",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2313",
-		"include": [
-			"edid|minigun"
-		],
-		"exclude": []
-	},
-	{
-		"order": 6,
-		"iconName": "grenade_launcher",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2314",
-		"include": [
-			"edid|m79"
-		],
-		"exclude": []
-	},
-	{
-		"order": 7,
-		"iconName": "auto_grenade_launcher",
+		"iconName": "gatling_plasma",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -115,15 +85,15 @@
 		"isFullReplaced": false,
 		"header": "0x2315",
 		"include": [
-			"edid|GrenadeLauncher"
+			"edid|GatlingPlasma"
 		],
 		"exclude": [
-			"ekwd|m79"
+			"ekwd|GatlingLaser"
 		]
 	},
 	{
-		"order": 8,
-		"iconName": "harpoon_gun",
+		"order": 6,
+		"iconName": "gatling_gun",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -132,13 +102,13 @@
 		"isFullReplaced": false,
 		"header": "0x2316",
 		"include": [
-			"edid|HarpoonGun"
+			"edid|GatlingGun"
 		],
 		"exclude": []
 	},
 	{
-		"order": 9,
-		"iconName": "junk_jet",
+		"order": 7,
+		"iconName": "minigun",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -146,6 +116,113 @@
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
 		"header": "0x2317",
+		"include": [
+			"edid|minigun"
+		],
+		"exclude": []
+	},
+	{
+		"order": 8,
+		"iconName": "broadsider",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2318",
+		"include": [
+			"edid|broadsider"
+		],
+		"exclude": []
+	},
+	{
+		"order": 9,
+		"iconName": "hellstorm_missile_launcher",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2319",
+		"include": [
+			"edid|BOSRocketLauncher"
+		],
+		"exclude": []
+	},
+	{
+		"order": 10,
+		"iconName": "grenade_launcher",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x231a",
+		"include": [
+			"edid|m79"
+		],
+		"exclude": []
+	},
+	{
+		"order": 11,
+		"iconName": "auto_grenade_launcher",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x231b",
+		"include": [
+			"edid|GrenadeLauncher"
+		],
+		"exclude": [
+			"ekwd|m79"
+		]
+	},
+	{
+		"order": 12,
+		"iconName": "fatman",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x231c",
+		"include": [
+			"edid|fatman"
+		],
+		"exclude": []
+	},
+	{
+		"order": 13,
+		"iconName": "harpoon_gun",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x231d",
+		"include": [
+			"edid|HarpoonGun"
+		],
+		"exclude": []
+	},
+	{
+		"order": 14,
+		"iconName": "junk_jet",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x231e",
 		"include": [
 			"edid|JunkJet"
 		],

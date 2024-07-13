@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22f8",
+		"header": "0x22fa",
 		"include": [
 			"edid|binoculars"
 		],
@@ -23,7 +23,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22f9",
+		"header": "0x22fb",
 		"include": [
 			"edid|camera"
 		],
@@ -38,7 +38,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22fa",
+		"header": "0x22fc",
 		"include": [
 			"edid|AssaultronHead"
 		],
@@ -53,7 +53,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22fb",
+		"header": "0x22fd",
 		"include": [
 			"edid|syringer"
 		],
@@ -68,7 +68,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22fc",
+		"header": "0x22fe",
 		"include": [
 			"edid|bow"
 		],
@@ -87,7 +87,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22fd",
+		"header": "0x22ff",
 		"include": [
 			"edid|CompoundBow"
 		],
@@ -100,10 +100,13 @@
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"isInclusiveOr": false,
+		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22fe",
-		"include": [],
+		"header": "0x2300",
+		"include": [
+			"edid|10mm",
+			"edid|crossbow"
+		],
 		"exclude": []
 	}
 ]

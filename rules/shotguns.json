@@ -6,11 +6,12 @@
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"isInclusiveOr": false,
+		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x2321",
+		"header": "0x232a",
 		"include": [
-			"ekwd|WeaponTypeShotgun"
+			"edid|shotgun",
+			"edid|WesternSpirit"
 		],
 		"exclude": []
 	}
