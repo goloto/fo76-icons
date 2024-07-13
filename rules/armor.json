@@ -2,15 +2,15 @@
 	{
 		"order": 0,
 		"iconName": "power_armor_helmet",
-		"leftSignature": "ARMO",
-		"rightSignature": "FULL",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
 		"header": "0x22f2",
 		"include": [
-			"ekwd|ArmorTypePower"
+			"ekwd|PowerArmor"
 		],
 		"exclude": []
 	},

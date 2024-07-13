@@ -47,12 +47,15 @@ const injectRules = (category: string, rules: IconRule[]): IconRule[] => {
         rightSignature: RightSignature.WNAM,
         isInjected: true,
         isDeleted: false,
-        isAnyKeyword: true,
+        isAnyKeyword: false,
         isInclusiveOr: false,
         isFullReplaced: true,
-        header: '',
+        header: ' ',
         include: [],
-        exclude: rules.reduce<string[]>(concatAllIncludeRules, []),
+        exclude: rules.reduce<string[]>(concatAllIncludeRules, [
+          'ekwd|CustomItemName',
+          'ekwd|PowerArmor'
+        ]),
       }];
 
     default:

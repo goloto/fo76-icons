@@ -2,8 +2,8 @@
 	{
 		"order": 0,
 		"iconName": "unique_weapon",
-		"leftSignature": "OMOD",
-		"rightSignature": "FULL",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
 		"isInjected": false,
 		"isDeleted": false,
 		"isAnyKeyword": false,
@@ -11,7 +11,7 @@
 		"isFullReplaced": false,
 		"header": "0x22fa",
 		"include": [
-			"ekwd|SpeciallyNamed"
+			"ekwd|CustomItemName"
 		],
 		"exclude": []
 	},
