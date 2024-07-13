@@ -9,7 +9,7 @@ export const buildUnicodeMap = async (iconRules: IconRule[]) => {
   const newMap = iconRules.reduce((accumulator, item, index) => {
     const newLine = index + 1 < iconRules.length ? '\r\n' : '';
 
-    if (!item.header || !item.iconName) {
+    if (!item.header || !item.iconName || item.header === ' ') {
       return accumulator;
     }
 
