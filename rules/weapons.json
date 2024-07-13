@@ -1,22 +1,23 @@
 [
 	{
 		"order": 0,
-		"iconName": "binoculars",
-		"leftSignature": "WEAP",
+		"iconName": "unique_weapon",
+		"leftSignature": "OMOD",
 		"rightSignature": "FULL",
+		"isInjected": false,
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
 		"header": "0x22fa",
 		"include": [
-			"edid|binoculars"
+			"ekwd|SpeciallyNamed"
 		],
 		"exclude": []
 	},
 	{
 		"order": 1,
-		"iconName": "camera",
+		"iconName": "binoculars",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -25,13 +26,13 @@
 		"isFullReplaced": false,
 		"header": "0x22fb",
 		"include": [
-			"edid|camera"
+			"edid|binoculars"
 		],
 		"exclude": []
 	},
 	{
 		"order": 2,
-		"iconName": "assaultron_head",
+		"iconName": "camera",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -40,13 +41,13 @@
 		"isFullReplaced": false,
 		"header": "0x22fc",
 		"include": [
-			"edid|AssaultronHead"
+			"edid|camera"
 		],
 		"exclude": []
 	},
 	{
 		"order": 3,
-		"iconName": "syringer",
+		"iconName": "assaultron_head",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -55,13 +56,13 @@
 		"isFullReplaced": false,
 		"header": "0x22fd",
 		"include": [
-			"edid|syringer"
+			"edid|AssaultronHead"
 		],
 		"exclude": []
 	},
 	{
 		"order": 4,
-		"iconName": "bow",
+		"iconName": "syringer",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -69,6 +70,21 @@
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
 		"header": "0x22fe",
+		"include": [
+			"edid|syringer"
+		],
+		"exclude": []
+	},
+	{
+		"order": 5,
+		"iconName": "bow",
+		"leftSignature": "WEAP",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22ff",
 		"include": [
 			"edid|bow"
 		],
@@ -79,7 +95,7 @@
 		]
 	},
 	{
-		"order": 5,
+		"order": 6,
 		"iconName": "compound_bow",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
@@ -87,14 +103,14 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22ff",
+		"header": "0x2300",
 		"include": [
 			"edid|CompoundBow"
 		],
 		"exclude": []
 	},
 	{
-		"order": 6,
+		"order": 7,
 		"iconName": "weapon",
 		"leftSignature": "WEAP",
 		"rightSignature": "FULL",
@@ -102,7 +118,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x2300",
+		"header": "0x2301",
 		"include": [
 			"edid|10mm",
 			"edid|crossbow"

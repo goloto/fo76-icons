@@ -4,7 +4,7 @@ export const ICONS_DIRECTORY = './icons';
 export const JSON_DIRECTORY = './json';
 export const RULES_DIRECTORY = './rules';
 
-const onlyActualItemsRegExp = new RegExp('^((?!((zzz)|(ZZZ)|(DEL)|(DEPRECATED)|(cr)|(TEMPLATE)))).*(?!((NPC)|(NONPLAYABLE)))$');
+const onlyActualItemsRegExp = new RegExp('^((?!((zzz)|(ZZZ)|(DEl)|(DEL)|(test)|(DEPRECATED)|(cr)|(TEMPLATE)))).*(?!((NPC)|(NONPLAYABLE)))$');
 
 export enum RightSignature {
   WNAM = 'WNAM',

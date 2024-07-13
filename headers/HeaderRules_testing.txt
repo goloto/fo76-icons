@@ -2909,6 +2909,24 @@
 [EndRule]
 
 [StartRule]
+ Header=#unique_weapon#
+ rSig=OMOD
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#binoculars#
  rSig=WEAP
  fSig=FULL
@@ -3441,6 +3459,24 @@
 [EndRule]
 
 [StartRule]
+ Header=#plasma_caster#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|PlasmaCaster
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#minigun#
  rSig=WEAP
  fSig=FULL
@@ -3473,6 +3509,24 @@
  isFallBack=0
  fallbackBank=0
  Include_0=edid|broadsider
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#missile_launcher#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|MissileLauncher
  Exclude_0=
 [EndRule]
 
@@ -4007,5 +4061,23 @@
  isFallBack=0
  fallbackBank=0
  Include_0=edid|ThirstZapper
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#black_powder_pistol#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|BlackPowder_Pistol
  Exclude_0=
 [EndRule]
