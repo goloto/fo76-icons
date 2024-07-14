@@ -1,0 +1,26 @@
+## July 2024
+
+- [ ] Some weapons missing part of its name or full name. Exactly:
+  - .44 revolver, 
+  - handmade, 
+  - harpoon gun.
+- [ ] Missing icons for huge amount of junk.
+- [ ] Still have old icons for:
+  - repair kit, 
+  - flux, 
+  - token, 
+  - cards, 
+  - quest, 
+  - plan, 
+  - check, 
+  - fuel, 
+  - x-cell, 
+  - dirty water, 
+  - bubblegum, 
+  - pie, 
+  - egg, 
+  - berry, 
+  - mutfruit.
+- [ ]  Don't have icons for exact PA (T-45, T-60 etc.)
+- [ ]  Don't have any detailed plan icons (events, source etc.)
+- [ ]  Don't have rules for plasma/laser/pipe rifles and pistols.
