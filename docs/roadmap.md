@@ -9,16 +9,14 @@
  - [ ] Possum badge
  - [ ] Tadpole badge
  - [ ] Gold bullion
- - [ ] Legendary token
- - [ ] Legendary core
 
 ### Weapon Tab 
- - [ ] Unique weapons
- - [ ] Pistols
- - [ ] Rifles
- - [ ] Heavy weapons
- - [ ] Binoculars
- - [ ] Camera
+ - [x] Unique weapons
+ - [x] Pistols
+ - [x] Rifles
+ - [x] Heavy weapons
+ - [x] Binoculars
+ - [x] Camera
 
 ### Armor Tab
  - [x] Armor chest
@@ -26,7 +24,7 @@
  - [x] Armor left arm
  - [x] Armor right leg
  - [x] Armor left leg
- - [ ] Power armor 
+ - [x] Power armor 
 
 ### Apparel Tab
  - [x] Fedora hat
@@ -137,6 +135,7 @@
  - [x] Fusion cell
  - [x] Gamma round
  - [x] Arrow
+ - [x] Crossbow
  - [ ] Balls
 
 ### Legendary weapon effects
@@ -166,18 +165,6 @@
  - [x] Vampire's
  - [x] Zealot's
 
-### Special weapon effects
- - [ ] Active
- - [ ] Burning Love
- - [ ] Cursed
- - [ ] Dangerous
- - [ ] Grand Finale
- - [ ] Gunther's Big Iron
- - [ ] Incendiary
- - [ ] Love Tap
- - [ ] Paranormal
- - [ ] Western Spirit
-
 ### Legendary Armor Effects   
  - [x] Aristocrat's
  - [x] Assassin's
@@ -199,7 +186,3 @@
  - [x] Vanguard's
  - [x] Weightless
  - [x] Zealot's
-
-### Special Armor Effect
- - [ ] Shadowed
- - [ ] Gun accuracy 
