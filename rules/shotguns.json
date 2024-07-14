@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x232d",
+		"header": "0x232f",
 		"include": [
 			"edid|shotgun",
 			"edid|WesternSpirit"

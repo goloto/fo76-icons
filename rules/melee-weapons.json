@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x2302",
+		"header": "0x2304",
 		"include": [
 			"edid|PowerFist",
 			"edid|Gauntlet"
@@ -24,7 +24,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2303",
+		"header": "0x2305",
 		"include": [
 			"ekwd|WeaponTypeUnarmed"
 		],
@@ -42,7 +42,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2304",
+		"header": "0x2306",
 		"include": [
 			"edid|chainsaw"
 		],
@@ -57,7 +57,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2305",
+		"header": "0x2307",
 		"include": [
 			"edid|shishkebab"
 		],
@@ -72,7 +72,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2306",
+		"header": "0x2308",
 		"include": [
 			"edid|ripper"
 		],
@@ -87,7 +87,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2307",
+		"header": "0x2309",
 		"include": [
 			"edid|knife"
 		],
@@ -104,7 +104,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2308",
+		"header": "0x230a",
 		"include": [
 			"edid|machete"
 		],
@@ -119,7 +119,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2309",
+		"header": "0x230b",
 		"include": [
 			"ekwd|WeaponTypeAxe",
 			"ekwd|WeaponTypeMelee1H"
@@ -135,7 +135,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x230a",
+		"header": "0x230c",
 		"include": [
 			"ekwd|WeaponTypeBlunt",
 			"ekwd|WeaponTypeMelee1H"
@@ -151,7 +151,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x230b",
+		"header": "0x230d",
 		"include": [
 			"ekwd|WeaponTypeMelee1H"
 		],
@@ -166,7 +166,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x230c",
+		"header": "0x230e",
 		"include": [
 			"edid|SuperSledge"
 		],
@@ -181,7 +181,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x230d",
+		"header": "0x230f",
 		"include": [
 			"ekwd|WeaponTypeBlunt",
 			"ekwd|WeaponTypeMelee2H"
@@ -197,7 +197,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x230e",
+		"header": "0x2310",
 		"include": [
 			"ekwd|WeaponTypeAxe",
 			"ekwd|WeaponTypeMelee2H"
@@ -213,7 +213,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x230f",
+		"header": "0x2311",
 		"include": [
 			"ekwd|WeaponTypeSword",
 			"ekwd|WeaponTypeMelee2H"
@@ -229,7 +229,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2310",
+		"header": "0x2312",
 		"include": [
 			"ekwd|WeaponTypeMelee2H"
 		],

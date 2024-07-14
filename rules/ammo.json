@@ -6,11 +6,12 @@
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"isInclusiveOr": false,
+		"isInclusiveOr": true,
 		"isFullReplaced": false,
 		"header": "0x22ab",
 		"include": [
-			"edid|FatManMiniNuke"
+			"edid|FatManMiniNuke",
+			"edid|NukaNuke"
 		],
 		"exclude": []
 	},
@@ -21,11 +22,12 @@
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"isInclusiveOr": false,
+		"isInclusiveOr": true,
 		"isFullReplaced": false,
 		"header": "0x22ac",
 		"include": [
-			"ekwd|AmmoTypeFusionCore"
+			"edid|FusionCore",
+			"edid|PlasmaCore"
 		],
 		"exclude": []
 	},
@@ -36,11 +38,12 @@
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"isInclusiveOr": false,
+		"isInclusiveOr": true,
 		"isFullReplaced": false,
 		"header": "0x22ad",
 		"include": [
-			"edid|missile"
+			"edid|AmmoMissile",
+			"edid|AmmoSentryShoulder"
 		],
 		"exclude": []
 	},
@@ -106,21 +109,56 @@
 	},
 	{
 		"order": 7,
-		"iconName": "arrows",
+		"iconName": "nuka_cola_ammo",
 		"leftSignature": "AMMO",
 		"rightSignature": "FULL",
+		"isInjected": false,
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
 		"header": "0x22b2",
 		"include": [
-			"edid|arrow"
+			"edid|quantum",
+			"edid|cherry",
+			"edid|NukaCola"
 		],
 		"exclude": []
 	},
 	{
 		"order": 8,
+		"iconName": "arrows",
+		"leftSignature": "AMMO",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x22b3",
+		"include": [
+			"edid|arrow",
+			"edid|CrossbowBolt"
+		],
+		"exclude": []
+	},
+	{
+		"order": 9,
+		"iconName": "camera_film",
+		"leftSignature": "AMMO",
+		"rightSignature": "FULL",
+		"isInjected": false,
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22b4",
+		"include": [
+			"edid|AmmoCamera"
+		],
+		"exclude": []
+	},
+	{
+		"order": 10,
 		"iconName": "ballistic_ammo",
 		"leftSignature": "AMMO",
 		"rightSignature": "FULL",
@@ -128,7 +166,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22b3",
+		"header": "0x22b5",
 		"include": [
 			"ekwd|ObjectTypeAmmo"
 		],

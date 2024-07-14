@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2322",
+		"header": "0x2324",
 		"include": [
 			"edid|fixer"
 		],
@@ -23,7 +23,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2323",
+		"header": "0x2325",
 		"include": [
 			"edid|HandmadeRifle"
 		],
@@ -38,7 +38,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2324",
+		"header": "0x2326",
 		"include": [
 			"edid|RailwayRifle"
 		],
@@ -53,7 +53,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2325",
+		"header": "0x2327",
 		"include": [
 			"edid|LightningGun"
 		],
@@ -68,7 +68,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2326",
+		"header": "0x2328",
 		"include": [
 			"edid|AlienRifle"
 		],
@@ -83,7 +83,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2327",
+		"header": "0x2329",
 		"include": [
 			"edid|GaussRifle"
 		],
@@ -98,7 +98,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2328",
+		"header": "0x232a",
 		"include": [
 			"edid|PlasmaGun"
 		],
@@ -113,7 +113,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2329",
+		"header": "0x232b",
 		"include": [
 			"edid|LaserGun"
 		],
@@ -128,7 +128,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x232a",
+		"header": "0x232c",
 		"include": [
 			"edid|PipeGun"
 		],
@@ -143,7 +143,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x232b",
+		"header": "0x232d",
 		"include": [
 			"edid|LaserMusket"
 		],
@@ -158,7 +158,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x232c",
+		"header": "0x232e",
 		"include": [
 			"ekwd|WeaponTypeRifle"
 		],

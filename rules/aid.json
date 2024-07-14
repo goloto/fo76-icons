@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22b4",
+		"header": "0x22b6",
 		"include": [
 			"edid|lunchbox"
 		],
@@ -23,7 +23,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22b5",
+		"header": "0x22b7",
 		"include": [
 			"edid|Banner_Consumable"
 		],
@@ -38,7 +38,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22b6",
+		"header": "0x22b8",
 		"include": [
 			"edid|TreasureHunt_Chest"
 		],
@@ -53,7 +53,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22b7",
+		"header": "0x22b9",
 		"include": [
 			"edid|HolidayGift"
 		],
@@ -68,7 +68,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22b8",
+		"header": "0x22ba",
 		"include": [
 			"edid|SURV_DiseaseCure_HerbalMedicine",
 			"edid|SURV_DiseaseCure_Antibiotics"
@@ -84,7 +84,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22b9",
+		"header": "0x22bb",
 		"include": [
 			"ekwd|ObjectTypeStimpak"
 		],
@@ -99,7 +99,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22ba",
+		"header": "0x22bc",
 		"include": [
 			"ekwd|ObjectTypeChem",
 			"ekwd|ChemTypeRadaway"
@@ -115,7 +115,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22bb",
+		"header": "0x22bd",
 		"include": [
 			"edid|Radx",
 			"edid|RadShield",
@@ -133,7 +133,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22bc",
+		"header": "0x22be",
 		"include": [
 			"edid|medx",
 			"edid|calmex",
@@ -152,7 +152,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22bd",
+		"header": "0x22bf",
 		"include": [
 			"edid|stealth"
 		],
@@ -167,7 +167,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22be",
+		"header": "0x22c0",
 		"include": [
 			"edid|Addictol"
 		],
@@ -182,7 +182,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22bf",
+		"header": "0x22c1",
 		"include": [
 			"edid|TickBlood",
 			"edid|Bloodpack",
@@ -202,7 +202,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22c0",
+		"header": "0x22c2",
 		"include": [
 			"edid|GlowingOneBlood",
 			"edid|BloodpackGlowing"
@@ -218,7 +218,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c1",
+		"header": "0x22c3",
 		"include": [
 			"edid|XCell"
 		],
@@ -233,7 +233,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c2",
+		"header": "0x22c4",
 		"include": [
 			"ekwd|AddictionKeywordMentats"
 		],
@@ -248,7 +248,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22c3",
+		"header": "0x22c5",
 		"include": [
 			"edid|Buffout",
 			"edid|Bufftats"
@@ -264,7 +264,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22c4",
+		"header": "0x22c6",
 		"include": [
 			"edid|Psycho",
 			"edid|Overdrive",
@@ -287,7 +287,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c5",
+		"header": "0x22c7",
 		"include": [
 			"ekwd|ObjectTypeSerum"
 		],
@@ -302,7 +302,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c6",
+		"header": "0x22c8",
 		"include": [
 			"edid|DayTripper"
 		],
@@ -317,7 +317,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22c7",
+		"header": "0x22c9",
 		"include": [
 			"ekwd|MagazineKeyword"
 		],
@@ -332,7 +332,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22c8",
+		"header": "0x22ca",
 		"include": [
 			"ekwd|BobbleheadKeyword"
 		],

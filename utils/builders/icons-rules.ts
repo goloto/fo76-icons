@@ -50,11 +50,13 @@ const injectRules = (category: string, rules: IconRule[]): IconRule[] => {
         isAnyKeyword: false,
         isInclusiveOr: false,
         isFullReplaced: true,
-        header: ' ',
+        header: ' 0x020',
         include: [],
         exclude: rules.reduce<string[]>(concatAllIncludeRules, [
           'ekwd|CustomItemName',
-          'ekwd|PowerArmor'
+          'ekwd|PowerArmor',
+          'ekwd|HandmadeRifle',
+          'ekwd|PipeWrench_Flowers'
         ]),
       }];
 
