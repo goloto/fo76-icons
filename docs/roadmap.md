@@ -106,21 +106,24 @@
  - [x] Bobbleheads
 
 ### Misc Tab
- - [ ] Treasure note
- - [ ] Legendary token
- - [ ] Legendary core
+ - [x] Treasure note
+ - [x] Legendary module
+ - [x] Legendary core
  - [x] Repair kit
  - [x] Nuke card
  - [x] Flux
  - [ ] Tokens
- - [ ] Cards
+ - [x] Cards
  - [ ] Components
  - [x] Bulk
  - [x] Creature corpse
  - [ ] Ore
- - [ ] Toys
- - [ ] Unscrappable misc
- - [ ] Rest junk
+ - [x] Toys
+ - [x] Electronics
+ - [x] Skull
+ - [x] Bones
+ - [x] Mutant corpse
+ - [x] Rest junk
 
 ### Mods Tab
  - [ ] Modification
