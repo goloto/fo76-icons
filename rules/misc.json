@@ -85,9 +85,18 @@
 		"isFullReplaced": false,
 		"header": "0x229c",
 		"include": [
-			"ekwd|ObjectTypeBones",
-			"ekwd|ObjectTypeHumanSkull",
-			"ekwd|BoneType"
+			"edid|Horn_Sheepsquatch",
+			"edid|FloaterPusSac",
+			"edid|WendigoColossus",
+			"edid|RadscorpionStinger",
+			"edid|BloatflyGland",
+			"edid|AcidGulperGland",
+			"edid|MoleRatTeeth",
+			"edid|TickBloodSac",
+			"edid|DeathclawHand",
+			"edid|BloodbugProboscis",
+			"edid|SheepsquatchSkull",
+			"edid|StingwingBarb"
 		],
 		"exclude": []
 	},
