@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22ab",
+		"header": "0x22b2",
 		"include": [
 			"edid|FatManMiniNuke",
 			"edid|NukaNuke"
@@ -24,7 +24,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22ac",
+		"header": "0x22b3",
 		"include": [
 			"edid|FusionCore",
 			"edid|PlasmaCore"
@@ -40,7 +40,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22ad",
+		"header": "0x22b4",
 		"include": [
 			"edid|AmmoMissile",
 			"edid|AmmoSentryShoulder"
@@ -56,7 +56,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22ae",
+		"header": "0x22b5",
 		"include": [
 			"edid|AmmoGrenadeLauncher"
 		],
@@ -71,7 +71,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22af",
+		"header": "0x22b6",
 		"include": [
 			"edid|fuel"
 		],
@@ -86,7 +86,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22b0",
+		"header": "0x22b7",
 		"include": [
 			"edid|FusionCell"
 		],
@@ -101,7 +101,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22b1",
+		"header": "0x22b8",
 		"include": [
 			"edid|GammaCell"
 		],
@@ -117,7 +117,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22b2",
+		"header": "0x22b9",
 		"include": [
 			"edid|quantum",
 			"edid|cherry",
@@ -134,7 +134,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22b3",
+		"header": "0x22ba",
 		"include": [
 			"edid|arrow",
 			"edid|CrossbowBolt"
@@ -151,7 +151,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22b4",
+		"header": "0x22bb",
 		"include": [
 			"edid|AmmoCamera"
 		],
@@ -166,7 +166,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22b5",
+		"header": "0x22bc",
 		"include": [
 			"ekwd|ObjectTypeAmmo"
 		],

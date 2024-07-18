@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a6",
+		"header": "0x22ad",
 		"include": [
 			"ekwd|ObjectTypeRecipe"
 		],
@@ -23,7 +23,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a7",
+		"header": "0x22ae",
 		"include": [],
 		"exclude": [
 			"ekwd|ObjectTypeRecipe",
@@ -39,7 +39,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a3",
+		"header": "0x22aa",
 		"include": [
 			"edid|TreasureMap"
 		],
@@ -54,7 +54,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a8",
+		"header": "0x22af",
 		"include": [],
 		"exclude": []
 	}

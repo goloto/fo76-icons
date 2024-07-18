@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2313",
+		"header": "0x231b",
 		"include": [
 			"ekwd|WeaponTypeFlamer"
 		],
@@ -23,7 +23,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2314",
+		"header": "0x231c",
 		"include": [
 			"ekwd|WeaponTypeCryolator"
 		],
@@ -38,7 +38,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2315",
+		"header": "0x231d",
 		"include": [
 			"ekwd|50calMachineGun"
 		],
@@ -53,7 +53,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2316",
+		"header": "0x231e",
 		"include": [
 			"ekwd|mg42"
 		],
@@ -68,7 +68,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2317",
+		"header": "0x231f",
 		"include": [
 			"ekwd|GatlingLaser"
 		],
@@ -83,7 +83,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2318",
+		"header": "0x2320",
 		"include": [
 			"edid|GatlingPlasma"
 		],
@@ -100,7 +100,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2319",
+		"header": "0x2321",
 		"include": [
 			"edid|GatlingGun"
 		],
@@ -116,7 +116,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x231a",
+		"header": "0x2322",
 		"include": [
 			"edid|PlasmaCaster"
 		],
@@ -131,7 +131,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x231b",
+		"header": "0x2323",
 		"include": [
 			"edid|minigun"
 		],
@@ -146,7 +146,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x231c",
+		"header": "0x2324",
 		"include": [
 			"edid|broadsider"
 		],
@@ -162,7 +162,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x231d",
+		"header": "0x2325",
 		"include": [
 			"edid|MissileLauncher"
 		],
@@ -177,7 +177,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x231e",
+		"header": "0x2326",
 		"include": [
 			"edid|BOSRocketLauncher"
 		],
@@ -192,7 +192,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x231f",
+		"header": "0x2327",
 		"include": [
 			"edid|m79"
 		],
@@ -207,7 +207,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2320",
+		"header": "0x2328",
 		"include": [
 			"edid|GrenadeLauncher"
 		],
@@ -224,7 +224,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2321",
+		"header": "0x2329",
 		"include": [
 			"edid|fatman"
 		],
@@ -239,7 +239,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2322",
+		"header": "0x232a",
 		"include": [
 			"edid|HarpoonGun"
 		],
@@ -254,7 +254,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2323",
+		"header": "0x232b",
 		"include": [
 			"edid|JunkJet"
 		],

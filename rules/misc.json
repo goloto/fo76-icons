@@ -1,6 +1,39 @@
 [
 	{
 		"order": 0,
+		"iconName": "legendary_module",
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
+		"isInjected": false,
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x2297",
+		"include": [
+			"edid|miscmod",
+			"edid|LegendaryModule"
+		],
+		"exclude": []
+	},
+	{
+		"order": 1,
+		"iconName": "legendary_core",
+		"leftSignature": "CNCY",
+		"rightSignature": "FULL",
+		"isInjected": false,
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2298",
+		"include": [
+			"edid|LegendaryCore"
+		],
+		"exclude": []
+	},
+	{
+		"order": 2,
 		"iconName": "treasure_note",
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
@@ -8,45 +41,15 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2297",
+		"header": "0x2299",
 		"include": [
 			"edid|Treasury_Note"
 		],
 		"exclude": []
 	},
 	{
-		"order": 1,
-		"iconName": "nuke_card",
-		"leftSignature": "MISC",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2298",
-		"include": [
-			"ekwd|ObjectTypeNukeKeycard"
-		],
-		"exclude": []
-	},
-	{
-		"order": 2,
-		"iconName": "repair_kit",
-		"leftSignature": "UTIL",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2299",
-		"include": [
-			"edid|RepairKit"
-		],
-		"exclude": []
-	},
-	{
 		"order": 3,
-		"iconName": "flux",
+		"iconName": "nuke_card",
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -55,14 +58,14 @@
 		"isFullReplaced": false,
 		"header": "0x229a",
 		"include": [
-			"ekwd|ObjectTypeFlux"
+			"ekwd|ObjectTypeNukeKeycard"
 		],
 		"exclude": []
 	},
 	{
 		"order": 4,
-		"iconName": "token",
-		"leftSignature": "MISC",
+		"iconName": "repair_kit",
+		"leftSignature": "UTIL",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
@@ -70,39 +73,28 @@
 		"isFullReplaced": false,
 		"header": "0x229b",
 		"include": [
-			"edid|token"
+			"edid|RepairKit"
 		],
 		"exclude": []
 	},
 	{
 		"order": 5,
-		"iconName": "corpse",
+		"iconName": "flux",
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
 		"isDeleted": false,
 		"isAnyKeyword": false,
-		"isInclusiveOr": true,
+		"isInclusiveOr": false,
 		"isFullReplaced": false,
 		"header": "0x229c",
 		"include": [
-			"edid|Horn_Sheepsquatch",
-			"edid|FloaterPusSac",
-			"edid|WendigoColossus",
-			"edid|RadscorpionStinger",
-			"edid|BloatflyGland",
-			"edid|AcidGulperGland",
-			"edid|MoleRatTeeth",
-			"edid|TickBloodSac",
-			"edid|DeathclawHand",
-			"edid|BloodbugProboscis",
-			"edid|SheepsquatchSkull",
-			"edid|StingwingBarb"
+			"ekwd|ObjectTypeFlux"
 		],
 		"exclude": []
 	},
 	{
 		"order": 6,
-		"iconName": "cards",
+		"iconName": "token",
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -111,13 +103,13 @@
 		"isFullReplaced": false,
 		"header": "0x229d",
 		"include": [
-			"ekwd|Moon_CryptidCardKeyword"
+			"edid|token"
 		],
 		"exclude": []
 	},
 	{
 		"order": 7,
-		"iconName": "components",
+		"iconName": "cards",
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -126,7 +118,7 @@
 		"isFullReplaced": false,
 		"header": "0x229e",
 		"include": [
-			"ekwd|ObjectTypeComponent"
+			"ekwd|Moon_CryptidCardKeyword"
 		],
 		"exclude": []
 	},
@@ -147,7 +139,7 @@
 	},
 	{
 		"order": 9,
-		"iconName": "ore",
+		"iconName": "components",
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
 		"isDeleted": false,
@@ -156,14 +148,74 @@
 		"isFullReplaced": false,
 		"header": "0x22a0",
 		"include": [
-			"edid|ore"
+			"ekwd|ObjectTypeComponent"
 		],
-		"exclude": [
-			"edid|SCORE_Recipe"
-		]
+		"exclude": []
 	},
 	{
 		"order": 10,
+		"iconName": "corpse",
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x22a1",
+		"include": [
+			"edid|Horn_Sheepsquatch",
+			"edid|FloaterPusSac",
+			"edid|WendigoColossus",
+			"edid|RadscorpionStinger",
+			"edid|BloatflyGland",
+			"edid|AcidGulperGland",
+			"edid|MoleRatTeeth",
+			"edid|TickBloodSac",
+			"edid|DeathclawHand",
+			"edid|BloodbugProboscis",
+			"edid|SheepsquatchSkull",
+			"edid|StingwingBarb",
+			"edid|BeaverTeeth",
+			"edid|WendigoTeeth"
+		],
+		"exclude": []
+	},
+	{
+		"order": 11,
+		"iconName": "skull",
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
+		"isInjected": false,
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22a2",
+		"include": [
+			"ekwd|BoneTypeSkull"
+		],
+		"exclude": []
+	},
+	{
+		"order": 12,
+		"iconName": "bones",
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
+		"isInjected": false,
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22a3",
+		"include": [
+			"ekwd|ObjectTypeBones"
+		],
+		"exclude": [
+			"ekwd|BoneTypeSkull"
+		]
+	},
+	{
+		"order": 13,
 		"iconName": "teddy_bear",
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
@@ -171,27 +223,99 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a1",
+		"header": "0x22a4",
 		"include": [
 			"ekwd|ObjectTypeTeddyBear"
 		],
 		"exclude": []
 	},
 	{
-		"order": 11,
+		"order": 14,
+		"iconName": "rocket_toy",
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
+		"isInjected": false,
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22a5",
+		"include": [
+			"ekwd|ObjectTypeToy"
+		],
+		"exclude": []
+	},
+	{
+		"order": 15,
+		"iconName": "circuit_board",
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
+		"isInjected": false,
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x22a6",
+		"include": [
+			"edid|CircuitBoard",
+			"edid|BiometricScanner",
+			"edid|EyebotPart"
+		],
+		"exclude": []
+	},
+	{
+		"order": 16,
+		"iconName": "metal_scrap",
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
+		"isInjected": false,
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x22a7",
+		"include": [
+			"edid|Canister",
+			"edid|TinCan",
+			"edid|PaintCan",
+			"edid|OilCan",
+			"edid|SetCan",
+			"edid|Fork"
+		],
+		"exclude": []
+	},
+	{
+		"order": 17,
+		"iconName": "ore",
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22a8",
+		"include": [
+			"edid|_ore_"
+		],
+		"exclude": []
+	},
+	{
+		"order": 18,
 		"iconName": "junk",
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
 		"isDeleted": false,
-		"isAnyKeyword": true,
+		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a2",
+		"header": "0x22a9",
 		"include": [],
-		"exclude": []
+		"exclude": [
+			"edid|miscmod"
+		]
 	},
 	{
-		"order": 12,
+		"order": 19,
 		"iconName": "quest",
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
@@ -199,7 +323,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a3",
+		"header": "0x22aa",
 		"include": [],
 		"exclude": []
 	}

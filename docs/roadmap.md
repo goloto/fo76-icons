@@ -106,24 +106,27 @@
  - [x] Bobbleheads
 
 ### Misc Tab
- - [x] Treasure note
  - [x] Legendary module
  - [x] Legendary core
- - [x] Repair kit
+ - [x] Treasure note
  - [x] Nuke card
+ - [x] Repair kit
  - [x] Flux
  - [ ] Tokens
  - [x] Cards
- - [ ] Components
  - [x] Bulk
+ - [ ] Components
  - [x] Creature corpse
- - [ ] Ore
- - [x] Toys
- - [x] Electronics
  - [x] Skull
  - [x] Bones
- - [x] Mutant corpse
+ - [x] Teddy bear
+ - [x] Toys
+ - [x] Electronics
+ - [ ] Canister
+ - [x] Metal junk
+ - [ ] Ore
  - [x] Rest junk
+ - [ ] Quest
 
 ### Mods Tab
  - [ ] Modification
@@ -133,12 +136,13 @@
  - [x] Fusion core
  - [x] Rocket
  - [x] 40mm grenade
- - [x] Ballistic
  - [x] Fuel
  - [x] Fusion cell
  - [x] Gamma round
- - [x] Arrow
- - [x] Crossbow
+ - [x] Nuka Cola ammo
+ - [x] Arrows
+ - [x] Camera film
+ - [x] Ballistic
  - [ ] Balls
 
 ### Legendary weapon effects

@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22f4",
+		"header": "0x22fc",
 		"include": [
 			"ekwd|PowerArmor"
 		],
@@ -30,7 +30,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22f5",
+		"header": "0x22fd",
 		"include": [
 			"ekwd|ObjectTypeUnderarmor"
 		],
@@ -45,7 +45,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22f6",
+		"header": "0x22fe",
 		"include": [
 			"ekwd|ClothingTypeSpacesuit"
 		],
@@ -60,7 +60,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22f7",
+		"header": "0x22ff",
 		"include": [
 			"ekwd|ObjectTypeArmor"
 		],
@@ -79,7 +79,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22f8",
+		"header": "0x2300",
 		"include": [
 			"ekwd|ObjectTypeArmor",
 			"ekwd|ArmorBodyPartHands",
@@ -98,7 +98,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22f9",
+		"header": "0x2301",
 		"include": [
 			"ekwd|ObjectTypeArmor",
 			"ekwd|ArmorBodyPartHands",
@@ -117,7 +117,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22fa",
+		"header": "0x2302",
 		"include": [
 			"ekwd|ObjectTypeArmor",
 			"ekwd|ArmorBodyPartFeet",
@@ -136,7 +136,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22fb",
+		"header": "0x2303",
 		"include": [
 			"ekwd|ObjectTypeArmor",
 			"ekwd|ArmorBodyPartFeet",
