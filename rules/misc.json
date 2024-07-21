@@ -265,6 +265,22 @@
 	},
 	{
 		"order": 16,
+		"iconName": "canister",
+		"leftSignature": "MISC",
+		"rightSignature": "FULL",
+		"isInjected": false,
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22a7",
+		"include": [
+			"edid|canister"
+		],
+		"exclude": []
+	},
+	{
+		"order": 17,
 		"iconName": "metal_scrap",
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
@@ -273,9 +289,8 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x22a7",
+		"header": "0x22a8",
 		"include": [
-			"edid|Canister",
 			"edid|TinCan",
 			"edid|PaintCan",
 			"edid|OilCan",
@@ -285,7 +300,7 @@
 		"exclude": []
 	},
 	{
-		"order": 17,
+		"order": 18,
 		"iconName": "ore",
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
@@ -293,14 +308,14 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a8",
+		"header": "0x22a9",
 		"include": [
 			"edid|_ore_"
 		],
 		"exclude": []
 	},
 	{
-		"order": 18,
+		"order": 19,
 		"iconName": "junk",
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
@@ -308,14 +323,14 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22a9",
+		"header": "0x22aa",
 		"include": [],
 		"exclude": [
 			"edid|miscmod"
 		]
 	},
 	{
-		"order": 19,
+		"order": 20,
 		"iconName": "quest",
 		"leftSignature": "MISC",
 		"rightSignature": "FULL",
@@ -323,7 +338,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22aa",
+		"header": "0x22ab",
 		"include": [],
 		"exclude": []
 	}

@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22fc",
+		"header": "0x22fd",
 		"include": [
 			"ekwd|PowerArmor"
 		],
@@ -30,7 +30,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22fd",
+		"header": "0x22fe",
 		"include": [
 			"ekwd|ObjectTypeUnderarmor"
 		],
@@ -45,7 +45,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22fe",
+		"header": "0x22ff",
 		"include": [
 			"ekwd|ClothingTypeSpacesuit"
 		],
@@ -60,7 +60,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22ff",
+		"header": "0x2300",
 		"include": [
 			"ekwd|ObjectTypeArmor"
 		],
@@ -79,7 +79,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2300",
+		"header": "0x2301",
 		"include": [
 			"ekwd|ObjectTypeArmor",
 			"ekwd|ArmorBodyPartHands",
@@ -98,7 +98,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2301",
+		"header": "0x2302",
 		"include": [
 			"ekwd|ObjectTypeArmor",
 			"ekwd|ArmorBodyPartHands",
@@ -117,7 +117,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2302",
+		"header": "0x2303",
 		"include": [
 			"ekwd|ObjectTypeArmor",
 			"ekwd|ArmorBodyPartFeet",
@@ -136,7 +136,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2303",
+		"header": "0x2304",
 		"include": [
 			"ekwd|ObjectTypeArmor",
 			"ekwd|ArmorBodyPartFeet",
@@ -145,5 +145,85 @@
 		"exclude": [
 			"ekwd|ArmorTypePower"
 		]
+	},
+	{
+		"order": 8,
+		"iconName": "t_forty_five",
+		"leftSignature": "INNR",
+		"rightSignature": "FULL",
+		"isInjected": false,
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2305",
+		"include": [
+			"ekwd|t45"
+		],
+		"exclude": []
+	},
+	{
+		"order": 9,
+		"iconName": "t_fivty_one",
+		"leftSignature": "INNR",
+		"rightSignature": "FULL",
+		"isInjected": false,
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2306",
+		"include": [
+			"ekwd|t51"
+		],
+		"exclude": []
+	},
+	{
+		"order": 10,
+		"iconName": "t_sixty",
+		"leftSignature": "INNR",
+		"rightSignature": "FULL",
+		"isInjected": false,
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2307",
+		"include": [
+			"ekwd|t60"
+		],
+		"exclude": []
+	},
+	{
+		"order": 11,
+		"iconName": "t_sixty_five",
+		"leftSignature": "INNR",
+		"rightSignature": "FULL",
+		"isInjected": false,
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2308",
+		"include": [
+			"ekwd|PowerArmor_T65"
+		],
+		"exclude": []
+	},
+	{
+		"order": 12,
+		"iconName": "x_one",
+		"leftSignature": "INNR",
+		"rightSignature": "FULL",
+		"isInjected": false,
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2309",
+		"include": [
+			"ekwd|x01"
+		],
+		"exclude": []
 	}
 ]

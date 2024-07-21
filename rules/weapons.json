@@ -9,7 +9,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2304",
+		"header": "0x230a",
 		"include": [
 			"ekwd|CustomItemName"
 		],
@@ -24,7 +24,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2305",
+		"header": "0x230b",
 		"include": [
 			"edid|binoculars"
 		],
@@ -39,7 +39,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2306",
+		"header": "0x230c",
 		"include": [
 			"edid|camera"
 		],
@@ -54,7 +54,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2307",
+		"header": "0x230d",
 		"include": [
 			"edid|AssaultronHead"
 		],
@@ -69,7 +69,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2308",
+		"header": "0x230e",
 		"include": [
 			"edid|syringer"
 		],
@@ -84,7 +84,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2309",
+		"header": "0x230f",
 		"include": [
 			"edid|bow"
 		],
@@ -103,7 +103,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x230a",
+		"header": "0x2310",
 		"include": [
 			"edid|CompoundBow"
 		],
@@ -118,7 +118,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x230b",
+		"header": "0x2311",
 		"include": [
 			"edid|10mm",
 			"edid|crossbow"

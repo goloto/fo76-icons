@@ -8,7 +8,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2338",
+		"header": "0x233e",
 		"include": [
 			"edid|GaussPistol"
 		],
@@ -23,7 +23,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2339",
+		"header": "0x233f",
 		"include": [
 			"edid|AlienBlaster"
 		],
@@ -38,7 +38,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x233a",
+		"header": "0x2340",
 		"include": [
 			"edid|GammaGun"
 		],
@@ -53,7 +53,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x233b",
+		"header": "0x2341",
 		"include": [],
 		"exclude": []
 	},
@@ -66,7 +66,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x233c",
+		"header": "0x2342",
 		"include": [],
 		"exclude": []
 	},
@@ -79,7 +79,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": true,
 		"isFullReplaced": false,
-		"header": "0x233d",
+		"header": "0x2343",
 		"include": [
 			"edid|revolver",
 			"edid|44"
@@ -95,7 +95,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x233e",
+		"header": "0x2344",
 		"include": [],
 		"exclude": []
 	},
@@ -108,7 +108,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x233f",
+		"header": "0x2345",
 		"include": [
 			"edid|PipeBoltAction"
 		],
@@ -123,7 +123,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2340",
+		"header": "0x2346",
 		"include": [
 			"edid|FlareGun"
 		],
@@ -138,7 +138,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2341",
+		"header": "0x2347",
 		"include": [
 			"edid|BoSPistol"
 		],
@@ -153,7 +153,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2342",
+		"header": "0x2348",
 		"include": [
 			"edid|ThirstZapper"
 		],
@@ -169,7 +169,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2343",
+		"header": "0x2349",
 		"include": [
 			"edid|BlackPowder_Pistol"
 		],

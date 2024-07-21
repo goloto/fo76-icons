@@ -1287,6 +1287,24 @@
 [EndRule]
 
 [StartRule]
+ Header=#canister#
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|canister
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#metal_scrap#
  rSig=MISC
  fSig=FULL
@@ -1300,12 +1318,11 @@
  includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=edid|Canister
- Include_1=edid|TinCan
- Include_2=edid|PaintCan
- Include_3=edid|OilCan
- Include_4=edid|SetCan
- Include_5=edid|Fork
+ Include_0=edid|TinCan
+ Include_1=edid|PaintCan
+ Include_2=edid|OilCan
+ Include_3=edid|SetCan
+ Include_4=edid|Fork
  Exclude_0=
 [EndRule]
 
@@ -2522,7 +2539,7 @@
 [EndRule]
 
 [StartRule]
- Header=#pie#
+ Header=#berry_pie#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2713,7 +2730,7 @@
 [EndRule]
 
 [StartRule]
- Header=#mutfruit#
+ Header=#fruit#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -3120,6 +3137,96 @@
  Include_1=ekwd|ArmorBodyPartFeet
  Include_2=ekwd|LegLeft
  Exclude_0=ekwd|ArmorTypePower
+[EndRule]
+
+[StartRule]
+ Header=#t_forty_five#
+ rSig=INNR
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|t45
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#t_fivty_one#
+ rSig=INNR
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|t51
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#t_sixty#
+ rSig=INNR
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|t60
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#t_sixty_five#
+ rSig=INNR
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PowerArmor_T65
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#x_one#
+ rSig=INNR
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|x01
+ Exclude_0=
 [EndRule]
 
 [StartRule]
