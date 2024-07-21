@@ -6,21 +6,23 @@
   - harpoon gun.
 - [ ] Missing icons for huge amount of junk.
 - [ ] Still have old icons for:
-  - repair kit, 
-  - flux, 
-  - token, 
-  - cards, 
-  - quest, 
-  - plan, 
-  - check, 
-  - fuel, 
-  - x-cell, 
-  - dirty water, 
-  - bubblegum, 
-  - pie, 
-  - egg, 
-  - berry, 
-  - mutfruit.
-- [ ]  Don't have icons for exact PA (T-45, T-60 etc.)
-- [ ]  Don't have any detailed plan icons (events, source etc.)
-- [ ]  Don't have rules for plasma/laser/pipe rifles and pistols.
+  - [x] repair kit, 
+  - [x] flux, 
+  - [x] token, 
+  - [x] cards, 
+  - [ ] quest item, 
+  - [ ] plan,
+  - [ ] known plan
+  - [ ] check, 
+  - [x] fuel, 
+  - [x] x-cell, 
+  - [x] dirty water, 
+  - [x] bubblegum, 
+  - [x] pie, 
+  - [x] egg, 
+  - [x] berry, 
+  - [x] note,
+  - [x] fruit.
+- [x] Don't have icons for exact PA (T-45, T-60 etc.)
+- [ ] Don't have any detailed plan icons (events, source etc.)
+- [ ] Don't have rules for plasma/laser/pipe rifles and pistols.
