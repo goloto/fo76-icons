@@ -1,4 +1,4 @@
-## Roadmap for Beta release
+## TODO list for icons
 
 ### Common
  - [x] Merge icons with Cyrillized Font Library
