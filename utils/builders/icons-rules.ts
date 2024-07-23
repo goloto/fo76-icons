@@ -1,20 +1,20 @@
 import { LeftSignature, RightSignature } from "../const";
-import type { CategoryOrder, IconRule } from "../types";
+import type { CategoryOrder, Rule } from "../types";
 import { readFileAsJson } from "../file-reading";
 import { ICONS_DEFAULT_RULES, RULES_DIRECTORY, SORTED_RULES_KEYS } from "../const";
 import { getNumFromHexadecimal, sortByOrder } from "../common";
 import { writeJson } from "../file-writing";
 
-export const buildIconRules = async (categoryOrder: CategoryOrder[], iconNames: Record<string, string[]>): Promise<IconRule[]> => {
+export const buildIconRules = async (categoryOrder: CategoryOrder[], iconNames: Record<string, string[]>): Promise<Rule[]> => {
   const concatenatedRules = await categoryOrder
-    .reduce<Promise<IconRule[]>>(async (accumulator, category) => {
+    .reduce<Promise<Rule[]>>(async (accumulator, category) => {
       const categoryRulesPath = `${RULES_DIRECTORY}/${category.name}.json`;
       const awaitedAccumulator = await accumulator;
-      const categoryRules = await readFileAsJson<IconRule[]>(categoryRulesPath);
+      const categoryRules = await readFileAsJson<Rule[]>(categoryRulesPath);
       const categoryIconNames = categoryRules
         .map((item) => item.iconName);
       const newRules = iconNames[category.name]
-        .reduce<IconRule[]>((accumulator, item) => {
+        .reduce<Rule[]>((accumulator, item) => {
           if (categoryIconNames.includes(item)) {
             return accumulator;
           }
@@ -37,7 +37,7 @@ export const buildIconRules = async (categoryOrder: CategoryOrder[], iconNames: 
     return concatenatedRules;
 }
 
-const injectRules = (category: string, rules: IconRule[]): IconRule[] => {
+const injectRules = (category: string, rules: Rule[]): Rule[] => {
   switch (category) {
     case 'legendary-effects':
       return [{
@@ -65,23 +65,23 @@ const injectRules = (category: string, rules: IconRule[]): IconRule[] => {
   }
 }
 
-const concatAllIncludeRules = (accumulator: string[], rule: IconRule): string[] => 
+const concatAllIncludeRules = (accumulator: string[], rule: Rule): string[] => 
   rule?.include 
     ? accumulator.concat(rule.include) 
     : accumulator;
 
-const updateOrderAndHeader = (item: IconRule, index: number) => ({
+const updateOrderAndHeader = (item: Rule, index: number) => ({
   ...item,
   order: index,
   header: item.isInjected ? item.header : generateIconHeader(item.iconName),
 })
 
-const sortRuleKeys = (item: IconRule) => {
+const sortRuleKeys = (item: Rule) => {
   const itemWithSortedKeys = SORTED_RULES_KEYS
     .reduce((accumulator, key) => ({
       ...accumulator,
       [key]: item[key],
-    }), <IconRule>{});
+    }), <Rule>{});
 
   return itemWithSortedKeys;
 }
@@ -110,7 +110,7 @@ const generateIconHeader = (iconName: string): string => {
   return value;
 };
 
-const createDefaultInfo = (iconName: string, category: string): IconRule => ({
+const createDefaultInfo = (iconName: string, category: string): Rule => ({
   order: 999, 
   iconName: iconName, 
   isInjected: false,

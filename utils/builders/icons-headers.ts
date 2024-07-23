@@ -1,6 +1,6 @@
 import { getCharFromHexadecimal } from "../common";
 import { writeUtf8BomString } from "../file-writing";
-import type { IconRule } from "../types";
+import type { Rule } from "../types";
 
 const HEADER_ANCHOR = '%header%';
 const INCLUDE_ANCHOR = '%include%';
@@ -34,7 +34,7 @@ const RULE_TEMPLATE = `[StartRule]
  ${EXCLUDE_ANCHOR}
 [EndRule]`;
 
-export const buildHeaders = async (iconRules: IconRule[]) => {
+export const buildHeaders = async (iconRules: Rule[]) => {
   const filteredIconRules = iconRules.filter((item) => !item.isDeleted)
   const regularResult = reduceRules(filteredIconRules, (item) => replaceAnchors(item)
       .replace(HEADER_ANCHOR, getCharFromHexadecimal(item.header)));
@@ -45,7 +45,7 @@ export const buildHeaders = async (iconRules: IconRule[]) => {
   await writeUtf8BomString('./headers/HeaderRules_testing.txt', testingResult);
 }
 
-const reduceRules = (rules: IconRule[], callback: (item: IconRule) => string): string => {
+const reduceRules = (rules: Rule[], callback: (item: Rule) => string): string => {
   return rules.reduce((accumulator: string, item) => {
     const rule = callback(item);
 
@@ -61,7 +61,7 @@ const replaceAnchors = ({
   isFullReplaced,
   include, 
   exclude
-}: IconRule): string => {
+}: Rule): string => {
   return RULE_TEMPLATE
     .replace(RIGHT_SIGNATURE_ANCHOR, rightSignature)
     .replace(LEFT_SIGNATURE_ANCHOR, leftSignature)

@@ -1,6 +1,13 @@
 import type { LeftSignature, RightSignature } from "./const";
 
-export interface IconRule {
+export interface Icon {
+  name: string;
+  category: string;
+  charCode: string;
+  order: number;
+}
+
+export interface Rule {
   iconName: string;
   order: number;
   leftSignature: LeftSignature;
@@ -17,7 +24,7 @@ export interface IconRule {
   isFallback?: boolean;
 }
 
-export type IconRuleMap = Record<string, IconRule>;
+export type RulesMap = Record<string, Rule>;
 
 export interface CategoryOrder {
   name: string;
