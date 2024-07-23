@@ -39,6 +39,10 @@
  - [x] Suit
  - [x] Spacesuit
  - [x] Underarmor
+ - [ ] Lab coat
+ - [ ] Jumpsuit
+ - [ ] Carnival/comic costume
+ - [ ] Casual clothes
 
 ### Food Tab
  - [x] Holiday gift
