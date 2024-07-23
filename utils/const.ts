@@ -1,7 +1,7 @@
 import type { IconRule } from "./types";
 
 export const ICONS_DIRECTORY = './icons';
-export const JSON_DIRECTORY = './json';
+export const GENERATED_DIRECTORY = './generated';
 export const RULES_DIRECTORY = './rules';
 
 const onlyActualItemsRegExp = new RegExp('^((?!((zzz)|(ZZZ)|(DEl)|(DEL)|(test)|(DEPRECATED)|(cr)|(TEMPLATE)))).*(?!((NPC)|(NONPLAYABLE)))$');

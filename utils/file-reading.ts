@@ -1,16 +1,16 @@
-import { JSON_DIRECTORY } from "./const";
+import { GENERATED_DIRECTORY } from "./const";
 import type { CategoryOrder, IconRule, IconOrder } from "./types";
 
 export const readCategoriesOrderFile= async (): Promise<CategoryOrder[]> => {
-  return await readFileAsJson<CategoryOrder[]>(`${JSON_DIRECTORY}/categories-order.json`);
+  return await readFileAsJson<CategoryOrder[]>(`${GENERATED_DIRECTORY}/categories-order.json`);
 }
 
 export const readIconsOrderFile= async (): Promise<IconOrder[]> => {
-  return await readFileAsJson<IconOrder[]>(`${JSON_DIRECTORY}/rules-order.json`);
+  return await readFileAsJson<IconOrder[]>(`${GENERATED_DIRECTORY}/rules-order.json`);
 }
 
 export const readIconRulesFile = async (): Promise<IconRule[]> => {
-  return await readFileAsJson<IconRule[]>(`${JSON_DIRECTORY}/icons-rules.json`);
+  return await readFileAsJson<IconRule[]>(`${GENERATED_DIRECTORY}/icons-rules.json`);
 }
 
 export const readUnicodeMapFile = async (): Promise<string> => {

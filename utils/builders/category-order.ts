@@ -1,5 +1,5 @@
 import { readdir } from "node:fs/promises";
-import { JSON_DIRECTORY, RULES_DIRECTORY } from "../const";
+import { GENERATED_DIRECTORY, RULES_DIRECTORY } from "../const";
 import { readCategoriesOrderFile } from "../file-reading";
 import { writeJson } from "../file-writing";
 import type { CategoryOrder } from "../types";
@@ -30,7 +30,7 @@ export const buildCategoryOrder = async (): Promise<CategoryOrder[]> => {
     }, existedDirectories)
     .sort(sortByOrder);  
 
-  await writeJson(`${JSON_DIRECTORY}/categories-order.json`, result);
+  await writeJson(`${GENERATED_DIRECTORY}/categories-order.json`, result);
 
   return result;
 };
