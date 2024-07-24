@@ -8,7 +8,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplaced": false,
+		"isFullReplaced": true,
 		"header": "0x22fd",
 		"include": [
 			"ekwd|t45"
@@ -24,7 +24,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplaced": false,
+		"isFullReplaced": true,
 		"header": "0x22fe",
 		"include": [
 			"ekwd|t51"
@@ -40,7 +40,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplaced": false,
+		"isFullReplaced": true,
 		"header": "0x22ff",
 		"include": [
 			"ekwd|t60"
@@ -56,7 +56,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplaced": false,
+		"isFullReplaced": true,
 		"header": "0x2300",
 		"include": [
 			"ekwd|PowerArmor_T65"
@@ -72,7 +72,7 @@
 		"isDeleted": false,
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
-		"isFullReplaced": false,
+		"isFullReplaced": true,
 		"header": "0x2301",
 		"include": [
 			"ekwd|x01"
