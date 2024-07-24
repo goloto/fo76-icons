@@ -1,6 +1,86 @@
 [
 	{
 		"order": 0,
+		"iconName": "t_forty_five",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isInjected": false,
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22fd",
+		"include": [
+			"ekwd|t45"
+		],
+		"exclude": []
+	},
+	{
+		"order": 1,
+		"iconName": "t_fivty_one",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isInjected": false,
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22fe",
+		"include": [
+			"ekwd|t51"
+		],
+		"exclude": []
+	},
+	{
+		"order": 2,
+		"iconName": "t_sixty",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isInjected": false,
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22ff",
+		"include": [
+			"ekwd|t60"
+		],
+		"exclude": []
+	},
+	{
+		"order": 3,
+		"iconName": "t_sixty_five",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isInjected": false,
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2300",
+		"include": [
+			"ekwd|PowerArmor_T65"
+		],
+		"exclude": []
+	},
+	{
+		"order": 4,
+		"iconName": "x_one",
+		"leftSignature": "INNR",
+		"rightSignature": "WNAM",
+		"isInjected": false,
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x2301",
+		"include": [
+			"ekwd|x01"
+		],
+		"exclude": []
+	},
+	{
+		"order": 5,
 		"iconName": "power_armor_helmet",
 		"leftSignature": "INNR",
 		"rightSignature": "WNAM",
@@ -8,7 +88,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22fd",
+		"header": "0x2302",
 		"include": [
 			"ekwd|PowerArmor"
 		],
@@ -18,11 +98,16 @@
 			"ekwd|PowerArmor_RightArm",
 			"ekwd|PowerArmor_LeftLeg",
 			"ekwd|PowerArmor_RightLeg",
-			"ekwd|PowerArmor_Torso"
+			"ekwd|PowerArmor_Torso",
+			"ekwd|t45",
+			"ekwd|t51",
+			"ekwd|t60",
+			"ekwd|PowerArmor_T65",
+			"ekwd|x01"
 		]
 	},
 	{
-		"order": 1,
+		"order": 6,
 		"iconName": "underarmor",
 		"leftSignature": "ARMO",
 		"rightSignature": "FULL",
@@ -30,14 +115,14 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22fe",
+		"header": "0x2303",
 		"include": [
 			"ekwd|ObjectTypeUnderarmor"
 		],
 		"exclude": []
 	},
 	{
-		"order": 2,
+		"order": 7,
 		"iconName": "spacesuit",
 		"leftSignature": "ARMO",
 		"rightSignature": "FULL",
@@ -45,14 +130,14 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x22ff",
+		"header": "0x2304",
 		"include": [
 			"ekwd|ClothingTypeSpacesuit"
 		],
 		"exclude": []
 	},
 	{
-		"order": 3,
+		"order": 8,
 		"iconName": "chest_armor",
 		"leftSignature": "ARMO",
 		"rightSignature": "FULL",
@@ -60,7 +145,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2300",
+		"header": "0x2305",
 		"include": [
 			"ekwd|ObjectTypeArmor"
 		],
@@ -71,7 +156,7 @@
 		]
 	},
 	{
-		"order": 4,
+		"order": 9,
 		"iconName": "armor_right_arm",
 		"leftSignature": "ARMO",
 		"rightSignature": "FULL",
@@ -79,7 +164,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2301",
+		"header": "0x2306",
 		"include": [
 			"ekwd|ObjectTypeArmor",
 			"ekwd|ArmorBodyPartHands",
@@ -90,7 +175,7 @@
 		]
 	},
 	{
-		"order": 5,
+		"order": 10,
 		"iconName": "armor_left_arm",
 		"leftSignature": "ARMO",
 		"rightSignature": "FULL",
@@ -98,7 +183,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2302",
+		"header": "0x2307",
 		"include": [
 			"ekwd|ObjectTypeArmor",
 			"ekwd|ArmorBodyPartHands",
@@ -109,7 +194,7 @@
 		]
 	},
 	{
-		"order": 6,
+		"order": 11,
 		"iconName": "armor_right_leg",
 		"leftSignature": "ARMO",
 		"rightSignature": "FULL",
@@ -117,7 +202,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2303",
+		"header": "0x2308",
 		"include": [
 			"ekwd|ObjectTypeArmor",
 			"ekwd|ArmorBodyPartFeet",
@@ -128,7 +213,7 @@
 		]
 	},
 	{
-		"order": 7,
+		"order": 12,
 		"iconName": "armor_left_leg",
 		"leftSignature": "ARMO",
 		"rightSignature": "FULL",
@@ -136,7 +221,7 @@
 		"isAnyKeyword": false,
 		"isInclusiveOr": false,
 		"isFullReplaced": false,
-		"header": "0x2304",
+		"header": "0x2309",
 		"include": [
 			"ekwd|ObjectTypeArmor",
 			"ekwd|ArmorBodyPartFeet",
@@ -145,85 +230,5 @@
 		"exclude": [
 			"ekwd|ArmorTypePower"
 		]
-	},
-	{
-		"order": 8,
-		"iconName": "t_forty_five",
-		"leftSignature": "INNR",
-		"rightSignature": "FULL",
-		"isInjected": false,
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2305",
-		"include": [
-			"ekwd|t45"
-		],
-		"exclude": []
-	},
-	{
-		"order": 9,
-		"iconName": "t_fivty_one",
-		"leftSignature": "INNR",
-		"rightSignature": "FULL",
-		"isInjected": false,
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2306",
-		"include": [
-			"ekwd|t51"
-		],
-		"exclude": []
-	},
-	{
-		"order": 10,
-		"iconName": "t_sixty",
-		"leftSignature": "INNR",
-		"rightSignature": "FULL",
-		"isInjected": false,
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2307",
-		"include": [
-			"ekwd|t60"
-		],
-		"exclude": []
-	},
-	{
-		"order": 11,
-		"iconName": "t_sixty_five",
-		"leftSignature": "INNR",
-		"rightSignature": "FULL",
-		"isInjected": false,
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2308",
-		"include": [
-			"ekwd|PowerArmor_T65"
-		],
-		"exclude": []
-	},
-	{
-		"order": 12,
-		"iconName": "x_one",
-		"leftSignature": "INNR",
-		"rightSignature": "FULL",
-		"isInjected": false,
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2309",
-		"include": [
-			"ekwd|x01"
-		],
-		"exclude": []
 	}
 ]

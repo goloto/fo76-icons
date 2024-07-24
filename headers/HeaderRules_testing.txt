@@ -2981,6 +2981,96 @@
 [EndRule]
 
 [StartRule]
+ Header=#t_forty_five#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|t45
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#t_fivty_one#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|t51
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#t_sixty#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|t60
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#t_sixty_five#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PowerArmor_T65
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#x_one#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|x01
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#power_armor_helmet#
  rSig=INNR
  fSig=WNAM
@@ -3001,6 +3091,11 @@
  Exclude_3=ekwd|PowerArmor_LeftLeg
  Exclude_4=ekwd|PowerArmor_RightLeg
  Exclude_5=ekwd|PowerArmor_Torso
+ Exclude_6=ekwd|t45
+ Exclude_7=ekwd|t51
+ Exclude_8=ekwd|t60
+ Exclude_9=ekwd|PowerArmor_T65
+ Exclude_10=ekwd|x01
 [EndRule]
 
 [StartRule]
@@ -3137,96 +3232,6 @@
  Include_1=ekwd|ArmorBodyPartFeet
  Include_2=ekwd|LegLeft
  Exclude_0=ekwd|ArmorTypePower
-[EndRule]
-
-[StartRule]
- Header=#t_forty_five#
- rSig=INNR
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|t45
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#t_fivty_one#
- rSig=INNR
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|t51
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#t_sixty#
- rSig=INNR
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|t60
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#t_sixty_five#
- rSig=INNR
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|PowerArmor_T65
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#x_one#
- rSig=INNR
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|x01
- Exclude_0=
 [EndRule]
 
 [StartRule]
