@@ -4,4 +4,4 @@ export default {
             name: 'preset-default',
         },
     ],
-}
+};

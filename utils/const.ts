@@ -1,12 +1,12 @@
-import type { Rule } from './types'
+import type { Rule } from './types';
 
-export const ICONS_DIRECTORY = './icons'
-export const GENERATED_DIRECTORY = './generated'
-export const RULES_DIRECTORY = './rules'
+export const ICONS_DIRECTORY = './icons';
+export const GENERATED_DIRECTORY = './generated';
+export const RULES_DIRECTORY = './rules';
 
 const onlyActualItemsRegExp = new RegExp(
     '^((?!((zzz)|(ZZZ)|(DEl)|(DEL)|(test)|(DEPRECATED)|(cr)|(TEMPLATE)))).*(?!((NPC)|(NONPLAYABLE)))$'
-)
+);
 
 export enum RightSignature {
     WNAM = 'WNAM',
@@ -56,13 +56,13 @@ export const SORTED_RULES_KEYS: Array<keyof Rule> = [
     'exclude',
     'isEnabled',
     'isFallback',
-]
+];
 
 const DEFAULT_WEAPON_RULES = {
     leftSignature: LeftSignature.Weapon,
     rightSignature: RightSignature.FULL,
     isFullReplaced: false,
-}
+};
 
 export const ICONS_DEFAULT_RULES: Record<
     string,
@@ -136,4 +136,4 @@ export const ICONS_DEFAULT_RULES: Record<
     shotguns: DEFAULT_WEAPON_RULES,
     pistols: DEFAULT_WEAPON_RULES,
     weapons: DEFAULT_WEAPON_RULES,
-}
+};
