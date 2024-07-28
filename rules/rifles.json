@@ -1,179 +1,157 @@
 [
-	{
-		"order": 0,
-		"iconName": "fixer",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2332",
-		"include": [
-			"edid|fixer"
-		],
-		"exclude": []
-	},
-	{
-		"order": 1,
-		"iconName": "handmade_rifle",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2333",
-		"include": [
-			"edid|HandmadeRifle"
-		],
-		"exclude": []
-	},
-	{
-		"order": 2,
-		"iconName": "railway_rifle",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2334",
-		"include": [
-			"edid|RailwayRifle"
-		],
-		"exclude": []
-	},
-	{
-		"order": 3,
-		"iconName": "tesla_rifle",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2335",
-		"include": [
-			"edid|LightningGun"
-		],
-		"exclude": []
-	},
-	{
-		"order": 4,
-		"iconName": "alien_disintegrator",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2336",
-		"include": [
-			"edid|AlienRifle"
-		],
-		"exclude": []
-	},
-	{
-		"order": 5,
-		"iconName": "gauss_rifle",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2337",
-		"include": [
-			"edid|GaussRifle"
-		],
-		"exclude": []
-	},
-	{
-		"order": 6,
-		"iconName": "plasma_rifle",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2338",
-		"include": [
-			"edid|PlasmaGun"
-		],
-		"exclude": []
-	},
-	{
-		"order": 7,
-		"iconName": "laser_rifle",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2339",
-		"include": [
-			"edid|LaserGun"
-		],
-		"exclude": []
-	},
-	{
-		"order": 8,
-		"iconName": "pipe_rifle",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x233a",
-		"include": [
-			"edid|PipeGun"
-		],
-		"exclude": []
-	},
-	{
-		"order": 9,
-		"iconName": "laser_musket",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x233b",
-		"include": [
-			"edid|LaserMusket"
-		],
-		"exclude": []
-	},
-	{
-		"order": 10,
-		"iconName": "rifle",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x233c",
-		"include": [
-			"ekwd|WeaponTypeRifle"
-		],
-		"exclude": [
-			"edid|fixer",
-			"edid|HandmadeRifle",
-			"edid|RailwayRifle",
-			"edid|LightningGun",
-			"edid|AlienRifle",
-			"edid|GaussRifle",
-			"edid|PlasmaGun",
-			"edid|LaserGun",
-			"edid|PipeGun",
-			"edid|LaserMusket",
-			"edid|WesternSpirit"
-		]
-	}
+    {
+        "order": 0,
+        "iconName": "fixer",
+        "leftSignature": "WEAP",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x2332",
+        "include": ["edid|fixer"],
+        "exclude": []
+    },
+    {
+        "order": 1,
+        "iconName": "handmade_rifle",
+        "leftSignature": "WEAP",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x2333",
+        "include": ["edid|HandmadeRifle"],
+        "exclude": []
+    },
+    {
+        "order": 2,
+        "iconName": "railway_rifle",
+        "leftSignature": "WEAP",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x2334",
+        "include": ["edid|RailwayRifle"],
+        "exclude": []
+    },
+    {
+        "order": 3,
+        "iconName": "tesla_rifle",
+        "leftSignature": "WEAP",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x2335",
+        "include": ["edid|LightningGun"],
+        "exclude": []
+    },
+    {
+        "order": 4,
+        "iconName": "alien_disintegrator",
+        "leftSignature": "WEAP",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x2336",
+        "include": ["edid|AlienRifle"],
+        "exclude": []
+    },
+    {
+        "order": 5,
+        "iconName": "gauss_rifle",
+        "leftSignature": "WEAP",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x2337",
+        "include": ["edid|GaussRifle"],
+        "exclude": []
+    },
+    {
+        "order": 6,
+        "iconName": "plasma_rifle",
+        "leftSignature": "WEAP",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x2338",
+        "include": ["edid|PlasmaGun"],
+        "exclude": []
+    },
+    {
+        "order": 7,
+        "iconName": "laser_rifle",
+        "leftSignature": "WEAP",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x2339",
+        "include": ["edid|LaserGun"],
+        "exclude": []
+    },
+    {
+        "order": 8,
+        "iconName": "pipe_rifle",
+        "leftSignature": "WEAP",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x233a",
+        "include": ["edid|PipeGun"],
+        "exclude": []
+    },
+    {
+        "order": 9,
+        "iconName": "laser_musket",
+        "leftSignature": "WEAP",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x233b",
+        "include": ["edid|LaserMusket"],
+        "exclude": []
+    },
+    {
+        "order": 10,
+        "iconName": "rifle",
+        "leftSignature": "WEAP",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x233c",
+        "include": ["ekwd|WeaponTypeRifle"],
+        "exclude": [
+            "edid|fixer",
+            "edid|HandmadeRifle",
+            "edid|RailwayRifle",
+            "edid|LightningGun",
+            "edid|AlienRifle",
+            "edid|GaussRifle",
+            "edid|PlasmaGun",
+            "edid|LaserGun",
+            "edid|PipeGun",
+            "edid|LaserMusket",
+            "edid|WesternSpirit"
+        ]
+    }
 ]

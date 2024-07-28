@@ -1,98 +1,86 @@
 [
-	{
-		"order": 0,
-		"iconName": "cryo_mine",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x226f",
-		"include": [
-			"edid|CryoMine"
-		],
-		"exclude": []
-	},
-	{
-		"order": 1,
-		"iconName": "plasma_mine",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2270",
-		"include": [
-			"edid|PlasmaMine"
-		],
-		"exclude": []
-	},
-	{
-		"order": 2,
-		"iconName": "pulse_mine",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2271",
-		"include": [
-			"edid|PulseMine"
-		],
-		"exclude": []
-	},
-	{
-		"order": 3,
-		"iconName": "bottlecap_mine",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2272",
-		"include": [
-			"edid|BottlecapMine"
-		],
-		"exclude": []
-	},
-	{
-		"order": 4,
-		"iconName": "nuke_mine",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2273",
-		"include": [
-			"edid|NukeMine"
-		],
-		"exclude": []
-	},
-	{
-		"order": 5,
-		"iconName": "fragmentation_mine",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x2274",
-		"include": [
-			"ekwd|WeaponTypeMine"
-		],
-		"exclude": [
-			"edid|CryoMine",
-			"edid|PlasmaMine",
-			"edid|PulseMine",
-			"edid|BottlecapMine",
-			"edid|NukeMine"
-		]
-	}
+    {
+        "order": 0,
+        "iconName": "cryo_mine",
+        "leftSignature": "WEAP",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x226f",
+        "include": ["edid|CryoMine"],
+        "exclude": []
+    },
+    {
+        "order": 1,
+        "iconName": "plasma_mine",
+        "leftSignature": "WEAP",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x2270",
+        "include": ["edid|PlasmaMine"],
+        "exclude": []
+    },
+    {
+        "order": 2,
+        "iconName": "pulse_mine",
+        "leftSignature": "WEAP",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x2271",
+        "include": ["edid|PulseMine"],
+        "exclude": []
+    },
+    {
+        "order": 3,
+        "iconName": "bottlecap_mine",
+        "leftSignature": "WEAP",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x2272",
+        "include": ["edid|BottlecapMine"],
+        "exclude": []
+    },
+    {
+        "order": 4,
+        "iconName": "nuke_mine",
+        "leftSignature": "WEAP",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x2273",
+        "include": ["edid|NukeMine"],
+        "exclude": []
+    },
+    {
+        "order": 5,
+        "iconName": "fragmentation_mine",
+        "leftSignature": "WEAP",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x2274",
+        "include": ["ekwd|WeaponTypeMine"],
+        "exclude": [
+            "edid|CryoMine",
+            "edid|PlasmaMine",
+            "edid|PulseMine",
+            "edid|BottlecapMine",
+            "edid|NukeMine"
+        ]
+    }
 ]

@@ -1,153 +1,129 @@
 [
-	{
-		"order": 0,
-		"iconName": "helmet",
-		"leftSignature": "ARMO",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": true,
-		"isFullReplaced": false,
-		"header": "0x22f4",
-		"include": [
-			"ekwd|ClothingTypeHat",
-			"ekwd|ArmorBodyPartHead"
-		],
-		"exclude": [
-			"ekwd|ClothingTypeGasMask",
-			"ekwd|ClothingTypeFedora",
-			"ekwd|HatTypeFasnachtMask",
-			"ekwd|ClothingTypeGlasses"
-		]
-	},
-	{
-		"order": 1,
-		"iconName": "fedora_hat",
-		"leftSignature": "ARMO",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x22f5",
-		"include": [
-			"ekwd|ClothingTypeHat",
-			"ekwd|ClothingTypeFedora"
-		],
-		"exclude": []
-	},
-	{
-		"order": 2,
-		"iconName": "fasnacht_mask",
-		"leftSignature": "ARMO",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x22f6",
-		"include": [
-			"ekwd|ClothingTypeHat",
-			"ekwd|HatTypeFasnachtMask"
-		],
-		"exclude": []
-	},
-	{
-		"order": 3,
-		"iconName": "beret",
-		"leftSignature": "ARMO",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x22f7",
-		"include": [
-			"edid|beret"
-		],
-		"exclude": []
-	},
-	{
-		"order": 4,
-		"iconName": "gas_mask",
-		"leftSignature": "ARMO",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x22f8",
-		"include": [
-			"ekwd|ClothingTypeMask",
-			"ekwd|ClothingTypeGasMask"
-		],
-		"exclude": []
-	},
-	{
-		"order": 5,
-		"iconName": "glasses",
-		"leftSignature": "ARMO",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x22f9",
-		"include": [
-			"ekwd|ClothingTypeGlasses"
-		],
-		"exclude": []
-	},
-	{
-		"order": 6,
-		"iconName": "dress",
-		"leftSignature": "ARMO",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x22fa",
-		"include": [
-			"ekwd|ClothingTypeDress"
-		],
-		"exclude": []
-	},
-	{
-		"order": 7,
-		"iconName": "suit",
-		"leftSignature": "ARMO",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x22fb",
-		"include": [
-			"ekwd|ClothingTypeFormalWear"
-		],
-		"exclude": [
-			"ekwd|ClothingTypeDress"
-		]
-	},
-	{
-		"order": 8,
-		"iconName": "apparel",
-		"leftSignature": "ARMO",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": false,
-		"header": "0x22fc",
-		"include": [
-			"ekwd|ObjectTypeClothing"
-		],
-		"exclude": [
-			"ekwd|ClothingTypeHat",
-			"ekwd|ClothingTypeGasMask",
-			"ekwd|ClothingTypeDress",
-			"ekwd|ClothingTypeFormalWear"
-		]
-	}
+    {
+        "order": 0,
+        "iconName": "helmet",
+        "leftSignature": "ARMO",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": true,
+        "isFullReplaced": false,
+        "header": "0x22f4",
+        "include": ["ekwd|ClothingTypeHat", "ekwd|ArmorBodyPartHead"],
+        "exclude": [
+            "ekwd|ClothingTypeGasMask",
+            "ekwd|ClothingTypeFedora",
+            "ekwd|HatTypeFasnachtMask",
+            "ekwd|ClothingTypeGlasses"
+        ]
+    },
+    {
+        "order": 1,
+        "iconName": "fedora_hat",
+        "leftSignature": "ARMO",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x22f5",
+        "include": ["ekwd|ClothingTypeHat", "ekwd|ClothingTypeFedora"],
+        "exclude": []
+    },
+    {
+        "order": 2,
+        "iconName": "fasnacht_mask",
+        "leftSignature": "ARMO",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x22f6",
+        "include": ["ekwd|ClothingTypeHat", "ekwd|HatTypeFasnachtMask"],
+        "exclude": []
+    },
+    {
+        "order": 3,
+        "iconName": "beret",
+        "leftSignature": "ARMO",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x22f7",
+        "include": ["edid|beret"],
+        "exclude": []
+    },
+    {
+        "order": 4,
+        "iconName": "gas_mask",
+        "leftSignature": "ARMO",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x22f8",
+        "include": ["ekwd|ClothingTypeMask", "ekwd|ClothingTypeGasMask"],
+        "exclude": []
+    },
+    {
+        "order": 5,
+        "iconName": "glasses",
+        "leftSignature": "ARMO",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x22f9",
+        "include": ["ekwd|ClothingTypeGlasses"],
+        "exclude": []
+    },
+    {
+        "order": 6,
+        "iconName": "dress",
+        "leftSignature": "ARMO",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x22fa",
+        "include": ["ekwd|ClothingTypeDress"],
+        "exclude": []
+    },
+    {
+        "order": 7,
+        "iconName": "suit",
+        "leftSignature": "ARMO",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x22fb",
+        "include": ["ekwd|ClothingTypeFormalWear"],
+        "exclude": ["ekwd|ClothingTypeDress"]
+    },
+    {
+        "order": 8,
+        "iconName": "apparel",
+        "leftSignature": "ARMO",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": false,
+        "header": "0x22fc",
+        "include": ["ekwd|ObjectTypeClothing"],
+        "exclude": [
+            "ekwd|ClothingTypeHat",
+            "ekwd|ClothingTypeGasMask",
+            "ekwd|ClothingTypeDress",
+            "ekwd|ClothingTypeFormalWear"
+        ]
+    }
 ]

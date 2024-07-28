@@ -1,18 +1,15 @@
 [
-	{
-		"order": 0,
-		"iconName": "shotgun",
-		"leftSignature": "WEAP",
-		"rightSignature": "FULL",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": true,
-		"isFullReplaced": false,
-		"header": "0x233d",
-		"include": [
-			"edid|shotgun",
-			"edid|WesternSpirit"
-		],
-		"exclude": []
-	}
+    {
+        "order": 0,
+        "iconName": "shotgun",
+        "leftSignature": "WEAP",
+        "rightSignature": "FULL",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": true,
+        "isFullReplaced": false,
+        "header": "0x233d",
+        "include": ["edid|shotgun", "edid|WesternSpirit"],
+        "exclude": []
+    }
 ]

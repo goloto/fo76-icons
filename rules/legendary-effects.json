@@ -1,593 +1,553 @@
 [
-	{
-		"order": 0,
-		"iconName": "unyielding",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": true,
-		"isFullReplaced": true,
-		"header": "0x2275",
-		"include": [
-			"ekwd|HasLegendary_Weapon_Steady",
-			"ekwd|HasLegendary_Armor_LowHealthIncreasesStats"
-		],
-		"exclude": []
-	},
-	{
-		"order": 1,
-		"iconName": "anti_armor",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": true,
-		"header": "0x2276",
-		"include": [
-			"ekwd|HasLegendary_Weapon_AntiArmor"
-		],
-		"exclude": []
-	},
-	{
-		"order": 2,
-		"iconName": "bloodied",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": true,
-		"header": "0x2277",
-		"include": [
-			"ekwd|HasLegendary_Weapon_DamageInverseHealth"
-		],
-		"exclude": []
-	},
-	{
-		"order": 3,
-		"iconName": "junkie",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": true,
-		"header": "0x2278",
-		"include": [
-			"ekwd|HasLegendary_Weapon_DamageAddiction"
-		],
-		"exclude": []
-	},
-	{
-		"order": 4,
-		"iconName": "gourmand",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": true,
-		"isFullReplaced": true,
-		"header": "0x2279",
-		"include": [
-			"ekwd|HasLegendary_Weapon_Gourmand",
-			"ekwd|HasLegendary_Armor_Overeater"
-		],
-		"exclude": []
-	},
-	{
-		"order": 5,
-		"iconName": "aristocrat",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": true,
-		"isFullReplaced": true,
-		"header": "0x227a",
-		"include": [
-			"ekwd|HasLegendary_Armor_ResistancesProportionalCaps",
-			"ekwd|HasLegendary_Weapon_DamageViaCaps"
-		],
-		"exclude": []
-	},
-	{
-		"order": 6,
-		"iconName": "instigating",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": true,
-		"header": "0x227b",
-		"include": [
-			"ekwd|HasLegendary_Weapon_DamageFirstBlood"
-		],
-		"exclude": []
-	},
-	{
-		"order": 7,
-		"iconName": "jaggernaut",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": true,
-		"header": "0x227c",
-		"include": [
-			"ekwd|HasLegendary_Weapon_DamageViaHealth"
-		],
-		"exclude": []
-	},
-	{
-		"order": 8,
-		"iconName": "mutant",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": true,
-		"isFullReplaced": true,
-		"header": "0x227d",
-		"include": [
-			"ekwd|HasLegendary_Armor_ResistancesMutation",
-			"ekwd|HasLegendary_Weapon_DamageWithMutation"
-		],
-		"exclude": []
-	},
-	{
-		"order": 9,
-		"iconName": "berserker",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": true,
-		"header": "0x227e",
-		"include": [
-			"ekwd|HasLegendary_Weapon_DamageUnarmored"
-		],
-		"exclude": []
-	},
-	{
-		"order": 10,
-		"iconName": "quad",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": true,
-		"header": "0x227f",
-		"include": [
-			"ekwd|HasLegendary_Weapon_AmmoCapacity4x"
-		],
-		"exclude": []
-	},
-	{
-		"order": 11,
-		"iconName": "two_shot",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": true,
-		"header": "0x2280",
-		"include": [
-			"ekwd|HasLegendary_Weapon_TwoShot"
-		],
-		"exclude": []
-	},
-	{
-		"order": 12,
-		"iconName": "zealot",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": true,
-		"isFullReplaced": true,
-		"header": "0x2281",
-		"include": [
-			"ekwd|HasLegendary_Armor_LessDMGScorched",
-			"ekwd|HasLegendary_Weapon_DamageVsScorched"
-		],
-		"exclude": []
-	},
-	{
-		"order": 13,
-		"iconName": "nocturnal",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": true,
-		"isFullReplaced": true,
-		"header": "0x2282",
-		"include": [
-			"ekwd|HasLegendary_Armor_ResistancesNight",
-			"ekwd|HasLegendary_Weapon_DamageNight"
-		],
-		"exclude": []
-	},
-	{
-		"order": 14,
-		"iconName": "exterminator",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": true,
-		"isFullReplaced": true,
-		"header": "0x2283",
-		"include": [
-			"ekwd|HasLegendary_Armor_LessDMGBugs",
-			"ekwd|HasLegendary_Weapon_DamageVsBugs"
-		],
-		"exclude": []
-	},
-	{
-		"order": 15,
-		"iconName": "assassin",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": true,
-		"isFullReplaced": true,
-		"header": "0x2284",
-		"include": [
-			"ekwd|HasLegendary_Armor_LessDMGHumans",
-			"ekwd|HasLegendary_Weapon_DamageVsPlayers"
-		],
-		"exclude": []
-	},
-	{
-		"order": 16,
-		"iconName": "furious",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": true,
-		"header": "0x2285",
-		"include": [
-			"ekwd|HasLegendary_Weapon_DamageConsecutiveHits"
-		],
-		"exclude": []
-	},
-	{
-		"order": 17,
-		"iconName": "troubleshooter",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": true,
-		"isFullReplaced": true,
-		"header": "0x2286",
-		"include": [
-			"ekwd|HasLegendary_Weapon_DamageVsRobots",
-			"ekwd|HasLegendary_Armor_LessDMGRobots"
-		],
-		"exclude": []
-	},
-	{
-		"order": 18,
-		"iconName": "mutant_slayer",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": true,
-		"isFullReplaced": true,
-		"header": "0x2287",
-		"include": [
-			"ekwd|HasLegendary_Armor_LessDMGSupermutants",
-			"ekwd|HasLegendary_Weapon_DamageVsSupermutants"
-		],
-		"exclude": []
-	},
-	{
-		"order": 19,
-		"iconName": "executioner",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": true,
-		"header": "0x2288",
-		"include": [
-			"ekwd|HasLegendary_Weapon_Execute"
-		],
-		"exclude": []
-	},
-	{
-		"order": 20,
-		"iconName": "hunter",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": true,
-		"isFullReplaced": true,
-		"header": "0x2289",
-		"include": [
-			"ekwd|HasLegendary_Weapon_DamageVsAnimals",
-			"ekwd|HasLegendary_Armor_LessDMGAnimals"
-		],
-		"exclude": []
-	},
-	{
-		"order": 21,
-		"iconName": "bolstering",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": true,
-		"header": "0x228a",
-		"include": [
-			"ekwd|HasLegendary_Armor_ResistancesInverseHealth"
-		],
-		"exclude": []
-	},
-	{
-		"order": 22,
-		"iconName": "stalker",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": true,
-		"header": "0x228b",
-		"include": [
-			"ekwd|HasLegendary_Weapon_AccuracyNotInCombat"
-		],
-		"exclude": []
-	},
-	{
-		"order": 23,
-		"iconName": "chameleon",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": true,
-		"header": "0x228c",
-		"include": [
-			"ekwd|HasLegendary_Armor_Chameleon"
-		],
-		"exclude": []
-	},
-	{
-		"order": 24,
-		"iconName": "ghoul_slayer",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": true,
-		"isFullReplaced": true,
-		"header": "0x228d",
-		"include": [
-			"ekwd|HasLegendary_Weapon_DamageVsGhouls",
-			"ekwd|HasLegendary_Armor_LessDMGGhouls"
-		],
-		"exclude": []
-	},
-	{
-		"order": 25,
-		"iconName": "life_saving",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": true,
-		"header": "0x228e",
-		"include": [
-			"ekwd|HasLegendary_Armor_AutoRevive"
-		],
-		"exclude": []
-	},
-	{
-		"order": 26,
-		"iconName": "vanguard",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": true,
-		"header": "0x228f",
-		"include": [
-			"ekwd|HasLegendary_Armor_ResistancesProportionalHealth"
-		],
-		"exclude": []
-	},
-	{
-		"order": 27,
-		"iconName": "cloaking",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": true,
-		"header": "0x2290",
-		"include": [
-			"ekwd|HasLegendary_Armor_GettingMeleedTriggersInvisibility"
-		],
-		"exclude": []
-	},
-	{
-		"order": 28,
-		"iconName": "supressor",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": true,
-		"header": "0x2291",
-		"include": [
-			"ekwd|HasLegendary_Weapon_DebuffDamage"
-		],
-		"exclude": []
-	},
-	{
-		"order": 29,
-		"iconName": "vampire",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": true,
-		"header": "0x2292",
-		"include": [
-			"ekwd|HasLegendary_Weapon_Vampire"
-		],
-		"exclude": []
-	},
-	{
-		"order": 30,
-		"iconName": "medic",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": true,
-		"isFullReplaced": true,
-		"header": "0x2293",
-		"include": [
-			"ekwd|HasLegendary_Weapon_CitsHealGroup",
-			"ekwd|dn_BackPack_Standard_Material_Medical",
-			"ekwd|dn_HasMisc_MedicPump"
-		],
-		"exclude": []
-	},
-	{
-		"order": 31,
-		"iconName": "auto_stim",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": true,
-		"header": "0x2294",
-		"include": [
-			"ekwd|HasLegendary_Armor_LowHealthTriggersStimpak"
-		],
-		"exclude": []
-	},
-	{
-		"order": 32,
-		"iconName": "regenerating",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": true,
-		"header": "0x2295",
-		"include": [
-			"ekwd|HasLegendary_Armor_HealthRegen"
-		],
-		"exclude": []
-	},
-	{
-		"order": 33,
-		"iconName": "weightless",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": true,
-		"header": "0x2296",
-		"include": [
-			"ekwd|HasLegendary_Armor_Weightless"
-		],
-		"exclude": []
-	},
-	{
-		"order": 34,
-		"iconName": "_injected_innr_eraser",
-		"leftSignature": "INNR",
-		"rightSignature": "WNAM",
-		"isInjected": true,
-		"isDeleted": false,
-		"isAnyKeyword": false,
-		"isInclusiveOr": false,
-		"isFullReplaced": true,
-		"header": " 0x020",
-		"include": [],
-		"exclude": [
-			"ekwd|CustomItemName",
-			"ekwd|PowerArmor",
-			"ekwd|HandmadeRifle",
-			"ekwd|PipeWrench_Flowers",
-			"ekwd|HasLegendary_Weapon_Steady",
-			"ekwd|HasLegendary_Armor_LowHealthIncreasesStats",
-			"ekwd|HasLegendary_Weapon_AntiArmor",
-			"ekwd|HasLegendary_Weapon_DamageInverseHealth",
-			"ekwd|HasLegendary_Weapon_DamageAddiction",
-			"ekwd|HasLegendary_Weapon_Gourmand",
-			"ekwd|HasLegendary_Armor_Overeater",
-			"ekwd|HasLegendary_Armor_ResistancesProportionalCaps",
-			"ekwd|HasLegendary_Weapon_DamageViaCaps",
-			"ekwd|HasLegendary_Weapon_DamageFirstBlood",
-			"ekwd|HasLegendary_Weapon_DamageViaHealth",
-			"ekwd|HasLegendary_Armor_ResistancesMutation",
-			"ekwd|HasLegendary_Weapon_DamageWithMutation",
-			"ekwd|HasLegendary_Weapon_DamageUnarmored",
-			"ekwd|HasLegendary_Weapon_AmmoCapacity4x",
-			"ekwd|HasLegendary_Weapon_TwoShot",
-			"ekwd|HasLegendary_Armor_LessDMGScorched",
-			"ekwd|HasLegendary_Weapon_DamageVsScorched",
-			"ekwd|HasLegendary_Armor_ResistancesNight",
-			"ekwd|HasLegendary_Weapon_DamageNight",
-			"ekwd|HasLegendary_Armor_LessDMGBugs",
-			"ekwd|HasLegendary_Weapon_DamageVsBugs",
-			"ekwd|HasLegendary_Armor_LessDMGHumans",
-			"ekwd|HasLegendary_Weapon_DamageVsPlayers",
-			"ekwd|HasLegendary_Weapon_DamageConsecutiveHits",
-			"ekwd|HasLegendary_Weapon_DamageVsRobots",
-			"ekwd|HasLegendary_Armor_LessDMGRobots",
-			"ekwd|HasLegendary_Armor_LessDMGSupermutants",
-			"ekwd|HasLegendary_Weapon_DamageVsSupermutants",
-			"ekwd|HasLegendary_Weapon_Execute",
-			"ekwd|HasLegendary_Weapon_DamageVsAnimals",
-			"ekwd|HasLegendary_Armor_LessDMGAnimals",
-			"ekwd|HasLegendary_Armor_ResistancesInverseHealth",
-			"ekwd|HasLegendary_Weapon_AccuracyNotInCombat",
-			"ekwd|HasLegendary_Armor_Chameleon",
-			"ekwd|HasLegendary_Weapon_DamageVsGhouls",
-			"ekwd|HasLegendary_Armor_LessDMGGhouls",
-			"ekwd|HasLegendary_Armor_AutoRevive",
-			"ekwd|HasLegendary_Armor_ResistancesProportionalHealth",
-			"ekwd|HasLegendary_Armor_GettingMeleedTriggersInvisibility",
-			"ekwd|HasLegendary_Weapon_DebuffDamage",
-			"ekwd|HasLegendary_Weapon_Vampire",
-			"ekwd|HasLegendary_Weapon_CitsHealGroup",
-			"ekwd|dn_BackPack_Standard_Material_Medical",
-			"ekwd|dn_HasMisc_MedicPump",
-			"ekwd|HasLegendary_Armor_LowHealthTriggersStimpak",
-			"ekwd|HasLegendary_Armor_HealthRegen",
-			"ekwd|HasLegendary_Armor_Weightless"
-		]
-	}
+    {
+        "order": 0,
+        "iconName": "unyielding",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": true,
+        "isFullReplaced": true,
+        "header": "0x2275",
+        "include": [
+            "ekwd|HasLegendary_Weapon_Steady",
+            "ekwd|HasLegendary_Armor_LowHealthIncreasesStats"
+        ],
+        "exclude": []
+    },
+    {
+        "order": 1,
+        "iconName": "anti_armor",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": true,
+        "header": "0x2276",
+        "include": ["ekwd|HasLegendary_Weapon_AntiArmor"],
+        "exclude": []
+    },
+    {
+        "order": 2,
+        "iconName": "bloodied",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": true,
+        "header": "0x2277",
+        "include": ["ekwd|HasLegendary_Weapon_DamageInverseHealth"],
+        "exclude": []
+    },
+    {
+        "order": 3,
+        "iconName": "junkie",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": true,
+        "header": "0x2278",
+        "include": ["ekwd|HasLegendary_Weapon_DamageAddiction"],
+        "exclude": []
+    },
+    {
+        "order": 4,
+        "iconName": "gourmand",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": true,
+        "isFullReplaced": true,
+        "header": "0x2279",
+        "include": [
+            "ekwd|HasLegendary_Weapon_Gourmand",
+            "ekwd|HasLegendary_Armor_Overeater"
+        ],
+        "exclude": []
+    },
+    {
+        "order": 5,
+        "iconName": "aristocrat",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": true,
+        "isFullReplaced": true,
+        "header": "0x227a",
+        "include": [
+            "ekwd|HasLegendary_Armor_ResistancesProportionalCaps",
+            "ekwd|HasLegendary_Weapon_DamageViaCaps"
+        ],
+        "exclude": []
+    },
+    {
+        "order": 6,
+        "iconName": "instigating",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": true,
+        "header": "0x227b",
+        "include": ["ekwd|HasLegendary_Weapon_DamageFirstBlood"],
+        "exclude": []
+    },
+    {
+        "order": 7,
+        "iconName": "jaggernaut",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": true,
+        "header": "0x227c",
+        "include": ["ekwd|HasLegendary_Weapon_DamageViaHealth"],
+        "exclude": []
+    },
+    {
+        "order": 8,
+        "iconName": "mutant",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": true,
+        "isFullReplaced": true,
+        "header": "0x227d",
+        "include": [
+            "ekwd|HasLegendary_Armor_ResistancesMutation",
+            "ekwd|HasLegendary_Weapon_DamageWithMutation"
+        ],
+        "exclude": []
+    },
+    {
+        "order": 9,
+        "iconName": "berserker",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": true,
+        "header": "0x227e",
+        "include": ["ekwd|HasLegendary_Weapon_DamageUnarmored"],
+        "exclude": []
+    },
+    {
+        "order": 10,
+        "iconName": "quad",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": true,
+        "header": "0x227f",
+        "include": ["ekwd|HasLegendary_Weapon_AmmoCapacity4x"],
+        "exclude": []
+    },
+    {
+        "order": 11,
+        "iconName": "two_shot",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": true,
+        "header": "0x2280",
+        "include": ["ekwd|HasLegendary_Weapon_TwoShot"],
+        "exclude": []
+    },
+    {
+        "order": 12,
+        "iconName": "zealot",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": true,
+        "isFullReplaced": true,
+        "header": "0x2281",
+        "include": [
+            "ekwd|HasLegendary_Armor_LessDMGScorched",
+            "ekwd|HasLegendary_Weapon_DamageVsScorched"
+        ],
+        "exclude": []
+    },
+    {
+        "order": 13,
+        "iconName": "nocturnal",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": true,
+        "isFullReplaced": true,
+        "header": "0x2282",
+        "include": [
+            "ekwd|HasLegendary_Armor_ResistancesNight",
+            "ekwd|HasLegendary_Weapon_DamageNight"
+        ],
+        "exclude": []
+    },
+    {
+        "order": 14,
+        "iconName": "exterminator",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": true,
+        "isFullReplaced": true,
+        "header": "0x2283",
+        "include": [
+            "ekwd|HasLegendary_Armor_LessDMGBugs",
+            "ekwd|HasLegendary_Weapon_DamageVsBugs"
+        ],
+        "exclude": []
+    },
+    {
+        "order": 15,
+        "iconName": "assassin",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": true,
+        "isFullReplaced": true,
+        "header": "0x2284",
+        "include": [
+            "ekwd|HasLegendary_Armor_LessDMGHumans",
+            "ekwd|HasLegendary_Weapon_DamageVsPlayers"
+        ],
+        "exclude": []
+    },
+    {
+        "order": 16,
+        "iconName": "furious",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": true,
+        "header": "0x2285",
+        "include": ["ekwd|HasLegendary_Weapon_DamageConsecutiveHits"],
+        "exclude": []
+    },
+    {
+        "order": 17,
+        "iconName": "troubleshooter",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": true,
+        "isFullReplaced": true,
+        "header": "0x2286",
+        "include": [
+            "ekwd|HasLegendary_Weapon_DamageVsRobots",
+            "ekwd|HasLegendary_Armor_LessDMGRobots"
+        ],
+        "exclude": []
+    },
+    {
+        "order": 18,
+        "iconName": "mutant_slayer",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": true,
+        "isFullReplaced": true,
+        "header": "0x2287",
+        "include": [
+            "ekwd|HasLegendary_Armor_LessDMGSupermutants",
+            "ekwd|HasLegendary_Weapon_DamageVsSupermutants"
+        ],
+        "exclude": []
+    },
+    {
+        "order": 19,
+        "iconName": "executioner",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": true,
+        "header": "0x2288",
+        "include": ["ekwd|HasLegendary_Weapon_Execute"],
+        "exclude": []
+    },
+    {
+        "order": 20,
+        "iconName": "hunter",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": true,
+        "isFullReplaced": true,
+        "header": "0x2289",
+        "include": [
+            "ekwd|HasLegendary_Weapon_DamageVsAnimals",
+            "ekwd|HasLegendary_Armor_LessDMGAnimals"
+        ],
+        "exclude": []
+    },
+    {
+        "order": 21,
+        "iconName": "bolstering",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": true,
+        "header": "0x228a",
+        "include": ["ekwd|HasLegendary_Armor_ResistancesInverseHealth"],
+        "exclude": []
+    },
+    {
+        "order": 22,
+        "iconName": "stalker",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": true,
+        "header": "0x228b",
+        "include": ["ekwd|HasLegendary_Weapon_AccuracyNotInCombat"],
+        "exclude": []
+    },
+    {
+        "order": 23,
+        "iconName": "chameleon",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": true,
+        "header": "0x228c",
+        "include": ["ekwd|HasLegendary_Armor_Chameleon"],
+        "exclude": []
+    },
+    {
+        "order": 24,
+        "iconName": "ghoul_slayer",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": true,
+        "isFullReplaced": true,
+        "header": "0x228d",
+        "include": [
+            "ekwd|HasLegendary_Weapon_DamageVsGhouls",
+            "ekwd|HasLegendary_Armor_LessDMGGhouls"
+        ],
+        "exclude": []
+    },
+    {
+        "order": 25,
+        "iconName": "life_saving",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": true,
+        "header": "0x228e",
+        "include": ["ekwd|HasLegendary_Armor_AutoRevive"],
+        "exclude": []
+    },
+    {
+        "order": 26,
+        "iconName": "vanguard",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": true,
+        "header": "0x228f",
+        "include": ["ekwd|HasLegendary_Armor_ResistancesProportionalHealth"],
+        "exclude": []
+    },
+    {
+        "order": 27,
+        "iconName": "cloaking",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": true,
+        "header": "0x2290",
+        "include": [
+            "ekwd|HasLegendary_Armor_GettingMeleedTriggersInvisibility"
+        ],
+        "exclude": []
+    },
+    {
+        "order": 28,
+        "iconName": "supressor",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": true,
+        "header": "0x2291",
+        "include": ["ekwd|HasLegendary_Weapon_DebuffDamage"],
+        "exclude": []
+    },
+    {
+        "order": 29,
+        "iconName": "vampire",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": true,
+        "header": "0x2292",
+        "include": ["ekwd|HasLegendary_Weapon_Vampire"],
+        "exclude": []
+    },
+    {
+        "order": 30,
+        "iconName": "medic",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": true,
+        "isFullReplaced": true,
+        "header": "0x2293",
+        "include": [
+            "ekwd|HasLegendary_Weapon_CitsHealGroup",
+            "ekwd|dn_BackPack_Standard_Material_Medical",
+            "ekwd|dn_HasMisc_MedicPump"
+        ],
+        "exclude": []
+    },
+    {
+        "order": 31,
+        "iconName": "auto_stim",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": true,
+        "header": "0x2294",
+        "include": ["ekwd|HasLegendary_Armor_LowHealthTriggersStimpak"],
+        "exclude": []
+    },
+    {
+        "order": 32,
+        "iconName": "regenerating",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": true,
+        "header": "0x2295",
+        "include": ["ekwd|HasLegendary_Armor_HealthRegen"],
+        "exclude": []
+    },
+    {
+        "order": 33,
+        "iconName": "weightless",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": true,
+        "header": "0x2296",
+        "include": ["ekwd|HasLegendary_Armor_Weightless"],
+        "exclude": []
+    },
+    {
+        "order": 34,
+        "iconName": "_injected_innr_eraser",
+        "leftSignature": "INNR",
+        "rightSignature": "WNAM",
+        "isInjected": true,
+        "isDeleted": false,
+        "isAnyKeyword": false,
+        "isInclusiveOr": false,
+        "isFullReplaced": true,
+        "header": " 0x020",
+        "include": [],
+        "exclude": [
+            "ekwd|CustomItemName",
+            "ekwd|PowerArmor",
+            "ekwd|HandmadeRifle",
+            "ekwd|PipeWrench_Flowers",
+            "ekwd|HasLegendary_Weapon_Steady",
+            "ekwd|HasLegendary_Armor_LowHealthIncreasesStats",
+            "ekwd|HasLegendary_Weapon_AntiArmor",
+            "ekwd|HasLegendary_Weapon_DamageInverseHealth",
+            "ekwd|HasLegendary_Weapon_DamageAddiction",
+            "ekwd|HasLegendary_Weapon_Gourmand",
+            "ekwd|HasLegendary_Armor_Overeater",
+            "ekwd|HasLegendary_Armor_ResistancesProportionalCaps",
+            "ekwd|HasLegendary_Weapon_DamageViaCaps",
+            "ekwd|HasLegendary_Weapon_DamageFirstBlood",
+            "ekwd|HasLegendary_Weapon_DamageViaHealth",
+            "ekwd|HasLegendary_Armor_ResistancesMutation",
+            "ekwd|HasLegendary_Weapon_DamageWithMutation",
+            "ekwd|HasLegendary_Weapon_DamageUnarmored",
+            "ekwd|HasLegendary_Weapon_AmmoCapacity4x",
+            "ekwd|HasLegendary_Weapon_TwoShot",
+            "ekwd|HasLegendary_Armor_LessDMGScorched",
+            "ekwd|HasLegendary_Weapon_DamageVsScorched",
+            "ekwd|HasLegendary_Armor_ResistancesNight",
+            "ekwd|HasLegendary_Weapon_DamageNight",
+            "ekwd|HasLegendary_Armor_LessDMGBugs",
+            "ekwd|HasLegendary_Weapon_DamageVsBugs",
+            "ekwd|HasLegendary_Armor_LessDMGHumans",
+            "ekwd|HasLegendary_Weapon_DamageVsPlayers",
+            "ekwd|HasLegendary_Weapon_DamageConsecutiveHits",
+            "ekwd|HasLegendary_Weapon_DamageVsRobots",
+            "ekwd|HasLegendary_Armor_LessDMGRobots",
+            "ekwd|HasLegendary_Armor_LessDMGSupermutants",
+            "ekwd|HasLegendary_Weapon_DamageVsSupermutants",
+            "ekwd|HasLegendary_Weapon_Execute",
+            "ekwd|HasLegendary_Weapon_DamageVsAnimals",
+            "ekwd|HasLegendary_Armor_LessDMGAnimals",
+            "ekwd|HasLegendary_Armor_ResistancesInverseHealth",
+            "ekwd|HasLegendary_Weapon_AccuracyNotInCombat",
+            "ekwd|HasLegendary_Armor_Chameleon",
+            "ekwd|HasLegendary_Weapon_DamageVsGhouls",
+            "ekwd|HasLegendary_Armor_LessDMGGhouls",
+            "ekwd|HasLegendary_Armor_AutoRevive",
+            "ekwd|HasLegendary_Armor_ResistancesProportionalHealth",
+            "ekwd|HasLegendary_Armor_GettingMeleedTriggersInvisibility",
+            "ekwd|HasLegendary_Weapon_DebuffDamage",
+            "ekwd|HasLegendary_Weapon_Vampire",
+            "ekwd|HasLegendary_Weapon_CitsHealGroup",
+            "ekwd|dn_BackPack_Standard_Material_Medical",
+            "ekwd|dn_HasMisc_MedicPump",
+            "ekwd|HasLegendary_Armor_LowHealthTriggersStimpak",
+            "ekwd|HasLegendary_Armor_HealthRegen",
+            "ekwd|HasLegendary_Armor_Weightless"
+        ]
+    }
 ]

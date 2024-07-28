@@ -1,138 +1,90 @@
 [
-	{
-		"name": "10mm-submachine-gun",
-		"header": "0xf119",
-		"include": [
-			"ekwd|ma_10mmsmg",
-			"ekwd|weapontyperifle"
-		]
-	},
-	{
-		"name": "alien-disintegrator",
-		"header": "0xf111",
-		"include": [
-			"ekwd|ma_AlienRifle",
-			"ekwd|weapontyperifle"
-		]
-	},
-	{
-		"name": "assault-rifle",
-		"header": "0xf114",
-		"include": [
-			"ekwd|ma_AssaultRifle",
-			"ekwd|weapontyperifle"
-		]
-	},
-	{
-		"name": "black-powder-rifle",
-		"header": "0xf115",
-		"include": [
-			"ekwd|ma_BlackPowderRifle",
-			"ekwd|weapontyperifle"
-		]
-	},
-	{
-		"name": "combat-rifle",
-		"header": "0xf116",
-		"include": [
-			"ekwd|ma_CombatRifle",
-			"ekwd|weapontyperifle"
-		]
-	},
-	{
-		"name": "enclave-plasma-rifle",
-		"header": "0xf11a",
-		"include": [
-			"ekwd|ma_Enclave_PlasmaGun",
-			"ekwd|weapontyperifle"
-		]
-	},
-	{
-		"name": "gauss-rifle",
-		"header": "0xf10f",
-		"include": [
-			"ekwd|ma_GaussRifle",
-			"ekwd|weapontyperifle"
-		]
-	},
-	{
-		"name": "hunting-rifle",
-		"header": "0xf10c",
-		"include": [
-			"ekwd|ma_HuntingRifle",
-			"ekwd|weapontyperifle"
-		]
-	},
-	{
-		"name": "handmade-rifle",
-		"header": "0xf112",
-		"include": [
-			"ekwd|DLC04_ma_HandmadeAssaultRifle",
-			"ekwd|weapontyperifle"
-		]
-	},
-	{
-		"name": "lever-action-rifle",
-		"header": "0xf118",
-		"include": [
-			"ekwd|DLC03_ma_LeverGun",
-			"ekwd|weapontyperifle"
-		]
-	},
-	{
-		"name": "radium-rifle",
-		"header": "0xf10d",
-		"include": [
-			"ekwd|ma_RadiumRifle",
-			"ekwd|weapontyperifle"
-		]
-	},
-	{
-		"name": "railway-rifle",
-		"header": "0xf10e",
-		"include": [
-			"ekwd|ma_RailwayRifle",
-			"ekwd|weapontyperifle"
-		]
-	},
-	{
-		"name": "syringer",
-		"header": "0xf110",
-		"include": [
-			"ekwd|ma_PipeSyringer",
-			"ekwd|weapontyperifle"
-		]
-	},
-	{
-		"name": "submachine-gun",
-		"header": "0xf11b",
-		"include": [
-			"ekwd|ma_SubmachineGun",
-			"ekwd|weapontyperifle"
-		]
-	},
-	{
-		"name": "the-dragon",
-		"header": "0xf10b",
-		"include": [
-			"ekwd|ma_Dragon",
-			"ekwd|weapontyperifle"
-		]
-	},
-	{
-		"name": "tesla-rifle",
-		"header": "0xf113",
-		"include": [
-			"ekwd|DLC01ma_LightningGun",
-			"ekwd|weapontyperifle"
-		]
-	},
-	{
-		"name": "the-fixer",
-		"header": "0xf117",
-		"include": [
-			"ekwd|ma_TheFixer",
-			"ekwd|weapontyperifle"
-		]
-	}
+    {
+        "name": "10mm-submachine-gun",
+        "header": "0xf119",
+        "include": ["ekwd|ma_10mmsmg", "ekwd|weapontyperifle"]
+    },
+    {
+        "name": "alien-disintegrator",
+        "header": "0xf111",
+        "include": ["ekwd|ma_AlienRifle", "ekwd|weapontyperifle"]
+    },
+    {
+        "name": "assault-rifle",
+        "header": "0xf114",
+        "include": ["ekwd|ma_AssaultRifle", "ekwd|weapontyperifle"]
+    },
+    {
+        "name": "black-powder-rifle",
+        "header": "0xf115",
+        "include": ["ekwd|ma_BlackPowderRifle", "ekwd|weapontyperifle"]
+    },
+    {
+        "name": "combat-rifle",
+        "header": "0xf116",
+        "include": ["ekwd|ma_CombatRifle", "ekwd|weapontyperifle"]
+    },
+    {
+        "name": "enclave-plasma-rifle",
+        "header": "0xf11a",
+        "include": ["ekwd|ma_Enclave_PlasmaGun", "ekwd|weapontyperifle"]
+    },
+    {
+        "name": "gauss-rifle",
+        "header": "0xf10f",
+        "include": ["ekwd|ma_GaussRifle", "ekwd|weapontyperifle"]
+    },
+    {
+        "name": "hunting-rifle",
+        "header": "0xf10c",
+        "include": ["ekwd|ma_HuntingRifle", "ekwd|weapontyperifle"]
+    },
+    {
+        "name": "handmade-rifle",
+        "header": "0xf112",
+        "include": [
+            "ekwd|DLC04_ma_HandmadeAssaultRifle",
+            "ekwd|weapontyperifle"
+        ]
+    },
+    {
+        "name": "lever-action-rifle",
+        "header": "0xf118",
+        "include": ["ekwd|DLC03_ma_LeverGun", "ekwd|weapontyperifle"]
+    },
+    {
+        "name": "radium-rifle",
+        "header": "0xf10d",
+        "include": ["ekwd|ma_RadiumRifle", "ekwd|weapontyperifle"]
+    },
+    {
+        "name": "railway-rifle",
+        "header": "0xf10e",
+        "include": ["ekwd|ma_RailwayRifle", "ekwd|weapontyperifle"]
+    },
+    {
+        "name": "syringer",
+        "header": "0xf110",
+        "include": ["ekwd|ma_PipeSyringer", "ekwd|weapontyperifle"]
+    },
+    {
+        "name": "submachine-gun",
+        "header": "0xf11b",
+        "include": ["ekwd|ma_SubmachineGun", "ekwd|weapontyperifle"]
+    },
+    {
+        "name": "the-dragon",
+        "header": "0xf10b",
+        "include": ["ekwd|ma_Dragon", "ekwd|weapontyperifle"]
+    },
+    {
+        "name": "tesla-rifle",
+        "header": "0xf113",
+        "include": ["ekwd|DLC01ma_LightningGun", "ekwd|weapontyperifle"]
+    },
+    {
+        "name": "the-fixer",
+        "header": "0xf117",
+        "include": ["ekwd|ma_TheFixer", "ekwd|weapontyperifle"]
+    }
 ]
