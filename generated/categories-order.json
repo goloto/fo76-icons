@@ -1,82 +1,82 @@
 [
-    {
-        "name": "currency",
-        "order": 0
-    },
-    {
-        "name": "thrown-weapons",
-        "order": 1
-    },
-    {
-        "name": "mines",
-        "order": 2
-    },
-    {
-        "name": "legendary-effects",
-        "order": 3
-    },
-    {
-        "name": "misc",
-        "order": 4
-    },
-    {
-        "name": "keys",
-        "order": 5
-    },
-    {
-        "name": "notes",
-        "order": 6
-    },
-    {
-        "name": "holotapes",
-        "order": 7
-    },
-    {
-        "name": "ammo",
-        "order": 8
-    },
-    {
-        "name": "aid",
-        "order": 9
-    },
-    {
-        "name": "food",
-        "order": 10
-    },
-    {
-        "name": "apparel",
-        "order": 11
-    },
-    {
-        "name": "armor",
-        "order": 12
-    },
-    {
-        "name": "mods",
-        "order": 13
-    },
-    {
-        "name": "weapons",
-        "order": 14
-    },
-    {
-        "name": "melee-weapons",
-        "order": 15
-    },
-    {
-        "name": "heavy-weapons",
-        "order": 16
-    },
-    {
-        "name": "rifles",
-        "order": 17
-    },
-    {
-        "name": "shotguns",
-        "order": 18
-    },
-    {
-        "name": "pistols",
-        "order": 19
-    }
+  {
+    "name": "currency",
+    "order": 0
+  },
+  {
+    "name": "thrown-weapons",
+    "order": 1
+  },
+  {
+    "name": "mines",
+    "order": 2
+  },
+  {
+    "name": "legendary-effects",
+    "order": 3
+  },
+  {
+    "name": "misc",
+    "order": 4
+  },
+  {
+    "name": "keys",
+    "order": 5
+  },
+  {
+    "name": "notes",
+    "order": 6
+  },
+  {
+    "name": "holotapes",
+    "order": 7
+  },
+  {
+    "name": "ammo",
+    "order": 8
+  },
+  {
+    "name": "aid",
+    "order": 9
+  },
+  {
+    "name": "food",
+    "order": 10
+  },
+  {
+    "name": "apparel",
+    "order": 11
+  },
+  {
+    "name": "armor",
+    "order": 12
+  },
+  {
+    "name": "mods",
+    "order": 13
+  },
+  {
+    "name": "weapons",
+    "order": 14
+  },
+  {
+    "name": "melee-weapons",
+    "order": 15
+  },
+  {
+    "name": "heavy-weapons",
+    "order": 16
+  },
+  {
+    "name": "rifles",
+    "order": 17
+  },
+  {
+    "name": "shotguns",
+    "order": 18
+  },
+  {
+    "name": "pistols",
+    "order": 19
+  }
 ]

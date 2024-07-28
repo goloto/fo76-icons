@@ -31,14 +31,14 @@ validNameChars "\`1234567890-=~!@#$%^&*():_+QWERTYUIOP[]ASDFGHJKL;'ZXCVBNM,./qwe
 validBookChars "\`1234567890-=~!@#$%^&*():_+QWERTYUIOP[]ASDFGHJKL;'ZXCVBNM,./qwertyuiop{}\\asdfghjkl;'zxcvbnm<>?|ЎўЈ¤Ґ¦§Ё©Є«®Ї°Ііґ¶·ё№є»јЅѕїДАБВГЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэю я "`;
 
 export const buildFontConfig = async (iconRules: Rule[]) => {
-    const characters = iconRules.reduce(
-        (accumulator, item) =>
-            `${accumulator}${getCharFromHexadecimal(item?.header)}`,
-        ''
-    );
+  const characters = iconRules.reduce(
+    (accumulator, item) =>
+      `${accumulator}${getCharFromHexadecimal(item?.header)}`,
+    ''
+  );
 
-    await Bun.write(
-        './headers/fontconfig_ru.txt',
-        FONT_CONFIG_TEMPLATE.replace('%custom-characters%', characters)
-    );
+  await Bun.write(
+    './headers/fontconfig_ru.txt',
+    FONT_CONFIG_TEMPLATE.replace('%custom-characters%', characters)
+  );
 };

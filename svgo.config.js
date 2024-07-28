@@ -1,7 +1,7 @@
 export default {
-    plugins: [
-        {
-            name: 'preset-default',
-        },
-    ],
+  plugins: [
+    {
+      name: 'preset-default',
+    },
+  ],
 };

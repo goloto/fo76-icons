@@ -35,71 +35,68 @@ const RULE_TEMPLATE = `[StartRule]
 [EndRule]`;
 
 export const buildHeaders = async (iconRules: Rule[]) => {
-    const filteredIconRules = iconRules.filter((item) => !item.isDeleted);
-    const regularResult = reduceRules(filteredIconRules, (item) =>
-        replaceAnchors(item).replace(
-            HEADER_ANCHOR,
-            getCharFromHexadecimal(item.header)
-        )
-    );
-    const testingResult = reduceRules(filteredIconRules, (item) =>
-        replaceAnchors(item).replace(HEADER_ANCHOR, `#${item.iconName}#`)
-    );
+  const filteredIconRules = iconRules.filter((item) => !item.isDeleted);
+  const regularResult = reduceRules(filteredIconRules, (item) =>
+    replaceAnchors(item).replace(
+      HEADER_ANCHOR,
+      getCharFromHexadecimal(item.header)
+    )
+  );
+  const testingResult = reduceRules(filteredIconRules, (item) =>
+    replaceAnchors(item).replace(HEADER_ANCHOR, `#${item.iconName}#`)
+  );
 
-    await writeUtf8BomString('./headers/HeaderRules.txt', regularResult);
-    await writeUtf8BomString(
-        './headers/HeaderRules_testing.txt',
-        testingResult
-    );
+  await writeUtf8BomString('./headers/HeaderRules.txt', regularResult);
+  await writeUtf8BomString('./headers/HeaderRules_testing.txt', testingResult);
 };
 
 const reduceRules = (
-    rules: Rule[],
-    callback: (item: Rule) => string
+  rules: Rule[],
+  callback: (item: Rule) => string
 ): string => {
-    return rules.reduce((accumulator: string, item) => {
-        const rule = callback(item);
+  return rules.reduce((accumulator: string, item) => {
+    const rule = callback(item);
 
-        return `${accumulator}\r\n\r\n${rule}`;
-    }, `${FILE_HEADER}`);
+    return `${accumulator}\r\n\r\n${rule}`;
+  }, `${FILE_HEADER}`);
 };
 
 const replaceAnchors = ({
-    rightSignature,
-    leftSignature,
-    isAnyKeyword,
-    isInclusiveOr,
-    isFullReplaced,
-    include,
-    exclude,
+  rightSignature,
+  leftSignature,
+  isAnyKeyword,
+  isInclusiveOr,
+  isFullReplaced,
+  include,
+  exclude,
 }: Rule): string => {
-    return RULE_TEMPLATE.replace(RIGHT_SIGNATURE_ANCHOR, rightSignature)
-        .replace(LEFT_SIGNATURE_ANCHOR, leftSignature)
-        .replace(IS_ANY_KEYWORD_ANCHOR, replaceBoolean(isAnyKeyword))
-        .replace(IS_INCLUSIVE_OR_ANCHOR, replaceBoolean(isInclusiveOr))
-        .replace(IS_FULL_REPLACED, replaceBoolean(isFullReplaced))
-        .replace(INCLUDE_ANCHOR, concatenateInclude(include))
-        .replace(EXCLUDE_ANCHOR, concatenateExclude(exclude));
+  return RULE_TEMPLATE.replace(RIGHT_SIGNATURE_ANCHOR, rightSignature)
+    .replace(LEFT_SIGNATURE_ANCHOR, leftSignature)
+    .replace(IS_ANY_KEYWORD_ANCHOR, replaceBoolean(isAnyKeyword))
+    .replace(IS_INCLUSIVE_OR_ANCHOR, replaceBoolean(isInclusiveOr))
+    .replace(IS_FULL_REPLACED, replaceBoolean(isFullReplaced))
+    .replace(INCLUDE_ANCHOR, concatenateInclude(include))
+    .replace(EXCLUDE_ANCHOR, concatenateExclude(exclude));
 };
 
 const concatenateExclude = (array?: string[]) => {
-    return concatenateRules('Exclude', array);
+  return concatenateRules('Exclude', array);
 };
 
 const concatenateInclude = (array?: string[]): string => {
-    return concatenateRules('Include', array);
+  return concatenateRules('Include', array);
 };
 
 const concatenateRules = (rule: string, array?: string[]): string => {
-    if (!array || !array.length) {
-        return `${rule}_0=`;
-    }
+  if (!array || !array.length) {
+    return `${rule}_0=`;
+  }
 
-    return array.reduce((accumulator, includeItem, index) => {
-        const newLine = index === 0 ? '' : '\r\n ';
+  return array.reduce((accumulator, includeItem, index) => {
+    const newLine = index === 0 ? '' : '\r\n ';
 
-        return `${accumulator}${newLine}${rule}_${index}=${includeItem}`;
-    }, '');
+    return `${accumulator}${newLine}${rule}_${index}=${includeItem}`;
+  }, '');
 };
 
 const replaceBoolean = (flag: boolean) => (flag ? '-1' : '0');

@@ -1,15 +1,15 @@
 [
-    {
-        "order": 0,
-        "iconName": "caps",
-        "leftSignature": "CNCY",
-        "rightSignature": "FULL",
-        "isDeleted": false,
-        "isAnyKeyword": false,
-        "isInclusiveOr": false,
-        "isFullReplaced": false,
-        "header": "0x2266",
-        "include": ["edid|Caps001"],
-        "exclude": []
-    }
+  {
+    "order": 0,
+    "iconName": "caps",
+    "leftSignature": "CNCY",
+    "rightSignature": "FULL",
+    "isDeleted": false,
+    "isAnyKeyword": false,
+    "isInclusiveOr": false,
+    "isFullReplaced": false,
+    "header": "0x2266",
+    "include": ["edid|Caps001"],
+    "exclude": []
+  }
 ]
