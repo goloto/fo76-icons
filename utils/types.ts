@@ -7,6 +7,8 @@ export interface Icon {
   order: number;
 }
 
+type RuleLine = `edid|${string}`[] | `ekwd|${string}`[];
+
 export interface Rule {
   iconName: string;
   order: number;
@@ -18,8 +20,8 @@ export interface Rule {
   isInclusiveOr: boolean;
   isFullReplaced: boolean;
   header?: string;
-  include?: string[];
-  exclude?: string[];
+  include?: RuleLine;
+  exclude?: RuleLine;
   isEnabled?: boolean;
   isFallback?: boolean;
 }
