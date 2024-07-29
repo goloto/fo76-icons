@@ -28,32 +28,34 @@ export interface Icon {
   order: number;
 }
 
+type ICON_COMMON = '_injected_innr_eraser';
+
+export type IconNames =
+  | ICON_COMMON
+  | ICON_CURRENCY
+  | ICON_THROWN_WEAPONS
+  | ICON_MINES
+  | ICON_LEGENDARY_EFFECTS
+  | ICON_MISC
+  | ICON_KEYS
+  | ICON_NOTES
+  | ICON_HOLOTAPES
+  | ICON_AMMO
+  | ICON_AID
+  | ICON_FOOD
+  | ICON_APPAREL
+  | ICON_ARMOR
+  | ICON_WEAPONS
+  | ICON_MELEE_WEAPONS
+  | ICON_HEAVY_WEAPONS
+  | ICON_RIFLES
+  | ICON_SHOTGUNS
+  | ICON_PISTOLS;
+
 type IncludeProperty = `edid|${string}`[] | `ekwd|${string}`[];
 
-type ICON_COMMON = '_injected_innr_eraser'
-
 export interface Rule {
-  iconName:
-    | ICON_COMMON
-    | ICON_CURRENCY
-    | ICON_THROWN_WEAPONS
-    | ICON_MINES
-    | ICON_LEGENDARY_EFFECTS
-    | ICON_MISC
-    | ICON_KEYS
-    | ICON_NOTES
-    | ICON_HOLOTAPES
-    | ICON_AMMO
-    | ICON_AID
-    | ICON_FOOD
-    | ICON_APPAREL
-    | ICON_ARMOR
-    | ICON_WEAPONS
-    | ICON_MELEE_WEAPONS
-    | ICON_HEAVY_WEAPONS
-    | ICON_RIFLES
-    | ICON_SHOTGUNS
-    | ICON_PISTOLS;
+  iconName: IconNames;
   order: number;
   leftSignature: LeftSignature;
   rightSignature: RightSignature;

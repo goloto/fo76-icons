@@ -1,5 +1,5 @@
 import { LeftSignature, RightSignature } from '../const';
-import type { CategoryOrder, Rule } from '../types';
+import type { CategoryOrder, IconNames, Rule } from '../types';
 import { readFileAsJson } from '../file-reading';
 import {
   ICONS_DEFAULT_RULES,
@@ -11,7 +11,7 @@ import { writeJson } from '../file-writing';
 
 export const buildIconRules = async (
   categoryOrder: CategoryOrder[],
-  iconNames: Record<string, string[]>
+  iconNames: Record<string, IconNames[]>
 ): Promise<Rule[]> => {
   const concatenatedRules = await categoryOrder.reduce<Promise<Rule[]>>(
     async (accumulator, category) => {
@@ -122,7 +122,7 @@ const generateIconHeader = (iconName: string): string => {
   return value;
 };
 
-const createDefaultInfo = (iconName: string, category: string): Rule => ({
+const createDefaultInfo = (iconName: IconNames, category: string): Rule => ({
   order: 999,
   iconName: iconName,
   isInjected: false,
