@@ -30,8 +30,11 @@ export interface Icon {
 
 type IncludeProperty = `edid|${string}`[] | `ekwd|${string}`[];
 
+type ICON_COMMON = '_injected_innr_eraser'
+
 export interface Rule {
   iconName:
+    | ICON_COMMON
     | ICON_CURRENCY
     | ICON_THROWN_WEAPONS
     | ICON_MINES
