@@ -35,7 +35,7 @@ export const generateIconsEnum = async (
           .split('_')
           .map((word) => `${word[0].toUpperCase()}${word.slice(1)}`)
           .join(''),
-        ts.factory.createStringLiteral(icon)
+        ts.factory.createStringLiteral(icon, true)
       );
     });
     const enumDeclaration = ts.factory.createEnumDeclaration(
