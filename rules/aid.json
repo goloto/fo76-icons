@@ -1,297 +1,340 @@
 [
-  {
-    "order": 0,
-    "iconName": "lunchbox",
-    "leftSignature": "ALCH",
-    "rightSignature": "FULL",
-    "isDeleted": false,
-    "isAnyKeyword": false,
-    "isInclusiveOr": false,
-    "isFullReplaced": false,
-    "header": "0x22be",
-    "include": ["edid|lunchbox"],
-    "exclude": []
-  },
-  {
-    "order": 1,
-    "iconName": "scout",
-    "leftSignature": "ALCH",
-    "rightSignature": "FULL",
-    "isDeleted": false,
-    "isAnyKeyword": false,
-    "isInclusiveOr": false,
-    "isFullReplaced": false,
-    "header": "0x22bf",
-    "include": ["edid|Banner_Consumable"],
-    "exclude": []
-  },
-  {
-    "order": 2,
-    "iconName": "treasure_hunt_chest",
-    "leftSignature": "ALCH",
-    "rightSignature": "FULL",
-    "isDeleted": false,
-    "isAnyKeyword": false,
-    "isInclusiveOr": false,
-    "isFullReplaced": false,
-    "header": "0x22c0",
-    "include": ["edid|TreasureHunt_Chest"],
-    "exclude": []
-  },
-  {
-    "order": 3,
-    "iconName": "holiday_gift",
-    "leftSignature": "ALCH",
-    "rightSignature": "FULL",
-    "isDeleted": false,
-    "isAnyKeyword": false,
-    "isInclusiveOr": false,
-    "isFullReplaced": false,
-    "header": "0x22c1",
-    "include": ["edid|HolidayGift"],
-    "exclude": []
-  },
-  {
-    "order": 4,
-    "iconName": "antibiotics",
-    "leftSignature": "ALCH",
-    "rightSignature": "FULL",
-    "isDeleted": false,
-    "isAnyKeyword": false,
-    "isInclusiveOr": true,
-    "isFullReplaced": false,
-    "header": "0x22c2",
-    "include": [
-      "edid|SURV_DiseaseCure_HerbalMedicine",
-      "edid|SURV_DiseaseCure_Antibiotics"
-    ],
-    "exclude": []
-  },
-  {
-    "order": 5,
-    "iconName": "stimpak",
-    "leftSignature": "ALCH",
-    "rightSignature": "FULL",
-    "isDeleted": false,
-    "isAnyKeyword": false,
-    "isInclusiveOr": false,
-    "isFullReplaced": false,
-    "header": "0x22c3",
-    "include": ["ekwd|ObjectTypeStimpak"],
-    "exclude": []
-  },
-  {
-    "order": 6,
-    "iconName": "radaway",
-    "leftSignature": "ALCH",
-    "rightSignature": "FULL",
-    "isDeleted": false,
-    "isAnyKeyword": false,
-    "isInclusiveOr": false,
-    "isFullReplaced": false,
-    "header": "0x22c4",
-    "include": ["ekwd|ObjectTypeChem", "ekwd|ChemTypeRadaway"],
-    "exclude": []
-  },
-  {
-    "order": 7,
-    "iconName": "rad_x",
-    "leftSignature": "ALCH",
-    "rightSignature": "FULL",
-    "isDeleted": false,
-    "isAnyKeyword": false,
-    "isInclusiveOr": true,
-    "isFullReplaced": false,
-    "header": "0x22c5",
-    "include": [
-      "edid|Radx",
-      "edid|RadShield",
-      "edid|Radiation_RadXtreme",
-      "edid|TrenchMed_Pitt"
-    ],
-    "exclude": []
-  },
-  {
-    "order": 8,
-    "iconName": "med_x",
-    "leftSignature": "ALCH",
-    "rightSignature": "FULL",
-    "isDeleted": false,
-    "isAnyKeyword": false,
-    "isInclusiveOr": true,
-    "isFullReplaced": false,
-    "header": "0x22c6",
-    "include": [
-      "edid|medx",
-      "edid|calmex",
-      "edid|FormulaP",
-      "edid|FormulaB",
-      "edid|FormulaQ"
-    ],
-    "exclude": []
-  },
-  {
-    "order": 9,
-    "iconName": "stealthboy",
-    "leftSignature": "ALCH",
-    "rightSignature": "FULL",
-    "isDeleted": false,
-    "isAnyKeyword": false,
-    "isInclusiveOr": false,
-    "isFullReplaced": false,
-    "header": "0x22c7",
-    "include": ["edid|stealth"],
-    "exclude": []
-  },
-  {
-    "order": 10,
-    "iconName": "addictol",
-    "leftSignature": "ALCH",
-    "rightSignature": "FULL",
-    "isDeleted": false,
-    "isAnyKeyword": false,
-    "isInclusiveOr": false,
-    "isFullReplaced": false,
-    "header": "0x22c8",
-    "include": ["edid|Addictol"],
-    "exclude": []
-  },
-  {
-    "order": 11,
-    "iconName": "blood_pack",
-    "leftSignature": "ALCH",
-    "rightSignature": "FULL",
-    "isDeleted": false,
-    "isAnyKeyword": false,
-    "isInclusiveOr": true,
-    "isFullReplaced": false,
-    "header": "0x22c9",
-    "include": ["edid|Bloodpack", "edid|BloodpackIrradiated"],
-    "exclude": ["edid|GlowingOneBlood", "edid|BloodpackGlowing"]
-  },
-  {
-    "order": 12,
-    "iconName": "glowing_blood",
-    "leftSignature": "ALCH",
-    "rightSignature": "FULL",
-    "isDeleted": false,
-    "isAnyKeyword": false,
-    "isInclusiveOr": true,
-    "isFullReplaced": false,
-    "header": "0x22ca",
-    "include": ["edid|GlowingOneBlood", "edid|BloodpackGlowing"],
-    "exclude": []
-  },
-  {
-    "order": 13,
-    "iconName": "x_cell",
-    "leftSignature": "ALCH",
-    "rightSignature": "FULL",
-    "isDeleted": false,
-    "isAnyKeyword": false,
-    "isInclusiveOr": false,
-    "isFullReplaced": false,
-    "header": "0x22cb",
-    "include": ["edid|XCell"],
-    "exclude": []
-  },
-  {
-    "order": 14,
-    "iconName": "mentats",
-    "leftSignature": "ALCH",
-    "rightSignature": "FULL",
-    "isDeleted": false,
-    "isAnyKeyword": false,
-    "isInclusiveOr": false,
-    "isFullReplaced": false,
-    "header": "0x22cc",
-    "include": ["ekwd|AddictionKeywordMentats"],
-    "exclude": []
-  },
-  {
-    "order": 15,
-    "iconName": "buffout",
-    "leftSignature": "ALCH",
-    "rightSignature": "FULL",
-    "isDeleted": false,
-    "isAnyKeyword": false,
-    "isInclusiveOr": true,
-    "isFullReplaced": false,
-    "header": "0x22cd",
-    "include": ["edid|Buffout", "edid|Bufftats"],
-    "exclude": []
-  },
-  {
-    "order": 16,
-    "iconName": "psycho",
-    "leftSignature": "ALCH",
-    "rightSignature": "FULL",
-    "isDeleted": false,
-    "isAnyKeyword": false,
-    "isInclusiveOr": true,
-    "isFullReplaced": false,
-    "header": "0x22ce",
-    "include": [
-      "edid|Psycho",
-      "edid|Overdrive",
-      "edid|ChemBlend",
-      "edid|Fury",
-      "edid|SurvivalShortcut",
-      "edid|BrawlingChemist",
-      "edid|DaddyO"
-    ],
-    "exclude": ["edid|VenisonAndTatoStew_Psycho"]
-  },
-  {
-    "order": 17,
-    "iconName": "mutation_serum",
-    "leftSignature": "ALCH",
-    "rightSignature": "FULL",
-    "isDeleted": false,
-    "isAnyKeyword": false,
-    "isInclusiveOr": false,
-    "isFullReplaced": false,
-    "header": "0x22cf",
-    "include": ["ekwd|ObjectTypeSerum"],
-    "exclude": []
-  },
-  {
-    "order": 18,
-    "iconName": "day_tripper",
-    "leftSignature": "ALCH",
-    "rightSignature": "FULL",
-    "isDeleted": false,
-    "isAnyKeyword": false,
-    "isInclusiveOr": false,
-    "isFullReplaced": false,
-    "header": "0x22d0",
-    "include": ["edid|DayTripper"],
-    "exclude": []
-  },
-  {
-    "order": 19,
-    "iconName": "magazine",
-    "leftSignature": "ALCH",
-    "rightSignature": "FULL",
-    "isDeleted": false,
-    "isAnyKeyword": false,
-    "isInclusiveOr": true,
-    "isFullReplaced": false,
-    "header": "0x22d1",
-    "include": ["ekwd|MagazineKeyword"],
-    "exclude": []
-  },
-  {
-    "order": 20,
-    "iconName": "bobblehead",
-    "leftSignature": "ALCH",
-    "rightSignature": "FULL",
-    "isDeleted": false,
-    "isAnyKeyword": false,
-    "isInclusiveOr": false,
-    "isFullReplaced": false,
-    "header": "0x22d2",
-    "include": ["ekwd|BobbleheadKeyword"],
-    "exclude": []
-  }
+	{
+		"order": 0,
+		"iconName": "lunchbox",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22be",
+		"include": [
+			"edid|lunchbox"
+		],
+		"exclude": []
+	},
+	{
+		"order": 1,
+		"iconName": "scout",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22bf",
+		"include": [
+			"edid|Banner_Consumable"
+		],
+		"exclude": []
+	},
+	{
+		"order": 2,
+		"iconName": "treasure_hunt_chest",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22c0",
+		"include": [
+			"edid|TreasureHunt_Chest"
+		],
+		"exclude": []
+	},
+	{
+		"order": 3,
+		"iconName": "holiday_gift",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22c1",
+		"include": [
+			"edid|HolidayGift"
+		],
+		"exclude": []
+	},
+	{
+		"order": 4,
+		"iconName": "antibiotics",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x22c2",
+		"include": [
+			"edid|SURV_DiseaseCure_HerbalMedicine",
+			"edid|SURV_DiseaseCure_Antibiotics"
+		],
+		"exclude": []
+	},
+	{
+		"order": 5,
+		"iconName": "stimpak",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22c3",
+		"include": [
+			"ekwd|ObjectTypeStimpak"
+		],
+		"exclude": []
+	},
+	{
+		"order": 6,
+		"iconName": "radaway",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22c4",
+		"include": [
+			"ekwd|ObjectTypeChem",
+			"ekwd|ChemTypeRadaway"
+		],
+		"exclude": []
+	},
+	{
+		"order": 7,
+		"iconName": "rad_x",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x22c5",
+		"include": [
+			"edid|Radx",
+			"edid|RadShield",
+			"edid|Radiation_RadXtreme",
+			"edid|TrenchMed_Pitt"
+		],
+		"exclude": []
+	},
+	{
+		"order": 8,
+		"iconName": "med_x",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x22c6",
+		"include": [
+			"edid|medx",
+			"edid|calmex",
+			"edid|FormulaP",
+			"edid|FormulaB",
+			"edid|FormulaQ"
+		],
+		"exclude": []
+	},
+	{
+		"order": 9,
+		"iconName": "stealthboy",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22c7",
+		"include": [
+			"edid|stealth"
+		],
+		"exclude": []
+	},
+	{
+		"order": 10,
+		"iconName": "addictol",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22c8",
+		"include": [
+			"edid|Addictol"
+		],
+		"exclude": []
+	},
+	{
+		"order": 11,
+		"iconName": "blood_pack",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x22c9",
+		"include": [
+			"edid|Bloodpack",
+			"edid|BloodpackIrradiated"
+		],
+		"exclude": [
+			"edid|GlowingOneBlood",
+			"edid|BloodpackGlowing"
+		]
+	},
+	{
+		"order": 12,
+		"iconName": "glowing_blood",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x22ca",
+		"include": [
+			"edid|GlowingOneBlood",
+			"edid|BloodpackGlowing"
+		],
+		"exclude": []
+	},
+	{
+		"order": 13,
+		"iconName": "x_cell",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22cb",
+		"include": [
+			"edid|XCell"
+		],
+		"exclude": []
+	},
+	{
+		"order": 14,
+		"iconName": "mentats",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22cc",
+		"include": [
+			"ekwd|AddictionKeywordMentats"
+		],
+		"exclude": []
+	},
+	{
+		"order": 15,
+		"iconName": "buffout",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x22cd",
+		"include": [
+			"edid|Buffout",
+			"edid|Bufftats"
+		],
+		"exclude": []
+	},
+	{
+		"order": 16,
+		"iconName": "psycho",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x22ce",
+		"include": [
+			"edid|Psycho",
+			"edid|Overdrive",
+			"edid|ChemBlend",
+			"edid|Fury",
+			"edid|SurvivalShortcut",
+			"edid|BrawlingChemist",
+			"edid|DaddyO"
+		],
+		"exclude": [
+			"edid|VenisonAndTatoStew_Psycho"
+		]
+	},
+	{
+		"order": 17,
+		"iconName": "mutation_serum",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22cf",
+		"include": [
+			"ekwd|ObjectTypeSerum"
+		],
+		"exclude": []
+	},
+	{
+		"order": 18,
+		"iconName": "day_tripper",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22d0",
+		"include": [
+			"edid|DayTripper"
+		],
+		"exclude": []
+	},
+	{
+		"order": 19,
+		"iconName": "magazine",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": true,
+		"isFullReplaced": false,
+		"header": "0x22d1",
+		"include": [
+			"ekwd|MagazineKeyword"
+		],
+		"exclude": []
+	},
+	{
+		"order": 20,
+		"iconName": "bobblehead",
+		"leftSignature": "ALCH",
+		"rightSignature": "FULL",
+		"isDeleted": false,
+		"isAnyKeyword": false,
+		"isInclusiveOr": false,
+		"isFullReplaced": false,
+		"header": "0x22d2",
+		"include": [
+			"ekwd|BobbleheadKeyword"
+		],
+		"exclude": []
+	}
 ]
