@@ -1,24 +1,18 @@
-import * as fs from 'node:fs';
-import * as path from 'path';
-import * as ts from 'typescript';
+import ts from 'typescript';
 
 const visit = (node: ts.Node): ts.Node => {
   if (node.kind === ts.SyntaxKind.ArrayLiteralExpression) {
     const elements = (node as ts.ArrayLiteralExpression)
       .elements as ts.NodeArray<ts.ObjectLiteralExpression>;
     const sortedElements = elements.toSorted((objA, objB) => {
-      const orderPropA = Number(
-        objA.properties.find(
-          (property) => property.name.escapedText === 'order'
-        ).initializer.text
-      );
-      const orderPropB = Number(
-        objB.properties.find(
-          (property) => property.name.escapedText === 'order'
-        ).initializer.text
-      );
+      const orderPropA = objA.properties.find(
+        (property) => property?.name?.getText(inputFile) === 'order'
+      ) as ts.PropertyAssignment;
+      const orderPropB = objB.properties.find(
+        (property) => property?.name?.getText(inputFile) === 'order'
+      ) as ts.PropertyAssignment;
 
-      return orderPropA - orderPropB;
+      return Number(orderPropA) - Number(orderPropB);
     });
     const newNode = ts.factory.createArrayLiteralExpression(
       sortedElements,
@@ -36,9 +30,10 @@ const transformerFactory: ts.TransformerFactory<ts.Node> =
     return ts.visitNode(rootNode, visit);
   };
 
+const inputFileString = await Bun.file('./rules/__test.ts').text();
 const inputFile = ts.createSourceFile(
   'x.ts',
-  fs.readFileSync(path.resolve(process.cwd(), './rules/__test.ts'), 'utf-8'),
+  inputFileString,
   ts.ScriptTarget.Latest,
   undefined
 );
