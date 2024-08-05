@@ -1,7 +1,7 @@
 import { readdir } from 'node:fs/promises';
 import { JSDOM } from 'jsdom';
-import { getSafeFileName } from './common';
-import { ICONS_DIRECTORY } from './const';
+import { getSafeFileName } from '@/utils/common';
+import { ICONS_DIRECTORY } from '@/constants';
 
 const cleanup = async () => {
   const files = await readdir(ICONS_DIRECTORY, { recursive: true });

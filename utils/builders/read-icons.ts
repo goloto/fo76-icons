@@ -1,5 +1,5 @@
-import { ICONS_DIRECTORY } from '../const';
-import type { CategoryOrder, IconNames } from '../types';
+import { ICONS_DIRECTORY } from '@/constants';
+import type { CategoryOrder, IconNames } from '@/types';
 import { readdir } from 'node:fs/promises';
 
 export const readIcons = async (

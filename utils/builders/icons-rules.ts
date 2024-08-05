@@ -1,13 +1,13 @@
-import { LeftSignature, RightSignature } from '../const';
-import type { CategoryOrder, IconNames, Rule } from '../types';
-import { readFileAsJson } from '../file-reading';
+import { LeftSignature, RightSignature } from '@/constants';
+import type { CategoryOrder, IconNames, Rule } from '@/types';
+import { readFileAsJson } from '@/utils/file-reading';
 import {
   ICONS_DEFAULT_RULES,
   RULES_DIRECTORY,
   SORTED_RULES_KEYS,
-} from '../const';
-import { getNumFromHexadecimal, sortByOrder } from '../common';
-import { writeJson } from '../file-writing';
+} from '@/constants';
+import { getNumFromHexadecimal, sortByOrder } from '@/utils/common';
+import { writeJson } from '@/utils/file-writing';
 
 export const buildIconRules = async (
   categoryOrder: CategoryOrder[],

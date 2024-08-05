@@ -1,7 +1,7 @@
-import type { Rule } from './types';
+import type { Rule } from '../types';
 
 export const ICONS_DIRECTORY = './icons';
-export const GENERATED_DIRECTORY = './generated';
+export const GENERATED_DIRECTORY = './src/generated';
 export const RULES_DIRECTORY = './rules';
 
 const onlyActualItemsRegExp = new RegExp(

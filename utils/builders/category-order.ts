@@ -1,9 +1,9 @@
 import { readdir } from 'node:fs/promises';
-import { GENERATED_DIRECTORY, RULES_DIRECTORY } from '../const';
-import { readCategoriesOrderFile } from '../file-reading';
-import { writeJson } from '../file-writing';
-import type { CategoryOrder } from '../types';
-import { sortByOrder } from '../common';
+import { GENERATED_DIRECTORY, RULES_DIRECTORY } from '@/constants';
+import { readCategoriesOrderFile } from '@/utils/file-reading';
+import { writeJson } from '@/utils/file-writing';
+import type { CategoryOrder } from '@/types';
+import { sortByOrder } from '@/utils/common';
 
 export const buildCategoryOrder = async (): Promise<CategoryOrder[]> => {
   const categoryFiles = await readdir(`${RULES_DIRECTORY}`);

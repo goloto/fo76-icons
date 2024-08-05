@@ -19,7 +19,7 @@ import type {
   ICON_THROWN_WEAPONS,
   ICON_WEAPONS,
 } from '../generated/icons-enum';
-import type { LeftSignature, RightSignature } from './const';
+import type { LeftSignature, RightSignature } from '../constants';
 
 export interface Icon {
   name: string;

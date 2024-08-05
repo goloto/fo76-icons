@@ -1,5 +1,5 @@
-import { getCharFromHexadecimal } from '../common';
-import type { Rule } from '../types';
+import { getCharFromHexadecimal } from '@/utils/common';
+import type { Rule } from '@/types';
 
 const FONT_CONFIG_TEMPLATE = `fontlib "fonts_ru"
 map "$76HandwrittenIlliterate" = "HandwrittenIlliterate" Normal

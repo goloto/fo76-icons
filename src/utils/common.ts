@@ -1,4 +1,4 @@
-import type { Rule } from './types';
+import type { Rule } from '../types';
 
 export const isIconInfoArray = (input: any): input is Rule[] =>
   Array.isArray(input);

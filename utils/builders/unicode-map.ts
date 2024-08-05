@@ -1,5 +1,5 @@
-import { readUnicodeMapFile } from '../file-reading';
-import type { Rule } from '../types';
+import { readUnicodeMapFile } from '@/utils/file-reading';
+import type { Rule } from '@/types';
 
 const TEMPLATE_LINK = '%custom-names%';
 

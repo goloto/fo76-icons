@@ -1,5 +1,5 @@
-import { ICONS_DIRECTORY } from './const';
-import type { CategoryOrder } from './types';
+import { ICONS_DIRECTORY } from '@/constants';
+import type { CategoryOrder } from '@/types';
 import { readdir } from 'node:fs/promises';
 import ts from 'typescript';
 
@@ -7,7 +7,7 @@ export const generateIconsEnum = async (
   categoryOrder: CategoryOrder[]
 ): Promise<void> => {
   const file = ts.createSourceFile(
-    `icons.ts`,
+    `icons-enum.ts`,
     '',
     ts.ScriptTarget.ESNext,
     false,
@@ -53,5 +53,5 @@ export const generateIconsEnum = async (
     file
   );
 
-  await Bun.write('./generated/icons-enum.ts', result);
+  await Bun.write('./src/generated/icons-enum.ts', result);
 };

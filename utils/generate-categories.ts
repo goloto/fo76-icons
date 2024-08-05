@@ -1,4 +1,4 @@
-import { RULES_DIRECTORY } from './const';
+import { RULES_DIRECTORY } from '@/constants';
 
 import { readdir } from 'node:fs/promises';
 import ts from 'typescript';
@@ -36,7 +36,7 @@ export const generateCategories = async (): Promise<void> => {
     file
   );
 
-  await Bun.write('./generated/icon-categories-enum.ts', result);
+  await Bun.write('./src/generated/icon-categories-enum.ts', result);
 };
 
 const filterOnlyJson = (item: string) => item.includes('.json');

@@ -1,6 +1,6 @@
-import { ICON_SHOTGUNS } from '../generated/icons-enum';
-import { LeftSignature, RightSignature } from '../utils/const';
-import type { Rule } from '../utils/types';
+import { ICON_SHOTGUNS } from '@/generated/icons-enum';
+import { LeftSignature, RightSignature } from '@/constants';
+import type { Rule } from '@/types';
 
 export const SHOTGUNS_RULES: Rule[] = [
   {

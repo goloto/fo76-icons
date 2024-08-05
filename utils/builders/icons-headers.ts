@@ -1,6 +1,6 @@
-import { getCharFromHexadecimal } from '../common';
-import { writeUtf8BomString } from '../file-writing';
-import type { Rule } from '../types';
+import { getCharFromHexadecimal } from '@/utils/common';
+import { writeUtf8BomString } from '@/utils/file-writing';
+import type { Rule } from '@/types';
 
 const HEADER_ANCHOR = '%header%';
 const INCLUDE_ANCHOR = '%include%';

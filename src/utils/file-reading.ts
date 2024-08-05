@@ -1,5 +1,5 @@
-import { GENERATED_DIRECTORY } from './const';
-import type { CategoryOrder, Rule, IconOrder } from './types';
+import { GENERATED_DIRECTORY } from '../constants';
+import type { CategoryOrder, Rule, IconOrder } from '../types';
 
 export const readCategoriesOrderFile = async (): Promise<CategoryOrder[]> => {
   return await readFileAsJson<CategoryOrder[]>(

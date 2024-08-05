@@ -1,6 +1,6 @@
-import { ICON_MINES } from '../generated/icons-enum';
-import { LeftSignature, RightSignature } from '../utils/const';
-import type { Rule } from '../utils/types';
+import { ICON_MINES } from '@/generated/icons-enum';
+import { LeftSignature, RightSignature } from '@/constants';
+import type { Rule } from '@/types';
 
 export const MINES_RULES: Rule[] = [
   {
