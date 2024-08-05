@@ -5,8 +5,10 @@ import { buildFontConfig } from './font-config';
 import { buildUnicodeMap } from './unicode-map';
 import { readIcons } from './read-icons';
 import { generateIconsEnum } from '../generate-icons-enum';
+import { generateCategories } from '../generate-categories';
 
 const build = async () => {
+  await generateCategories();
   const categoryOrder = await buildCategoryOrder();
   const iconNames = await readIcons(categoryOrder);
   const iconRules = await buildIconRules(categoryOrder, iconNames);
