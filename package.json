@@ -2,7 +2,7 @@
   "name": "fo76-icon-tags",
   "type": "module",
   "scripts": {
-    "build-all": "bun run ./utils/builders/all.ts",
+    "build-all": "bun run ./src/scripts/build-all/index.ts",
     "icons-cleanup": "bun run ./src/scripts/icons-cleanup.ts",
     "sort-rules": "bun run ./src/scripts/sort-rules.ts",
     "optimize-svg": "svgo ./icons/aid ./icons/ammo ./icons/apparel ./icons/armor ./icons/currency ./icons/events ./icons/food ./icons/holotapes ./icons/keys ./icons/legendary-effects ./icons/misc  ./icons/notes ./icons/weapons"

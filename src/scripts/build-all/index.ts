@@ -4,8 +4,8 @@ import { buildHeaders } from './icons-headers';
 import { buildFontConfig } from './font-config';
 import { buildUnicodeMap } from './unicode-map';
 import { readIcons } from './read-icons';
-import { generateIconsEnum } from '../generate-icons-enum';
-import { generateCategories } from '../generate-categories';
+import { generateIconsEnum } from '@/scripts/generate-icons-enum';
+import { generateCategories } from '@/scripts/generate-categories';
 
 const build = async () => {
   await generateCategories();
