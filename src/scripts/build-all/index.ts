@@ -8,10 +8,10 @@ import { generateIconsEnumFile } from '../generate-icons-enum-file';
 
 const build = async () => {
   await generateCategoriesFile();
+  await generateIconsEnumFile();
+
   const iconNames = await readIcons();
   const iconRules = await buildIconRules(iconNames);
-
-  await generateIconsEnumFile();
 
   await buildHeaders(iconRules);
   await buildFontConfig(iconRules);

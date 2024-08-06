@@ -20,6 +20,7 @@ import type {
   ICON_WEAPONS,
 } from '../generated/icons-enum';
 import type { LeftSignature, RightSignature } from '../constants';
+import type { ICON_CATEGORIES } from '@/generated/icon-categories-enum';
 
 export interface Icon {
   name: string;
@@ -74,7 +75,7 @@ export interface Rule {
 export type RulesMap = Record<string, Rule>;
 
 export interface CategoryOrder {
-  name: string;
+  name: ICON_CATEGORIES;
   order: number;
 }
 

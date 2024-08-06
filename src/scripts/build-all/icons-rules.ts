@@ -9,9 +9,10 @@ import {
 import { getNumFromHexadecimal, sortByOrder } from '@/utils/common';
 import { writeJson } from '@/utils/file-writing';
 import { ICON_CATEGORIES_ORDER } from '@/constants/categories-order';
+import type { ICON_CATEGORIES } from '@/generated/icon-categories-enum';
 
 export const buildIconRules = async (
-  iconNames: Record<string, IconNames[]>
+  iconNames: Record<ICON_CATEGORIES, IconNames[]>
 ): Promise<Rule[]> => {
   const concatenatedRules = await ICON_CATEGORIES_ORDER.reduce<Promise<Rule[]>>(
     async (accumulator, category) => {

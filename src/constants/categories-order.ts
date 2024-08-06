@@ -8,11 +8,11 @@ export const ICON_CATEGORIES_ORDER: CategoryOrder[] = [
   },
   {
     name: ICON_CATEGORIES.ThrownWeapons,
-    order: 100,
+    order: 1,
   },
   {
     name: ICON_CATEGORIES.Mines,
-    order: 200,
+    order: 2,
   },
   {
     name: ICON_CATEGORIES.LegendaryEffects,
@@ -82,4 +82,4 @@ export const ICON_CATEGORIES_ORDER: CategoryOrder[] = [
     name: ICON_CATEGORIES.Pistols,
     order: 19,
   },
-];
+] as const;
