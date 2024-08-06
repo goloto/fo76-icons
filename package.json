@@ -5,6 +5,7 @@
     "build-all": "bun run ./src/scripts/build-all/index.ts",
     "icons-cleanup": "bun run ./src/scripts/icons-cleanup.ts",
     "sort-rules": "bun run ./src/scripts/sort-rules.ts",
+    "sort-categories": "bun run ./src/scripts/sort-categories.ts",
     "optimize-svg": "svgo ./icons/aid ./icons/ammo ./icons/apparel ./icons/armor ./icons/currency ./icons/events ./icons/food ./icons/holotapes ./icons/keys ./icons/legendary-effects ./icons/misc  ./icons/notes ./icons/weapons"
   },
   "devDependencies": {

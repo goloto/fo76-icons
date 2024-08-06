@@ -1,6 +1,6 @@
 import ts from 'typescript';
 
-export const sortRules = (file: string) => {
+export const sortArrayExpression = (file: string) => {
   const inputFile = ts.createSourceFile(
     'filename.ts',
     file,
