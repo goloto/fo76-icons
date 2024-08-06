@@ -1,5 +1,5 @@
 import { LeftSignature, RightSignature } from '@/constants';
-import type { CategoryOrder, IconNames, Rule } from '@/types';
+import type { IconNames, Rule } from '@/types';
 import { readFileAsJson } from '@/utils/file-reading';
 import {
   ICONS_DEFAULT_RULES,
@@ -8,12 +8,12 @@ import {
 } from '@/constants';
 import { getNumFromHexadecimal, sortByOrder } from '@/utils/common';
 import { writeJson } from '@/utils/file-writing';
+import { ICON_CATEGORIES_ORDER } from '@/constants/categories-order';
 
 export const buildIconRules = async (
-  categoryOrder: CategoryOrder[],
   iconNames: Record<string, IconNames[]>
 ): Promise<Rule[]> => {
-  const concatenatedRules = await categoryOrder.reduce<Promise<Rule[]>>(
+  const concatenatedRules = await ICON_CATEGORIES_ORDER.reduce<Promise<Rule[]>>(
     async (accumulator, category) => {
       const categoryRulesPath = `${RULES_DIRECTORY}/${category.name}.json`;
       const awaitedAccumulator = await accumulator;

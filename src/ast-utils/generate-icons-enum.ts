@@ -1,11 +1,9 @@
 import { ICONS_DIRECTORY } from '@/constants';
-import type { CategoryOrder } from '@/types';
+import { ICON_CATEGORIES_ORDER } from '@/constants/categories-order';
 import { readdir } from 'node:fs/promises';
 import ts from 'typescript';
 
-export const generateIconsEnum = async (
-  categoryOrder: CategoryOrder[]
-): Promise<string> => {
+export const generateIconsEnum = async (): Promise<string> => {
   const file = ts.createSourceFile(
     `icons-enum.ts`,
     '',
@@ -16,7 +14,7 @@ export const generateIconsEnum = async (
   const printer = ts.createPrinter({ newLine: ts.NewLineKind.LineFeed });
   const enumBlocksArray = [];
 
-  for (const category of categoryOrder) {
+  for (const category of ICON_CATEGORIES_ORDER) {
     const categoryIconPaths = await readdir(
       `${ICONS_DIRECTORY}/${category.name}`
     );

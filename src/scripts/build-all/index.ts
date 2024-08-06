@@ -1,4 +1,3 @@
-import { buildCategoryOrder } from './category-order';
 import { buildIconRules } from './icons-rules';
 import { buildHeaders } from './icons-headers';
 import { buildFontConfig } from './font-config';
@@ -9,11 +8,10 @@ import { generateIconsEnumFile } from '../generate-icons-enum-file';
 
 const build = async () => {
   await generateCategoriesFile();
-  const categoryOrder = await buildCategoryOrder();
-  const iconNames = await readIcons(categoryOrder);
-  const iconRules = await buildIconRules(categoryOrder, iconNames);
+  const iconNames = await readIcons();
+  const iconRules = await buildIconRules(iconNames);
 
-  await generateIconsEnumFile(categoryOrder);
+  await generateIconsEnumFile();
 
   await buildHeaders(iconRules);
   await buildFontConfig(iconRules);
