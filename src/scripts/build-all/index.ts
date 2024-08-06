@@ -4,16 +4,16 @@ import { buildHeaders } from './icons-headers';
 import { buildFontConfig } from './font-config';
 import { buildUnicodeMap } from './unicode-map';
 import { readIcons } from './read-icons';
-import { generateIconsEnum } from '@/scripts/generate-icons-enum';
-import { generateCategories } from '@/scripts/generate-categories';
+import { generateCategoriesFile } from '../generate-categories-file';
+import { generateIconsEnumFile } from '../generate-icons-enum-file';
 
 const build = async () => {
-  await generateCategories();
+  await generateCategoriesFile();
   const categoryOrder = await buildCategoryOrder();
   const iconNames = await readIcons(categoryOrder);
   const iconRules = await buildIconRules(categoryOrder, iconNames);
 
-  await generateIconsEnum(categoryOrder);
+  await generateIconsEnumFile(categoryOrder);
 
   await buildHeaders(iconRules);
   await buildFontConfig(iconRules);

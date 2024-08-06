@@ -3,7 +3,7 @@ import { RULES_DIRECTORY } from '@/constants';
 import { readdir } from 'node:fs/promises';
 import ts from 'typescript';
 
-export const generateCategories = async (): Promise<void> => {
+export const generateCategories = async (): Promise<string> => {
   const file = ts.createSourceFile(
     `icon-categories-enum.ts`,
     '',
@@ -30,13 +30,7 @@ export const generateCategories = async (): Promise<void> => {
     enumMembers
   );
 
-  const result = printer.printNode(
-    ts.EmitHint.Unspecified,
-    enumDeclaration,
-    file
-  );
-
-  await Bun.write('./src/generated/icon-categories-enum.ts', result);
+  return printer.printNode(ts.EmitHint.Unspecified, enumDeclaration, file);
 };
 
 const filterOnlyJson = (item: string) => item.includes('.json');

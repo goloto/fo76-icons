@@ -5,7 +5,7 @@ import ts from 'typescript';
 
 export const generateIconsEnum = async (
   categoryOrder: CategoryOrder[]
-): Promise<void> => {
+): Promise<string> => {
   const file = ts.createSourceFile(
     `icons-enum.ts`,
     '',
@@ -47,11 +47,9 @@ export const generateIconsEnum = async (
     enumBlocksArray.push(enumDeclaration);
   }
 
-  const result = printer.printList(
+  return printer.printList(
     ts.ListFormat.MultiLine,
     ts.factory.createNodeArray(enumBlocksArray),
     file
   );
-
-  await Bun.write('./src/generated/icons-enum.ts', result);
 };
