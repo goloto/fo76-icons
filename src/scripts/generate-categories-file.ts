@@ -1,4 +1,4 @@
-import { generateCategories } from '@/ast-generators/generate-categories';
+import { generateCategories } from '@/ast-utils/generate-categories';
 
 export const generateCategoriesFile = async (): Promise<void> => {
   const content = await generateCategories();

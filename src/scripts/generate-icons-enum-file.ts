@@ -1,4 +1,4 @@
-import { generateIconsEnum } from '@/ast-generators/generate-icons-enum';
+import { generateIconsEnum } from '@/ast-utils/generate-icons-enum';
 import type { CategoryOrder } from '@/types';
 
 export const generateIconsEnumFile = async (
