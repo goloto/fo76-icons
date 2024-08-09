@@ -29,7 +29,7 @@ export interface Icon {
   order: number;
 }
 
-type ICON_COMMON = '_injected_innr_eraser';
+export type ICON_COMMON = '_injected_innr_eraser';
 
 export type IconNames =
   | ICON_COMMON
@@ -55,8 +55,8 @@ export type IconNames =
 
 type IncludeProperty = `edid|${string}`[] | `ekwd|${string}`[];
 
-export interface Rule {
-  iconName: IconNames;
+export interface Rule<T extends IconNames> {
+  iconName: T;
   order: number;
   leftSignature: LeftSignature;
   rightSignature: RightSignature;
@@ -72,7 +72,7 @@ export interface Rule {
   isFallback?: boolean;
 }
 
-export type RulesMap = Record<string, Rule>;
+export type RulesMap = Record<string, Rule<IconNames>>;
 
 export interface CategoryOrder {
   name: ICON_CATEGORIES;

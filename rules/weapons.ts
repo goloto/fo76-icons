@@ -2,7 +2,7 @@ import { ICON_WEAPONS } from '@/generated/icons-enum';
 import { LeftSignature, RightSignature } from '@/constants';
 import type { Rule } from '@/types';
 
-export const WEAPONS_RULES: Rule[] = [
+export const WEAPONS_RULES: Rule<ICON_WEAPONS>[] = [
   {
     order: 0,
     iconName: ICON_WEAPONS.UniqueWeapon,

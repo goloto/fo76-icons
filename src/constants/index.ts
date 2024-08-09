@@ -1,4 +1,4 @@
-import type { Rule } from '../types';
+import type { IconNames, Rule } from '../types';
 
 export const ICONS_DIRECTORY = './icons';
 export const GENERATED_DIRECTORY = './src/generated';
@@ -41,7 +41,7 @@ export enum LeftSignature {
   Weapon = 'WEAP',
 }
 
-export const SORTED_RULES_KEYS: Array<keyof Rule> = [
+export const SORTED_RULES_KEYS: Array<keyof Rule<IconNames>> = [
   'order',
   'iconName',
   'leftSignature',
@@ -66,7 +66,7 @@ const DEFAULT_WEAPON_RULES = {
 
 export const ICONS_DEFAULT_RULES: Record<
   string,
-  Pick<Rule, 'leftSignature' | 'rightSignature' | 'isFullReplaced'>
+  Pick<Rule<IconNames>, 'leftSignature' | 'rightSignature' | 'isFullReplaced'>
 > = {
   aid: {
     rightSignature: RightSignature.FULL,

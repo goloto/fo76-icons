@@ -2,7 +2,7 @@ import { ICON_MELEE_WEAPONS } from '@/generated/icons-enum';
 import { LeftSignature, RightSignature } from '@/constants';
 import type { Rule } from '@/types';
 
-export const MELEE_WEAPONS_RULES: Rule[] = [
+export const MELEE_WEAPONS_RULES: Rule<ICON_MELEE_WEAPONS>[] = [
   {
     order: 0,
     iconName: ICON_MELEE_WEAPONS.PowerFist,

@@ -2,7 +2,7 @@ import { ICON_MISC } from '@/generated/icons-enum';
 import { LeftSignature, RightSignature } from '@/constants';
 import type { Rule } from '@/types';
 
-export const MISC_RULES: Rule[] = [
+export const MISC_RULES: Rule<ICON_MISC>[] = [
   {
     order: 0,
     iconName: ICON_MISC.LegendaryModule,

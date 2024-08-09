@@ -2,7 +2,7 @@ import { ICON_APPAREL } from '@/generated/icons-enum';
 import { LeftSignature, RightSignature } from '@/constants';
 import type { Rule } from '@/types';
 
-export const APPAREL_RULES: Rule[] = [
+export const APPAREL_RULES: Rule<ICON_APPAREL>[] = [
   {
     order: 0,
     iconName: ICON_APPAREL.Helmet,

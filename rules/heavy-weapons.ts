@@ -2,7 +2,7 @@ import { ICON_HEAVY_WEAPONS } from '@/generated/icons-enum';
 import { LeftSignature, RightSignature } from '@/constants';
 import type { Rule } from '@/types';
 
-export const HEAVY_WEAPONS_RULES: Rule[] = [
+export const HEAVY_WEAPONS_RULES: Rule<ICON_HEAVY_WEAPONS>[] = [
   {
     order: 0,
     iconName: ICON_HEAVY_WEAPONS.Flamer,

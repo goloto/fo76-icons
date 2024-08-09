@@ -2,7 +2,7 @@ import { ICON_THROWN_WEAPONS } from '@/generated/icons-enum';
 import { LeftSignature, RightSignature } from '@/constants';
 import type { Rule } from '@/types';
 
-export const THROWN_WEAPONS_RULES: Rule[] = [
+export const THROWN_WEAPONS_RULES: Rule<ICON_THROWN_WEAPONS>[] = [
   {
     order: 0,
     iconName: ICON_THROWN_WEAPONS.MeatClever,

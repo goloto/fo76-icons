@@ -2,7 +2,7 @@ import { ICON_MINES } from '@/generated/icons-enum';
 import { LeftSignature, RightSignature } from '@/constants';
 import type { Rule } from '@/types';
 
-export const MINES_RULES: Rule[] = [
+export const MINES_RULES: Rule<ICON_MINES>[] = [
   {
     order: 0,
     iconName: ICON_MINES.CryoMine,

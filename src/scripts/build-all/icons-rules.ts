@@ -13,42 +13,45 @@ import type { ICON_CATEGORIES } from '@/generated/icon-categories-enum';
 
 export const buildIconRules = async (
   iconNames: Record<ICON_CATEGORIES, IconNames[]>
-): Promise<Rule[]> => {
-  const concatenatedRules = await ICON_CATEGORIES_ORDER.reduce<Promise<Rule[]>>(
-    async (accumulator, category) => {
-      const categoryRulesPath = `${RULES_DIRECTORY}/${category.name}.json`;
-      const awaitedAccumulator = await accumulator;
-      const categoryRules = await readFileAsJson<Rule[]>(categoryRulesPath);
-      const categoryIconNames = categoryRules.map((item) => item.iconName);
-      const newRules = iconNames[category.name].reduce<Rule[]>(
-        (accumulator, item) => {
-          if (categoryIconNames.includes(item)) {
-            return accumulator;
-          }
+): Promise<Rule<IconNames>[]> => {
+  const concatenatedRules = await ICON_CATEGORIES_ORDER.reduce<
+    Promise<Rule<IconNames>[]>
+  >(async (accumulator, category) => {
+    const categoryRulesPath = `${RULES_DIRECTORY}/${category.name}.json`;
+    const awaitedAccumulator = await accumulator;
+    const categoryRules =
+      await readFileAsJson<Rule<IconNames>[]>(categoryRulesPath);
+    const categoryIconNames = categoryRules.map((item) => item.iconName);
+    const newRules = iconNames[category.name].reduce<Rule<IconNames>[]>(
+      (accumulator, item) => {
+        if (categoryIconNames.includes(item)) {
+          return accumulator;
+        }
 
-          return accumulator.concat(createDefaultInfo(item, category.name));
-        },
-        []
-      );
-      const updatedRules = categoryRules
-        .concat(newRules)
-        .filter((rule) => !rule.isInjected)
-        .concat(injectRules(category.name, categoryRules))
-        .map(sortRuleKeys)
-        .sort(sortByOrder)
-        .map(updateOrderAndHeader);
+        return accumulator.concat(createDefaultInfo(item, category.name));
+      },
+      []
+    );
+    const updatedRules = categoryRules
+      .concat(newRules)
+      .filter((rule) => !rule.isInjected)
+      .concat(injectRules(category.name, categoryRules))
+      .map(sortRuleKeys)
+      .sort(sortByOrder)
+      .map(updateOrderAndHeader);
 
-      await writeJson(categoryRulesPath, updatedRules);
+    await writeJson(categoryRulesPath, updatedRules);
 
-      return awaitedAccumulator.concat(updatedRules);
-    },
-    Promise.resolve([])
-  );
+    return awaitedAccumulator.concat(updatedRules);
+  }, Promise.resolve([]));
 
   return concatenatedRules;
 };
 
-const injectRules = (category: string, rules: Rule[]): Rule[] => {
+const injectRules = (
+  category: string,
+  rules: Rule<IconNames>[]
+): Rule<IconNames>[] => {
   switch (category) {
     case 'legendary-effects':
       return [
@@ -78,22 +81,24 @@ const injectRules = (category: string, rules: Rule[]): Rule[] => {
   }
 };
 
-const concatAllIncludeRules = (accumulator: string[], rule: Rule): string[] =>
-  rule?.include ? accumulator.concat(rule.include) : accumulator;
+const concatAllIncludeRules = (
+  accumulator: string[],
+  rule: Rule<IconNames>
+): string[] => (rule?.include ? accumulator.concat(rule.include) : accumulator);
 
-const updateOrderAndHeader = (item: Rule, index: number) => ({
+const updateOrderAndHeader = (item: Rule<IconNames>, index: number) => ({
   ...item,
   order: index,
   header: item.isInjected ? item.header : generateIconHeader(item.iconName),
 });
 
-const sortRuleKeys = (item: Rule) => {
+const sortRuleKeys = (item: Rule<IconNames>) => {
   const itemWithSortedKeys = SORTED_RULES_KEYS.reduce(
     (accumulator, key) => ({
       ...accumulator,
       [key]: item[key],
     }),
-    <Rule>{}
+    <Rule<IconNames>>{}
   );
 
   return itemWithSortedKeys;
@@ -123,7 +128,10 @@ const generateIconHeader = (iconName: string): string => {
   return value;
 };
 
-const createDefaultInfo = (iconName: IconNames, category: string): Rule => ({
+const createDefaultInfo = (
+  iconName: IconNames,
+  category: string
+): Rule<typeof iconName> => ({
   order: 999,
   iconName: iconName,
   isInjected: false,

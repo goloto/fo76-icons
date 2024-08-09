@@ -2,7 +2,7 @@ import { ICON_ARMOR } from '@/generated/icons-enum';
 import { LeftSignature, RightSignature } from '@/constants';
 import type { Rule } from '@/types';
 
-export const ARMOR_RULES: Rule[] = [
+export const ARMOR_RULES: Rule<ICON_ARMOR>[] = [
   {
     order: 0,
     iconName: ICON_ARMOR.TFortyFive,

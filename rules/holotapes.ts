@@ -2,7 +2,7 @@ import { ICON_HOLOTAPES } from '@/generated/icons-enum';
 import { LeftSignature, RightSignature } from '@/constants';
 import type { Rule } from '@/types';
 
-export const HOLOTAPES_RULES: Rule[] = [
+export const HOLOTAPES_RULES: Rule<ICON_HOLOTAPES>[] = [
   {
     order: 0,
     iconName: ICON_HOLOTAPES.SiloTape,

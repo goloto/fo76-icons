@@ -2,7 +2,7 @@ import { ICON_AID } from '@/generated/icons-enum';
 import { LeftSignature, RightSignature } from '@/constants';
 import type { Rule } from '@/types';
 
-export const AID_RULES: Rule[] = [
+export const AID_RULES: Rule<ICON_AID>[] = [
   {
     order: 0,
     iconName: ICON_AID.Lunchbox,

@@ -2,7 +2,7 @@ import { ICON_FOOD } from '@/generated/icons-enum';
 import { LeftSignature, RightSignature } from '@/constants';
 import type { Rule } from '@/types';
 
-export const FOOD_RULES: Rule[] = [
+export const FOOD_RULES: Rule<ICON_FOOD>[] = [
   {
     order: 0,
     iconName: ICON_FOOD.Toxic,

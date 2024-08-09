@@ -2,7 +2,7 @@ import { ICON_NOTES } from '@/generated/icons-enum';
 import { LeftSignature, RightSignature } from '@/constants';
 import type { Rule } from '@/types';
 
-export const NOTES_RULES: Rule[] = [
+export const NOTES_RULES: Rule<ICON_NOTES>[] = [
   {
     order: 0,
     iconName: ICON_NOTES.Plan,

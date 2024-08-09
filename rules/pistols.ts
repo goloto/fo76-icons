@@ -2,7 +2,7 @@ import { ICON_PISTOLS } from '@/generated/icons-enum';
 import { LeftSignature, RightSignature } from '@/constants';
 import type { Rule } from '@/types';
 
-export const PISTOLS_RULES: Rule[] = [
+export const PISTOLS_RULES: Rule<ICON_PISTOLS>[] = [
   {
     order: 0,
     iconName: ICON_PISTOLS.GaussPistol,

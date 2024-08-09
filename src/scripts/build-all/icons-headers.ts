@@ -1,6 +1,6 @@
 import { getCharFromHexadecimal } from '@/utils/common';
 import { writeUtf8BomString } from '@/utils/file-writing';
-import type { Rule } from '@/types';
+import type { IconNames, Rule } from '@/types';
 
 const HEADER_ANCHOR = '%header%';
 const INCLUDE_ANCHOR = '%include%';
@@ -34,7 +34,7 @@ const RULE_TEMPLATE = `[StartRule]
  ${EXCLUDE_ANCHOR}
 [EndRule]`;
 
-export const buildHeaders = async (iconRules: Rule[]) => {
+export const buildHeaders = async (iconRules: Rule<IconNames>[]) => {
   const filteredIconRules = iconRules.filter((item) => !item.isDeleted);
   const regularResult = reduceRules(filteredIconRules, (item) =>
     replaceAnchors(item).replace(
@@ -51,8 +51,8 @@ export const buildHeaders = async (iconRules: Rule[]) => {
 };
 
 const reduceRules = (
-  rules: Rule[],
-  callback: (item: Rule) => string
+  rules: Rule<IconNames>[],
+  callback: (item: Rule<IconNames>) => string
 ): string => {
   return rules.reduce((accumulator: string, item) => {
     const rule = callback(item);
@@ -69,7 +69,7 @@ const replaceAnchors = ({
   isFullReplaced,
   include,
   exclude,
-}: Rule): string => {
+}: Rule<IconNames>): string => {
   return RULE_TEMPLATE.replace(RIGHT_SIGNATURE_ANCHOR, rightSignature)
     .replace(LEFT_SIGNATURE_ANCHOR, leftSignature)
     .replace(IS_ANY_KEYWORD_ANCHOR, replaceBoolean(isAnyKeyword))

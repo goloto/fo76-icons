@@ -1,8 +1,10 @@
 import { ICON_LEGENDARY_EFFECTS } from '@/generated/icons-enum';
 import { LeftSignature, RightSignature } from '@/constants';
-import type { Rule } from '@/types';
+import type { ICON_COMMON, Rule } from '@/types';
 
-export const LEGENDARY_EFFECTS_RULES: Rule[] = [
+export const LEGENDARY_EFFECTS_RULES: Rule<
+  ICON_LEGENDARY_EFFECTS | ICON_COMMON
+>[] = [
   {
     order: 0,
     iconName: ICON_LEGENDARY_EFFECTS.Unyielding,

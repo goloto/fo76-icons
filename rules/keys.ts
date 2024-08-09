@@ -2,7 +2,7 @@ import { ICON_KEYS } from '@/generated/icons-enum';
 import { LeftSignature, RightSignature } from '@/constants';
 import type { Rule } from '@/types';
 
-export const KEYS_RULES: Rule[] = [
+export const KEYS_RULES: Rule<ICON_KEYS>[] = [
   {
     order: 0,
     iconName: ICON_KEYS.AccessCard,

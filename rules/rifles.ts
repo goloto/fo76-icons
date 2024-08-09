@@ -2,7 +2,7 @@ import { ICON_RIFLES } from '@/generated/icons-enum';
 import { LeftSignature, RightSignature } from '@/constants';
 import type { Rule } from '@/types';
 
-export const RIFLES_RULES: Rule[] = [
+export const RIFLES_RULES: Rule<ICON_RIFLES>[] = [
   {
     order: 0,
     iconName: ICON_RIFLES.Fixer,

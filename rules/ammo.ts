@@ -2,7 +2,7 @@ import { ICON_AMMO } from '@/generated/icons-enum';
 import { LeftSignature, RightSignature } from '@/constants';
 import type { Rule } from '@/types';
 
-export const AMMO_RULES: Rule[] = [
+export const AMMO_RULES: Rule<ICON_AMMO>[] = [
   {
     order: 0,
     iconName: ICON_AMMO.MiniNuke,
