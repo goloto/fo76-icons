@@ -1,6 +1,6 @@
-import type { Rule } from '../types';
+import type { IconNames, Rule } from '../types';
 
-export const isIconInfoArray = (input: any): input is Rule[] =>
+export const isIconInfoArray = (input: any): input is Rule<IconNames>[] =>
   Array.isArray(input);
 
 export const getNumFromHexadecimal = (str: string): number =>
