@@ -1,8 +1,8 @@
 import { ICON_CATEGORIES_ORDER } from '@/constants/categories-order';
 import * as ALL_RULES from '@/rules';
 import type { Icon, IconNames, RulesGroup } from '@/types';
-import { getNumFromHexadecimal } from '@/utils/common';
 import { getMaxLength } from '@/utils/get-max-length';
+import { generateCharCode } from '@/utils/generate-icon-char-code';
 
 export const generateIcons = (): Icon[] => {
   const unsortedRuleGroups = Object.values(ALL_RULES);
@@ -37,7 +37,7 @@ export const generateIcons = (): Icon[] => {
             .filter((prefix) => !!prefix)
             .map((prefix) => ({
               name: prefix,
-              charCode: generateIconHeader(prefix),
+              charCode: generateCharCode(prefix),
             }))
         );
       }
@@ -48,28 +48,4 @@ export const generateIcons = (): Icon[] => {
   );
 
   return icons;
-};
-
-const HEADER_GENERATOR = (function* () {
-  let start = getNumFromHexadecimal('2265');
-
-  while (true) {
-    start += 1;
-
-    yield start;
-  }
-})();
-
-const ICON_NAME_MAP = new Map([['_injected_innr_eraser', '0x020']]);
-
-const generateIconHeader = (iconName: IconNames): string => {
-  if (ICON_NAME_MAP.has(iconName)) {
-    return ICON_NAME_MAP.get(iconName) as string;
-  }
-
-  const value = '0x' + HEADER_GENERATOR.next().value.toString(16);
-
-  ICON_NAME_MAP.set(iconName, value);
-
-  return value;
 };

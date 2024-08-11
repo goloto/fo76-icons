@@ -5,7 +5,7 @@ import ts from 'typescript';
 
 export const generateCategories = async (): Promise<string> => {
   const file = ts.createSourceFile(
-    `icon-categories-enum.ts`,
+    `categories-order.ts`,
     '',
     ts.ScriptTarget.ESNext,
     false,
