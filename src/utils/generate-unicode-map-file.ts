@@ -1,9 +1,9 @@
 import { readUnicodeMapFile } from '@/utils/file-reading';
-import type { Icon, IconNames, Rule } from '@/types';
+import type { Icon } from '@/types';
 
 const TEMPLATE_LINK = '%custom-names%';
 
-export const buildUnicodeMap = async (icons: Icon[]) => {
+export const generateUnicodeMapFile = async (icons: Icon[]) => {
   const map = await readUnicodeMapFile();
   const slicedMap =
     map.slice(0, map.indexOf(TEMPLATE_LINK) + TEMPLATE_LINK.length) + '\r\n';

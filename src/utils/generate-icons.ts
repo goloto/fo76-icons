@@ -4,15 +4,15 @@ import type { Icon, IconNames, RulesGroup } from '@/types';
 import { getNumFromHexadecimal } from '@/utils/common';
 import { getMaxLength } from '@/utils/get-max-length';
 
-export const generateIconsObj = (): Icon[] => {
+export const generateIcons = (): Icon[] => {
   const unsortedRuleGroups = Object.values(ALL_RULES);
-  const sortedRuleGroups = unsortedRuleGroups.reduce(
-    (accumulator, group) => {
-      const category = ICON_CATEGORIES_ORDER.find(
-        (order) => order.name === group.category
+  const sortedRuleGroups = ICON_CATEGORIES_ORDER.reduce(
+    (accumulator, category) => {
+      const group = unsortedRuleGroups.find(
+        (group) => group.category === category.name
       );
 
-      if (!!category) {
+      if (!!group) {
         accumulator.push(group);
       }
 
@@ -60,11 +60,11 @@ const HEADER_GENERATOR = (function* () {
   }
 })();
 
-const ICON_NAME_MAP = new Map();
+const ICON_NAME_MAP = new Map([['_injected_innr_eraser', '0x020']]);
 
 const generateIconHeader = (iconName: IconNames): string => {
   if (ICON_NAME_MAP.has(iconName)) {
-    return ICON_NAME_MAP.get(iconName);
+    return ICON_NAME_MAP.get(iconName) as string;
   }
 
   const value = '0x' + HEADER_GENERATOR.next().value.toString(16);

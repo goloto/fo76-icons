@@ -20223,7 +20223,7 @@
 0x2294 auto_stim
 0x2295 regenerating
 0x2296 weightless
- 0x020 _injected_innr_eraser
+0x020 _injected_innr_eraser
 0x2297 legendary_module
 0x2298 legendary_core
 0x2299 treasure_note
@@ -20249,7 +20249,6 @@
 0x22ad key
 0x22ae plan
 0x22af note
-0x22ab quest
 0x22b0 check
 0x22b1 silo_tape
 0x22b2 holotape
