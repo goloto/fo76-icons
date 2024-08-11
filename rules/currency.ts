@@ -1,20 +1,24 @@
 import { ICON_CURRENCY } from '@/generated/icons-enum';
 import { LeftSignature, RightSignature } from '@/constants';
-import type { Rule } from '@/types';
+import type { RulesGroup } from '@/types';
+import { ICON_CATEGORIES } from '@/generated/icon-categories-enum';
 
-export const CURRENCY_RULES: Rule<ICON_CURRENCY>[] = [
-  {
-    order: 0,
-    iconName: ICON_CURRENCY.Caps,
-    leftSignature: LeftSignature.Currency,
-    rightSignature: RightSignature.FULL,
-    isInjected: false,
-    isDeleted: false,
-    isAnyKeyword: false,
-    isInclusiveOr: false,
-    isFullReplaced: false,
-    header: '0x2266',
-    include: ['edid|Caps001'],
-    exclude: [],
-  },
-];
+export const CURRENCY_RULES_GROUP: RulesGroup<ICON_CURRENCY> = {
+  category: ICON_CATEGORIES.Currency,
+  rules: [
+    {
+      order: 0,
+      iconName: ICON_CURRENCY.Caps,
+      leftSignature: LeftSignature.Currency,
+      rightSignature: RightSignature.FULL,
+      isInjected: false,
+      isDeleted: false,
+      isAnyKeyword: false,
+      isInclusiveOr: false,
+      isFullReplaced: false,
+      header: '0x2266',
+      include: ['edid|Caps001'],
+      exclude: [],
+    },
+  ],
+};

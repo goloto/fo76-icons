@@ -22,11 +22,10 @@ import type {
 import type { LeftSignature, RightSignature } from '../constants';
 import type { ICON_CATEGORIES } from '@/generated/icon-categories-enum';
 
-export interface Icon {
-  name: string;
-  category: string;
+export interface Icon<T extends IconNames> {
+  name: T;
+  category: ICON_CATEGORIES;
   charCode: string;
-  order: number;
 }
 
 export type ICON_COMMON = '_injected_innr_eraser';
@@ -72,7 +71,10 @@ export interface Rule<T extends IconNames> {
   isFallback?: boolean;
 }
 
-export type RulesMap = Record<string, Rule<IconNames>>;
+export type RulesGroup<T extends IconNames> = {
+  category: ICON_CATEGORIES;
+  rules: Rule<T>[];
+};
 
 export interface CategoryOrder {
   name: ICON_CATEGORIES;
