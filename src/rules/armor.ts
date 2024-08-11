@@ -3,7 +3,7 @@ import { LeftSignature, RightSignature } from '@/constants';
 import type { RulesGroup } from '@/types';
 import { ICON_CATEGORIES } from '@/generated/icon-categories-enum';
 
-export const ARMOR_RULES_GROUP: RulesGroup<ICON_ARMOR> = {
+export const ARMOR_RULES_GROUP = {
   category: ICON_CATEGORIES.Armor,
   rules: [
     {
@@ -221,4 +221,4 @@ export const ARMOR_RULES_GROUP: RulesGroup<ICON_ARMOR> = {
       exclude: ['ekwd|ArmorTypePower'],
     },
   ],
-};
+} as const satisfies RulesGroup<ICON_ARMOR>;

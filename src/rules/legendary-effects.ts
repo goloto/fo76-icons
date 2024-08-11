@@ -3,9 +3,7 @@ import { LeftSignature, RightSignature } from '@/constants';
 import type { ICON_COMMON, RulesGroup } from '@/types';
 import { ICON_CATEGORIES } from '@/generated/icon-categories-enum';
 
-export const LEGENDARY_EFFECTS_RULES_GROUP: RulesGroup<
-  ICON_LEGENDARY_EFFECTS | ICON_COMMON
-> = {
+export const LEGENDARY_EFFECTS_RULES_GROUP = {
   category: ICON_CATEGORIES.LegendaryEffects,
   rules: [
     {
@@ -592,4 +590,4 @@ export const LEGENDARY_EFFECTS_RULES_GROUP: RulesGroup<
       ],
     },
   ],
-};
+} as const satisfies RulesGroup<ICON_LEGENDARY_EFFECTS | ICON_COMMON>;

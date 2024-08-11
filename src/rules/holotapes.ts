@@ -3,7 +3,7 @@ import { LeftSignature, RightSignature } from '@/constants';
 import type { RulesGroup } from '@/types';
 import { ICON_CATEGORIES } from '@/generated/icon-categories-enum';
 
-export const HOLOTAPES_RULES_GROUP: RulesGroup<ICON_HOLOTAPES> = {
+export const HOLOTAPES_RULES_GROUP = {
   category: ICON_CATEGORIES.Holotapes,
   rules: [
     {
@@ -35,4 +35,4 @@ export const HOLOTAPES_RULES_GROUP: RulesGroup<ICON_HOLOTAPES> = {
       exclude: [],
     },
   ],
-};
+} as const satisfies RulesGroup<ICON_HOLOTAPES>;

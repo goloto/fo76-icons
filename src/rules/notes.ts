@@ -3,7 +3,7 @@ import { LeftSignature, RightSignature } from '@/constants';
 import type { RulesGroup } from '@/types';
 import { ICON_CATEGORIES } from '@/generated/icon-categories-enum';
 
-export const NOTES_RULES_GROUP: RulesGroup<ICON_NOTES> = {
+export const NOTES_RULES_GROUP = {
   category: ICON_CATEGORIES.Notes,
   rules: [
     {
@@ -49,4 +49,4 @@ export const NOTES_RULES_GROUP: RulesGroup<ICON_NOTES> = {
       exclude: [],
     },
   ],
-};
+} as const satisfies RulesGroup<ICON_NOTES>;

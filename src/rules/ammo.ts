@@ -3,7 +3,7 @@ import { LeftSignature, RightSignature } from '@/constants';
 import type { RulesGroup } from '@/types';
 import { ICON_CATEGORIES } from '@/generated/icon-categories-enum';
 
-export const AMMO_RULES_GROUP: RulesGroup<ICON_AMMO> = {
+export const AMMO_RULES_GROUP = {
   category: ICON_CATEGORIES.Ammo,
   rules: [
     {
@@ -168,4 +168,4 @@ export const AMMO_RULES_GROUP: RulesGroup<ICON_AMMO> = {
       ],
     },
   ],
-};
+} as const satisfies RulesGroup<ICON_AMMO>;

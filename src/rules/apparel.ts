@@ -3,7 +3,7 @@ import { LeftSignature, RightSignature } from '@/constants';
 import type { RulesGroup } from '@/types';
 import { ICON_CATEGORIES } from '@/generated/icon-categories-enum';
 
-export const APPAREL_RULES_GROUP: RulesGroup<ICON_APPAREL> = {
+export const APPAREL_RULES_GROUP = {
   category: ICON_CATEGORIES.Apparel,
   rules: [
     {
@@ -143,4 +143,4 @@ export const APPAREL_RULES_GROUP: RulesGroup<ICON_APPAREL> = {
       ],
     },
   ],
-};
+} as const satisfies RulesGroup<ICON_APPAREL>;

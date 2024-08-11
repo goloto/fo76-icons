@@ -3,7 +3,7 @@ import { LeftSignature, RightSignature } from '@/constants';
 import type { RulesGroup } from '@/types';
 import { ICON_CATEGORIES } from '@/generated/icon-categories-enum';
 
-export const CURRENCY_RULES_GROUP: RulesGroup<ICON_CURRENCY> = {
+export const CURRENCY_RULES_GROUP = {
   category: ICON_CATEGORIES.Currency,
   rules: [
     {
@@ -21,4 +21,4 @@ export const CURRENCY_RULES_GROUP: RulesGroup<ICON_CURRENCY> = {
       exclude: [],
     },
   ],
-};
+} as const satisfies RulesGroup<ICON_CURRENCY>;

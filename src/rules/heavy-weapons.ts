@@ -3,7 +3,7 @@ import { LeftSignature, RightSignature } from '@/constants';
 import type { RulesGroup } from '@/types';
 import { ICON_CATEGORIES } from '@/generated/icon-categories-enum';
 
-export const HEAVY_WEAPONS_RULES_GROUP: RulesGroup<ICON_HEAVY_WEAPONS> = {
+export const HEAVY_WEAPONS_RULES_GROUP = {
   category: ICON_CATEGORIES.HeavyWeapons,
   rules: [
     {
@@ -245,4 +245,4 @@ export const HEAVY_WEAPONS_RULES_GROUP: RulesGroup<ICON_HEAVY_WEAPONS> = {
       exclude: [],
     },
   ],
-};
+} as const satisfies RulesGroup<ICON_HEAVY_WEAPONS>;
