@@ -8,7 +8,7 @@ export const ARMOR_RULES_GROUP = {
   rules: [
     {
       order: 0,
-      iconName: ICON_ARMOR.TFortyFive,
+      prefix: [ICON_ARMOR.TFortyFive],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -22,7 +22,7 @@ export const ARMOR_RULES_GROUP = {
     },
     {
       order: 1,
-      iconName: ICON_ARMOR.TFivtyOne,
+      prefix: [ICON_ARMOR.TFivtyOne],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -36,7 +36,7 @@ export const ARMOR_RULES_GROUP = {
     },
     {
       order: 2,
-      iconName: ICON_ARMOR.TSixty,
+      prefix: [ICON_ARMOR.TSixty],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -50,7 +50,7 @@ export const ARMOR_RULES_GROUP = {
     },
     {
       order: 3,
-      iconName: ICON_ARMOR.TSixtyFive,
+      prefix: [ICON_ARMOR.TSixtyFive],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -64,7 +64,7 @@ export const ARMOR_RULES_GROUP = {
     },
     {
       order: 4,
-      iconName: ICON_ARMOR.XOne,
+      prefix: [ICON_ARMOR.XOne],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -78,7 +78,7 @@ export const ARMOR_RULES_GROUP = {
     },
     {
       order: 5,
-      iconName: ICON_ARMOR.PowerArmorHelmet,
+      prefix: [ICON_ARMOR.PowerArmorHelmet],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -104,7 +104,7 @@ export const ARMOR_RULES_GROUP = {
     },
     {
       order: 6,
-      iconName: ICON_ARMOR.Underarmor,
+      prefix: [ICON_ARMOR.Underarmor],
       leftSignature: LeftSignature.Armor,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -118,7 +118,7 @@ export const ARMOR_RULES_GROUP = {
     },
     {
       order: 7,
-      iconName: ICON_ARMOR.Spacesuit,
+      prefix: [ICON_ARMOR.Spacesuit],
       leftSignature: LeftSignature.Armor,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -132,7 +132,7 @@ export const ARMOR_RULES_GROUP = {
     },
     {
       order: 8,
-      iconName: ICON_ARMOR.ChestArmor,
+      prefix: [ICON_ARMOR.ChestArmor],
       leftSignature: LeftSignature.Armor,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -150,7 +150,7 @@ export const ARMOR_RULES_GROUP = {
     },
     {
       order: 9,
-      iconName: ICON_ARMOR.ArmorRightArm,
+      prefix: [ICON_ARMOR.ArmorRightArm],
       leftSignature: LeftSignature.Armor,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -168,7 +168,7 @@ export const ARMOR_RULES_GROUP = {
     },
     {
       order: 10,
-      iconName: ICON_ARMOR.ArmorLeftArm,
+      prefix: [ICON_ARMOR.ArmorLeftArm],
       leftSignature: LeftSignature.Armor,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -186,7 +186,7 @@ export const ARMOR_RULES_GROUP = {
     },
     {
       order: 11,
-      iconName: ICON_ARMOR.ArmorRightLeg,
+      prefix: [ICON_ARMOR.ArmorRightLeg],
       leftSignature: LeftSignature.Armor,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -204,7 +204,7 @@ export const ARMOR_RULES_GROUP = {
     },
     {
       order: 12,
-      iconName: ICON_ARMOR.ArmorLeftLeg,
+      prefix: [ICON_ARMOR.ArmorLeftLeg],
       leftSignature: LeftSignature.Armor,
       rightSignature: RightSignature.FULL,
       isInjected: false,

@@ -8,7 +8,7 @@ export const CURRENCY_RULES_GROUP = {
   rules: [
     {
       order: 0,
-      iconName: ICON_CURRENCY.Caps,
+      prefix: [ICON_CURRENCY.Caps],
       leftSignature: LeftSignature.Currency,
       rightSignature: RightSignature.FULL,
       isInjected: false,

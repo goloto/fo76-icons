@@ -8,7 +8,7 @@ export const NOTES_RULES_GROUP = {
   rules: [
     {
       order: 0,
-      iconName: ICON_NOTES.Plan,
+      prefix: [ICON_NOTES.Plan],
       leftSignature: LeftSignature.Book,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -22,7 +22,7 @@ export const NOTES_RULES_GROUP = {
     },
     {
       order: 1,
-      iconName: ICON_NOTES.Note,
+      prefix: [ICON_NOTES.Note],
       leftSignature: LeftSignature.Book,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -36,7 +36,7 @@ export const NOTES_RULES_GROUP = {
     },
     {
       order: 2,
-      iconName: ICON_NOTES.Check,
+      prefix: [ICON_NOTES.Check],
       leftSignature: LeftSignature.Book,
       rightSignature: RightSignature.FULL,
       isInjected: false,

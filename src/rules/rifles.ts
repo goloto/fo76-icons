@@ -8,7 +8,7 @@ export const RIFLES_RULES_GROUP = {
   rules: [
     {
       order: 0,
-      iconName: ICON_RIFLES.Fixer,
+      prefix: [ICON_RIFLES.Fixer],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -22,7 +22,7 @@ export const RIFLES_RULES_GROUP = {
     },
     {
       order: 1,
-      iconName: ICON_RIFLES.HandmadeRifle,
+      prefix: [ICON_RIFLES.HandmadeRifle],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -36,7 +36,7 @@ export const RIFLES_RULES_GROUP = {
     },
     {
       order: 2,
-      iconName: ICON_RIFLES.RailwayRifle,
+      prefix: [ICON_RIFLES.RailwayRifle],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -50,7 +50,7 @@ export const RIFLES_RULES_GROUP = {
     },
     {
       order: 3,
-      iconName: ICON_RIFLES.TeslaRifle,
+      prefix: [ICON_RIFLES.TeslaRifle],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -64,7 +64,7 @@ export const RIFLES_RULES_GROUP = {
     },
     {
       order: 4,
-      iconName: ICON_RIFLES.AlienDisintegrator,
+      prefix: [ICON_RIFLES.AlienDisintegrator],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -78,7 +78,7 @@ export const RIFLES_RULES_GROUP = {
     },
     {
       order: 5,
-      iconName: ICON_RIFLES.GaussRifle,
+      prefix: [ICON_RIFLES.GaussRifle],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -92,7 +92,7 @@ export const RIFLES_RULES_GROUP = {
     },
     {
       order: 6,
-      iconName: ICON_RIFLES.PlasmaRifle,
+      prefix: [ICON_RIFLES.PlasmaRifle],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -106,7 +106,7 @@ export const RIFLES_RULES_GROUP = {
     },
     {
       order: 7,
-      iconName: ICON_RIFLES.LaserRifle,
+      prefix: [ICON_RIFLES.LaserRifle],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -120,7 +120,7 @@ export const RIFLES_RULES_GROUP = {
     },
     {
       order: 8,
-      iconName: ICON_RIFLES.PipeRifle,
+      prefix: [ICON_RIFLES.PipeRifle],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -134,7 +134,7 @@ export const RIFLES_RULES_GROUP = {
     },
     {
       order: 9,
-      iconName: ICON_RIFLES.LaserMusket,
+      prefix: [ICON_RIFLES.LaserMusket],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -148,7 +148,7 @@ export const RIFLES_RULES_GROUP = {
     },
     {
       order: 10,
-      iconName: ICON_RIFLES.Rifle,
+      prefix: [ICON_RIFLES.Rifle],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,

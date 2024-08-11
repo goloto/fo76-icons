@@ -8,7 +8,7 @@ export const APPAREL_RULES_GROUP = {
   rules: [
     {
       order: 0,
-      iconName: ICON_APPAREL.Helmet,
+      prefix: [ICON_APPAREL.Helmet],
       leftSignature: LeftSignature.Armor,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -27,7 +27,7 @@ export const APPAREL_RULES_GROUP = {
     },
     {
       order: 1,
-      iconName: ICON_APPAREL.FedoraHat,
+      prefix: [ICON_APPAREL.FedoraHat],
       leftSignature: LeftSignature.Armor,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -41,7 +41,7 @@ export const APPAREL_RULES_GROUP = {
     },
     {
       order: 2,
-      iconName: ICON_APPAREL.FasnachtMask,
+      prefix: [ICON_APPAREL.FasnachtMask],
       leftSignature: LeftSignature.Armor,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -55,7 +55,7 @@ export const APPAREL_RULES_GROUP = {
     },
     {
       order: 3,
-      iconName: ICON_APPAREL.Beret,
+      prefix: [ICON_APPAREL.Beret],
       leftSignature: LeftSignature.Armor,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -69,7 +69,7 @@ export const APPAREL_RULES_GROUP = {
     },
     {
       order: 4,
-      iconName: ICON_APPAREL.GasMask,
+      prefix: [ICON_APPAREL.GasMask],
       leftSignature: LeftSignature.Armor,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -83,7 +83,7 @@ export const APPAREL_RULES_GROUP = {
     },
     {
       order: 5,
-      iconName: ICON_APPAREL.Glasses,
+      prefix: [ICON_APPAREL.Glasses],
       leftSignature: LeftSignature.Armor,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -97,7 +97,7 @@ export const APPAREL_RULES_GROUP = {
     },
     {
       order: 6,
-      iconName: ICON_APPAREL.Dress,
+      prefix: [ICON_APPAREL.Dress],
       leftSignature: LeftSignature.Armor,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -111,7 +111,7 @@ export const APPAREL_RULES_GROUP = {
     },
     {
       order: 7,
-      iconName: ICON_APPAREL.Suit,
+      prefix: [ICON_APPAREL.Suit],
       leftSignature: LeftSignature.Armor,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -125,7 +125,7 @@ export const APPAREL_RULES_GROUP = {
     },
     {
       order: 8,
-      iconName: ICON_APPAREL.Apparel,
+      prefix: [ICON_APPAREL.Apparel],
       leftSignature: LeftSignature.Armor,
       rightSignature: RightSignature.FULL,
       isInjected: false,

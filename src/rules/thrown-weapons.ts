@@ -8,7 +8,7 @@ export const THROWN_WEAPONS_RULES_GROUP = {
   rules: [
     {
       order: 0,
-      iconName: ICON_THROWN_WEAPONS.MeatClever,
+      prefix: [ICON_THROWN_WEAPONS.MeatClever],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -22,7 +22,7 @@ export const THROWN_WEAPONS_RULES_GROUP = {
     },
     {
       order: 1,
-      iconName: ICON_THROWN_WEAPONS.NukaGrenade,
+      prefix: [ICON_THROWN_WEAPONS.NukaGrenade],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -36,7 +36,7 @@ export const THROWN_WEAPONS_RULES_GROUP = {
     },
     {
       order: 2,
-      iconName: ICON_THROWN_WEAPONS.PlasmaGrenade,
+      prefix: [ICON_THROWN_WEAPONS.PlasmaGrenade],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -50,7 +50,7 @@ export const THROWN_WEAPONS_RULES_GROUP = {
     },
     {
       order: 3,
-      iconName: ICON_THROWN_WEAPONS.CryoGrenade,
+      prefix: [ICON_THROWN_WEAPONS.CryoGrenade],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -64,7 +64,7 @@ export const THROWN_WEAPONS_RULES_GROUP = {
     },
     {
       order: 4,
-      iconName: ICON_THROWN_WEAPONS.PulseGrenade,
+      prefix: [ICON_THROWN_WEAPONS.PulseGrenade],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -78,7 +78,7 @@ export const THROWN_WEAPONS_RULES_GROUP = {
     },
     {
       order: 5,
-      iconName: ICON_THROWN_WEAPONS.FragmentationGrenade,
+      prefix: [ICON_THROWN_WEAPONS.FragmentationGrenade],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -101,7 +101,7 @@ export const THROWN_WEAPONS_RULES_GROUP = {
     },
     {
       order: 6,
-      iconName: ICON_THROWN_WEAPONS.ThrownBomb,
+      prefix: [ICON_THROWN_WEAPONS.ThrownBomb],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -115,7 +115,7 @@ export const THROWN_WEAPONS_RULES_GROUP = {
     },
     {
       order: 7,
-      iconName: ICON_THROWN_WEAPONS.Dynamite,
+      prefix: [ICON_THROWN_WEAPONS.Dynamite],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,

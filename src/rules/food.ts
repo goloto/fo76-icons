@@ -8,7 +8,7 @@ export const FOOD_RULES_GROUP = {
   rules: [
     {
       order: 0,
-      iconName: ICON_FOOD.Toxic,
+      prefix: [ICON_FOOD.Toxic],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -22,7 +22,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 1,
-      iconName: ICON_FOOD.BottleOfWater,
+      prefix: [ICON_FOOD.BottleOfWater],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -36,7 +36,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 2,
-      iconName: ICON_FOOD.DirtyWater,
+      prefix: [ICON_FOOD.DirtyWater],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -50,7 +50,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 3,
-      iconName: ICON_FOOD.NukaCola,
+      prefix: [ICON_FOOD.NukaCola],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -64,7 +64,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 4,
-      iconName: ICON_FOOD.WeightIncreaser,
+      prefix: [ICON_FOOD.WeightIncreaser],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -78,7 +78,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 5,
-      iconName: ICON_FOOD.Beer,
+      prefix: [ICON_FOOD.Beer],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -103,7 +103,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 6,
-      iconName: ICON_FOOD.Wine,
+      prefix: [ICON_FOOD.Wine],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -117,7 +117,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 7,
-      iconName: ICON_FOOD.Whiskey,
+      prefix: [ICON_FOOD.Whiskey],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -131,7 +131,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 8,
-      iconName: ICON_FOOD.FermentedAlcohol,
+      prefix: [ICON_FOOD.FermentedAlcohol],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -145,7 +145,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 9,
-      iconName: ICON_FOOD.Juice,
+      prefix: [ICON_FOOD.Juice],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -159,7 +159,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 10,
-      iconName: ICON_FOOD.Tea,
+      prefix: [ICON_FOOD.Tea],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -173,7 +173,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 11,
-      iconName: ICON_FOOD.Milk,
+      prefix: [ICON_FOOD.Milk],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -187,7 +187,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 12,
-      iconName: ICON_FOOD.Salad,
+      prefix: [ICON_FOOD.Salad],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -205,7 +205,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 13,
-      iconName: ICON_FOOD.Soup,
+      prefix: [ICON_FOOD.Soup],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -223,7 +223,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 14,
-      iconName: ICON_FOOD.CannedFood,
+      prefix: [ICON_FOOD.CannedFood],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -237,7 +237,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 15,
-      iconName: ICON_FOOD.Bubblegum,
+      prefix: [ICON_FOOD.Bubblegum],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -251,7 +251,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 16,
-      iconName: ICON_FOOD.SnackCakes,
+      prefix: [ICON_FOOD.SnackCakes],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -265,7 +265,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 17,
-      iconName: ICON_FOOD.SugarBombs,
+      prefix: [ICON_FOOD.SugarBombs],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -279,7 +279,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 18,
-      iconName: ICON_FOOD.Candy,
+      prefix: [ICON_FOOD.Candy],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -293,7 +293,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 19,
-      iconName: ICON_FOOD.Cake,
+      prefix: [ICON_FOOD.Cake],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -307,7 +307,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 20,
-      iconName: ICON_FOOD.BerryPie,
+      prefix: [ICON_FOOD.BerryPie],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -330,7 +330,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 21,
-      iconName: ICON_FOOD.MeatSoup,
+      prefix: [ICON_FOOD.MeatSoup],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -352,7 +352,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 22,
-      iconName: ICON_FOOD.CookedMeat,
+      prefix: [ICON_FOOD.CookedMeat],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -370,7 +370,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 23,
-      iconName: ICON_FOOD.RawMeat,
+      prefix: [ICON_FOOD.RawMeat],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -391,7 +391,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 24,
-      iconName: ICON_FOOD.Egg,
+      prefix: [ICON_FOOD.Egg],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -411,7 +411,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 25,
-      iconName: ICON_FOOD.TickBlood,
+      prefix: [ICON_FOOD.TickBlood],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -425,7 +425,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 26,
-      iconName: ICON_FOOD.Berry,
+      prefix: [ICON_FOOD.Berry],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -439,7 +439,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 27,
-      iconName: ICON_FOOD.Carrot,
+      prefix: [ICON_FOOD.Carrot],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -457,7 +457,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 28,
-      iconName: ICON_FOOD.Flower,
+      prefix: [ICON_FOOD.Flower],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -475,7 +475,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 29,
-      iconName: ICON_FOOD.Fruit,
+      prefix: [ICON_FOOD.Fruit],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -489,7 +489,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 30,
-      iconName: ICON_FOOD.Mushrooms,
+      prefix: [ICON_FOOD.Mushrooms],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -511,7 +511,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 31,
-      iconName: ICON_FOOD.Honey,
+      prefix: [ICON_FOOD.Honey],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -525,7 +525,7 @@ export const FOOD_RULES_GROUP = {
     },
     {
       order: 32,
-      iconName: ICON_FOOD.Flavor,
+      prefix: [ICON_FOOD.Flavor],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,

@@ -8,7 +8,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
   rules: [
     {
       order: 0,
-      iconName: ICON_LEGENDARY_EFFECTS.Unyielding,
+      prefix: [ICON_LEGENDARY_EFFECTS.Unyielding],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -25,7 +25,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 1,
-      iconName: ICON_LEGENDARY_EFFECTS.AntiArmor,
+      prefix: [ICON_LEGENDARY_EFFECTS.AntiArmor],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -39,7 +39,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 2,
-      iconName: ICON_LEGENDARY_EFFECTS.Bloodied,
+      prefix: [ICON_LEGENDARY_EFFECTS.Bloodied],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -53,7 +53,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 3,
-      iconName: ICON_LEGENDARY_EFFECTS.Junkie,
+      prefix: [ICON_LEGENDARY_EFFECTS.Junkie],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -67,7 +67,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 4,
-      iconName: ICON_LEGENDARY_EFFECTS.Gourmand,
+      prefix: [ICON_LEGENDARY_EFFECTS.Gourmand],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -84,7 +84,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 5,
-      iconName: ICON_LEGENDARY_EFFECTS.Aristocrat,
+      prefix: [ICON_LEGENDARY_EFFECTS.Aristocrat],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -101,7 +101,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 6,
-      iconName: ICON_LEGENDARY_EFFECTS.Instigating,
+      prefix: [ICON_LEGENDARY_EFFECTS.Instigating],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -115,7 +115,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 7,
-      iconName: ICON_LEGENDARY_EFFECTS.Jaggernaut,
+      prefix: [ICON_LEGENDARY_EFFECTS.Jaggernaut],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -129,7 +129,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 8,
-      iconName: ICON_LEGENDARY_EFFECTS.Mutant,
+      prefix: [ICON_LEGENDARY_EFFECTS.Mutant],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -146,7 +146,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 9,
-      iconName: ICON_LEGENDARY_EFFECTS.Berserker,
+      prefix: [ICON_LEGENDARY_EFFECTS.Berserker],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -160,7 +160,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 10,
-      iconName: ICON_LEGENDARY_EFFECTS.Quad,
+      prefix: [ICON_LEGENDARY_EFFECTS.Quad],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -174,7 +174,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 11,
-      iconName: ICON_LEGENDARY_EFFECTS.TwoShot,
+      prefix: [ICON_LEGENDARY_EFFECTS.TwoShot],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -188,7 +188,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 12,
-      iconName: ICON_LEGENDARY_EFFECTS.Zealot,
+      prefix: [ICON_LEGENDARY_EFFECTS.Zealot],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -205,7 +205,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 13,
-      iconName: ICON_LEGENDARY_EFFECTS.Nocturnal,
+      prefix: [ICON_LEGENDARY_EFFECTS.Nocturnal],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -222,7 +222,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 14,
-      iconName: ICON_LEGENDARY_EFFECTS.Exterminator,
+      prefix: [ICON_LEGENDARY_EFFECTS.Exterminator],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -239,7 +239,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 15,
-      iconName: ICON_LEGENDARY_EFFECTS.Assassin,
+      prefix: [ICON_LEGENDARY_EFFECTS.Assassin],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -256,7 +256,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 16,
-      iconName: ICON_LEGENDARY_EFFECTS.Furious,
+      prefix: [ICON_LEGENDARY_EFFECTS.Furious],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -270,7 +270,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 17,
-      iconName: ICON_LEGENDARY_EFFECTS.Troubleshooter,
+      prefix: [ICON_LEGENDARY_EFFECTS.Troubleshooter],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -287,7 +287,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 18,
-      iconName: ICON_LEGENDARY_EFFECTS.MutantSlayer,
+      prefix: [ICON_LEGENDARY_EFFECTS.MutantSlayer],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -304,7 +304,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 19,
-      iconName: ICON_LEGENDARY_EFFECTS.Executioner,
+      prefix: [ICON_LEGENDARY_EFFECTS.Executioner],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -318,7 +318,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 20,
-      iconName: ICON_LEGENDARY_EFFECTS.Hunter,
+      prefix: [ICON_LEGENDARY_EFFECTS.Hunter],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -335,7 +335,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 21,
-      iconName: ICON_LEGENDARY_EFFECTS.Bolstering,
+      prefix: [ICON_LEGENDARY_EFFECTS.Bolstering],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -349,7 +349,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 22,
-      iconName: ICON_LEGENDARY_EFFECTS.Stalker,
+      prefix: [ICON_LEGENDARY_EFFECTS.Stalker],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -363,7 +363,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 23,
-      iconName: ICON_LEGENDARY_EFFECTS.Chameleon,
+      prefix: [ICON_LEGENDARY_EFFECTS.Chameleon],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -377,7 +377,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 24,
-      iconName: ICON_LEGENDARY_EFFECTS.GhoulSlayer,
+      prefix: [ICON_LEGENDARY_EFFECTS.GhoulSlayer],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -394,7 +394,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 25,
-      iconName: ICON_LEGENDARY_EFFECTS.LifeSaving,
+      prefix: [ICON_LEGENDARY_EFFECTS.LifeSaving],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -408,7 +408,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 26,
-      iconName: ICON_LEGENDARY_EFFECTS.Vanguard,
+      prefix: [ICON_LEGENDARY_EFFECTS.Vanguard],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -422,7 +422,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 27,
-      iconName: ICON_LEGENDARY_EFFECTS.Cloaking,
+      prefix: [ICON_LEGENDARY_EFFECTS.Cloaking],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -436,7 +436,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 28,
-      iconName: ICON_LEGENDARY_EFFECTS.Supressor,
+      prefix: [ICON_LEGENDARY_EFFECTS.Supressor],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -450,7 +450,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 29,
-      iconName: ICON_LEGENDARY_EFFECTS.Vampire,
+      prefix: [ICON_LEGENDARY_EFFECTS.Vampire],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -464,7 +464,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 30,
-      iconName: ICON_LEGENDARY_EFFECTS.Medic,
+      prefix: [ICON_LEGENDARY_EFFECTS.Medic],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -482,7 +482,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 31,
-      iconName: ICON_LEGENDARY_EFFECTS.AutoStim,
+      prefix: [ICON_LEGENDARY_EFFECTS.AutoStim],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -496,7 +496,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 32,
-      iconName: ICON_LEGENDARY_EFFECTS.Regenerating,
+      prefix: [ICON_LEGENDARY_EFFECTS.Regenerating],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -510,7 +510,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 33,
-      iconName: ICON_LEGENDARY_EFFECTS.Weightless,
+      prefix: [ICON_LEGENDARY_EFFECTS.Weightless],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -524,7 +524,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     },
     {
       order: 34,
-      iconName: '_injected_innr_eraser',
+      prefix: ['_injected_innr_eraser'],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: true,

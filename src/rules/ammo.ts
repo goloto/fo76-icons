@@ -8,7 +8,7 @@ export const AMMO_RULES_GROUP = {
   rules: [
     {
       order: 0,
-      iconName: ICON_AMMO.MiniNuke,
+      prefix: [ICON_AMMO.MiniNuke],
       leftSignature: LeftSignature.Ammunition,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -22,7 +22,7 @@ export const AMMO_RULES_GROUP = {
     },
     {
       order: 1,
-      iconName: ICON_AMMO.FusionCore,
+      prefix: [ICON_AMMO.FusionCore],
       leftSignature: LeftSignature.Ammunition,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -36,7 +36,7 @@ export const AMMO_RULES_GROUP = {
     },
     {
       order: 2,
-      iconName: ICON_AMMO.Rocket,
+      prefix: [ICON_AMMO.Rocket],
       leftSignature: LeftSignature.Ammunition,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -50,7 +50,7 @@ export const AMMO_RULES_GROUP = {
     },
     {
       order: 3,
-      iconName: ICON_AMMO.FortyMmGrenade,
+      prefix: [ICON_AMMO.FortyMmGrenade],
       leftSignature: LeftSignature.Ammunition,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -64,7 +64,7 @@ export const AMMO_RULES_GROUP = {
     },
     {
       order: 4,
-      iconName: ICON_AMMO.Fuel,
+      prefix: [ICON_AMMO.Fuel],
       leftSignature: LeftSignature.Ammunition,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -78,7 +78,7 @@ export const AMMO_RULES_GROUP = {
     },
     {
       order: 5,
-      iconName: ICON_AMMO.FusionCell,
+      prefix: [ICON_AMMO.FusionCell],
       leftSignature: LeftSignature.Ammunition,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -92,7 +92,7 @@ export const AMMO_RULES_GROUP = {
     },
     {
       order: 6,
-      iconName: ICON_AMMO.GammaRound,
+      prefix: [ICON_AMMO.GammaRound],
       leftSignature: LeftSignature.Ammunition,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -106,7 +106,7 @@ export const AMMO_RULES_GROUP = {
     },
     {
       order: 7,
-      iconName: ICON_AMMO.NukaColaAmmo,
+      prefix: [ICON_AMMO.NukaColaAmmo],
       leftSignature: LeftSignature.Ammunition,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -120,7 +120,7 @@ export const AMMO_RULES_GROUP = {
     },
     {
       order: 8,
-      iconName: ICON_AMMO.Arrows,
+      prefix: [ICON_AMMO.Arrows],
       leftSignature: LeftSignature.Ammunition,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -134,7 +134,7 @@ export const AMMO_RULES_GROUP = {
     },
     {
       order: 9,
-      iconName: ICON_AMMO.CameraFilm,
+      prefix: [ICON_AMMO.CameraFilm],
       leftSignature: LeftSignature.Ammunition,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -148,7 +148,7 @@ export const AMMO_RULES_GROUP = {
     },
     {
       order: 10,
-      iconName: ICON_AMMO.BallisticAmmo,
+      prefix: [ICON_AMMO.BallisticAmmo],
       leftSignature: LeftSignature.Ammunition,
       rightSignature: RightSignature.FULL,
       isInjected: false,

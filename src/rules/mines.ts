@@ -8,7 +8,7 @@ export const MINES_RULES_GROUP = {
   rules: [
     {
       order: 0,
-      iconName: ICON_MINES.CryoMine,
+      prefix: [ICON_MINES.CryoMine],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -22,7 +22,7 @@ export const MINES_RULES_GROUP = {
     },
     {
       order: 1,
-      iconName: ICON_MINES.PlasmaMine,
+      prefix: [ICON_MINES.PlasmaMine],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -36,7 +36,7 @@ export const MINES_RULES_GROUP = {
     },
     {
       order: 2,
-      iconName: ICON_MINES.PulseMine,
+      prefix: [ICON_MINES.PulseMine],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -50,7 +50,7 @@ export const MINES_RULES_GROUP = {
     },
     {
       order: 3,
-      iconName: ICON_MINES.BottlecapMine,
+      prefix: [ICON_MINES.BottlecapMine],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -64,7 +64,7 @@ export const MINES_RULES_GROUP = {
     },
     {
       order: 4,
-      iconName: ICON_MINES.NukeMine,
+      prefix: [ICON_MINES.NukeMine],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -78,7 +78,7 @@ export const MINES_RULES_GROUP = {
     },
     {
       order: 5,
-      iconName: ICON_MINES.FragmentationMine,
+      prefix: [ICON_MINES.FragmentationMine],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,

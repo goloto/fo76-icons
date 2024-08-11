@@ -8,7 +8,7 @@ export const MELEE_WEAPONS_RULES_GROUP = {
   rules: [
     {
       order: 0,
-      iconName: ICON_MELEE_WEAPONS.PowerFist,
+      prefix: [ICON_MELEE_WEAPONS.PowerFist],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -22,7 +22,7 @@ export const MELEE_WEAPONS_RULES_GROUP = {
     },
     {
       order: 1,
-      iconName: ICON_MELEE_WEAPONS.Unarmed,
+      prefix: [ICON_MELEE_WEAPONS.Unarmed],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -36,7 +36,7 @@ export const MELEE_WEAPONS_RULES_GROUP = {
     },
     {
       order: 2,
-      iconName: ICON_MELEE_WEAPONS.Chainsaw,
+      prefix: [ICON_MELEE_WEAPONS.Chainsaw],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -50,7 +50,7 @@ export const MELEE_WEAPONS_RULES_GROUP = {
     },
     {
       order: 3,
-      iconName: ICON_MELEE_WEAPONS.Shishkebab,
+      prefix: [ICON_MELEE_WEAPONS.Shishkebab],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -64,7 +64,7 @@ export const MELEE_WEAPONS_RULES_GROUP = {
     },
     {
       order: 4,
-      iconName: ICON_MELEE_WEAPONS.Ripper,
+      prefix: [ICON_MELEE_WEAPONS.Ripper],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -78,7 +78,7 @@ export const MELEE_WEAPONS_RULES_GROUP = {
     },
     {
       order: 5,
-      iconName: ICON_MELEE_WEAPONS.Knife,
+      prefix: [ICON_MELEE_WEAPONS.Knife],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -92,7 +92,7 @@ export const MELEE_WEAPONS_RULES_GROUP = {
     },
     {
       order: 6,
-      iconName: ICON_MELEE_WEAPONS.Machete,
+      prefix: [ICON_MELEE_WEAPONS.Machete],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -106,7 +106,7 @@ export const MELEE_WEAPONS_RULES_GROUP = {
     },
     {
       order: 7,
-      iconName: ICON_MELEE_WEAPONS.OneHandedAxe,
+      prefix: [ICON_MELEE_WEAPONS.OneHandedAxe],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -120,7 +120,7 @@ export const MELEE_WEAPONS_RULES_GROUP = {
     },
     {
       order: 8,
-      iconName: ICON_MELEE_WEAPONS.OneHandedBat,
+      prefix: [ICON_MELEE_WEAPONS.OneHandedBat],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -134,7 +134,7 @@ export const MELEE_WEAPONS_RULES_GROUP = {
     },
     {
       order: 9,
-      iconName: ICON_MELEE_WEAPONS.OneHandedMelee,
+      prefix: [ICON_MELEE_WEAPONS.OneHandedMelee],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -148,7 +148,7 @@ export const MELEE_WEAPONS_RULES_GROUP = {
     },
     {
       order: 10,
-      iconName: ICON_MELEE_WEAPONS.SuperSledge,
+      prefix: [ICON_MELEE_WEAPONS.SuperSledge],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -162,7 +162,7 @@ export const MELEE_WEAPONS_RULES_GROUP = {
     },
     {
       order: 11,
-      iconName: ICON_MELEE_WEAPONS.TwoHandedBat,
+      prefix: [ICON_MELEE_WEAPONS.TwoHandedBat],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -176,7 +176,7 @@ export const MELEE_WEAPONS_RULES_GROUP = {
     },
     {
       order: 12,
-      iconName: ICON_MELEE_WEAPONS.TwoHandedAxe,
+      prefix: [ICON_MELEE_WEAPONS.TwoHandedAxe],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -190,7 +190,7 @@ export const MELEE_WEAPONS_RULES_GROUP = {
     },
     {
       order: 13,
-      iconName: ICON_MELEE_WEAPONS.TwoHandedSword,
+      prefix: [ICON_MELEE_WEAPONS.TwoHandedSword],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -204,7 +204,7 @@ export const MELEE_WEAPONS_RULES_GROUP = {
     },
     {
       order: 14,
-      iconName: ICON_MELEE_WEAPONS.TwoHandedMelee,
+      prefix: [ICON_MELEE_WEAPONS.TwoHandedMelee],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,

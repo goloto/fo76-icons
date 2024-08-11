@@ -8,7 +8,7 @@ export const SHOTGUNS_RULES_GROUP = {
   rules: [
     {
       order: 0,
-      iconName: ICON_SHOTGUNS.Shotgun,
+      prefix: [ICON_SHOTGUNS.Shotgun],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,

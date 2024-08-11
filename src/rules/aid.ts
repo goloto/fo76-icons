@@ -8,7 +8,7 @@ export const AID_RULES_GROUP = {
   rules: [
     {
       order: 0,
-      iconName: ICON_AID.Lunchbox,
+      prefix: [ICON_AID.Lunchbox],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -22,7 +22,7 @@ export const AID_RULES_GROUP = {
     },
     {
       order: 1,
-      iconName: ICON_AID.Scout,
+      prefix: [ICON_AID.Scout],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -36,7 +36,7 @@ export const AID_RULES_GROUP = {
     },
     {
       order: 2,
-      iconName: ICON_AID.TreasureHuntChest,
+      prefix: [ICON_AID.TreasureHuntChest],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -50,7 +50,7 @@ export const AID_RULES_GROUP = {
     },
     {
       order: 3,
-      iconName: ICON_AID.HolidayGift,
+      prefix: [ICON_AID.HolidayGift],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -64,7 +64,7 @@ export const AID_RULES_GROUP = {
     },
     {
       order: 4,
-      iconName: ICON_AID.Antibiotics,
+      prefix: [ICON_AID.Antibiotics],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -81,7 +81,7 @@ export const AID_RULES_GROUP = {
     },
     {
       order: 5,
-      iconName: ICON_AID.Stimpak,
+      prefix: [ICON_AID.Stimpak],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -95,7 +95,7 @@ export const AID_RULES_GROUP = {
     },
     {
       order: 6,
-      iconName: ICON_AID.Radaway,
+      prefix: [ICON_AID.Radaway],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -109,7 +109,7 @@ export const AID_RULES_GROUP = {
     },
     {
       order: 7,
-      iconName: ICON_AID.RadX,
+      prefix: [ICON_AID.RadX],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -128,7 +128,7 @@ export const AID_RULES_GROUP = {
     },
     {
       order: 8,
-      iconName: ICON_AID.MedX,
+      prefix: [ICON_AID.MedX],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -148,7 +148,7 @@ export const AID_RULES_GROUP = {
     },
     {
       order: 9,
-      iconName: ICON_AID.Stealthboy,
+      prefix: [ICON_AID.Stealthboy],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -162,7 +162,7 @@ export const AID_RULES_GROUP = {
     },
     {
       order: 10,
-      iconName: ICON_AID.Addictol,
+      prefix: [ICON_AID.Addictol],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -176,7 +176,7 @@ export const AID_RULES_GROUP = {
     },
     {
       order: 11,
-      iconName: ICON_AID.BloodPack,
+      prefix: [ICON_AID.BloodPack],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -190,7 +190,7 @@ export const AID_RULES_GROUP = {
     },
     {
       order: 12,
-      iconName: ICON_AID.GlowingBlood,
+      prefix: [ICON_AID.GlowingBlood],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -204,7 +204,7 @@ export const AID_RULES_GROUP = {
     },
     {
       order: 13,
-      iconName: ICON_AID.XCell,
+      prefix: [ICON_AID.XCell],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -218,7 +218,7 @@ export const AID_RULES_GROUP = {
     },
     {
       order: 14,
-      iconName: ICON_AID.Mentats,
+      prefix: [ICON_AID.Mentats],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -232,7 +232,7 @@ export const AID_RULES_GROUP = {
     },
     {
       order: 15,
-      iconName: ICON_AID.Buffout,
+      prefix: [ICON_AID.Buffout],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -246,7 +246,7 @@ export const AID_RULES_GROUP = {
     },
     {
       order: 16,
-      iconName: ICON_AID.Psycho,
+      prefix: [ICON_AID.Psycho],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -268,7 +268,7 @@ export const AID_RULES_GROUP = {
     },
     {
       order: 17,
-      iconName: ICON_AID.MutationSerum,
+      prefix: [ICON_AID.MutationSerum],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -282,7 +282,7 @@ export const AID_RULES_GROUP = {
     },
     {
       order: 18,
-      iconName: ICON_AID.DayTripper,
+      prefix: [ICON_AID.DayTripper],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -296,7 +296,7 @@ export const AID_RULES_GROUP = {
     },
     {
       order: 19,
-      iconName: ICON_AID.Magazine,
+      prefix: [ICON_AID.Magazine],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -310,7 +310,7 @@ export const AID_RULES_GROUP = {
     },
     {
       order: 20,
-      iconName: ICON_AID.Bobblehead,
+      prefix: [ICON_AID.Bobblehead],
       leftSignature: LeftSignature.Alchemy,
       rightSignature: RightSignature.FULL,
       isInjected: false,

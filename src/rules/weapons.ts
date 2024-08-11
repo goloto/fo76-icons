@@ -8,7 +8,7 @@ export const WEAPONS_RULES_GROUP = {
   rules: [
     {
       order: 0,
-      iconName: ICON_WEAPONS.UniqueWeapon,
+      prefix: [ICON_WEAPONS.UniqueWeapon],
       leftSignature: LeftSignature.InstanceNamingRules,
       rightSignature: RightSignature.WNAM,
       isInjected: false,
@@ -22,7 +22,7 @@ export const WEAPONS_RULES_GROUP = {
     },
     {
       order: 1,
-      iconName: ICON_WEAPONS.Binoculars,
+      prefix: [ICON_WEAPONS.Binoculars],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -36,7 +36,7 @@ export const WEAPONS_RULES_GROUP = {
     },
     {
       order: 2,
-      iconName: ICON_WEAPONS.Camera,
+      prefix: [ICON_WEAPONS.Camera],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -50,7 +50,7 @@ export const WEAPONS_RULES_GROUP = {
     },
     {
       order: 3,
-      iconName: ICON_WEAPONS.AssaultronHead,
+      prefix: [ICON_WEAPONS.AssaultronHead],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -64,7 +64,7 @@ export const WEAPONS_RULES_GROUP = {
     },
     {
       order: 4,
-      iconName: ICON_WEAPONS.Syringer,
+      prefix: [ICON_WEAPONS.Syringer],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -78,7 +78,7 @@ export const WEAPONS_RULES_GROUP = {
     },
     {
       order: 5,
-      iconName: ICON_WEAPONS.Bow,
+      prefix: [ICON_WEAPONS.Bow],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -92,7 +92,7 @@ export const WEAPONS_RULES_GROUP = {
     },
     {
       order: 6,
-      iconName: ICON_WEAPONS.CompoundBow,
+      prefix: [ICON_WEAPONS.CompoundBow],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -106,7 +106,7 @@ export const WEAPONS_RULES_GROUP = {
     },
     {
       order: 7,
-      iconName: ICON_WEAPONS.Weapon,
+      prefix: [ICON_WEAPONS.Weapon],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,

@@ -8,7 +8,7 @@ export const KEYS_RULES_GROUP = {
   rules: [
     {
       order: 0,
-      iconName: ICON_KEYS.AccessCard,
+      prefix: [ICON_KEYS.AccessCard],
       leftSignature: LeftSignature.Key,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -38,7 +38,7 @@ export const KEYS_RULES_GROUP = {
     },
     {
       order: 1,
-      iconName: ICON_KEYS.Key,
+      prefix: [ICON_KEYS.Key],
       leftSignature: LeftSignature.Key,
       rightSignature: RightSignature.FULL,
       isInjected: false,

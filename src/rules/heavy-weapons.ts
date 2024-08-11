@@ -8,7 +8,7 @@ export const HEAVY_WEAPONS_RULES_GROUP = {
   rules: [
     {
       order: 0,
-      iconName: ICON_HEAVY_WEAPONS.Flamer,
+      prefix: [ICON_HEAVY_WEAPONS.Flamer],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -22,7 +22,7 @@ export const HEAVY_WEAPONS_RULES_GROUP = {
     },
     {
       order: 1,
-      iconName: ICON_HEAVY_WEAPONS.Cryolator,
+      prefix: [ICON_HEAVY_WEAPONS.Cryolator],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -36,7 +36,7 @@ export const HEAVY_WEAPONS_RULES_GROUP = {
     },
     {
       order: 2,
-      iconName: ICON_HEAVY_WEAPONS.MachineGun,
+      prefix: [ICON_HEAVY_WEAPONS.MachineGun],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -50,7 +50,7 @@ export const HEAVY_WEAPONS_RULES_GROUP = {
     },
     {
       order: 3,
-      iconName: ICON_HEAVY_WEAPONS.LightMachineGun,
+      prefix: [ICON_HEAVY_WEAPONS.LightMachineGun],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -64,7 +64,7 @@ export const HEAVY_WEAPONS_RULES_GROUP = {
     },
     {
       order: 4,
-      iconName: ICON_HEAVY_WEAPONS.GatlingLaser,
+      prefix: [ICON_HEAVY_WEAPONS.GatlingLaser],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -78,7 +78,7 @@ export const HEAVY_WEAPONS_RULES_GROUP = {
     },
     {
       order: 5,
-      iconName: ICON_HEAVY_WEAPONS.GatlingPlasma,
+      prefix: [ICON_HEAVY_WEAPONS.GatlingPlasma],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -92,7 +92,7 @@ export const HEAVY_WEAPONS_RULES_GROUP = {
     },
     {
       order: 6,
-      iconName: ICON_HEAVY_WEAPONS.GatlingGun,
+      prefix: [ICON_HEAVY_WEAPONS.GatlingGun],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -106,7 +106,7 @@ export const HEAVY_WEAPONS_RULES_GROUP = {
     },
     {
       order: 7,
-      iconName: ICON_HEAVY_WEAPONS.PlasmaCaster,
+      prefix: [ICON_HEAVY_WEAPONS.PlasmaCaster],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -120,7 +120,7 @@ export const HEAVY_WEAPONS_RULES_GROUP = {
     },
     {
       order: 8,
-      iconName: ICON_HEAVY_WEAPONS.Minigun,
+      prefix: [ICON_HEAVY_WEAPONS.Minigun],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -134,7 +134,7 @@ export const HEAVY_WEAPONS_RULES_GROUP = {
     },
     {
       order: 9,
-      iconName: ICON_HEAVY_WEAPONS.Broadsider,
+      prefix: [ICON_HEAVY_WEAPONS.Broadsider],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -148,7 +148,7 @@ export const HEAVY_WEAPONS_RULES_GROUP = {
     },
     {
       order: 10,
-      iconName: ICON_HEAVY_WEAPONS.MissileLauncher,
+      prefix: [ICON_HEAVY_WEAPONS.MissileLauncher],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -162,7 +162,7 @@ export const HEAVY_WEAPONS_RULES_GROUP = {
     },
     {
       order: 11,
-      iconName: ICON_HEAVY_WEAPONS.HellstormMissileLauncher,
+      prefix: [ICON_HEAVY_WEAPONS.HellstormMissileLauncher],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -176,7 +176,7 @@ export const HEAVY_WEAPONS_RULES_GROUP = {
     },
     {
       order: 12,
-      iconName: ICON_HEAVY_WEAPONS.GrenadeLauncher,
+      prefix: [ICON_HEAVY_WEAPONS.GrenadeLauncher],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -190,7 +190,7 @@ export const HEAVY_WEAPONS_RULES_GROUP = {
     },
     {
       order: 13,
-      iconName: ICON_HEAVY_WEAPONS.AutoGrenadeLauncher,
+      prefix: [ICON_HEAVY_WEAPONS.AutoGrenadeLauncher],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -204,7 +204,7 @@ export const HEAVY_WEAPONS_RULES_GROUP = {
     },
     {
       order: 14,
-      iconName: ICON_HEAVY_WEAPONS.Fatman,
+      prefix: [ICON_HEAVY_WEAPONS.Fatman],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -218,7 +218,7 @@ export const HEAVY_WEAPONS_RULES_GROUP = {
     },
     {
       order: 15,
-      iconName: ICON_HEAVY_WEAPONS.HarpoonGun,
+      prefix: [ICON_HEAVY_WEAPONS.HarpoonGun],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -232,7 +232,7 @@ export const HEAVY_WEAPONS_RULES_GROUP = {
     },
     {
       order: 16,
-      iconName: ICON_HEAVY_WEAPONS.JunkJet,
+      prefix: [ICON_HEAVY_WEAPONS.JunkJet],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,

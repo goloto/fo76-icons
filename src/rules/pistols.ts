@@ -8,7 +8,7 @@ export const PISTOLS_RULES_GROUP = {
   rules: [
     {
       order: 0,
-      iconName: ICON_PISTOLS.GaussPistol,
+      prefix: [ICON_PISTOLS.GaussPistol],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -22,7 +22,7 @@ export const PISTOLS_RULES_GROUP = {
     },
     {
       order: 1,
-      iconName: ICON_PISTOLS.AlienBluster,
+      prefix: [ICON_PISTOLS.AlienBluster],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -36,7 +36,7 @@ export const PISTOLS_RULES_GROUP = {
     },
     {
       order: 2,
-      iconName: ICON_PISTOLS.GammaGun,
+      prefix: [ICON_PISTOLS.GammaGun],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -50,7 +50,7 @@ export const PISTOLS_RULES_GROUP = {
     },
     {
       order: 3,
-      iconName: ICON_PISTOLS.PlasmaPistol,
+      prefix: [ICON_PISTOLS.PlasmaPistol],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -64,7 +64,7 @@ export const PISTOLS_RULES_GROUP = {
     },
     {
       order: 4,
-      iconName: ICON_PISTOLS.LaserPistol,
+      prefix: [ICON_PISTOLS.LaserPistol],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -78,7 +78,7 @@ export const PISTOLS_RULES_GROUP = {
     },
     {
       order: 5,
-      iconName: ICON_PISTOLS.Revolver,
+      prefix: [ICON_PISTOLS.Revolver],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -92,7 +92,7 @@ export const PISTOLS_RULES_GROUP = {
     },
     {
       order: 6,
-      iconName: ICON_PISTOLS.PipeRevolver,
+      prefix: [ICON_PISTOLS.PipeRevolver],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -106,7 +106,7 @@ export const PISTOLS_RULES_GROUP = {
     },
     {
       order: 7,
-      iconName: ICON_PISTOLS.PipePistol,
+      prefix: [ICON_PISTOLS.PipePistol],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -120,7 +120,7 @@ export const PISTOLS_RULES_GROUP = {
     },
     {
       order: 8,
-      iconName: ICON_PISTOLS.FlareGun,
+      prefix: [ICON_PISTOLS.FlareGun],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -134,7 +134,7 @@ export const PISTOLS_RULES_GROUP = {
     },
     {
       order: 9,
-      iconName: ICON_PISTOLS.CrusaderPistol,
+      prefix: [ICON_PISTOLS.CrusaderPistol],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -148,7 +148,7 @@ export const PISTOLS_RULES_GROUP = {
     },
     {
       order: 10,
-      iconName: ICON_PISTOLS.ThirstZapper,
+      prefix: [ICON_PISTOLS.ThirstZapper],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -162,7 +162,7 @@ export const PISTOLS_RULES_GROUP = {
     },
     {
       order: 11,
-      iconName: ICON_PISTOLS.BlackPowderPistol,
+      prefix: [ICON_PISTOLS.BlackPowderPistol],
       leftSignature: LeftSignature.Weapon,
       rightSignature: RightSignature.FULL,
       isInjected: false,

@@ -8,7 +8,7 @@ export const HOLOTAPES_RULES_GROUP = {
   rules: [
     {
       order: 0,
-      iconName: ICON_HOLOTAPES.SiloTape,
+      prefix: [ICON_HOLOTAPES.SiloTape],
       leftSignature: LeftSignature.Note,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -22,7 +22,7 @@ export const HOLOTAPES_RULES_GROUP = {
     },
     {
       order: 1,
-      iconName: ICON_HOLOTAPES.Holotape,
+      prefix: [ICON_HOLOTAPES.Holotape],
       leftSignature: LeftSignature.Note,
       rightSignature: RightSignature.FULL,
       isInjected: false,

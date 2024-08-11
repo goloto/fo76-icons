@@ -8,7 +8,7 @@ export const MISC_RULES_GROUP = {
   rules: [
     {
       order: 0,
-      iconName: ICON_MISC.LegendaryModule,
+      prefix: [ICON_MISC.LegendaryModule],
       leftSignature: LeftSignature.Misc,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -22,7 +22,7 @@ export const MISC_RULES_GROUP = {
     },
     {
       order: 1,
-      iconName: ICON_MISC.LegendaryCore,
+      prefix: [ICON_MISC.LegendaryCore],
       leftSignature: LeftSignature.Currency,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -36,7 +36,7 @@ export const MISC_RULES_GROUP = {
     },
     {
       order: 2,
-      iconName: ICON_MISC.TreasureNote,
+      prefix: [ICON_MISC.TreasureNote],
       leftSignature: LeftSignature.Misc,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -50,7 +50,7 @@ export const MISC_RULES_GROUP = {
     },
     {
       order: 3,
-      iconName: ICON_MISC.NukeCard,
+      prefix: [ICON_MISC.NukeCard],
       leftSignature: LeftSignature.Misc,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -64,7 +64,7 @@ export const MISC_RULES_GROUP = {
     },
     {
       order: 4,
-      iconName: ICON_MISC.RepairKit,
+      prefix: [ICON_MISC.RepairKit],
       leftSignature: LeftSignature.Utility,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -78,7 +78,7 @@ export const MISC_RULES_GROUP = {
     },
     {
       order: 5,
-      iconName: ICON_MISC.Flux,
+      prefix: [ICON_MISC.Flux],
       leftSignature: LeftSignature.Misc,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -92,7 +92,7 @@ export const MISC_RULES_GROUP = {
     },
     {
       order: 6,
-      iconName: ICON_MISC.Token,
+      prefix: [ICON_MISC.Token],
       leftSignature: LeftSignature.Misc,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -106,7 +106,7 @@ export const MISC_RULES_GROUP = {
     },
     {
       order: 7,
-      iconName: ICON_MISC.Cards,
+      prefix: [ICON_MISC.Cards],
       leftSignature: LeftSignature.Misc,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -120,7 +120,7 @@ export const MISC_RULES_GROUP = {
     },
     {
       order: 8,
-      iconName: ICON_MISC.Bulk,
+      prefix: [ICON_MISC.Bulk],
       leftSignature: LeftSignature.Misc,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -134,7 +134,7 @@ export const MISC_RULES_GROUP = {
     },
     {
       order: 9,
-      iconName: ICON_MISC.Components,
+      prefix: [ICON_MISC.Components],
       leftSignature: LeftSignature.Misc,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -148,7 +148,7 @@ export const MISC_RULES_GROUP = {
     },
     {
       order: 10,
-      iconName: ICON_MISC.Corpse,
+      prefix: [ICON_MISC.Corpse],
       leftSignature: LeftSignature.Misc,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -177,7 +177,7 @@ export const MISC_RULES_GROUP = {
     },
     {
       order: 11,
-      iconName: ICON_MISC.Skull,
+      prefix: [ICON_MISC.Skull],
       leftSignature: LeftSignature.Misc,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -191,7 +191,7 @@ export const MISC_RULES_GROUP = {
     },
     {
       order: 12,
-      iconName: ICON_MISC.Bones,
+      prefix: [ICON_MISC.Bones],
       leftSignature: LeftSignature.Misc,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -205,7 +205,7 @@ export const MISC_RULES_GROUP = {
     },
     {
       order: 13,
-      iconName: ICON_MISC.TeddyBear,
+      prefix: [ICON_MISC.TeddyBear],
       leftSignature: LeftSignature.Misc,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -219,7 +219,7 @@ export const MISC_RULES_GROUP = {
     },
     {
       order: 14,
-      iconName: ICON_MISC.RocketToy,
+      prefix: [ICON_MISC.RocketToy],
       leftSignature: LeftSignature.Misc,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -233,7 +233,7 @@ export const MISC_RULES_GROUP = {
     },
     {
       order: 15,
-      iconName: ICON_MISC.CircuitBoard,
+      prefix: [ICON_MISC.CircuitBoard],
       leftSignature: LeftSignature.Misc,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -251,7 +251,7 @@ export const MISC_RULES_GROUP = {
     },
     {
       order: 16,
-      iconName: ICON_MISC.Canister,
+      prefix: [ICON_MISC.Canister],
       leftSignature: LeftSignature.Misc,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -265,7 +265,7 @@ export const MISC_RULES_GROUP = {
     },
     {
       order: 17,
-      iconName: ICON_MISC.MetalScrap,
+      prefix: [ICON_MISC.MetalScrap],
       leftSignature: LeftSignature.Misc,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -285,7 +285,7 @@ export const MISC_RULES_GROUP = {
     },
     {
       order: 18,
-      iconName: ICON_MISC.Ore,
+      prefix: [ICON_MISC.Ore],
       leftSignature: LeftSignature.Misc,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -299,7 +299,7 @@ export const MISC_RULES_GROUP = {
     },
     {
       order: 19,
-      iconName: ICON_MISC.Junk,
+      prefix: [ICON_MISC.Junk],
       leftSignature: LeftSignature.Misc,
       rightSignature: RightSignature.FULL,
       isInjected: false,
@@ -313,7 +313,7 @@ export const MISC_RULES_GROUP = {
     },
     {
       order: 20,
-      iconName: ICON_MISC.Quest,
+      prefix: [ICON_MISC.Quest],
       leftSignature: LeftSignature.Misc,
       rightSignature: RightSignature.FULL,
       isInjected: false,

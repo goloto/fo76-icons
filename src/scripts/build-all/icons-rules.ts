@@ -89,7 +89,9 @@ const concatAllIncludeRules = (
 const updateOrderAndHeader = (item: Rule<IconNames>, index: number) => ({
   ...item,
   order: index,
-  header: item.isInjected ? item.header : generateIconHeader(item.iconName),
+  header: item.isInjected
+    ? item.header
+    : generateIconHeader(item.iconName || ''),
 });
 
 const sortRuleKeys = (item: Rule<IconNames>) => {
