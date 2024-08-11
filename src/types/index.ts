@@ -22,9 +22,8 @@ import type {
 import type { LeftSignature, RightSignature } from '../constants';
 import type { ICON_CATEGORIES } from '@/generated/icon-categories-enum';
 
-export interface Icon<T extends IconNames> {
-  name: T;
-  category: ICON_CATEGORIES;
+export interface Icon {
+  name: IconNames;
   charCode: string;
 }
 

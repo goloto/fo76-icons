@@ -1,7 +1,7 @@
 import type { CategoryOrder } from '@/types';
 import { ICON_CATEGORIES } from '../generated/icon-categories-enum';
 
-export const ICON_CATEGORIES_ORDER: CategoryOrder[] = [
+export const ICON_CATEGORIES_ORDER = [
   {
     name: ICON_CATEGORIES.Currency,
     order: 0,
@@ -82,4 +82,4 @@ export const ICON_CATEGORIES_ORDER: CategoryOrder[] = [
     name: ICON_CATEGORIES.Pistols,
     order: 19,
   },
-] as const;
+] as const satisfies CategoryOrder[];
