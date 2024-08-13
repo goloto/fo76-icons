@@ -1,5 +1,5 @@
 import { getCharFromHexadecimal } from '@/utils/common';
-import type { Icon, IconNames, Rule } from '@/types';
+import { ICONS } from '@/generated/icons';
 
 const FONT_CONFIG_TEMPLATE = `fontlib "fonts_ru"
 map "$76HandwrittenIlliterate" = "HandwrittenIlliterate" Normal
@@ -30,8 +30,8 @@ map "$Typewriter_Font" = "VeteranTypewriterRedacted" Normal
 validNameChars "\`1234567890-=~!@#$%^&*():_+QWERTYUIOP[]ASDFGHJKL;'ZXCVBNM,./qwertyuiop{}\\asdfghjkl;'zxcvbnm?|ЎўЈ¤Ґ¦§Ё©Є«®Ї°Ііґ¶·ё№є»јЅѕїДАБВГЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэю я%custom-characters% "
 validBookChars "\`1234567890-=~!@#$%^&*():_+QWERTYUIOP[]ASDFGHJKL;'ZXCVBNM,./qwertyuiop{}\\asdfghjkl;'zxcvbnm<>?|ЎўЈ¤Ґ¦§Ё©Є«®Ї°Ііґ¶·ё№є»јЅѕїДАБВГЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэю я "`;
 
-export const generateFontConfigFile = async (icons: Icon[]) => {
-  const characters = icons.reduce(
+export const generateFontConfigFile = async () => {
+  const characters = ICONS.reduce(
     (accumulator, icon) =>
       `${accumulator}${getCharFromHexadecimal(icon.charCode)}`,
     ''

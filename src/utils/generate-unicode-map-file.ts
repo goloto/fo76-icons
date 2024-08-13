@@ -1,14 +1,15 @@
 import { readUnicodeMapFile } from '@/utils/file-reading';
 import type { Icon } from '@/types';
+import { ICONS } from '@/generated/icons';
 
 const TEMPLATE_LINK = '%custom-names%';
 
-export const generateUnicodeMapFile = async (icons: Icon[]) => {
+export const generateUnicodeMapFile = async () => {
   const map = await readUnicodeMapFile();
   const slicedMap =
     map.slice(0, map.indexOf(TEMPLATE_LINK) + TEMPLATE_LINK.length) + '\r\n';
-  const newMap = icons.reduce((accumulator, item, index) => {
-    const newLine = index + 1 < icons.length ? '\r\n' : '';
+  const newMap = ICONS.reduce((accumulator, item, index) => {
+    const newLine = index + 1 < ICONS.length ? '\r\n' : '';
 
     if (!item.charCode || !item.name) {
       return accumulator;
