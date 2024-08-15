@@ -211,3 +211,49 @@
 - [x] Vanguard's
 - [x] Weightless
 - [x] Zealot's
+
+### Plans: events
+
+- [ ] Invaders from beyond 
+- [ ] Back on the beat
+- [ ] Blue moon
+- [ ] Breach and clear
+- [ ] Campfire tales
+- [ ] Census violence
+- [ ] Colossal problem
+- [ ] Death blossoms
+- [ ] Encryptid
+- [ ] Eviction notice
+- [ ] Fasnacht 2020-2024
+- [ ] Gifts 2020-2024
+- [ ] Lode baring
+- [ ] Meet week 2020-2024
+- [ ] Mischief night
+- [ ] Moonshine jamboree
+- [ ] Mothman 2022-2024
+- [ ] Nuka World
+- [ ] One violent night
+- [ ] Project Paradise
+- [ ] Radiation rumble
+- [ ] Riding shotgun
+- [ ] Scorched earth
+- [ ] Test your metal
+- [ ] Treasure hunt
+
+### Plans: expeditions
+
+- [ ] Atlantic City
+- [ ] Pitt
+
+### Plans: vendors
+
+- [ ] Grahm
+- [ ] Possum
+- [ ] Tadpole
+- [ ] Vendorbot
+- [ ] Whitespring
+
+### Common
+
+- [ ] Extremely rare
+- [ ] Operations

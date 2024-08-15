@@ -12,8 +12,7 @@
   - [x] cards,
   - [ ] quest item,
   - [ ] plan,
-  - [ ] known plan
-  - [ ] check,
+  - [ ] known plan,
   - [x] fuel,
   - [x] x-cell,
   - [x] dirty water,
