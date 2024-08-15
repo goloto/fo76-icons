@@ -1,11 +1,18 @@
-import { generateHeadersFile } from '@/scripts/generate-headers-file';
-import { generateCategoriesFile } from '@/scripts/generate-categories-file';
-import { generateIconsEnumFile } from '@/scripts/generate-icons-enum-file';
-import { generateFontConfigFile } from '@/utils/generate-font-config-file';
-import { generateUnicodeMapFile } from '@/utils/generate-unicode-map-file';
-import { generateIconsFile } from '@/scripts/generate-icons-file';
+import {
+  generateCategoriesFile,
+  generateFontConfigFile,
+  generateHeadersFile,
+  generateIconsEnumFile,
+  generateIconsFile,
+  generateUnicodeMapFile,
+  sortCategories,
+  sortRules,
+} from '@/utils';
 
 const build = async () => {
+  await sortCategories();
+  await sortRules();
+
   await generateCategoriesFile();
   await generateIconsEnumFile();
   await generateIconsFile();

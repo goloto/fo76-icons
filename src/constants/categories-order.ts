@@ -1,6 +1,5 @@
 import type { CategoryOrder } from '@/types';
-import { ICON_CATEGORIES } from '../generated/icon-categories-enum';
-
+import { ICON_CATEGORIES } from '@/generated/icon-categories-enum';
 export const ICON_CATEGORIES_ORDER = [
   {
     name: ICON_CATEGORIES.Currency,
