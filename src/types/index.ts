@@ -54,7 +54,6 @@ export type IconNames =
 type IncludeProperty = `edid|${string}`[] | `ekwd|${string}`[];
 
 export interface Rule<T extends IconNames> {
-  iconName?: T;
   order: number;
   leftSignature: LeftSignature;
   rightSignature: RightSignature;
@@ -63,7 +62,6 @@ export interface Rule<T extends IconNames> {
   isAnyKeyword: boolean;
   isInclusiveOr: boolean;
   isFullReplaced: boolean;
-  header?: string;
   include?: IncludeProperty;
   exclude?: string[];
   isEnabled?: boolean;

@@ -1,6 +1,8 @@
 import { getCharFromHexadecimal } from '@/utils/common';
 import { writeUtf8BomString } from '@/utils/file-writing';
-import type { IconNames, Rule } from '@/types';
+import type { Icon, IconNames, Rule } from '@/types';
+import * as ALL_RULES from '@/rules';
+import { ICONS } from '@/generated/icons';
 
 const HEADER_ANCHOR = '%header%';
 const INCLUDE_ANCHOR = '%include%';
@@ -34,17 +36,47 @@ const RULE_TEMPLATE = `[StartRule]
  ${EXCLUDE_ANCHOR}
 [EndRule]`;
 
-export const buildHeaders = async (iconRules: Rule<IconNames>[]) => {
-  const filteredIconRules = iconRules.filter((item) => !item.isDeleted);
-  const regularResult = reduceRules(filteredIconRules, (item) =>
-    replaceAnchors(item).replace(
-      HEADER_ANCHOR,
-      getCharFromHexadecimal(item.header)
-    )
+export const generateHeadersFile = async () => {
+  const allRules = Object.values(ALL_RULES).reduce(
+    (accumulator, rulesGroup) => {
+      return [...accumulator, ...rulesGroup.rules];
+    },
+    <Rule<IconNames>[]>[]
   );
-  const testingResult = reduceRules(filteredIconRules, (item) =>
-    replaceAnchors(item).replace(HEADER_ANCHOR, `#${item.iconName}#`)
+  const iconsMap = ICONS.reduce(
+    (accumulator, icon) => {
+      return {
+        ...accumulator,
+        [icon.name]: icon,
+      };
+    },
+    <Record<IconNames, Icon>>{}
   );
+
+  const regularResult = reduceRules(allRules, (rule) => {
+    const withoutHeader = replaceAnchors(rule);
+
+    if (!rule?.prefix) {
+      return withoutHeader;
+    }
+
+    const header = rule.prefix.reduce((accumulator, iconName) => {
+      return `${accumulator}${getCharFromHexadecimal(iconsMap[iconName].charCode)}`;
+    }, '');
+
+    return withoutHeader.replace(HEADER_ANCHOR, header);
+  });
+  const testingResult = reduceRules(allRules, (rule) => {
+    const withoutHeader = replaceAnchors(rule);
+
+    if (!rule?.prefix) {
+      return withoutHeader;
+    }
+
+    const header = `#${rule.prefix.join('|')}#`;
+
+    return withoutHeader.replace(HEADER_ANCHOR, header);
+  });
 
   await writeUtf8BomString('./headers/HeaderRules.txt', regularResult);
   await writeUtf8BomString('./headers/HeaderRules_testing.txt', testingResult);

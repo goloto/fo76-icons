@@ -1,6 +1,4 @@
-import { buildIconRules } from './icons-rules';
-import { buildHeaders } from './icons-headers';
-import { readIcons } from './read-icons';
+import { generateHeadersFile } from '@/scripts/generate-headers-file';
 import { generateCategoriesFile } from '@/scripts/generate-categories-file';
 import { generateIconsEnumFile } from '@/scripts/generate-icons-enum-file';
 import { generateFontConfigFile } from '@/utils/generate-font-config-file';
@@ -11,11 +9,7 @@ const build = async () => {
   await generateCategoriesFile();
   await generateIconsEnumFile();
   await generateIconsFile();
-
-  const iconNames = await readIcons();
-  const iconRules = await buildIconRules(iconNames);
-
-  await buildHeaders(iconRules);
+  await generateHeadersFile();
   await generateFontConfigFile();
   await generateUnicodeMapFile();
 };
