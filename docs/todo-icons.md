@@ -217,6 +217,8 @@
 - [ ] Invaders from beyond 
 - [ ] Back on the beat
 - [ ] Blue moon
+- [x] Safe and sound
+- [x] Eviction notice
 - [ ] Breach and clear
 - [ ] Campfire tales
 - [ ] Census violence
@@ -229,9 +231,10 @@
 - [ ] Lode baring
 - [ ] Meet week 2020-2024
 - [ ] Mischief night
-- [ ] Moonshine jamboree
+- [x] Moonshine jamboree
 - [ ] Mothman 2022-2024
 - [ ] Nuka World
+- [x] Most Wanted
 - [ ] One violent night
 - [ ] Project Paradise
 - [ ] Radiation rumble
@@ -256,4 +259,4 @@
 ### Common
 
 - [ ] Extremely rare
-- [ ] Operations
+- [x] Daily operations
