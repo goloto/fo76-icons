@@ -216,20 +216,19 @@
 
 - [ ] Invaders from beyond 
 - [ ] Back on the beat
-- [ ] Blue moon
 - [x] Safe and sound
-- [x] Eviction notice
+- [x] Beast of burden
 - [ ] Breach and clear
 - [ ] Campfire tales
 - [ ] Census violence
 - [ ] Colossal problem
 - [ ] Death blossoms
 - [ ] Encryptid
-- [ ] Eviction notice
-- [ ] Fasnacht 2020-2024
+- [x] Eviction notice
+- [x] Fasnacht 2020-2024
 - [ ] Gifts 2020-2024
 - [ ] Lode baring
-- [ ] Meet week 2020-2024
+- [x] Meet week 2020-2024
 - [ ] Mischief night
 - [x] Moonshine jamboree
 - [ ] Mothman 2022-2024
