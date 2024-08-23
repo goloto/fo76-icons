@@ -231,7 +231,7 @@
 - [x] Meet week 2020-2024
 - [ ] Mischief night
 - [x] Moonshine jamboree
-- [ ] Mothman 2022-2024
+- [x] Mothman Equinox 2022-2024
 - [ ] Nuka World
 - [x] Most Wanted
 - [ ] One violent night
