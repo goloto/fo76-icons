@@ -151,7 +151,7 @@ export const ARMOR_RULES_GROUP = {
             include: [
                 "ekwd|ObjectTypeArmor",
                 "ekwd|ArmorBodyPartHands",
-                "ekwd|ArmRight",
+                "edid|right",
             ],
             exclude: ["ekwd|ArmorTypePower"],
         },
@@ -168,7 +168,7 @@ export const ARMOR_RULES_GROUP = {
             include: [
                 "ekwd|ObjectTypeArmor",
                 "ekwd|ArmorBodyPartHands",
-                "ekwd|ArmLeft",
+                "edid|left",
             ],
             exclude: ["ekwd|ArmorTypePower"],
         },
@@ -185,7 +185,7 @@ export const ARMOR_RULES_GROUP = {
             include: [
                 "ekwd|ObjectTypeArmor",
                 "ekwd|ArmorBodyPartFeet",
-                "ekwd|LegRight",
+                "edid|right",
             ],
             exclude: ["ekwd|ArmorTypePower"],
         },
@@ -202,7 +202,7 @@ export const ARMOR_RULES_GROUP = {
             include: [
                 "ekwd|ObjectTypeArmor",
                 "ekwd|ArmorBodyPartFeet",
-                "ekwd|LegLeft",
+                "edid|left",
             ],
             exclude: ["ekwd|ArmorTypePower"],
         }

@@ -30,6 +30,7 @@ export interface Icon {
 
 export type ICON_COMMON = '_injected_innr_eraser';
 
+// TODO: generate this too
 export type IconNames =
   | ICON_COMMON
   | ICON_CURRENCY
@@ -53,7 +54,7 @@ export type IconNames =
   | ICON_PISTOLS
   | ICON_EVENTS;
 
-type IncludeProperty = `edid|${string}`[] | `ekwd|${string}`[];
+type IncludeProperty = `edid|${string}` | `ekwd|${string}`;
 
 export interface Rule<T extends IconNames> {
   order: number;
@@ -64,7 +65,7 @@ export interface Rule<T extends IconNames> {
   isAnyKeyword: boolean;
   isInclusiveOr: boolean;
   isFullReplaced: boolean;
-  include?: IncludeProperty;
+  include?: IncludeProperty[];
   exclude?: string[];
   isEnabled?: boolean;
   isFallback?: boolean;
