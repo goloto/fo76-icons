@@ -1,5 +1,4 @@
 import { readUnicodeMapFile } from '@/utils/file-reading';
-import type { Icon } from '@/types';
 import { ICONS } from '@/generated/icons';
 
 const TEMPLATE_LINK = '%custom-names%';

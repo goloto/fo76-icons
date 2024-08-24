@@ -50,10 +50,21 @@ export const generateIconsObj = async (): Promise<string> => {
       const iconsArray: Icon[] = [];
 
       for (let index = 0; index < maxPrefixLength; index++) {
+        const iconsMap: Set<IconNames> = new Set();
+
         iconsArray.push(
           ...group.rules
             .map((rule) => rule.prefix?.[index])
             .filter((prefix) => !!prefix)
+            .filter((prefix) => {
+              if (iconsMap.has(prefix)) {
+                return false;
+              }
+
+              iconsMap.add(prefix);
+
+              return true;
+            })
             .map((prefix) => ({
               name: prefix,
               charCode: generateCharCode(prefix),
