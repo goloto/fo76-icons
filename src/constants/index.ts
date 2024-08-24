@@ -2,7 +2,7 @@ import type { IconNames, Rule } from '../types';
 
 export const ICONS_DIRECTORY = './icons';
 export const GENERATED_DIRECTORY = './src/generated';
-export const RULES_DIRECTORY = './rules';
+export const RULES_DIRECTORY = './src/rules';
 
 const onlyActualItemsRegExp = new RegExp(
   '^((?!((zzz)|(ZZZ)|(DEl)|(DEL)|(test)|(DEPRECATED)|(cr)|(TEMPLATE)))).*(?!((NPC)|(NONPLAYABLE)))$'
@@ -43,7 +43,6 @@ export enum LeftSignature {
 
 export const SORTED_RULES_KEYS: Array<keyof Rule<IconNames>> = [
   'order',
-  'iconName',
   'leftSignature',
   'rightSignature',
   'isInjected',
@@ -51,7 +50,6 @@ export const SORTED_RULES_KEYS: Array<keyof Rule<IconNames>> = [
   'isAnyKeyword',
   'isInclusiveOr',
   'isFullReplaced',
-  'header',
   'include',
   'exclude',
   'isEnabled',

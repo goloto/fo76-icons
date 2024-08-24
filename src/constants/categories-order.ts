@@ -54,10 +54,6 @@ export const ICON_CATEGORIES_ORDER = [
     order: 12,
   },
   {
-    name: ICON_CATEGORIES.Mods,
-    order: 13,
-  },
-  {
     name: ICON_CATEGORIES.Weapons,
     order: 14,
   },

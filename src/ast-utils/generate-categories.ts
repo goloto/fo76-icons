@@ -14,7 +14,7 @@ export const generateCategories = async (): Promise<string> => {
   const printer = ts.createPrinter({ newLine: ts.NewLineKind.LineFeed });
 
   const categoryFiles = await readdir(RULES_DIRECTORY);
-  const categories = categoryFiles.filter(filterOnlyJson).map(removeExtension);
+  const categories = categoryFiles.filter(filterOnlyTs).map(removeExtension);
   const enumMembers = categories.map((category) => {
     return ts.factory.createEnumMember(
       category
@@ -33,5 +33,5 @@ export const generateCategories = async (): Promise<string> => {
   return printer.printNode(ts.EmitHint.Unspecified, enumDeclaration, file);
 };
 
-const filterOnlyJson = (item: string) => item.includes('.json');
-const removeExtension = (item: string) => item.replace('.json', '');
+const filterOnlyTs = (item: string) => item.includes('.ts');
+const removeExtension = (item: string) => item.replace('.ts', '');
