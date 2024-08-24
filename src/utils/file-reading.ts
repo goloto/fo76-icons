@@ -1,24 +1,3 @@
-import { GENERATED_DIRECTORY } from '../constants';
-import type { CategoryOrder, Rule, IconOrder, IconNames } from '../types';
-
-export const readCategoriesOrderFile = async (): Promise<CategoryOrder[]> => {
-  return await readFileAsJson<CategoryOrder[]>(
-    `${GENERATED_DIRECTORY}/categories-order.json`
-  );
-};
-
-export const readIconsOrderFile = async (): Promise<IconOrder[]> => {
-  return await readFileAsJson<IconOrder[]>(
-    `${GENERATED_DIRECTORY}/rules-order.json`
-  );
-};
-
-export const readIconRulesFile = async (): Promise<Rule<IconNames>[]> => {
-  return await readFileAsJson<Rule<IconNames>[]>(
-    `${GENERATED_DIRECTORY}/icons-rules.json`
-  );
-};
-
 export const readUnicodeMapFile = async (): Promise<string> => {
   return await readFileAsText('./fontlab/standard.nam');
 };
