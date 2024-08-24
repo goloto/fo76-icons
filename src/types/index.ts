@@ -4,6 +4,7 @@ import type {
   ICON_APPAREL,
   ICON_ARMOR,
   ICON_CURRENCY,
+  ICON_EVENTS,
   ICON_FOOD,
   ICON_HEAVY_WEAPONS,
   ICON_HOLOTAPES,
@@ -49,7 +50,8 @@ export type IconNames =
   | ICON_HEAVY_WEAPONS
   | ICON_RIFLES
   | ICON_SHOTGUNS
-  | ICON_PISTOLS;
+  | ICON_PISTOLS
+  | ICON_EVENTS;
 
 type IncludeProperty = `edid|${string}`[] | `ekwd|${string}`[];
 

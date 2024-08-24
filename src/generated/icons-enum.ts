@@ -264,3 +264,14 @@ export enum ICON_PISTOLS {
     CrusaderPistol = 'crusader_pistol',
     AlienBluster = 'alien_bluster'
 }
+export enum ICON_EVENTS {
+    BeastOfBurden = 'beast_of_burden',
+    MeetWeek = 'meet_week',
+    DailyOps = 'daily_ops',
+    EvictionNotice = 'eviction_notice',
+    MoonshineJamboree = 'moonshine_jamboree',
+    MothmanEquinox = 'mothman_equinox',
+    MostWanted = 'most_wanted',
+    Fasnacht = 'fasnacht',
+    SafeAndSound = 'safe_and_sound'
+}

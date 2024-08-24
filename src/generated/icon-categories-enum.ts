@@ -10,6 +10,7 @@ export enum ICON_CATEGORIES {
     Keys = 'keys',
     Holotapes = 'holotapes',
     HeavyWeapons = 'heavy-weapons',
+    Events = 'events',
     Rifles = 'rifles',
     Index = 'index',
     Ammo = 'ammo',
