@@ -1,1 +1,3 @@
 src/generated/*
+src/rules/*
+src/constants/categories-order.ts
