@@ -28,7 +28,15 @@
 - [x] Armor left arm
 - [x] Armor right leg
 - [x] Armor left leg
-- [x] Power armor
+- [x] T-45 PA
+- [x] T-51 PA
+- [x] T-60 PA
+- [x] T-65 PA
+- [x] X-01 PA
+- [ ] Raider PA
+- [ ] Excavator PA
+- [ ] Union PA
+- [ ] Hellcat PA
 
 ### Apparel Tab
 
