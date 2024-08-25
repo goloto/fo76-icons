@@ -47,25 +47,31 @@ const visitPropertyAssignmentsFactory =
 const visitSourceFileFactory =
   (sourceFile: ts.SourceFile) =>
   (node: ts.Node): ts.Node => {
-    if (node.kind === ts.SyntaxKind.ArrayLiteralExpression) {
-      const elements = (node as ts.ArrayLiteralExpression)
-        .elements as ts.NodeArray<ts.ObjectLiteralExpression>;
+    if (ts.isArrayLiteralExpression(node)) {
+      const elements = node.elements;
       const sortedElements = elements
         .toSorted((objA, objB) => {
-          const orderPropA = objA.properties.find(
-            (property) => property?.name?.getText(sourceFile) === 'order'
-          ) as ts.PropertyAssignment;
-          const orderPropB = objB.properties.find(
-            (property) => property?.name?.getText(sourceFile) === 'order'
-          ) as ts.PropertyAssignment;
-          const orderValueA = Number(
-            orderPropA.initializer.getText(sourceFile)
-          );
-          const orderValueB = Number(
-            orderPropB.initializer.getText(sourceFile)
-          );
+          if (
+            ts.isObjectLiteralExpression(objA) &&
+            ts.isObjectLiteralExpression(objB)
+          ) {
+            const orderPropA = objA.properties.find(
+              (property) => property?.name?.getText(sourceFile) === 'order'
+            ) as ts.PropertyAssignment;
+            const orderPropB = objB.properties.find(
+              (property) => property?.name?.getText(sourceFile) === 'order'
+            ) as ts.PropertyAssignment;
+            const orderValueA = Number(
+              orderPropA.initializer.getText(sourceFile)
+            );
+            const orderValueB = Number(
+              orderPropB.initializer.getText(sourceFile)
+            );
 
-          return orderValueA - orderValueB;
+            return orderValueA - orderValueB;
+          }
+
+          return 0;
         })
         .map((node, index) =>
           ts.visitEachChild(
