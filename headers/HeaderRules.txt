@@ -625,12 +625,8 @@
  includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ClothingTypeHat
- Include_1=ekwd|ArmorBodyPartHead
- Exclude_0=ekwd|ClothingTypeGasMask
- Exclude_1=ekwd|ClothingTypeFedora
- Exclude_2=ekwd|HatTypeFasnachtMask
- Exclude_3=ekwd|ClothingTypeGlasses
+ Include_0=edid|helmet
+ Exclude_0=edid|nohelmet
 [EndRule]
 
 [StartRule]
@@ -719,10 +715,11 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|ClothingTypeGlasses
+ Include_1=ekwd|ArmorBodyPartEyes
  Exclude_0=
 [EndRule]
 
@@ -760,6 +757,7 @@
  fallbackBank=0
  Include_0=ekwd|ClothingTypeFormalWear
  Exclude_0=ekwd|ClothingTypeDress
+ Exclude_1=edid|mask
 [EndRule]
 
 [StartRule]
@@ -785,19 +783,19 @@
 
 [StartRule]
  Header=⋽
- rSig=INNR
- fSig=WNAM
+ rSig=PACH
+ fSig=FULL
  enabled=-1
  tagID=default
  noKW=0
  anyKW=0
  hasCompo=0
  preProcess=0
- fullReplace=-1
+ fullReplace=0
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|t45
+ Include_0=edid|PAC_PowerArmor
  Exclude_0=
 [EndRule]
 
@@ -815,7 +813,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|t51
+ Include_0=ekwd|t45
  Exclude_0=
 [EndRule]
 
@@ -833,7 +831,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|t60
+ Include_0=ekwd|t51
  Exclude_0=
 [EndRule]
 
@@ -851,7 +849,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|PowerArmor_T65
+ Include_0=ekwd|t60
  Exclude_0=
 [EndRule]
 
@@ -869,12 +867,30 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|x01
+ Include_0=ekwd|PowerArmor_T65
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=⌂
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|x01
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋽
  rSig=INNR
  fSig=WNAM
  enabled=-1

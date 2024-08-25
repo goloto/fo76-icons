@@ -15,13 +15,15 @@ export const APPAREL_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: true,
             isFullReplaced: false,
-            include: ["ekwd|ClothingTypeHat", "ekwd|ArmorBodyPartHead"],
-            exclude: [
-                "ekwd|ClothingTypeGasMask",
-                "ekwd|ClothingTypeFedora",
-                "ekwd|HatTypeFasnachtMask",
-                "ekwd|ClothingTypeGlasses",
-            ],
+            include: ["edid|helmet"],
+            exclude: ["edid|nohelmet"]
+            // include: ["ekwd|ClothingTypeHat", "ekwd|ArmorBodyPartHead", "ekwd|HelmetCoversMouth"],
+            // exclude: [
+            //     "ekwd|ClothingTypeGasMask",
+            //     "ekwd|ClothingTypeFedora",
+            //     "ekwd|HatTypeFasnachtMask",
+            //     "ekwd|ClothingTypeGlasses",
+            // ],
         },
         {
             order: 1,
@@ -46,6 +48,7 @@ export const APPAREL_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
+            // "ekwd|ClothingTypeMask"
             include: ["ekwd|ClothingTypeHat", "ekwd|HatTypeFasnachtMask"],
             exclude: [],
         },
@@ -83,9 +86,9 @@ export const APPAREL_RULES_GROUP = {
             isInjected: false,
             isDeleted: false,
             isAnyKeyword: false,
-            isInclusiveOr: false,
+            isInclusiveOr: true,
             isFullReplaced: false,
-            include: ["ekwd|ClothingTypeGlasses"],
+            include: ["ekwd|ClothingTypeGlasses", "ekwd|ArmorBodyPartEyes"],
             exclude: [],
         },
         {
@@ -112,7 +115,7 @@ export const APPAREL_RULES_GROUP = {
             isInclusiveOr: false,
             isFullReplaced: false,
             include: ["ekwd|ClothingTypeFormalWear"],
-            exclude: ["ekwd|ClothingTypeDress"],
+            exclude: ["ekwd|ClothingTypeDress", "edid|mask"],
         },
         {
             order: 8,
@@ -132,5 +135,16 @@ export const APPAREL_RULES_GROUP = {
                 "ekwd|ClothingTypeFormalWear",
             ],
         }
+        // "ekwd|ObjectTypeSports"
+        // "ekwd|ClothingTypeCultist"
+        // "ekwd|ClothingTypeHistorical"
+        // "ekwd|ClothingTypeFishingHat"
+        // "ekwd|ClothingTypeFormalHat"
+        // "ekwd|ClothingTypeCostume"
+        // "ekwd|HatTypeClown"
+        // "ekwd|HatTypeTinfoil"
+        // "ekwd|DiseasePrevention_Inhalation"
+        // "ekwd|HatTypeHoliday"
+        // "ekwd|HatTypeMilitary"
     ],
 } as const satisfies RulesGroup<ICON_APPAREL>;

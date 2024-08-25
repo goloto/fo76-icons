@@ -610,27 +610,27 @@ export const ICONS = [
         charCode: '0x22fc'
     },
     {
-        name: ICON_ARMOR.TFortyFive,
+        name: ICON_ARMOR.PowerArmorHelmet,
         charCode: '0x22fd'
     },
     {
-        name: ICON_ARMOR.TFivtyOne,
+        name: ICON_ARMOR.TFortyFive,
         charCode: '0x22fe'
     },
     {
-        name: ICON_ARMOR.TSixty,
+        name: ICON_ARMOR.TFivtyOne,
         charCode: '0x22ff'
     },
     {
-        name: ICON_ARMOR.TSixtyFive,
+        name: ICON_ARMOR.TSixty,
         charCode: '0x2300'
     },
     {
-        name: ICON_ARMOR.XOne,
+        name: ICON_ARMOR.TSixtyFive,
         charCode: '0x2301'
     },
     {
-        name: ICON_ARMOR.PowerArmorHelmet,
+        name: ICON_ARMOR.XOne,
         charCode: '0x2302'
     },
     {
