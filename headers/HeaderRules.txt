@@ -625,8 +625,13 @@
  includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=edid|helmet
- Exclude_0=edid|nohelmet
+ Include_0=edid|glasses
+ Include_1=edid|goggles
+ Include_2=edid|Headwear_Metal_Shades
+ Include_3=edid|Headwear_TrustySidekick_Inspector_Mask
+ Include_4=edid|Headwear_SkippysOutfit
+ Include_5=edid|Headwear_BoS_Science_Scribe_Helmet
+ Exclude_0=
 [EndRule]
 
 [StartRule]
@@ -640,12 +645,57 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ClothingTypeHat
- Include_1=ekwd|ClothingTypeFedora
- Exclude_0=
+ Include_0=edid|headwear
+ Include_1=edid|Encryptid_Clothes_WhiteFedora
+ Include_2=edid|Mini_Robot_Hat
+ Include_3=edid|Tadpole_Clothes_PioneerScoutOutfit_Squirrel_Skirt
+ Exclude_0=ekwd|fasnacht
+ Exclude_1=edid|gasmask
+ Exclude_2=edid|Headwear_Radicals_Mask_A
+ Exclude_3=edid|beret
+ Exclude_4=edid|MilitaryCap
+ Exclude_5=edid|helmet
+ Exclude_6=edid|SupermutantHat
+ Exclude_7=edid|Supermutant76Hat1
+ Exclude_8=edid|ATX_Headwear_VintageFootball
+ Exclude_9=edid|Headwear_ChineseStealthArmor
+ Exclude_10=edid|Headwear_PumpkinHeavy_Black
+ Exclude_11=edid|Headwear_Jumpsuit_SpaceSuitClean1
+ Exclude_12=edid|Headwear_SpaceSuitHatClean
+ Exclude_13=edid|Headwear_AlaskanWinter
+ Exclude_14=edid|Headwear_CaptainCosmos
+ Exclude_15=edid|Creature_Spooky_Headwear_CaptainCosmos
+ Exclude_16=edid|Headwear_FreeStatesResistance
+ Exclude_17=edid|Headwear_PumpkinHeavy
+ Exclude_18=edid|Spooky_Headwear_PumpkinHeavy
+ Exclude_19=edid|F1_Headwear_RangersUniform
+ Exclude_20=edid|Headwear_HalloweenVikingBustedHorns
+ Exclude_21=edid|Spooky_Headwear_HalloweenVikingBustedHorns
+ Exclude_22=edid|Headwear_SkullRider_Flaming
+ Exclude_23=edid|Headwear_SkullRider_Rad
+ Exclude_24=edid|Armor_Raider_Skilanes_Headwear
+ Exclude_25=edid|Headwear_SkullRider
+ Exclude_26=edid|Headwear_CardboardRobot
+ Exclude_27=edid|Headwear_Jumpsuit_SpaceSuit1
+ Exclude_28=edid|Headwear_Responders_FirebreatherHat
+ Exclude_29=edid|Headwear_DeathclawMascot
+ Exclude_30=edid|Headwear_CommunistSpaceSuit
+ Exclude_31=edid|Headwear_FiremanHat
+ Exclude_32=edid|Headwear_Clothes_DLC03_Marine_Arctic
+ Exclude_33=edid|Headwear_FreeStatesRevolutionary
+ Exclude_34=edid|Headwear_BloodEagleMerc_Charmer2
+ Exclude_35=edid|Headwear_BloodEagleMerc_Charmer1
+ Exclude_36=edid|Headwear_SpaceSuitHat
+ Exclude_37=edid|Headwear_Union
+ Exclude_38=edid|Headwear_Responders_FiremanHat
+ Exclude_39=edid|Headwear_SuperMutant_Helm
+ Exclude_40=edid|Headwear_MutantArmor
+ Exclude_41=edid|Headwear_RangerArmor_Desert
+ Exclude_42=edid|Headwear_RangerArmor_Riot
+ Exclude_43=edid|Headwear_Clothes_Tempest
 [EndRule]
 
 [StartRule]
@@ -659,12 +709,12 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ClothingTypeHat
- Include_1=ekwd|HatTypeFasnachtMask
- Exclude_0=
+ Include_0=edid|beret
+ Include_1=edid|MilitaryCap
+ Exclude_0=ekwd|fasnacht
 [EndRule]
 
 [StartRule]
@@ -678,10 +728,11 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=edid|beret
+ Include_0=edid|gasmask
+ Include_1=edid|Headwear_Radicals_Mask_A
  Exclude_0=
 [EndRule]
 
@@ -696,12 +747,52 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ClothingTypeMask
- Include_1=ekwd|ClothingTypeGasMask
- Exclude_0=
+ Include_0=edid|helmet
+ Include_1=edid|SupermutantHat
+ Include_2=edid|Supermutant76Hat1
+ Include_3=edid|ATX_Headwear_VintageFootball
+ Include_4=edid|Headwear_ChineseStealthArmor
+ Include_5=edid|Headwear_PumpkinHeavy_Black
+ Include_6=edid|Headwear_Jumpsuit_SpaceSuitClean1
+ Include_7=edid|Headwear_SpaceSuitHatClean
+ Include_8=edid|Headwear_AlaskanWinter
+ Include_9=edid|Headwear_CaptainCosmos
+ Include_10=edid|Creature_Spooky_Headwear_CaptainCosmos
+ Include_11=edid|Headwear_FreeStatesResistance
+ Include_12=edid|Headwear_PumpkinHeavy
+ Include_13=edid|Spooky_Headwear_PumpkinHeavy
+ Include_14=edid|F1_Headwear_RangersUniform
+ Include_15=edid|Headwear_HalloweenVikingBustedHorns
+ Include_16=edid|Spooky_Headwear_HalloweenVikingBustedHorns
+ Include_17=edid|Headwear_SkullRider_Flaming
+ Include_18=edid|Headwear_SkullRider_Rad
+ Include_19=edid|Armor_Raider_Skilanes_Headwear
+ Include_20=edid|Headwear_SkullRider
+ Include_21=edid|Headwear_CardboardRobot
+ Include_22=edid|Headwear_Jumpsuit_SpaceSuit1
+ Include_23=edid|Headwear_Responders_FirebreatherHat
+ Include_24=edid|Headwear_DeathclawMascot
+ Include_25=edid|Headwear_CommunistSpaceSuit
+ Include_26=edid|Headwear_FiremanHat
+ Include_27=edid|Headwear_Clothes_DLC03_Marine_Arctic
+ Include_28=edid|Headwear_FreeStatesRevolutionary
+ Include_29=edid|Headwear_BloodEagleMerc_Charmer2
+ Include_30=edid|Headwear_BloodEagleMerc_Charmer1
+ Include_31=edid|Headwear_SpaceSuitHat
+ Include_32=edid|Headwear_Union
+ Include_33=edid|Headwear_Responders_FiremanHat
+ Include_34=edid|Headwear_SuperMutant_Helm
+ Include_35=edid|Headwear_MutantArmor
+ Include_36=edid|Headwear_RangerArmor_Desert
+ Include_37=edid|Headwear_RangerArmor_Riot
+ Include_38=edid|Headwear_Clothes_Tempest
+ Exclude_0=edid|nohelmet
+ Exclude_1=edid|gasmask
+ Exclude_2=edid|fasnacht
+ Exclude_3=edid|PowerArmor
 [EndRule]
 
 [StartRule]
@@ -715,11 +806,10 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=-1
+ includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ClothingTypeGlasses
- Include_1=ekwd|ArmorBodyPartEyes
+ Include_0=ekwd|fasnacht
  Exclude_0=
 [EndRule]
 
@@ -795,7 +885,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|PAC_PowerArmor
+ Include_0=
  Exclude_0=
 [EndRule]
 
@@ -886,6 +976,25 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|x01
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋽
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ArmorTypePower
+ Include_1=ekwd|PowerArmorChasis
  Exclude_0=
 [EndRule]
 

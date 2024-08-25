@@ -574,7 +574,7 @@ export const ICONS = [
         charCode: '0x22f3'
     },
     {
-        name: ICON_APPAREL.Helmet,
+        name: ICON_APPAREL.Glasses,
         charCode: '0x22f4'
     },
     {
@@ -582,19 +582,19 @@ export const ICONS = [
         charCode: '0x22f5'
     },
     {
-        name: ICON_APPAREL.FasnachtMask,
+        name: ICON_APPAREL.Beret,
         charCode: '0x22f6'
     },
     {
-        name: ICON_APPAREL.Beret,
+        name: ICON_APPAREL.GasMask,
         charCode: '0x22f7'
     },
     {
-        name: ICON_APPAREL.GasMask,
+        name: ICON_APPAREL.Helmet,
         charCode: '0x22f8'
     },
     {
-        name: ICON_APPAREL.Glasses,
+        name: ICON_APPAREL.FasnachtMask,
         charCode: '0x22f9'
     },
     {

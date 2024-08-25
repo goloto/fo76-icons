@@ -54,7 +54,7 @@ export type IconNames =
   | ICON_PISTOLS
   | ICON_EVENTS;
 
-type IncludeProperty = `edid|${string}` | `ekwd|${string}`;
+export type IncludeProperty = `edid|${string}` | `ekwd|${string}`;
 
 export interface Rule<T extends IconNames> {
   order: number;

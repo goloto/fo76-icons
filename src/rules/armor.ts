@@ -15,9 +15,7 @@ export const ARMOR_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: [
-                "edid|PAC_PowerArmor"
-            ],
+            include: [],
             exclude: [],
         },
         {
@@ -88,6 +86,21 @@ export const ARMOR_RULES_GROUP = {
         {
             order: 6,
             prefix: [ICON_ARMOR.PowerArmorHelmet],
+            leftSignature: LeftSignature.Armor,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [
+                "ekwd|ArmorTypePower",
+                "ekwd|PowerArmorChasis"
+            ],
+        },
+        {
+            order: 7,
+            prefix: [ICON_ARMOR.PowerArmorHelmet],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
             isInjected: false,
@@ -95,7 +108,9 @@ export const ARMOR_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: ["ekwd|PowerArmor"],
+            include: [
+                "ekwd|PowerArmor",
+            ],
             exclude: [
                 "ekwd|PowerArmor_Helmet",
                 "ekwd|PowerArmor_LeftArm",
@@ -111,7 +126,7 @@ export const ARMOR_RULES_GROUP = {
             ],
         },
         {
-            order: 7,
+            order: 8,
             prefix: [ICON_ARMOR.Underarmor],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -124,7 +139,7 @@ export const ARMOR_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 8,
+            order: 9,
             prefix: [ICON_ARMOR.Spacesuit],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -137,7 +152,7 @@ export const ARMOR_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 9,
+            order: 10,
             prefix: [ICON_ARMOR.ChestArmor],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -154,7 +169,7 @@ export const ARMOR_RULES_GROUP = {
             ],
         },
         {
-            order: 10,
+            order: 11,
             prefix: [ICON_ARMOR.ArmorRightArm],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -171,7 +186,7 @@ export const ARMOR_RULES_GROUP = {
             exclude: ["ekwd|ArmorTypePower"],
         },
         {
-            order: 11,
+            order: 12,
             prefix: [ICON_ARMOR.ArmorLeftArm],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -188,7 +203,7 @@ export const ARMOR_RULES_GROUP = {
             exclude: ["ekwd|ArmorTypePower"],
         },
         {
-            order: 12,
+            order: 13,
             prefix: [ICON_ARMOR.ArmorRightLeg],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -205,7 +220,7 @@ export const ARMOR_RULES_GROUP = {
             exclude: ["ekwd|ArmorTypePower"],
         },
         {
-            order: 13,
+            order: 14,
             prefix: [ICON_ARMOR.ArmorLeftLeg],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
