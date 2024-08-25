@@ -51,6 +51,7 @@
 - [x] Dress
 - [x] Suit
 - [x] Spacesuit
+- [ ] Jumpsuit
 - [x] Underarmor
 - [ ] Lab coat
 - [ ] Jumpsuit

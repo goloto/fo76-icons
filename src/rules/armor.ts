@@ -146,9 +146,12 @@ export const ARMOR_RULES_GROUP = {
             isInjected: false,
             isDeleted: false,
             isAnyKeyword: false,
-            isInclusiveOr: false,
+            isInclusiveOr: true,
             isFullReplaced: false,
-            include: ["ekwd|ClothingTypeSpacesuit"],
+            include: [
+                "edid|SpaceSuit",
+                "edid|HazmatSuit"
+            ],
             exclude: [],
         },
         {
