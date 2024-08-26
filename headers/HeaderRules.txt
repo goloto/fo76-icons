@@ -652,50 +652,56 @@
  Include_1=edid|Encryptid_Clothes_WhiteFedora
  Include_2=edid|Mini_Robot_Hat
  Include_3=edid|Tadpole_Clothes_PioneerScoutOutfit_Squirrel_Skirt
+ Include_4=edid|Supermutant_KingGrognak_Headband
+ Include_5=edid|Herd_Workshop_Clothes_BlueDevilHooddd
  Exclude_0=ekwd|fasnacht
- Exclude_1=edid|gasmask
- Exclude_2=edid|Headwear_Radicals_Mask_A
- Exclude_3=edid|beret
- Exclude_4=edid|MilitaryCap
- Exclude_5=edid|helmet
- Exclude_6=edid|SupermutantHat
- Exclude_7=edid|Supermutant76Hat1
- Exclude_8=edid|ATX_Headwear_VintageFootball
- Exclude_9=edid|Headwear_ChineseStealthArmor
- Exclude_10=edid|Headwear_PumpkinHeavy_Black
- Exclude_11=edid|Headwear_Jumpsuit_SpaceSuitClean1
- Exclude_12=edid|Headwear_SpaceSuitHatClean
- Exclude_13=edid|Headwear_AlaskanWinter
- Exclude_14=edid|Headwear_CaptainCosmos
- Exclude_15=edid|Creature_Spooky_Headwear_CaptainCosmos
- Exclude_16=edid|Headwear_FreeStatesResistance
- Exclude_17=edid|Headwear_PumpkinHeavy
- Exclude_18=edid|Spooky_Headwear_PumpkinHeavy
- Exclude_19=edid|F1_Headwear_RangersUniform
- Exclude_20=edid|Headwear_HalloweenVikingBustedHorns
- Exclude_21=edid|Spooky_Headwear_HalloweenVikingBustedHorns
- Exclude_22=edid|Headwear_SkullRider_Flaming
- Exclude_23=edid|Headwear_SkullRider_Rad
- Exclude_24=edid|Armor_Raider_Skilanes_Headwear
- Exclude_25=edid|Headwear_SkullRider
- Exclude_26=edid|Headwear_CardboardRobot
- Exclude_27=edid|Headwear_Jumpsuit_SpaceSuit1
- Exclude_28=edid|Headwear_Responders_FirebreatherHat
- Exclude_29=edid|Headwear_DeathclawMascot
- Exclude_30=edid|Headwear_CommunistSpaceSuit
- Exclude_31=edid|Headwear_FiremanHat
- Exclude_32=edid|Headwear_Clothes_DLC03_Marine_Arctic
- Exclude_33=edid|Headwear_FreeStatesRevolutionary
- Exclude_34=edid|Headwear_BloodEagleMerc_Charmer2
- Exclude_35=edid|Headwear_BloodEagleMerc_Charmer1
- Exclude_36=edid|Headwear_SpaceSuitHat
- Exclude_37=edid|Headwear_Union
- Exclude_38=edid|Headwear_Responders_FiremanHat
- Exclude_39=edid|Headwear_SuperMutant_Helm
- Exclude_40=edid|Headwear_MutantArmor
- Exclude_41=edid|Headwear_RangerArmor_Desert
- Exclude_42=edid|Headwear_RangerArmor_Riot
- Exclude_43=edid|Headwear_Clothes_Tempest
+ Exclude_1=edid|Veteran_Mask
+ Exclude_2=edid|ClothesMistressOfMysteryVeil
+ Exclude_3=edid|ClothesMistressOfMysteryWornVeil
+ Exclude_4=edid|gasmask
+ Exclude_5=edid|Headwear_Radicals_Mask_A
+ Exclude_6=edid|beret
+ Exclude_7=edid|MilitaryCap
+ Exclude_8=edid|DLC03CaptainsDanceHat
+ Exclude_9=edid|helmet
+ Exclude_10=edid|SupermutantHat
+ Exclude_11=edid|Supermutant76Hat1
+ Exclude_12=edid|ATX_Headwear_VintageFootball
+ Exclude_13=edid|Headwear_ChineseStealthArmor
+ Exclude_14=edid|Headwear_PumpkinHeavy_Black
+ Exclude_15=edid|Headwear_Jumpsuit_SpaceSuitClean1
+ Exclude_16=edid|Headwear_SpaceSuitHatClean
+ Exclude_17=edid|Headwear_AlaskanWinter
+ Exclude_18=edid|Headwear_CaptainCosmos
+ Exclude_19=edid|Creature_Spooky_Headwear_CaptainCosmos
+ Exclude_20=edid|Headwear_FreeStatesResistance
+ Exclude_21=edid|Headwear_PumpkinHeavy
+ Exclude_22=edid|Spooky_Headwear_PumpkinHeavy
+ Exclude_23=edid|F1_Headwear_RangersUniform
+ Exclude_24=edid|Headwear_HalloweenVikingBustedHorns
+ Exclude_25=edid|Spooky_Headwear_HalloweenVikingBustedHorns
+ Exclude_26=edid|Headwear_SkullRider_Flaming
+ Exclude_27=edid|Headwear_SkullRider_Rad
+ Exclude_28=edid|Armor_Raider_Skilanes_Headwear
+ Exclude_29=edid|Headwear_SkullRider
+ Exclude_30=edid|Headwear_CardboardRobot
+ Exclude_31=edid|Headwear_Jumpsuit_SpaceSuit1
+ Exclude_32=edid|Headwear_Responders_FirebreatherHat
+ Exclude_33=edid|Headwear_DeathclawMascot
+ Exclude_34=edid|Headwear_CommunistSpaceSuit
+ Exclude_35=edid|Headwear_FiremanHat
+ Exclude_36=edid|Headwear_Clothes_DLC03_Marine_Arctic
+ Exclude_37=edid|Headwear_FreeStatesRevolutionary
+ Exclude_38=edid|Headwear_BloodEagleMerc_Charmer2
+ Exclude_39=edid|Headwear_BloodEagleMerc_Charmer1
+ Exclude_40=edid|Headwear_SpaceSuitHat
+ Exclude_41=edid|Headwear_Union
+ Exclude_42=edid|Headwear_Responders_FiremanHat
+ Exclude_43=edid|Headwear_SuperMutant_Helm
+ Exclude_44=edid|Headwear_MutantArmor
+ Exclude_45=edid|Headwear_RangerArmor_Desert
+ Exclude_46=edid|Headwear_RangerArmor_Riot
+ Exclude_47=edid|Headwear_Clothes_Tempest
 [EndRule]
 
 [StartRule]
@@ -714,7 +720,11 @@
  fallbackBank=0
  Include_0=edid|beret
  Include_1=edid|MilitaryCap
+ Include_2=edid|DLC03CaptainsDanceHat
  Exclude_0=ekwd|fasnacht
+ Exclude_1=edid|Veteran_Mask
+ Exclude_2=edid|ClothesMistressOfMysteryVeil
+ Exclude_3=edid|ClothesMistressOfMysteryWornVeil
 [EndRule]
 
 [StartRule]
@@ -814,6 +824,26 @@
 [EndRule]
 
 [StartRule]
+ Header=⋹
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Veteran_Mask
+ Include_1=edid|ClothesMistressOfMysteryVeil
+ Include_2=edid|ClothesMistressOfMysteryWornVeil
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=⋺
  rSig=ARMO
  fSig=FULL
@@ -872,8 +902,29 @@
 [EndRule]
 
 [StartRule]
+ Header=⋼
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Armor_Disciples_Underarmor
+ Include_1=edid|MotivationalCollar
+ Include_2=edid|WeaselCollar
+ Include_3=edid|Outfit_TheMechanicOutfit_GreaseGoblin
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=⋽
- rSig=PACH
+ rSig=ARMO
  fSig=FULL
  enabled=-1
  tagID=default
@@ -885,8 +936,54 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=edid|PowerArmorChassis
  Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋽
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ArmorTypePower
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋽
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PowerArmor
+ Exclude_0=ekwd|PowerArmor_Helmet
+ Exclude_1=ekwd|PowerArmor_LeftArm
+ Exclude_2=ekwd|PowerArmor_RightArm
+ Exclude_3=ekwd|PowerArmor_LeftLeg
+ Exclude_4=ekwd|PowerArmor_RightLeg
+ Exclude_5=ekwd|PowerArmor_Torso
+ Exclude_6=ekwd|t45
+ Exclude_7=ekwd|t51
+ Exclude_8=ekwd|t60
+ Exclude_9=ekwd|PowerArmor_T65
+ Exclude_10=ekwd|x01
 [EndRule]
 
 [StartRule]
@@ -980,28 +1077,9 @@
 [EndRule]
 
 [StartRule]
- Header=⋽
+ Header=⌃
  rSig=ARMO
  fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ArmorTypePower
- Include_1=ekwd|PowerArmorChasis
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⋽
- rSig=INNR
- fSig=WNAM
  enabled=-1
  tagID=default
  noKW=0
@@ -1012,18 +1090,8 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|PowerArmor
- Exclude_0=ekwd|PowerArmor_Helmet
- Exclude_1=ekwd|PowerArmor_LeftArm
- Exclude_2=ekwd|PowerArmor_RightArm
- Exclude_3=ekwd|PowerArmor_LeftLeg
- Exclude_4=ekwd|PowerArmor_RightLeg
- Exclude_5=ekwd|PowerArmor_Torso
- Exclude_6=ekwd|t45
- Exclude_7=ekwd|t51
- Exclude_8=ekwd|t60
- Exclude_9=ekwd|PowerArmor_T65
- Exclude_10=ekwd|x01
+ Include_0=edid|Armor_Vault118_UnderwearClean
+ Exclude_0=
 [EndRule]
 
 [StartRule]

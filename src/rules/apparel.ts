@@ -2,6 +2,22 @@ import { ICON_APPAREL } from "@/generated/icons-enum";
 import { LeftSignature, RightSignature } from "@/constants";
 import type { IncludeProperty, RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
+const glassesInclude: IncludeProperty[] = [
+    "edid|glasses",
+    "edid|goggles",
+    "edid|Headwear_Metal_Shades",
+    "edid|Headwear_TrustySidekick_Inspector_Mask",
+    "edid|Headwear_SkippysOutfit",
+    "edid|Headwear_BoS_Science_Scribe_Helmet"
+];
+const fedoraInclude: IncludeProperty[] = [
+    "edid|headwear",
+    "edid|Encryptid_Clothes_WhiteFedora",
+    "edid|Mini_Robot_Hat",
+    "edid|Tadpole_Clothes_PioneerScoutOutfit_Squirrel_Skirt",
+    "edid|Supermutant_KingGrognak_Headband",
+    "edid|Herd_Workshop_Clothes_BlueDevilHooddd"
+];
 const helmetInclude: IncludeProperty[] = [
     "edid|helmet",
     "edid|SupermutantHat",
@@ -45,14 +61,20 @@ const helmetInclude: IncludeProperty[] = [
 ];
 const beretInclude: IncludeProperty[] = [
     "edid|beret",
-    "edid|MilitaryCap"
+    "edid|MilitaryCap",
+    "edid|DLC03CaptainsDanceHat"
 ];
 const gasMaskInclude: IncludeProperty[] = [
     "edid|gasmask",
     "edid|Headwear_Radicals_Mask_A"
 ];
-const fasnachtMaskInclude: IncludeProperty[] = [
+const fasnachtMaskKeywordInclude: IncludeProperty[] = [
     "ekwd|fasnacht"
+];
+const fasnachtMaskEdidInclude: IncludeProperty[] = [
+    "edid|Veteran_Mask",
+    "edid|ClothesMistressOfMysteryVeil",
+    "edid|ClothesMistressOfMysteryWornVeil"
 ];
 export const APPAREL_RULES_GROUP = {
     category: ICON_CATEGORIES.Apparel,
@@ -67,14 +89,7 @@ export const APPAREL_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: true,
             isFullReplaced: false,
-            include: [
-                "edid|glasses",
-                "edid|goggles",
-                "edid|Headwear_Metal_Shades",
-                "edid|Headwear_TrustySidekick_Inspector_Mask",
-                "edid|Headwear_SkippysOutfit",
-                "edid|Headwear_BoS_Science_Scribe_Helmet",
-            ],
+            include: glassesInclude,
             exclude: [],
         },
         {
@@ -87,14 +102,10 @@ export const APPAREL_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: true,
             isFullReplaced: false,
-            include: [
-                "edid|headwear",
-                "edid|Encryptid_Clothes_WhiteFedora",
-                "edid|Mini_Robot_Hat",
-                "edid|Tadpole_Clothes_PioneerScoutOutfit_Squirrel_Skirt"
-            ],
+            include: fedoraInclude,
             exclude: [
-                ...fasnachtMaskInclude,
+                ...fasnachtMaskKeywordInclude,
+                ...fasnachtMaskEdidInclude,
                 ...gasMaskInclude,
                 ...beretInclude,
                 ...helmetInclude,
@@ -112,7 +123,8 @@ export const APPAREL_RULES_GROUP = {
             isFullReplaced: false,
             include: beretInclude,
             exclude: [
-                ...fasnachtMaskInclude,
+                ...fasnachtMaskKeywordInclude,
+                ...fasnachtMaskEdidInclude,
             ],
         },
         {
@@ -156,11 +168,24 @@ export const APPAREL_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: fasnachtMaskInclude,
+            include: fasnachtMaskKeywordInclude,
             exclude: [],
         },
         {
             order: 6,
+            prefix: [ICON_APPAREL.FasnachtMask],
+            leftSignature: LeftSignature.Armor,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: fasnachtMaskEdidInclude,
+            exclude: [],
+        },
+        {
+            order: 7,
             prefix: [ICON_APPAREL.Dress],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -173,7 +198,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 7,
+            order: 8,
             prefix: [ICON_APPAREL.Suit],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -186,7 +211,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: ["ekwd|ClothingTypeDress", "edid|mask"],
         },
         {
-            order: 8,
+            order: 9,
             prefix: [ICON_APPAREL.Apparel],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -202,6 +227,24 @@ export const APPAREL_RULES_GROUP = {
                 "ekwd|ClothingTypeDress",
                 "ekwd|ClothingTypeFormalWear",
             ],
+        },
+        {
+            order: 10,
+            prefix: [ICON_APPAREL.Apparel],
+            leftSignature: LeftSignature.Armor,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [
+                "edid|Armor_Disciples_Underarmor",
+                "edid|MotivationalCollar",
+                "edid|WeaselCollar",
+                "edid|Outfit_TheMechanicOutfit_GreaseGoblin",
+            ],
+            exclude: [],
         }
         // "ekwd|ObjectTypeSports"
         // "ekwd|ClothingTypeCultist"
