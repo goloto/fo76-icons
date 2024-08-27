@@ -10,6 +10,17 @@ const glassesInclude: IncludeProperty[] = [
     "edid|Headwear_SkippysOutfit",
     "edid|Headwear_BoS_Science_Scribe_Helmet"
 ];
+const capInclude: IncludeProperty[] = [
+    "edid|SCORE_S11_ARMO_Headwear_SodaJerkCap",
+    "edid|ATX_Headwear_MilitaryUtilityCap_Green",
+    "edid|ATX_Headwear_MilitaryUtilityCap_Camo",
+    "edid|XPD_AC_Headwear_Buttercup",
+    "edid|Headwear_Resident7Hat",
+    "edid|ATX_Headwear_PiperCap_SP1",
+    "edid|Headwear_Raider_Hood",
+    "edid|ATX_Headwear_LeatherCap",
+    "edid|ATX_Headwear_MilitaryUtilityCap_Tan"
+];
 const fedoraInclude: IncludeProperty[] = [
     "edid|headwear",
     "edid|Encryptid_Clothes_WhiteFedora",
@@ -109,10 +120,25 @@ export const APPAREL_RULES_GROUP = {
                 ...gasMaskInclude,
                 ...beretInclude,
                 ...helmetInclude,
+                ...capInclude,
+                "ekwd|cultist"
             ],
         },
         {
             order: 2,
+            prefix: [ICON_APPAREL.Cap],
+            leftSignature: LeftSignature.Armor,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: capInclude,
+            exclude: [],
+        },
+        {
+            order: 3,
             prefix: [ICON_APPAREL.Beret],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -128,7 +154,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 3,
+            order: 4,
             prefix: [ICON_APPAREL.GasMask],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -141,7 +167,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 4,
+            order: 5,
             prefix: [ICON_APPAREL.Helmet],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -155,11 +181,12 @@ export const APPAREL_RULES_GROUP = {
                 "edid|nohelmet",
                 "edid|gasmask",
                 "edid|fasnacht",
-                "edid|PowerArmor"
+                "edid|PowerArmor",
+                "ekwd|cultist"
             ],
         },
         {
-            order: 5,
+            order: 6,
             prefix: [ICON_APPAREL.FasnachtMask],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -172,7 +199,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 6,
+            order: 7,
             prefix: [ICON_APPAREL.FasnachtMask],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -185,7 +212,55 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 7,
+            order: 8,
+            prefix: [ICON_APPAREL.CultistHood],
+            leftSignature: LeftSignature.Armor,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: [
+                "ekwd|ClothingTypeHat",
+                "ekwd|ClothingTypeCultist",
+            ],
+            exclude: [],
+        },
+        {
+            order: 9,
+            prefix: [ICON_APPAREL.CarnivalCostume],
+            leftSignature: LeftSignature.Armor,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: [
+                "ekwd|ObjectTypeClothing",
+                "ekwd|ClothingTypeHoliday",
+            ],
+            exclude: [
+                "ekwd|hat",
+                "ekwd|glasses",
+            ],
+        },
+        {
+            order: 10,
+            prefix: [ICON_APPAREL.Jumpsuit],
+            leftSignature: LeftSignature.Armor,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["edid|jumpsuit"],
+            exclude: ["edid|HeadWear"],
+        },
+        {
+            order: 11,
             prefix: [ICON_APPAREL.Dress],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -198,7 +273,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 8,
+            order: 12,
             prefix: [ICON_APPAREL.Suit],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -211,7 +286,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: ["ekwd|ClothingTypeDress", "edid|mask"],
         },
         {
-            order: 9,
+            order: 13,
             prefix: [ICON_APPAREL.Apparel],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -229,7 +304,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 10,
+            order: 14,
             prefix: [ICON_APPAREL.Apparel],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,

@@ -72,6 +72,7 @@ export enum ICON_MISC {
     RepairKit = 'repair_kit',
     Flux = 'flux',
     Bones = 'bones',
+    LegendaryModification = 'legendary_modification',
     Bulk = 'bulk',
     RocketToy = 'rocket_toy',
     NukeCard = 'nuke_card',
@@ -168,9 +169,13 @@ export enum ICON_APPAREL {
     Suit = 'suit',
     GasMask = 'gas_mask',
     Glasses = 'glasses',
+    Jumpsuit = 'jumpsuit',
     Dress = 'dress',
     Beret = 'beret',
+    CarnivalCostume = 'carnival_costume',
     Helmet = 'helmet',
+    Cap = 'cap',
+    CultistHood = 'cultist_hood',
     FedoraHat = 'fedora_hat'
 }
 export enum ICON_ARMOR {
