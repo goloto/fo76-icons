@@ -1,0 +1,4847 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>SeventySix</Addon>
+    <Source>ru</Source>
+    <Dest>ru</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0" sID="000B21" Partial="1">
+      <EDID>CaveCricketMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо пещерного сверчка</Source>
+      <Dest>#raw_meat# Мясо пещерного сверчка</Dest>
+    </String>
+    <String List="0" sID="000B72" Partial="1">
+      <EDID>SwarmMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо крылатого муравья</Source>
+      <Dest>#raw_meat# Мясо крылатого муравья</Dest>
+    </String>
+    <String List="0" sID="000C07" Partial="1">
+      <EDID>RadAntMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо муравья</Source>
+      <Dest>#raw_meat# Мясо муравья</Dest>
+    </String>
+    <String List="0" sID="00112B" Partial="1">
+      <EDID>FeverBlossomHerb</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Лихоцвет</Source>
+      <Dest>#flower# Лихоцвет</Dest>
+    </String>
+    <String List="0" sID="001332" Partial="1">
+      <EDID>FogCrawlerMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сырое мясо туманника</Source>
+      <Dest>#raw_meat# Сырое мясо туманника</Dest>
+    </String>
+    <String List="0" sID="0014D3" Partial="1">
+      <EDID>AnglerMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо удильщика</Source>
+      <Dest>#raw_meat# Мясо удильщика</Dest>
+    </String>
+    <String List="0" sID="001875" Partial="1">
+      <EDID>DLC04_NukaCola_Orange</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ядер-Апельсин</Source>
+      <Dest>#nuka_cola# Ядер-Апельсин</Dest>
+    </String>
+    <String List="0" sID="0018D4" Partial="1">
+      <EDID>DLC04_NukaCola_Grape</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ядер-Виноград</Source>
+      <Dest>#nuka_cola# Ядер-Виноград</Dest>
+    </String>
+    <String List="0" sID="0018DD" Partial="1">
+      <EDID>Brew_DLC04_NukaCola_Dark</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Темная Ядер-Кола</Source>
+      <Dest>#nuka_cola# Темная Ядер-Кола</Dest>
+    </String>
+    <String List="0" sID="0018F3" Partial="1">
+      <EDID>DLC04_NukaCola_Wild</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Дикая Ядер-Кола</Source>
+      <Dest>#nuka_cola# Дикая Ядер-Кола</Dest>
+    </String>
+    <String List="0" sID="001983" Partial="1">
+      <EDID>DLC04_FunnelCake</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Торт &quot;Муравейник&quot;</Source>
+      <Dest>#cake# Торт &quot;Муравейник&quot;</Dest>
+    </String>
+    <String List="0" sID="001A00" Partial="1">
+      <EDID>CaveCricketMeatGland</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Железа пещерного сверчка</Source>
+      <Dest>#raw_meat# Железа пещерного сверчка</Dest>
+    </String>
+    <String List="0" sID="001ADA" Partial="1">
+      <EDID>DLC04_CottonCandyBites</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сахарная вата</Source>
+      <Dest>#candy# Сахарная вата</Dest>
+    </String>
+    <String List="0" sID="00286E" Partial="1">
+      <EDID>MirelurkMeatTastyJerky</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Вяленый болотник</Source>
+      <Dest>#cooked_meat# Вяленый болотник</Dest>
+    </String>
+    <String List="0" sID="00351F" Partial="1">
+      <EDID>AnglerLureWeedVegetable</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Приманка из водорослей</Source>
+      <Dest>#carrot# Приманка из водорослей</Dest>
+    </String>
+    <String List="0" sID="003578" Partial="1">
+      <EDID>DLC04_Calmex</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Шелковый Успокоин</Source>
+      <Dest>#med_x# Шелковый Успокоин</Dest>
+    </String>
+    <String List="0" sID="003631" Partial="1">
+      <EDID>BlightVegetable</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Гриб</Source>
+      <Dest>#mushrooms# Гриб</Dest>
+    </String>
+    <String List="0" sID="003E9F" Partial="1">
+      <EDID>WolfMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Волчьи ребра</Source>
+      <Dest>#cooked_meat# Волчьи ребра</Dest>
+    </String>
+    <String List="0" sID="003ED1" Partial="1">
+      <EDID>FogCrawlerMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жареный туманник</Source>
+      <Dest>#cooked_meat# Жареный туманник</Dest>
+    </String>
+    <String List="0" sID="0042FC" Partial="1">
+      <EDID>RadratMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Стейк из радкрысы</Source>
+      <Dest>#cooked_meat# Стейк из радкрысы</Dest>
+    </String>
+    <String List="0" sID="0043BF" Partial="1">
+      <EDID>HermitCrabMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо краба-отшельника</Source>
+      <Dest>#raw_meat# Мясо краба-отшельника</Dest>
+    </String>
+    <String List="0" sID="0043C1" Partial="1">
+      <EDID>CaveCricketMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Хрустящий пещерный сверчок</Source>
+      <Dest>#cooked_meat# Хрустящий пещерный сверчок</Dest>
+    </String>
+    <String List="0" sID="0043C6" Partial="1">
+      <EDID>RadantMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жареный муравей</Source>
+      <Dest>#cooked_meat# Жареный муравей</Dest>
+    </String>
+    <String List="0" sID="004407" Partial="1">
+      <EDID>HermitCrabMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жареный краб-отшельник</Source>
+      <Dest>#cooked_meat# Жареный краб-отшельник</Dest>
+    </String>
+    <String List="0" sID="004518" Partial="1">
+      <EDID>GulperMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Суп-пюре из заглота</Source>
+      <Dest>#meat_soup# Суп-пюре из заглота</Dest>
+    </String>
+    <String List="0" sID="004549" Partial="1">
+      <EDID>GulperMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Внутренности заглота</Source>
+      <Dest>#raw_meat# Внутренности заглота</Dest>
+    </String>
+    <String List="0" sID="004B99" Partial="1">
+      <EDID>ChickenMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Куриное бедро</Source>
+      <Dest>#raw_meat# Куриное бедро</Dest>
+    </String>
+    <String List="0" sID="004BA0" Partial="1">
+      <EDID>RabbitMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Кроличья лапа</Source>
+      <Dest>#raw_meat# Кроличья лапа</Dest>
+    </String>
+    <String List="0" sID="004BE1" Partial="1">
+      <EDID>RabbitMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Шашлыки из кролика с приправами</Source>
+      <Dest>#cooked_meat# Шашлыки из кролика с приправами</Dest>
+    </String>
+    <String List="0" sID="004BE6" Partial="1">
+      <EDID>ChickenMeatCookedSoup</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Куриный суп с лапшой</Source>
+      <Dest>#meat_soup# Куриный суп с лапшой</Dest>
+    </String>
+    <String List="0" sID="0127B7" Partial="1">
+      <EDID>Gumdrops</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жевательные пастилки</Source>
+      <Dest>#candy# Жевательные пастилки</Dest>
+    </String>
+    <String List="0" sID="0131B2" Partial="1">
+      <EDID>Brew_BeerBottleStandard01</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пиво</Source>
+      <Dest>#beer# Пиво</Dest>
+    </String>
+    <String List="0" sID="013DCB" Partial="1">
+      <EDID>GourdVegetable</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Тыква</Source>
+      <Dest>#carrot# Тыква</Dest>
+    </String>
+    <String List="0" sID="013EE7" Partial="1">
+      <EDID>InstaMash</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пюре быстрого приготовления</Source>
+      <Dest>#canned_food# Пюре быстрого приготовления</Dest>
+    </String>
+    <String List="0" sID="014B8E" Partial="1">
+      <EDID>BlamcoMacAndCheese</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Макароны с сыром &quot;Бламко&quot;</Source>
+      <Dest>#canned_food# Макароны с сыром &quot;Бламко&quot;</Dest>
+    </String>
+    <String List="0" sID="014F5F" Partial="1">
+      <EDID>CarrotVegetable</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Морковь</Source>
+      <Dest>#carrot# Морковь</Dest>
+    </String>
+    <String List="0" sID="0154C8" Partial="1">
+      <EDID>Brew_Vodka</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Водка</Source>
+      <Dest>#whiskey# Водка</Dest>
+    </String>
+    <String List="0" sID="0155AE" Partial="1">
+      <EDID>FernFlowerHerb</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Цветок папоротника-мутанта</Source>
+      <Dest>#flower# Цветок папоротника-мутанта</Dest>
+    </String>
+    <String List="0" sID="0155EF" Partial="1">
+      <EDID>CornVegetable</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Кукуруза</Source>
+      <Dest>#carrot# Кукуруза</Dest>
+    </String>
+    <String List="0" sID="0157DC" Partial="1">
+      <EDID>StealthBoy</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Стелс-бой</Source>
+      <Dest>#stealthboy# Стелс-бой</Dest>
+    </String>
+    <String List="0" sID="015924" Partial="1">
+      <EDID>MoleratMeatTasty</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Толченый кротокрыс</Source>
+      <Dest>#cooked_meat# Толченый кротокрыс</Dest>
+    </String>
+    <String List="0" sID="015E36" Partial="1">
+      <EDID>MirelurkSoftshellMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо болотника с мягким панцирем</Source>
+      <Dest>#raw_meat# Мясо болотника с мягким панцирем</Dest>
+    </String>
+    <String List="0" sID="016A88" Partial="1">
+      <EDID>Brew_Rum</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ром</Source>
+      <Dest>#whiskey# Ром</Dest>
+    </String>
+    <String List="0" sID="016ABF" Partial="1">
+      <EDID>Brew_Wine</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Вино</Source>
+      <Dest>#wine# Вино</Dest>
+    </String>
+    <String List="0" sID="016FF0" Partial="1">
+      <EDID>WaterBoiled</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Кипяченая вода</Source>
+      <Dest>#bottle_of_water# Кипяченая вода</Dest>
+    </String>
+    <String List="0" sID="017F26" Partial="1">
+      <EDID>InstaMash_PreWar_Clean</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Неиспорченное пюре быстрого приготовления</Source>
+      <Dest>#canned_food# Неиспорченное пюре быстрого приготовления</Dest>
+    </String>
+    <String List="0" sID="018140" Partial="1">
+      <EDID>SalisburySteak</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Солсбери-стейк</Source>
+      <Dest>#canned_food# Солсбери-стейк</Dest>
+    </String>
+    <String List="0" sID="018598" Partial="1">
+      <EDID>BloatflyMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Запеченный дутень</Source>
+      <Dest>#cooked_meat# Запеченный дутень</Dest>
+    </String>
+    <String List="0" sID="018C26" Partial="1">
+      <EDID>Dogfood</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Собачьи консервы</Source>
+      <Dest>#canned_food# Собачьи консервы</Dest>
+    </String>
+    <String List="0" sID="019ACF" Partial="1">
+      <EDID>WaterPurified</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Очищенная вода</Source>
+      <Dest>#bottle_of_water# Очищенная вода</Dest>
+    </String>
+    <String List="0" sID="01A3DA" Partial="1">
+      <EDID>BrahminMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо брамина</Source>
+      <Dest>#raw_meat# Мясо брамина</Dest>
+    </String>
+    <String List="0" sID="01A5AA" Partial="1">
+      <EDID>IguanaMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Кусочки игуаны</Source>
+      <Dest>#raw_meat# Кусочки игуаны</Dest>
+    </String>
+    <String List="0" sID="01B254" Partial="1">
+      <EDID>NukaColaQuantum</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Квантовая Ядер-Кола</Source>
+      <Dest>#nuka_cola# Квантовая Ядер-Кола</Dest>
+    </String>
+    <String List="0" sID="01B278" Partial="1">
+      <EDID>BloatflyMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо дутня</Source>
+      <Dest>#raw_meat# Мясо дутня</Dest>
+    </String>
+    <String List="0" sID="01B63A" Partial="1">
+      <EDID>MirelurkMeatTastyCake</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Кекс из болотника</Source>
+      <Dest>#cooked_meat# Кекс из болотника</Dest>
+    </String>
+    <String List="0" sID="01B664" Partial="1">
+      <EDID>Brew_Whiskey</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Виски</Source>
+      <Dest>#whiskey# Виски</Dest>
+    </String>
+    <String List="0" sID="01B692" Partial="1">
+      <EDID>Bubblegum</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жевательная резинка</Source>
+      <Dest>#bubblegum# Жевательная резинка</Dest>
+    </String>
+    <String List="0" sID="01B872" Partial="1">
+      <EDID>SalisburySteak_PreWar_Clean</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Солсбери-стейк</Source>
+      <Dest>#canned_food# Солсбери-стейк</Dest>
+    </String>
+    <String List="0" sID="01B8E7" Partial="1">
+      <EDID>Buffout</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Баффаут</Source>
+      <Dest>#buffout# Баффаут</Dest>
+    </String>
+    <String List="0" sID="01BD86" Partial="1">
+      <EDID>GrapeMentats</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Виноградные ментаты</Source>
+      <Dest>#mentats# Виноградные ментаты</Dest>
+    </String>
+    <String List="0" sID="01BEDB" Partial="1">
+      <EDID>Bloodpack</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пакет крови</Source>
+      <Dest>#blood_pack# Пакет крови</Dest>
+    </String>
+    <String List="0" sID="01C04C" Partial="1">
+      <EDID>SquirrelMeatTasty</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Шашлык из белки</Source>
+      <Dest>#cooked_meat# Шашлык из белки</Dest>
+    </String>
+    <String List="0" sID="01C22C" Partial="1">
+      <EDID>FancyLadSnackCakes_PreWar_Clean</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Кексы &quot;Веселые ребята&quot;</Source>
+      <Dest>#snack_cakes# Кексы &quot;Веселые ребята&quot;</Dest>
+    </String>
+    <String List="0" sID="01C3F2" Partial="1">
+      <EDID>RadstagMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо рад-оленя</Source>
+      <Dest>#raw_meat# Мясо рад-оленя</Dest>
+    </String>
+    <String List="0" sID="01D968" Partial="1">
+      <EDID>Addictol</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Аддиктол</Source>
+      <Dest>#addictol# Аддиктол</Dest>
+    </String>
+    <String List="0" sID="01DB57" Partial="1">
+      <EDID>Cram</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Готовый завтрак</Source>
+      <Dest>#canned_food# Готовый завтрак</Dest>
+    </String>
+    <String List="0" sID="01E28E">
+      <EDID>IguanaMeatTastySoup</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Суп из игуаны</Source>
+      <Dest>Суп из игуаны</Dest>
+    </String>
+    <String List="0" sID="01E406" Partial="1">
+      <EDID>IguanaMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Шашлык из игуаны</Source>
+      <Dest>#cooked_meat# Шашлык из игуаны</Dest>
+    </String>
+    <String List="0" sID="01E419" Partial="1">
+      <EDID>PorknBeans</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Свинина с бобами</Source>
+      <Dest>#canned_food# Свинина с бобами</Dest>
+    </String>
+    <String List="0" sID="01F76D" Partial="1">
+      <EDID>CaveFungusVegetable</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пещерный гриб</Source>
+      <Dest>#mushrooms# Пещерный гриб</Dest>
+    </String>
+    <String List="0" sID="01FCBC" Partial="1">
+      <EDID>NukaColaCherry</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ядер-Вишня</Source>
+      <Dest>#nuka_cola# Ядер-Вишня</Dest>
+    </String>
+    <String List="0" sID="020510" Partial="1">
+      <EDID>Psycho</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Психо</Source>
+      <Dest>#psycho# Психо</Dest>
+    </String>
+    <String List="0" sID="02060E" Partial="1">
+      <EDID>BloodbugMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо гнуса</Source>
+      <Dest>#raw_meat# Мясо гнуса</Dest>
+    </String>
+    <String List="0" sID="020EDF" Partial="1">
+      <EDID>Dogmeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Собачатина</Source>
+      <Dest>#raw_meat# Собачатина</Dest>
+    </String>
+    <String List="0" sID="020FF7" Partial="1">
+      <EDID>PotatoCrisps</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Картофельные чипсы</Source>
+      <Dest>#canned_food# Картофельные чипсы</Dest>
+    </String>
+    <String List="0" sID="022160" Partial="1">
+      <EDID>RadroachMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо радтаракана</Source>
+      <Dest>#raw_meat# Мясо радтаракана</Dest>
+    </String>
+    <String List="0" sID="022BD4" Partial="1">
+      <EDID>RadX</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Рад-Х</Source>
+      <Dest>#rad_x# Рад-Х</Dest>
+    </String>
+    <String List="0" sID="0230F0" Partial="1">
+      <EDID>ThistleHerb</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Чертополох</Source>
+      <Dest>#flower# Чертополох</Dest>
+    </String>
+    <String List="0" sID="0236F9" Partial="1">
+      <EDID>BlamcoMacAndCheese_PreWar_Clean</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Макароны с сыром &quot;Бламко&quot;</Source>
+      <Dest>#canned_food# Макароны с сыром &quot;Бламко&quot;</Dest>
+    </String>
+    <String List="0" sID="02382B" Partial="1">
+      <EDID>RadAway</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Антирадин</Source>
+      <Dest>#radaway# Антирадин</Dest>
+    </String>
+    <String List="0" sID="023832" Partial="1">
+      <EDID>NukaCola</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ядер-кола</Source>
+      <Dest>#nuka_cola# Ядер-кола</Dest>
+    </String>
+    <String List="0" sID="023F78" Partial="1">
+      <EDID>SquirrelMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Кусочки белки</Source>
+      <Dest>#raw_meat# Кусочки белки</Dest>
+    </String>
+    <String List="0" sID="0240F7" Partial="1">
+      <EDID>StingwingMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо жалокрыла</Source>
+      <Dest>#raw_meat# Мясо жалокрыла</Dest>
+    </String>
+    <String List="0" sID="024171" Partial="1">
+      <EDID>YumYumDeviledEggs</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Фаршированные яйца &quot;Ням-ням&quot;</Source>
+      <Dest>#canned_food# Фаршированные яйца &quot;Ням-ням&quot;</Dest>
+    </String>
+    <String List="0" sID="024861" Partial="1">
+      <EDID>TarberryFruit</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Смоляника</Source>
+      <Dest>#berry# Смоляника</Dest>
+    </String>
+    <String List="0" sID="024CA8" Partial="1">
+      <EDID>DeathclawMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Стейк из когтя смерти</Source>
+      <Dest>#cooked_meat# Стейк из когтя смерти</Dest>
+    </String>
+    <String List="0" sID="024CD7" Partial="1">
+      <EDID>VegetableTastySoup</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Овощной суп</Source>
+      <Dest>#soup# Овощной суп</Dest>
+    </String>
+    <String List="0" sID="024DB1">
+      <EDID>SweetRollGourmet</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сладкий рулет</Source>
+      <Dest>Сладкий рулет</Dest>
+    </String>
+    <String List="0" sID="025107" Partial="1">
+      <EDID>NoodleCup</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Чашка с лапшой</Source>
+      <Dest>#canned_food# Чашка с лапшой</Dest>
+    </String>
+    <String List="0" sID="025499" Partial="1">
+      <EDID>FancyLadSnackCakes</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Кексы &quot;Веселые ребята&quot;</Source>
+      <Dest>#snack_cakes# Кексы &quot;Веселые ребята&quot;</Dest>
+    </String>
+    <String List="0" sID="025541" Partial="1">
+      <EDID>SugarBombs_PreWar_Clean</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сахарные бомбы</Source>
+      <Dest>#candy# Сахарные бомбы</Dest>
+    </String>
+    <String List="0" sID="025672" Partial="1">
+      <EDID>RazorgrainVegetable</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Бритвозлак</Source>
+      <Dest>#carrot# Бритвозлак</Dest>
+    </String>
+    <String List="0" sID="02583A" Partial="1">
+      <EDID>MutfruitFruit</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мутафрукт</Source>
+      <Dest>#fruit# Мутафрукт</Dest>
+    </String>
+    <String List="0" sID="025858" Partial="1">
+      <EDID>MirelurkMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо болотника</Source>
+      <Dest>#raw_meat# Мясо болотника</Dest>
+    </String>
+    <String List="0" sID="02592C" Partial="1">
+      <EDID>Stimpak</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Стимулятор</Source>
+      <Dest>#stimpak# Стимулятор</Dest>
+    </String>
+    <String List="0" sID="025CB8" Partial="1">
+      <EDID>RadscorpionMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо радскорпиона</Source>
+      <Dest>#raw_meat# Мясо радскорпиона</Dest>
+    </String>
+    <String List="0" sID="02639A" Partial="1">
+      <EDID>Brew_Bourbon</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Бурбон</Source>
+      <Dest>#whiskey# Бурбон</Dest>
+    </String>
+    <String List="0" sID="026773" Partial="1">
+      <EDID>SugarBombs</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сахарные бомбы</Source>
+      <Dest>#candy# Сахарные бомбы</Dest>
+    </String>
+    <String List="0" sID="026A3B" Partial="1">
+      <EDID>YaoGuaiMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо яо-гая</Source>
+      <Dest>#raw_meat# Мясо яо-гая</Dest>
+    </String>
+    <String List="0" sID="026C04" Partial="1">
+      <EDID>GlowingOneBlood</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Светящаяся кровь</Source>
+      <Dest>#glowing_blood# Светящаяся кровь</Dest>
+    </String>
+    <String List="0" sID="026CCC" Partial="1">
+      <EDID>SquirrelMeatTastyStew</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Вкусный суп из белки</Source>
+      <Dest>#cooked_meat# Вкусный суп из белки</Dest>
+    </String>
+    <String List="0" sID="027066" Partial="1">
+      <EDID>MoleratMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо кротокрыса</Source>
+      <Dest>#raw_meat# Мясо кротокрыса</Dest>
+    </String>
+    <String List="0" sID="0277E5" Partial="1">
+      <EDID>Mentats</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ментаты</Source>
+      <Dest>#mentats# Ментаты</Dest>
+    </String>
+    <String List="0" sID="027A2E" Partial="1">
+      <EDID>SquirrelMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Беличьи сухарики</Source>
+      <Dest>#cooked_meat# Беличьи сухарики</Dest>
+    </String>
+    <String List="0" sID="027D09" Partial="1">
+      <EDID>TatoVegetableFruit</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Тошка</Source>
+      <Dest>#carrot# Тошка</Dest>
+    </String>
+    <String List="0" sID="028291" Partial="1">
+      <EDID>DeathclawMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо когтя смерти</Source>
+      <Dest>#raw_meat# Мясо когтя смерти</Dest>
+    </String>
+    <String List="0" sID="028371" Partial="1">
+      <EDID>MelonFruit</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Арбуз</Source>
+      <Dest>#carrot# Арбуз</Dest>
+    </String>
+    <String List="0" sID="0283A1" Partial="1">
+      <EDID>DandyBoyApples</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Наливные яблоки</Source>
+      <Dest>#canned_food# Наливные яблоки</Dest>
+    </String>
+    <String List="0" sID="029018" Partial="1">
+      <EDID>RadroachMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жареный радтаракан</Source>
+      <Dest>#cooked_meat# Жареный радтаракан</Dest>
+    </String>
+    <String List="0" sID="02988B" Partial="1">
+      <EDID>DeathclawMeatTastySouffle</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Коготь смерти Веллингтон</Source>
+      <Dest>#cooked_meat# Коготь смерти Веллингтон</Dest>
+    </String>
+    <String List="0" sID="029CB6" Partial="1">
+      <EDID>PreservedPie01</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Идеально сохранившийся пирог</Source>
+      <Dest>#cake# Идеально сохранившийся пирог</Dest>
+    </String>
+    <String List="0" sID="029D3F" Partial="1">
+      <EDID>MoldyFood01</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Заплесневевшая еда</Source>
+      <Dest>#toxic# Заплесневевшая еда</Dest>
+    </String>
+    <String List="0" sID="02A51C" Partial="1">
+      <EDID>DeathclawEggCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Омлет из яиц когтя смерти</Source>
+      <Dest>#cooked_meat# Омлет из яиц когтя смерти</Dest>
+    </String>
+    <String List="0" sID="02A54C" Partial="1">
+      <EDID>MoleratMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Кусочки кротокрыса</Source>
+      <Dest>#cooked_meat# Кусочки кротокрыса</Dest>
+    </String>
+    <String List="0" sID="02A5FA" Partial="1">
+      <EDID>RadscorpionEgg</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Яйцо радскорпиона</Source>
+      <Dest>#egg# Яйцо радскорпиона</Dest>
+    </String>
+    <String List="0" sID="02A6D2" Partial="1">
+      <EDID>BrahminMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Стейк из брамина</Source>
+      <Dest>#cooked_meat# Стейк из брамина</Dest>
+    </String>
+    <String List="0" sID="02A6D5" Partial="1">
+      <EDID>MirelurkEggCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Омлет из яиц болотника</Source>
+      <Dest>#cooked_meat# Омлет из яиц болотника</Dest>
+    </String>
+    <String List="0" sID="02A6DC" Partial="1">
+      <EDID>RadStagMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жареный рад-олень</Source>
+      <Dest>#cooked_meat# Жареный рад-олень</Dest>
+    </String>
+    <String List="0" sID="02A771" Partial="1">
+      <EDID>MirelurkSoftshellMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Вареное мясо болотника с мягким панцирем</Source>
+      <Dest>#cooked_meat# Вареное мясо болотника с мягким панцирем</Dest>
+    </String>
+    <String List="0" sID="02A7AA" Partial="1">
+      <EDID>MirelurkMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жареное мясо болотника</Source>
+      <Dest>#cooked_meat# Жареное мясо болотника</Dest>
+    </String>
+    <String List="0" sID="02A8F9" Partial="1">
+      <EDID>RadscorpionMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Стейк из радскорпиона</Source>
+      <Dest>#cooked_meat# Стейк из радскорпиона</Dest>
+    </String>
+    <String List="0" sID="02A8FF" Partial="1">
+      <EDID>YaoGuaiMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ребра яо-гая</Source>
+      <Dest>#cooked_meat# Ребра яо-гая</Dest>
+    </String>
+    <String List="0" sID="02A935" Partial="1">
+      <EDID>DogMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Отбивные из собачатины</Source>
+      <Dest>#cooked_meat# Отбивные из собачатины</Dest>
+    </String>
+    <String List="0" sID="02A941" Partial="1">
+      <EDID>StingwingMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Филе жалокрыла</Source>
+      <Dest>#cooked_meat# Филе жалокрыла</Dest>
+    </String>
+    <String List="0" sID="02A987" Partial="1">
+      <EDID>RadStagMeatTastyStew</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Суп из рад-оленя</Source>
+      <Dest>#meat_soup# Суп из рад-оленя</Dest>
+    </String>
+    <String List="0" sID="02A9B5" Partial="1">
+      <EDID>RadscorpionEggCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Омлет из яиц радскорпиона</Source>
+      <Dest>#cooked_meat# Омлет из яиц радскорпиона</Dest>
+    </String>
+    <String List="0" sID="02A9DE" Partial="1">
+      <EDID>BloodbugMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Стейк из гнуса</Source>
+      <Dest>#cooked_meat# Стейк из гнуса</Dest>
+    </String>
+    <String List="0" sID="02ABDC" Partial="1">
+      <EDID>OrangeMentats</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Апельсиновые ментаты</Source>
+      <Dest>#mentats# Апельсиновые ментаты</Dest>
+    </String>
+    <String List="0" sID="02ACFC" Partial="1">
+      <EDID>BerryMentats</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ягодные ментаты</Source>
+      <Dest>#mentats# Ягодные ментаты</Dest>
+    </String>
+    <String List="0" sID="02AD8F" Partial="1">
+      <EDID>Calmex</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Успокоин</Source>
+      <Dest>#med_x# Успокоин</Dest>
+    </String>
+    <String List="0" sID="02ADF1" Partial="1">
+      <EDID>Overdrive</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Форсаж</Source>
+      <Dest>#psycho# Форсаж</Dest>
+    </String>
+    <String List="0" sID="02B0EB" Partial="1">
+      <EDID>Psychotats</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Психо-таты</Source>
+      <Dest>#psycho# Психо-таты</Dest>
+    </String>
+    <String List="0" sID="02B1C5">
+      <EDID>CUT_RefreshingBeverage</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Прохладительный напиток</Source>
+      <Dest>Прохладительный напиток</Dest>
+    </String>
+    <String List="0" sID="02B227">
+      <EDID>SkeetoSpit</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Слюна скито</Source>
+      <Dest>Слюна скито</Dest>
+    </String>
+    <String List="0" sID="02B23C" Partial="1">
+      <EDID>Psychobuff</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Психо-бафф</Source>
+      <Dest>#psycho# Психо-бафф</Dest>
+    </String>
+    <String List="0" sID="02B2D5" Partial="1">
+      <EDID>Bufftats</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Бафф-таты</Source>
+      <Dest>#buffout# Бафф-таты</Dest>
+    </String>
+    <String List="0" sID="02B3D9" Partial="1">
+      <EDID>Fury</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ярость</Source>
+      <Dest>#psycho# Ярость</Dest>
+    </String>
+    <String List="0" sID="02C2EA" Partial="1">
+      <EDID>CatMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Кошатина</Source>
+      <Dest>#raw_meat# Кошатина</Dest>
+    </String>
+    <String List="0" sID="02DCEC" Partial="1">
+      <EDID>MutanthoundMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо гончей-мутанта</Source>
+      <Dest>#raw_meat# Мясо гончей-мутанта</Dest>
+    </String>
+    <String List="0" sID="02DE10" Partial="1">
+      <EDID>DayTripper</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Глюконавт</Source>
+      <Dest>#day_tripper# Глюконавт</Dest>
+    </String>
+    <String List="0" sID="02DF14" Partial="1">
+      <EDID>DaddyO</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Шик</Source>
+      <Dest>#psycho# Шик</Dest>
+    </String>
+    <String List="0" sID="02E058" Partial="1">
+      <EDID>XCell</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>X-клетка</Source>
+      <Dest>#x_cell# X-клетка</Dest>
+    </String>
+    <String List="0" sID="030B61" Partial="1">
+      <EDID>SiltBeanVegetable</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Илофасоль</Source>
+      <Dest>#carrot# Илофасоль</Dest>
+    </String>
+    <String List="0" sID="030E40" Partial="1">
+      <EDID>SootFlowerHerb</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Грязноцвет</Source>
+      <Dest>#flower# Грязноцвет</Dest>
+    </String>
+    <String List="0" sID="030E72" Partial="1">
+      <EDID>BrainFungusVegetable</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мозгогриб</Source>
+      <Dest>#mushrooms# Мозгогриб</Dest>
+    </String>
+    <String List="0" sID="030E74" Partial="1">
+      <EDID>GlowingFungusVegetable</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Светящийся гриб</Source>
+      <Dest>#mushrooms# Светящийся гриб</Dest>
+    </String>
+    <String List="0" sID="030F05" Partial="1">
+      <EDID>MelonBloomHerb</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Цветок арбуза</Source>
+      <Dest>#flower# Цветок арбуза</Dest>
+    </String>
+    <String List="0" sID="031011" Partial="1">
+      <EDID>BloodLeafHerb</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Кроволист</Source>
+      <Dest>#flower# Кроволист</Dest>
+    </String>
+    <String List="0" sID="031113" Partial="1">
+      <EDID>GourdFlowerHerb</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Цветок тыквы</Source>
+      <Dest>#flower# Цветок тыквы</Dest>
+    </String>
+    <String List="0" sID="03111A" Partial="1">
+      <EDID>TatoFlowerHerb</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Цветок тошки</Source>
+      <Dest>#flower# Цветок тошки</Dest>
+    </String>
+    <String List="0" sID="03112F" Partial="1">
+      <EDID>CarrotFlowerHerb</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Цветок моркови</Source>
+      <Dest>#flower# Цветок моркови</Dest>
+    </String>
+    <String List="0" sID="032F8D" Partial="1">
+      <EDID>MelonFlowerHerb</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Цветок дикого арбуза</Source>
+      <Dest>#flower# Цветок дикого арбуза</Dest>
+    </String>
+    <String List="0" sID="033293" Partial="1">
+      <EDID>MutantHoundMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Отбивные из гончей-мутанта</Source>
+      <Dest>#cooked_meat# Отбивные из гончей-мутанта</Dest>
+    </String>
+    <String List="0" sID="033A56" Partial="1">
+      <EDID>MirelurkQueenMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо матки болотников</Source>
+      <Dest>#raw_meat# Мясо матки болотников</Dest>
+    </String>
+    <String List="0" sID="033D98" Partial="1">
+      <EDID>MirelurkQueenMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Стейк из мяса матки болотников </Source>
+      <Dest>#cooked_meat# Стейк из мяса матки болотников</Dest>
+    </String>
+    <String List="0" sID="03505F" Partial="1">
+      <EDID>MirelurkEgg</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Яйцо болотника</Source>
+      <Dest>#egg# Яйцо болотника</Dest>
+    </String>
+    <String List="0" sID="03DA19" Partial="1">
+      <EDID>BloodbloomHerbTastyTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Заварившийся час с черным кроволистом</Source>
+      <Dest>#tea# Заварившийся час с черным кроволистом</Dest>
+    </String>
+    <String List="0" sID="03DA1A" Partial="1">
+      <EDID>MirelurkSoftshellMeatTasty</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Торт из болотников с мягким панцирем</Source>
+      <Dest>#cooked_meat# Торт из болотников с мягким панцирем</Dest>
+    </String>
+    <String List="0" sID="03DA1D" Partial="1">
+      <EDID>FF06_Feed_CannedMeatTastyStew</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Суп из консервированного мяса</Source>
+      <Dest>#canned_food# Суп из консервированного мяса</Dest>
+    </String>
+    <String List="0" sID="03DA1F" Partial="1">
+      <EDID>StarlightBerries</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ягоды ночного ползуна</Source>
+      <Dest>#berry# Ягоды ночного ползуна</Dest>
+    </String>
+    <String List="0" sID="03DA21" Partial="1">
+      <EDID>Serum_EggHead</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сыворотка &quot;Яйцеголовый&quot;</Source>
+      <Dest>#mutation_serum# Сыворотка &quot;Яйцеголовый&quot;</Dest>
+    </String>
+    <String List="0" sID="03DA24" Partial="1">
+      <EDID>HoneyBeastRoyalJelly</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Маточное молочко</Source>
+      <Dest>#candy# Маточное молочко</Dest>
+    </String>
+    <String List="0" sID="03DA26" Partial="1">
+      <EDID>AshRoseHerb</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пепельная роза</Source>
+      <Dest>#flower# Пепельная роза</Dest>
+    </String>
+    <String List="0" sID="03DA27" Partial="1">
+      <EDID>RadToadLegCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жареная рад-жаба</Source>
+      <Dest>#cooked_meat# Жареная рад-жаба</Dest>
+    </String>
+    <String List="0" sID="03DA28" Partial="1">
+      <EDID>Serum_Carnivore</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сыворотка &quot;Плотоядный&quot;</Source>
+      <Dest>#mutation_serum# Сыворотка &quot;Плотоядный&quot;</Dest>
+    </String>
+    <String List="0" sID="03DA2A" Partial="1">
+      <EDID>MothmanEggCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Омлет из яиц Молерота</Source>
+      <Dest>#cooked_meat# Омлет из яиц Молерота</Dest>
+    </String>
+    <String List="0" sID="03DA2B" Partial="1">
+      <EDID>ToxicSootFlowerHerb</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ядовитый цветок грязноцвета</Source>
+      <Dest>#flower# Ядовитый цветок грязноцвета</Dest>
+    </String>
+    <String List="0" sID="03DA2C">
+      <EDID>MoM_PhantomDevice</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>&quot;Фантом&quot;</Source>
+      <Dest>&quot;Фантом&quot;</Dest>
+    </String>
+    <String List="0" sID="03DA2D" Partial="1">
+      <EDID>WaterNuclearWaste</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Радиоактивные сточные воды</Source>
+      <Dest>#bottle_of_water# Радиоактивные сточные воды</Dest>
+    </String>
+    <String List="0" sID="03DA2F" Partial="1">
+      <EDID>Serum_SpeedDemon</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сыворотка &quot;Дьявольская скорость&quot;</Source>
+      <Dest>#mutation_serum# Сыворотка &quot;Дьявольская скорость&quot;</Dest>
+    </String>
+    <String List="0" sID="03DA31" Partial="1">
+      <EDID>DogMeatTasty</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Стейк из собачатины</Source>
+      <Dest>#cooked_meat# Стейк из собачатины</Dest>
+    </String>
+    <String List="0" sID="03DA32" Partial="1">
+      <EDID>SURV_DiseaseCure_HerbalMedicine</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Лекарство</Source>
+      <Dest>#antibiotics# Лекарство</Dest>
+    </String>
+    <String List="0" sID="03DA35" Partial="1">
+      <EDID>Hotdog</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Хот-дог</Source>
+      <Dest>#cooked_meat# Хот-дог</Dest>
+    </String>
+    <String List="0" sID="03DA36" Partial="1">
+      <EDID>RadscorpionEggTasty</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Вкусный омлет из яиц радскорпиона</Source>
+      <Dest>#cooked_meat# Вкусный омлет из яиц радскорпиона</Dest>
+    </String>
+    <String List="0" sID="03DA38" Partial="1">
+      <EDID>ScorchBeastMeatLiverCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Обжаренная печень зверожога</Source>
+      <Dest>#cooked_meat# Обжаренная печень зверожога</Dest>
+    </String>
+    <String List="0" sID="03DA39" Partial="1">
+      <EDID>ScorchBeastMeatBrain</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мозг зверожога</Source>
+      <Dest>#raw_meat# Мозг зверожога</Dest>
+    </String>
+    <String List="0" sID="03DA3A" Partial="1">
+      <EDID>GourdFlowerHerbTastyTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Заварившийся чай с цветами тыквы</Source>
+      <Dest>#tea# Заварившийся чай с цветами тыквы</Dest>
+    </String>
+    <String List="0" sID="03DA3B" Partial="1">
+      <EDID>SwarmMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Хрустящие крылатые муравьи</Source>
+      <Dest>#cooked_meat# Хрустящие крылатые муравьи</Dest>
+    </String>
+    <String List="0" sID="03DA3C" Partial="1">
+      <EDID>CaveFungusVegetableCookedSoup</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Суп из пещерного гриба</Source>
+      <Dest>#soup# Суп из пещерного гриба</Dest>
+    </String>
+    <String List="0" sID="03DA3D" Partial="1">
+      <EDID>RadFrogEgg</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Лягушачье яйцо</Source>
+      <Dest>#raw_meat# Лягушачье яйцо</Dest>
+    </String>
+    <String List="0" sID="03DA3E" Partial="1">
+      <EDID>StimpakDiluted</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Стимулятор: разбавленный</Source>
+      <Dest>#stimpak# Стимулятор: разбавленный</Dest>
+    </String>
+    <String List="0" sID="03DA3F" Partial="1">
+      <EDID>Serum_ElectricallyCharged</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сыворотка &quot;Электрический заряд&quot;</Source>
+      <Dest>#mutation_serum# Сыворотка &quot;Электрический заряд&quot;</Dest>
+    </String>
+    <String List="0" sID="03DA42">
+      <EDID>FFZ10_BioluminescentFluidPotion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Биолюминисцентная жидкость</Source>
+      <Dest>Биолюминисцентная жидкость</Dest>
+    </String>
+    <String List="0" sID="03DA44" Partial="1">
+      <EDID>BlackberryFruitTastyTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сладкий чай из ежевики</Source>
+      <Dest>#tea# Сладкий чай из ежевики</Dest>
+    </String>
+    <String List="0" sID="03DA45" Partial="1">
+      <EDID>PumpkinVegetable</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Тыква</Source>
+      <Dest>#carrot# Тыква</Dest>
+    </String>
+    <String List="0" sID="03DA47" Partial="1">
+      <EDID>CookingFlavor_Pepper</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Перец</Source>
+      <Dest>#flavor# Перец</Dest>
+    </String>
+    <String List="0" sID="03DA48" Partial="1">
+      <EDID>StranglerBloomHerb</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Цветок душителя</Source>
+      <Dest>#flower# Цветок душителя</Dest>
+    </String>
+    <String List="0" sID="03DA49">
+      <EDID>test_SURV_TestDiseaseChanceFood_Low</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>_Disease Chance Food 1 — Low</Source>
+      <Dest>_Disease Chance Food 1 — Low</Dest>
+    </String>
+    <String List="0" sID="03DA4A" Partial="1">
+      <EDID>PotholePotpie_RSVP02</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясной пирог &quot;Колдобина&quot;</Source>
+      <Dest>#berry_pie# Мясной пирог &quot;Колдобина&quot;</Dest>
+    </String>
+    <String List="0" sID="03DA51" Partial="1">
+      <EDID>Brew_OakHollerLager</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Лагер &quot;Оук-холлер&quot;</Source>
+      <Dest>#beer# Лагер &quot;Оук-холлер&quot;</Dest>
+    </String>
+    <String List="0" sID="03DA53" Partial="1">
+      <EDID>Brew_PickaxePilsner</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пилзнер &quot;Секач&quot;</Source>
+      <Dest>#beer# Пилзнер &quot;Секач&quot;</Dest>
+    </String>
+    <String List="0" sID="03DA58" Partial="1">
+      <EDID>StranglerBloomHerbTastyTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Заварившийся чай с цветами душителя</Source>
+      <Dest>#tea# Заварившийся чай с цветами душителя</Dest>
+    </String>
+    <String List="0" sID="03DA59" Partial="1">
+      <EDID>Brew_NewRiverRedAle</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Красный эль &quot;Нью-ривер&quot;</Source>
+      <Dest>#beer# Красный эль &quot;Нью-ривер&quot;</Dest>
+    </String>
+    <String List="0" sID="03DA5C" Partial="1">
+      <EDID>AppalachiliCooked_RSVP02</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Аппалачили</Source>
+      <Dest>#cooked_meat# Аппалачили</Dest>
+    </String>
+    <String List="0" sID="03DA64" Partial="1">
+      <EDID>EN07_GlowingMass</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Светящаяся масса</Source>
+      <Dest>#raw_meat# Светящаяся масса</Dest>
+    </String>
+    <String List="0" sID="03DA68" Partial="1">
+      <EDID>MelonFlowerHerbTastyTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Заварившийся чай с цветками дикого арбуза</Source>
+      <Dest>#tea# Заварившийся чай с цветками дикого арбуза</Dest>
+    </String>
+    <String List="0" sID="03DA69" Partial="1">
+      <EDID>CatMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Стейк из кошатины</Source>
+      <Dest>#cooked_meat# Стейк из кошатины</Dest>
+    </String>
+    <String List="0" sID="03DA6A" Partial="1">
+      <EDID>PerkBubblegum</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жевательная резинка из набора способностей</Source>
+      <Dest>#bubblegum# Жевательная резинка из набора способностей</Dest>
+    </String>
+    <String List="0" sID="03DA6B" Partial="1">
+      <EDID>FoxMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Лисятина</Source>
+      <Dest>#raw_meat# Лисятина</Dest>
+    </String>
+    <String List="0" sID="03DA6D">
+      <EDID>test_SURV_TestDiseaseChanceFood_Base</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>_Disease шанс найти пищу 0 — база</Source>
+      <Dest>_Disease шанс найти пищу 0 — база</Dest>
+    </String>
+    <String List="0" sID="03DA6F" Partial="1">
+      <EDID>SFS01_Brew_TaterShine</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Картофелевка</Source>
+      <Dest>#whiskey# Картофелевка</Dest>
+    </String>
+    <String List="0" sID="03DA70">
+      <EDID>FloraSpecimenJarOrange</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Необработанный флуоресцентный флюс</Source>
+      <Dest>Необработанный флуоресцентный флюс</Dest>
+    </String>
+    <String List="0" sID="03DA74" Partial="1">
+      <EDID>Serum_Chameleon</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сыворотка &quot;Хамелеон&quot;</Source>
+      <Dest>#mutation_serum# Сыворотка &quot;Хамелеон&quot;</Dest>
+    </String>
+    <String List="0" sID="03DA78" Partial="1">
+      <EDID>WaterDirty</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Грязная вода</Source>
+      <Dest>#dirty_water# Грязная вода</Dest>
+    </String>
+    <String List="0" sID="03DA7A" Partial="1">
+      <EDID>RadFrogLeg</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Лягушачья лапка</Source>
+      <Dest>#raw_meat# Лягушачья лапка</Dest>
+    </String>
+    <String List="0" sID="03DA7B" Partial="1">
+      <EDID>PumpkinVegetableCookedSoup</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Тыквенный суп</Source>
+      <Dest>#soup# Тыквенный суп</Dest>
+    </String>
+    <String List="0" sID="03DA7C" Partial="1">
+      <EDID>BloodbloomHerb</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Черный кроволист</Source>
+      <Dest>#flower# Черный кроволист</Dest>
+    </String>
+    <String List="0" sID="03DA81" Partial="1">
+      <EDID>Brew_MountainHoneyMoonshine</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Горный мед</Source>
+      <Dest>#whiskey# Горный мед</Dest>
+    </String>
+    <String List="0" sID="03DA85" Partial="1">
+      <EDID>MegaSlothMushroomVegetable</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Гриб сверхленивца</Source>
+      <Dest>#mushrooms# Гриб сверхленивца</Dest>
+    </String>
+    <String List="0" sID="03DA87" Partial="1">
+      <EDID>CookingFlavor_Spices</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Специи</Source>
+      <Dest>#flavor# Специи</Dest>
+    </String>
+    <String List="0" sID="03DA8A" Partial="1">
+      <EDID>StealthBoy_MarkIII</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Стелс-бой, тип III</Source>
+      <Dest>#stealthboy# Стелс-бой, тип III</Dest>
+    </String>
+    <String List="0" sID="03DA8C">
+      <EDID>FloraSpecimenJarYellow</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Необработанный флюс уранового концентрата</Source>
+      <Dest>Необработанный флюс уранового концентрата</Dest>
+    </String>
+    <String List="0" sID="03DA8D">
+      <EDID>SapVegetableCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сироп</Source>
+      <Dest>Сироп</Dest>
+    </String>
+    <String List="0" sID="03DA90" Partial="1">
+      <EDID>OwletMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо совенка</Source>
+      <Dest>#raw_meat# Мясо совенка</Dest>
+    </String>
+    <String List="0" sID="03DA93" Partial="1">
+      <EDID>FernFlowerHerbTastyTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Заварившийся чай с папоротником-мутантом</Source>
+      <Dest>#tea# Заварившийся чай с папоротником-мутантом</Dest>
+    </String>
+    <String List="0" sID="03DA94" Partial="1">
+      <EDID>RadToadEgg</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Яйцо рад-жабы</Source>
+      <Dest>#egg# Яйцо рад-жабы</Dest>
+    </String>
+    <String List="0" sID="03DA95">
+      <EDID>MTR01_Precursor02b</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Предшественник 7516b</Source>
+      <Dest>Предшественник 7516b</Dest>
+    </String>
+    <String List="0" sID="03DA96">
+      <EDID>EN07_HighRadiationFluids</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Радиоактивные жидкости</Source>
+      <Dest>Радиоактивные жидкости</Dest>
+    </String>
+    <String List="0" sID="03DA97" Partial="1">
+      <EDID>Serum_HealingFactor</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сыворотка &quot;Лечебный фактор&quot;</Source>
+      <Dest>#mutation_serum# Сыворотка &quot;Лечебный фактор&quot;</Dest>
+    </String>
+    <String List="0" sID="03DA99" Partial="1">
+      <EDID>CranberryFruitDiseased</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Зараженная клюква</Source>
+      <Dest>#toxic# Зараженная клюква</Dest>
+    </String>
+    <String List="0" sID="03DA9D">
+      <EDID>CorpseFlowerSeedsFruit</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Трупные семена</Source>
+      <Dest>Трупные семена</Dest>
+    </String>
+    <String List="0" sID="03DA9E" Partial="1">
+      <EDID>MegaslothMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жареный сверхленивец</Source>
+      <Dest>#cooked_meat# Жареный сверхленивец</Dest>
+    </String>
+    <String List="0" sID="03DA9F">
+      <EDID>TrackingDart</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Выслеживающий дротик</Source>
+      <Dest>Выслеживающий дротик</Dest>
+    </String>
+    <String List="0" sID="03DAA1" Partial="1">
+      <EDID>AsterHerbTastyTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Заварившийся час с астрой</Source>
+      <Dest>#tea# Заварившийся час с астрой</Dest>
+    </String>
+    <String List="0" sID="03DAA7" Partial="1">
+      <EDID>BrainFungusVegetableCookedSoup</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Суп из мозгогриба</Source>
+      <Dest>#soup# Суп из мозгогриба</Dest>
+    </String>
+    <String List="0" sID="03DAAD" Partial="1">
+      <EDID>Serum_TwistedMuscles</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сыворотка &quot;Растяжение мышц&quot;</Source>
+      <Dest>#mutation_serum# Сыворотка &quot;Растяжение мышц&quot;</Dest>
+    </String>
+    <String List="0" sID="03DAAF">
+      <EDID>FloraSpecimenJarBlue</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Необработанный кобальтовый флюс</Source>
+      <Dest>Необработанный кобальтовый флюс</Dest>
+    </String>
+    <String List="0" sID="03DAB0" Partial="1">
+      <EDID>TatoFlowerHerbTastyTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Заварившийся чай с цветами тошки</Source>
+      <Dest>#tea# Заварившийся чай с цветами тошки</Dest>
+    </String>
+    <String List="0" sID="03DAB2" Partial="1">
+      <EDID>ScorchBeastMeatBrainCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жареный мозг зверожога</Source>
+      <Dest>#cooked_meat# Жареный мозг зверожога</Dest>
+    </String>
+    <String List="0" sID="03DAB6" Partial="1">
+      <EDID>RadToadEggCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Омлет из яиц рад-жабы</Source>
+      <Dest>#cooked_meat# Омлет из яиц рад-жабы</Dest>
+    </String>
+    <String List="0" sID="03DAB7" Partial="1">
+      <EDID>TatoSaladCooked_RSVP02</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Салат из тошки &quot;Сюрприз&quot;</Source>
+      <Dest>#salad# Салат из тошки &quot;Сюрприз&quot;</Dest>
+    </String>
+    <String List="0" sID="03DAB9" Partial="1">
+      <EDID>MelonFruitCookedJuice</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Арбузный сок</Source>
+      <Dest>#juice# Арбузный сок</Dest>
+    </String>
+    <String List="0" sID="03DABA" Partial="1">
+      <EDID>BloatflyMeatTasty</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Хлеб из дутня</Source>
+      <Dest>#cooked_meat# Хлеб из дутня</Dest>
+    </String>
+    <String List="0" sID="03DABB" Partial="1">
+      <EDID>CookingFlavor_Salt</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Соль</Source>
+      <Dest>#flavor# Соль</Dest>
+    </String>
+    <String List="0" sID="03DABC">
+      <EDID>FloraSpecimenJarPurple</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Необработанный фиолетовый флюс</Source>
+      <Dest>Необработанный фиолетовый флюс</Dest>
+    </String>
+    <String List="0" sID="03DAC0" Partial="1">
+      <EDID>ScorchBeastMeatLung</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Легкое зверожога</Source>
+      <Dest>#raw_meat# Легкое зверожога</Dest>
+    </String>
+    <String List="0" sID="03DAC1" Partial="1">
+      <EDID>CranberryCookedJuice</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Клюквенный сок</Source>
+      <Dest>#juice# Клюквенный сок</Dest>
+    </String>
+    <String List="0" sID="03DAC4" Partial="1">
+      <EDID>Serum_UnstableIsotope</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сыворотка &quot;Нестабильный изотоп&quot;</Source>
+      <Dest>#mutation_serum# Сыворотка &quot;Нестабильный изотоп&quot;</Dest>
+    </String>
+    <String List="0" sID="03DAC6" Partial="1">
+      <EDID>RhododendronHerb</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Цветок рододендрона</Source>
+      <Dest>#flower# Цветок рододендрона</Dest>
+    </String>
+    <String List="0" sID="03DAC7">
+      <EDID>HealingSalve</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Целебная мазь</Source>
+      <Dest>Целебная мазь</Dest>
+    </String>
+    <String List="0" sID="03DAC8">
+      <EDID>MTR01_Precursor01b</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Предшественник 114b</Source>
+      <Dest>Предшественник 114b</Dest>
+    </String>
+    <String List="0" sID="03DACC" Partial="1">
+      <EDID>Cramburger_RSVP02</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Крэмбургер</Source>
+      <Dest>#cooked_meat# Крэмбургер</Dest>
+    </String>
+    <String List="0" sID="03DACE" Partial="1">
+      <EDID>FriedDeerskinsTasty_RSVP02</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жареная шкура оленя</Source>
+      <Dest>#cooked_meat# Жареная шкура оленя</Dest>
+    </String>
+    <String List="0" sID="03DAD0" Partial="1">
+      <EDID>PumpkinPieTasty</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Тыквенный пирог</Source>
+      <Dest>#cake# Тыквенный пирог</Dest>
+    </String>
+    <String List="0" sID="03DAD1">
+      <EDID>MudCookie_RSVP02</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Печенье из грязи</Source>
+      <Dest>Печенье из грязи</Dest>
+    </String>
+    <String List="0" sID="03DAD3" Partial="1">
+      <EDID>ScorchBeastMeatHeart</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сердце зверожога</Source>
+      <Dest>#raw_meat# Сердце зверожога</Dest>
+    </String>
+    <String List="0" sID="03DAD5" Partial="1">
+      <EDID>TarberryFruitCookedJuice</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сок из смоляники</Source>
+      <Dest>#juice# Сок из смоляники</Dest>
+    </String>
+    <String List="0" sID="03DAD6" Partial="1">
+      <EDID>Serum_PlagueWalker</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сыворотка &quot;Чумной ходок&quot;</Source>
+      <Dest>#mutation_serum# Сыворотка &quot;Чумной ходок&quot;</Dest>
+    </String>
+    <String List="0" sID="03DADD" Partial="1">
+      <EDID>SFS01_Brew_SundayShine</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Воскреска</Source>
+      <Dest>#whiskey# Воскреска</Dest>
+    </String>
+    <String List="0" sID="03DAE1" Partial="1">
+      <EDID>Ginseng</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Корень женьшеня</Source>
+      <Dest>#carrot# Корень женьшеня</Dest>
+    </String>
+    <String List="0" sID="03DAE2" Partial="1">
+      <EDID>CornVegetableCookedSoup</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Кукурузный суп</Source>
+      <Dest>#soup# Кукурузный суп</Dest>
+    </String>
+    <String List="0" sID="03DAE4" Partial="1">
+      <EDID>SFS01_Brew_MuttberryShine</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мутовка</Source>
+      <Dest>#whiskey# Мутовка</Dest>
+    </String>
+    <String List="0" sID="03DAE6" Partial="1">
+      <EDID>ScorchBeastMeatHeartCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жареное сердце зверожога</Source>
+      <Dest>#cooked_meat# Жареное сердце зверожога</Dest>
+    </String>
+    <String List="0" sID="03DAE9" Partial="1">
+      <EDID>FirecrackerBerryFruitCookedJuice</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сок из ягод-хлопушек</Source>
+      <Dest>#juice# Сок из ягод-хлопушек</Dest>
+    </String>
+    <String List="0" sID="03DAEA" Partial="1">
+      <EDID>Brew_BlackwaterBrew</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пиво &quot;Блэкуотер&quot;</Source>
+      <Dest>#beer# Пиво &quot;Блэкуотер&quot;</Dest>
+    </String>
+    <String List="0" sID="03DAEE" Partial="1">
+      <EDID>FirecrackerBerryFruit</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ягода-хлопушка</Source>
+      <Dest>#berry# Ягода-хлопушка</Dest>
+    </String>
+    <String List="0" sID="03DAF1">
+      <EDID>v96_Metabolux</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Шприц с &quot;Метаболюксом&quot;</Source>
+      <Dest>Шприц с &quot;Метаболюксом&quot;</Dest>
+    </String>
+    <String List="0" sID="03DAF3" Partial="1">
+      <EDID>SFM04_Organic_RadShield</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Радщит</Source>
+      <Dest>#rad_x# Радщит</Dest>
+    </String>
+    <String List="0" sID="03DAFC" Partial="1">
+      <EDID>Brew_CranberryMoonshine</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Клюковка</Source>
+      <Dest>#whiskey# Клюковка</Dest>
+    </String>
+    <String List="0" sID="03DAFE" Partial="1">
+      <EDID>CB02_HalloweenCandy</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Хеллоуинские сладости</Source>
+      <Dest>#candy# Хеллоуинские сладости</Dest>
+    </String>
+    <String List="0" sID="03DAFF" Partial="1">
+      <EDID>TatoVegetableCookedSoup</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Суп из тошки</Source>
+      <Dest>#salad# Суп из тошки</Dest>
+    </String>
+    <String List="0" sID="03DB03">
+      <EDID>MTR01_Precursor02a</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Предшественник 7516a</Source>
+      <Dest>Предшественник 7516a</Dest>
+    </String>
+    <String List="0" sID="03DB04" Partial="1">
+      <EDID>MegaSlothMushroomVegetableCookedSoup</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Суп из гриба сверхленивца</Source>
+      <Dest>#soup# Суп из гриба сверхленивца</Dest>
+    </String>
+    <String List="0" sID="03DB07">
+      <EDID>MTR01_Precursor01a</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Предшественник 114a</Source>
+      <Dest>Предшественник 114a</Dest>
+    </String>
+    <String List="0" sID="03DB08" Partial="1">
+      <EDID>MegaslothMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо сверхленивца</Source>
+      <Dest>#raw_meat# Мясо сверхленивца</Dest>
+    </String>
+    <String List="0" sID="03DB09">
+      <EDID>test_SURV_TestDiseaseChanceFood_VeryHigh</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>_Disease Chance Food 4 — Very High</Source>
+      <Dest>_Disease Chance Food 4 — Very High</Dest>
+    </String>
+    <String List="0" sID="03DB0B" Partial="1">
+      <EDID>BloodLeafHerbTastyTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Чай, настоянный на кроволисте</Source>
+      <Dest>#tea# Чай, настоянный на кроволисте</Dest>
+    </String>
+    <String List="0" sID="03DB11" Partial="1">
+      <EDID>OpossumMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо опоссума</Source>
+      <Dest>#raw_meat# Мясо опоссума</Dest>
+    </String>
+    <String List="0" sID="03DB12" Partial="1">
+      <EDID>EN07_IonizedMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ионизированное мясо</Source>
+      <Dest>#raw_meat# Ионизированное мясо</Dest>
+    </String>
+    <String List="0" sID="03DB15">
+      <EDID>SapVegetable</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Светящаяся смола</Source>
+      <Dest>Светящаяся смола</Dest>
+    </String>
+    <String List="0" sID="03DB1A" Partial="1">
+      <EDID>MothmanEgg</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Яйцо Молерота</Source>
+      <Dest>#egg# Яйцо Молерота</Dest>
+    </String>
+    <String List="0" sID="03DB1B" Partial="1">
+      <EDID>Serum_EagleEyes</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сыворотка &quot;Соколиный глаз&quot;</Source>
+      <Dest>#mutation_serum# Сыворотка &quot;Соколиный глаз&quot;</Dest>
+    </String>
+    <String List="0" sID="03DB1D" Partial="1">
+      <EDID>TatoFruitCookedJuice</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сок из тошки</Source>
+      <Dest>#juice# Сок из тошки</Dest>
+    </String>
+    <String List="0" sID="03DB1E" Partial="1">
+      <EDID>FeverBlossomHerbTastyTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Заварившийся чай с лихоцветом</Source>
+      <Dest>#tea# Заварившийся чай с лихоцветом</Dest>
+    </String>
+    <String List="0" sID="03DB1F" Partial="1">
+      <EDID>GlowingFungusVegetableCookedSoup</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Суп из светящегося гриба</Source>
+      <Dest>#soup# Суп из светящегося гриба</Dest>
+    </String>
+    <String List="0" sID="03DB23" Partial="1">
+      <EDID>CranberryFruit</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Клюква</Source>
+      <Dest>#berry# Клюква</Dest>
+    </String>
+    <String List="0" sID="03DB25" Partial="1">
+      <EDID>MountainHocks_RSVP02</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Горный окорок</Source>
+      <Dest>#cooked_meat# Горный окорок</Dest>
+    </String>
+    <String List="0" sID="03DB27" Partial="1">
+      <EDID>GlowingFungusVegetableTastySoup</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пюре из светящегося гриба</Source>
+      <Dest>#soup# Пюре из светящегося гриба</Dest>
+    </String>
+    <String List="0" sID="03DB28" Partial="1">
+      <EDID>RazorgrainVegetableCookedSoup</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Суп из бритвозлака</Source>
+      <Dest>#soup# Суп из бритвозлака</Dest>
+    </String>
+    <String List="0" sID="03DB2A">
+      <EDID>test_SURV_TestDiseaseChanceFood_High</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>_Disease Chance Food 3 — High</Source>
+      <Dest>_Disease Chance Food 3 — High</Dest>
+    </String>
+    <String List="0" sID="03DB2B" Partial="1">
+      <EDID>FFZ13_BrewSweetwaterTastyTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Особая смесь Свитуотера</Source>
+      <Dest>#whiskey# Особая смесь Свитуотера</Dest>
+    </String>
+    <String List="0" sID="03DB2E" Partial="1">
+      <EDID>SURV_DiseaseCure_Antibiotics</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Антибиотики</Source>
+      <Dest>#antibiotics# Антибиотики</Dest>
+    </String>
+    <String List="0" sID="03DB30" Partial="1">
+      <EDID>WaterToxic</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ядовитая вода</Source>
+      <Dest>#bottle_of_water# Ядовитая вода</Dest>
+    </String>
+    <String List="0" sID="03DB32" Partial="1">
+      <EDID>SiltBeanVegetableTastySoup</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пюре из илофасоли</Source>
+      <Dest>#soup# Пюре из илофасоли</Dest>
+    </String>
+    <String List="0" sID="03DB33" Partial="1">
+      <EDID>ScorchBeastMeatLiver</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Печень зверожога</Source>
+      <Dest>#raw_meat# Печень зверожога</Dest>
+    </String>
+    <String List="0" sID="03DB35">
+      <EDID>CorpseFlowerStamenFruit</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Тычинка трупного цветка</Source>
+      <Dest>Тычинка трупного цветка</Dest>
+    </String>
+    <String List="0" sID="03DB39">
+      <EDID>test_SURV_TestDiseaseChanceFood_Medium</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>_Disease Chance Food 2 — Medium</Source>
+      <Dest>_Disease Chance Food 2 — Medium</Dest>
+    </String>
+    <String List="0" sID="03DB3A" Partial="1">
+      <EDID>Serum_Herbivore</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сыворотка &quot;Травоядный&quot;</Source>
+      <Dest>#mutation_serum# Сыворотка &quot;Травоядный&quot;</Dest>
+    </String>
+    <String List="0" sID="03DB3C" Partial="1">
+      <EDID>Serum_Marsupial</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сыворотка &quot;Сумчатый&quot;</Source>
+      <Dest>#mutation_serum# Сыворотка &quot;Сумчатый&quot;</Dest>
+    </String>
+    <String List="0" sID="03DB3F" Partial="1">
+      <EDID>MutfruitFruitCookedJuice</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сок из мутафрукта</Source>
+      <Dest>#juice# Сок из мутафрукта</Dest>
+    </String>
+    <String List="0" sID="03DB41" Partial="1">
+      <EDID>AsterHerb</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Астра</Source>
+      <Dest>#flower# Астра</Dest>
+    </String>
+    <String List="0" sID="03DB43" Partial="1">
+      <EDID>AnglerMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Вареный удильщик</Source>
+      <Dest>#cooked_meat# Вареный удильщик</Dest>
+    </String>
+    <String List="0" sID="03DB44" Partial="1">
+      <EDID>FirecapVegetable</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Огненный гриб</Source>
+      <Dest>#mushrooms# Огненный гриб</Dest>
+    </String>
+    <String List="0" sID="03DB45">
+      <EDID>BrainBombsGourmet</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Бомбы из мозгов</Source>
+      <Dest>Бомбы из мозгов</Dest>
+    </String>
+    <String List="0" sID="03DB47" Partial="1">
+      <EDID>AshRoseHerbTastyTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Заварившийся чай с пепельной розой</Source>
+      <Dest>#tea# Заварившийся чай с пепельной розой</Dest>
+    </String>
+    <String List="0" sID="03DB4B" Partial="1">
+      <EDID>CorpseFlowerSeedsFruitCookedJuice</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сок из трупных семян</Source>
+      <Dest>#juice# Сок из трупных семян</Dest>
+    </String>
+    <String List="0" sID="03DB4C" Partial="1">
+      <EDID>TatoVegetableTastyStew</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Суп из сладкой тошки</Source>
+      <Dest>#salad# Суп из сладкой тошки</Dest>
+    </String>
+    <String List="0" sID="03DB4E" Partial="1">
+      <EDID>MelonBloomHerbTastyTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Заварившийся чай с цветками арбуза</Source>
+      <Dest>#tea# Заварившийся чай с цветками арбуза</Dest>
+    </String>
+    <String List="0" sID="03DB50">
+      <EDID>MTNS05_VoxDart</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Дротик &quot;Вокса&quot;</Source>
+      <Dest>Дротик &quot;Вокса&quot;</Dest>
+    </String>
+    <String List="0" sID="03DB56" Partial="1">
+      <EDID>ScorchBeastMeatLungCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Копченое легкое зверожога</Source>
+      <Dest>#cooked_meat# Копченое легкое зверожога</Dest>
+    </String>
+    <String List="0" sID="03DB59" Partial="1">
+      <EDID>Serum_Talons</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сыворотка &quot;Когтистый&quot;</Source>
+      <Dest>#mutation_serum# Сыворотка &quot;Когтистый&quot;</Dest>
+    </String>
+    <String List="0" sID="03DB5C" Partial="1">
+      <EDID>ScorchBeastMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо зверожога</Source>
+      <Dest>#raw_meat# Мясо зверожога</Dest>
+    </String>
+    <String List="0" sID="03DB5D" Partial="1">
+      <EDID>RadRatMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо радкрысы</Source>
+      <Dest>#raw_meat# Мясо радкрысы</Dest>
+    </String>
+    <String List="0" sID="03DB5E" Partial="1">
+      <EDID>BlackberryFruitCookedJuice</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ежевичный сок</Source>
+      <Dest>#juice# Ежевичный сок</Dest>
+    </String>
+    <String List="0" sID="03DB60" Partial="1">
+      <EDID>BloodpackIrradiated</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пакет радиоактивной крови</Source>
+      <Dest>#blood_pack# Пакет радиоактивной крови</Dest>
+    </String>
+    <String List="0" sID="03DB62">
+      <EDID>AnglerLureWeedVegetableCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жевательная палочка</Source>
+      <Dest>Жевательная палочка</Dest>
+    </String>
+    <String List="0" sID="03DB63" Partial="1">
+      <EDID>ScorchBeastMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Бифштекс из зверожога</Source>
+      <Dest>#cooked_meat# Бифштекс из зверожога</Dest>
+    </String>
+    <String List="0" sID="03DB65" Partial="1">
+      <EDID>StranglerPodHerb</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Бутон с лозы душителя</Source>
+      <Dest>#flower# Бутон с лозы душителя</Dest>
+    </String>
+    <String List="0" sID="03DB66" Partial="1">
+      <EDID>BloodbugMeatTasty</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Стейк из гнуса с перцем</Source>
+      <Dest>#cooked_meat# Стейк из гнуса с перцем</Dest>
+    </String>
+    <String List="0" sID="03DB67" Partial="1">
+      <EDID>Serum_BirdBones</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сыворотка &quot;Ранимость&quot;</Source>
+      <Dest>#mutation_serum# Сыворотка &quot;Ранимость&quot;</Dest>
+    </String>
+    <String List="0" sID="03DB69" Partial="1">
+      <EDID>Serum_Empath</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сыворотка &quot;Эмпат&quot;</Source>
+      <Dest>#mutation_serum# Сыворотка &quot;Эмпат&quot;</Dest>
+    </String>
+    <String List="0" sID="03DB6C" Partial="1">
+      <EDID>MTR04_Gumdrops</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жевательные пастилки</Source>
+      <Dest>#candy# Жевательные пастилки</Dest>
+    </String>
+    <String List="0" sID="03DB6D" Partial="1">
+      <EDID>MTR04_Candy</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сахарная вата</Source>
+      <Dest>#candy# Сахарная вата</Dest>
+    </String>
+    <String List="0" sID="03DB6E" Partial="1">
+      <EDID>SootFlowerHerbTastyTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Чай, настоянный на грязноцвете</Source>
+      <Dest>#tea# Чай, настоянный на грязноцвете</Dest>
+    </String>
+    <String List="0" sID="03DB6F" Partial="1">
+      <EDID>Serum_Grounded</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сыворотка &quot;Заземление&quot;</Source>
+      <Dest>#mutation_serum# Сыворотка &quot;Заземление&quot;</Dest>
+    </String>
+    <String List="0" sID="03DB72" Partial="1">
+      <EDID>Serum_AdrenalReaction</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сыворотка надпочечниковой мутации</Source>
+      <Dest>#mutation_serum# Сыворотка надпочечниковой мутации</Dest>
+    </String>
+    <String List="0" sID="03DB74" Partial="1">
+      <EDID>BlackberryFruit</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Дикая ежевика</Source>
+      <Dest>#berry# Дикая ежевика</Dest>
+    </String>
+    <String List="0" sID="03DB7D" Partial="1">
+      <EDID>SiltBeanVegetableCookedSoup</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Суп из илофасоли</Source>
+      <Dest>#soup# Суп из илофасоли</Dest>
+    </String>
+    <String List="0" sID="03DB7E" Partial="1">
+      <EDID>BlightVegetableCookedSoup</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Грибной суп</Source>
+      <Dest>#soup# Грибной суп</Dest>
+    </String>
+    <String List="0" sID="03DB7F" Partial="1">
+      <EDID>Brew_OldPossum</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пиво &quot;Старый опоссум&quot;</Source>
+      <Dest>#beer# Пиво &quot;Старый опоссум&quot;</Dest>
+    </String>
+    <String List="0" sID="03DB81" Partial="1">
+      <EDID>Chitlins_RSVP02</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Требуха кон карне</Source>
+      <Dest>#cooked_meat# Требуха кон карне</Dest>
+    </String>
+    <String List="0" sID="03DB86" Partial="1">
+      <EDID>GourdVegetableCookedSoup</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Суп из тыквы</Source>
+      <Dest>#soup# Суп из тыквы</Dest>
+    </String>
+    <String List="0" sID="03DB87">
+      <EDID>Cream</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сливки</Source>
+      <Dest>Сливки</Dest>
+    </String>
+    <String List="0" sID="03DB89" Partial="1">
+      <EDID>CranberryMeatballGrinderGourmet</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сэндвич с тефтелями и клюквой</Source>
+      <Dest>#cooked_meat# Сэндвич с тефтелями и клюквой</Dest>
+    </String>
+    <String List="0" sID="03DB8B" Partial="1">
+      <EDID>RadXDiluted</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Рад-Х: разбавленный</Source>
+      <Dest>#rad_x# Рад-Х: разбавленный</Dest>
+    </String>
+    <String List="0" sID="03DB8D" Partial="1">
+      <EDID>WolfMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сырая волчатина</Source>
+      <Dest>#raw_meat# Сырая волчатина</Dest>
+    </String>
+    <String List="0" sID="03DB8E" Partial="1">
+      <EDID>SuperStimpak</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Стимулятор: супер</Source>
+      <Dest>#stimpak# Стимулятор: супер</Dest>
+    </String>
+    <String List="0" sID="03DB8F" Partial="1">
+      <EDID>CarrotFlowerHerbTastyTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Заварившийся чай с цветком моркови</Source>
+      <Dest>#tea# Заварившийся чай с цветком моркови</Dest>
+    </String>
+    <String List="0" sID="03DB90" Partial="1">
+      <EDID>SnaptailReedVegetable</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Хвостолом</Source>
+      <Dest>#carrot# Хвостолом</Dest>
+    </String>
+    <String List="0" sID="03DB91" Partial="1">
+      <EDID>MutfruitFruitTastyTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Чай из дикого мутафрукта</Source>
+      <Dest>#tea# Чай из дикого мутафрукта</Dest>
+    </String>
+    <String List="0" sID="03DB92">
+      <EDID>CornPoneCooked_RSVP02</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Кукурузные лепешки</Source>
+      <Dest>Кукурузные лепешки</Dest>
+    </String>
+    <String List="0" sID="03DB94" Partial="1">
+      <EDID>Serum_HerdMentality</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сыворотка &quot;Стадное чувство&quot;</Source>
+      <Dest>#mutation_serum# Сыворотка &quot;Стадное чувство&quot;</Dest>
+    </String>
+    <String List="0" sID="03DB96">
+      <EDID>FloraSpecimenJarRed</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Необработанный алый флюс</Source>
+      <Dest>Необработанный алый флюс</Dest>
+    </String>
+    <String List="0" sID="03DB97" Partial="1">
+      <EDID>Serum_ScalySkin</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сыворотка &quot;Чешуйчатая кожа&quot;</Source>
+      <Dest>#mutation_serum# Сыворотка &quot;Чешуйчатая кожа&quot;</Dest>
+    </String>
+    <String List="0" sID="03DB9A" Partial="1">
+      <EDID>StranglerPodHerbTastyTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Заварившийся чай с бутоном с лозы душителя</Source>
+      <Dest>#tea# Заварившийся чай с бутоном с лозы душителя</Dest>
+    </String>
+    <String List="0" sID="03DB9C" Partial="1">
+      <EDID>GlowingMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Светящееся мясо</Source>
+      <Dest>#raw_meat# Светящееся мясо</Dest>
+    </String>
+    <String List="0" sID="03DB9D" Partial="1">
+      <EDID>RadToadLeg</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Лапка рад-жабы</Source>
+      <Dest>#raw_meat# Лапка рад-жабы</Dest>
+    </String>
+    <String List="0" sID="04185B" Partial="1">
+      <EDID>FirecapVegetableTastySouffle</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Вкусное суфле &quot;Огненный гриб&quot;</Source>
+      <Dest>#cake# Вкусное суфле &quot;Огненный гриб&quot;</Dest>
+    </String>
+    <String List="0" sID="04185D" Partial="1">
+      <EDID>FirecapCookedSoup</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Суп &quot;Огненный гриб&quot;</Source>
+      <Dest>#soup# Суп &quot;Огненный гриб&quot;</Dest>
+    </String>
+    <String List="0" sID="041B6B">
+      <EDID>ResuscitationKit</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Реанимационный набор</Source>
+      <Dest>Реанимационный набор</Dest>
+    </String>
+    <String List="0" sID="041F09" Partial="1">
+      <EDID>FoxMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Вяленая лисятина</Source>
+      <Dest>#cooked_meat# Вяленая лисятина</Dest>
+    </String>
+    <String List="0" sID="041F0A" Partial="1">
+      <EDID>OpossumMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Великолепный бекон из опоссума</Source>
+      <Dest>#cooked_meat# Великолепный бекон из опоссума</Dest>
+    </String>
+    <String List="0" sID="041F0B" Partial="1">
+      <EDID>Honey</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мед</Source>
+      <Dest>#honey# Мед</Dest>
+    </String>
+    <String List="0" sID="041F0C" Partial="1">
+      <EDID>HoneyComb</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пчелиные соты</Source>
+      <Dest>#honey# Пчелиные соты</Dest>
+    </String>
+    <String List="0" sID="041F0D" Partial="1">
+      <EDID>OwletMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Наггетсы из совенка</Source>
+      <Dest>#cooked_meat# Наггетсы из совенка</Dest>
+    </String>
+    <String List="0" sID="042A25" Partial="1">
+      <EDID>SurvivalistVegHam</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Вегетарианская ветчина</Source>
+      <Dest>#canned_food# Вегетарианская ветчина</Dest>
+    </String>
+    <String List="0" sID="042A26" Partial="1">
+      <EDID>SurvivalistRiceAndBeans</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Кейджунский рис с фасолью</Source>
+      <Dest>#canned_food# Кейджунский рис с фасолью</Dest>
+    </String>
+    <String List="0" sID="042A27" Partial="1">
+      <EDID>SurvivalistCoffee</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Молотый кофе</Source>
+      <Dest>#canned_food# Молотый кофе</Dest>
+    </String>
+    <String List="0" sID="042A28" Partial="1">
+      <EDID>SurvivalistSeafood</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Имитация морепродуктов</Source>
+      <Dest>#canned_food# Имитация морепродуктов</Dest>
+    </String>
+    <String List="0" sID="042A29" Partial="1">
+      <EDID>PerkBubblegumStrawberry</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Клубничная жевательная резинка</Source>
+      <Dest>#bubblegum# Клубничная жевательная резинка</Dest>
+    </String>
+    <String List="0" sID="042A2A" Partial="1">
+      <EDID>PerkBubblegumCola</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жевательная резинка со вкусом колы</Source>
+      <Dest>#bubblegum# Жевательная резинка со вкусом колы</Dest>
+    </String>
+    <String List="0" sID="042A2B" Partial="1">
+      <EDID>PerkBubblegumGrape</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Виноградная жевательная резинка</Source>
+      <Dest>#bubblegum# Виноградная жевательная резинка</Dest>
+    </String>
+    <String List="0" sID="042A2C" Partial="1">
+      <EDID>PerkBubblegumWatermelon</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Арбузная жевательная резинка</Source>
+      <Dest>#bubblegum# Арбузная жевательная резинка</Dest>
+    </String>
+    <String List="0" sID="042A47" Partial="1">
+      <EDID>SpoiledFood_Vegetable</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Тухлые овощи</Source>
+      <Dest>#toxic# Тухлые овощи</Dest>
+    </String>
+    <String List="0" sID="042A48" Partial="1">
+      <EDID>SpoiledFood_Fruit</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Тухлые фрукты</Source>
+      <Dest>#toxic# Тухлые фрукты</Dest>
+    </String>
+    <String List="0" sID="042BD1" Partial="1">
+      <EDID>SpoiledFood_Meat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Тухлое мясо</Source>
+      <Dest>#toxic# Тухлое мясо</Dest>
+    </String>
+    <String List="0" sID="042DEF">
+      <EDID>SURV_Innoculation_Scorched</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Разработка вакцины против лихорадки горелых</Source>
+      <Dest>Разработка вакцины против лихорадки горелых</Dest>
+    </String>
+    <String List="0" sID="0437C0" Partial="1">
+      <EDID>FFZ10_BioluminescentFluidPotion_Spoiled</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Испорченная биожидкость</Source>
+      <Dest>#toxic# Испорченная биожидкость</Dest>
+    </String>
+    <String List="0" sID="0441CA" Partial="1">
+      <EDID>TickBlood</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Кровь клеща</Source>
+      <Dest>#tick_blood# Кровь клеща</Dest>
+    </String>
+    <String List="0" sID="0441CB" Partial="1">
+      <EDID>MegaslothMeatTasty</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Вырезка из сверхленивца</Source>
+      <Dest>#cooked_meat# Вырезка из сверхленивца</Dest>
+    </String>
+    <String List="0" sID="0441CC" Partial="1">
+      <EDID>MirelurkQueenMeatTasty</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Тухлый стейк из мяса матки болотников </Source>
+      <Dest>#cooked_meat# Тухлый стейк из мяса матки болотников</Dest>
+    </String>
+    <String List="0" sID="0441CD" Partial="1">
+      <EDID>BloodLeafHerbCookedTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Простой чай с кроволистом</Source>
+      <Dest>#tea# Простой чай с кроволистом</Dest>
+    </String>
+    <String List="0" sID="0441CE" Partial="1">
+      <EDID>RadscorpionMeatTasty</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Филе радскорпиона</Source>
+      <Dest>#cooked_meat# Филе радскорпиона</Dest>
+    </String>
+    <String List="0" sID="0441CF" Partial="1">
+      <EDID>RadToadLegTasty</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жареные лапки рад-жабы</Source>
+      <Dest>#cooked_meat# Жареные лапки рад-жабы</Dest>
+    </String>
+    <String List="0" sID="0441D1" Partial="1">
+      <EDID>StingwingMeatTastyStew</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Суп из жалокрыла</Source>
+      <Dest>#meat_soup# Суп из жалокрыла</Dest>
+    </String>
+    <String List="0" sID="0441D2" Partial="1">
+      <EDID>SwampPlantVegetable</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Болотное растение</Source>
+      <Dest>#carrot# Болотное растение</Dest>
+    </String>
+    <String List="0" sID="0441D3" Partial="1">
+      <EDID>HoneyBeastRoyalJellyCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ириска из маточного молочка</Source>
+      <Dest>#candy# Ириска из маточного молочка</Dest>
+    </String>
+    <String List="0" sID="0441D4" Partial="1">
+      <EDID>ScorchBeastTastyStew</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Суп из мяса зверожога</Source>
+      <Dest>#meat_soup# Суп из мяса зверожога</Dest>
+    </String>
+    <String List="0" sID="044249">
+      <EDID>SwampPlantCookedTofu</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Болотный тофу</Source>
+      <Dest>Болотный тофу</Dest>
+    </String>
+    <String List="0" sID="04424A" Partial="1">
+      <EDID>CarrotFlowerHerbCookedNectar</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Нектар цветка моркови</Source>
+      <Dest>#tea# Нектар цветка моркови</Dest>
+    </String>
+    <String List="0" sID="04424B" Partial="1">
+      <EDID>AsterHerbCookedTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Простой чай с астрой</Source>
+      <Dest>#tea# Простой чай с астрой</Dest>
+    </String>
+    <String List="0" sID="04424C" Partial="1">
+      <EDID>AshRoseHerbCookedTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Простой чай с пепельной розой</Source>
+      <Dest>#tea# Простой чай с пепельной розой</Dest>
+    </String>
+    <String List="0" sID="04424D" Partial="1">
+      <EDID>StarlightBerryCookedCobbler</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пирог из ягод ночного ползуна</Source>
+      <Dest>#salad# Пирог из ягод ночного ползуна</Dest>
+    </String>
+    <String List="0" sID="04424E" Partial="1">
+      <EDID>FernFlowerHerbCookedTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Простой чай с папоротником-мутантом</Source>
+      <Dest>#tea# Простой чай с папоротником-мутантом</Dest>
+    </String>
+    <String List="0" sID="04424F" Partial="1">
+      <EDID>SootFlowerHerbCookedTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Простой чай с грязноцветом</Source>
+      <Dest>#tea# Простой чай с грязноцветом</Dest>
+    </String>
+    <String List="0" sID="044250">
+      <EDID>ToxicSootFlowerHerbCookedPaste</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Паста с грязноцветом</Source>
+      <Dest>Паста с грязноцветом</Dest>
+    </String>
+    <String List="0" sID="0444BA" Partial="1">
+      <EDID>CranberryCookedCobbler</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Клюквенный пирог</Source>
+      <Dest>#salad# Клюквенный пирог</Dest>
+    </String>
+    <String List="0" sID="0444BB" Partial="1">
+      <EDID>SwampPlantTastyTofuSoup</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Болотный суп с тофу</Source>
+      <Dest>#soup# Болотный суп с тофу</Dest>
+    </String>
+    <String List="0" sID="0444BC" Partial="1">
+      <EDID>SmokedMirelurkGourmet</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Копченое филе болотника</Source>
+      <Dest>#cooked_meat# Копченое филе болотника</Dest>
+    </String>
+    <String List="0" sID="0444BD" Partial="1">
+      <EDID>MirelurkAndBloodleafGourmet</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пирог из болотника под соусом айоли из гнуса</Source>
+      <Dest>#berry_pie# Пирог из болотника под соусом айоли из гнуса</Dest>
+    </String>
+    <String List="0" sID="0444BE" Partial="1">
+      <EDID>CranberryTastyRelish</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Клюквенная закуска</Source>
+      <Dest>#salad# Клюквенная закуска</Dest>
+    </String>
+    <String List="0" sID="0444BF" Partial="1">
+      <EDID>CranberryTastyJam</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Клюквенный джем</Source>
+      <Dest>#salad# Клюквенный джем</Dest>
+    </String>
+    <String List="0" sID="0444C0" Partial="1">
+      <EDID>BlackberryHoneyCrispGourmet</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Медовые крошки с ежевикой</Source>
+      <Dest>#salad# Медовые крошки с ежевикой</Dest>
+    </String>
+    <String List="0" sID="044AA9" Partial="1">
+      <EDID>GrannysTea_RSVP02</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Бабушкин чай</Source>
+      <Dest>#tea# Бабушкин чай</Dest>
+    </String>
+    <String List="0" sID="044AAB" Partial="1">
+      <EDID>SweetLabradorTea_RSVP02</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сладкий лабрадорский чай</Source>
+      <Dest>#tea# Сладкий лабрадорский чай</Dest>
+    </String>
+    <String List="0" sID="0452D5">
+      <EDID>FloraSpecimen_Failed</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Инертный флюс</Source>
+      <Dest>Инертный флюс</Dest>
+    </String>
+    <String List="0" sID="0452D6" Partial="1">
+      <EDID>MTNZ03_FormulaB</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Формула В</Source>
+      <Dest>#med_x# Формула В</Dest>
+    </String>
+    <String List="0" sID="045599" Partial="1">
+      <EDID>MTN04_BeerBottleReserve</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Резервное пиво &quot;Роджерс&quot;</Source>
+      <Dest>#beer# Резервное пиво &quot;Роджерс&quot;</Dest>
+    </String>
+    <String List="0" sID="045BBA" Partial="1">
+      <EDID>CompanyTea_RSVP02</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Компанейский чай</Source>
+      <Dest>#tea# Компанейский чай</Dest>
+    </String>
+    <String List="0" sID="0460CF" Partial="1">
+      <EDID>BobbleHead_SmallGuns_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Легкое оружие&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Легкое оружие&quot;</Dest>
+    </String>
+    <String List="0" sID="0460D0" Partial="1">
+      <EDID>BobbleHead_Sneak_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Скрытность&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Скрытность&quot;</Dest>
+    </String>
+    <String List="0" sID="0460D2" Partial="1">
+      <EDID>BobbleHead_Strength_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Сила&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Сила&quot;</Dest>
+    </String>
+    <String List="0" sID="0460D3" Partial="1">
+      <EDID>BobbleHead_BigGuns_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Тяжелое оружие&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Тяжелое оружие&quot;</Dest>
+    </String>
+    <String List="0" sID="0460D4" Partial="1">
+      <EDID>BobbleHead_Unarmed_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Без оружия&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Без оружия&quot;</Dest>
+    </String>
+    <String List="0" sID="0460D5" Partial="1">
+      <EDID>BobbleHead_Caps_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Крышки&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Крышки&quot;</Dest>
+    </String>
+    <String List="0" sID="0460D6" Partial="1">
+      <EDID>BobbleHead_Charisma_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Харизма&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Харизма&quot;</Dest>
+    </String>
+    <String List="0" sID="0460D7" Partial="1">
+      <EDID>BobbleHead_Endurance_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Выносливость&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Выносливость&quot;</Dest>
+    </String>
+    <String List="0" sID="0460D8" Partial="1">
+      <EDID>BobbleHead_EnergyWeapons_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Энергетическое оружие&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Энергетическое оружие&quot;</Dest>
+    </String>
+    <String List="0" sID="0460D9" Partial="1">
+      <EDID>BobbleHead_Explosives_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Взрывы&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Взрывы&quot;</Dest>
+    </String>
+    <String List="0" sID="0460DA" Partial="1">
+      <EDID>BobbleHead_Intelligence_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Интеллект&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Интеллект&quot;</Dest>
+    </String>
+    <String List="0" sID="0460DB" Partial="1">
+      <EDID>BobbleHead_Leader_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Лидер&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Лидер&quot;</Dest>
+    </String>
+    <String List="0" sID="0460DC" Partial="1">
+      <EDID>BobbleHead_LockPicking_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Взлом&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Взлом&quot;</Dest>
+    </String>
+    <String List="0" sID="0460DD" Partial="1">
+      <EDID>Bobblehead_Agility_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Ловкость&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Ловкость&quot;</Dest>
+    </String>
+    <String List="0" sID="0460DE" Partial="1">
+      <EDID>BobbleHead_Luck_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Удача&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Удача&quot;</Dest>
+    </String>
+    <String List="0" sID="0460DF" Partial="1">
+      <EDID>BobbleHead_Medicine_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Медицина&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Медицина&quot;</Dest>
+    </String>
+    <String List="0" sID="0460E0" Partial="1">
+      <EDID>BobbleHead_Melee_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Ближний бой&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Ближний бой&quot;</Dest>
+    </String>
+    <String List="0" sID="0460E1" Partial="1">
+      <EDID>BobbleHead_Perception_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Восприятие&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Восприятие&quot;</Dest>
+    </String>
+    <String List="0" sID="0460E2" Partial="1">
+      <EDID>BobbleHead_Repair_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Ремонт&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Ремонт&quot;</Dest>
+    </String>
+    <String List="0" sID="0460E3" Partial="1">
+      <EDID>BobbleHead_Science_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Наука&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Наука&quot;</Dest>
+    </String>
+    <String List="0" sID="04619A" Partial="1">
+      <EDID>Magazine_GunsAndBullets03_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пистолеты и пули 3</Source>
+      <Dest>#magazine# Пистолеты и пули 3</Dest>
+    </String>
+    <String List="0" sID="04619B" Partial="1">
+      <EDID>Magazine_GunsAndBullets02_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пистолеты и пули 2</Source>
+      <Dest>#magazine# Пистолеты и пули 2</Dest>
+    </String>
+    <String List="0" sID="04619C" Partial="1">
+      <EDID>Magazine_AwesomeTales04_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Невероятно крутые истории 4</Source>
+      <Dest>#magazine# Невероятно крутые истории 4</Dest>
+    </String>
+    <String List="0" sID="04619D" Partial="1">
+      <EDID>Magazine_AwesomeTales03_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Невероятно крутые истории 3</Source>
+      <Dest>#magazine# Невероятно крутые истории 3</Dest>
+    </String>
+    <String List="0" sID="04619E" Partial="1">
+      <EDID>Magazine_AwesomeTales02_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Невероятно крутые истории 2</Source>
+      <Dest>#magazine# Невероятно крутые истории 2</Dest>
+    </String>
+    <String List="0" sID="04619F" Partial="1">
+      <EDID>Magazine_AwesomeTales13_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Невероятно крутые истории 13</Source>
+      <Dest>#magazine# Невероятно крутые истории 13</Dest>
+    </String>
+    <String List="0" sID="0461A0" Partial="1">
+      <EDID>Magazine_GrognakTheBarbarian09_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Грогнак-варвар 9</Source>
+      <Dest>#magazine# Грогнак-варвар 9</Dest>
+    </String>
+    <String List="0" sID="0461A1" Partial="1">
+      <EDID>Magazine_AwesomeTales12_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Невероятно крутые истории 12</Source>
+      <Dest>#magazine# Невероятно крутые истории 12</Dest>
+    </String>
+    <String List="0" sID="0461A2" Partial="1">
+      <EDID>Magazine_GrognakTheBarbarian08_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Грогнак-варвар 8</Source>
+      <Dest>#magazine# Грогнак-варвар 8</Dest>
+    </String>
+    <String List="0" sID="0461A3" Partial="1">
+      <EDID>Magazine_AwesomeTales01_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Невероятно крутые истории 1</Source>
+      <Dest>#magazine# Невероятно крутые истории 1</Dest>
+    </String>
+    <String List="0" sID="0461A4" Partial="1">
+      <EDID>Magazine_GrognakTheBarbarian07_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Грогнак-варвар 7</Source>
+      <Dest>#magazine# Грогнак-варвар 7</Dest>
+    </String>
+    <String List="0" sID="0461A5" Partial="1">
+      <EDID>Magazine_GrognakTheBarbarian06_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Грогнак-варвар 6</Source>
+      <Dest>#magazine# Грогнак-варвар 6</Dest>
+    </String>
+    <String List="0" sID="0461A6" Partial="1">
+      <EDID>Magazine_GrognakTheBarbarian05_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Грогнак-варвар 5</Source>
+      <Dest>#magazine# Грогнак-варвар 5</Dest>
+    </String>
+    <String List="0" sID="0461A7" Partial="1">
+      <EDID>Magazine_GrognakTheBarbarian04_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Грогнак-варвар 4</Source>
+      <Dest>#magazine# Грогнак-варвар 4</Dest>
+    </String>
+    <String List="0" sID="0461A8" Partial="1">
+      <EDID>Magazine_GrognakTheBarbarian02_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Грогнак-варвар 2</Source>
+      <Dest>#magazine# Грогнак-варвар 2</Dest>
+    </String>
+    <String List="0" sID="0461A9" Partial="1">
+      <EDID>Magazine_GrognakTheBarbarian03_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Грогнак-варвар 3</Source>
+      <Dest>#magazine# Грогнак-варвар 3</Dest>
+    </String>
+    <String List="0" sID="0461AA" Partial="1">
+      <EDID>Magazine_GrognakTheBarbarian01_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Грогнак-варвар 1</Source>
+      <Dest>#magazine# Грогнак-варвар 1</Dest>
+    </String>
+    <String List="0" sID="0461AB" Partial="1">
+      <EDID>Magazine_Backwoodsman10_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жизнь в глуши 10</Source>
+      <Dest>#magazine# Жизнь в глуши 10</Dest>
+    </String>
+    <String List="0" sID="0461AC" Partial="1">
+      <EDID>Magazine_GrognakTheBarbarian10_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Грогнак-варвар 10</Source>
+      <Dest>#magazine# Грогнак-варвар 10</Dest>
+    </String>
+    <String List="0" sID="0461AD" Partial="1">
+      <EDID>Magazine_Backwoodsman09_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жизнь в глуши 9</Source>
+      <Dest>#magazine# Жизнь в глуши 9</Dest>
+    </String>
+    <String List="0" sID="0461AE" Partial="1">
+      <EDID>Magazine_Backwoodsman05_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жизнь в глуши 5</Source>
+      <Dest>#magazine# Жизнь в глуши 5</Dest>
+    </String>
+    <String List="0" sID="0461AF" Partial="1">
+      <EDID>Magazine_Backwoodsman07_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жизнь в глуши 7</Source>
+      <Dest>#magazine# Жизнь в глуши 7</Dest>
+    </String>
+    <String List="0" sID="0461B0" Partial="1">
+      <EDID>Magazine_Backwoodsman06_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жизнь в глуши 6</Source>
+      <Dest>#magazine# Жизнь в глуши 6</Dest>
+    </String>
+    <String List="0" sID="0461B1" Partial="1">
+      <EDID>Magazine_Backwoodsman08_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жизнь в глуши 8</Source>
+      <Dest>#magazine# Жизнь в глуши 8</Dest>
+    </String>
+    <String List="0" sID="0461B2" Partial="1">
+      <EDID>Magazine_Backwoodsman04_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жизнь в глуши 4</Source>
+      <Dest>#magazine# Жизнь в глуши 4</Dest>
+    </String>
+    <String List="0" sID="0461B3" Partial="1">
+      <EDID>Magazine_AwesomeTales10_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Невероятно крутые истории 10</Source>
+      <Dest>#magazine# Невероятно крутые истории 10</Dest>
+    </String>
+    <String List="0" sID="0461B5" Partial="1">
+      <EDID>Magazine_Backwoodsman03_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жизнь в глуши 3</Source>
+      <Dest>#magazine# Жизнь в глуши 3</Dest>
+    </String>
+    <String List="0" sID="0461B6" Partial="1">
+      <EDID>Magazine_AwesomeTales05_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Невероятно крутые истории 5</Source>
+      <Dest>#magazine# Невероятно крутые истории 5</Dest>
+    </String>
+    <String List="0" sID="0461B7" Partial="1">
+      <EDID>Magazine_AwesomeTales11_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Невероятно крутые истории 11</Source>
+      <Dest>#magazine# Невероятно крутые истории 11</Dest>
+    </String>
+    <String List="0" sID="0461B8" Partial="1">
+      <EDID>Magazine_AwesomeTales07_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Невероятно крутые истории 7</Source>
+      <Dest>#magazine# Невероятно крутые истории 7</Dest>
+    </String>
+    <String List="0" sID="0461B9" Partial="1">
+      <EDID>Magazine_Backwoodsman02_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жизнь в глуши 2</Source>
+      <Dest>#magazine# Жизнь в глуши 2</Dest>
+    </String>
+    <String List="0" sID="0461BA" Partial="1">
+      <EDID>Magazine_AwesomeTales09_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Невероятно крутые истории 9</Source>
+      <Dest>#magazine# Невероятно крутые истории 9</Dest>
+    </String>
+    <String List="0" sID="0461BC" Partial="1">
+      <EDID>Magazine_AwesomeTales08_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Невероятно крутые истории 8</Source>
+      <Dest>#magazine# Невероятно крутые истории 8</Dest>
+    </String>
+    <String List="0" sID="0461BD" Partial="1">
+      <EDID>Magazine_Backwoodsman01_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жизнь в глуши 1</Source>
+      <Dest>#magazine# Жизнь в глуши 1</Dest>
+    </String>
+    <String List="0" sID="0461BE" Partial="1">
+      <EDID>Magazine_GunsAndBullets10_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пистолеты и пули 10</Source>
+      <Dest>#magazine# Пистолеты и пули 10</Dest>
+    </String>
+    <String List="0" sID="0461C0" Partial="1">
+      <EDID>Magazine_GunsAndBullets09_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пистолеты и пули 9</Source>
+      <Dest>#magazine# Пистолеты и пули 9</Dest>
+    </String>
+    <String List="0" sID="0461C1" Partial="1">
+      <EDID>Magazine_GunsAndBullets01_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пистолеты и пули 1</Source>
+      <Dest>#magazine# Пистолеты и пули 1</Dest>
+    </String>
+    <String List="0" sID="0461C2" Partial="1">
+      <EDID>Magazine_GunsAndBullets08_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пистолеты и пули 8</Source>
+      <Dest>#magazine# Пистолеты и пули 8</Dest>
+    </String>
+    <String List="0" sID="0461C4" Partial="1">
+      <EDID>Magazine_GunsAndBullets07_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пистолеты и пули 7</Source>
+      <Dest>#magazine# Пистолеты и пули 7</Dest>
+    </String>
+    <String List="0" sID="0461C5" Partial="1">
+      <EDID>Magazine_GunsAndBullets06_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пистолеты и пули 6</Source>
+      <Dest>#magazine# Пистолеты и пули 6</Dest>
+    </String>
+    <String List="0" sID="0461C6" Partial="1">
+      <EDID>Magazine_AwesomeTales06_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Невероятно крутые истории 6</Source>
+      <Dest>#magazine# Невероятно крутые истории 6</Dest>
+    </String>
+    <String List="0" sID="0461C7" Partial="1">
+      <EDID>Magazine_GunsAndBullets05_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пистолеты и пули 5</Source>
+      <Dest>#magazine# Пистолеты и пули 5</Dest>
+    </String>
+    <String List="0" sID="0461C8" Partial="1">
+      <EDID>Magazine_GunsAndBullets04_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пистолеты и пули 4</Source>
+      <Dest>#magazine# Пистолеты и пули 4</Dest>
+    </String>
+    <String List="0" sID="046315" Partial="1">
+      <EDID>Magazine_USCovertOps05_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Руководство по тайным операциям США 5</Source>
+      <Dest>#magazine# Руководство по тайным операциям США 5</Dest>
+    </String>
+    <String List="0" sID="046316" Partial="1">
+      <EDID>Magazine_USCovertOps04_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Руководство по тайным операциям США 4</Source>
+      <Dest>#magazine# Руководство по тайным операциям США 4</Dest>
+    </String>
+    <String List="0" sID="046317" Partial="1">
+      <EDID>Magazine_TeslaScience07_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Наука Теслы 7</Source>
+      <Dest>#magazine# Наука Теслы 7</Dest>
+    </String>
+    <String List="0" sID="046318" Partial="1">
+      <EDID>Magazine_LiveAndLove04_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жить и любить 4</Source>
+      <Dest>#magazine# Жить и любить 4</Dest>
+    </String>
+    <String List="0" sID="046319" Partial="1">
+      <EDID>Magazine_USCovertOps03_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Руководство по тайным операциям США 3</Source>
+      <Dest>#magazine# Руководство по тайным операциям США 3</Dest>
+    </String>
+    <String List="0" sID="04631A" Partial="1">
+      <EDID>Magazine_LiveAndLove06_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жить и любить 6</Source>
+      <Dest>#magazine# Жить и любить 6</Dest>
+    </String>
+    <String List="0" sID="04631B" Partial="1">
+      <EDID>Magazine_USCovertOps02_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Руководство по тайным операциям США 2</Source>
+      <Dest>#magazine# Руководство по тайным операциям США 2</Dest>
+    </String>
+    <String List="0" sID="04631C" Partial="1">
+      <EDID>Magazine_USCovertOps01_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Руководство по тайным операциям США 1</Source>
+      <Dest>#magazine# Руководство по тайным операциям США 1</Dest>
+    </String>
+    <String List="0" sID="04631D" Partial="1">
+      <EDID>Magazine_ScoutsLife10_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>&quot;Жизнь скаута&quot; 10</Source>
+      <Dest>#magazine# &quot;Жизнь скаута&quot; 10</Dest>
+    </String>
+    <String List="0" sID="04631E" Partial="1">
+      <EDID>Magazine_ScoutsLife03_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>&quot;Жизнь скаута&quot; 3</Source>
+      <Dest>#magazine# &quot;Жизнь скаута&quot; 3</Dest>
+    </String>
+    <String List="0" sID="04631F" Partial="1">
+      <EDID>Magazine_Unstoppables05_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Несокрушимые 5</Source>
+      <Dest>#magazine# Несокрушимые 5</Dest>
+    </String>
+    <String List="0" sID="046320" Partial="1">
+      <EDID>Magazine_LiveAndLove03_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жить и любить 3</Source>
+      <Dest>#magazine# Жить и любить 3</Dest>
+    </String>
+    <String List="0" sID="046321" Partial="1">
+      <EDID>Magazine_Unstoppables04_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Несокрушимые 4</Source>
+      <Dest>#magazine# Несокрушимые 4</Dest>
+    </String>
+    <String List="0" sID="046322" Partial="1">
+      <EDID>Magazine_Unstoppables03_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Несокрушимые 3</Source>
+      <Dest>#magazine# Несокрушимые 3</Dest>
+    </String>
+    <String List="0" sID="046323" Partial="1">
+      <EDID>Magazine_TeslaScience09_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Наука Теслы 9</Source>
+      <Dest>#magazine# Наука Теслы 9</Dest>
+    </String>
+    <String List="0" sID="046324" Partial="1">
+      <EDID>Magazine_ScoutsLife09_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>&quot;Жизнь скаута&quot; 9</Source>
+      <Dest>#magazine# &quot;Жизнь скаута&quot; 9</Dest>
+    </String>
+    <String List="0" sID="046325" Partial="1">
+      <EDID>Magazine_LiveAndLove09_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жить и любить 9</Source>
+      <Dest>#magazine# Жить и любить 9</Dest>
+    </String>
+    <String List="0" sID="046326" Partial="1">
+      <EDID>Magazine_Unstoppables02_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Несокрушимые 2</Source>
+      <Dest>#magazine# Несокрушимые 2</Dest>
+    </String>
+    <String List="0" sID="046327" Partial="1">
+      <EDID>Magazine_TeslaScience08_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Наука Теслы 8</Source>
+      <Dest>#magazine# Наука Теслы 8</Dest>
+    </String>
+    <String List="0" sID="046328" Partial="1">
+      <EDID>Magazine_Unstoppables01_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Несокрушимые 1</Source>
+      <Dest>#magazine# Несокрушимые 1</Dest>
+    </String>
+    <String List="0" sID="046329" Partial="1">
+      <EDID>Magazine_ScoutsLife08_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>&quot;Жизнь скаута&quot; 8</Source>
+      <Dest>#magazine# &quot;Жизнь скаута&quot; 8</Dest>
+    </String>
+    <String List="0" sID="04632A" Partial="1">
+      <EDID>Magazine_ScoutsLife04_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>&quot;Жизнь скаута&quot; 4</Source>
+      <Dest>#magazine# &quot;Жизнь скаута&quot; 4</Dest>
+    </String>
+    <String List="0" sID="04632B" Partial="1">
+      <EDID>Magazine_ScoutsLife07_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>&quot;Жизнь скаута&quot; 7</Source>
+      <Dest>#magazine# &quot;Жизнь скаута&quot; 7</Dest>
+    </String>
+    <String List="0" sID="04632C" Partial="1">
+      <EDID>Magazine_TumblersToday05_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Современные замки 5</Source>
+      <Dest>#magazine# Современные замки 5</Dest>
+    </String>
+    <String List="0" sID="04632D" Partial="1">
+      <EDID>Magazine_LiveAndLove08_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жить и любить 8</Source>
+      <Dest>#magazine# Жить и любить 8</Dest>
+    </String>
+    <String List="0" sID="04632E" Partial="1">
+      <EDID>Magazine_TumblersToday04_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Современные замки 4</Source>
+      <Dest>#magazine# Современные замки 4</Dest>
+    </String>
+    <String List="0" sID="04632F" Partial="1">
+      <EDID>Magazine_ScoutsLife06_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>&quot;Жизнь скаута&quot; 6</Source>
+      <Dest>#magazine# &quot;Жизнь скаута&quot; 6</Dest>
+    </String>
+    <String List="0" sID="046330" Partial="1">
+      <EDID>Magazine_LiveAndLove02_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жить и любить 2</Source>
+      <Dest>#magazine# Жить и любить 2</Dest>
+    </String>
+    <String List="0" sID="046331" Partial="1">
+      <EDID>Magazine_TumblersToday03_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Современные замки 3</Source>
+      <Dest>#magazine# Современные замки 3</Dest>
+    </String>
+    <String List="0" sID="046332" Partial="1">
+      <EDID>Magazine_TumblersToday02_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Современные замки 2</Source>
+      <Dest>#magazine# Современные замки 2</Dest>
+    </String>
+    <String List="0" sID="046333" Partial="1">
+      <EDID>Magazine_ScoutsLife05_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>&quot;Жизнь скаута&quot; 5</Source>
+      <Dest>#magazine# &quot;Жизнь скаута&quot; 5</Dest>
+    </String>
+    <String List="0" sID="046334" Partial="1">
+      <EDID>Magazine_TumblersToday01_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Современные замки 1</Source>
+      <Dest>#magazine# Современные замки 1</Dest>
+    </String>
+    <String List="0" sID="046335" Partial="1">
+      <EDID>Magazine_LiveAndLove07_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жить и любить 7</Source>
+      <Dest>#magazine# Жить и любить 7</Dest>
+    </String>
+    <String List="0" sID="046336" Partial="1">
+      <EDID>Magazine_ScoutsLife01_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>&quot;Жизнь скаута&quot; 1</Source>
+      <Dest>#magazine# &quot;Жизнь скаута&quot; 1</Dest>
+    </String>
+    <String List="0" sID="046337" Partial="1">
+      <EDID>Magazine_ScoutsLife02_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>&quot;Жизнь скаута&quot; 2</Source>
+      <Dest>#magazine# &quot;Жизнь скаута&quot; 2</Dest>
+    </String>
+    <String List="0" sID="046338" Partial="1">
+      <EDID>Magazine_TeslaScience06_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Наука Теслы 6</Source>
+      <Dest>#magazine# Наука Теслы 6</Dest>
+    </String>
+    <String List="0" sID="046339" Partial="1">
+      <EDID>Magazine_LiveAndLove01_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жить и любить 1</Source>
+      <Dest>#magazine# Жить и любить 1</Dest>
+    </String>
+    <String List="0" sID="04633A" Partial="1">
+      <EDID>Magazine_TeslaScience04_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Наука Теслы 4</Source>
+      <Dest>#magazine# Наука Теслы 4</Dest>
+    </String>
+    <String List="0" sID="04633B" Partial="1">
+      <EDID>Magazine_TeslaScience05_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Наука Теслы 5</Source>
+      <Dest>#magazine# Наука Теслы 5</Dest>
+    </String>
+    <String List="0" sID="04633C" Partial="1">
+      <EDID>Magazine_LiveAndLove05_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жить и любить 5</Source>
+      <Dest>#magazine# Жить и любить 5</Dest>
+    </String>
+    <String List="0" sID="04633D" Partial="1">
+      <EDID>Magazine_TeslaScience03_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Наука Теслы 3</Source>
+      <Dest>#magazine# Наука Теслы 3</Dest>
+    </String>
+    <String List="0" sID="04633E" Partial="1">
+      <EDID>Magazine_USCovertOps10_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Руководство по тайным операциям США 10</Source>
+      <Dest>#magazine# Руководство по тайным операциям США 10</Dest>
+    </String>
+    <String List="0" sID="04633F" Partial="1">
+      <EDID>Magazine_USCovertOps09_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Руководство по тайным операциям США 9</Source>
+      <Dest>#magazine# Руководство по тайным операциям США 9</Dest>
+    </String>
+    <String List="0" sID="046340" Partial="1">
+      <EDID>Magazine_TeslaScience02_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Наука Теслы 2</Source>
+      <Dest>#magazine# Наука Теслы 2</Dest>
+    </String>
+    <String List="0" sID="046341" Partial="1">
+      <EDID>Magazine_USCovertOps08_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Руководство по тайным операциям США 8</Source>
+      <Dest>#magazine# Руководство по тайным операциям США 8</Dest>
+    </String>
+    <String List="0" sID="046342" Partial="1">
+      <EDID>Magazine_USCovertOps07_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Руководство по тайным операциям США 7</Source>
+      <Dest>#magazine# Руководство по тайным операциям США 7</Dest>
+    </String>
+    <String List="0" sID="046343" Partial="1">
+      <EDID>Magazine_TeslaScience01_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Наука Теслы 1</Source>
+      <Dest>#magazine# Наука Теслы 1</Dest>
+    </String>
+    <String List="0" sID="046344" Partial="1">
+      <EDID>Magazine_USCovertOps06_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Руководство по тайным операциям США 6</Source>
+      <Dest>#magazine# Руководство по тайным операциям США 6</Dest>
+    </String>
+    <String List="0" sID="046417" Partial="1">
+      <EDID>zzz_RECLAIM_JumpTest</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сыворотка прыжка</Source>
+      <Dest>#mutation_serum# Сыворотка прыжка</Dest>
+    </String>
+    <String List="0" sID="046435">
+      <EDID>POST_DetoxingSalve</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мазь, выводящая токсины</Source>
+      <Dest>Мазь, выводящая токсины</Dest>
+    </String>
+    <String List="0" sID="0464AE" Partial="1">
+      <EDID>TestSmokeQuest15Quantum</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>TestSmokeQuantum</Source>
+      <Dest>#nuka_cola# TestSmokeQuantum</Dest>
+    </String>
+    <String List="0" sID="0464B0" Partial="1">
+      <EDID>TestSmoke10nukacherry</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>TestSmoke Ядер-Вишня</Source>
+      <Dest>#nuka_cola# TestSmoke Ядер-Вишня</Dest>
+    </String>
+    <String List="0" sID="046BA7">
+      <EDID>DebugCorriePotion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Тест Корри</Source>
+      <Dest>Тест Корри</Dest>
+    </String>
+    <String List="0" sID="0487EB" Partial="1">
+      <EDID>Cooking_Razorgrain_Flour</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мука из бритвозлака</Source>
+      <Dest>#flavor# Мука из бритвозлака</Dest>
+    </String>
+    <String List="0" sID="0487EC" Partial="1">
+      <EDID>Donut_Fasnacht</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Карнавальный пончик</Source>
+      <Dest>#cake# Карнавальный пончик</Dest>
+    </String>
+    <String List="0" sID="048875" Partial="1">
+      <EDID>Brew_NukashineFresh</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ядер-самогон</Source>
+      <Dest>#whiskey# Ядер-самогон</Dest>
+    </String>
+    <String List="0" sID="048878" Partial="1">
+      <EDID>Brew_NukashineVintage</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Выдержанный Ядер-самогон</Source>
+      <Dest>#whiskey# Выдержанный Ядер-самогон</Dest>
+    </String>
+    <String List="0" sID="04887B" Partial="1">
+      <EDID>Brew_NukashineFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемый Ядер-самогон</Source>
+      <Dest>#whiskey# Сбраживаемый Ядер-самогон</Dest>
+    </String>
+    <String List="0" sID="049229" Partial="1">
+      <EDID>Brew_HoppyHunterFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемый индийский светлый эль &quot;Хмельной охотник&quot;</Source>
+      <Dest>#beer# Сбраживаемый индийский светлый эль &quot;Хмельной охотник&quot;</Dest>
+    </String>
+    <String List="0" sID="04922C" Partial="1">
+      <EDID>Brew_LeadChampagneFresh</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Свинцовое шампанское</Source>
+      <Dest>#wine# Свинцовое шампанское</Dest>
+    </String>
+    <String List="0" sID="04922F" Partial="1">
+      <EDID>Brew_LeadChampagneFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемое свинцовое шампанское</Source>
+      <Dest>#whiskey# Сбраживаемое свинцовое шампанское</Dest>
+    </String>
+    <String List="0" sID="049232" Partial="1">
+      <EDID>Brew_HoppyHunter</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Индийский светлый эль &quot;Хмельной охотник&quot;</Source>
+      <Dest>#beer# Индийский светлый эль &quot;Хмельной охотник&quot;</Dest>
+    </String>
+    <String List="0" sID="049235" Partial="1">
+      <EDID>Brew_LeadChampagneVintage</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Выдержанное свинцовое шампанское</Source>
+      <Dest>#wine# Выдержанное свинцовое шампанское</Dest>
+    </String>
+    <String List="0" sID="04940D">
+      <EDID>CUT_P01E_HeartNougatCandyMutfruit</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сердце с мутафруктами и нугой</Source>
+      <Dest>Сердце с мутафруктами и нугой</Dest>
+    </String>
+    <String List="0" sID="04940E">
+      <EDID>CUT_P01E_HeartNougatCandyAssortment</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ассорти конфет с нугой</Source>
+      <Dest>Ассорти конфет с нугой</Dest>
+    </String>
+    <String List="0" sID="04940F">
+      <EDID>CUT_P01E_HeartNougatCandyFirecracker</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сердце с ягодой-хлопушкой и нугой</Source>
+      <Dest>Сердце с ягодой-хлопушкой и нугой</Dest>
+    </String>
+    <String List="0" sID="049410" Partial="1">
+      <EDID>zzzP01E_Heart_AppalachianBubbly</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Аппалашампанское (свежее)</Source>
+      <Dest>#whiskey# Аппалашампанское (свежее)</Dest>
+    </String>
+    <String List="0" sID="049413">
+      <EDID>CUT_P01E_HeartNougatCandyTarberry</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сердце со смоляникой и нугой</Source>
+      <Dest>Сердце со смоляникой и нугой</Dest>
+    </String>
+    <String List="0" sID="04943F" Partial="1">
+      <EDID>Lemonade</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Лимонад</Source>
+      <Dest>#juice# Лимонад</Dest>
+    </String>
+    <String List="0" sID="049448" Partial="1">
+      <EDID>Brew_LemonadeHard</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Крепкий лимонад</Source>
+      <Dest>#whiskey# Крепкий лимонад</Dest>
+    </String>
+    <String List="0" sID="0494AC">
+      <EDID>Potion_D01C_InsectRepellent</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Репеллент от насекомых</Source>
+      <Dest>Репеллент от насекомых</Dest>
+    </String>
+    <String List="0" sID="049838" Partial="1">
+      <EDID>Brew_BallisticBockFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемое баллистическое пиво</Source>
+      <Dest>#beer# Сбраживаемое баллистическое пиво</Dest>
+    </String>
+    <String List="0" sID="04983B" Partial="1">
+      <EDID>Brew_FirecrackerWhiskeyFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемый взрывной виски</Source>
+      <Dest>#whiskey# Сбраживаемый взрывной виски</Dest>
+    </String>
+    <String List="0" sID="04983E" Partial="1">
+      <EDID>Brew_FirecrackerWhiskeyVintage</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Выдержанный взрывной виски</Source>
+      <Dest>#whiskey# Выдержанный взрывной виски</Dest>
+    </String>
+    <String List="0" sID="049841" Partial="1">
+      <EDID>Brew_TickBloodTequilaVintage</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Выдержанная текила &quot;Кровь клеща&quot;</Source>
+      <Dest>#whiskey# Выдержанная текила &quot;Кровь клеща&quot;</Dest>
+    </String>
+    <String List="0" sID="049844" Partial="1">
+      <EDID>Brew_FirecrackerWhiskeyFresh</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Взрывной виски</Source>
+      <Dest>#whiskey# Взрывной виски</Dest>
+    </String>
+    <String List="0" sID="049847" Partial="1">
+      <EDID>Brew_TickBloodTequilaFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемая текила &quot;Кровь клеща&quot;</Source>
+      <Dest>#whiskey# Сбраживаемая текила &quot;Кровь клеща&quot;</Dest>
+    </String>
+    <String List="0" sID="04984A" Partial="1">
+      <EDID>Brew_TickBloodTequilaFresh</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Текила &quot;Кровь клеща&quot;</Source>
+      <Dest>#whiskey# Текила &quot;Кровь клеща&quot;</Dest>
+    </String>
+    <String List="0" sID="04984D" Partial="1">
+      <EDID>Brew_BallisticBock</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Баллистическое пиво</Source>
+      <Dest>#beer# Баллистическое пиво</Dest>
+    </String>
+    <String List="0" sID="049A43" Partial="1">
+      <EDID>SheepsquatchMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясо шипсквотча</Source>
+      <Dest>#raw_meat# Мясо шипсквотча</Dest>
+    </String>
+    <String List="0" sID="049A44" Partial="1">
+      <EDID>Sheepsquatch_Horn</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Рог шипсквотча</Source>
+      <Dest>#carrot# Рог шипсквотча</Dest>
+    </String>
+    <String List="0" sID="049A97" Partial="1">
+      <EDID>Smores</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Поджаренный зефир с крекерами</Source>
+      <Dest>#cake# Поджаренный зефир с крекерами</Dest>
+    </String>
+    <String List="0" sID="049D95" Partial="1">
+      <EDID>Brew_WhiskeyFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемый виски</Source>
+      <Dest>#whiskey# Сбраживаемый виски</Dest>
+    </String>
+    <String List="0" sID="049D98" Partial="1">
+      <EDID>Brew_WineFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемое вино</Source>
+      <Dest>#fermented_alcohol# Сбраживаемое вино</Dest>
+    </String>
+    <String List="0" sID="049D9B" Partial="1">
+      <EDID>Brew_BlackwaterBrewFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемое пиво &quot;Блэкуотер&quot;</Source>
+      <Dest>#beer# Сбраживаемое пиво &quot;Блэкуотер&quot;</Dest>
+    </String>
+    <String List="0" sID="049D9E" Partial="1">
+      <EDID>Brew_VodkaFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемая водка</Source>
+      <Dest>#whiskey# Сбраживаемая водка</Dest>
+    </String>
+    <String List="0" sID="049DA1" Partial="1">
+      <EDID>Brew_OldPossumFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемый &quot;Старый опоссум&quot;</Source>
+      <Dest>#beer# Сбраживаемый &quot;Старый опоссум&quot;</Dest>
+    </String>
+    <String List="0" sID="049DA4" Partial="1">
+      <EDID>Brew_BourbonFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемый бурбон</Source>
+      <Dest>#whiskey# Сбраживаемый бурбон</Dest>
+    </String>
+    <String List="0" sID="049DA7" Partial="1">
+      <EDID>Brew_RumFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемый ром</Source>
+      <Dest>#whiskey# Сбраживаемый ром</Dest>
+    </String>
+    <String List="0" sID="049DAA" Partial="1">
+      <EDID>Brew_NewRiverRedAleFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемый красный эль &quot;Нью-ривер&quot;</Source>
+      <Dest>#beer# Сбраживаемый красный эль &quot;Нью-ривер&quot;</Dest>
+    </String>
+    <String List="0" sID="049DAD" Partial="1">
+      <EDID>Brew_BeerBottleStandard01Ferm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемое пиво</Source>
+      <Dest>#beer# Сбраживаемое пиво</Dest>
+    </String>
+    <String List="0" sID="049DB0" Partial="1">
+      <EDID>Brew_PickaxePilsnerFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемый пилзнер &quot;Секач&quot;</Source>
+      <Dest>#beer# Сбраживаемый пилзнер &quot;Секач&quot;</Dest>
+    </String>
+    <String List="0" sID="049DB3" Partial="1">
+      <EDID>Brew_OakHollerLagerFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемый лагер &quot;Оук-холлер&quot;</Source>
+      <Dest>#beer# Сбраживаемый лагер &quot;Оук-холлер&quot;</Dest>
+    </String>
+    <String List="0" sID="04A1ED" Partial="1">
+      <EDID>Brew_FirecrackerWhiskeyManhattan</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Коктейль &quot;Манхеттен&quot; из взрывного виски</Source>
+      <Dest>#whiskey# Коктейль &quot;Манхеттен&quot; из взрывного виски</Dest>
+    </String>
+    <String List="0" sID="04A1F0" Partial="1">
+      <EDID>Brew_TickBloodTequilaMargarita</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Коктейль &quot;Маргарита&quot; из текилы &quot;Кровь клеща&quot;</Source>
+      <Dest>#whiskey# Коктейль &quot;Маргарита&quot; из текилы &quot;Кровь клеща&quot;</Dest>
+    </String>
+    <String List="0" sID="04A1F3" Partial="1">
+      <EDID>Brew_TickBloodTequilaSunrise</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Коктейль &quot;Восходящее солнце&quot; из текилы &quot;Кровь клеща&quot;</Source>
+      <Dest>#whiskey# Коктейль &quot;Восходящее солнце&quot; из текилы &quot;Кровь клеща&quot;</Dest>
+    </String>
+    <String List="0" sID="04A1F6" Partial="1">
+      <EDID>Brew_FirecrackerWhiskeyOldFashioned</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Коктейль &quot;Олд фешен&quot; из взрывного виски</Source>
+      <Dest>#whiskey# Коктейль &quot;Олд фешен&quot; из взрывного виски</Dest>
+    </String>
+    <String List="0" sID="04A1F9" Partial="1">
+      <EDID>Brew_LeadChampagneBellini</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Коктейль &quot;Беллини&quot; из свинцового шампанского</Source>
+      <Dest>#whiskey# Коктейль &quot;Беллини&quot; из свинцового шампанского</Dest>
+    </String>
+    <String List="0" sID="04A1FC" Partial="1">
+      <EDID>Brew_LeadChampagneMimosa</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Коктейль &quot;Мимоза&quot; из свинцового шампанского</Source>
+      <Dest>#whiskey# Коктейль &quot;Мимоза&quot; из свинцового шампанского</Dest>
+    </String>
+    <String List="0" sID="04A28E" Partial="1">
+      <EDID>Brew_RadAntLagerFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемое пиво &quot;Радмуравей&quot;</Source>
+      <Dest>#beer# Сбраживаемое пиво &quot;Радмуравей&quot;</Dest>
+    </String>
+    <String List="0" sID="04A291" Partial="1">
+      <EDID>Brew_HighVoltageHefeFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемое пиво &quot;Высокое напряжение&quot;</Source>
+      <Dest>#beer# Сбраживаемое пиво &quot;Высокое напряжение&quot;</Dest>
+    </String>
+    <String List="0" sID="04A294" Partial="1">
+      <EDID>Brew_HighVoltageHefe</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пиво &quot;Высокое напряжение&quot;</Source>
+      <Dest>#beer# Пиво &quot;Высокое напряжение&quot;</Dest>
+    </String>
+    <String List="0" sID="04A4D0" Partial="1">
+      <EDID>Cooking_Intestine</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Кишка</Source>
+      <Dest>#raw_meat# Кишка</Dest>
+    </String>
+    <String List="0" sID="04A4D1" Partial="1">
+      <EDID>Milk_Brahmin</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Молоко брамина</Source>
+      <Dest>#milk# Молоко брамина</Dest>
+    </String>
+    <String List="0" sID="04A4D3" Partial="1">
+      <EDID>Sausage_Fasnacht</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Карнавальная колбаска</Source>
+      <Dest>#cooked_meat# Карнавальная колбаска</Dest>
+    </String>
+    <String List="0" sID="04A5E8" Partial="1">
+      <EDID>Pemmican</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пеммикан</Source>
+      <Dest>#cooked_meat# Пеммикан</Dest>
+    </String>
+    <String List="0" sID="04A5EB">
+      <EDID>zzzNewArktosPlant</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Новое растение &quot;Арктос&quot;</Source>
+      <Dest>Новое растение &quot;Арктос&quot;</Dest>
+    </String>
+    <String List="0" sID="04B0B4" Partial="1">
+      <EDID>Brew_CranberryMoonshineFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемая клюковка</Source>
+      <Dest>#whiskey# Сбраживаемая клюковка</Dest>
+    </String>
+    <String List="0" sID="04B0B9" Partial="1">
+      <EDID>Brew_DLC04_NukaCola_DarkFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемая темная Ядер-Кола</Source>
+      <Dest>#whiskey# Сбраживаемая темная Ядер-Кола</Dest>
+    </String>
+    <String List="0" sID="04B0BC" Partial="1">
+      <EDID>Brew_MountainHoneyMoonshineFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемый самогон &quot;Горный мед&quot;</Source>
+      <Dest>#whiskey# Сбраживаемый самогон &quot;Горный мед&quot;</Dest>
+    </String>
+    <String List="0" sID="04B545" Partial="1">
+      <EDID>Brew_WhiteRussian</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Коктейль &quot;Белый русский&quot;</Source>
+      <Dest>#whiskey# Коктейль &quot;Белый русский&quot;</Dest>
+    </String>
+    <String List="0" sID="04BBFA" Partial="1">
+      <EDID>KaleidoporeHerb</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Цветок калейдопора</Source>
+      <Dest>#flower# Цветок калейдопора</Dest>
+    </String>
+    <String List="0" sID="052744">
+      <EDID>PETS_PetFood_Plant3</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Зерновой корм</Source>
+      <Dest>Зерновой корм</Dest>
+    </String>
+    <String List="0" sID="05B412">
+      <EDID>CUT_W05_MQS_202P_RecalibratedLiberator_Item</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Перекалиброванный освободитель</Source>
+      <Dest>Перекалиброванный освободитель</Dest>
+    </String>
+    <String List="0" sID="05B882" Partial="1">
+      <EDID>ZZZ_E05_Radiation_RadXtreme</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Рад-экстрим</Source>
+      <Dest>#rad_x# Рад-экстрим</Dest>
+    </String>
+    <String List="0" sID="390006FE" Partial="1">
+      <EDID>LGN_BrawlingChemist_Chem01</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Суперпрепарат I</Source>
+      <Dest>#psycho# Суперпрепарат I</Dest>
+    </String>
+    <String List="0" sID="39000701" Partial="1">
+      <EDID>LGN_BrawlingChemist_Chem03</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Суперпрепарат III</Source>
+      <Dest>#psycho# Суперпрепарат III</Dest>
+    </String>
+    <String List="0" sID="39000704" Partial="1">
+      <EDID>LGN_BrawlingChemist_Chem04</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Суперпрепарат</Source>
+      <Dest>#psycho# Суперпрепарат</Dest>
+    </String>
+    <String List="0" sID="39000707" Partial="1">
+      <EDID>LGN_BrawlingChemist_Chem02</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Суперпрепарат II</Source>
+      <Dest>#psycho# Суперпрепарат II</Dest>
+    </String>
+    <String List="0" sID="39004A48" Partial="1">
+      <EDID>zzz_StimpakExtra</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Дополнительный стимулятор</Source>
+      <Dest>#stimpak# Дополнительный стимулятор</Dest>
+    </String>
+    <String List="0" sID="39004B33">
+      <EDID>zzz_XPD_SnackPack</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Продуктовый паек для экспедиций</Source>
+      <Dest>Продуктовый паек для экспедиций</Dest>
+    </String>
+    <String List="0" sID="39004B35">
+      <EDID>zzz_XPD_ExpeditionPackage</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Набор для экспедиций</Source>
+      <Dest>Набор для экспедиций</Dest>
+    </String>
+    <String List="0" sID="390060CE" Partial="1">
+      <EDID>PITT_SodaBread_01</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Содовый хлеб</Source>
+      <Dest>#salad# Содовый хлеб</Dest>
+    </String>
+    <String List="0" sID="39006442" Partial="1">
+      <EDID>Brew_Fussfungle</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Фассфангл</Source>
+      <Dest>#whiskey# Фассфангл</Dest>
+    </String>
+    <String List="0" sID="39290FB8" Partial="1">
+      <EDID>VenisonAndTatoStew_Spiced</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Острое рагу из оленины и тошки</Source>
+      <Dest>#meat_soup# Острое рагу из оленины и тошки</Dest>
+    </String>
+    <String List="0" sID="39290FB9">
+      <EDID>VenisonAndTatoStew_Stimpak</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Восстанавливающее силы рагу из оленины и тошки</Source>
+      <Dest>Восстанавливающее силы рагу из оленины и тошки</Dest>
+    </String>
+    <String List="0" sID="39292A90" Partial="1">
+      <EDID>TrenchMed_Pitt</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Медикаменты для Траншеи</Source>
+      <Dest>#rad_x# Медикаменты для Траншеи</Dest>
+    </String>
+    <String List="0" sID="3929454A">
+      <EDID>zzz_MutatedEvents_Giftbox_Vaporous</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Улетучивающийся груз</Source>
+      <Dest>Улетучивающийся груз</Dest>
+    </String>
+    <String List="0" sID="3929454B">
+      <EDID>zzz_MutatedEvents_Giftbox_GroupRegeneration</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Регенерирующий груз</Source>
+      <Dest>Регенерирующий груз</Dest>
+    </String>
+    <String List="0" sID="3929454C">
+      <EDID>zzz_MutatedEvents_Giftbox_ChillingMend</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Леденящий груз</Source>
+      <Dest>Леденящий груз</Dest>
+    </String>
+    <String List="0" sID="3929454D">
+      <EDID>zzz_MutatedEvents_Giftbox_Volatile</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Нестабильный груз</Source>
+      <Dest>Нестабильный груз</Dest>
+    </String>
+    <String List="0" sID="3929454E">
+      <EDID>zzz_MutatedEvents_Giftbox_Unstable</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Неустойчивый груз</Source>
+      <Dest>Неустойчивый груз</Dest>
+    </String>
+    <String List="0" sID="3929454F">
+      <EDID>zzz_MutatedEvents_Giftbox_FreezingTouch</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Замораживающий груз</Source>
+      <Dest>Замораживающий груз</Dest>
+    </String>
+    <String List="0" sID="39294550">
+      <EDID>zzz_MutatedEvents_Giftbox_SwiftStalker</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Преследующий груз</Source>
+      <Dest>Преследующий груз</Dest>
+    </String>
+    <String List="0" sID="39294551">
+      <EDID>zzz_MutatedEvents_Giftbox_ActiveCamo</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Камуфляжный груз</Source>
+      <Dest>Камуфляжный груз</Dest>
+    </String>
+    <String List="0" sID="39294552">
+      <EDID>zzz_MutatedEvents_Giftbox_StingingFrost</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жалящий груз</Source>
+      <Dest>Жалящий груз</Dest>
+    </String>
+    <String List="0" sID="39294553">
+      <EDID>zzz_MutatedEvents_Giftbox_BlisteringCold</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Обжигающий груз</Source>
+      <Dest>Обжигающий груз</Dest>
+    </String>
+    <String List="0" sID="39294554">
+      <EDID>zzz_MutatedEvents_Giftbox_Relentless</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Неутомимый груз</Source>
+      <Dest>Неутомимый груз</Dest>
+    </String>
+    <String List="0" sID="39294555">
+      <EDID>zzz_MutatedEvents_Giftbox_ToxicBlood</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ядовитый груз</Source>
+      <Dest>Ядовитый груз</Dest>
+    </String>
+    <String List="0" sID="39294556">
+      <EDID>zzz_MutatedEvents_Giftbox_CloudedToxins</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Зыбкий груз</Source>
+      <Dest>Зыбкий груз</Dest>
+    </String>
+    <String List="0" sID="39294557">
+      <EDID>zzz_MutatedEvents_Giftbox_Resilient</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Безотказный груз</Source>
+      <Dest>Безотказный груз</Dest>
+    </String>
+    <String List="0" sID="39294558">
+      <EDID>zzz_MutatedEvents_Giftbox_SwiftFooted</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Быстрый груз</Source>
+      <Dest>Быстрый груз</Dest>
+    </String>
+    <String List="0" sID="3929487E">
+      <EDID>zzz_MutatedEvents_Giftbox_ReflectiveSkin</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Отражающий груз</Source>
+      <Dest>Отражающий груз</Dest>
+    </String>
+    <String List="0" sID="392948BA" Partial="1">
+      <EDID>zzz_MatzohBallSoup</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Бульон с клецками из мацы</Source>
+      <Dest>#soup# Бульон с клецками из мацы</Dest>
+    </String>
+    <String List="0" sID="410001B5" Partial="1">
+      <EDID>zzz_Babylon_Magazine_ScoutsLife08_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>&quot;Жизнь скаута&quot; 8</Source>
+      <Dest>#magazine# &quot;Жизнь скаута&quot; 8</Dest>
+    </String>
+    <String List="0" sID="410001B6" Partial="1">
+      <EDID>zzz_Babylon_Magazine_LiveAndLove06_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жить и любить 6</Source>
+      <Dest>#magazine# Жить и любить 6</Dest>
+    </String>
+    <String List="0" sID="410001B7" Partial="1">
+      <EDID>zzz_Babylon_Magazine_LiveAndLove02_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жить и любить 2</Source>
+      <Dest>#magazine# Жить и любить 2</Dest>
+    </String>
+    <String List="0" sID="410001B8" Partial="1">
+      <EDID>zzz_Babylon_Magazine_LiveAndLove01_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жить и любить 1</Source>
+      <Dest>#magazine# Жить и любить 1</Dest>
+    </String>
+    <String List="0" sID="410001B9" Partial="1">
+      <EDID>zzz_Babylon_BobbleHead_Explosives_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Взрывы&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Взрывы&quot;</Dest>
+    </String>
+    <String List="0" sID="410001BA" Partial="1">
+      <EDID>zzz_Babylon_Magazine_ScoutsLife03_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>&quot;Жизнь скаута&quot; 3</Source>
+      <Dest>#magazine# &quot;Жизнь скаута&quot; 3</Dest>
+    </String>
+    <String List="0" sID="410001BB" Partial="1">
+      <EDID>zzz_Babylon_Magazine_LiveAndLove04_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жить и любить 4</Source>
+      <Dest>#magazine# Жить и любить 4</Dest>
+    </String>
+    <String List="0" sID="410001BC" Partial="1">
+      <EDID>zzz_Babylon_Magazine_LiveAndLove07_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жить и любить 7</Source>
+      <Dest>#magazine# Жить и любить 7</Dest>
+    </String>
+    <String List="0" sID="410001BD" Partial="1">
+      <EDID>zzz_Babylon_Magazine_ScoutsLife01_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>&quot;Жизнь скаута&quot; 1</Source>
+      <Dest>#magazine# &quot;Жизнь скаута&quot; 1</Dest>
+    </String>
+    <String List="0" sID="41000476" Partial="1">
+      <EDID>DEPRECATED_Festive_HolidayGift_Craftable_Tier_03</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Большой самодельный праздничный подарок</Source>
+      <Dest>#holiday_gift# Большой самодельный праздничный подарок</Dest>
+    </String>
+    <String List="0" sID="41000478" Partial="1">
+      <EDID>DEPRECATED_Festive_HolidayGift_Loot_Tier_01</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Маленький праздничный подарок</Source>
+      <Dest>#holiday_gift# Маленький праздничный подарок</Dest>
+    </String>
+    <String List="0" sID="4100047A" Partial="1">
+      <EDID>DEPRECATED_Festive_HolidayGift_Loot_Tier_02</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Праздничный подарок</Source>
+      <Dest>#holiday_gift# Праздничный подарок</Dest>
+    </String>
+    <String List="0" sID="4100047C" Partial="1">
+      <EDID>DEPRECATED_Festive_HolidayGift_Loot_Tier_03</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Большой праздничный подарок</Source>
+      <Dest>#holiday_gift# Большой праздничный подарок</Dest>
+    </String>
+    <String List="0" sID="4100047E" Partial="1">
+      <EDID>DEPRECATED_Festive_HolidayGift_Craftable_Tier_01</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Маленький самодельный праздничный подарок</Source>
+      <Dest>#holiday_gift# Маленький самодельный праздничный подарок</Dest>
+    </String>
+    <String List="0" sID="41000480" Partial="1">
+      <EDID>DEPRECATED_Festive_HolidayGift_Craftable_Tier_02</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Самодельный праздничный подарок</Source>
+      <Dest>#holiday_gift# Самодельный праздничный подарок</Dest>
+    </String>
+    <String List="0" sID="41000F83">
+      <EDID>BS00_ContributionRewardBox</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Припасы спонсора АТЛАС</Source>
+      <Dest>Припасы спонсора АТЛАС</Dest>
+    </String>
+    <String List="0" sID="410013BB" Partial="1">
+      <EDID>LGN_SurvivalShortcut_Chem01</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Шприц &quot;Выживание&quot;</Source>
+      <Dest>#psycho# Шприц &quot;Выживание&quot;</Dest>
+    </String>
+    <String List="0" sID="4100223D" Partial="1">
+      <EDID>SCORE_Bubblegum_Perfect</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Идеальная жевательная резинка</Source>
+      <Dest>#bubblegum# Идеальная жевательная резинка</Dest>
+    </String>
+    <String List="0" sID="41002B8B" Partial="1">
+      <EDID>Magazine_AstonishingTales02_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Истории с холмов Западной Вирджинии 3</Source>
+      <Dest>#magazine# Истории с холмов Западной Вирджинии 3</Dest>
+    </String>
+    <String List="0" sID="41002B8C" Partial="1">
+      <EDID>Magazine_AstonishingTales03_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Истории с холмов Западной Вирджинии 4</Source>
+      <Dest>#magazine# Истории с холмов Западной Вирджинии 4</Dest>
+    </String>
+    <String List="0" sID="41002B8D" Partial="1">
+      <EDID>Magazine_AstonishingTales04_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Истории с холмов Западной Вирджинии 5</Source>
+      <Dest>#magazine# Истории с холмов Западной Вирджинии 5</Dest>
+    </String>
+    <String List="0" sID="41002B8E" Partial="1">
+      <EDID>Magazine_AstonishingTales05_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Истории с холмов Западной Вирджинии 1</Source>
+      <Dest>#magazine# Истории с холмов Западной Вирджинии 1</Dest>
+    </String>
+    <String List="0" sID="41002B8F" Partial="1">
+      <EDID>Magazine_AstonishingTales01_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Истории с холмов Западной Вирджинии 2</Source>
+      <Dest>#magazine# Истории с холмов Западной Вирджинии 2</Dest>
+    </String>
+    <String List="0" sID="410035E6" Partial="1">
+      <EDID>PopcornMachine_Popcorn</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Автомат для приготовления попкорна</Source>
+      <Dest>#candy# Автомат для приготовления попкорна</Dest>
+    </String>
+    <String List="0" sID="41004296">
+      <EDID>E07A_Mothman_CultistHighPriestReward</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Набор верховного жреца секты</Source>
+      <Dest>Набор верховного жреца секты</Dest>
+    </String>
+    <String List="0" sID="41004D1B" Partial="1">
+      <EDID>E08A_Brew_GulpershineVintage</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Выдержанный самогон &quot;Болотная магия&quot;</Source>
+      <Dest>#whiskey# Выдержанный самогон &quot;Болотная магия&quot;</Dest>
+    </String>
+    <String List="0" sID="41004D1E" Partial="1">
+      <EDID>E08A_Brew_GulpershineFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемый самогон &quot;Болотная магия&quot;</Source>
+      <Dest>#whiskey# Сбраживаемый самогон &quot;Болотная магия&quot;</Dest>
+    </String>
+    <String List="0" sID="41004D62">
+      <EDID>E08A_GulperVenom</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Яд кислотного заглота</Source>
+      <Dest>Яд кислотного заглота</Dest>
+    </String>
+    <String List="0" sID="41005679" Partial="1">
+      <EDID>MedX</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мед-X</Source>
+      <Dest>#med_x# Мед-X</Dest>
+    </String>
+    <String List="0" sID="41005E7E" Partial="1">
+      <EDID>SCORE_Banner_Consumable</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Знамя скаута</Source>
+      <Dest>#scout# Знамя скаута</Dest>
+    </String>
+    <String List="0" sID="41006866" Partial="1">
+      <EDID>NukaCola_Twist</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ядер-кола &quot;Твист&quot;</Source>
+      <Dest>#nuka_cola# Ядер-кола &quot;Твист&quot;</Dest>
+    </String>
+    <String List="0" sID="41007077">
+      <EDID>MutatedEvents_Package_SingleMutatedEvent_Fallout1st</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Набор &quot;Мутация&quot; для отряда</Source>
+      <Dest>Набор &quot;Мутация&quot; для отряда</Dest>
+    </String>
+    <String List="0" sID="41008590">
+      <EDID>zzz_MutatedEvents_FieryInfusion_Tier1</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Огненный тоник уровня I</Source>
+      <Dest>Огненный тоник уровня I</Dest>
+    </String>
+    <String List="0" sID="41009050" Partial="1">
+      <EDID>DeathclawEgg</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Яйцо когтя смерти</Source>
+      <Dest>#egg# Яйцо когтя смерти</Dest>
+    </String>
+    <String List="0" sID="410094B6" Partial="1">
+      <EDID>BirthdayCakeSlice</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Кусочек именинного торта</Source>
+      <Dest>#cake# Кусочек именинного торта</Dest>
+    </String>
+    <String List="0" sID="4100974C" Partial="1">
+      <EDID>zzz_AC_SQ01_HellsEagles_SurlysBuffout_Reward</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>&quot;Улетный&quot; баффаут</Source>
+      <Dest>#buffout# &quot;Улетный&quot; баффаут</Dest>
+    </String>
+    <String List="0" sID="410099B5">
+      <EDID>SCORE_MagazineBookBox</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пакет с таинственным журналом</Source>
+      <Dest>Пакет с таинственным журналом</Dest>
+    </String>
+    <String List="0" sID="4100BC46" Partial="1">
+      <EDID>NWOT_YaoGuaiPastry</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Выпечка с яо-гаем</Source>
+      <Dest>#cooked_meat# Выпечка с яо-гаем</Dest>
+    </String>
+    <String List="0" sID="61002C51" Partial="1">
+      <EDID>zzz_Babylon_Magazine_AwesomeTales03_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Невероятно крутые истории 3</Source>
+      <Dest>#magazine# Невероятно крутые истории 3</Dest>
+    </String>
+    <String List="0" sID="61002C52" Partial="1">
+      <EDID>zzz_RadAway_Babylon</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Антирадин</Source>
+      <Dest>#radaway# Антирадин</Dest>
+    </String>
+    <String List="0" sID="61002C54" Partial="1">
+      <EDID>zzz_Babylon_BobbleHead_Endurance_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Выносливость&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Выносливость&quot;</Dest>
+    </String>
+    <String List="0" sID="61002C55" Partial="1">
+      <EDID>zzz_Bufftats_Babylon</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Бафф-таты</Source>
+      <Dest>#buffout# Бафф-таты</Dest>
+    </String>
+    <String List="0" sID="61002C58" Partial="1">
+      <EDID>zzz_Babylon_Magazine_USCovertOps09_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Руководство по тайным операциям США 9</Source>
+      <Dest>#magazine# Руководство по тайным операциям США 9</Dest>
+    </String>
+    <String List="0" sID="61002C59" Partial="1">
+      <EDID>zzz_Babylon_Magazine_TumblersToday05_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Современные замки 5</Source>
+      <Dest>#magazine# Современные замки 5</Dest>
+    </String>
+    <String List="0" sID="61002C5A" Partial="1">
+      <EDID>zzz_Brew_ToxicGinMartini</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мартини с ядовитым джином</Source>
+      <Dest>#whiskey# Мартини с ядовитым джином</Dest>
+    </String>
+    <String List="0" sID="61002C5D" Partial="1">
+      <EDID>zzz_Babylon_BobbleHead_EnergyWeapons_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Энергетическое оружие&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Энергетическое оружие&quot;</Dest>
+    </String>
+    <String List="0" sID="61002C5E" Partial="1">
+      <EDID>zzz_RadX_Babylon</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Рад-Х</Source>
+      <Dest>#rad_x# Рад-Х</Dest>
+    </String>
+    <String List="0" sID="61002C60" Partial="1">
+      <EDID>zzz_Babylon_Magazine_GrognakTheBarbarian01_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Грогнак-варвар 1</Source>
+      <Dest>#magazine# Грогнак-варвар 1</Dest>
+    </String>
+    <String List="0" sID="61002C61" Partial="1">
+      <EDID>zzz_MedX_Babylon</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мед-X</Source>
+      <Dest>#med_x# Мед-X</Dest>
+    </String>
+    <String List="0" sID="61002C63" Partial="1">
+      <EDID>zzz_RadAwayDiluted_Babylon</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Разбавленный антирадин</Source>
+      <Dest>#radaway# Разбавленный антирадин</Dest>
+    </String>
+    <String List="0" sID="61002C66">
+      <EDID>zzz_BabylonGhostPotion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Режим призрака</Source>
+      <Dest>Режим призрака</Dest>
+    </String>
+    <String List="0" sID="61002C68" Partial="1">
+      <EDID>zzz_Babylon_Magazine_GunsAndBullets07_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пистолеты и пули 7</Source>
+      <Dest>#magazine# Пистолеты и пули 7</Dest>
+    </String>
+    <String List="0" sID="61002C6A">
+      <EDID>zzz_BabylonRevealEnemiesOnMapPotion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Раскрытие врагов</Source>
+      <Dest>Раскрытие врагов</Dest>
+    </String>
+    <String List="0" sID="61002C6C" Partial="1">
+      <EDID>Milk_Brahmin_Spoiled</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Испортившееся молоко брамина</Source>
+      <Dest>#milk# Испортившееся молоко брамина</Dest>
+    </String>
+    <String List="0" sID="61002C6D" Partial="1">
+      <EDID>CUT_SFS09_FormulaQ</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Формула Q</Source>
+      <Dest>#med_x# Формула Q</Dest>
+    </String>
+    <String List="0" sID="61002C6F" Partial="1">
+      <EDID>E02A_Meat_PrimeMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Лучшее мясо</Source>
+      <Dest>#raw_meat# Лучшее мясо</Dest>
+    </String>
+    <String List="0" sID="61002C70" Partial="1">
+      <EDID>zzz_Babylon_BobbleHead_Unarmed_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Без оружия&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Без оружия&quot;</Dest>
+    </String>
+    <String List="0" sID="61002C72" Partial="1">
+      <EDID>zzz_Psychobuff_Babylon</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Психо-бафф</Source>
+      <Dest>#psycho# Психо-бафф</Dest>
+    </String>
+    <String List="0" sID="61002C77" Partial="1">
+      <EDID>zzz_Babylon_BobbleHead_SmallGuns_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Легкое оружие&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Легкое оружие&quot;</Dest>
+    </String>
+    <String List="0" sID="61002C78" Partial="1">
+      <EDID>zzz_Babylon_BobbleHead_BigGuns_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Тяжелое оружие&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Тяжелое оружие&quot;</Dest>
+    </String>
+    <String List="0" sID="61002C7A" Partial="1">
+      <EDID>zzz_Babylon_Magazine_AwesomeTales10_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Невероятно крутые истории 10</Source>
+      <Dest>#magazine# Невероятно крутые истории 10</Dest>
+    </String>
+    <String List="0" sID="61002C7B" Partial="1">
+      <EDID>zzz_Babylon_Stimpak</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Стимулятор</Source>
+      <Dest>#stimpak# Стимулятор</Dest>
+    </String>
+    <String List="0" sID="61002C7C" Partial="1">
+      <EDID>zzz_Babylon_Magazine_USCovertOps08_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Руководство по тайным операциям США 8</Source>
+      <Dest>#magazine# Руководство по тайным операциям США 8</Dest>
+    </String>
+    <String List="0" sID="61002C7D" Partial="1">
+      <EDID>zzz_Babylon_Magazine_GrognakTheBarbarian09_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Грогнак-варвар 9</Source>
+      <Dest>#magazine# Грогнак-варвар 9</Dest>
+    </String>
+    <String List="0" sID="61002C7E" Partial="1">
+      <EDID>zzz_Fury_Babylon</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ярость</Source>
+      <Dest>#psycho# Ярость</Dest>
+    </String>
+    <String List="0" sID="61002C80" Partial="1">
+      <EDID>zzz_Babylon_BobbleHead_Science_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Наука&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Наука&quot;</Dest>
+    </String>
+    <String List="0" sID="61002C82" Partial="1">
+      <EDID>zzz_Babylon_BobbleHead_LockPicking_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Взлом&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Взлом&quot;</Dest>
+    </String>
+    <String List="0" sID="61002C83" Partial="1">
+      <EDID>GutShroomVegetableCookedTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Простой чай из нутряного гриба</Source>
+      <Dest>#tea# Простой чай из нутряного гриба</Dest>
+    </String>
+    <String List="0" sID="61002C84" Partial="1">
+      <EDID>zzz_Babylon_Magazine_AwesomeTales07_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Невероятно крутые истории 7</Source>
+      <Dest>#magazine# Невероятно крутые истории 7</Dest>
+    </String>
+    <String List="0" sID="61002C85" Partial="1">
+      <EDID>zzz_Babylon_Magazine_Unstoppables03_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Несокрушимые 3</Source>
+      <Dest>#magazine# Несокрушимые 3</Dest>
+    </String>
+    <String List="0" sID="61002C86" Partial="1">
+      <EDID>zzz_Babylon_StimpakDiluted</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Просроченный стимулятор</Source>
+      <Dest>#stimpak# Просроченный стимулятор</Dest>
+    </String>
+    <String List="0" sID="61002C87" Partial="1">
+      <EDID>Milk_Chally</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Молоко Чалли</Source>
+      <Dest>#milk# Молоко Чалли</Dest>
+    </String>
+    <String List="0" sID="61002C89" Partial="1">
+      <EDID>zzz_Psychotats_Babylon</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Психо-таты</Source>
+      <Dest>#psycho# Психо-таты</Dest>
+    </String>
+    <String List="0" sID="61002C8C" Partial="1">
+      <EDID>zzz_Babylon_Magazine_TeslaScience05_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Наука Теслы 5</Source>
+      <Dest>#magazine# Наука Теслы 5</Dest>
+    </String>
+    <String List="0" sID="61002C8D" Partial="1">
+      <EDID>SFS09_FormulaP</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Формула P</Source>
+      <Dest>#med_x# Формула P</Dest>
+    </String>
+    <String List="0" sID="61002C8F" Partial="1">
+      <EDID>zzz_Serum_TwistedMuscles_Babylon</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сыворотка &quot;Растяжение мышц&quot;</Source>
+      <Dest>#mutation_serum# Сыворотка &quot;Растяжение мышц&quot;</Dest>
+    </String>
+    <String List="0" sID="61002C91" Partial="1">
+      <EDID>zzz_Babylon_Bobblehead_Agility_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Ловкость&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Ловкость&quot;</Dest>
+    </String>
+    <String List="0" sID="61002C92" Partial="1">
+      <EDID>zzz_Brew_ToxicGinVintage</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Выдержанный ядовитый джин</Source>
+      <Dest>#whiskey# Выдержанный ядовитый джин</Dest>
+    </String>
+    <String List="0" sID="61002C95" Partial="1">
+      <EDID>zzz_Babylon_Magazine_GunsAndBullets04_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пистолеты и пули 4</Source>
+      <Dest>#magazine# Пистолеты и пули 4</Dest>
+    </String>
+    <String List="0" sID="61002C96" Partial="1">
+      <EDID>zzz_Babylon_SuperStimpak</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Дополнительный стимулятор</Source>
+      <Dest>#stimpak# Дополнительный стимулятор</Dest>
+    </String>
+    <String List="0" sID="61002C97" Partial="1">
+      <EDID>zzz_Babylon_Magazine_AwesomeTales05_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Невероятно крутые истории 5</Source>
+      <Dest>#magazine# Невероятно крутые истории 5</Dest>
+    </String>
+    <String List="0" sID="61002C98" Partial="1">
+      <EDID>P01B_MysteryMeatPieTasty</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пирог с таинственным мясом</Source>
+      <Dest>#berry_pie# Пирог с таинственным мясом</Dest>
+    </String>
+    <String List="0" sID="61002C99" Partial="1">
+      <EDID>zzz_Babylon_BobbleHead_Melee_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Ближний бой&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Ближний бой&quot;</Dest>
+    </String>
+    <String List="0" sID="61002C9A" Partial="1">
+      <EDID>zzz_Babylon_BobbleHead_Perception_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Восприятие&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Восприятие&quot;</Dest>
+    </String>
+    <String List="0" sID="61002C9B" Partial="1">
+      <EDID>zzz_Overdrive_Babylon</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Форсаж</Source>
+      <Dest>#psycho# Форсаж</Dest>
+    </String>
+    <String List="0" sID="61002C9D" Partial="1">
+      <EDID>zzz_Babylon_Magazine_USCovertOps04_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Руководство по тайным операциям США 4</Source>
+      <Dest>#magazine# Руководство по тайным операциям США 4</Dest>
+    </String>
+    <String List="0" sID="61002C9E" Partial="1">
+      <EDID>zzz_Babylon_BobbleHead_Strength_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Сила&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Сила&quot;</Dest>
+    </String>
+    <String List="0" sID="61002C9F" Partial="1">
+      <EDID>zzz_Babylon_Magazine_Unstoppables05_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Несокрушимые 5</Source>
+      <Dest>#magazine# Несокрушимые 5</Dest>
+    </String>
+    <String List="0" sID="61002CA0" Partial="1">
+      <EDID>zzz_Babylon_Magazine_AwesomeTales06_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Невероятно крутые истории 6</Source>
+      <Dest>#magazine# Невероятно крутые истории 6</Dest>
+    </String>
+    <String List="0" sID="61002CA1" Partial="1">
+      <EDID>zzz_Babylon_BobbleHead_Medicine_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Медицина&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Медицина&quot;</Dest>
+    </String>
+    <String List="0" sID="61002CA2" Partial="1">
+      <EDID>zzz_Babylon_Magazine_TeslaScience03_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Наука Теслы 3</Source>
+      <Dest>#magazine# Наука Теслы 3</Dest>
+    </String>
+    <String List="0" sID="61002CA3">
+      <EDID>E02A_Meat_ChallysFeed</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Еда для Чалли</Source>
+      <Dest>Еда для Чалли</Dest>
+    </String>
+    <String List="0" sID="61002CA4" Partial="1">
+      <EDID>zzz_Babylon_Magazine_Unstoppables01_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Несокрушимые 1</Source>
+      <Dest>#magazine# Несокрушимые 1</Dest>
+    </String>
+    <String List="0" sID="61002CA5">
+      <EDID>StimGas</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Распылитель стимулятора</Source>
+      <Dest>Распылитель стимулятора</Dest>
+    </String>
+    <String List="0" sID="61002CA7" Partial="1">
+      <EDID>GutShroomVegetable</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Нутряной гриб</Source>
+      <Dest>#mushrooms# Нутряной гриб</Dest>
+    </String>
+    <String List="0" sID="61002CA8" Partial="1">
+      <EDID>zzz_Babylon_Magazine_USCovertOps03_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Руководство по тайным операциям США 3</Source>
+      <Dest>#magazine# Руководство по тайным операциям США 3</Dest>
+    </String>
+    <String List="0" sID="61002CA9" Partial="1">
+      <EDID>ChickenMeat_NoName</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Куриное бедро</Source>
+      <Dest>#raw_meat# Куриное бедро</Dest>
+    </String>
+    <String List="0" sID="61002CAA" Partial="1">
+      <EDID>zzz_Babylon_BobbleHead_Charisma_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пупс &quot;Харизма&quot;</Source>
+      <Dest>#bobblehead# Пупс &quot;Харизма&quot;</Dest>
+    </String>
+    <String List="0" sID="61002CAB" Partial="1">
+      <EDID>zzz_Brew_ToxicGinFresh</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ядовитый джин</Source>
+      <Dest>#whiskey# Ядовитый джин</Dest>
+    </String>
+    <String List="0" sID="61002CAE" Partial="1">
+      <EDID>zzz_Babylon_Magazine_TumblersToday01_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Современные замки 1</Source>
+      <Dest>#magazine# Современные замки 1</Dest>
+    </String>
+    <String List="0" sID="61002CB0" Partial="1">
+      <EDID>zzz_Brew_ToxicGinAndTonic</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ядовитый джин-тоник</Source>
+      <Dest>#whiskey# Ядовитый джин-тоник</Dest>
+    </String>
+    <String List="0" sID="61002CB3" Partial="1">
+      <EDID>GutShroomVegetableCookedSoup</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Суп из нутряного гриба</Source>
+      <Dest>#soup# Суп из нутряного гриба</Dest>
+    </String>
+    <String List="0" sID="61002CB4" Partial="1">
+      <EDID>zzz_Babylon_Magazine_Backwoodsman02_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жизнь в глуши 2</Source>
+      <Dest>#magazine# Жизнь в глуши 2</Dest>
+    </String>
+    <String List="0" sID="61002CB5" Partial="1">
+      <EDID>zzz_Babylon_Magazine_GrognakTheBarbarian08_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Грогнак-варвар 8</Source>
+      <Dest>#magazine# Грогнак-варвар 8</Dest>
+    </String>
+    <String List="0" sID="61002CB7" Partial="1">
+      <EDID>zzz_Psycho_Babylon</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Психо</Source>
+      <Dest>#psycho# Психо</Dest>
+    </String>
+    <String List="0" sID="61002CBA" Partial="1">
+      <EDID>zzz_Babylon_Magazine_Unstoppables04_Potion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Несокрушимые 4</Source>
+      <Dest>#magazine# Несокрушимые 4</Dest>
+    </String>
+    <String List="0" sID="61002CBB" Partial="1">
+      <EDID>MeatWeek_TatoSaladCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Салат из тошки</Source>
+      <Dest>#salad# Салат из тошки</Dest>
+    </String>
+    <String List="0" sID="61002CBC" Partial="1">
+      <EDID>zzz_Brew_ToxicGinFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемый ядовитый джин</Source>
+      <Dest>#whiskey# Сбраживаемый ядовитый джин</Dest>
+    </String>
+    <String List="0" sID="61005076" Partial="1">
+      <EDID>PepperoniRollTasty</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Булка с колбасой</Source>
+      <Dest>#cooked_meat# Булка с колбасой</Dest>
+    </String>
+    <String List="0" sID="610061E4" Partial="1">
+      <EDID>NukaCola_Vaccine_Blood</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>&quot;Ядер-кола с моей кровью&quot;</Source>
+      <Dest>#nuka_cola# &quot;Ядер-кола с моей кровью&quot;</Dest>
+    </String>
+    <String List="0" sID="610061E5" Partial="1">
+      <EDID>NukaCola_Vaccine_Scorched</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>&quot;Ядер-кола горелая&quot;</Source>
+      <Dest>#nuka_cola# &quot;Ядер-кола горелая&quot;</Dest>
+    </String>
+    <String List="0" sID="610061E6" Partial="1">
+      <EDID>NukaCola_Vaccine_Vaccinated</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>&quot;Ядер-кола с вакциной&quot;</Source>
+      <Dest>#nuka_cola# &quot;Ядер-кола с вакциной&quot;</Dest>
+    </String>
+    <String List="0" sID="61006499" Partial="1">
+      <EDID>W05_MQR_203P_ChemBlend</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Личная смесь препаратов Ядерного Дона</Source>
+      <Dest>#psycho# Личная смесь препаратов Ядерного Дона</Dest>
+    </String>
+    <String List="0" sID="61006E40" Partial="1">
+      <EDID>NukaColaCranberry</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Клюквенная &quot;Ядер-кола&quot;</Source>
+      <Dest>#nuka_cola# Клюквенная &quot;Ядер-кола&quot;</Dest>
+    </String>
+    <String List="0" sID="61007CDA" Partial="1">
+      <EDID>Brew_DuchessDram</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Наливка Герцогини</Source>
+      <Dest>#whiskey# Наливка Герцогини</Dest>
+    </String>
+    <String List="0" sID="61009E4A" Partial="1">
+      <EDID>DEPRECATED_TreasureHunt_Chest_Craftable_Tier_02</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Самодельный сундук &quot;Крот-шахтер&quot;</Source>
+      <Dest>#treasure_hunt_chest# Самодельный сундук &quot;Крот-шахтер&quot;</Dest>
+    </String>
+    <String List="0" sID="61009E4C" Partial="1">
+      <EDID>DEPRECATED_TreasureHunt_Chest_Loot_Tier_02</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сундук &quot;Крот-шахтер&quot;</Source>
+      <Dest>#treasure_hunt_chest# Сундук &quot;Крот-шахтер&quot;</Dest>
+    </String>
+    <String List="0" sID="61009E4E" Partial="1">
+      <EDID>DEPRECATED_TreasureHunt_Chest_Loot_Tier_01</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Грязный сундук &quot;Крот-шахтер&quot;</Source>
+      <Dest>#treasure_hunt_chest# Грязный сундук &quot;Крот-шахтер&quot;</Dest>
+    </String>
+    <String List="0" sID="61009E50" Partial="1">
+      <EDID>DEPRECATED_TreasureHunt_Chest_Craftable_Tier_03</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Самодельный декоративный сундук &quot;Крот-шахтер&quot;</Source>
+      <Dest>#treasure_hunt_chest# Самодельный декоративный сундук &quot;Крот-шахтер&quot;</Dest>
+    </String>
+    <String List="0" sID="61009E52" Partial="1">
+      <EDID>DEPRECATED_TreasureHunt_Chest_Loot_Tier_03</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Декоративный сундук &quot;Крот-шахтер&quot;</Source>
+      <Dest>#treasure_hunt_chest# Декоративный сундук &quot;Крот-шахтер&quot;</Dest>
+    </String>
+    <String List="0" sID="61009E54" Partial="1">
+      <EDID>DEPRECATED_TreasureHunt_Chest_Craftable_Tier_01</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Самодельный сундук &quot;Крот-шахтер&quot;</Source>
+      <Dest>#treasure_hunt_chest# Самодельный сундук &quot;Крот-шахтер&quot;</Dest>
+    </String>
+    <String List="0" sID="6100AAF2" Partial="1">
+      <EDID>TreasureHunt_Chest_Loot_Tier_03</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Декоративный сундук &quot;Крот-шахтер&quot;</Source>
+      <Dest>#treasure_hunt_chest# Декоративный сундук &quot;Крот-шахтер&quot;</Dest>
+    </String>
+    <String List="0" sID="6100AAF4" Partial="1">
+      <EDID>TreasureHunt_Chest_Craftable_Tier_03</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Самодельный декоративный сундук &quot;Крот-шахтер&quot;</Source>
+      <Dest>#treasure_hunt_chest# Самодельный декоративный сундук &quot;Крот-шахтер&quot;</Dest>
+    </String>
+    <String List="0" sID="6100AAF6" Partial="1">
+      <EDID>TreasureHunt_Chest_Loot_Tier_01</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Грязный сундук &quot;Крот-шахтер&quot;</Source>
+      <Dest>#treasure_hunt_chest# Грязный сундук &quot;Крот-шахтер&quot;</Dest>
+    </String>
+    <String List="0" sID="6100AAF8" Partial="1">
+      <EDID>TreasureHunt_Chest_Loot_Tier_02</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сундук &quot;Крот-шахтер&quot;</Source>
+      <Dest>#treasure_hunt_chest# Сундук &quot;Крот-шахтер&quot;</Dest>
+    </String>
+    <String List="0" sID="6100AAFA" Partial="1">
+      <EDID>TreasureHunt_Chest_Craftable_Tier_01</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Самодельный сундук &quot;Крот-шахтер&quot;</Source>
+      <Dest>#treasure_hunt_chest# Самодельный сундук &quot;Крот-шахтер&quot;</Dest>
+    </String>
+    <String List="0" sID="6100AAFC" Partial="1">
+      <EDID>TreasureHunt_Chest_Craftable_Tier_02</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Самодельный сундук &quot;Крот-шахтер&quot;</Source>
+      <Dest>#treasure_hunt_chest# Самодельный сундук &quot;Крот-шахтер&quot;</Dest>
+    </String>
+    <String List="0" sID="6100D6F5" Partial="1">
+      <EDID>Spooky_MysteryTreat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Таинственная конфета</Source>
+      <Dest>#candy# Таинственная конфета</Dest>
+    </String>
+    <String List="0" sID="6100E671" Partial="1">
+      <EDID>E07A_Mothman_EnlightenedMothmanEgg</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Совершенное яйцо Молерота</Source>
+      <Dest>#egg# Совершенное яйцо Молерота</Dest>
+    </String>
+    <String List="0" sID="610104B6" Partial="1">
+      <EDID>E08A_Brew_GulpershineFresh</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Самогон &quot;Болотная магия&quot;</Source>
+      <Dest>#whiskey# Самогон &quot;Болотная магия&quot;</Dest>
+    </String>
+    <String List="0" sID="6101145A" Partial="1">
+      <EDID>VenisonAndTatoStew_Psycho</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Особое рагу из оленины и тошки</Source>
+      <Dest>#meat_soup# Особое рагу из оленины и тошки</Dest>
+    </String>
+    <String List="0" sID="610118DC" Partial="1">
+      <EDID>SCORE_Lunchbox_Consumable</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ланчбокс</Source>
+      <Dest>#lunchbox# Ланчбокс</Dest>
+    </String>
+    <String List="0" sID="61011D24" Partial="1">
+      <EDID>Brew_LiquidCourageFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемая жидкая смелость</Source>
+      <Dest>#whiskey# Сбраживаемая жидкая смелость</Dest>
+    </String>
+    <String List="0" sID="61013CBD" Partial="1">
+      <EDID>NukaColaCandyMachine_Candy</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сладости &quot;Ядер-кола&quot;</Source>
+      <Dest>#candy# Сладости &quot;Ядер-кола&quot;</Dest>
+    </String>
+    <String List="0" sID="61013E52" Partial="1">
+      <EDID>NukaQuantumCandyMachine_Candy</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сладости &quot;Квантовая Ядер-кола&quot;</Source>
+      <Dest>#candy# Сладости &quot;Квантовая Ядер-кола&quot;</Dest>
+    </String>
+    <String List="0" sID="61014636" Partial="1">
+      <EDID>NWOT_RadroachSkewer</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Шашлык из радтаракана</Source>
+      <Dest>#raw_meat# Шашлык из радтаракана</Dest>
+    </String>
+    <String List="0" sID="61014637" Partial="1">
+      <EDID>NWOT_RadroachSkewer2</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Шашлык из радтаракана</Source>
+      <Dest>#raw_meat# Шашлык из радтаракана</Dest>
+    </String>
+    <String List="0" sID="61014638" Partial="1">
+      <EDID>NWOT_RadscorpionSkewer</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Шашлык из скорпиона</Source>
+      <Dest>#raw_meat# Шашлык из скорпиона</Dest>
+    </String>
+    <String List="0" sID="61014C8D" Partial="1">
+      <EDID>RadAwayDiluted</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Антирадин: разбавленный</Source>
+      <Dest>#radaway# Антирадин: разбавленный</Dest>
+    </String>
+    <String List="0" sID="61014E47">
+      <EDID>SunshineOil_RSVP02</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Масло &quot;Солнечное&quot;</Source>
+      <Dest>Масло &quot;Солнечное&quot;</Dest>
+    </String>
+    <String List="0" sID="61015803">
+      <EDID>zzz_MutatedEvents_Giftbox_FalloutFirstPackage_Tier3</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Большой набор &quot;Мутация&quot; для отряда</Source>
+      <Dest>Большой набор &quot;Мутация&quot; для отряда</Dest>
+    </String>
+    <String List="0" sID="61015805">
+      <EDID>zzz_MutatedEvents_Giftbox_FalloutFirstPackage_Tier2</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Средний набор &quot;Мутация&quot; для отряда</Source>
+      <Dest>Средний набор &quot;Мутация&quot; для отряда</Dest>
+    </String>
+    <String List="0" sID="61015807">
+      <EDID>zzz_MutatedEvents_Giftbox_FalloutFirstPackage_Tier4</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Огромный набор &quot;Мутация&quot; для отряда</Source>
+      <Dest>Огромный набор &quot;Мутация&quot; для отряда</Dest>
+    </String>
+    <String List="0" sID="61015809">
+      <EDID>zzz_MutatedEvents_Giftbox_FalloutFirstPackage_Tier1</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Маленький набор &quot;Мутация&quot; для отряда</Source>
+      <Dest>Маленький набор &quot;Мутация&quot; для отряда</Dest>
+    </String>
+    <String List="0" sID="610159D6">
+      <EDID>MutatedEvents_Package_SingleMutatedEvent</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Набор &quot;Мутация&quot;</Source>
+      <Dest>Набор &quot;Мутация&quot;</Dest>
+    </String>
+    <String List="0" sID="610159D8">
+      <EDID>MutatedEvents_Package_DoubleMutatedEvent</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Набор &quot;Двойная мутация&quot;</Source>
+      <Dest>Набор &quot;Двойная мутация&quot;</Dest>
+    </String>
+    <String List="0" sID="61015A5D">
+      <EDID>CUT_MutatedEvents_HealingCloudInfusion_Tier3</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Тоник &quot;Исцеляющее облако&quot; уровня III</Source>
+      <Dest>Тоник &quot;Исцеляющее облако&quot; уровня III</Dest>
+    </String>
+    <String List="0" sID="61015A5F">
+      <EDID>CUT_MutatedEvents_SteelSkinInfusion_Tier2</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Тоник &quot;Стальная кожа&quot; уровня II</Source>
+      <Dest>Тоник &quot;Стальная кожа&quot; уровня II</Dest>
+    </String>
+    <String List="0" sID="61015A61">
+      <EDID>CUT_MutatedEvents_FieryInfusion_Tier1</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Огненный тоник уровня I</Source>
+      <Dest>Огненный тоник уровня I</Dest>
+    </String>
+    <String List="0" sID="61015A62">
+      <EDID>zzz_MutatedEvents_FieryInfusion_Tier2</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Огненный тоник уровня II</Source>
+      <Dest>Огненный тоник уровня II</Dest>
+    </String>
+    <String List="0" sID="61015A64">
+      <EDID>CUT_MutatedEvents_HealingCloudInfusion_Tier1</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Рецепт: тоник &quot;Исцеляющее облако&quot; уровня I</Source>
+      <Dest>Рецепт: тоник &quot;Исцеляющее облако&quot; уровня I</Dest>
+    </String>
+    <String List="0" sID="61015A67">
+      <EDID>CUT_MutatedEvents_SteelSkinInfusion_Tier1</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Тоник &quot;Стальная кожа&quot; уровня I</Source>
+      <Dest>Тоник &quot;Стальная кожа&quot; уровня I</Dest>
+    </String>
+    <String List="0" sID="61015A6A">
+      <EDID>CUT_MutatedEvents_HealingCloudInfusion_Tier2</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Тоник &quot;Исцеляющее облако&quot; уровня II</Source>
+      <Dest>Тоник &quot;Исцеляющее облако&quot; уровня II</Dest>
+    </String>
+    <String List="0" sID="61015A6C">
+      <EDID>zzz_MutatedEvents_FieryInfusion_Tier3</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Огненный тоник уровня III</Source>
+      <Dest>Огненный тоник уровня III</Dest>
+    </String>
+    <String List="0" sID="61015A6E">
+      <EDID>CUT_MutatedEvents_SteelSkinInfusion_Tier3</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Тоник &quot;Стальная кожа&quot; уровня III</Source>
+      <Dest>Тоник &quot;Стальная кожа&quot; уровня III</Dest>
+    </String>
+    <String List="0" sID="61015C1B">
+      <EDID>MutatedEvents_Package_DoubleMutatedEvent_Fallout1st</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Набор &quot;Двойная мутация&quot; для отряда</Source>
+      <Dest>Набор &quot;Двойная мутация&quot; для отряда</Dest>
+    </String>
+    <String List="0" sID="61015CFB" Partial="1">
+      <EDID>CarrotVegetableCookedSoup</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Морковный суп</Source>
+      <Dest>#soup# Морковный суп</Dest>
+    </String>
+    <String List="0" sID="61015CFF" Partial="1">
+      <EDID>BloodpackGlowing</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пакет светящейся крови</Source>
+      <Dest>#glowing_blood# Пакет светящейся крови</Dest>
+    </String>
+    <String List="0" sID="61015DE9" Partial="1">
+      <EDID>WaterToxicGoo</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Токсичная жижа</Source>
+      <Dest>#bottle_of_water# Токсичная жижа</Dest>
+    </String>
+    <String List="0" sID="61015EDC" Partial="1">
+      <EDID>CookingFlavor_Sugar</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сахар</Source>
+      <Dest>#flavor# Сахар</Dest>
+    </String>
+    <String List="0" sID="61015F42" Partial="1">
+      <EDID>Brew_RadAntLager</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Пиво &quot;Радмуравей&quot;</Source>
+      <Dest>#beer# Пиво &quot;Радмуравей&quot;</Dest>
+    </String>
+    <String List="0" sID="61016160" Partial="1">
+      <EDID>VenisonWithStarlightBerriesGourmet</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Томленая оленина с ягодами</Source>
+      <Dest>#cooked_meat# Томленая оленина с ягодами</Dest>
+    </String>
+    <String List="0" sID="61017266" Partial="1">
+      <EDID>Moon_Rudy_Pozole</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Консервированный посоле Руди</Source>
+      <Dest>#canned_food# Консервированный посоле Руди</Dest>
+    </String>
+    <String List="0" sID="6101B2D9" Partial="1">
+      <EDID>SheepsquatchMeatCookedLight</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Слабо прожаренное каре барашка</Source>
+      <Dest>#cooked_meat# Слабо прожаренное каре барашка</Dest>
+    </String>
+    <String List="0" sID="6101B2DA" Partial="1">
+      <EDID>MutantHoundMeatCookedLight</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Слабо прожаренные отбивные из гончей-мутанта</Source>
+      <Dest>#cooked_meat# Слабо прожаренные отбивные из гончей-мутанта</Dest>
+    </String>
+    <String List="0" sID="6101B2DB" Partial="1">
+      <EDID>YaoGuaiMeatCookedLight</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Слабо прожаренные ребра яо-гая</Source>
+      <Dest>#cooked_meat# Слабо прожаренные ребра яо-гая</Dest>
+    </String>
+    <String List="0" sID="6101B2E4" Partial="1">
+      <EDID>YaoGuaiMeatTasty</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Вкусный жареный яо-гай</Source>
+      <Dest>#cooked_meat# Вкусный жареный яо-гай</Dest>
+    </String>
+    <String List="0" sID="6101B2E5" Partial="1">
+      <EDID>SheepsquatchMeatTasty</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Вкусный пирог с бараниной</Source>
+      <Dest>#berry_pie# Вкусный пирог с бараниной</Dest>
+    </String>
+    <String List="0" sID="6101B2E6" Partial="1">
+      <EDID>SheepsquatchMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Каре барашка</Source>
+      <Dest>#cooked_meat# Каре барашка</Dest>
+    </String>
+    <String List="0" sID="6101B2E7" Partial="1">
+      <EDID>MutantHoundMeatTastyStew</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Вкусный суп из гончей-мутанта</Source>
+      <Dest>#cooked_meat# Вкусный суп из гончей-мутанта</Dest>
+    </String>
+    <String List="0" sID="6101B2E8" Partial="1">
+      <EDID>GlowingMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Светящийся мясной стейк</Source>
+      <Dest>#cooked_meat# Светящийся мясной стейк</Dest>
+    </String>
+    <String List="0" sID="6101C7CD">
+      <EDID>SCORE_BobbleheadBox</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Коробка с таинственным пупсом</Source>
+      <Dest>Коробка с таинственным пупсом</Dest>
+    </String>
+    <String List="0" sID="6101E7F0" Partial="1">
+      <EDID>Storm_SE09_ChickenMeatCooked</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жареная курица</Source>
+      <Dest>#cooked_meat# Жареная курица</Dest>
+    </String>
+    <String List="0" sID="6101F50C" Partial="1">
+      <EDID>ThistleHerbTastyTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Заварившийся чай с чертополохом</Source>
+      <Dest>#tea# Заварившийся чай с чертополохом</Dest>
+    </String>
+    <String List="0" sID="71004A20" Partial="1">
+      <EDID>zzz_ResourceGenerator_CompanyTea</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Компанейский чай</Source>
+      <Dest>#tea# Компанейский чай</Dest>
+    </String>
+    <String List="0" sID="710074EA" Partial="1">
+      <EDID>AC_SQ01_HellsEagles_SurlysBuffout</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Баффаут Угрюмца</Source>
+      <Dest>#buffout# Баффаут Угрюмца</Dest>
+    </String>
+    <String List="0" sID="7100755D" Partial="1">
+      <EDID>AC_SQ04_Reopening_Brew_NewNukaDrinkFerm</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Сбраживаемый &quot;Ядер-самогон&quot; 2 электрическое бугалу</Source>
+      <Dest>#whiskey# Сбраживаемый &quot;Ядер-самогон&quot; 2 электрическое бугалу</Dest>
+    </String>
+    <String List="0" sID="790003C0" Partial="1">
+      <EDID>SCORE_Boost_CarryWeight</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Увеличитель максимального груза</Source>
+      <Dest>#weight_increaser# Увеличитель максимального груза</Dest>
+    </String>
+    <String List="0" sID="7900053B">
+      <EDID>Spooky_TreatBag_Loot</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жутковатая сумка для угощений</Source>
+      <Dest>Жутковатая сумка для угощений</Dest>
+    </String>
+    <String List="0" sID="79000719" Partial="1">
+      <EDID>SCORE_Brew_NukashineVintage_SugarFree</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ядер-самогон без сахара</Source>
+      <Dest>#whiskey# Ядер-самогон без сахара</Dest>
+    </String>
+    <String List="0" sID="81001A7D" Partial="1">
+      <EDID>Festive_HolidayGift_Craftable_Tier_02</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Самодельный праздничный подарок</Source>
+      <Dest>#holiday_gift# Самодельный праздничный подарок</Dest>
+    </String>
+    <String List="0" sID="81001A7F" Partial="1">
+      <EDID>Festive_HolidayGift_Craftable_Tier_01</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Маленький самодельный праздничный подарок</Source>
+      <Dest>#holiday_gift# Маленький самодельный праздничный подарок</Dest>
+    </String>
+    <String List="0" sID="81001A81" Partial="1">
+      <EDID>Festive_HolidayGift_Craftable_Tier_03</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Большой самодельный праздничный подарок</Source>
+      <Dest>#holiday_gift# Большой самодельный праздничный подарок</Dest>
+    </String>
+    <String List="0" sID="81001A83" Partial="1">
+      <EDID>Festive_HolidayGift_Loot_Tier_01</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Маленький праздничный подарок</Source>
+      <Dest>#holiday_gift# Маленький праздничный подарок</Dest>
+    </String>
+    <String List="0" sID="81001A85" Partial="1">
+      <EDID>Festive_HolidayGift_Loot_Tier_02</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Праздничный подарок</Source>
+      <Dest>#holiday_gift# Праздничный подарок</Dest>
+    </String>
+    <String List="0" sID="81001A87" Partial="1">
+      <EDID>Festive_HolidayGift_Loot_Tier_03</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Большой праздничный подарок</Source>
+      <Dest>#holiday_gift# Большой праздничный подарок</Dest>
+    </String>
+    <String List="0" sID="81003A9A" Partial="1">
+      <EDID>NWOT_GulperStuffedFoot</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Фаршированная нога заглота</Source>
+      <Dest>#cooked_meat# Фаршированная нога заглота</Dest>
+    </String>
+    <String List="0" sID="81003A9B" Partial="1">
+      <EDID>NWOT_BrahminBurgers</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Бургеры из брамина</Source>
+      <Dest>#cooked_meat# Бургеры из брамина</Dest>
+    </String>
+    <String List="0" sID="81003A9C" Partial="1">
+      <EDID>NWOT_CaramelMutfruit</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Карамельный мутафрукт</Source>
+      <Dest>#salad# Карамельный мутафрукт</Dest>
+    </String>
+    <String List="0" sID="81003D16" Partial="1">
+      <EDID>zzz_DLC04_NukaCola_NukaSunrise</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ядер-Рассвет</Source>
+      <Dest>#nuka_cola# Ядер-Рассвет</Dest>
+    </String>
+    <String List="0" sID="81003D17" Partial="1">
+      <EDID>zzz_DLC04_NukaCola_NukaVoid</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ядер-Пустота</Source>
+      <Dest>#nuka_cola# Ядер-Пустота</Dest>
+    </String>
+    <String List="0" sID="81003D18" Partial="1">
+      <EDID>zzz_DLC04_NukaCola_NukaPunch</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ядер-Удар</Source>
+      <Dest>#nuka_cola# Ядер-Удар</Dest>
+    </String>
+    <String List="0" sID="81003D19" Partial="1">
+      <EDID>zzz_DLC04_NukaCola_BombDrop</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ядер-Бомбочка</Source>
+      <Dest>#nuka_cola# Ядер-Бомбочка</Dest>
+    </String>
+    <String List="0" sID="81003D1A" Partial="1">
+      <EDID>zzz_DLC04_NukaCola_NukaLove</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ядер-Любовь</Source>
+      <Dest>#nuka_cola# Ядер-Любовь</Dest>
+    </String>
+    <String List="0" sID="81004049" Partial="1">
+      <EDID>NWOT_NukaBottleDog</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Хот-дог &quot;Бутылка Ядер-колы&quot;</Source>
+      <Dest>#cooked_meat# Хот-дог &quot;Бутылка Ядер-колы&quot;</Dest>
+    </String>
+    <String List="0" sID="8100404A" Partial="1">
+      <EDID>NWOT_CarnivalPie</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Карнавальный пирог</Source>
+      <Dest>#cake# Карнавальный пирог</Dest>
+    </String>
+    <String List="0" sID="8100404B" Partial="1">
+      <EDID>NWOT_NukaDog</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Ядер-дог</Source>
+      <Dest>#cooked_meat# Ядер-дог</Dest>
+    </String>
+    <String List="0" sID="810041FE" Partial="1">
+      <EDID>NWOT_RadscorpionKebab</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Шашлык из радскорпиона</Source>
+      <Dest>#raw_meat# Шашлык из радскорпиона</Dest>
+    </String>
+    <String List="0" sID="81004742" Partial="1">
+      <EDID>MoleRatJerky</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Вяленый кротокрыс</Source>
+      <Dest>#cooked_meat# Вяленый кротокрыс</Dest>
+    </String>
+    <String List="0" sID="D90008BE" Partial="1">
+      <EDID>W05_MQS_205P_JenStealthPotion</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Эмулирующая Стелс-бой</Source>
+      <Dest>#stealthboy# Эмулирующая Стелс-бой</Dest>
+    </String>
+    <String List="0" sID="D9002BA8" Partial="1">
+      <EDID>WL046_HeadhuntersHeadcheese_Pot_DoNotUse</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Зельц охотника за головами</Source>
+      <Dest>#cooked_meat# Зельц охотника за головами</Dest>
+    </String>
+    <String List="0" sID="D9002BA9" Partial="1">
+      <EDID>WL046_RadstagRedemption_Pot_DoNotUse</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Рад-олень отмщения</Source>
+      <Dest>#cooked_meat# Рад-олень отмщения</Dest>
+    </String>
+    <String List="0" sID="D9002BAA" Partial="1">
+      <EDID>WL046_MirelurkBoil_Pot_DoNotUse</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Похлебка из болотника</Source>
+      <Dest>#cooked_meat# Похлебка из болотника</Dest>
+    </String>
+    <String List="0" sID="D9002BAB" Partial="1">
+      <EDID>PETS_PetFood_Meat3</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Стейк-палочки</Source>
+      <Dest>#cooked_meat# Стейк-палочки</Dest>
+    </String>
+    <String List="0" sID="D9002BAC">
+      <EDID>PETS_PetFood_Plant1</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Фуражная каша</Source>
+      <Dest>Фуражная каша</Dest>
+    </String>
+    <String List="0" sID="D9002BAE" Partial="1">
+      <EDID>PETS_PetFood_Meat2</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Кусочки бургера</Source>
+      <Dest>#cooked_meat# Кусочки бургера</Dest>
+    </String>
+    <String List="0" sID="D9002BAF">
+      <EDID>W05_MQR_203P_WinnersCup</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Кубок победителя</Source>
+      <Dest>Кубок победителя</Dest>
+    </String>
+    <String List="0" sID="D9002BB1" Partial="1">
+      <EDID>PETS_PetFood_Meat1</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Мясное лакомство</Source>
+      <Dest>#cooked_meat# Мясное лакомство</Dest>
+    </String>
+    <String List="0" sID="D9002BB2">
+      <EDID>PETS_PetFood_Plant2</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Овощной корм</Source>
+      <Dest>Овощной корм</Dest>
+    </String>
+    <String List="0" sID="D90030E9" Partial="1">
+      <EDID>Brew_LiquidCourage</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Жидкая смелость</Source>
+      <Dest>#whiskey# Жидкая смелость</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>

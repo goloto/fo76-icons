@@ -1,0 +1,1799 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>SeventySix</Addon>
+    <Source>ru</Source>
+    <Dest>ru</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0" sID="0006C9" Partial="1">
+      <EDID>ADV002_SafeKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ менеджера</Source>
+      <Dest>#key# Ключ менеджера</Dest>
+    </String>
+    <String List="0" sID="00132B" Partial="1">
+      <EDID>ADV020WarehouseKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от доков Фриндж-Коув</Source>
+      <Dest>#key# Ключ от доков Фриндж-Коув</Dest>
+    </String>
+    <String List="0" sID="0016A2" Partial="1">
+      <EDID>ADV003_Key</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от дубильни</Source>
+      <Dest>#key# Ключ от дубильни</Dest>
+    </String>
+    <String List="0" sID="002CE0" Partial="1">
+      <EDID>ADV007_SpaKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от спа-салона &quot;Олдерси&quot;</Source>
+      <Dest>#key# Ключ от спа-салона &quot;Олдерси&quot;</Dest>
+    </String>
+    <String List="0" sID="024B9D" Partial="1">
+      <EDID>TestKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Test Key</Source>
+      <Dest>#key# Test Key</Dest>
+    </String>
+    <String List="0" sID="03DBA0" Partial="1">
+      <EDID>SugarGroveGuardKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ охранника &quot;Блэксайта&quot;</Source>
+      <Dest>#key# Ключ охранника &quot;Блэксайта&quot;</Dest>
+    </String>
+    <String List="0" sID="03DBA1" Partial="1">
+      <EDID>LC117_MuseumKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от музея Молерота</Source>
+      <Dest>#key# Ключ от музея Молерота</Dest>
+    </String>
+    <String List="0" sID="03DBA2" Partial="1">
+      <EDID>SugarGrove_CellKey_A6-KH</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от камеры A6-KH</Source>
+      <Dest>#key# Ключ от камеры A6-KH</Dest>
+    </String>
+    <String List="0" sID="03DBA3" Partial="1">
+      <EDID>ENz09_Room201Keycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Карта от номера 201 &quot;Уайтспринга&quot;</Source>
+      <Dest>#access_card# Карта от номера 201 &quot;Уайтспринга&quot;</Dest>
+    </String>
+    <String List="0" sID="03DBA4" Partial="1">
+      <EDID>LC112_AtlasUtilityKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Служебный ключ АТЛАС</Source>
+      <Dest>#key# Служебный ключ АТЛАС</Dest>
+    </String>
+    <String List="0" sID="03DBA5" Partial="1">
+      <EDID>TEMP_EN07_SiloBetaAccessCode</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Код доступа ракетной шахты &quot;Бета&quot;</Source>
+      <Dest>#access_card# Код доступа ракетной шахты &quot;Бета&quot;</Dest>
+    </String>
+    <String List="0" sID="03DBA6" Partial="1">
+      <EDID>FS03_MQ_Fruition_NirajPassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль Нираджа</Source>
+      <Dest>#access_card# Пароль Нираджа</Dest>
+    </String>
+    <String List="0" sID="03DBA7" Partial="1">
+      <EDID>FS01_MQ_Warn_RaleighPassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль Рейли</Source>
+      <Dest>#access_card# Пароль Рейли</Dest>
+    </String>
+    <String List="0" sID="03DBA8" Partial="1">
+      <EDID>MSilo_Residential_BiometricData</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Биометрические данные</Source>
+      <Dest>#access_card# Биометрические данные</Dest>
+    </String>
+    <String List="0" sID="03DBA9" Partial="1">
+      <EDID>LC184_ResearchWingPassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Код доступа к исследовательскому крылу &quot;Вест-Тек&quot;</Source>
+      <Dest>#access_card# Код доступа к исследовательскому крылу &quot;Вест-Тек&quot;</Dest>
+    </String>
+    <String List="0" sID="03DBAB" Partial="1">
+      <EDID>CB04_Keycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от исследовательского центра &quot;РобКо&quot;</Source>
+      <Dest>#access_card# Ключ от исследовательского центра &quot;РобКо&quot;</Dest>
+    </String>
+    <String List="0" sID="03DBAC" Partial="1">
+      <EDID>LookoutTower02_SafeKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от сейфа</Source>
+      <Dest>#key# Ключ от сейфа</Dest>
+    </String>
+    <String List="0" sID="03DBAD" Partial="1">
+      <EDID>ENz09_Room206Keycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Карта от номера 206 &quot;Уайтспринга&quot;</Source>
+      <Dest>#access_card# Карта от номера 206 &quot;Уайтспринга&quot;</Dest>
+    </String>
+    <String List="0" sID="03DBAE" Partial="1">
+      <EDID>V63_Access_IDCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пропуск</Source>
+      <Dest>#access_card# Пропуск</Dest>
+    </String>
+    <String List="0" sID="03DBAF" Partial="1">
+      <EDID>SugarGrove_CellKey_W9-FZ</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от камеры W9-FZ</Source>
+      <Dest>#key# Ключ от камеры W9-FZ</Dest>
+    </String>
+    <String List="0" sID="03DBB1" Partial="1">
+      <EDID>BMO_BunkerKey02_BasementKey_03</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ржавый ключ</Source>
+      <Dest>#key# Ржавый ключ</Dest>
+    </String>
+    <String List="0" sID="03DBB3" Partial="1">
+      <EDID>MSilo_Residential_BlankIDCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пустой биометрический идентификатор</Source>
+      <Dest>#access_card# Пустой биометрический идентификатор</Dest>
+    </String>
+    <String List="0" sID="03DBB6" Partial="1">
+      <EDID>SugarGroveAgentAccessKeycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ-пропуск агента &quot;Шугар гроув&quot;</Source>
+      <Dest>#access_card# Ключ-пропуск агента &quot;Шугар гроув&quot;</Dest>
+    </String>
+    <String List="0" sID="03DBB7" Partial="1">
+      <EDID>LC042_PostOfficeKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от почтового отделения Гельвеции</Source>
+      <Dest>#key# Ключ от почтового отделения Гельвеции</Dest>
+    </String>
+    <String List="0" sID="03DBB8" Partial="1">
+      <EDID>GarrahanVIPBoothKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от кабины общественного центра</Source>
+      <Dest>#key# Ключ от кабины общественного центра</Dest>
+    </String>
+    <String List="0" sID="03DBB9" Partial="1">
+      <EDID>MoM02B_PresidentialCottagePassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль из президентского коттеджа</Source>
+      <Dest>#access_card# Пароль из президентского коттеджа</Dest>
+    </String>
+    <String List="0" sID="03DBBB" Partial="1">
+      <EDID>LC062_FortificationKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от укреплений</Source>
+      <Dest>#key# Ключ от укреплений</Dest>
+    </String>
+    <String List="0" sID="03DBBC" Partial="1">
+      <EDID>TEMP_EN07_SiloGammaAccessCode</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Код доступа ракетной шахты &quot;Гамма&quot;</Source>
+      <Dest>#access_card# Код доступа ракетной шахты &quot;Гамма&quot;</Dest>
+    </String>
+    <String List="0" sID="03DBBD" Partial="1">
+      <EDID>MoM00_PlayersLogin</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Учетная запись Ордена тайн</Source>
+      <Dest>#access_card# Учетная запись Ордена тайн</Dest>
+    </String>
+    <String List="0" sID="03DBBF" Partial="1">
+      <EDID>MoM03_OliviaRiversLogin</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Учетная запись Госпожи Оливии Риверс</Source>
+      <Dest>#access_card# Учетная запись Госпожи Оливии Риверс</Dest>
+    </String>
+    <String List="0" sID="03DBC0" Partial="1">
+      <EDID>SFL02_Track_CargobotTerminalCode</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль терминала грузовых роботов</Source>
+      <Dest>#access_card# Пароль терминала грузовых роботов</Dest>
+    </String>
+    <String List="0" sID="03DBC1" Partial="1">
+      <EDID>MSilo_Residential_PrewarIDCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Старый биометрический идентификатор</Source>
+      <Dest>#access_card# Старый биометрический идентификатор</Dest>
+    </String>
+    <String List="0" sID="03DBC2" Partial="1">
+      <EDID>SugarGrove_CellKey_G3-KP</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от камеры G3-KP</Source>
+      <Dest>#key# Ключ от камеры G3-KP</Dest>
+    </String>
+    <String List="0" sID="03DBC3" Partial="1">
+      <EDID>MTRZ01_Key</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ шахтера</Source>
+      <Dest>#key# Ключ шахтера</Dest>
+    </String>
+    <String List="0" sID="03DBC4" Partial="1">
+      <EDID>LC112_DirectorsPassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль директора АТЛАС</Source>
+      <Dest>#access_card# Пароль директора АТЛАС</Dest>
+    </String>
+    <String List="0" sID="03DBC5" Partial="1">
+      <EDID>BMO_BunkerKey02_MorgantownApt_Password_02</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Украденный пароль от терминала</Source>
+      <Dest>#access_card# Украденный пароль от терминала</Dest>
+    </String>
+    <String List="0" sID="03DBC7" Partial="1">
+      <EDID>BMO_BunkerKey02_MountBlairTrainyard_final</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Динамитный купол — ключ 2</Source>
+      <Dest>#key# Динамитный купол — ключ 2</Dest>
+    </String>
+    <String List="0" sID="03DBC8" Partial="1">
+      <EDID>SugarGrove_CellKey_B2-RS</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от камеры B2-RS</Source>
+      <Dest>#key# Ключ от камеры B2-RS</Dest>
+    </String>
+    <String List="0" sID="03DBCA" Partial="1">
+      <EDID>ENz09_Room204Keycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Карта от номера 204 &quot;Уайтспринга&quot;</Source>
+      <Dest>#access_card# Карта от номера 204 &quot;Уайтспринга&quot;</Dest>
+    </String>
+    <String List="0" sID="03DBCB" Partial="1">
+      <EDID>MTR05_SeniorExecID</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пропуск топ-менеджера &quot;Хорнрайт&quot;</Source>
+      <Dest>#access_card# Пропуск топ-менеджера &quot;Хорнрайт&quot;</Dest>
+    </String>
+    <String List="0" sID="03DBCC" Partial="1">
+      <EDID>CUT_V94_1_EngineeringKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от инженерного крыла Убежища 94</Source>
+      <Dest>#key# Ключ от инженерного крыла Убежища 94</Dest>
+    </String>
+    <String List="0" sID="03DBCD" Partial="1">
+      <EDID>NewRiverGorgeBridgeKey0</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от восточного моста</Source>
+      <Dest>#key# Ключ от восточного моста</Dest>
+    </String>
+    <String List="0" sID="03DBCE" Partial="1">
+      <EDID>LC001_PoliceCellKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Полицейский ключ от тюрьмы</Source>
+      <Dest>#key# Полицейский ключ от тюрьмы</Dest>
+    </String>
+    <String List="0" sID="03DBCF" Partial="1">
+      <EDID>MTNL01_RaiderCacheKeycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от тайника рейдеров</Source>
+      <Dest>#access_card# Ключ от тайника рейдеров</Dest>
+    </String>
+    <String List="0" sID="03DBD0" Partial="1">
+      <EDID>MoM03_BrodysRoomKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от комнаты Броди</Source>
+      <Dest>#key# Ключ от комнаты Броди</Dest>
+    </String>
+    <String List="0" sID="03DBD1" Partial="1">
+      <EDID>GarrahanEstateAccessKeycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пропуск в поместье Гарраханов</Source>
+      <Dest>#access_card# Пропуск в поместье Гарраханов</Dest>
+    </String>
+    <String List="0" sID="03DBD3" Partial="1">
+      <EDID>DebugIDCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Тестовое удостоверение личности</Source>
+      <Dest>#access_card# Тестовое удостоверение личности</Dest>
+    </String>
+    <String List="0" sID="03DBD4" Partial="1">
+      <EDID>BroadcastStationKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от радиостанции</Source>
+      <Dest>#key# Ключ от радиостанции</Dest>
+    </String>
+    <String List="0" sID="03DBD5" Partial="1">
+      <EDID>BMO_BunkerKey03_NukaCola_02</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от ящика Клары</Source>
+      <Dest>#key# Ключ от ящика Клары</Dest>
+    </String>
+    <String List="0" sID="03DBD6" Partial="1">
+      <EDID>LC074_LakesideCabinsSafeKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от сейфа в кабине 3</Source>
+      <Dest>#key# Ключ от сейфа в кабине 3</Dest>
+    </String>
+    <String List="0" sID="03DBD7" Partial="1">
+      <EDID>FF09_DailyCode</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ежедневный код робота-жнеца</Source>
+      <Dest>#access_card# Ежедневный код робота-жнеца</Dest>
+    </String>
+    <String List="0" sID="03DBD9" Partial="1">
+      <EDID>MoM04_ShannonRiversPassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Учетная запись директрисы Шэннон Риверс</Source>
+      <Dest>#access_card# Учетная запись директрисы Шэннон Риверс</Dest>
+    </String>
+    <String List="0" sID="03DBDA" Partial="1">
+      <EDID>LuckyHoleKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от &quot;Счастливой дыры&quot;</Source>
+      <Dest>#key# Ключ от &quot;Счастливой дыры&quot;</Dest>
+    </String>
+    <String List="0" sID="03DBDB" Partial="1">
+      <EDID>EN07_MamaDolcePassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль от базы &quot;Фуджиния&quot;</Source>
+      <Dest>#access_card# Пароль от базы &quot;Фуджиния&quot;</Dest>
+    </String>
+    <String List="0" sID="03DBDC" Partial="1">
+      <EDID>LC199_bigrig_trailer_key</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от трейлера &quot;Биг риг&quot;</Source>
+      <Dest>#key# Ключ от трейлера &quot;Биг риг&quot;</Dest>
+    </String>
+    <String List="0" sID="03DBDD" Partial="1">
+      <EDID>FS03_MQ_Fruition_SamPassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль Сэма</Source>
+      <Dest>#access_card# Пароль Сэма</Dest>
+    </String>
+    <String List="0" sID="03DBDE" Partial="1">
+      <EDID>LC043_SecurityKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от тюрьмы</Source>
+      <Dest>#key# Ключ от тюрьмы</Dest>
+    </String>
+    <String List="0" sID="03DBE2" Partial="1">
+      <EDID>TEMP_EN07_LaunchBetaAccessCode</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Код запуска ракетной шахты &quot;Бета&quot;</Source>
+      <Dest>#access_card# Код запуска ракетной шахты &quot;Бета&quot;</Dest>
+    </String>
+    <String List="0" sID="03DBE3" Partial="1">
+      <EDID>CUT_V94_AdministratorPassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль администратора Убежища 94</Source>
+      <Dest>#access_card# Пароль администратора Убежища 94</Dest>
+    </String>
+    <String List="0" sID="03DBE7" Partial="1">
+      <EDID>EN01_BlackwellCredentialTerminalPW</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль Сэма — Judith</Source>
+      <Dest>#access_card# Пароль Сэма — Judith</Dest>
+    </String>
+    <String List="0" sID="03DBE8" Partial="1">
+      <EDID>V63_2_MaintenanceIDCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пропуск сотрудника Убежища 63</Source>
+      <Dest>#access_card# Пропуск сотрудника Убежища 63</Dest>
+    </String>
+    <String List="0" sID="03DBE9" Partial="1">
+      <EDID>RadioResearchCenterKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от исследовательского центра</Source>
+      <Dest>#key# Ключ от исследовательского центра</Dest>
+    </String>
+    <String List="0" sID="03DBEA" Partial="1">
+      <EDID>LC089_PRCFacilityIDCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пропуск менеджера &quot;Мама Дольче&quot;</Source>
+      <Dest>#access_card# Пропуск менеджера &quot;Мама Дольче&quot;</Dest>
+    </String>
+    <String List="0" sID="03DBEB" Partial="1">
+      <EDID>MoM03_BrodysPassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль Броди</Source>
+      <Dest>#access_card# Пароль Броди</Dest>
+    </String>
+    <String List="0" sID="03DBEC" Partial="1">
+      <EDID>MSilo_Residential_AuthorizedPlayerIDCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Биометрический идентификатор</Source>
+      <Dest>#access_card# Биометрический идентификатор</Dest>
+    </String>
+    <String List="0" sID="03DBED" Partial="1">
+      <EDID>BMO_BunkerKey02_Cabin_Password_01</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Код доступа М. Грина</Source>
+      <Dest>#access_card# Код доступа М. Грина</Dest>
+    </String>
+    <String List="0" sID="03DBEE" Partial="1">
+      <EDID>LC015_BootleggersShackKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от хижины контрабандиста</Source>
+      <Dest>#key# Ключ от хижины контрабандиста</Dest>
+    </String>
+    <String List="0" sID="03DBEF" Partial="1">
+      <EDID>BoS03TaggerdyID</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Идентификатор лейтенанта Элизабет Таггерди</Source>
+      <Dest>#access_card# Идентификатор лейтенанта Элизабет Таггерди</Dest>
+    </String>
+    <String List="0" sID="03DBF1" Partial="1">
+      <EDID>V94_2_ResidentIDCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пропуск в Убежище 94</Source>
+      <Dest>#access_card# Пропуск в Убежище 94</Dest>
+    </String>
+    <String List="0" sID="03DBF2" Partial="1">
+      <EDID>CB04_Password_Key</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль от терминала &quot;РобКо&quot;</Source>
+      <Dest>#access_card# Пароль от терминала &quot;РобКо&quot;</Dest>
+    </String>
+    <String List="0" sID="03DBF3" Partial="1">
+      <EDID>ENz09_Room203Keycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Карта от номера 203 &quot;Уайтспринга&quot;</Source>
+      <Dest>#access_card# Карта от номера 203 &quot;Уайтспринга&quot;</Dest>
+    </String>
+    <String List="0" sID="03DBF4" Partial="1">
+      <EDID>BMO_BunkerKey03_NukaCola_final</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Динамитный купол — ключ 3</Source>
+      <Dest>#key# Динамитный купол — ключ 3</Dest>
+    </String>
+    <String List="0" sID="03DBF5" Partial="1">
+      <EDID>MTR09_BrittleKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Хрупкий ключ</Source>
+      <Dest>#key# Хрупкий ключ</Dest>
+    </String>
+    <String List="0" sID="03DBF6" Partial="1">
+      <EDID>LC082_GregsMineSupplyKeys</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключи от &quot;Шахтерского оборудования Грега&quot;</Source>
+      <Dest>#key# Ключи от &quot;Шахтерского оборудования Грега&quot;</Dest>
+    </String>
+    <String List="0" sID="03DBF7" Partial="1">
+      <EDID>TestTractorSupplyManagersKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ менеджера</Source>
+      <Dest>#key# Ключ менеджера</Dest>
+    </String>
+    <String List="0" sID="03DBF8" Partial="1">
+      <EDID>SugarGrove_CellKey_V5-XF</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от камеры V5-XF</Source>
+      <Dest>#key# Ключ от камеры V5-XF</Dest>
+    </String>
+    <String List="0" sID="03DBF9" Partial="1">
+      <EDID>CUT_V94_3_MaintainenceIDCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пропуск сотрудника Убежища 94</Source>
+      <Dest>#access_card# Пропуск сотрудника Убежища 94</Dest>
+    </String>
+    <String List="0" sID="03DBFA" Partial="1">
+      <EDID>BurningMineEntranceKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ инспектора по безопасности</Source>
+      <Dest>#key# Ключ инспектора по безопасности</Dest>
+    </String>
+    <String List="0" sID="03DBFB" Partial="1">
+      <EDID>MoM01_MentorLogin</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Учетная запись Госпожи Наташи Хант</Source>
+      <Dest>#access_card# Учетная запись Госпожи Наташи Хант</Dest>
+    </String>
+    <String List="0" sID="03DBFC" Partial="1">
+      <EDID>RSVP02_Key_VolunteerCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Официальное удостоверение волонтера Спасателей</Source>
+      <Dest>#access_card# Официальное удостоверение волонтера Спасателей</Dest>
+    </String>
+    <String List="0" sID="03DBFD" Partial="1">
+      <EDID>MSilo_Residential_PlayerIDCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Биометрический идентификатор</Source>
+      <Dest>#access_card# Биометрический идентификатор</Dest>
+    </String>
+    <String List="0" sID="03DBFE" Partial="1">
+      <EDID>LC144_SunnytopRoomKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Горнолыжный курорт &quot;Саннитоп&quot; – ключ от номера #6</Source>
+      <Dest>#key# Горнолыжный курорт &quot;Саннитоп&quot; – ключ от номера #6</Dest>
+    </String>
+    <String List="0" sID="03DBFF" Partial="1">
+      <EDID>BoS02MilitaryIDCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Армейский идентификатор</Source>
+      <Dest>#access_card# Армейский идентификатор</Dest>
+    </String>
+    <String List="0" sID="03DC00" Partial="1">
+      <EDID>MTR05_RDClearance</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Допуск в исследовательский отдел &quot;Хорнрайт&quot;</Source>
+      <Dest>#access_card# Допуск в исследовательский отдел &quot;Хорнрайт&quot;</Dest>
+    </String>
+    <String List="0" sID="03DC01" Partial="1">
+      <EDID>BMO_BunkerKey03_NukaCola_03</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от ящика с инструментами</Source>
+      <Dest>#key# Ключ от ящика с инструментами</Dest>
+    </String>
+    <String List="0" sID="03DC02" Partial="1">
+      <EDID>SugarGrove_CellKey_B9-AX</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от камеры B9-AX</Source>
+      <Dest>#key# Ключ от камеры B9-AX</Dest>
+    </String>
+    <String List="0" sID="03DC03" Partial="1">
+      <EDID>CUT_V94_1_MaintainenceAccessCode</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Код доступа к техобслуживанию Убежища 94</Source>
+      <Dest>#access_card# Код доступа к техобслуживанию Убежища 94</Dest>
+    </String>
+    <String List="0" sID="03DC04" Partial="1">
+      <EDID>EN01_SafePassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль от сейфа Сэма — 561159</Source>
+      <Dest>#access_card# Пароль от сейфа Сэма — 561159</Dest>
+    </String>
+    <String List="0" sID="03DC05" Partial="1">
+      <EDID>TEMP_EN07_SiloAlphaAccessCode</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>TEMP Код доступа ракетной шахты &quot;Альфа&quot;</Source>
+      <Dest>#access_card# TEMP Код доступа ракетной шахты &quot;Альфа&quot;</Dest>
+    </String>
+    <String List="0" sID="03DC06" Partial="1">
+      <EDID>LC097_R_Vargas_key_to_safe</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Штаб-квартира Хорнрайт — ключ от сейфа Р. Варгаса</Source>
+      <Dest>#key# Штаб-квартира Хорнрайт — ключ от сейфа Р. Варгаса</Dest>
+    </String>
+    <String List="0" sID="03DC07" Partial="1">
+      <EDID>ENz09_Room202Keycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Карта от номера 202 &quot;Уайтспринга&quot;</Source>
+      <Dest>#access_card# Карта от номера 202 &quot;Уайтспринга&quot;</Dest>
+    </String>
+    <String List="0" sID="03DC08" Partial="1">
+      <EDID>MTR04_BadgeKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Значок Кэмден-парка</Source>
+      <Dest>#key# Значок Кэмден-парка</Dest>
+    </String>
+    <String List="0" sID="03DC0A" Partial="1">
+      <EDID>TEMP_EN07_LaunchGammaAccessCode</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Код запуска ракетной шахты &quot;Гамма&quot;</Source>
+      <Dest>#access_card# Код запуска ракетной шахты &quot;Гамма&quot;</Dest>
+    </String>
+    <String List="0" sID="03DC0B" Partial="1">
+      <EDID>LC012_BigBendTunnelKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Тоннель &quot;Большой излом&quot; — ключ от двери</Source>
+      <Dest>#key# Тоннель &quot;Большой излом&quot; — ключ от двери</Dest>
+    </String>
+    <String List="0" sID="03DC0C" Partial="1">
+      <EDID>TW002SecurityStationPassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль охраны тюрьмы</Source>
+      <Dest>#access_card# Пароль охраны тюрьмы</Dest>
+    </String>
+    <String List="0" sID="03DC0D" Partial="1">
+      <EDID>MTR05_HRPassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль отдела персонала &quot;Хорнрайт&quot;</Source>
+      <Dest>#access_card# Пароль отдела персонала &quot;Хорнрайт&quot;</Dest>
+    </String>
+    <String List="0" sID="03DC0E" Partial="1">
+      <EDID>LC089_PRCFacilitySecurityIDCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пропуск охранника базы &quot;Фуджиния&quot;</Source>
+      <Dest>#access_card# Пропуск охранника базы &quot;Фуджиния&quot;</Dest>
+    </String>
+    <String List="0" sID="03DC10" Partial="1">
+      <EDID>LC042_HoneyHausKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от медового домика</Source>
+      <Dest>#key# Ключ от медового домика</Dest>
+    </String>
+    <String List="0" sID="03DC11" Partial="1">
+      <EDID>MorgantownHSSafeKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от сейфа директора</Source>
+      <Dest>#key# Ключ от сейфа директора</Dest>
+    </String>
+    <String List="0" sID="03DC12" Partial="1">
+      <EDID>LC005_Granary_Shed_Key</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от амбара Ааронхолтов</Source>
+      <Dest>#key# Ключ от амбара Ааронхолтов</Dest>
+    </String>
+    <String List="0" sID="03DC14" Partial="1">
+      <EDID>BMO_BunkerKey03_NukaCola_01</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от шкафчика с Ядер-колой</Source>
+      <Dest>#key# Ключ от шкафчика с Ядер-колой</Dest>
+    </String>
+    <String List="0" sID="03DC15" Partial="1">
+      <EDID>LC102_HouseKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от гостиницы B&amp;B</Source>
+      <Dest>#key# Ключ от гостиницы B&amp;B</Dest>
+    </String>
+    <String List="0" sID="03DC16" Partial="1">
+      <EDID>LC197_GraftonDamKeys</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключи от Графтонской плотины</Source>
+      <Dest>#key# Ключи от Графтонской плотины</Dest>
+    </String>
+    <String List="0" sID="03DC17" Partial="1">
+      <EDID>LC006_StorageRoomKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от хранилища защитных костюмов в &quot;Посейдоне&quot;</Source>
+      <Dest>#key# Ключ от хранилища защитных костюмов в &quot;Посейдоне&quot;</Dest>
+    </String>
+    <String List="0" sID="03DC18" Partial="1">
+      <EDID>V63_3_ResidentIDCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Удостоверение жителя Убежища 63</Source>
+      <Dest>#access_card# Удостоверение жителя Убежища 63</Dest>
+    </String>
+    <String List="0" sID="03DC19" Partial="1">
+      <EDID>SugarGrove_CellKey_R1-TT</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от камеры R1-TT</Source>
+      <Dest>#key# Ключ от камеры R1-TT</Dest>
+    </String>
+    <String List="0" sID="03DC1A" Partial="1">
+      <EDID>NewRiverGorgeBridgeKey1</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от западного моста</Source>
+      <Dest>#key# Ключ от западного моста</Dest>
+    </String>
+    <String List="0" sID="03DC1C" Partial="1">
+      <EDID>RSVP04_Key_Safe_Beta</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от станции Спасателей &quot;Браво&quot;</Source>
+      <Dest>#key# Ключ от станции Спасателей &quot;Браво&quot;</Dest>
+    </String>
+    <String List="0" sID="03DC1D" Partial="1">
+      <EDID>ENz09_Room205Keycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Карта от номера 205 &quot;Уайтспринга&quot;</Source>
+      <Dest>#access_card# Карта от номера 205 &quot;Уайтспринга&quot;</Dest>
+    </String>
+    <String List="0" sID="03DC1E" Partial="1">
+      <EDID>ENB_CongressionalID</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Административный пропуск конгрессмена</Source>
+      <Dest>#access_card# Административный пропуск конгрессмена</Dest>
+    </String>
+    <String List="0" sID="03DC1F" Partial="1">
+      <EDID>HornwrightEstateAccessKeycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пропуск в поместье Хорнрайтов</Source>
+      <Dest>#access_card# Пропуск в поместье Хорнрайтов</Dest>
+    </String>
+    <String List="0" sID="03DC20" Partial="1">
+      <EDID>LC050_gorgejunkyard_storage_key</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от хранилища на свалке в ущелье</Source>
+      <Dest>#key# Ключ от хранилища на свалке в ущелье</Dest>
+    </String>
+    <String List="0" sID="03DC23" Partial="1">
+      <EDID>SFL02_Track_DyerChemIDCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пропуск &quot;Дайер Кемикал&quot;</Source>
+      <Dest>#access_card# Пропуск &quot;Дайер Кемикал&quot;</Dest>
+    </String>
+    <String List="0" sID="03DC24" Partial="1">
+      <EDID>TestSmokeKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Test Key</Source>
+      <Dest>#key# Test Key</Dest>
+    </String>
+    <String List="0" sID="03DC25" Partial="1">
+      <EDID>EN05_Patriotism_JimmyTerminalPassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль от терминала Джимми</Source>
+      <Dest>#access_card# Пароль от терминала Джимми</Dest>
+    </String>
+    <String List="0" sID="03DC26" Partial="1">
+      <EDID>LC006_GeneralManagersPassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль директора электростанции &quot;Посейдон&quot;</Source>
+      <Dest>#access_card# Пароль директора электростанции &quot;Посейдон&quot;</Dest>
+    </String>
+    <String List="0" sID="03DC27" Partial="1">
+      <EDID>TestElevatorKeycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Тестовый ключ от лифта</Source>
+      <Dest>#access_card# Тестовый ключ от лифта</Dest>
+    </String>
+    <String List="0" sID="03DC29" Partial="1">
+      <EDID>LC046_KerwoodMineKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от шахты &quot;Кервуд&quot;</Source>
+      <Dest>#key# Ключ от шахты &quot;Кервуд&quot;</Dest>
+    </String>
+    <String List="0" sID="03DC2A" Partial="1">
+      <EDID>CB04_Reward_CombinationSafeKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Комбинация от сейфа мэра Ватоги</Source>
+      <Dest>#key# Комбинация от сейфа мэра Ватоги</Dest>
+    </String>
+    <String List="0" sID="03DC2B" Partial="1">
+      <EDID>SurvivalTrainingCenter_Lootcloset_Key</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от хранилища Кэмп-Венчур</Source>
+      <Dest>#key# Ключ от хранилища Кэмп-Венчур</Dest>
+    </String>
+    <String List="0" sID="03DC2C" Partial="1">
+      <EDID>TEMP_EN07_LaunchAlphaAccessCode</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Код запуска ракетной шахты &quot;Альфа&quot;</Source>
+      <Dest>#access_card# Код запуска ракетной шахты &quot;Альфа&quot;</Dest>
+    </String>
+    <String List="0" sID="03DC2D" Partial="1">
+      <EDID>LC117_BathroomKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от туалета</Source>
+      <Dest>#key# Ключ от туалета</Dest>
+    </String>
+    <String List="0" sID="03DC2E" Partial="1">
+      <EDID>TW007_POBoxKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Кларксберг, почтовая ячейка 12</Source>
+      <Dest>#key# Кларксберг, почтовая ячейка 12</Dest>
+    </String>
+    <String List="0" sID="03DC2F" Partial="1">
+      <EDID>LC006_PoseidonAccessCodes</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Коды доступа к &quot;Посейдону&quot;</Source>
+      <Dest>#access_card# Коды доступа к &quot;Посейдону&quot;</Dest>
+    </String>
+    <String List="0" sID="041434" Partial="1">
+      <EDID>ToxicDriedLakeBedBoatHouseKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от шлюпочного сарая</Source>
+      <Dest>#key# Ключ от шлюпочного сарая</Dest>
+    </String>
+    <String List="0" sID="041BD6" Partial="1">
+      <EDID>POI273_FreeStatesBunker06_SafeKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от сейфа в заброшенном бункере</Source>
+      <Dest>#key# Ключ от сейфа в заброшенном бункере</Dest>
+    </String>
+    <String List="0" sID="041CA0" Partial="1">
+      <EDID>POI275_BrimQuarry_ForemanKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ бригадира</Source>
+      <Dest>#key# Ключ бригадира</Dest>
+    </String>
+    <String List="0" sID="041F02" Partial="1">
+      <EDID>MTR10KeycardAlpha</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Бункер &quot;Хорнрайт&quot;, карта &quot;Альфа&quot;</Source>
+      <Dest>#access_card# Бункер &quot;Хорнрайт&quot;, карта &quot;Альфа&quot;</Dest>
+    </String>
+    <String List="0" sID="041F03" Partial="1">
+      <EDID>MTR10KeycardBeta</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Бункер &quot;Хорнрайт&quot;, карта &quot;Бета&quot;</Source>
+      <Dest>#access_card# Бункер &quot;Хорнрайт&quot;, карта &quot;Бета&quot;</Dest>
+    </String>
+    <String List="0" sID="042087" Partial="1">
+      <EDID>CUT_RSVP02_Key_DelbertPassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль Делберта</Source>
+      <Dest>#access_card# Пароль Делберта</Dest>
+    </String>
+    <String List="0" sID="042152" Partial="1">
+      <EDID>OverseerPersonalMineKeycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от складского подвала</Source>
+      <Dest>#access_card# Ключ от складского подвала</Dest>
+    </String>
+    <String List="0" sID="04276C" Partial="1">
+      <EDID>RE_ObjectCMB06_safekey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от сейфа на 1-м этаже штаб-квартиры Хорнрайт</Source>
+      <Dest>#key# Ключ от сейфа на 1-м этаже штаб-квартиры Хорнрайт</Dest>
+    </String>
+    <String List="0" sID="04304E" Partial="1">
+      <EDID>SuttonTrainStationKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ начальника поезда</Source>
+      <Dest>#key# Ключ начальника поезда</Dest>
+    </String>
+    <String List="0" sID="044813" Partial="1">
+      <EDID>LC145_SecureStorageKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от защищенного хранилища</Source>
+      <Dest>#key# Ключ от защищенного хранилища</Dest>
+    </String>
+    <String List="0" sID="045141" Partial="1">
+      <EDID>ENB_RemoteTeamPassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль для удаленной командной жалобы</Source>
+      <Dest>#access_card# Пароль для удаленной командной жалобы</Dest>
+    </String>
+    <String List="0" sID="0459B1" Partial="1">
+      <EDID>FF20_SupervisorSafe_Key</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от сейфа управляющего</Source>
+      <Dest>#key# Ключ от сейфа управляющего</Dest>
+    </String>
+    <String List="0" sID="0459DF" Partial="1">
+      <EDID>LC024_HolbrookesKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от тайника Холбрука</Source>
+      <Dest>#key# Ключ от тайника Холбрука</Dest>
+    </String>
+    <String List="0" sID="045A39" Partial="1">
+      <EDID>POI061_UtilityKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Служебный ключ</Source>
+      <Dest>#key# Служебный ключ</Dest>
+    </String>
+    <String List="0" sID="045A6B" Partial="1">
+      <EDID>MTR06_SchematicCode_Allemane</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Код схемы Огнедышащих: поддержка</Source>
+      <Dest>#access_card# Код схемы Огнедышащих: поддержка</Dest>
+    </String>
+    <String List="0" sID="045A6C" Partial="1">
+      <EDID>MTR06_SchematicCode_Cominsky</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Код схемы Огнедышащих: дробовики</Source>
+      <Dest>#access_card# Код схемы Огнедышащих: дробовики</Dest>
+    </String>
+    <String List="0" sID="045A6D" Partial="1">
+      <EDID>MTR06_SchematicCode_Holstein</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Код схемы Огнедышащих: карабины</Source>
+      <Dest>#access_card# Код схемы Огнедышащих: карабины</Dest>
+    </String>
+    <String List="0" sID="045AB2" Partial="1">
+      <EDID>LC090_SafeKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от сейфа шахты &quot;Мононга&quot;</Source>
+      <Dest>#key# Ключ от сейфа шахты &quot;Мононга&quot;</Dest>
+    </String>
+    <String List="0" sID="045B0B" Partial="1">
+      <EDID>MTR15_Stash_Key</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от тайника Герцогини</Source>
+      <Dest>#key# Ключ от тайника Герцогини</Dest>
+    </String>
+    <String List="0" sID="04604D" Partial="1">
+      <EDID>SkeletonFactorySafeKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от сейфа старухи Дэвис</Source>
+      <Dest>#key# Ключ от сейфа старухи Дэвис</Dest>
+    </String>
+    <String List="0" sID="04611C" Partial="1">
+      <EDID>POI151_ArmoryKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от оружейной комнаты рядом с остатками самолета &quot;Хорайзон&quot;</Source>
+      <Dest>#key# Ключ от оружейной комнаты рядом с остатками самолета &quot;Хорайзон&quot;</Dest>
+    </String>
+    <String List="0" sID="04611D" Partial="1">
+      <EDID>POI151_JailKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от тюремной камеры рядом с остатками самолета &quot;Хорайзон&quot;</Source>
+      <Dest>#key# Ключ от тюремной камеры рядом с остатками самолета &quot;Хорайзон&quot;</Dest>
+    </String>
+    <String List="0" sID="0461FD" Partial="1">
+      <EDID>RadioArrayStorageKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от склада погрузочной платформы</Source>
+      <Dest>#key# Ключ от склада погрузочной платформы</Dest>
+    </String>
+    <String List="0" sID="0461FE" Partial="1">
+      <EDID>MorgantownHSPrincipalsOfficeKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от кабинета директора</Source>
+      <Dest>#key# Ключ от кабинета директора</Dest>
+    </String>
+    <String List="0" sID="04644B" Partial="1">
+      <EDID>LC052_GraftonBlastFurnaceKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от печи Фортни</Source>
+      <Dest>#key# Ключ от печи Фортни</Dest>
+    </String>
+    <String List="0" sID="0465BD" Partial="1">
+      <EDID>LC142_SafeKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от сейфа Нью-Гэда</Source>
+      <Dest>#key# Ключ от сейфа Нью-Гэда</Dest>
+    </String>
+    <String List="0" sID="0465BE" Partial="1">
+      <EDID>LC028_LuggageKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от багажного отделения поезда в Чарлстоне</Source>
+      <Dest>#key# Ключ от багажного отделения поезда в Чарлстоне</Dest>
+    </String>
+    <String List="0" sID="047E7C" Partial="1">
+      <EDID>SurvivalTrainingCenter_Qmaster_Key</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от оружейной Кэмп-Венчур</Source>
+      <Dest>#key# Ключ от оружейной Кэмп-Венчур</Dest>
+    </String>
+    <String List="0" sID="0487B4" Partial="1">
+      <EDID>UD003_TaxidermyStorageKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от склада таксидермиста</Source>
+      <Dest>#key# Ключ от склада таксидермиста</Dest>
+    </String>
+    <String List="0" sID="0487DC" Partial="1">
+      <EDID>CUT_P01B_Lying_OfficeTerminalKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль Кэлвина ван Лоу</Source>
+      <Dest>#access_card# Пароль Кэлвина ван Лоу</Dest>
+    </String>
+    <String List="0" sID="049047" Partial="1">
+      <EDID>UD002_OldTunnelKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от старого тоннеля Нор</Source>
+      <Dest>#key# Ключ от старого тоннеля Нор</Dest>
+    </String>
+    <String List="0" sID="0493DA" Partial="1">
+      <EDID>V94_1_AccessPuzzle_TyronesIDCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пропуск техника Убежища 94</Source>
+      <Dest>#access_card# Пропуск техника Убежища 94</Dest>
+    </String>
+    <String List="0" sID="0493DB" Partial="1">
+      <EDID>V94_1_AccessPuzzle_NurseryKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от детского сада Убежища 94</Source>
+      <Dest>#key# Ключ от детского сада Убежища 94</Dest>
+    </String>
+    <String List="0" sID="0493DC" Partial="1">
+      <EDID>V94_1_AccessPuzzle_WorkroomKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от мастерской Убежища 94</Source>
+      <Dest>#key# Ключ от мастерской Убежища 94</Dest>
+    </String>
+    <String List="0" sID="0493DD" Partial="1">
+      <EDID>V94_1_AccessPuzzle_CommunityCouncilKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от зала общественного совета Убежища 94</Source>
+      <Dest>#key# Ключ от зала общественного совета Убежища 94</Dest>
+    </String>
+    <String List="0" sID="0493EC" Partial="1">
+      <EDID>V94_1_AccessPuzzle_TyronesPassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль Тайрона Хейза</Source>
+      <Dest>#access_card# Пароль Тайрона Хейза</Dest>
+    </String>
+    <String List="0" sID="0495AF" Partial="1">
+      <EDID>V94_1_ReactorEvent_8_IDCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Плата управления реактором</Source>
+      <Dest>#access_card# Плата управления реактором</Dest>
+    </String>
+    <String List="0" sID="049D0F" Partial="1">
+      <EDID>P01A_Nukashine_DistillerySupplyPassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль от подсобного помещения самогонного цеха</Source>
+      <Dest>#access_card# Пароль от подсобного помещения самогонного цеха</Dest>
+    </String>
+    <String List="0" sID="04A214" Partial="1">
+      <EDID>V94_3_SecurityIDCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пропуск охранника Убежища 94</Source>
+      <Dest>#access_card# Пропуск охранника Убежища 94</Dest>
+    </String>
+    <String List="0" sID="04A46A" Partial="1">
+      <EDID>V94_PumpInterlockKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Служебный ключ от замка</Source>
+      <Dest>#key# Служебный ключ от замка</Dest>
+    </String>
+    <String List="0" sID="04A4AE" Partial="1">
+      <EDID>CUT_v96_SafeKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от сейфа Нью-Гэда</Source>
+      <Dest>#key# Ключ от сейфа Нью-Гэда</Dest>
+    </String>
+    <String List="0" sID="04A4DE" Partial="1">
+      <EDID>CUT_V94_3_Reactor_KeylockKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ управления замками реактора</Source>
+      <Dest>#key# Ключ управления замками реактора</Dest>
+    </String>
+    <String List="0" sID="04A972" Partial="1">
+      <EDID>P01B_Lying_02_Password</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль от сборки</Source>
+      <Dest>#access_card# Пароль от сборки</Dest>
+    </String>
+    <String List="0" sID="04A973" Partial="1">
+      <EDID>P01B_Lying_Master_Keycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Запасная карта пропуска агента</Source>
+      <Dest>#access_card# Запасная карта пропуска агента</Dest>
+    </String>
+    <String List="0" sID="04AD00" Partial="1">
+      <EDID>CUT_P01B_Mini_Squatch01_CindysKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от дневника Синди</Source>
+      <Dest>#key# Ключ от дневника Синди</Dest>
+    </String>
+    <String List="0" sID="04AE7B" Partial="1">
+      <EDID>BMO_BunkerKey07_BraxtonKey_final</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Динамитный купол — ключ 7</Source>
+      <Dest>#key# Динамитный купол — ключ 7</Dest>
+    </String>
+    <String List="0" sID="04AE7C" Partial="1">
+      <EDID>BMO_BunkerKey07_MotelKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Комната 123</Source>
+      <Dest>#key# Комната 123</Dest>
+    </String>
+    <String List="0" sID="04AE7D" Partial="1">
+      <EDID>BMO_BunkerKey07_Ingram_Password_01</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Код доступа отдела маркетинга &quot;Ядер-колы&quot;</Source>
+      <Dest>#access_card# Код доступа отдела маркетинга &quot;Ядер-колы&quot;</Dest>
+    </String>
+    <String List="0" sID="04AE7E" Partial="1">
+      <EDID>BMO_BunkerKey07_Keycard01</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Парная карта запуска 01</Source>
+      <Dest>#access_card# Парная карта запуска 01</Dest>
+    </String>
+    <String List="0" sID="04AE7F" Partial="1">
+      <EDID>BMO_BunkerKey07_Keycard02</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Парная карта запуска 02</Source>
+      <Dest>#access_card# Парная карта запуска 02</Dest>
+    </String>
+    <String List="0" sID="04AF92" Partial="1">
+      <EDID>P01b_Robot_Key</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от сейфа</Source>
+      <Dest>#key# Ключ от сейфа</Dest>
+    </String>
+    <String List="0" sID="04BAA4" Partial="1">
+      <EDID>P01B_Wolf_RecallKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Карта отзыва штурмотрона</Source>
+      <Dest>#access_card# Карта отзыва штурмотрона</Dest>
+    </String>
+    <String List="0" sID="04C4DF" Partial="1">
+      <EDID>WU_ShopsKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от торгового центра</Source>
+      <Dest>#key# Ключ от торгового центра</Dest>
+    </String>
+    <String List="0" sID="04C707" Partial="1">
+      <EDID>WU_TunnelsKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от тоннелей для хранения</Source>
+      <Dest>#key# Ключ от тоннелей для хранения</Dest>
+    </String>
+    <String List="0" sID="04C8C3" Partial="1">
+      <EDID>W05_MQ_002P_BossDoorKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от офиса компании &quot;Люмбер&quot;, Западная Вирджиния</Source>
+      <Dest>#key# Ключ от офиса компании &quot;Люмбер&quot;, Западная Вирджиния</Dest>
+    </String>
+    <String List="0" sID="04DE0B" Partial="1">
+      <EDID>CUT_V96_2_Analysis_DatabankXXX</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Банк данных Убежища 96</Source>
+      <Dest>#access_card# Банк данных Убежища 96</Dest>
+    </String>
+    <String List="0" sID="056B58" Partial="1">
+      <EDID>W05_MQR_203P_HalRoomKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от казармы для рабов арены</Source>
+      <Dest>#key# Ключ от казармы для рабов арены</Dest>
+    </String>
+    <String List="0" sID="05B833" Partial="1">
+      <EDID>W05_MQR_202P_SectorCharlieKeycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пропуск от сектора &quot;Чарли&quot; в &quot;Графтон стил&quot;</Source>
+      <Dest>#access_card# Пропуск от сектора &quot;Чарли&quot; в &quot;Графтон стил&quot;</Dest>
+    </String>
+    <String List="0" sID="05B906" Partial="1">
+      <EDID>W05_MQR_202P_SectorAlphaKeycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пропуск от сектора &quot;Альфа&quot; в &quot;Графтон стил&quot;</Source>
+      <Dest>#access_card# Пропуск от сектора &quot;Альфа&quot; в &quot;Графтон стил&quot;</Dest>
+    </String>
+    <String List="0" sID="05BC5F" Partial="1">
+      <EDID>W05_RE_ObjectBB02Key</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от ящика</Source>
+      <Dest>#key# Ключ от ящика</Dest>
+    </String>
+    <String List="0" sID="05BF6F" Partial="1">
+      <EDID>DELETEDCOMP_Astronaut_015_Key_RDLab</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Доступ в отдел разработки U.S.S.A.</Source>
+      <Dest>#key# Доступ в отдел разработки U.S.S.A.</Dest>
+    </String>
+    <String List="0" sID="39000B6C" Partial="1">
+      <EDID>BS02_MQ04_Conscience_Keycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ-карта от Убежища 96</Source>
+      <Dest>#access_card# Ключ-карта от Убежища 96</Dest>
+    </String>
+    <String List="0" sID="39000C29" Partial="1">
+      <EDID>BS02_MQ02_Missing_BasementKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от подземной лаборатории АМС</Source>
+      <Dest>#key# Ключ от подземной лаборатории АМС</Dest>
+    </String>
+    <String List="0" sID="39000C2A" Partial="1">
+      <EDID>BS02_MQ02_Missing_TerminalPassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль охраны</Source>
+      <Dest>#access_card# Пароль охраны</Dest>
+    </String>
+    <String List="0" sID="390024A0" Partial="1">
+      <EDID>BS02_MQ05_Catalyst_ViewingRoomTerminalPassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль от смотровой камеры &quot;Вест-Тек&quot;</Source>
+      <Dest>#access_card# Пароль от смотровой камеры &quot;Вест-Тек&quot;</Dest>
+    </String>
+    <String List="0" sID="390030D9" Partial="1">
+      <EDID>XPD_ObjMod_FreePrisoners_Key</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от тюрьмы</Source>
+      <Dest>#key# Ключ от тюрьмы</Dest>
+    </String>
+    <String List="0" sID="41002E7C" Partial="1">
+      <EDID>SH003_V51_ExecutiveKeycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ-карта руководителя Убежища 51</Source>
+      <Dest>#access_card# Ключ-карта руководителя Убежища 51</Dest>
+    </String>
+    <String List="0" sID="41002E7D" Partial="1">
+      <EDID>SH003_V51_SecurityKeycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ-карта охраны Убежища 51</Source>
+      <Dest>#access_card# Ключ-карта охраны Убежища 51</Dest>
+    </String>
+    <String List="0" sID="41002E7E" Partial="1">
+      <EDID>SH003_V51_OverseerKeycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ-карта Смотрителя Убежища 51</Source>
+      <Dest>#access_card# Ключ-карта Смотрителя Убежища 51</Dest>
+    </String>
+    <String List="0" sID="41006A86" Partial="1">
+      <EDID>V94_ReactorInterlockKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ управления замками реактора</Source>
+      <Dest>#key# Ключ управления замками реактора</Dest>
+    </String>
+    <String List="0" sID="4100998D" Partial="1">
+      <EDID>AC_MQ_AntoniosTerminal_Key</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль Антонио</Source>
+      <Dest>#access_card# Пароль Антонио</Dest>
+    </String>
+    <String List="0" sID="4100A4A5" Partial="1">
+      <EDID>AC_MQ_AntoniosRoom_Key</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ Антонио</Source>
+      <Dest>#key# Ключ Антонио</Dest>
+    </String>
+    <String List="0" sID="5900034C" Partial="1">
+      <EDID>SHELS01_ReubenSafeKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от сейфа Рубена</Source>
+      <Dest>#key# Ключ от сейфа Рубена</Dest>
+    </String>
+    <String List="0" sID="59000658" Partial="1">
+      <EDID>RE_Scene_Zetan_01_MysteriousKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Таинственный ключ</Source>
+      <Dest>#key# Таинственный ключ</Dest>
+    </String>
+    <String List="0" sID="61002CBF" Partial="1">
+      <EDID>V94_2_Robot_WorkroomKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от мастерской Убежища 94</Source>
+      <Dest>#key# Ключ от мастерской Убежища 94</Dest>
+    </String>
+    <String List="0" sID="61002CC0" Partial="1">
+      <EDID>V96_1_Engineering_DeconStationPassword2</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль для станции обеззараживания 2</Source>
+      <Dest>#access_card# Пароль для станции обеззараживания 2</Dest>
+    </String>
+    <String List="0" sID="61002CC1" Partial="1">
+      <EDID>LC096_MorgantownAirport_Keycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Карта-ключ от аэропорта Моргантауна</Source>
+      <Dest>#access_card# Карта-ключ от аэропорта Моргантауна</Dest>
+    </String>
+    <String List="0" sID="61002CC2" Partial="1">
+      <EDID>V96_1_Engineering_DeconStationPassword3</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль для станции обеззараживания 3</Source>
+      <Dest>#access_card# Пароль для станции обеззараживания 3</Dest>
+    </String>
+    <String List="0" sID="61002CC3" Partial="1">
+      <EDID>V96_1_Engineering_DeconStationPassword7</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль для станции обеззараживания 7</Source>
+      <Dest>#access_card# Пароль для станции обеззараживания 7</Dest>
+    </String>
+    <String List="0" sID="61002CC4" Partial="1">
+      <EDID>P03L_Cage_Key</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от клетки</Source>
+      <Dest>#key# Ключ от клетки</Dest>
+    </String>
+    <String List="0" sID="61002CC5" Partial="1">
+      <EDID>V96_2_ResidentIDCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пропуск в Убежище 96</Source>
+      <Dest>#access_card# Пропуск в Убежище 96</Dest>
+    </String>
+    <String List="0" sID="61002CC6" Partial="1">
+      <EDID>V96_2_Access_Password01</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль Нины Валайи</Source>
+      <Dest>#access_card# Пароль Нины Валайи</Dest>
+    </String>
+    <String List="0" sID="61002CC7" Partial="1">
+      <EDID>V94_2_Utility_MaintenancePassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль Тайрона Хейза</Source>
+      <Dest>#access_card# Пароль Тайрона Хейза</Dest>
+    </String>
+    <String List="0" sID="61002CC8" Partial="1">
+      <EDID>V96_1_Engineering_DeconStationPassword5</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль для станции обеззараживания 5</Source>
+      <Dest>#access_card# Пароль для станции обеззараживания 5</Dest>
+    </String>
+    <String List="0" sID="61002CC9" Partial="1">
+      <EDID>V94_2_Robot_NurseryKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от детского сада Убежища 94</Source>
+      <Dest>#key# Ключ от детского сада Убежища 94</Dest>
+    </String>
+    <String List="0" sID="61002CCA" Partial="1">
+      <EDID>V96_2_Access_Password03</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль Жанетт Хиггинс</Source>
+      <Dest>#access_card# Пароль Жанетт Хиггинс</Dest>
+    </String>
+    <String List="0" sID="61002CCB" Partial="1">
+      <EDID>V96_2_Access_Password04</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль Ханса Мемлинга</Source>
+      <Dest>#access_card# Пароль Ханса Мемлинга</Dest>
+    </String>
+    <String List="0" sID="61002CCC" Partial="1">
+      <EDID>V94_2_Robot_MaintenanceKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от подсобного помещения Убежища 94</Source>
+      <Dest>#key# Ключ от подсобного помещения Убежища 94</Dest>
+    </String>
+    <String List="0" sID="61002CCD" Partial="1">
+      <EDID>V96_1_Engineering_DeconStationPassword4</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль для станции обеззараживания 4</Source>
+      <Dest>#access_card# Пароль для станции обеззараживания 4</Dest>
+    </String>
+    <String List="0" sID="61002CCE" Partial="1">
+      <EDID>CUT_V94_1_Utility_MaintenancePassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль Тайрона Хейза</Source>
+      <Dest>#access_card# Пароль Тайрона Хейза</Dest>
+    </String>
+    <String List="0" sID="61002CCF" Partial="1">
+      <EDID>V94_2_Robot_StorageKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от хранилища Убежища 94</Source>
+      <Dest>#key# Ключ от хранилища Убежища 94</Dest>
+    </String>
+    <String List="0" sID="61002CD0" Partial="1">
+      <EDID>V96_2_Access_Password02</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль Молли Купер</Source>
+      <Dest>#access_card# Пароль Молли Купер</Dest>
+    </String>
+    <String List="0" sID="61002CD1" Partial="1">
+      <EDID>V96_1_Engineering_DeconStationPassword6</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль для станции обеззараживания 6</Source>
+      <Dest>#access_card# Пароль для станции обеззараживания 6</Dest>
+    </String>
+    <String List="0" sID="61004561" Partial="1">
+      <EDID>WU_DollKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ кукольника</Source>
+      <Dest>#key# Ключ кукольника</Dest>
+    </String>
+    <String List="0" sID="61004796" Partial="1">
+      <EDID>WL005_WorkerBreakroomKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от кладовки &quot;Графтон стил&quot;</Source>
+      <Dest>#key# Ключ от кладовки &quot;Графтон стил&quot;</Dest>
+    </String>
+    <String List="0" sID="61004E01" Partial="1">
+      <EDID>DELETED_UCB_PRC_MainDoorKey01</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от комплекса коммунистов</Source>
+      <Dest>#key# Ключ от комплекса коммунистов</Dest>
+    </String>
+    <String List="0" sID="61005ED3" Partial="1">
+      <EDID>W05_MQS_201P_HornwrightEstateLabKeycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от лаборатории в поместье Хорнрайтов</Source>
+      <Dest>#access_card# Ключ от лаборатории в поместье Хорнрайтов</Dest>
+    </String>
+    <String List="0" sID="61006060" Partial="1">
+      <EDID>W05_Vault79Operations_KeyCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Карта-ключ от Убежища 79</Source>
+      <Dest>#access_card# Карта-ключ от Убежища 79</Dest>
+    </String>
+    <String List="0" sID="610061B1" Partial="1">
+      <EDID>W05_Raider_JohnnyPassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль Джонни</Source>
+      <Dest>#access_card# Пароль Джонни</Dest>
+    </String>
+    <String List="0" sID="61006625" Partial="1">
+      <EDID>W05_MQ_003P_Muscle_DnDAccessCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Карта для входа в &quot;Дункан и Дункан&quot;</Source>
+      <Dest>#access_card# Карта для входа в &quot;Дункан и Дункан&quot;</Dest>
+    </String>
+    <String List="0" sID="61007CDB" Partial="1">
+      <EDID>W05_MQ_003P_Muscle_ProtectronRoomAccessCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Карта-ключ от шоурума с протектроном</Source>
+      <Dest>#access_card# Карта-ключ от шоурума с протектроном</Dest>
+    </String>
+    <String List="0" sID="61007CDC" Partial="1">
+      <EDID>W05_MQ_003P_Muscle_AssaultronRoomCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Карта-ключ от шоурума с штурмотроном</Source>
+      <Dest>#access_card# Карта-ключ от шоурума с штурмотроном</Dest>
+    </String>
+    <String List="0" sID="61007CDD" Partial="1">
+      <EDID>W05_MQ_003P_Muscle_HandyRoomAccessCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Карта-ключ от шоурума с Мистером Помощником</Source>
+      <Dest>#access_card# Карта-ключ от шоурума с Мистером Помощником</Dest>
+    </String>
+    <String List="0" sID="61008626" Partial="1">
+      <EDID>WL006_TurretSecurityTermialKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Охранный пароль сектора &quot;Браво&quot;</Source>
+      <Dest>#key# Охранный пароль сектора &quot;Браво&quot;</Dest>
+    </String>
+    <String List="0" sID="61008785" Partial="1">
+      <EDID>WU_MainKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от подземки Ватоги</Source>
+      <Dest>#key# Ключ от подземки Ватоги</Dest>
+    </String>
+    <String List="0" sID="61008B51" Partial="1">
+      <EDID>COMP_Astronaut_Outtro_Keycard_ATHENA</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ-пропуск U.S.S.A.</Source>
+      <Dest>#access_card# Ключ-пропуск U.S.S.A.</Dest>
+    </String>
+    <String List="0" sID="61008BB5" Partial="1">
+      <EDID>COMP_Key_Jail_Beckett</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от камеры Беккета</Source>
+      <Dest>#key# Ключ от камеры Беккета</Dest>
+    </String>
+    <String List="0" sID="61008FBE" Partial="1">
+      <EDID>W05_MQS_201P_HornwrightSaferoomKeycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ-карта от убежища Хорнрайтов</Source>
+      <Dest>#access_card# Ключ-карта от убежища Хорнрайтов</Dest>
+    </String>
+    <String List="0" sID="6100ACF6" Partial="1">
+      <EDID>BS01_MQ07_HoldingCellKeyCard01</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ-карта от камер</Source>
+      <Dest>#access_card# Ключ-карта от камер</Dest>
+    </String>
+    <String List="0" sID="6100B2B1" Partial="1">
+      <EDID>BS01_MQ07_Over_LockerKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от ящика Уолтона</Source>
+      <Dest>#key# Ключ от ящика Уолтона</Dest>
+    </String>
+    <String List="0" sID="6100E5A8" Partial="1">
+      <EDID>TestZachariadisKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ к потайному ящику</Source>
+      <Dest>#key# Ключ к потайному ящику</Dest>
+    </String>
+    <String List="0" sID="6100E61E" Partial="1">
+      <EDID>test_VHarbison_Key</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ржавый ключ</Source>
+      <Dest>#key# Ржавый ключ</Dest>
+    </String>
+    <String List="0" sID="6100E71D" Partial="1">
+      <EDID>FSControlRoomKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ доктора Киллроя</Source>
+      <Dest>#key# Ключ доктора Киллроя</Dest>
+    </String>
+    <String List="0" sID="61013ECA" Partial="1">
+      <EDID>Debug_BrentC02_Key</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от арены</Source>
+      <Dest>#key# Ключ от арены</Dest>
+    </String>
+    <String List="0" sID="6101DC03" Partial="1">
+      <EDID>Storm_MQ09_HKBasementKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от подвала Хай-Ноб</Source>
+      <Dest>#key# Ключ от подвала Хай-Ноб</Dest>
+    </String>
+    <String List="0" sID="6101DFFD" Partial="1">
+      <EDID>Storm_MQ08_Key_OrganicsChemWing</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Карта химлаборатории (Убежище 63)</Source>
+      <Dest>#access_card# Карта химлаборатории (Убежище 63)</Dest>
+    </String>
+    <String List="0" sID="6101DFFE" Partial="1">
+      <EDID>Storm_MQ08_Key_OrganicsChemLabs</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Карта лаборатории (Убежище 63)</Source>
+      <Dest>#access_card# Карта лаборатории (Убежище 63)</Dest>
+    </String>
+    <String List="0" sID="6101DFFF" Partial="1">
+      <EDID>Storm_MQ08_Key_OrganicsVat</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Центр управления (Убежище 63)</Source>
+      <Dest>#access_card# Центр управления (Убежище 63)</Dest>
+    </String>
+    <String List="0" sID="6101E000" Partial="1">
+      <EDID>Storm_MQ08_Key_OrganicsBioWing</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Карта биолаборатории (Убежище 63)</Source>
+      <Dest>#access_card# Карта биолаборатории (Убежище 63)</Dest>
+    </String>
+    <String List="0" sID="6101E001" Partial="1">
+      <EDID>Storm_MQ08_Key_OrganicsFluid</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Комната обработки жидкостей (Убежище 63)</Source>
+      <Dest>#access_card# Комната обработки жидкостей (Убежище 63)</Dest>
+    </String>
+    <String List="0" sID="6101E6F8" Partial="1">
+      <EDID>Storm_MQ05_VisitorCenterShelterDoorKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от укрытия в туристическом центре</Source>
+      <Dest>#key# Ключ от укрытия в туристическом центре</Dest>
+    </String>
+    <String List="0" sID="6101E6F9" Partial="1">
+      <EDID>Storm_MQ05_VisitorCenterKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от туристического центра</Source>
+      <Dest>#key# Ключ от туристического центра</Dest>
+    </String>
+    <String List="0" sID="6101EF4A" Partial="1">
+      <EDID>Storm_MQ07_AlfieRoomKeycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ-карта от комнаты Альфи</Source>
+      <Dest>#access_card# Ключ-карта от комнаты Альфи</Dest>
+    </String>
+    <String List="0" sID="6101F13F" Partial="1">
+      <EDID>zzz_Storm_MQ04_WeatherStationKeycard_Key</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ-карта от метеостанции</Source>
+      <Dest>#access_card# Ключ-карта от метеостанции</Dest>
+    </String>
+    <String List="0" sID="7100142F" Partial="1">
+      <EDID>Debug_Dobert_Key01</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от арены</Source>
+      <Dest>#key# Ключ от арены</Dest>
+    </String>
+    <String List="0" sID="71001B68" Partial="1">
+      <EDID>XPDAC03Casino_VaultPassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль от сейфа в казино</Source>
+      <Dest>#access_card# Пароль от сейфа в казино</Dest>
+    </String>
+    <String List="0" sID="71002331" Partial="1">
+      <EDID>XPD_AC01_FreePrisoners_Key</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от ловушки муниципалов</Source>
+      <Dest>#key# Ключ от ловушки муниципалов</Dest>
+    </String>
+    <String List="0" sID="71003DC7" Partial="1">
+      <EDID>XPD_AC03_FreePrisoners_Key</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ</Source>
+      <Dest>#key# Ключ</Dest>
+    </String>
+    <String List="0" sID="71004B7E" Partial="1">
+      <EDID>EXP14_HighRollersLounge_Key</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от зала с большими ставками</Source>
+      <Dest>#key# Ключ от зала с большими ставками</Dest>
+    </String>
+    <String List="0" sID="71006021" Partial="1">
+      <EDID>AC_SQ05_ConcertaRoomKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от номера Кончетты</Source>
+      <Dest>#key# Ключ от номера Кончетты</Dest>
+    </String>
+    <String List="0" sID="710087C3" Partial="1">
+      <EDID>AC_SQ03_Custodial_BackRoomKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от подсобки Сэма</Source>
+      <Dest>#key# Ключ от подсобки Сэма</Dest>
+    </String>
+    <String List="0" sID="7100A0F4" Partial="1">
+      <EDID>AC_MQ03_HonorBound_WarehouseKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от склада</Source>
+      <Dest>#key# Ключ от склада</Dest>
+    </String>
+    <String List="0" sID="810014F4" Partial="1">
+      <EDID>BS01_Valdez_Terminal_Password</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль от терминала скриптора Вальдес</Source>
+      <Dest>#access_card# Пароль от терминала скриптора Вальдес</Dest>
+    </String>
+    <String List="0" sID="810016C4" Partial="1">
+      <EDID>BS01_MQ06_Settlers_MineKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от запасного тоннеля шахты &quot;Кервуд&quot;</Source>
+      <Dest>#key# Ключ от запасного тоннеля шахты &quot;Кервуд&quot;</Dest>
+    </String>
+    <String List="0" sID="810016C5" Partial="1">
+      <EDID>BS01_MQ06_Settlers_WeaponsKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от ящика с оружием БС</Source>
+      <Dest>#key# Ключ от ящика с оружием БС</Dest>
+    </String>
+    <String List="0" sID="81001881" Partial="1">
+      <EDID>BS01_MQ06_Settlers_TerminalPassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Сикретный парол: 12345</Source>
+      <Dest>#access_card# Сикретный парол: 12345</Dest>
+    </String>
+    <String List="0" sID="81002051" Partial="1">
+      <EDID>BS01_MQ04_Arms_SupplyCrateKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ Заточки</Source>
+      <Dest>#key# Ключ Заточки</Dest>
+    </String>
+    <String List="0" sID="81002052" Partial="1">
+      <EDID>BS01_MQ04_Arms_ThroneDoorKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от тронного зала</Source>
+      <Dest>#key# Ключ от тронного зала</Dest>
+    </String>
+    <String List="0" sID="81005750" Partial="1">
+      <EDID>StormV63ReactorRoomKeycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ-карта от реактора Убежища 63</Source>
+      <Dest>#access_card# Ключ-карта от реактора Убежища 63</Dest>
+    </String>
+    <String List="0" sID="81005BA8" Partial="1">
+      <EDID>TestStormCDB_Passcode</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль от терминала</Source>
+      <Dest>#access_card# Пароль от терминала</Dest>
+    </String>
+    <String List="0" sID="81005CF1" Partial="1">
+      <EDID>Storm_HcaveKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от прохода в пещеру</Source>
+      <Dest>#key# Ключ от прохода в пещеру</Dest>
+    </String>
+    <String List="0" sID="810062CD" Partial="1">
+      <EDID>Storm_TradingPost_IDCard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Идентификатор с лицензией бармена</Source>
+      <Dest>#access_card# Идентификатор с лицензией бармена</Dest>
+    </String>
+    <String List="0" sID="810063A8" Partial="1">
+      <EDID>Storm_MQ08_OrganicsSecurityKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ-карта от Убежища 63</Source>
+      <Dest>#access_card# Ключ-карта от Убежища 63</Dest>
+    </String>
+    <String List="0" sID="810069B1" Partial="1">
+      <EDID>Storm_AtriumUpper_RoomKeycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ-карта от комнаты</Source>
+      <Dest>#access_card# Ключ-карта от комнаты</Dest>
+    </String>
+    <String List="0" sID="81006F26" Partial="1">
+      <EDID>Storm_HighKnobFireTower_StoreroomKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от кухни</Source>
+      <Dest>#key# Ключ от кухни</Dest>
+    </String>
+    <String List="0" sID="810071A7" Partial="1">
+      <EDID>Storm_CultistTunnels_QuarryKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от шахты сектантов</Source>
+      <Dest>#key# Ключ от шахты сектантов</Dest>
+    </String>
+    <String List="0" sID="810071A8" Partial="1">
+      <EDID>Storm_CultistTunnels_PrisonKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от тюрьмы сектантов</Source>
+      <Dest>#key# Ключ от тюрьмы сектантов</Dest>
+    </String>
+    <String List="0" sID="8100B96A" Partial="1">
+      <EDID>Storm_MQ03_HandKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Рука потерянного</Source>
+      <Dest>#key# Рука потерянного</Dest>
+    </String>
+    <String List="0" sID="8100BA76" Partial="1">
+      <EDID>MILE_CaravanIntro_Cage_Key</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от клетки с пленником</Source>
+      <Dest>#key# Ключ от клетки с пленником</Dest>
+    </String>
+    <String List="0" sID="8100BD6C" Partial="1">
+      <EDID>Storm_ManorGroundsSecurityRoom_Key</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Защитный ключ от Дарк-Холлоу</Source>
+      <Dest>#key# Защитный ключ от Дарк-Холлоу</Dest>
+    </String>
+    <String List="0" sID="8100C4AB" Partial="1">
+      <EDID>Storm_MQ04_HugoWallSafeKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от стенного сейфа</Source>
+      <Dest>#key# Ключ от стенного сейфа</Dest>
+    </String>
+    <String List="0" sID="D9000059" Partial="1">
+      <EDID>WL020_Key02</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от логова Льва</Source>
+      <Dest>#key# Ключ от логова Льва</Dest>
+    </String>
+    <String List="0" sID="D9000314" Partial="1">
+      <EDID>W05_MQR_205P_FacilitiesManagementKeycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ-карта управления комплексом Убежища 79</Source>
+      <Dest>#access_card# Ключ-карта управления комплексом Убежища 79</Dest>
+    </String>
+    <String List="0" sID="D9002BB3" Partial="1">
+      <EDID>W05_MQ_003P_Muscle_AssaultronRoomKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ к шоу-руму со штурмотроном</Source>
+      <Dest>#key# Ключ к шоу-руму со штурмотроном</Dest>
+    </String>
+    <String List="0" sID="D9002BB4" Partial="1">
+      <EDID>WL020_Key01</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ менеджера</Source>
+      <Dest>#key# Ключ менеджера</Dest>
+    </String>
+    <String List="0" sID="D9002BB5" Partial="1">
+      <EDID>POI286_GauleyMineExitKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ к выходу из шахты &quot;Гоули&quot;</Source>
+      <Dest>#key# Ключ к выходу из шахты &quot;Гоули&quot;</Dest>
+    </String>
+    <String List="0" sID="D9002BB6" Partial="1">
+      <EDID>GraftonSteelUndergroundKeycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Замещение системы безопасности &quot;Графтон стил&quot;</Source>
+      <Dest>#access_card# Замещение системы безопасности &quot;Графтон стил&quot;</Dest>
+    </String>
+    <String List="0" sID="D9002BB7" Partial="1">
+      <EDID>W05_MQ_004P_Crane_CacheKeycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ-карта от экспериментального автотайника &quot;РобКо&quot;</Source>
+      <Dest>#access_card# Ключ-карта от экспериментального автотайника &quot;РобКо&quot;</Dest>
+    </String>
+    <String List="0" sID="D9002BB8" Partial="1">
+      <EDID>WL035_FloydKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ Флойда</Source>
+      <Dest>#key# Ключ Флойда</Dest>
+    </String>
+    <String List="0" sID="D9002BB9" Partial="1">
+      <EDID>WU_GarageAKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Альфа-ключ от гаража</Source>
+      <Dest>#key# Альфа-ключ от гаража</Dest>
+    </String>
+    <String List="0" sID="D9002BBA" Partial="1">
+      <EDID>UCB_PRC_BasementKey01</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ доступа к &quot;Золотой жиле&quot; КНР</Source>
+      <Dest>#key# Ключ доступа к &quot;Золотой жиле&quot; КНР</Dest>
+    </String>
+    <String List="0" sID="D9002BBB" Partial="1">
+      <EDID>W05_MQ_101P_OverseerHomeKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от подвала Смотрительницы</Source>
+      <Dest>#key# Ключ от подвала Смотрительницы</Dest>
+    </String>
+    <String List="0" sID="D9002BBF" Partial="1">
+      <EDID>WL048_MausoleumKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от мавзолея Кановы</Source>
+      <Dest>#key# Ключ от мавзолея Кановы</Dest>
+    </String>
+    <String List="0" sID="D9002BC0" Partial="1">
+      <EDID>W05_MQ_102P_ReactorKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от реакторного отсека</Source>
+      <Dest>#key# Ключ от реакторного отсека</Dest>
+    </String>
+    <String List="0" sID="D9002BC2" Partial="1">
+      <EDID>Vault79ShootingRangePassword</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль к стрельбищу</Source>
+      <Dest>#access_card# Пароль к стрельбищу</Dest>
+    </String>
+    <String List="0" sID="D9002BC3" Partial="1">
+      <EDID>W05_MQ_004P_Crane_CraneRoomKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от комнаты наверху в &quot;Уэйуорде&quot;</Source>
+      <Dest>#key# Ключ от комнаты наверху в &quot;Уэйуорде&quot;</Dest>
+    </String>
+    <String List="0" sID="D9002BC4" Partial="1">
+      <EDID>DomeKeycard</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Карта для доступа в купол</Source>
+      <Dest>#access_card# Карта для доступа в купол</Dest>
+    </String>
+    <String List="0" sID="D9002BC5" Partial="1">
+      <EDID>W05_MQ_101P_A_RepairTerminalKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Пароль от терминала</Source>
+      <Dest>#access_card# Пароль от терминала</Dest>
+    </String>
+    <String List="0" sID="D9002BC6" Partial="1">
+      <EDID>W05_MQ_003P_Muscle_ProtectronRoomKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ к шоу-руму с протектроном</Source>
+      <Dest>#key# Ключ к шоу-руму с протектроном</Dest>
+    </String>
+    <String List="0" sID="D9002BC8" Partial="1">
+      <EDID>WatogaSewersKey01</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от зала техобслуживания</Source>
+      <Dest>#key# Ключ от зала техобслуживания</Dest>
+    </String>
+    <String List="0" sID="D9002BC9" Partial="1">
+      <EDID>WL035_EarlKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ Эрла</Source>
+      <Dest>#key# Ключ Эрла</Dest>
+    </String>
+    <String List="0" sID="D9002BCA" Partial="1">
+      <EDID>W05_MQ_004P_Crane_CacheControlRoomKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ от центра управления тайником</Source>
+      <Dest>#key# Ключ от центра управления тайником</Dest>
+    </String>
+    <String List="0" sID="D9002BCB" Partial="1">
+      <EDID>W05_MQ_003P_Muscle_HandyRoomKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Ключ к шоу-руму с Мистером Помощником</Source>
+      <Dest>#key# Ключ к шоу-руму с Мистером Помощником</Dest>
+    </String>
+    <String List="0" sID="D9004ED0" Partial="1">
+      <EDID>W05_MQS_204P_TheMazeID</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>ID области проверки Хорнрайта</Source>
+      <Dest>#access_card# ID области проверки Хорнрайта</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>

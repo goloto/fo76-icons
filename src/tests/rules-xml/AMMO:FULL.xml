@@ -1,0 +1,953 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>SeventySix</Addon>
+    <Source>ru</Source>
+    <Dest>ru</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0" sID="0002D3" Partial="1">
+      <EDID>Ammo_ThirstZapperCherry</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Боеприпас &quot;Ядер-Вишня&quot;</Source>
+      <Dest>#ballistic_ammo# Боеприпас &quot;Ядер-Вишня&quot;</Dest>
+    </String>
+    <String List="0" sID="0003DB">
+      <EDID>crAmmoDLC01_Mezmatron</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>DLC01AmmoMezmatron</Source>
+      <Dest>DLC01AmmoMezmatron</Dest>
+    </String>
+    <String List="0" sID="00069A" Partial="1">
+      <EDID>POST_AmmoDLC05_FireworkPeonyGreen</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Миномет</Source>
+      <Dest>#ballistic_ammo# Миномет</Dest>
+    </String>
+    <String List="0" sID="0006A8" Partial="1">
+      <EDID>POST_AmmoDLC05_FireworkMinutemenFlare</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Миномет</Source>
+      <Dest>#ballistic_ammo# Миномет</Dest>
+    </String>
+    <String List="0" sID="0006B8" Partial="1">
+      <EDID>POST_AmmoDLC05_FireworkWeatherRain</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Миномет</Source>
+      <Dest>#ballistic_ammo# Миномет</Dest>
+    </String>
+    <String List="0" sID="0006D4" Partial="1">
+      <EDID>POST_AmmoDLC05_FireworkPeonyRed</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Миномет</Source>
+      <Dest>#ballistic_ammo# Миномет</Dest>
+    </String>
+    <String List="0" sID="000754">
+      <EDID>crAmmoDLC01_RobobrainSyringer</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Пригодно для инъекций</Source>
+      <Dest>Пригодно для инъекций</Dest>
+    </String>
+    <String List="0" sID="0008D0" Partial="1">
+      <EDID>POST_AmmoDLC05_FireworkPeonyPink</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Миномет</Source>
+      <Dest>#ballistic_ammo# Миномет</Dest>
+    </String>
+    <String List="0" sID="0008D4" Partial="1">
+      <EDID>POST_AmmoDLC05_FireworkPeonyYellow</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Миномет</Source>
+      <Dest>#ballistic_ammo# Миномет</Dest>
+    </String>
+    <String List="0" sID="0008D7" Partial="1">
+      <EDID>POST_AmmoDLC05_FireworkPeonyBlue</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Миномет</Source>
+      <Dest>#ballistic_ammo# Миномет</Dest>
+    </String>
+    <String List="0" sID="0008DA" Partial="1">
+      <EDID>POST_AmmoDLC05_FireworkCrackle</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Миномет</Source>
+      <Dest>#ballistic_ammo# Миномет</Dest>
+    </String>
+    <String List="0" sID="000926" Partial="1">
+      <EDID>POST_AmmoDLC05_FireworkPalmGold</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Миномет</Source>
+      <Dest>#ballistic_ammo# Миномет</Dest>
+    </String>
+    <String List="0" sID="00092A" Partial="1">
+      <EDID>POST_AmmoDLC05_FireworkPalmSilver</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Миномет</Source>
+      <Dest>#ballistic_ammo# Миномет</Dest>
+    </String>
+    <String List="0" sID="000940" Partial="1">
+      <EDID>POST_AmmoDLC05_PaintballBlue</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Шарик с краской — синий</Source>
+      <Dest>#ballistic_ammo# Шарик с краской — синий</Dest>
+    </String>
+    <String List="0" sID="000964" Partial="1">
+      <EDID>POST_AmmoDLC05_PaintballGlow</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Шарик с краской — светящийся</Source>
+      <Dest>#ballistic_ammo# Шарик с краской — светящийся</Dest>
+    </String>
+    <String List="0" sID="0009D0" Partial="1">
+      <EDID>POST_AmmoDLC05_PaintballGreen</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Шарик с краской — зеленый</Source>
+      <Dest>#ballistic_ammo# Шарик с краской — зеленый</Dest>
+    </String>
+    <String List="0" sID="0009D6" Partial="1">
+      <EDID>POST_AmmoDLC05_PaintballRed</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Шарик с краской — красный</Source>
+      <Dest>#ballistic_ammo# Шарик с краской — красный</Dest>
+    </String>
+    <String List="0" sID="0009D9" Partial="1">
+      <EDID>POST_AmmoDLC05_PaintballWhite</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Шарик с краской — белый</Source>
+      <Dest>#ballistic_ammo# Шарик с краской — белый</Dest>
+    </String>
+    <String List="0" sID="0009DB" Partial="1">
+      <EDID>POST_AmmoDLC05_PaintballYellow</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Шарик с краской — желтый</Source>
+      <Dest>#ballistic_ammo# Шарик с краской — желтый</Dest>
+    </String>
+    <String List="0" sID="001DB5">
+      <EDID>crAmmoDLC01_BotMissile</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ракета</Source>
+      <Dest>Ракета</Dest>
+    </String>
+    <String List="0" sID="001DB6">
+      <EDID>crAmmoDLC01_Bot556</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>5,56-мм патрон</Source>
+      <Dest>5,56-мм патрон</Dest>
+    </String>
+    <String List="0" sID="001DBB" Partial="1">
+      <EDID>crAmmoDLC01_BotFlamerFuel</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Топливо для огнемета</Source>
+      <Dest>#fuel# Топливо для огнемета</Dest>
+    </String>
+    <String List="0" sID="001DBD" Partial="1">
+      <EDID>crAmmoDLC01_BotFatManMiniNuke</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ядерный минизаряд</Source>
+      <Dest>#mini_nuke# Ядерный минизаряд</Dest>
+    </String>
+    <String List="0" sID="001DC3">
+      <EDID>crAmmoDLC01_BotRRSpike</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Железнодорожный гвоздь</Source>
+      <Dest>Железнодорожный гвоздь</Dest>
+    </String>
+    <String List="0" sID="001DDF">
+      <EDID>crAmmoDLC01_BotCryoCell</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Криогенный заряд</Source>
+      <Dest>Криогенный заряд</Dest>
+    </String>
+    <String List="0" sID="001DEB" Partial="1">
+      <EDID>crAmmoDLC01_BotFusionCell</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ядерная батарея</Source>
+      <Dest>#fusion_cell# Ядерная батарея</Dest>
+    </String>
+    <String List="0" sID="001DF1" Partial="1">
+      <EDID>crAmmoDLC01_BotGammaCell</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Гамма-патрон</Source>
+      <Dest>#gamma_round# Гамма-патрон</Dest>
+    </String>
+    <String List="0" sID="0020AB" Partial="1">
+      <EDID>POST_AmmoDLC03_FatManBowlingBall</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Модифицированный шар для боулинга</Source>
+      <Dest>#ballistic_ammo# Модифицированный шар для боулинга</Dest>
+    </String>
+    <String List="0" sID="0023A7" Partial="1">
+      <EDID>zzz_AmmoDLC04_AcidSoaker</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Концентрированная кислота</Source>
+      <Dest>#ballistic_ammo# Концентрированная кислота</Dest>
+    </String>
+    <String List="0" sID="0027CE" Partial="1">
+      <EDID>AmmoDLC04_BotNukatronCherry</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ядер-Вишня (боеприпас)</Source>
+      <Dest>#ballistic_ammo# Ядер-Вишня (боеприпас)</Dest>
+    </String>
+    <String List="0" sID="0027D2" Partial="1">
+      <EDID>AmmoDLC04_BotNukatronQuantum</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Квантовая Ядер-кола (боеприпас)</Source>
+      <Dest>#ballistic_ammo# Квантовая Ядер-кола (боеприпас)</Dest>
+    </String>
+    <String List="0" sID="0043AD" Partial="1">
+      <EDID>Ammo_ThirstZapperWater</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Немного воды</Source>
+      <Dest>#ballistic_ammo# Немного воды</Dest>
+    </String>
+    <String List="0" sID="012812" Partial="1">
+      <EDID>Ammo50Caliber</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Патрон калибра .50</Source>
+      <Dest>#ballistic_ammo# Патрон калибра .50</Dest>
+    </String>
+    <String List="0" sID="012E1E">
+      <EDID>crAmmoBloodBug</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Лужа крови</Source>
+      <Dest>Лужа крови</Dest>
+    </String>
+    <String List="0" sID="012EC0">
+      <EDID>crAmmoMirelurkQueen</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Спрей для омаров</Source>
+      <Dest>Спрей для омаров</Dest>
+    </String>
+    <String List="0" sID="0142FF" Partial="1">
+      <EDID>Ammo2mmEC</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>2-мм электромагнитный картридж</Source>
+      <Dest>#ballistic_ammo# 2-мм электромагнитный картридж</Dest>
+    </String>
+    <String List="0" sID="0146BA" Partial="1">
+      <EDID>crAmmoFusionCellEyebot</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ядерная батарея</Source>
+      <Dest>#fusion_cell# Ядерная батарея</Dest>
+    </String>
+    <String List="0" sID="0148F2">
+      <EDID>crAmmoMirelurkHunter</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Спрей для омаров</Source>
+      <Dest>Спрей для омаров</Dest>
+    </String>
+    <String List="0" sID="017F9E" Partial="1">
+      <EDID>AmmoPlasmaCartridge</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Заряд плазмы</Source>
+      <Dest>#ballistic_ammo# Заряд плазмы</Dest>
+    </String>
+    <String List="0" sID="01907B" Partial="1">
+      <EDID>AmmoFusionCoreMeltdown</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ядерный блок</Source>
+      <Dest>#fusion_core# Ядерный блок</Dest>
+    </String>
+    <String List="0" sID="01988D" Partial="1">
+      <EDID>AmmoRRSpike</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Железнодорожный гвоздь</Source>
+      <Dest>#ballistic_ammo# Железнодорожный гвоздь</Dest>
+    </String>
+    <String List="0" sID="019BFF" Partial="1">
+      <EDID>Ammo45Caliber</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Патрон калибра .45</Source>
+      <Dest>#ballistic_ammo# Патрон калибра .45</Dest>
+    </String>
+    <String List="0" sID="019EEB" Partial="1">
+      <EDID>AmmoCryoCell</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Криогенный заряд</Source>
+      <Dest>#ballistic_ammo# Криогенный заряд</Dest>
+    </String>
+    <String List="0" sID="01A9BE" Partial="1">
+      <EDID>AmmoFatManMiniNuke</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ядерный минизаряд</Source>
+      <Dest>#mini_nuke# Ядерный минизаряд</Dest>
+    </String>
+    <String List="0" sID="01AEF6" Partial="1">
+      <EDID>AmmoFusionCore</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ядерный блок</Source>
+      <Dest>#fusion_core# Ядерный блок</Dest>
+    </String>
+    <String List="0" sID="01B0C0" Partial="1">
+      <EDID>AmmoCannonBall</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Пушечное ядро</Source>
+      <Dest>#ballistic_ammo# Пушечное ядро</Dest>
+    </String>
+    <String List="0" sID="01B0F7" Partial="1">
+      <EDID>Ammo556</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>5,56-мм патрон</Source>
+      <Dest>#ballistic_ammo# 5,56-мм патрон</Dest>
+    </String>
+    <String List="0" sID="01B282">
+      <EDID>crAmmoMirelurkQueenSpawn</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Яйца болотника</Source>
+      <Dest>Яйца болотника</Dest>
+    </String>
+    <String List="0" sID="01BCE5" Partial="1">
+      <EDID>AmmoFlareGun</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Сигнальная ракета</Source>
+      <Dest>#ballistic_ammo# Сигнальная ракета</Dest>
+    </String>
+    <String List="0" sID="01BF9B" Partial="1">
+      <EDID>AmmoFlamerFuel</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Топливо</Source>
+      <Dest>#fuel# Топливо</Dest>
+    </String>
+    <String List="0" sID="01C426" Partial="1">
+      <EDID>Ammo38Caliber</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Патрон калибра .38</Source>
+      <Dest>#ballistic_ammo# Патрон калибра .38</Dest>
+    </String>
+    <String List="0" sID="01D88F" Partial="1">
+      <EDID>zzz_AmmoJunkJet</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Хлам</Source>
+      <Dest>#ballistic_ammo# Хлам</Dest>
+    </String>
+    <String List="0" sID="01F3E2" Partial="1">
+      <EDID>crAmmoFusionCellLtBlue</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ядерная батарея</Source>
+      <Dest>#fusion_cell# Ядерная батарея</Dest>
+    </String>
+    <String List="0" sID="0219D9" Partial="1">
+      <EDID>crAmmoAssaultron</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ядерная батарея</Source>
+      <Dest>#ballistic_ammo# Ядерная батарея</Dest>
+    </String>
+    <String List="0" sID="021EC5" Partial="1">
+      <EDID>Ammo308Caliber</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Патрон калибра .308</Source>
+      <Dest>#ballistic_ammo# Патрон калибра .308</Dest>
+    </String>
+    <String List="0" sID="0230E2" Partial="1">
+      <EDID>AmmoGammaCell</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Гамма-патрон</Source>
+      <Dest>#gamma_round# Гамма-патрон</Dest>
+    </String>
+    <String List="0" sID="0238D7" Partial="1">
+      <EDID>AmmoFusionCell</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ядерная батарея</Source>
+      <Dest>#fusion_cell# Ядерная батарея</Dest>
+    </String>
+    <String List="0" sID="024A91">
+      <EDID>crAmmoBloatfly</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Жало личинки дутня</Source>
+      <Dest>Жало личинки дутня</Dest>
+    </String>
+    <String List="0" sID="024C1F" Partial="1">
+      <EDID>Ammo44</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Патрон калибра .44</Source>
+      <Dest>#ballistic_ammo# Патрон калибра .44</Dest>
+    </String>
+    <String List="0" sID="024F3A" Partial="1">
+      <EDID>AmmoMissile</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ракета</Source>
+      <Dest>#rocket# Ракета</Dest>
+    </String>
+    <String List="0" sID="0253C8" Partial="1">
+      <EDID>AmmoSyringer</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Заряды для инъектора</Source>
+      <Dest>#ballistic_ammo# Заряды для инъектора</Dest>
+    </String>
+    <String List="0" sID="0254DC" Partial="1">
+      <EDID>AmmoShotgunShell</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Патрон дробовика</Source>
+      <Dest>#ballistic_ammo# Патрон дробовика</Dest>
+    </String>
+    <String List="0" sID="025727" Partial="1">
+      <EDID>Ammo10mm</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>10-мм патрон</Source>
+      <Dest>#ballistic_ammo# 10-мм патрон</Dest>
+    </String>
+    <String List="0" sID="02572A" Partial="1">
+      <EDID>Ammo5mm</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>5-мм патрон</Source>
+      <Dest>#ballistic_ammo# 5-мм патрон</Dest>
+    </String>
+    <String List="0" sID="027FC7">
+      <EDID>crAmmoMirelurkKing</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Звуковой удар</Source>
+      <Dest>Звуковой удар</Dest>
+    </String>
+    <String List="0" sID="0280AF">
+      <EDID>zzz_DN029_AmmoCannonLauncher</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Патрон М203</Source>
+      <Dest>Патрон М203</Dest>
+    </String>
+    <String List="0" sID="02B294" Partial="1">
+      <EDID>AmmoWorkshopArtillery</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Миномет</Source>
+      <Dest>#ballistic_ammo# Миномет</Dest>
+    </String>
+    <String List="0" sID="02B37B" Partial="1">
+      <EDID>AmmoWorkshopArtilleryFar</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Миномет</Source>
+      <Dest>#ballistic_ammo# Миномет</Dest>
+    </String>
+    <String List="0" sID="02B491" Partial="1">
+      <EDID>AmmoWorkshopArtilleryClose</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Миномет</Source>
+      <Dest>#ballistic_ammo# Миномет</Dest>
+    </String>
+    <String List="0" sID="02BE3B" Partial="1">
+      <EDID>zzz_AmmoFusionCoreKnightMeltdown</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ядерный блок</Source>
+      <Dest>#fusion_core# Ядерный блок</Dest>
+    </String>
+    <String List="0" sID="02EBBB">
+      <EDID>Ammo5mm_NonPlayable</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>5-мм патрон</Source>
+      <Dest>5-мм патрон</Dest>
+    </String>
+    <String List="0" sID="02F2B5" Partial="1">
+      <EDID>AmmoSentryShoulder</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ракета</Source>
+      <Dest>#rocket# Ракета</Dest>
+    </String>
+    <String List="0" sID="030A23" Partial="1">
+      <EDID>AmmoFusionCoreNoSteal</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ядерный блок</Source>
+      <Dest>#fusion_core# Ядерный блок</Dest>
+    </String>
+    <String List="0" sID="0320D0" Partial="1">
+      <EDID>AmmoAlienBlaster</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Боеприпас для бластера Чужих</Source>
+      <Dest>#ballistic_ammo# Боеприпас для бластера Чужих</Dest>
+    </String>
+    <String List="0" sID="033902" Partial="1">
+      <EDID>AmmoWorkshopTrapFlamethrowerFuel</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Топливо для огнемета</Source>
+      <Dest>#fuel# Топливо для огнемета</Dest>
+    </String>
+    <String List="0" sID="03E599" Partial="1">
+      <EDID>POST_AmmoDLC05_PaintballOrange</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Шарик с краской — оранжевый</Source>
+      <Dest>#ballistic_ammo# Шарик с краской — оранжевый</Dest>
+    </String>
+    <String List="0" sID="03E59C" Partial="1">
+      <EDID>AmmoFusionCellUltracite</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ядерная батарея</Source>
+      <Dest>#fusion_cell# Ядерная батарея</Dest>
+    </String>
+    <String List="0" sID="03E59E" Partial="1">
+      <EDID>crAmmoGraftonOilBomb</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Боеприпасы — графтонская напалмовая бомба</Source>
+      <Dest>#ballistic_ammo# Боеприпасы — графтонская напалмовая бомба</Dest>
+    </String>
+    <String List="0" sID="03E5A0" Partial="1">
+      <EDID>crAmmoGraftonOilBombSalvo</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Залповые боеприприпасы графтонской напалмовой бомбы</Source>
+      <Dest>#ballistic_ammo# Залповые боеприприпасы графтонской напалмовой бомбы</Dest>
+    </String>
+    <String List="0" sID="03E5A2" Partial="1">
+      <EDID>Ammo_ThirstZapperQuantum</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Боеприпас &quot;Квантовая Ядер-Кола&quot;</Source>
+      <Dest>#ballistic_ammo# Боеприпас &quot;Квантовая Ядер-Кола&quot;</Dest>
+    </String>
+    <String List="0" sID="03E5A3" Partial="1">
+      <EDID>EN02_OrbitalStrikeAmmo</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Орбитальная забастовка</Source>
+      <Dest>#ballistic_ammo# Орбитальная забастовка</Dest>
+    </String>
+    <String List="0" sID="03E5A4">
+      <EDID>crAmmoSnallygasterSpitAttack</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Боеприпасы для плевка снеллигастера</Source>
+      <Dest>Боеприпасы для плевка снеллигастера</Dest>
+    </String>
+    <String List="0" sID="03E5A6" Partial="1">
+      <EDID>AmmoPlasmaCore</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Плазменный блок</Source>
+      <Dest>#fusion_core# Плазменный блок</Dest>
+    </String>
+    <String List="0" sID="03E5A8" Partial="1">
+      <EDID>AmmoDLC04_PaddleBall</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Веревка</Source>
+      <Dest>#ballistic_ammo# Веревка</Dest>
+    </String>
+    <String List="0" sID="03E5A9" Partial="1">
+      <EDID>AmmoCrossbowBolt</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Арбалетный болт</Source>
+      <Dest>#arrows# Арбалетный болт</Dest>
+    </String>
+    <String List="0" sID="03E5AB" Partial="1">
+      <EDID>AmmoHarpoon</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Гарпун</Source>
+      <Dest>#ballistic_ammo# Гарпун</Dest>
+    </String>
+    <String List="0" sID="03E5B0" Partial="1">
+      <EDID>Test_AmmoMissile</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ракета</Source>
+      <Dest>#rocket# Ракета</Dest>
+    </String>
+    <String List="0" sID="03E5B2">
+      <EDID>crAmmoScorchbeastQueenSonicAttack</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Боеприпасы для звукового удара зверожога</Source>
+      <Dest>Боеприпасы для звукового удара зверожога</Dest>
+    </String>
+    <String List="0" sID="03E5B4">
+      <EDID>crAmmoMothmanSonicAttack</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Боеприпасы для звукового удара Молерота</Source>
+      <Dest>Боеприпасы для звукового удара Молерота</Dest>
+    </String>
+    <String List="0" sID="03E5B5">
+      <EDID>crAmmoRadToadSpit</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Слюна рад-жабы</Source>
+      <Dest>Слюна рад-жабы</Dest>
+    </String>
+    <String List="0" sID="03E5B8">
+      <EDID>crAmmoScorchbeastStrafeAttack</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Боеприпасы для ураганной атаки зверожога</Source>
+      <Dest>Боеприпасы для ураганной атаки зверожога</Dest>
+    </String>
+    <String List="0" sID="03E5BA">
+      <EDID>crAmmoTickSpit</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Лужа крови</Source>
+      <Dest>Лужа крови</Dest>
+    </String>
+    <String List="0" sID="03E5BC" Partial="1">
+      <EDID>AmmoGrenadeLauncher</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Граната 40 мм</Source>
+      <Dest>#forty_mm_grenade# Граната 40 мм</Dest>
+    </String>
+    <String List="0" sID="03E5BE" Partial="1">
+      <EDID>Ammo50CaliberBall</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Шар калибра .50</Source>
+      <Dest>#ballistic_ammo# Шар калибра .50</Dest>
+    </String>
+    <String List="0" sID="03E5C0">
+      <EDID>crAmmoScorchbeastQueenStrafeAttack</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Боеприпасы для ураганной атаки зверожога</Source>
+      <Dest>Боеприпасы для ураганной атаки зверожога</Dest>
+    </String>
+    <String List="0" sID="03E5C2" Partial="1">
+      <EDID>zzz_AmmoBow</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Стрела</Source>
+      <Dest>#ballistic_ammo# Стрела</Dest>
+    </String>
+    <String List="0" sID="03E5C4">
+      <EDID>crAmmoScorchbeastSonicAttack</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Боеприпасы для звукового удара зверожога</Source>
+      <Dest>Боеприпасы для звукового удара зверожога</Dest>
+    </String>
+    <String List="0" sID="03E5C6">
+      <EDID>crAmmoHoneyBeastBeeSwarm</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Пчелиный рой медозверей</Source>
+      <Dest>Пчелиный рой медозверей</Dest>
+    </String>
+    <String List="0" sID="03E5C8" Partial="1">
+      <EDID>AmmoDLC04_NukaNuke</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>&quot;Ядер-Заряд&quot;</Source>
+      <Dest>#mini_nuke# &quot;Ядер-Заряд&quot;</Dest>
+    </String>
+    <String List="0" sID="040F7B" Partial="1">
+      <EDID>crAmmoFlatwoods</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ядерная батарея</Source>
+      <Dest>#ballistic_ammo# Ядерная батарея</Dest>
+    </String>
+    <String List="0" sID="0443DC" Partial="1">
+      <EDID>crAmmoMissile_Turret</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ракета</Source>
+      <Dest>#rocket# Ракета</Dest>
+    </String>
+    <String List="0" sID="046502" Partial="1">
+      <EDID>AmmoLiberatorLaserAmmo</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Боеприпасы к лазеру освободителя</Source>
+      <Dest>#ballistic_ammo# Боеприпасы к лазеру освободителя</Dest>
+    </String>
+    <String List="0" sID="0481AA" Partial="1">
+      <EDID>Ammo10mm_AntiScorchbeast</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ультрацитовый 10-мм патрон</Source>
+      <Dest>#ballistic_ammo# Ультрацитовый 10-мм патрон</Dest>
+    </String>
+    <String List="0" sID="0481AC" Partial="1">
+      <EDID>AmmoPlasmaCartridge_AntiScorchBeast</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ультрацитовый заряд плазмы</Source>
+      <Dest>#ballistic_ammo# Ультрацитовый заряд плазмы</Dest>
+    </String>
+    <String List="0" sID="0481AE" Partial="1">
+      <EDID>AmmoPlasmaCore_AntiScorched</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ультрацитовый плазменный блок</Source>
+      <Dest>#fusion_core# Ультрацитовый плазменный блок</Dest>
+    </String>
+    <String List="0" sID="0481B0" Partial="1">
+      <EDID>AmmoCrossbowBolt_AntiScorchBeast</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ультрацитовый арбалетный болт</Source>
+      <Dest>#arrows# Ультрацитовый арбалетный болт</Dest>
+    </String>
+    <String List="0" sID="0481B2" Partial="1">
+      <EDID>AmmoShotgunShell_AntiScorchBeast</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ультрацитовый патрон дробовика</Source>
+      <Dest>#ballistic_ammo# Ультрацитовый патрон дробовика</Dest>
+    </String>
+    <String List="0" sID="0481B4" Partial="1">
+      <EDID>Ammo44_AntiScorchBeast</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ультрацитовый патрон калибра .44</Source>
+      <Dest>#ballistic_ammo# Ультрацитовый патрон калибра .44</Dest>
+    </String>
+    <String List="0" sID="0481B6" Partial="1">
+      <EDID>Ammo308Caliber_AntiScorchBeast</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ультрацитовый патрон калибра .308</Source>
+      <Dest>#ballistic_ammo# Ультрацитовый патрон калибра .308</Dest>
+    </String>
+    <String List="0" sID="0481B8" Partial="1">
+      <EDID>AmmoFusionCore_AntiScorchBeast</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ультрацитовый ядерный блок</Source>
+      <Dest>#fusion_core# Ультрацитовый ядерный блок</Dest>
+    </String>
+    <String List="0" sID="0481BA" Partial="1">
+      <EDID>Ammo50Cal_AntiScorchBeast</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ультрацитовый патрон калибра .50</Source>
+      <Dest>#ballistic_ammo# Ультрацитовый патрон калибра .50</Dest>
+    </String>
+    <String List="0" sID="0481BC" Partial="1">
+      <EDID>AmmoRRSpike_AntiScorchBeast</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ультрацитовый железнодорожный гвоздь</Source>
+      <Dest>#ballistic_ammo# Ультрацитовый железнодорожный гвоздь</Dest>
+    </String>
+    <String List="0" sID="0481BE" Partial="1">
+      <EDID>Ammo45Caliber_AntiScorchBeast</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ультрацитовый патрон калибра .45</Source>
+      <Dest>#ballistic_ammo# Ультрацитовый патрон калибра .45</Dest>
+    </String>
+    <String List="0" sID="0481C0" Partial="1">
+      <EDID>AmmoFusionCell_AntiScorchBeast</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ультрацитовая ядерная батарея</Source>
+      <Dest>#fusion_cell# Ультрацитовая ядерная батарея</Dest>
+    </String>
+    <String List="0" sID="0481C4" Partial="1">
+      <EDID>Ammo556_AntiScorchBeast</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ультрацитовый патрон калибра 5,56</Source>
+      <Dest>#ballistic_ammo# Ультрацитовый патрон калибра 5,56</Dest>
+    </String>
+    <String List="0" sID="0481C6" Partial="1">
+      <EDID>Ammo5mm_AntiScorchBeast</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ультрацитовый 5-мм патрон</Source>
+      <Dest>#ballistic_ammo# Ультрацитовый 5-мм патрон</Dest>
+    </String>
+    <String List="0" sID="048670" Partial="1">
+      <EDID>Ammo38Caliber_AntiScorchBeast</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ультрацитовый патрон калибра .38</Source>
+      <Dest>#ballistic_ammo# Ультрацитовый патрон калибра .38</Dest>
+    </String>
+    <String List="0" sID="04B990">
+      <EDID>crAmmoWendigoScreamAttack</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Боеприпасы для вопля вендиго</Source>
+      <Dest>Боеприпасы для вопля вендиго</Dest>
+    </String>
+    <String List="0" sID="056D40">
+      <EDID>crAmmoFloaterFreezerBreath</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Боеприпасы замораживающего плавуна</Source>
+      <Dest>Боеприпасы замораживающего плавуна</Dest>
+    </String>
+    <String List="0" sID="056D42">
+      <EDID>crAmmoFloaterFlamerBreath</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Топливо для огнедышащего плавуна</Source>
+      <Dest>Топливо для огнедышащего плавуна</Dest>
+    </String>
+    <String List="0" sID="0571AC">
+      <EDID>crAmmoFloaterFreezerStare</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Топливо для огнедышащего плавуна</Source>
+      <Dest>Топливо для огнедышащего плавуна</Dest>
+    </String>
+    <String List="0" sID="05BD84" Partial="1">
+      <EDID>Ammo_Arrow_Firework</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Стрела-фейерверк</Source>
+      <Dest>#arrows# Стрела-фейерверк</Dest>
+    </String>
+    <String List="0" sID="05BD86" Partial="1">
+      <EDID>Ammo_Arrow_Explosive</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Взрывчатая стрела</Source>
+      <Dest>#arrows# Взрывчатая стрела</Dest>
+    </String>
+    <String List="0" sID="05BD88" Partial="1">
+      <EDID>Ammo_Arrow_Poison</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Отравленная стрела</Source>
+      <Dest>#arrows# Отравленная стрела</Dest>
+    </String>
+    <String List="0" sID="05BD8A" Partial="1">
+      <EDID>Ammo_Arrow_Plasma</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Плазменная стрела</Source>
+      <Dest>#arrows# Плазменная стрела</Dest>
+    </String>
+    <String List="0" sID="05BD8C" Partial="1">
+      <EDID>Ammo_Arrow_Flaming</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Огненная стрела</Source>
+      <Dest>#arrows# Огненная стрела</Dest>
+    </String>
+    <String List="0" sID="05BD8E" Partial="1">
+      <EDID>Ammo_Arrow_Cryo</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Криострела</Source>
+      <Dest>#arrows# Криострела</Dest>
+    </String>
+    <String List="0" sID="39293D6D" Partial="1">
+      <EDID>AmmoAlienBlaster_DailyOps</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Боеприпас для бластера Чужих</Source>
+      <Dest>#ballistic_ammo# Боеприпас для бластера Чужих</Dest>
+    </String>
+    <String List="0" sID="41000B06" Partial="1">
+      <EDID>Ammo_Arrow_Broadhead</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Стрела</Source>
+      <Dest>#arrows# Стрела</Dest>
+    </String>
+    <String List="0" sID="41005FDD" Partial="1">
+      <EDID>Ammo_ThirstZapperNukaCola</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Боеприпас &quot;Ядер-Кола&quot;</Source>
+      <Dest>#ballistic_ammo# Боеприпас &quot;Ядер-Кола&quot;</Dest>
+    </String>
+    <String List="0" sID="410064FF" Partial="1">
+      <EDID>AmmoCamera</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Пленка для камеры</Source>
+      <Dest>#camera_film# Пленка для камеры</Dest>
+    </String>
+    <String List="0" sID="5900065E">
+      <EDID>test111122a</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Test</Source>
+      <Dest>Test</Dest>
+    </String>
+    <String List="0" sID="61002E7B" Partial="1">
+      <EDID>V96_1_SuppressionSyringerAmmo</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Убежище 96 — Шприц &quot;Подавитель&quot; I</Source>
+      <Dest>#ballistic_ammo# Убежище 96 — Шприц &quot;Подавитель&quot; I</Dest>
+    </String>
+    <String List="0" sID="610098B7" Partial="1">
+      <EDID>Ammo_Arrow_AntiScorchBeast</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ультрацитовая стрела</Source>
+      <Dest>#arrows# Ультрацитовая стрела</Dest>
+    </String>
+    <String List="0" sID="6100F4FE" Partial="1">
+      <EDID>crAmmoGammaCell</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Гамма-патрон</Source>
+      <Dest>#gamma_round# Гамма-патрон</Dest>
+    </String>
+    <String List="0" sID="61012D4E" Partial="1">
+      <EDID>Ammo2mmEC_AntiScorchBeast</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ультрацитовый 2-мм электромагнитный картридж</Source>
+      <Dest>#ballistic_ammo# Ультрацитовый 2-мм электромагнитный картридж</Dest>
+    </String>
+    <String List="0" sID="6101ABBE" Partial="1">
+      <EDID>AmmoOvergrownElder</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Боеприпасы для разросшегося-старейшины</Source>
+      <Dest>#ballistic_ammo# Боеприпасы для разросшегося-старейшины</Dest>
+    </String>
+    <String List="0" sID="71006635">
+      <EDID>crAmmoLesserDevilCombatTaunt</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Боеприпасы боевой насмешки малого дьявола</Source>
+      <Dest>Боеприпасы боевой насмешки малого дьявола</Dest>
+    </String>
+    <String List="0" sID="710067AE">
+      <EDID>DEL_crAmmoJerseyDevilSinisterGaze</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Зловещий взгляд Дьявола из Джерси</Source>
+      <Dest>Зловещий взгляд Дьявола из Джерси</Dest>
+    </String>
+    <String List="0" sID="710067B0">
+      <EDID>DEl_crAmmoJerseyDevilChargeAttack_01</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Усиленная атака Дьявола из Джерси</Source>
+      <Dest>Усиленная атака Дьявола из Джерси</Dest>
+    </String>
+    <String List="0" sID="710067B2">
+      <EDID>DEL_crAmmoJerseyDevilBoulder</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Бросок камня Дьявола из Джерси</Source>
+      <Dest>Бросок камня Дьявола из Джерси</Dest>
+    </String>
+    <String List="0" sID="71009783">
+      <EDID>crAmmoJerseyDevilBoulder</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Дьявол из Джерси, каменные боеприпасы</Source>
+      <Dest>Дьявол из Джерси, каменные боеприпасы</Dest>
+    </String>
+    <String List="0" sID="71009785">
+      <EDID>crAmmoJerseyDevilAoEFear</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Дьявол из Джерси, боеприпасы массового страха</Source>
+      <Dest>Дьявол из Джерси, боеприпасы массового страха</Dest>
+    </String>
+    <String List="0" sID="71009787">
+      <EDID>crAmmoJerseyDevilSinisterGaze</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Зловещий взгляд Дьявола из Джерси, боеприпасы</Source>
+      <Dest>Зловещий взгляд Дьявола из Джерси, боеприпасы</Dest>
+    </String>
+    <String List="0" sID="79000210" Partial="1">
+      <EDID>crAmmoFatManMiniNuke</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Ядерный минизаряд</Source>
+      <Dest>#mini_nuke# Ядерный минизаряд</Dest>
+    </String>
+    <String List="0" sID="81002B7D" Partial="1">
+      <EDID>Ammo_FireworkRed</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Красный фейерверк</Source>
+      <Dest>#ballistic_ammo# Красный фейерверк</Dest>
+    </String>
+    <String List="0" sID="81002B7F" Partial="1">
+      <EDID>Ammo_FireworkPalmSilver</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Фейерверк &quot;Серебряная россыпь&quot;</Source>
+      <Dest>#ballistic_ammo# Фейерверк &quot;Серебряная россыпь&quot;</Dest>
+    </String>
+    <String List="0" sID="81002B81" Partial="1">
+      <EDID>Ammo_FireworkPalmGold</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Фейерверк &quot;Золотая россыпь&quot;</Source>
+      <Dest>#ballistic_ammo# Фейерверк &quot;Золотая россыпь&quot;</Dest>
+    </String>
+    <String List="0" sID="81002B83" Partial="1">
+      <EDID>Ammo_FireworkYellow</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Желтый фейерверк</Source>
+      <Dest>#ballistic_ammo# Желтый фейерверк</Dest>
+    </String>
+    <String List="0" sID="81002B85" Partial="1">
+      <EDID>Ammo_FireworkBlue</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Синий фейерверк</Source>
+      <Dest>#ballistic_ammo# Синий фейерверк</Dest>
+    </String>
+    <String List="0" sID="81002B87" Partial="1">
+      <EDID>Ammo_FireworkGreen</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Зеленый фейерверк</Source>
+      <Dest>#ballistic_ammo# Зеленый фейерверк</Dest>
+    </String>
+    <String List="0" sID="81002B89" Partial="1">
+      <EDID>Ammo_FireworkPink</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Розовый фейерверк</Source>
+      <Dest>#ballistic_ammo# Розовый фейерверк</Dest>
+    </String>
+    <String List="0" sID="810033F4">
+      <EDID>crAmmoUltraciteAbominationBelch</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Отрыжка</Source>
+      <Dest>Отрыжка</Dest>
+    </String>
+    <String List="0" sID="81008DD1">
+      <EDID>crAmmoRadTurkeySonicGobble</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Клекот рад-индюка: боеприпасы</Source>
+      <Dest>Клекот рад-индюка: боеприпасы</Dest>
+    </String>
+    <String List="0" sID="D9002D37" Partial="1">
+      <EDID>W05_MQ_003P_Muscle_AmmoFusionCell_Polly</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Изношенная ядерная батарея</Source>
+      <Dest>#fusion_cell# Изношенная ядерная батарея</Dest>
+    </String>
+    <String List="0" sID="D9002D3A" Partial="1">
+      <EDID>crAmmoFloaterFlamerFireball</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Боезапас для огненного шара плавуна</Source>
+      <Dest>#ballistic_ammo# Боезапас для огненного шара плавуна</Dest>
+    </String>
+    <String List="0" sID="D90059C4" Partial="1">
+      <EDID>AmmoBlueFlamerFuel</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Топливо</Source>
+      <Dest>#fuel# Топливо</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>
