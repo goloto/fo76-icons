@@ -84,6 +84,7 @@ export enum ICON_KEYS {
     AccessCard = 'access_card'
 }
 export enum ICON_NOTES {
+    TreasureMap = 'treasure_map',
     Note = 'note',
     Check = 'check',
     Plan = 'plan'
@@ -188,6 +189,7 @@ export enum ICON_ARMOR {
     TSixtyFive = 't_sixty_five',
     Spacesuit = 'spacesuit',
     Underarmor = 'underarmor',
+    Excavator = 'excavator',
     ArmorLeftArm = 'armor_left_arm',
     ArmorRightLeg = 'armor_right_leg',
     TSixty = 't_sixty',

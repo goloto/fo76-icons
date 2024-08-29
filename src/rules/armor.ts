@@ -1,7 +1,25 @@
 import { ICON_ARMOR } from "@/generated/icons-enum";
 import { LeftSignature, RightSignature } from "@/constants";
-import type { RulesGroup } from "@/types";
+import type { IncludeProperty, RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
+const excavatorInclude: IncludeProperty[] = [
+    "ekwd|excavator"
+];
+const t45include: IncludeProperty[] = [
+    "ekwd|t45"
+];
+const t51include: IncludeProperty[] = [
+    "ekwd|t51"
+];
+const t60include: IncludeProperty[] = [
+    "ekwd|t60"
+];
+const t65include: IncludeProperty[] = [
+    "ekwd|PowerArmor_T65"
+];
+const x01include: IncludeProperty[] = [
+    "ekwd|x01"
+];
 export const ARMOR_RULES_GROUP = {
     category: ICON_CATEGORIES.Armor,
     rules: [
@@ -47,15 +65,28 @@ export const ARMOR_RULES_GROUP = {
                 "ekwd|PowerArmor_LeftLeg",
                 "ekwd|PowerArmor_RightLeg",
                 "ekwd|PowerArmor_Torso",
-                "ekwd|t45",
-                "ekwd|t51",
-                "ekwd|t60",
-                "ekwd|PowerArmor_T65",
-                "ekwd|x01",
+                ...t45include,
+                ...t51include,
+                ...t60include,
+                ...t65include,
+                ...x01include,
             ],
         },
         {
             order: 3,
+            prefix: [ICON_ARMOR.Excavator],
+            leftSignature: LeftSignature.InstanceNamingRules,
+            rightSignature: RightSignature.WNAM,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: excavatorInclude,
+            exclude: [],
+        },
+        {
+            order: 4,
             prefix: [ICON_ARMOR.TFortyFive],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -64,11 +95,11 @@ export const ARMOR_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|t45"],
+            include: t45include,
             exclude: [],
         },
         {
-            order: 4,
+            order: 5,
             prefix: [ICON_ARMOR.TFivtyOne],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -77,11 +108,11 @@ export const ARMOR_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|t51"],
+            include: t51include,
             exclude: [],
         },
         {
-            order: 5,
+            order: 6,
             prefix: [ICON_ARMOR.TSixty],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -90,11 +121,11 @@ export const ARMOR_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|t60"],
+            include: t60include,
             exclude: [],
         },
         {
-            order: 6,
+            order: 7,
             prefix: [ICON_ARMOR.TSixtyFive],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -103,11 +134,11 @@ export const ARMOR_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|PowerArmor_T65"],
+            include: t65include,
             exclude: [],
         },
         {
-            order: 7,
+            order: 8,
             prefix: [ICON_ARMOR.XOne],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -116,20 +147,7 @@ export const ARMOR_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|x01"],
-            exclude: [],
-        },
-        {
-            order: 8,
-            prefix: [ICON_ARMOR.Underarmor],
-            leftSignature: LeftSignature.Armor,
-            rightSignature: RightSignature.FULL,
-            isInjected: false,
-            isDeleted: false,
-            isAnyKeyword: false,
-            isInclusiveOr: false,
-            isFullReplaced: false,
-            include: ["edid|Armor_Vault118_UnderwearClean"],
+            include: x01include,
             exclude: [],
         },
         {
@@ -142,11 +160,24 @@ export const ARMOR_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: ["ekwd|ObjectTypeUnderarmor",],
+            include: ["edid|Armor_Vault118_UnderwearClean"],
             exclude: [],
         },
         {
             order: 10,
+            prefix: [ICON_ARMOR.Underarmor],
+            leftSignature: LeftSignature.Armor,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["ekwd|ObjectTypeUnderarmor",],
+            exclude: [],
+        },
+        {
+            order: 11,
             prefix: [ICON_ARMOR.Spacesuit],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -162,7 +193,7 @@ export const ARMOR_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 11,
+            order: 12,
             prefix: [ICON_ARMOR.ChestArmor],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -179,7 +210,7 @@ export const ARMOR_RULES_GROUP = {
             ],
         },
         {
-            order: 12,
+            order: 13,
             prefix: [ICON_ARMOR.ArmorRightArm],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -196,7 +227,7 @@ export const ARMOR_RULES_GROUP = {
             exclude: ["ekwd|ArmorTypePower"],
         },
         {
-            order: 13,
+            order: 14,
             prefix: [ICON_ARMOR.ArmorLeftArm],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -213,7 +244,7 @@ export const ARMOR_RULES_GROUP = {
             exclude: ["ekwd|ArmorTypePower"],
         },
         {
-            order: 14,
+            order: 15,
             prefix: [ICON_ARMOR.ArmorRightLeg],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -230,7 +261,7 @@ export const ARMOR_RULES_GROUP = {
             exclude: ["ekwd|ArmorTypePower"],
         },
         {
-            order: 15,
+            order: 16,
             prefix: [ICON_ARMOR.ArmorLeftLeg],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,

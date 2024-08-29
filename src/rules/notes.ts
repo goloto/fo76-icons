@@ -20,6 +20,19 @@ export const NOTES_RULES_GROUP = {
         },
         {
             order: 1,
+            prefix: [ICON_NOTES.TreasureMap],
+            leftSignature: LeftSignature.Book,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["edid|TreasureMap"],
+            exclude: [],
+        },
+        {
+            order: 2,
             prefix: [ICON_NOTES.Note],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -32,7 +45,7 @@ export const NOTES_RULES_GROUP = {
             exclude: ["ekwd|ObjectTypeRecipe", "ekwd|MagazineKeyword"],
         },
         {
-            order: 2,
+            order: 3,
             prefix: [ICON_NOTES.Check],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
