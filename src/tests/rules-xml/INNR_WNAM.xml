@@ -7,23 +7,11 @@
     <Version>2</Version>
   </Params>
   <Content>
-    <String List="0" sID="0339B9">
-      <EDID>dn_Clothes</EDID>
-      <REC>INNR:WNAM</REC>
-      <Source>*</Source>
-      <Dest>*</Dest>
-    </String>
     <String List="0" sID="034E92" Partial="1">
       <EDID>dn_VaultSuit</EDID>
       <REC id="3" idMax="5">INNR:WNAM</REC>
       <Source>Защитная</Source>
       <Dest>#_injected_innr_eraser#</Dest>
-    </String>
-    <String List="0" sID="034ECA">
-      <EDID>dn_VaultSuit</EDID>
-      <REC id="5" idMax="5">INNR:WNAM</REC>
-      <Source>*</Source>
-      <Dest>*</Dest>
     </String>
     <String List="0" sID="034EDB" Partial="1">
       <EDID>dn_VaultSuit</EDID>
@@ -120,12 +108,6 @@
       <REC id="11" idMax="12">INNR:WNAM</REC>
       <Source>Целеуказательный</Source>
       <Dest>#_injected_innr_eraser#</Dest>
-    </String>
-    <String List="0" sID="4100831D">
-      <EDID>dn_CommonHandHeld</EDID>
-      <REC id="12" idMax="12">INNR:WNAM</REC>
-      <Source>*</Source>
-      <Dest>*</Dest>
     </String>
     <String List="0" sID="4100AEB8" Partial="1">
       <EDID>dn_PipBoy</EDID>
@@ -373,12 +355,6 @@
       <Source>Скаут-пионер</Source>
       <Dest>#_injected_innr_eraser#</Dest>
     </String>
-    <String List="0" sID="4100AEE1">
-      <EDID>dn_PipBoy</EDID>
-      <REC id="41" idMax="41">INNR:WNAM</REC>
-      <Source>*</Source>
-      <Dest>*</Dest>
-    </String>
     <String List="0" sID="4100B222" Partial="1">
       <EDID>dn_BackPack</EDID>
       <REC id="0" idMax="105">INNR:WNAM</REC>
@@ -420,12 +396,6 @@
       <REC id="6" idMax="105">INNR:WNAM</REC>
       <Source>Бакалейщика</Source>
       <Dest>#_injected_innr_eraser#</Dest>
-    </String>
-    <String List="0" sID="4100B229">
-      <EDID>dn_BackPack</EDID>
-      <REC id="7" idMax="105">INNR:WNAM</REC>
-      <Source>*</Source>
-      <Dest>*</Dest>
     </String>
     <String List="0" sID="4100B22A" Partial="1">
       <EDID>dn_BackPack</EDID>
@@ -1002,18 +972,6 @@
       <REC id="103" idMax="105">INNR:WNAM</REC>
       <Source>Охотник с Пустоши</Source>
       <Dest>#_injected_innr_eraser#</Dest>
-    </String>
-    <String List="0" sID="4100B28A">
-      <EDID>dn_BackPack</EDID>
-      <REC id="105" idMax="105">INNR:WNAM</REC>
-      <Source>*</Source>
-      <Dest>*</Dest>
-    </String>
-    <String List="0" sID="4100B8A9">
-      <EDID>dn_PowerArmor</EDID>
-      <REC id="0" idMax="302">INNR:WNAM</REC>
-      <Source>   </Source>
-      <Dest>   </Dest>
     </String>
     <String List="0" sID="4100B8AA" Partial="1">
       <EDID>dn_PowerArmor</EDID>
@@ -1859,25 +1817,25 @@
       <EDID>dn_PowerArmor</EDID>
       <REC id="141" idMax="302">INNR:WNAM</REC>
       <Source>Спасатели</Source>
-      <Dest>#_injected_innr_eraser#</Dest>
+      <Dest>#excavator# Спасатели</Dest>
     </String>
     <String List="0" sID="4100B937" Partial="1">
       <EDID>dn_PowerArmor</EDID>
       <REC id="142" idMax="302">INNR:WNAM</REC>
       <Source>Кровавый рейдер</Source>
-      <Dest>#_injected_innr_eraser#</Dest>
+      <Dest>#excavator# Кровавый рейдер</Dest>
     </String>
     <String List="0" sID="4100B938" Partial="1">
       <EDID>dn_PowerArmor</EDID>
       <REC id="143" idMax="302">INNR:WNAM</REC>
       <Source>Арктос</Source>
-      <Dest>#_injected_innr_eraser#</Dest>
+      <Dest>#excavator# Арктос</Dest>
     </String>
     <String List="0" sID="4100B939" Partial="1">
       <EDID>dn_PowerArmor</EDID>
       <REC id="144" idMax="302">INNR:WNAM</REC>
       <Source>Костяной рейдер</Source>
-      <Dest>#_injected_innr_eraser#</Dest>
+      <Dest>#excavator# Костяной рейдер</Dest>
     </String>
     <String List="0" sID="4100B93A" Partial="1">
       <EDID>dn_PowerArmor</EDID>
@@ -1889,7 +1847,7 @@
       <EDID>dn_PowerArmor</EDID>
       <REC id="146" idMax="302">INNR:WNAM</REC>
       <Source>Угольная пыль</Source>
-      <Dest>#_injected_innr_eraser#</Dest>
+      <Dest>#excavator# Угольная пыль</Dest>
     </String>
     <String List="0" sID="4100B93C" Partial="1">
       <EDID>dn_PowerArmor</EDID>
@@ -1901,7 +1859,7 @@
       <EDID>dn_PowerArmor</EDID>
       <REC id="148" idMax="302">INNR:WNAM</REC>
       <Source>Экстрактор Гаррахан</Source>
-      <Dest>#_injected_innr_eraser#</Dest>
+      <Dest>#excavator# Экстрактор Гаррахан</Dest>
     </String>
     <String List="0" sID="4100B93E" Partial="1">
       <EDID>dn_PowerArmor</EDID>
@@ -2219,13 +2177,13 @@
       <EDID>dn_PowerArmor</EDID>
       <REC id="201" idMax="302">INNR:WNAM</REC>
       <Source>Серебряная раскопочная броня</Source>
-      <Dest>#_injected_innr_eraser#</Dest>
+      <Dest>#excavator# Серебряная раскопочная броня</Dest>
     </String>
     <String List="0" sID="4100B973" Partial="1">
       <EDID>dn_PowerArmor</EDID>
       <REC id="202" idMax="302">INNR:WNAM</REC>
       <Source>Пожарная</Source>
-      <Dest>#_injected_innr_eraser#</Dest>
+      <Dest>#excavator# Пожарная</Dest>
     </String>
     <String List="0" sID="4100B974" Partial="1">
       <EDID>dn_PowerArmor</EDID>
@@ -2483,7 +2441,7 @@
       <EDID>dn_PowerArmor</EDID>
       <REC id="245" idMax="302">INNR:WNAM</REC>
       <Source>&quot;Рейдер — собиратель черепов&quot;</Source>
-      <Dest>#_injected_innr_eraser#</Dest>
+      <Dest>#excavator# &quot;Рейдер — собиратель черепов&quot;</Dest>
     </String>
     <String List="0" sID="4100B99F" Partial="1">
       <EDID>dn_PowerArmor</EDID>
@@ -2791,42 +2749,6 @@
       <Source>Хеллкэт</Source>
       <Dest>#power_armor_helmet# Хеллкэт</Dest>
     </String>
-    <String List="0" sID="4100B9D2">
-      <EDID>dn_PowerArmor</EDID>
-      <REC id="297" idMax="302">INNR:WNAM</REC>
-      <Source>(Голова)</Source>
-      <Dest>(Голова)</Dest>
-    </String>
-    <String List="0" sID="4100B9D3">
-      <EDID>dn_PowerArmor</EDID>
-      <REC id="298" idMax="302">INNR:WNAM</REC>
-      <Source>Левая рука</Source>
-      <Dest>Левая рука</Dest>
-    </String>
-    <String List="0" sID="4100B9D4">
-      <EDID>dn_PowerArmor</EDID>
-      <REC id="299" idMax="302">INNR:WNAM</REC>
-      <Source>Левая нога</Source>
-      <Dest>Левая нога</Dest>
-    </String>
-    <String List="0" sID="4100B9D5">
-      <EDID>dn_PowerArmor</EDID>
-      <REC id="300" idMax="302">INNR:WNAM</REC>
-      <Source>Правая рука</Source>
-      <Dest>Правая рука</Dest>
-    </String>
-    <String List="0" sID="4100B9D6">
-      <EDID>dn_PowerArmor</EDID>
-      <REC id="301" idMax="302">INNR:WNAM</REC>
-      <Source>Правая нога</Source>
-      <Dest>Правая нога</Dest>
-    </String>
-    <String List="0" sID="4100B9D7">
-      <EDID>dn_PowerArmor</EDID>
-      <REC id="302" idMax="302">INNR:WNAM</REC>
-      <Source>Туловище</Source>
-      <Dest>Туловище</Dest>
-    </String>
     <String List="0" sID="4100BA2C" Partial="1">
       <EDID>dn_BackPack</EDID>
       <REC id="104" idMax="105">INNR:WNAM</REC>
@@ -2862,12 +2784,6 @@
       <REC id="1" idMax="2">INNR:WNAM</REC>
       <Source>Дафна</Source>
       <Dest>#_injected_innr_eraser#</Dest>
-    </String>
-    <String List="0" sID="6100D52F">
-      <EDID>SCORE_S5_COMP_Inspector_dn_Name</EDID>
-      <REC id="2" idMax="2">INNR:WNAM</REC>
-      <Source>*</Source>
-      <Dest>*</Dest>
     </String>
     <String List="0" sID="6101672D" Partial="1">
       <EDID>dn_NPCs</EDID>
@@ -2982,18 +2898,6 @@
       <REC id="18" idMax="19">INNR:WNAM</REC>
       <Source>Зараж.</Source>
       <Dest>#_injected_innr_eraser#</Dest>
-    </String>
-    <String List="0" sID="61016740">
-      <EDID>dn_NPCs</EDID>
-      <REC id="19" idMax="19">INNR:WNAM</REC>
-      <Source>*</Source>
-      <Dest>*</Dest>
-    </String>
-    <String List="0" sID="6101AE99">
-      <EDID>dn_CommonArmor</EDID>
-      <REC id="0" idMax="156">INNR:WNAM</REC>
-      <Source>   </Source>
-      <Dest>   </Dest>
     </String>
     <String List="0" sID="6101AE9A" Partial="1">
       <EDID>dn_CommonArmor</EDID>
@@ -3307,12 +3211,6 @@
       <Source>Опасное приключение</Source>
       <Dest>#_injected_innr_eraser#</Dest>
     </String>
-    <String List="0" sID="6101AECE">
-      <EDID>dn_CommonArmor</EDID>
-      <REC id="53" idMax="156">INNR:WNAM</REC>
-      <Source>  </Source>
-      <Dest>  </Dest>
-    </String>
     <String List="0" sID="6101AECF" Partial="1">
       <EDID>dn_CommonArmor</EDID>
       <REC id="54" idMax="156">INNR:WNAM</REC>
@@ -3468,12 +3366,6 @@
       <REC id="79" idMax="156">INNR:WNAM</REC>
       <Source>Зима на Аляске</Source>
       <Dest>#_injected_innr_eraser#</Dest>
-    </String>
-    <String List="0" sID="6101AEE9">
-      <EDID>dn_CommonArmor</EDID>
-      <REC id="82" idMax="156">INNR:WNAM</REC>
-      <Source>  </Source>
-      <Dest>  </Dest>
     </String>
     <String List="0" sID="6101AEEA" Partial="1">
       <EDID>dn_CommonArmor</EDID>
@@ -3913,12 +3805,6 @@
       <Source>&quot;Страж пути&quot;</Source>
       <Dest>#unique_weapon# &quot;Страж пути&quot;</Dest>
     </String>
-    <String List="0" sID="6101AF33">
-      <EDID>dn_CommonArmor</EDID>
-      <REC id="156" idMax="156">INNR:WNAM</REC>
-      <Source>*</Source>
-      <Dest>*</Dest>
-    </String>
     <String List="0" sID="6101F6ED" Partial="1">
       <EDID>dn_CommonGun</EDID>
       <REC id="0" idMax="446">INNR:WNAM</REC>
@@ -4332,12 +4218,6 @@
       <REC id="68" idMax="446">INNR:WNAM</REC>
       <Source>Алмаз</Source>
       <Dest>#_injected_innr_eraser#</Dest>
-    </String>
-    <String List="0" sID="6101F732">
-      <EDID>dn_CommonGun</EDID>
-      <REC id="70" idMax="446">INNR:WNAM</REC>
-      <Source>  </Source>
-      <Dest>  </Dest>
     </String>
     <String List="0" sID="6101F733" Partial="1">
       <EDID>dn_CommonGun</EDID>
@@ -4908,12 +4788,6 @@
       <REC id="165" idMax="446">INNR:WNAM</REC>
       <Source>Ядовитый</Source>
       <Dest>#_injected_innr_eraser#</Dest>
-    </String>
-    <String List="0" sID="6101F792">
-      <EDID>dn_CommonGun</EDID>
-      <REC id="166" idMax="446">INNR:WNAM</REC>
-      <Source>  </Source>
-      <Dest>  </Dest>
     </String>
     <String List="0" sID="6101F793" Partial="1">
       <EDID>dn_CommonGun</EDID>
@@ -6049,12 +5923,6 @@
       <Source>Проклятый</Source>
       <Dest>#_injected_innr_eraser#</Dest>
     </String>
-    <String List="0" sID="6101F850">
-      <EDID>dn_CommonGun</EDID>
-      <REC id="356" idMax="446">INNR:WNAM</REC>
-      <Source> </Source>
-      <Dest> </Dest>
-    </String>
     <String List="0" sID="6101F851" Partial="1">
       <EDID>dn_CommonGun</EDID>
       <REC id="357" idMax="446">INNR:WNAM</REC>
@@ -6120,12 +5988,6 @@
       <REC id="367" idMax="446">INNR:WNAM</REC>
       <Source>Гарпуномет с иглами</Source>
       <Dest>#_injected_innr_eraser#</Dest>
-    </String>
-    <String List="0" sID="6101F85C">
-      <EDID>dn_CommonGun</EDID>
-      <REC id="368" idMax="446">INNR:WNAM</REC>
-      <Source>   </Source>
-      <Dest>   </Dest>
     </String>
     <String List="0" sID="6101F85D" Partial="1">
       <EDID>dn_CommonGun</EDID>
@@ -6204,18 +6066,6 @@
       <REC id="381" idMax="446">INNR:WNAM</REC>
       <Source>Ядер-мет</Source>
       <Dest>#_injected_innr_eraser#</Dest>
-    </String>
-    <String List="0" sID="6101F86A">
-      <EDID>dn_CommonGun</EDID>
-      <REC id="382" idMax="446">INNR:WNAM</REC>
-      <Source>   </Source>
-      <Dest>   </Dest>
-    </String>
-    <String List="0" sID="6101F86B">
-      <EDID>dn_CommonGun</EDID>
-      <REC id="383" idMax="446">INNR:WNAM</REC>
-      <Source>*</Source>
-      <Dest>*</Dest>
     </String>
     <String List="0" sID="6101F86C" Partial="1">
       <EDID>dn_CommonGun</EDID>
@@ -6594,12 +6444,6 @@
       <REC id="446" idMax="446">INNR:WNAM</REC>
       <Source>&quot;Красная ракета&quot; (Дракон)</Source>
       <Dest>#_injected_innr_eraser#</Dest>
-    </String>
-    <String List="0" sID="6101F967">
-      <EDID>dn_CommonMelee</EDID>
-      <REC id="0" idMax="210">INNR:WNAM</REC>
-      <Source>  </Source>
-      <Dest>  </Dest>
     </String>
     <String List="0" sID="6101F968" Partial="1">
       <EDID>dn_CommonMelee</EDID>
@@ -7050,12 +6894,6 @@
       <REC id="76" idMax="210">INNR:WNAM</REC>
       <Source>Ядер-рулька</Source>
       <Dest>#unique_weapon# Ядер-рулька</Dest>
-    </String>
-    <String List="0" sID="6101F9B3">
-      <EDID>dn_CommonMelee</EDID>
-      <REC id="78" idMax="210">INNR:WNAM</REC>
-      <Source>  </Source>
-      <Dest>  </Dest>
     </String>
     <String List="0" sID="6101F9B4" Partial="1">
       <EDID>dn_CommonMelee</EDID>
@@ -7627,12 +7465,6 @@
       <Source>Потрошитель</Source>
       <Dest>#unique_weapon# Потрошитель</Dest>
     </String>
-    <String List="0" sID="6101FA13">
-      <EDID>dn_CommonMelee</EDID>
-      <REC id="174" idMax="210">INNR:WNAM</REC>
-      <Source>Ключ к сердцу</Source>
-      <Dest>Ключ к сердцу</Dest>
-    </String>
     <String List="0" sID="6101FA14" Partial="1">
       <EDID>dn_CommonMelee</EDID>
       <REC id="175" idMax="210">INNR:WNAM</REC>
@@ -7818,30 +7650,6 @@
       <REC id="205" idMax="210">INNR:WNAM</REC>
       <Source>Трезубец</Source>
       <Dest>#_injected_innr_eraser#</Dest>
-    </String>
-    <String List="0" sID="6101FA33">
-      <EDID>dn_CommonMelee</EDID>
-      <REC id="206" idMax="210">INNR:WNAM</REC>
-      <Source>*</Source>
-      <Dest>*</Dest>
-    </String>
-    <String List="0" sID="6101FA34">
-      <EDID>dn_CommonMelee</EDID>
-      <REC id="207" idMax="210">INNR:WNAM</REC>
-      <Source>Ключ к сердцу</Source>
-      <Dest>Ключ к сердцу</Dest>
-    </String>
-    <String List="0" sID="6101FA35">
-      <EDID>dn_CommonMelee</EDID>
-      <REC id="208" idMax="210">INNR:WNAM</REC>
-      <Source>Ключ к сердцу</Source>
-      <Dest>Ключ к сердцу</Dest>
-    </String>
-    <String List="0" sID="6101FA36">
-      <EDID>dn_CommonMelee</EDID>
-      <REC id="209" idMax="210">INNR:WNAM</REC>
-      <Source>Ключ к сердцу</Source>
-      <Dest>Ключ к сердцу</Dest>
     </String>
     <String List="0" sID="6101FA37" Partial="1">
       <EDID>dn_CommonMelee</EDID>
