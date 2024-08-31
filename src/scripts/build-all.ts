@@ -4,6 +4,7 @@ import {
   generateHeadersFile,
   generateIconsEnumFile,
   generateIconsFile,
+  generateTranslateFile,
   generateUnicodeMapFile,
   sortCategories,
   sortRules,
@@ -18,6 +19,7 @@ const build = async () => {
   await generateIconsFile();
   await generateHeadersFile();
   await generateFontConfigFile();
+  await generateTranslateFile();
   await generateUnicodeMapFile();
 };
 

@@ -7,3 +7,4 @@ export * from './generate-icons-file';
 export * from './generate-unicode-map-file';
 export * from './sort-categories';
 export * from './sort-rules';
+export * from './generate-translate-file';
