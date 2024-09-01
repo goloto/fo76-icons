@@ -1,5 +1,6 @@
 import { getCharFromHexadecimal } from '@/utils/common';
 import { ICONS } from '@/generated/icons';
+import { OUTPUT_DIRECTORY } from '@/constants';
 
 const FONT_CONFIG_TEMPLATE = `fontlib "fonts_ru"
 map "$76HandwrittenIlliterate" = "HandwrittenIlliterate" Normal
@@ -38,7 +39,7 @@ export const generateFontConfigFile = async () => {
   );
 
   await Bun.write(
-    './headers/fontconfig_ru.txt',
+    `${OUTPUT_DIRECTORY}/fontconfig_ru.txt`,
     FONT_CONFIG_TEMPLATE.replace('%custom-characters%', characters)
   );
 };

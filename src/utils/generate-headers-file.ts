@@ -3,6 +3,7 @@ import { writeUtf8BomString } from '@/utils/file-writing';
 import type { Icon, IconNames, Rule } from '@/types';
 import * as ALL_RULES from '@/rules';
 import { ICONS } from '@/generated/icons';
+import { OUTPUT_DIRECTORY } from '@/constants';
 
 const HEADER_ANCHOR = '%header%';
 const INCLUDE_ANCHOR = '%include%';
@@ -78,8 +79,14 @@ export const generateHeadersFile = async () => {
     return withoutHeader.replace(HEADER_ANCHOR, header);
   });
 
-  await writeUtf8BomString('./headers/HeaderRules.txt', regularResult);
-  await writeUtf8BomString('./headers/HeaderRules_testing.txt', testingResult);
+  await writeUtf8BomString(
+    `${OUTPUT_DIRECTORY}/HeaderRules.txt`,
+    regularResult
+  );
+  await writeUtf8BomString(
+    `${OUTPUT_DIRECTORY}/HeaderRules_testing.txt`,
+    testingResult
+  );
 };
 
 const reduceRules = (
