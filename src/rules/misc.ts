@@ -72,6 +72,19 @@ export const MISC_RULES_GROUP = {
         },
         {
             order: 5,
+            prefix: [ICON_MISC.LegendaryModification],
+            leftSignature: LeftSignature.Misc,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["edid|LegendaryShard"],
+            exclude: [],
+        },
+        {
+            order: 6,
             prefix: [ICON_MISC.Flux],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -84,7 +97,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 6,
+            order: 7,
             prefix: [ICON_MISC.Token],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -97,7 +110,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 7,
+            order: 8,
             prefix: [ICON_MISC.Cards],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -110,7 +123,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 8,
+            order: 9,
             prefix: [ICON_MISC.Bulk],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -123,7 +136,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 9,
+            order: 10,
             prefix: [ICON_MISC.Components],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -136,7 +149,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 10,
+            order: 11,
             prefix: [ICON_MISC.Corpse],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -164,7 +177,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 11,
+            order: 12,
             prefix: [ICON_MISC.Skull],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -177,7 +190,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 12,
+            order: 13,
             prefix: [ICON_MISC.Bones],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -190,7 +203,7 @@ export const MISC_RULES_GROUP = {
             exclude: ["ekwd|BoneTypeSkull"],
         },
         {
-            order: 13,
+            order: 14,
             prefix: [ICON_MISC.TeddyBear],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -203,7 +216,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 14,
+            order: 15,
             prefix: [ICON_MISC.RocketToy],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -216,7 +229,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 15,
+            order: 16,
             prefix: [ICON_MISC.CircuitBoard],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -233,7 +246,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 16,
+            order: 17,
             prefix: [ICON_MISC.Canister],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -246,7 +259,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 17,
+            order: 18,
             prefix: [ICON_MISC.MetalScrap],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -265,7 +278,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 18,
+            order: 19,
             prefix: [ICON_MISC.Ore],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -278,7 +291,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 19,
+            order: 20,
             prefix: [ICON_MISC.Junk],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -291,7 +304,7 @@ export const MISC_RULES_GROUP = {
             exclude: ["edid|miscmod"],
         },
         {
-            order: 20,
+            order: 21,
             prefix: [ICON_MISC.Quest],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,

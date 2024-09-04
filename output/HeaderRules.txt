@@ -6,7 +6,7 @@
 [EndHeader]
 
 [StartRule]
- Header=⊿
+ Header=⋀
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -24,7 +24,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋀
+ Header=⋁
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -42,7 +42,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋁
+ Header=⋂
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -60,7 +60,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋂
+ Header=⋃
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -78,7 +78,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋃
+ Header=⋄
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -97,7 +97,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋄
+ Header=⋅
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -115,7 +115,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋅
+ Header=⋆
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -134,7 +134,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋆
+ Header=⋇
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -155,7 +155,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋇
+ Header=⋈
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -177,7 +177,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋈
+ Header=⋉
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -195,7 +195,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋉
+ Header=⋊
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -213,7 +213,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋊
+ Header=⋋
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -233,7 +233,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋋
+ Header=⋌
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -252,7 +252,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋌
+ Header=⋍
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -270,7 +270,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋍
+ Header=⋎
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -288,7 +288,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋎
+ Header=⋏
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -307,7 +307,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋏
+ Header=⋐
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -331,7 +331,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋐
+ Header=⋑
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -349,7 +349,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋑
+ Header=⋒
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -367,7 +367,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋒
+ Header=⋓
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -385,7 +385,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋓
+ Header=⋔
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -403,7 +403,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊴
+ Header=⊵
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -422,7 +422,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊵
+ Header=⊶
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -441,7 +441,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊶
+ Header=⊷
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -460,7 +460,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊷
+ Header=⊸
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -478,7 +478,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊸
+ Header=⊹
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -496,7 +496,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊹
+ Header=⊺
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -514,7 +514,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊺
+ Header=⊻
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -532,7 +532,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊻
+ Header=⊼
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -552,7 +552,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊼
+ Header=⊽
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -571,7 +571,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊽
+ Header=⊾
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -589,7 +589,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊾
+ Header=⊿
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -612,7 +612,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋵
+ Header=⋶
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -635,7 +635,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋶
+ Header=⋷
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -715,7 +715,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋷
+ Header=⋸
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -741,7 +741,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋸
+ Header=⋹
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -764,7 +764,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋹
+ Header=⋺
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -783,7 +783,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋺
+ Header=⋻
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -843,7 +843,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋻
+ Header=⋼
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -861,7 +861,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋻
+ Header=⋼
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -881,7 +881,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋼
+ Header=⋽
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -900,7 +900,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋽
+ Header=⋾
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -920,7 +920,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋾
+ Header=⋿
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -938,7 +938,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋿
+ Header=⌀
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -956,7 +956,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌀
+ Header=⌁
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -975,7 +975,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌁
+ Header=⌂
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -996,7 +996,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌁
+ Header=⌂
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1017,7 +1017,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌂
+ Header=⌃
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1035,7 +1035,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌂
+ Header=⌃
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1053,7 +1053,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌂
+ Header=⌃
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1081,7 +1081,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌃
+ Header=⌄
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1099,7 +1099,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌄
+ Header=⌅
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1117,7 +1117,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌅
+ Header=⌆
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1135,7 +1135,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌆
+ Header=⌇
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1153,7 +1153,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌇
+ Header=⌈
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1171,7 +1171,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌈
+ Header=⌉
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1189,7 +1189,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌉
+ Header=⌊
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1207,7 +1207,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌉
+ Header=⌊
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1225,7 +1225,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊
+ Header=⌋
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1244,7 +1244,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌋
+ Header=⌌
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1264,7 +1264,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌌
+ Header=⌍
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1284,7 +1284,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌍
+ Header=⌎
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1304,7 +1304,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌎
+ Header=⌏
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1324,7 +1324,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌏
+ Header=⌐
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1362,7 +1362,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋔
+ Header=⋕
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1382,7 +1382,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋕
+ Header=⋖
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1401,7 +1401,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋖
+ Header=⋗
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1419,7 +1419,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋗
+ Header=⋘
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1438,7 +1438,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋘
+ Header=⋙
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1456,7 +1456,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋙
+ Header=⋚
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1483,7 +1483,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋚
+ Header=⋛
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1501,7 +1501,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋛
+ Header=⋜
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1519,7 +1519,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋜
+ Header=⋝
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1537,7 +1537,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋝
+ Header=⋞
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1555,7 +1555,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋞
+ Header=⋟
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1573,7 +1573,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋟
+ Header=⋠
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1591,7 +1591,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋠
+ Header=⋡
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1611,7 +1611,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋡
+ Header=⋢
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1631,7 +1631,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋢
+ Header=⋣
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1651,24 +1651,6 @@
 [EndRule]
 
 [StartRule]
- Header=⋣
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|bubblegum
- Exclude_0=
-[EndRule]
-
-[StartRule]
  Header=⋤
  rSig=ALCH
  fSig=FULL
@@ -1682,7 +1664,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|FancyLadSnackCakes
+ Include_0=edid|bubblegum
  Exclude_0=
 [EndRule]
 
@@ -1718,7 +1700,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ObjectTypeCandy
+ Include_0=edid|FancyLadSnackCakes
  Exclude_0=
 [EndRule]
 
@@ -1736,12 +1718,30 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
+ Include_0=ekwd|ObjectTypeCandy
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋨
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
  Include_0=ekwd|ObjectTypeCakesPies
  Exclude_0=ekwd|IngredientTypeMeat
 [EndRule]
 
 [StartRule]
- Header=⋨
+ Header=⋩
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1766,7 +1766,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋩
+ Header=⋪
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1790,7 +1790,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋪
+ Header=⋫
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1810,7 +1810,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋫
+ Header=⋬
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1834,7 +1834,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋬
+ Header=⋭
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1856,7 +1856,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋭
+ Header=⋮
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1874,7 +1874,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋮
+ Header=⋯
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1892,7 +1892,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋯
+ Header=⋰
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1912,7 +1912,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋰
+ Header=⋱
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1932,7 +1932,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋱
+ Header=⋲
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1950,7 +1950,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋲
+ Header=⋳
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1974,7 +1974,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋳
+ Header=⋴
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1993,7 +1993,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋴
+ Header=⋵
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2011,7 +2011,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌧
+ Header=⌨
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -2029,7 +2029,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌨
+ Header=〈
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -2047,7 +2047,7 @@
 [EndRule]
 
 [StartRule]
- Header=〈
+ Header=〉
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -2065,7 +2065,7 @@
 [EndRule]
 
 [StartRule]
- Header=〉
+ Header=⌫
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -2083,7 +2083,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌫
+ Header=⌬
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -2101,7 +2101,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌬
+ Header=⌭
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -2119,7 +2119,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌭
+ Header=⌮
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -2137,7 +2137,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌮
+ Header=⌯
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -2155,7 +2155,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌯
+ Header=⌰
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -2173,7 +2173,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌰
+ Header=⌱
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -2191,7 +2191,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌱
+ Header=⌲
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -2209,7 +2209,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌲
+ Header=⌳
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -2227,7 +2227,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌳
+ Header=⌴
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -2245,7 +2245,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌴
+ Header=⌵
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -2263,7 +2263,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌵
+ Header=⌶
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -2281,7 +2281,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌶
+ Header=⌷
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -2299,7 +2299,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌷
+ Header=⌸
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -2317,7 +2317,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊲
+ Header=⊳
  rSig=NOTE
  fSig=FULL
  enabled=-1
@@ -2335,7 +2335,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊳
+ Header=⊴
  rSig=NOTE
  fSig=FULL
  enabled=-1
@@ -2353,7 +2353,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊬
+ Header=⊭
  rSig=KEYM
  fSig=FULL
  enabled=-1
@@ -2385,7 +2385,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊭
+ Header=⊮
  rSig=KEYM
  fSig=FULL
  enabled=-1
@@ -3112,7 +3112,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌘
+ Header=⌙
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3131,7 +3131,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌙
+ Header=⌚
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3150,7 +3150,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌚
+ Header=⌛
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3168,7 +3168,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌛
+ Header=⌜
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3186,7 +3186,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌜
+ Header=⌝
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3204,7 +3204,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌝
+ Header=⌞
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3222,7 +3222,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌞
+ Header=⌟
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3240,25 +3240,6 @@
 [EndRule]
 
 [StartRule]
- Header=⌟
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|WeaponTypeAxe
- Include_1=ekwd|WeaponTypeMelee1H
- Exclude_0=
-[EndRule]
-
-[StartRule]
  Header=⌠
  rSig=WEAP
  fSig=FULL
@@ -3272,7 +3253,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|WeaponTypeBlunt
+ Include_0=ekwd|WeaponTypeAxe
  Include_1=ekwd|WeaponTypeMelee1H
  Exclude_0=
 [EndRule]
@@ -3291,7 +3272,8 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|WeaponTypeMelee1H
+ Include_0=ekwd|WeaponTypeBlunt
+ Include_1=ekwd|WeaponTypeMelee1H
  Exclude_0=
 [EndRule]
 
@@ -3309,12 +3291,30 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|SuperSledge
+ Include_0=ekwd|WeaponTypeMelee1H
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=⌣
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|SuperSledge
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌤
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3333,7 +3333,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌤
+ Header=⌥
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3352,7 +3352,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌥
+ Header=⌦
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3371,7 +3371,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌦
+ Header=⌧
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3605,7 +3605,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ObjectTypeFlux
+ Include_0=edid|LegendaryShard
  Exclude_0=
 [EndRule]
 
@@ -3623,7 +3623,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|token
+ Include_0=ekwd|ObjectTypeFlux
  Exclude_0=
 [EndRule]
 
@@ -3641,7 +3641,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|Moon_CryptidCardKeyword
+ Include_0=edid|token
  Exclude_0=
 [EndRule]
 
@@ -3659,7 +3659,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|Bulk
+ Include_0=ekwd|Moon_CryptidCardKeyword
  Exclude_0=
 [EndRule]
 
@@ -3677,12 +3677,30 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ObjectTypeComponent
+ Include_0=edid|Bulk
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=⊡
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeComponent
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊢
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3713,7 +3731,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊢
+ Header=⊣
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3731,7 +3749,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊣
+ Header=⊤
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3749,7 +3767,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊤
+ Header=⊥
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3767,7 +3785,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊥
+ Header=⊦
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3785,7 +3803,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊦
+ Header=⊧
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3805,7 +3823,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊧
+ Header=⊨
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3823,7 +3841,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊨
+ Header=⊩
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3845,7 +3863,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊩
+ Header=⊪
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3863,7 +3881,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊪
+ Header=⊫
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3881,7 +3899,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊫
+ Header=⊬
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3899,7 +3917,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊮
+ Header=⊯
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -3917,7 +3935,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊯
+ Header=⊰
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -3935,7 +3953,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊰
+ Header=⊱
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -3954,7 +3972,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊱
+ Header=⊲
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -3972,7 +3990,7 @@
 [EndRule]
 
 [StartRule]
- Header=⍄
+ Header=⍅
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3990,7 +4008,7 @@
 [EndRule]
 
 [StartRule]
- Header=⍅
+ Header=⍆
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4008,24 +4026,6 @@
 [EndRule]
 
 [StartRule]
- Header=⍆
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|GammaGun
- Exclude_0=
-[EndRule]
-
-[StartRule]
  Header=⍇
  rSig=WEAP
  fSig=FULL
@@ -4039,7 +4039,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=edid|GammaGun
  Exclude_0=
 [EndRule]
 
@@ -4072,11 +4072,10 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=-1
+ includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|revolver
- Include_1=edid|44
+ Include_0=
  Exclude_0=
 [EndRule]
 
@@ -4091,10 +4090,11 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=edid|revolver
+ Include_1=edid|44
  Exclude_0=
 [EndRule]
 
@@ -4112,7 +4112,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|PipeBoltAction
+ Include_0=
  Exclude_0=
 [EndRule]
 
@@ -4130,7 +4130,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|FlareGun
+ Include_0=edid|PipeBoltAction
  Exclude_0=
 [EndRule]
 
@@ -4148,7 +4148,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|BoSPistol
+ Include_0=edid|FlareGun
  Exclude_0=
 [EndRule]
 
@@ -4166,7 +4166,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|ThirstZapper
+ Include_0=edid|BoSPistol
  Exclude_0=
 [EndRule]
 
@@ -4184,12 +4184,12 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|BlackPowder_Pistol
+ Include_0=edid|ThirstZapper
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⌸
+ Header=⍐
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4202,7 +4202,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|fixer
+ Include_0=edid|BlackPowder_Pistol
  Exclude_0=
 [EndRule]
 
@@ -4220,7 +4220,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|HandmadeRifle
+ Include_0=edid|fixer
  Exclude_0=
 [EndRule]
 
@@ -4238,7 +4238,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|RailwayRifle
+ Include_0=edid|HandmadeRifle
  Exclude_0=
 [EndRule]
 
@@ -4256,7 +4256,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|LightningGun
+ Include_0=edid|RailwayRifle
  Exclude_0=
 [EndRule]
 
@@ -4274,7 +4274,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|AlienRifle
+ Include_0=edid|LightningGun
  Exclude_0=
 [EndRule]
 
@@ -4292,7 +4292,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|GaussRifle
+ Include_0=edid|AlienRifle
  Exclude_0=
 [EndRule]
 
@@ -4310,7 +4310,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|PlasmaGun
+ Include_0=edid|GaussRifle
  Exclude_0=
 [EndRule]
 
@@ -4328,7 +4328,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|LaserGun
+ Include_0=edid|PlasmaGun
  Exclude_0=
 [EndRule]
 
@@ -4346,7 +4346,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|PipeGun
+ Include_0=edid|LaserGun
  Exclude_0=
 [EndRule]
 
@@ -4364,12 +4364,30 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|LaserMusket
+ Include_0=edid|PipeGun
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=⍂
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|LaserMusket
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⍃
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4397,7 +4415,7 @@
 [EndRule]
 
 [StartRule]
- Header=⍃
+ Header=⍄
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4568,7 +4586,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌐
+ Header=⌑
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4586,7 +4604,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌑
+ Header=⌒
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4604,7 +4622,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌒
+ Header=⌓
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4622,7 +4640,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌓
+ Header=⌔
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4640,7 +4658,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌔
+ Header=⌕
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4658,7 +4676,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌕
+ Header=⌖
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4678,7 +4696,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌖
+ Header=⌗
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4696,7 +4714,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌗
+ Header=⌘
  rSig=WEAP
  fSig=FULL
  enabled=-1
