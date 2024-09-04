@@ -13,9 +13,12 @@ export const WEAPONS_RULES_GROUP = {
             isInjected: false,
             isDeleted: false,
             isAnyKeyword: false,
-            isInclusiveOr: false,
+            isInclusiveOr: true,
             isFullReplaced: false,
-            include: ["ekwd|CustomItemName"],
+            include: [
+                "ekwd|CustomItemName",
+                "ekwd|_Love_"
+            ],
             exclude: [],
         },
         {
