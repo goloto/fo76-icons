@@ -56,6 +56,7 @@ export const NOTES_RULES_GROUP = {
             isFullReplaced: false,
             include: [],
             exclude: [],
+            translationReplacing: ["$Known", "$KNOWN"],
         }
     ],
 } as const satisfies RulesGroup<ICON_NOTES>;
