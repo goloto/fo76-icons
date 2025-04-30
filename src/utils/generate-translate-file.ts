@@ -1,11 +1,11 @@
-import { OUTPUT_DIRECTORY } from '@/constants';
+import { INPUT_DIRECTORY, OUTPUT_DIRECTORY } from '@/constants';
 import * as ICONS_RULES from '@/rules';
 import { ICONS } from '@/generated/icons';
 import { type Rule, type IconNames } from '@/types';
 import { getCharFromHexadecimal } from '@/utils/common';
 
 export const generateTranslateFile = async () => {
-  const translateFile = Bun.file(`${OUTPUT_DIRECTORY}/translate_ru.txt`);
+  const translateFile = Bun.file(`${INPUT_DIRECTORY}/translate_ru.txt`);
   const translationString = await translateFile.text();
   const rulesWithTranslationReplacing = Object.values(ICONS_RULES)
     .map(({ rules }) => rules)
