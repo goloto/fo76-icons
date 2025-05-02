@@ -1383,6 +1383,7 @@
  Include_1=edid|diseased
  Include_2=edid|spoiled
  Include_3=edid|HighRadiationFluids
+ Include_4=edid|GulperVenom
  Exclude_0=edid|milk
 [EndRule]
 
@@ -1616,6 +1617,29 @@
 [EndRule]
 
 [StartRule]
+ Header=#salad#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|CornPoneCooked
+ Include_1=edid|AnglerLureWeedVegetableCooked
+ Include_2=edid|BrainBombsGourmet
+ Include_3=edid|ChallysFeed
+ Include_4=edid|SwampPlantCookedTofu
+ Include_5=edid|SapVegetableCooked
+ Exclude_0=ekwd|IngredientTypeMeat
+[EndRule]
+
+[StartRule]
  Header=#soup#
  rSig=ALCH
  fSig=FULL
@@ -1767,6 +1791,8 @@
  Include_5=edid|MirelurkAndBloodleafGourmet
  Include_6=edid|CranberryCookedCobbler
  Include_7=edid|SheepsquatchMeatTasty
+ Include_8=edid|SweetRollGourmet
+ Include_9=edid|MudCookie
  Exclude_0=
 [EndRule]
 
@@ -1791,6 +1817,7 @@
  Include_4=edid|VenisonAndTatoStew_Psycho
  Include_5=edid|VenisonAndTatoStew_Spiced
  Include_6=edid|ChickenMeatCookedSoup
+ Include_7=edid|IguanaMeatTastySoup
  Exclude_0=
 [EndRule]
 

@@ -19,7 +19,8 @@ export const FOOD_RULES_GROUP = {
                 "edid|moldy",
                 "edid|diseased",
                 "edid|spoiled",
-                "edid|HighRadiationFluids"
+                "edid|HighRadiationFluids",
+                "edid|GulperVenom"
             ],
             exclude: ["edid|milk"],
         },
@@ -196,6 +197,26 @@ export const FOOD_RULES_GROUP = {
         },
         {
             order: 13,
+            prefix: [ICON_FOOD.Salad],
+            leftSignature: LeftSignature.Alchemy,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [
+                "edid|CornPoneCooked",
+                "edid|AnglerLureWeedVegetableCooked",
+                "edid|BrainBombsGourmet",
+                "edid|ChallysFeed",
+                "edid|SwampPlantCookedTofu",
+                "edid|SapVegetableCooked"
+            ],
+            exclude: ["ekwd|IngredientTypeMeat"],
+        },
+        {
+            order: 14,
             prefix: [ICON_FOOD.Soup],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -212,7 +233,7 @@ export const FOOD_RULES_GROUP = {
             exclude: ["ekwd|IngredientTypeMeat"],
         },
         {
-            order: 14,
+            order: 15,
             prefix: [ICON_FOOD.CannedFood],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -225,7 +246,7 @@ export const FOOD_RULES_GROUP = {
             exclude: ["ekwd|ObjectTypeCandy", "ekwd|ObjectTypeCakesPies"],
         },
         {
-            order: 15,
+            order: 16,
             prefix: [ICON_FOOD.Bubblegum],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -238,7 +259,7 @@ export const FOOD_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 16,
+            order: 17,
             prefix: [ICON_FOOD.SnackCakes],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -251,7 +272,7 @@ export const FOOD_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 17,
+            order: 18,
             prefix: [ICON_FOOD.SugarBombs],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -264,7 +285,7 @@ export const FOOD_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 18,
+            order: 19,
             prefix: [ICON_FOOD.Candy],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -277,7 +298,7 @@ export const FOOD_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 19,
+            order: 20,
             prefix: [ICON_FOOD.Cake],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -290,7 +311,7 @@ export const FOOD_RULES_GROUP = {
             exclude: ["ekwd|IngredientTypeMeat"],
         },
         {
-            order: 20,
+            order: 21,
             prefix: [ICON_FOOD.BerryPie],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -308,11 +329,13 @@ export const FOOD_RULES_GROUP = {
                 "edid|MirelurkAndBloodleafGourmet",
                 "edid|CranberryCookedCobbler",
                 "edid|SheepsquatchMeatTasty",
+                "edid|SweetRollGourmet",
+                "edid|MudCookie"
             ],
             exclude: [],
         },
         {
-            order: 21,
+            order: 22,
             prefix: [ICON_FOOD.MeatSoup],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -329,11 +352,12 @@ export const FOOD_RULES_GROUP = {
                 "edid|VenisonAndTatoStew_Psycho",
                 "edid|VenisonAndTatoStew_Spiced",
                 "edid|ChickenMeatCookedSoup",
+                "edid|IguanaMeatTastySoup"
             ],
             exclude: [],
         },
         {
-            order: 22,
+            order: 23,
             prefix: [ICON_FOOD.CookedMeat],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -350,7 +374,7 @@ export const FOOD_RULES_GROUP = {
             exclude: ["ekwd|MealTypeSoup"],
         },
         {
-            order: 23,
+            order: 24,
             prefix: [ICON_FOOD.RawMeat],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -370,7 +394,7 @@ export const FOOD_RULES_GROUP = {
             ],
         },
         {
-            order: 24,
+            order: 25,
             prefix: [ICON_FOOD.Egg],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -389,7 +413,7 @@ export const FOOD_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 25,
+            order: 26,
             prefix: [ICON_FOOD.TickBlood],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -402,7 +426,7 @@ export const FOOD_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 26,
+            order: 27,
             prefix: [ICON_FOOD.Berry],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -415,7 +439,7 @@ export const FOOD_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 27,
+            order: 28,
             prefix: [ICON_FOOD.Carrot],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -432,7 +456,7 @@ export const FOOD_RULES_GROUP = {
             exclude: ["ekwd|PlantTypeFlowers"],
         },
         {
-            order: 28,
+            order: 29,
             prefix: [ICON_FOOD.Flower],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -449,7 +473,7 @@ export const FOOD_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 29,
+            order: 30,
             prefix: [ICON_FOOD.Fruit],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -462,7 +486,7 @@ export const FOOD_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 30,
+            order: 31,
             prefix: [ICON_FOOD.Mushrooms],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -483,7 +507,7 @@ export const FOOD_RULES_GROUP = {
             exclude: ["ekwd|MealTypeCooked"],
         },
         {
-            order: 31,
+            order: 32,
             prefix: [ICON_FOOD.Honey],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -496,7 +520,7 @@ export const FOOD_RULES_GROUP = {
             exclude: ["ekwd|DrinkTypeAlcohol", "ekwd|ObjectTypeCandy"],
         },
         {
-            order: 32,
+            order: 33,
             prefix: [ICON_FOOD.Flavor],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
