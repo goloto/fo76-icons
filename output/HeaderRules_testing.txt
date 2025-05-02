@@ -1561,6 +1561,25 @@
 [EndRule]
 
 [StartRule]
+ Header=#juice#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|SunshineOil
+ Include_1=edid|ToxicSootFlowerHerbCookedPaste
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#tea#
  rSig=ALCH
  fSig=FULL
