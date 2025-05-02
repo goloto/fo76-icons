@@ -3602,10 +3602,11 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
  Include_0=edid|RepairKit
+ Include_1=edid|ScrapToStash
  Exclude_0=
 [EndRule]
 
