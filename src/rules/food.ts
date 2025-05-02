@@ -328,7 +328,7 @@ export const FOOD_RULES_GROUP = {
         },
         {
             order: 22,
-            prefix: [ICON_FOOD.BerryPie],
+            prefix: [ICON_FOOD.Cake],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
             isInjected: false,
