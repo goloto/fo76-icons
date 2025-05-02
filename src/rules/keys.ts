@@ -62,6 +62,7 @@ export const KEYS_RULES_GROUP = {
                 "edid|TaggerdyID",
                 "edid|SeniorExecID",
             ],
+            translationReplacing: ["$Keyring",],
         }
     ],
 } as const satisfies RulesGroup<ICON_KEYS>;
