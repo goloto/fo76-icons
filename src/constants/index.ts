@@ -2,7 +2,7 @@ import type { IconNames, Rule } from '../types';
 
 export const OUTPUT_DIRECTORY = './output';
 export const INPUT_DIRECTORY = './input';
-export const ICONS_DIRECTORY = './icons';
+export const ICONS_DIRECTORY = './assets/icons';
 export const GENERATED_DIRECTORY = './src/generated';
 export const RULES_DIRECTORY = './src/rules';
 

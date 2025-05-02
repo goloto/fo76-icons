@@ -1,5 +1,6 @@
 import { readUnicodeMapFile } from '@/utils/file-reading';
 import { ICONS } from '@/generated/icons';
+import { OUTPUT_DIRECTORY } from '@/constants';
 
 const TEMPLATE_LINK = '%custom-names%';
 
@@ -17,5 +18,5 @@ export const generateUnicodeMapFile = async () => {
     return `${accumulator}${item.charCode} ${item.name}${newLine}`;
   }, slicedMap);
 
-  await Bun.write('./fontlab/standard.nam', newMap);
+  await Bun.write(`${OUTPUT_DIRECTORY}/standard.nam`, newMap);
 };

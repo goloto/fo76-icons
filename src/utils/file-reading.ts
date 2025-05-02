@@ -1,5 +1,5 @@
 export const readUnicodeMapFile = async (): Promise<string> => {
-  return await readFileAsText('./fontlab/standard.nam');
+  return await readFileAsText('./assets/fontlab/standard.nam');
 };
 
 export const readFileAsJson = async <T extends unknown>(path: string) => {
