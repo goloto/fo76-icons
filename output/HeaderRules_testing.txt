@@ -510,29 +510,16 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=edid|FusionCell
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#gamma_round#
- rSig=AMMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|GammaCell
- Exclude_0=
+ Include_0=ekwd|AmmoTypeEnergy
+ Exclude_0=edid|AmmoFlamerFuel
+ Exclude_1=edid|AmmoBlueFlamerFuel
+ Exclude_2=edid|AmmoPlasmaCore
+ Exclude_3=edid|AmmoPlasmaCore_AntiScorched
+ Exclude_4=edid|AmmoFusionCore_AntiScorchBeast
+ Exclude_5=edid|AmmoFusionCore
 [EndRule]
 
 [StartRule]
@@ -546,12 +533,13 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
  Include_0=edid|quantum
  Include_1=edid|cherry
  Include_2=edid|NukaCola
+ Include_3=edid|Ammo_ThirstZapperWater
  Exclude_0=
 [EndRule]
 
@@ -607,12 +595,15 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|ObjectTypeAmmo
- Exclude_0=edid|FatManMiniNuke
- Exclude_1=ekwd|AmmoTypeFusionCore
- Exclude_2=edid|AmmoGrenadeLauncher
- Exclude_3=edid|fuel
- Exclude_4=edid|FusionCell
- Exclude_5=edid|GammaCell
+ Exclude_0=ekwd|AmmoTypeEnergy
+ Exclude_1=edid|quantum
+ Exclude_2=edid|cherry
+ Exclude_3=edid|NukaCola
+ Exclude_4=edid|Ammo_ThirstZapperWater
+ Exclude_5=edid|AmmoGrenadeLauncher
+ Exclude_6=edid|FatManMiniNuke
+ Exclude_7=ekwd|AmmoTypeFusionCore
+ Exclude_8=edid|fuel
 [EndRule]
 
 [StartRule]

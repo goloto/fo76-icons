@@ -2,6 +2,18 @@ import { ICON_AMMO } from "@/generated/icons-enum";
 import { LeftSignature, RightSignature } from "@/constants";
 import type { RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
+const fusionCellInclude = [
+    "ekwd|AmmoTypeEnergy"
+] as const;
+const nukaColaInclude = [
+    "edid|quantum",
+    "edid|cherry",
+    "edid|NukaCola",
+    "edid|Ammo_ThirstZapperWater"
+] as const;
+const grenadeLauncherInclude = [
+    "edid|AmmoGrenadeLauncher"
+] as const;
 export const AMMO_RULES_GROUP = {
     category: ICON_CATEGORIES.Ammo,
     rules: [
@@ -54,7 +66,7 @@ export const AMMO_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: ["edid|AmmoGrenadeLauncher"],
+            include: [...grenadeLauncherInclude],
             exclude: [],
         },
         {
@@ -78,39 +90,33 @@ export const AMMO_RULES_GROUP = {
             isInjected: false,
             isDeleted: false,
             isAnyKeyword: false,
-            isInclusiveOr: false,
+            isInclusiveOr: true,
             isFullReplaced: false,
-            include: ["edid|FusionCell"],
-            exclude: [],
+            include: [...fusionCellInclude],
+            exclude: [
+                "edid|AmmoFlamerFuel",
+                "edid|AmmoBlueFlamerFuel",
+                "edid|AmmoPlasmaCore",
+                "edid|AmmoPlasmaCore_AntiScorched",
+                "edid|AmmoFusionCore_AntiScorchBeast",
+                "edid|AmmoFusionCore"
+            ],
         },
         {
             order: 6,
-            prefix: [ICON_AMMO.GammaRound],
-            leftSignature: LeftSignature.Ammunition,
-            rightSignature: RightSignature.FULL,
-            isInjected: false,
-            isDeleted: false,
-            isAnyKeyword: false,
-            isInclusiveOr: false,
-            isFullReplaced: false,
-            include: ["edid|GammaCell"],
-            exclude: [],
-        },
-        {
-            order: 7,
             prefix: [ICON_AMMO.NukaColaAmmo],
             leftSignature: LeftSignature.Ammunition,
             rightSignature: RightSignature.FULL,
             isInjected: false,
             isDeleted: false,
             isAnyKeyword: false,
-            isInclusiveOr: false,
+            isInclusiveOr: true,
             isFullReplaced: false,
-            include: ["edid|quantum", "edid|cherry", "edid|NukaCola"],
+            include: [...nukaColaInclude],
             exclude: [],
         },
         {
-            order: 8,
+            order: 7,
             prefix: [ICON_AMMO.Arrows],
             leftSignature: LeftSignature.Ammunition,
             rightSignature: RightSignature.FULL,
@@ -123,7 +129,7 @@ export const AMMO_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 9,
+            order: 8,
             prefix: [ICON_AMMO.CameraFilm],
             leftSignature: LeftSignature.Ammunition,
             rightSignature: RightSignature.FULL,
@@ -136,7 +142,7 @@ export const AMMO_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 10,
+            order: 9,
             prefix: [ICON_AMMO.BallisticAmmo],
             leftSignature: LeftSignature.Ammunition,
             rightSignature: RightSignature.FULL,
@@ -147,12 +153,12 @@ export const AMMO_RULES_GROUP = {
             isFullReplaced: false,
             include: ["ekwd|ObjectTypeAmmo"],
             exclude: [
+                ...fusionCellInclude,
+                ...nukaColaInclude,
+                ...grenadeLauncherInclude,
                 "edid|FatManMiniNuke",
                 "ekwd|AmmoTypeFusionCore",
-                "edid|AmmoGrenadeLauncher",
                 "edid|fuel",
-                "edid|FusionCell",
-                "edid|GammaCell",
             ],
         }
     ],
