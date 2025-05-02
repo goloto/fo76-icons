@@ -638,7 +638,7 @@ export const ICONS = [
         charCode: '0x2303'
     },
     {
-        name: ICON_ARMOR.TFivtyOne,
+        name: ICON_ARMOR.TFiftyOne,
         charCode: '0x2304'
     },
     {

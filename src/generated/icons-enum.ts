@@ -101,7 +101,6 @@ export enum ICON_AMMO {
     Fuel = 'fuel',
     FusionCell = 'fusion_cell',
     FusionCore = 'fusion_core',
-    GammaRound = 'gamma_round',
     MiniNuke = 'mini_nuke',
     NukaColaAmmo = 'nuka_cola_ammo',
     Rocket = 'rocket'
@@ -132,7 +131,6 @@ export enum ICON_AID {
 export enum ICON_FOOD {
     Beer = 'beer',
     Berry = 'berry',
-    BerryPie = 'berry_pie',
     BottleOfWater = 'bottle_of_water',
     Bubblegum = 'bubblegum',
     Cake = 'cake',
@@ -188,7 +186,7 @@ export enum ICON_ARMOR {
     Excavator = 'excavator',
     PowerArmorHelmet = 'power_armor_helmet',
     Spacesuit = 'spacesuit',
-    TFivtyOne = 't_fivty_one',
+    TFiftyOne = 't_fifty_one',
     TFortyFive = 't_forty_five',
     TSixty = 't_sixty',
     TSixtyFive = 't_sixty_five',

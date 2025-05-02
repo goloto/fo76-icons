@@ -1112,7 +1112,7 @@
 [EndRule]
 
 [StartRule]
- Header=#t_fivty_one#
+ Header=#t_fifty_one#
  rSig=INNR
  fSig=WNAM
  enabled=-1
