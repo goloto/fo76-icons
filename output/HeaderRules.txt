@@ -93,6 +93,7 @@
  fallbackBank=0
  Include_0=edid|SURV_DiseaseCure_HerbalMedicine
  Include_1=edid|SURV_DiseaseCure_Antibiotics
+ Include_2=edid|InsectRepellent
  Exclude_0=
 [EndRule]
 
@@ -107,11 +108,14 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ObjectTypeStimpak
- Exclude_0=
+ Include_0=edid|Stimpak
+ Include_1=edid|StimpakDiluted
+ Include_2=edid|SuperStimpak
+ Include_3=edid|StimGas
+ Exclude_0=edid|VenisonAndTatoStew_Stimpak
 [EndRule]
 
 [StartRule]
@@ -1378,6 +1382,7 @@
  Include_0=edid|moldy
  Include_1=edid|diseased
  Include_2=edid|spoiled
+ Include_3=edid|HighRadiationFluids
  Exclude_0=edid|milk
 [EndRule]
 

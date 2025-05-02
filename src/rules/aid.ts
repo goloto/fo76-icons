@@ -70,6 +70,7 @@ export const AID_RULES_GROUP = {
             include: [
                 "edid|SURV_DiseaseCure_HerbalMedicine",
                 "edid|SURV_DiseaseCure_Antibiotics",
+                "edid|InsectRepellent"
             ],
             exclude: [],
         },
@@ -81,10 +82,17 @@ export const AID_RULES_GROUP = {
             isInjected: false,
             isDeleted: false,
             isAnyKeyword: false,
-            isInclusiveOr: false,
+            isInclusiveOr: true,
             isFullReplaced: false,
-            include: ["ekwd|ObjectTypeStimpak"],
-            exclude: [],
+            include: [
+                "edid|Stimpak",
+                "edid|StimpakDiluted",
+                "edid|SuperStimpak",
+                "edid|StimGas"
+            ],
+            exclude: [
+                "edid|VenisonAndTatoStew_Stimpak"
+            ],
         },
         {
             order: 6,

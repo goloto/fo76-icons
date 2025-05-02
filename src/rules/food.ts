@@ -15,7 +15,12 @@ export const FOOD_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: true,
             isFullReplaced: false,
-            include: ["edid|moldy", "edid|diseased", "edid|spoiled"],
+            include: [
+                "edid|moldy",
+                "edid|diseased",
+                "edid|spoiled",
+                "edid|HighRadiationFluids"
+            ],
             exclude: ["edid|milk"],
         },
         {

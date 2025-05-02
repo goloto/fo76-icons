@@ -41,4 +41,5 @@ export enum LeftSignature {
   Spell = 'SPEL',
   Utility = 'UTIL',
   Weapon = 'WEAP',
+  Workshop = 'COBJ',
 }
