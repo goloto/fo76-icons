@@ -30,6 +30,19 @@ export const HOLOTAPES_RULES_GROUP = {
             isFullReplaced: false,
             include: [],
             exclude: [],
+        },
+        {
+            order: 2,
+            prefix: [ICON_HOLOTAPES.Holotape],
+            leftSignature: LeftSignature.Note,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["edid|Storm_MQ03_OberlinsHolotape"],
+            exclude: [],
         }
     ],
 } as const satisfies RulesGroup<ICON_HOLOTAPES>;
