@@ -14,7 +14,10 @@ export const generateCategories = async (): Promise<string> => {
   const printer = ts.createPrinter({ newLine: ts.NewLineKind.LineFeed });
 
   const categoryFiles = await readdir(RULES_DIRECTORY);
-  const categories = categoryFiles.filter(filterOnlyTs).map(removeExtension);
+  const categories = categoryFiles
+    .filter(filterOnlyTs)
+    .map(removeExtension)
+    .sort();
   const enumMembers = categories.map((category) => {
     return ts.factory.createEnumMember(
       category

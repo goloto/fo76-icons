@@ -27,7 +27,7 @@ export const generateIconsEnum = async (): Promise<string> => {
       continue;
     }
 
-    const enumMembers = categoryIcons.map((icon) => {
+    const enumMembers = categoryIcons.sort().map((icon) => {
       return ts.factory.createEnumMember(
         icon
           .split('_')
