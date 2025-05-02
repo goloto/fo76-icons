@@ -78,7 +78,7 @@
 [EndRule]
 
 [StartRule]
- Header=#antibiotics#
+ Header=#stimpak#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -94,27 +94,17 @@
  Include_0=edid|SURV_DiseaseCure_HerbalMedicine
  Include_1=edid|SURV_DiseaseCure_Antibiotics
  Include_2=edid|InsectRepellent
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#stimpak#
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=edid|Stimpak
- Include_1=edid|StimpakDiluted
- Include_2=edid|SuperStimpak
- Include_3=edid|StimGas
+ Include_3=edid|Stimpak
+ Include_4=edid|StimpakDiluted
+ Include_5=edid|SuperStimpak
+ Include_6=edid|StimGas
+ Include_7=edid|ResuscitationKit
+ Include_8=edid|medx
+ Include_9=edid|calmex
+ Include_10=edid|FormulaP
+ Include_11=edid|FormulaB
+ Include_12=edid|FormulaQ
+ Include_13=edid|Addictol
  Exclude_0=edid|VenisonAndTatoStew_Stimpak
 [EndRule]
 
@@ -129,16 +119,19 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ObjectTypeChem
- Include_1=ekwd|ChemTypeRadaway
+ Include_0=edid|radaway
+ Include_1=edid|Radx
+ Include_2=edid|RadShield
+ Include_3=edid|Radiation_RadXtreme
+ Include_4=edid|TrenchMed_Pitt
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=#rad_x#
+ Header=#drugs#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -151,32 +144,18 @@
  includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=edid|Radx
- Include_1=edid|RadShield
- Include_2=edid|Radiation_RadXtreme
- Include_3=edid|TrenchMed_Pitt
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#med_x#
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=edid|medx
- Include_1=edid|calmex
- Include_2=edid|FormulaP
- Include_3=edid|FormulaB
- Include_4=edid|FormulaQ
+ Include_0=edid|mentats
+ Include_1=edid|buffout
+ Include_2=edid|bufftats
+ Include_3=edid|Psycho
+ Include_4=edid|Overdrive
+ Include_5=edid|ChemBlend
+ Include_6=edid|Fury
+ Include_7=edid|SurvivalShortcut
+ Include_8=edid|BrawlingChemist
+ Include_9=edid|DaddyO
+ Include_10=edid|DayTripper
+ Include_11=edid|XCell
  Exclude_0=
 [EndRule]
 
@@ -199,24 +178,6 @@
 [EndRule]
 
 [StartRule]
- Header=#addictol#
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|Addictol
- Exclude_0=
-[EndRule]
-
-[StartRule]
  Header=#blood_pack#
  rSig=ALCH
  fSig=FULL
@@ -232,106 +193,9 @@
  fallbackBank=0
  Include_0=edid|Bloodpack
  Include_1=edid|BloodpackIrradiated
- Exclude_0=edid|GlowingOneBlood
- Exclude_1=edid|BloodpackGlowing
-[EndRule]
-
-[StartRule]
- Header=#glowing_blood#
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=edid|GlowingOneBlood
- Include_1=edid|BloodpackGlowing
+ Include_2=edid|GlowingOneBlood
+ Include_3=edid|BloodpackGlowing
  Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#x_cell#
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|XCell
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#mentats#
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|AddictionKeywordMentats
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#buffout#
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=edid|Buffout
- Include_1=edid|Bufftats
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#psycho#
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=edid|Psycho
- Include_1=edid|Overdrive
- Include_2=edid|ChemBlend
- Include_3=edid|Fury
- Include_4=edid|SurvivalShortcut
- Include_5=edid|BrawlingChemist
- Include_6=edid|DaddyO
- Exclude_0=edid|VenisonAndTatoStew_Psycho
 [EndRule]
 
 [StartRule]
@@ -349,24 +213,6 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|ObjectTypeSerum
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#day_tripper#
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|DayTripper
  Exclude_0=
 [EndRule]
 

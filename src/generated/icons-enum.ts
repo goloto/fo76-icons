@@ -106,27 +106,18 @@ export enum ICON_AMMO {
     Rocket = 'rocket'
 }
 export enum ICON_AID {
-    Addictol = 'addictol',
-    Antibiotics = 'antibiotics',
     BloodPack = 'blood_pack',
     Bobblehead = 'bobblehead',
-    Buffout = 'buffout',
-    DayTripper = 'day_tripper',
-    GlowingBlood = 'glowing_blood',
+    Drugs = 'drugs',
     HolidayGift = 'holiday_gift',
     Lunchbox = 'lunchbox',
     Magazine = 'magazine',
-    MedX = 'med_x',
-    Mentats = 'mentats',
     MutationSerum = 'mutation_serum',
-    Psycho = 'psycho',
-    RadX = 'rad_x',
     Radaway = 'radaway',
     Scout = 'scout',
     Stealthboy = 'stealthboy',
     Stimpak = 'stimpak',
-    TreasureHuntChest = 'treasure_hunt_chest',
-    XCell = 'x_cell'
+    TreasureHuntChest = 'treasure_hunt_chest'
 }
 export enum ICON_FOOD {
     Beer = 'beer',
