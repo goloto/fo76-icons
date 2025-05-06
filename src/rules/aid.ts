@@ -81,7 +81,8 @@ export const AID_RULES_GROUP = {
                 "edid|FormulaP",
                 "edid|FormulaB",
                 "edid|FormulaQ",
-                "edid|Addictol"
+                "edid|Addictol",
+                "edid|HealingSalve",
             ],
             exclude: [
                 "edid|VenisonAndTatoStew_Stimpak"

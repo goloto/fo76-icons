@@ -105,6 +105,7 @@
  Include_11=edid|FormulaB
  Include_12=edid|FormulaQ
  Include_13=edid|Addictol
+ Include_14=edid|HealingSalve
  Exclude_0=edid|VenisonAndTatoStew_Stimpak
 [EndRule]
 
