@@ -128,7 +128,8 @@ export const AID_RULES_GROUP = {
                 "edid|BrawlingChemist",
                 "edid|DaddyO",
                 "edid|DayTripper",
-                "edid|XCell"
+                "edid|XCell",
+                "edid|GHL_TheFix"
             ],
             exclude: [],
         },
