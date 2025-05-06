@@ -2849,12 +2849,10 @@
  hasCompo=0
  preProcess=0
  fullReplace=-1
- includeOR=-1
+ includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|HasLegendary_Weapon_CitsHealGroup
- Include_1=ekwd|dn_BackPack_Standard_Material_Medical
- Include_2=ekwd|dn_HasMisc_MedicPump
+ Include_0=ekwd|HasLegendary_Weapon_Medic
  Exclude_0=
 [EndRule]
 
@@ -2973,12 +2971,10 @@
  Exclude_43=ekwd|HasLegendary_Armor_GettingMeleedTriggersInvisibility
  Exclude_44=ekwd|HasLegendary_Weapon_DebuffDamage
  Exclude_45=ekwd|HasLegendary_Weapon_Vampire
- Exclude_46=ekwd|HasLegendary_Weapon_CitsHealGroup
- Exclude_47=ekwd|dn_BackPack_Standard_Material_Medical
- Exclude_48=ekwd|dn_HasMisc_MedicPump
- Exclude_49=ekwd|HasLegendary_Armor_LowHealthTriggersStimpak
- Exclude_50=ekwd|HasLegendary_Armor_HealthRegen
- Exclude_51=ekwd|HasLegendary_Armor_Weightless
+ Exclude_46=ekwd|HasLegendary_Weapon_Medic
+ Exclude_47=ekwd|HasLegendary_Armor_LowHealthTriggersStimpak
+ Exclude_48=ekwd|HasLegendary_Armor_HealthRegen
+ Exclude_49=ekwd|HasLegendary_Armor_Weightless
 [EndRule]
 
 [StartRule]

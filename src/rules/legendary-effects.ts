@@ -1,7 +1,121 @@
 import { ICON_LEGENDARY_EFFECTS } from "@/generated/icons-enum";
 import { LeftSignature, RightSignature } from "@/constants";
-import type { ICON_COMMON, RulesGroup } from "@/types";
+import type { ICON_COMMON, IncludeProperty, RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
+const unyieldingRules = [
+    "ekwd|HasLegendary_Weapon_Steady",
+    "ekwd|HasLegendary_Armor_LowHealthIncreasesStats"
+] as const satisfies IncludeProperty[];
+const antiArmorRules = [
+    "ekwd|HasLegendary_Weapon_AntiArmor"
+] as const satisfies IncludeProperty[];
+const bloodiedRules = [
+    "ekwd|HasLegendary_Weapon_DamageInverseHealth"
+] as const satisfies IncludeProperty[];
+const junkieRules = [
+    "ekwd|HasLegendary_Weapon_DamageAddiction"
+] as const satisfies IncludeProperty[];
+const gourmandRules = [
+    "ekwd|HasLegendary_Weapon_Gourmand",
+    "ekwd|HasLegendary_Armor_Overeater"
+] as const satisfies IncludeProperty[];
+const aristocratRules = [
+    "ekwd|HasLegendary_Armor_ResistancesProportionalCaps",
+    "ekwd|HasLegendary_Weapon_DamageViaCaps"
+] as const satisfies IncludeProperty[];
+const instigatingRules = [
+    "ekwd|HasLegendary_Weapon_DamageFirstBlood"
+] as const satisfies IncludeProperty[];
+const jaggernautRules = [
+    "ekwd|HasLegendary_Weapon_DamageViaHealth"
+] as const satisfies IncludeProperty[];
+const mutantRules = [
+    "ekwd|HasLegendary_Armor_ResistancesMutation",
+    "ekwd|HasLegendary_Weapon_DamageWithMutation"
+] as const satisfies IncludeProperty[];
+const berserkerRules = [
+    "ekwd|HasLegendary_Weapon_DamageUnarmored"
+] as const satisfies IncludeProperty[];
+const quadRules = [
+    "ekwd|HasLegendary_Weapon_AmmoCapacity4x"
+] as const satisfies IncludeProperty[];
+const twoShotRules = [
+    "ekwd|HasLegendary_Weapon_TwoShot"
+] as const satisfies IncludeProperty[];
+const zealotRules = [
+    "ekwd|HasLegendary_Armor_LessDMGScorched",
+    "ekwd|HasLegendary_Weapon_DamageVsScorched"
+] as const satisfies IncludeProperty[];
+const nocturnalRules = [
+    "ekwd|HasLegendary_Armor_ResistancesNight",
+    "ekwd|HasLegendary_Weapon_DamageNight"
+] as const satisfies IncludeProperty[];
+const exterminatorRules = [
+    "ekwd|HasLegendary_Armor_LessDMGBugs",
+    "ekwd|HasLegendary_Weapon_DamageVsBugs"
+] as const satisfies IncludeProperty[];
+const assassinRules = [
+    "ekwd|HasLegendary_Armor_LessDMGHumans",
+    "ekwd|HasLegendary_Weapon_DamageVsPlayers"
+] as const satisfies IncludeProperty[];
+const furiousRules = [
+    "ekwd|HasLegendary_Weapon_DamageConsecutiveHits"
+] as const satisfies IncludeProperty[];
+const troubleshooterRules = [
+    "ekwd|HasLegendary_Weapon_DamageVsRobots",
+    "ekwd|HasLegendary_Armor_LessDMGRobots"
+] as const satisfies IncludeProperty[];
+const mutantSlayerRules = [
+    "ekwd|HasLegendary_Armor_LessDMGSupermutants",
+    "ekwd|HasLegendary_Weapon_DamageVsSupermutants"
+] as const satisfies IncludeProperty[];
+const executionerRules = [
+    "ekwd|HasLegendary_Weapon_Execute"
+] as const satisfies IncludeProperty[];
+const hunterRules = [
+    "ekwd|HasLegendary_Weapon_DamageVsAnimals",
+    "ekwd|HasLegendary_Armor_LessDMGAnimals"
+] as const satisfies IncludeProperty[];
+const bolsteringRules = [
+    "ekwd|HasLegendary_Armor_ResistancesInverseHealth"
+] as const satisfies IncludeProperty[];
+const stalkerRules = [
+    "ekwd|HasLegendary_Weapon_AccuracyNotInCombat"
+] as const satisfies IncludeProperty[];
+const chameleonRules = [
+    "ekwd|HasLegendary_Armor_Chameleon"
+] as const satisfies IncludeProperty[];
+const ghoulSlayerRules = [
+    "ekwd|HasLegendary_Weapon_DamageVsGhouls",
+    "ekwd|HasLegendary_Armor_LessDMGGhouls"
+] as const satisfies IncludeProperty[];
+const lifeSaving = [
+    "ekwd|HasLegendary_Armor_AutoRevive"
+] as const satisfies IncludeProperty[];
+const vanguardRules = [
+    "ekwd|HasLegendary_Armor_ResistancesProportionalHealth"
+] as const satisfies IncludeProperty[];
+const cloakingRules = [
+    "ekwd|HasLegendary_Armor_GettingMeleedTriggersInvisibility"
+] as const satisfies IncludeProperty[];
+const supressorRules = [
+    "ekwd|HasLegendary_Weapon_DebuffDamage"
+] as const satisfies IncludeProperty[];
+const vampireRules = [
+    "ekwd|HasLegendary_Weapon_Vampire"
+] as const satisfies IncludeProperty[];
+const medicRules = [
+    "ekwd|HasLegendary_Weapon_Medic"
+] as const satisfies IncludeProperty[];
+const autoStimRules = [
+    "ekwd|HasLegendary_Armor_LowHealthTriggersStimpak"
+] as const satisfies IncludeProperty[];
+const regeneratingRules = [
+    "ekwd|HasLegendary_Armor_HealthRegen"
+] as const satisfies IncludeProperty[];
+const weightlessRules = [
+    "ekwd|HasLegendary_Armor_Weightless"
+] as const satisfies IncludeProperty[];
 export const LEGENDARY_EFFECTS_RULES_GROUP = {
     category: ICON_CATEGORIES.LegendaryEffects,
     rules: [
@@ -15,10 +129,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: true,
             isFullReplaced: true,
-            include: [
-                "ekwd|HasLegendary_Weapon_Steady",
-                "ekwd|HasLegendary_Armor_LowHealthIncreasesStats",
-            ],
+            include: [...unyieldingRules],
             exclude: [],
         },
         {
@@ -31,7 +142,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|HasLegendary_Weapon_AntiArmor"],
+            include: [...antiArmorRules],
             exclude: [],
         },
         {
@@ -44,7 +155,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|HasLegendary_Weapon_DamageInverseHealth"],
+            include: [...bloodiedRules],
             exclude: [],
         },
         {
@@ -57,7 +168,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|HasLegendary_Weapon_DamageAddiction"],
+            include: [...junkieRules],
             exclude: [],
         },
         {
@@ -70,10 +181,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: true,
             isFullReplaced: true,
-            include: [
-                "ekwd|HasLegendary_Weapon_Gourmand",
-                "ekwd|HasLegendary_Armor_Overeater",
-            ],
+            include: [...gourmandRules],
             exclude: [],
         },
         {
@@ -86,10 +194,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: true,
             isFullReplaced: true,
-            include: [
-                "ekwd|HasLegendary_Armor_ResistancesProportionalCaps",
-                "ekwd|HasLegendary_Weapon_DamageViaCaps",
-            ],
+            include: [...aristocratRules],
             exclude: [],
         },
         {
@@ -102,7 +207,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|HasLegendary_Weapon_DamageFirstBlood"],
+            include: [...instigatingRules],
             exclude: [],
         },
         {
@@ -115,7 +220,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|HasLegendary_Weapon_DamageViaHealth"],
+            include: [...jaggernautRules],
             exclude: [],
         },
         {
@@ -128,10 +233,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: true,
             isFullReplaced: true,
-            include: [
-                "ekwd|HasLegendary_Armor_ResistancesMutation",
-                "ekwd|HasLegendary_Weapon_DamageWithMutation",
-            ],
+            include: [...mutantRules],
             exclude: [],
         },
         {
@@ -144,7 +246,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|HasLegendary_Weapon_DamageUnarmored"],
+            include: [...berserkerRules],
             exclude: [],
         },
         {
@@ -157,7 +259,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|HasLegendary_Weapon_AmmoCapacity4x"],
+            include: [...quadRules],
             exclude: [],
         },
         {
@@ -170,7 +272,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|HasLegendary_Weapon_TwoShot"],
+            include: [...twoShotRules],
             exclude: [],
         },
         {
@@ -183,10 +285,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: true,
             isFullReplaced: true,
-            include: [
-                "ekwd|HasLegendary_Armor_LessDMGScorched",
-                "ekwd|HasLegendary_Weapon_DamageVsScorched",
-            ],
+            include: [...zealotRules],
             exclude: [],
         },
         {
@@ -199,10 +298,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: true,
             isFullReplaced: true,
-            include: [
-                "ekwd|HasLegendary_Armor_ResistancesNight",
-                "ekwd|HasLegendary_Weapon_DamageNight",
-            ],
+            include: [...nocturnalRules],
             exclude: [],
         },
         {
@@ -215,10 +311,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: true,
             isFullReplaced: true,
-            include: [
-                "ekwd|HasLegendary_Armor_LessDMGBugs",
-                "ekwd|HasLegendary_Weapon_DamageVsBugs",
-            ],
+            include: [...exterminatorRules],
             exclude: [],
         },
         {
@@ -231,10 +324,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: true,
             isFullReplaced: true,
-            include: [
-                "ekwd|HasLegendary_Armor_LessDMGHumans",
-                "ekwd|HasLegendary_Weapon_DamageVsPlayers",
-            ],
+            include: [...assassinRules],
             exclude: [],
         },
         {
@@ -247,7 +337,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|HasLegendary_Weapon_DamageConsecutiveHits"],
+            include: [...furiousRules],
             exclude: [],
         },
         {
@@ -260,10 +350,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: true,
             isFullReplaced: true,
-            include: [
-                "ekwd|HasLegendary_Weapon_DamageVsRobots",
-                "ekwd|HasLegendary_Armor_LessDMGRobots",
-            ],
+            include: [...troubleshooterRules],
             exclude: [],
         },
         {
@@ -276,10 +363,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: true,
             isFullReplaced: true,
-            include: [
-                "ekwd|HasLegendary_Armor_LessDMGSupermutants",
-                "ekwd|HasLegendary_Weapon_DamageVsSupermutants",
-            ],
+            include: [...mutantSlayerRules],
             exclude: [],
         },
         {
@@ -292,7 +376,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|HasLegendary_Weapon_Execute"],
+            include: [...executionerRules],
             exclude: [],
         },
         {
@@ -305,10 +389,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: true,
             isFullReplaced: true,
-            include: [
-                "ekwd|HasLegendary_Weapon_DamageVsAnimals",
-                "ekwd|HasLegendary_Armor_LessDMGAnimals",
-            ],
+            include: [...hunterRules],
             exclude: [],
         },
         {
@@ -321,7 +402,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|HasLegendary_Armor_ResistancesInverseHealth"],
+            include: [...bolsteringRules],
             exclude: [],
         },
         {
@@ -334,7 +415,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|HasLegendary_Weapon_AccuracyNotInCombat"],
+            include: [...stalkerRules],
             exclude: [],
         },
         {
@@ -347,7 +428,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|HasLegendary_Armor_Chameleon"],
+            include: [...chameleonRules],
             exclude: [],
         },
         {
@@ -360,10 +441,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: true,
             isFullReplaced: true,
-            include: [
-                "ekwd|HasLegendary_Weapon_DamageVsGhouls",
-                "ekwd|HasLegendary_Armor_LessDMGGhouls",
-            ],
+            include: [...ghoulSlayerRules],
             exclude: [],
         },
         {
@@ -376,7 +454,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|HasLegendary_Armor_AutoRevive"],
+            include: [...lifeSaving],
             exclude: [],
         },
         {
@@ -389,7 +467,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|HasLegendary_Armor_ResistancesProportionalHealth"],
+            include: [...vanguardRules],
             exclude: [],
         },
         {
@@ -402,7 +480,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|HasLegendary_Armor_GettingMeleedTriggersInvisibility"],
+            include: [...cloakingRules],
             exclude: [],
         },
         {
@@ -415,7 +493,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|HasLegendary_Weapon_DebuffDamage"],
+            include: [...supressorRules],
             exclude: [],
         },
         {
@@ -428,7 +506,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|HasLegendary_Weapon_Vampire"],
+            include: [...vampireRules],
             exclude: [],
         },
         {
@@ -439,13 +517,9 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isInjected: false,
             isDeleted: false,
             isAnyKeyword: false,
-            isInclusiveOr: true,
+            isInclusiveOr: false,
             isFullReplaced: true,
-            include: [
-                "ekwd|HasLegendary_Weapon_CitsHealGroup",
-                "ekwd|dn_BackPack_Standard_Material_Medical",
-                "ekwd|dn_HasMisc_MedicPump",
-            ],
+            include: [...medicRules],
             exclude: [],
         },
         {
@@ -458,7 +532,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|HasLegendary_Armor_LowHealthTriggersStimpak"],
+            include: [...autoStimRules],
             exclude: [],
         },
         {
@@ -471,7 +545,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: true,
-            include: ["ekwd|HasLegendary_Armor_HealthRegen"],
+            include: [...regeneratingRules],
             exclude: [],
         },
         {
@@ -503,54 +577,40 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
                 "ekwd|PowerArmor",
                 "ekwd|HandmadeRifle",
                 "ekwd|PipeWrench_Flowers",
-                "ekwd|HasLegendary_Weapon_Steady",
-                "ekwd|HasLegendary_Armor_LowHealthIncreasesStats",
-                "ekwd|HasLegendary_Weapon_AntiArmor",
-                "ekwd|HasLegendary_Weapon_DamageInverseHealth",
-                "ekwd|HasLegendary_Weapon_DamageAddiction",
-                "ekwd|HasLegendary_Weapon_Gourmand",
-                "ekwd|HasLegendary_Armor_Overeater",
-                "ekwd|HasLegendary_Armor_ResistancesProportionalCaps",
-                "ekwd|HasLegendary_Weapon_DamageViaCaps",
-                "ekwd|HasLegendary_Weapon_DamageFirstBlood",
-                "ekwd|HasLegendary_Weapon_DamageViaHealth",
-                "ekwd|HasLegendary_Armor_ResistancesMutation",
-                "ekwd|HasLegendary_Weapon_DamageWithMutation",
-                "ekwd|HasLegendary_Weapon_DamageUnarmored",
-                "ekwd|HasLegendary_Weapon_AmmoCapacity4x",
-                "ekwd|HasLegendary_Weapon_TwoShot",
-                "ekwd|HasLegendary_Armor_LessDMGScorched",
-                "ekwd|HasLegendary_Weapon_DamageVsScorched",
-                "ekwd|HasLegendary_Armor_ResistancesNight",
-                "ekwd|HasLegendary_Weapon_DamageNight",
-                "ekwd|HasLegendary_Armor_LessDMGBugs",
-                "ekwd|HasLegendary_Weapon_DamageVsBugs",
-                "ekwd|HasLegendary_Armor_LessDMGHumans",
-                "ekwd|HasLegendary_Weapon_DamageVsPlayers",
-                "ekwd|HasLegendary_Weapon_DamageConsecutiveHits",
-                "ekwd|HasLegendary_Weapon_DamageVsRobots",
-                "ekwd|HasLegendary_Armor_LessDMGRobots",
-                "ekwd|HasLegendary_Armor_LessDMGSupermutants",
-                "ekwd|HasLegendary_Weapon_DamageVsSupermutants",
-                "ekwd|HasLegendary_Weapon_Execute",
-                "ekwd|HasLegendary_Weapon_DamageVsAnimals",
-                "ekwd|HasLegendary_Armor_LessDMGAnimals",
-                "ekwd|HasLegendary_Armor_ResistancesInverseHealth",
-                "ekwd|HasLegendary_Weapon_AccuracyNotInCombat",
-                "ekwd|HasLegendary_Armor_Chameleon",
-                "ekwd|HasLegendary_Weapon_DamageVsGhouls",
-                "ekwd|HasLegendary_Armor_LessDMGGhouls",
-                "ekwd|HasLegendary_Armor_AutoRevive",
-                "ekwd|HasLegendary_Armor_ResistancesProportionalHealth",
-                "ekwd|HasLegendary_Armor_GettingMeleedTriggersInvisibility",
-                "ekwd|HasLegendary_Weapon_DebuffDamage",
-                "ekwd|HasLegendary_Weapon_Vampire",
-                "ekwd|HasLegendary_Weapon_CitsHealGroup",
-                "ekwd|dn_BackPack_Standard_Material_Medical",
-                "ekwd|dn_HasMisc_MedicPump",
-                "ekwd|HasLegendary_Armor_LowHealthTriggersStimpak",
-                "ekwd|HasLegendary_Armor_HealthRegen",
-                "ekwd|HasLegendary_Armor_Weightless",
+                ...unyieldingRules,
+                ...antiArmorRules,
+                ...bloodiedRules,
+                ...junkieRules,
+                ...gourmandRules,
+                ...aristocratRules,
+                ...instigatingRules,
+                ...jaggernautRules,
+                ...mutantRules,
+                ...berserkerRules,
+                ...quadRules,
+                ...twoShotRules,
+                ...zealotRules,
+                ...nocturnalRules,
+                ...exterminatorRules,
+                ...assassinRules,
+                ...furiousRules,
+                ...troubleshooterRules,
+                ...mutantSlayerRules,
+                ...executionerRules,
+                ...hunterRules,
+                ...bolsteringRules,
+                ...stalkerRules,
+                ...chameleonRules,
+                ...ghoulSlayerRules,
+                ...lifeSaving,
+                ...vanguardRules,
+                ...cloakingRules,
+                ...supressorRules,
+                ...vampireRules,
+                ...medicRules,
+                ...autoStimRules,
+                ...regeneratingRules,
+                ...weightlessRules,
             ],
         }
     ],
