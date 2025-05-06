@@ -157,6 +157,7 @@
  Include_10=edid|DayTripper
  Include_11=edid|XCell
  Include_12=edid|GHL_TheFix
+ Include_13=edid|SkeetoSpit
  Exclude_0=
 [EndRule]
 

@@ -129,7 +129,8 @@ export const AID_RULES_GROUP = {
                 "edid|DaddyO",
                 "edid|DayTripper",
                 "edid|XCell",
-                "edid|GHL_TheFix"
+                "edid|GHL_TheFix",
+                "edid|SkeetoSpit"
             ],
             exclude: [],
         },
