@@ -85,7 +85,7 @@ export const MISC_RULES_GROUP = {
         },
         {
             order: 6,
-            prefix: [ICON_MISC.Flux],
+            prefix: [ICON_MISC.FluxMisc],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
             isInjected: false,

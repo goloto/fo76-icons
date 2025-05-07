@@ -181,6 +181,19 @@ export const AID_RULES_GROUP = {
         },
         {
             order: 10,
+            prefix: [ICON_AID.FluxAid],
+            leftSignature: LeftSignature.Alchemy,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["edid|FloraSpecimen"],
+            exclude: [],
+        },
+        {
+            order: 11,
             prefix: [ICON_AID.Magazine],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -193,7 +206,7 @@ export const AID_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 11,
+            order: 12,
             prefix: [ICON_AID.Bobblehead],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,

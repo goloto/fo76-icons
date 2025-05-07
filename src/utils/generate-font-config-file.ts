@@ -41,6 +41,7 @@ export const generateFontConfigFile = async () => {
     ''
   );
 
+  await Bun.write(`${OUTPUT_DIRECTORY}/custom_characters.txt`, characters);
   await Bun.write(
     `${OUTPUT_DIRECTORY}/fontconfig_ru.txt`,
     FONT_CONFIG_TEMPLATE.replace('%custom-characters%', characters)
