@@ -1546,7 +1546,7 @@ $JOIN_PUBLIC_TEAM	ПРИСОЕДИНИТЬСЯ К ПУБЛИЧНОЙ КОМАН�
 $Jump	Прыжок
 $JUMP	ПРЫЖОК
 $JUNK JET	БРОСИТЬ ХЛАМ
-$Keyring	⊮
+$Keyring	⊯
 $KICK	ИСКЛЮЧИТЬ
 $Kill	УБИТЬ
 $Kill or be killed!	Убивай — или убьют тебя!
@@ -1560,8 +1560,8 @@ $KillFeedLocalKilledBy	Игрок {1} убил вас.
 $KillFeedLocalUnknownDeath	Вы погибли.
 $KillFeedRemoteKilledBy	Игрок {1} убил игрока {2}.
 $KillFeedRemoteUnknownDeath	Игрок {1} погиб.
-$Known	⊲
-$KNOWN	⊲
+$Known	⊳
+$KNOWN	⊳
 $KnownModsRatio	Открыто модификаций [{1} из {2}]
 $LabelValue	{1} ({2})
 $LAND	ПРИЗЕМЛИТЬСЯ

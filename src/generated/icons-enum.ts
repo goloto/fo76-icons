@@ -64,6 +64,7 @@ export enum ICON_MISC {
     Components = 'components',
     Corpse = 'corpse',
     FluxMisc = 'flux_misc',
+    HybridFlower = 'hybrid_flower',
     Junk = 'junk',
     LegendaryCore = 'legendary_core',
     LegendaryModification = 'legendary_modification',
