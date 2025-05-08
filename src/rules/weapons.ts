@@ -23,6 +23,22 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 1,
+            prefix: [ICON_WEAPONS.UniqueWeapon],
+            leftSignature: LeftSignature.Weapon,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [
+                "edid|PepperShaker",
+                "edid|PiratePunch"
+            ],
+            exclude: [],
+        },
+        {
+            order: 2,
             prefix: [ICON_WEAPONS.Binoculars],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -35,7 +51,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 2,
+            order: 3,
             prefix: [ICON_WEAPONS.Camera],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -48,7 +64,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 3,
+            order: 4,
             prefix: [ICON_WEAPONS.AssaultronHead],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -61,7 +77,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 4,
+            order: 5,
             prefix: [ICON_WEAPONS.Syringer],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -74,7 +90,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 5,
+            order: 6,
             prefix: [ICON_WEAPONS.Bow],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -87,7 +103,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: ["edid|CompoundBow", "edid|Bowie", "edid|crossbow"],
         },
         {
-            order: 6,
+            order: 7,
             prefix: [ICON_WEAPONS.CompoundBow],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -100,7 +116,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 7,
+            order: 8,
             prefix: [ICON_WEAPONS.Weapon],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,

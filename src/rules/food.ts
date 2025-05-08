@@ -1,7 +1,15 @@
 import { ICON_FOOD } from "@/generated/icons-enum";
 import { LeftSignature, RightSignature } from "@/constants";
-import type { RulesGroup } from "@/types";
+import type { IncludeProperty, RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
+const milkRules = [
+    "edid|milk",
+    "edid|cream"
+] as const satisfies IncludeProperty[];
+const petsFoodRules = [
+    "edid|PETS_"
+] as const satisfies IncludeProperty[];
+const meatRule = "ekwd|IngredientTypeMeat" as const;
 export const FOOD_RULES_GROUP = {
     category: ICON_CATEGORIES.Food,
     rules: [
@@ -22,7 +30,7 @@ export const FOOD_RULES_GROUP = {
                 "edid|HighRadiationFluids",
                 "edid|GulperVenom"
             ],
-            exclude: ["edid|milk"],
+            exclude: [...milkRules],
         },
         {
             order: 1,
@@ -35,7 +43,10 @@ export const FOOD_RULES_GROUP = {
             isInclusiveOr: false,
             isFullReplaced: false,
             include: ["ekwd|DrinkTypeWater"],
-            exclude: ["edid|WaterDirty", "edid|milk"],
+            exclude: [
+                ...milkRules,
+                "edid|WaterDirty"
+            ],
         },
         {
             order: 2,
@@ -189,9 +200,9 @@ export const FOOD_RULES_GROUP = {
             isInjected: false,
             isDeleted: false,
             isAnyKeyword: false,
-            isInclusiveOr: false,
+            isInclusiveOr: true,
             isFullReplaced: false,
-            include: ["edid|milk"],
+            include: [...milkRules],
             exclude: [],
         },
         {
@@ -209,7 +220,7 @@ export const FOOD_RULES_GROUP = {
                 "ekwd|MealTypeCooked",
                 "ekwd|IngredientTypeFruit",
             ],
-            exclude: ["ekwd|IngredientTypeMeat"],
+            exclude: [meatRule],
         },
         {
             order: 14,
@@ -229,7 +240,7 @@ export const FOOD_RULES_GROUP = {
                 "edid|SwampPlantCookedTofu",
                 "edid|SapVegetableCooked"
             ],
-            exclude: ["ekwd|IngredientTypeMeat"],
+            exclude: [meatRule],
         },
         {
             order: 15,
@@ -246,7 +257,7 @@ export const FOOD_RULES_GROUP = {
                 "ekwd|IngredientTypeVegetable",
                 "ekwd|MealTypeSoup",
             ],
-            exclude: ["ekwd|IngredientTypeMeat"],
+            exclude: [meatRule],
         },
         {
             order: 16,
@@ -259,7 +270,7 @@ export const FOOD_RULES_GROUP = {
             isInclusiveOr: false,
             isFullReplaced: false,
             include: ["ekwd|ObjectTypeCakesPies"],
-            exclude: ["ekwd|IngredientTypeMeat"],
+            exclude: [meatRule],
         },
         {
             order: 17,
@@ -358,10 +369,13 @@ export const FOOD_RULES_GROUP = {
             isFullReplaced: false,
             include: [
                 "ekwd|ObjectTypeFood",
-                "ekwd|IngredientTypeMeat",
+                meatRule,
                 "ekwd|MealTypeCooked",
             ],
-            exclude: ["ekwd|MealTypeSoup"],
+            exclude: [
+                ...petsFoodRules,
+                "ekwd|MealTypeSoup"
+            ],
         },
         {
             order: 23,
@@ -373,7 +387,7 @@ export const FOOD_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: ["ekwd|ObjectTypeFood", "ekwd|IngredientTypeMeat"],
+            include: ["ekwd|ObjectTypeFood", meatRule],
             exclude: [
                 "ekwd|MealTypeCooked",
                 "edid|MirelurkEgg",
@@ -385,6 +399,19 @@ export const FOOD_RULES_GROUP = {
         },
         {
             order: 24,
+            prefix: [ICON_FOOD.PetFood],
+            leftSignature: LeftSignature.Alchemy,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: [...petsFoodRules],
+            exclude: [],
+        },
+        {
+            order: 25,
             prefix: [ICON_FOOD.Egg],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -403,7 +430,7 @@ export const FOOD_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 25,
+            order: 26,
             prefix: [ICON_FOOD.TickBlood],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -416,7 +443,7 @@ export const FOOD_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 26,
+            order: 27,
             prefix: [ICON_FOOD.Berry],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -429,7 +456,7 @@ export const FOOD_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 27,
+            order: 28,
             prefix: [ICON_FOOD.Carrot],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -446,7 +473,7 @@ export const FOOD_RULES_GROUP = {
             exclude: ["ekwd|PlantTypeFlowers"],
         },
         {
-            order: 28,
+            order: 29,
             prefix: [ICON_FOOD.Flower],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -463,7 +490,7 @@ export const FOOD_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 29,
+            order: 30,
             prefix: [ICON_FOOD.Fruit],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -476,7 +503,7 @@ export const FOOD_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 30,
+            order: 31,
             prefix: [ICON_FOOD.Mushrooms],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -497,7 +524,7 @@ export const FOOD_RULES_GROUP = {
             exclude: ["ekwd|MealTypeCooked"],
         },
         {
-            order: 31,
+            order: 32,
             prefix: [ICON_FOOD.Honey],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -510,7 +537,7 @@ export const FOOD_RULES_GROUP = {
             exclude: ["ekwd|DrinkTypeAlcohol", "ekwd|ObjectTypeCandy"],
         },
         {
-            order: 32,
+            order: 33,
             prefix: [ICON_FOOD.Flavor],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
