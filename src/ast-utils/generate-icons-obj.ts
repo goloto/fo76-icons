@@ -1,6 +1,7 @@
 import { ICON_CATEGORIES_ORDER } from '@/constants/categories-order';
 import * as ALL_RULES from '@/rules';
 import * as ALL_ICON_ENUMS from '@/generated/icons-enum';
+import { ICON_CATEGORIES } from '@/generated/icon-categories-enum';
 import type { Icon, IconNames, RulesGroup } from '@/types';
 import { getMaxLength } from '@/utils/get-max-length';
 import { generateCharCode } from '@/utils/generate-icon-char-code';
@@ -23,6 +24,13 @@ export const generateIconsObj = async (): Promise<string> => {
       return { ...enumAccumulator, ...propertyNameMap };
     },
     <Record<IconNames, { name: IconNames; property: string }>>{}
+  );
+  const categoryEnumPropertiesMap = Object.entries(ICON_CATEGORIES).reduce(
+    (mapAccumulator, [key, value]) => ({
+      ...mapAccumulator,
+      [value]: key,
+    }),
+    <Record<ICON_CATEGORIES, string>>{}
   );
   const unsortedRuleGroups = Object.values(ALL_RULES);
   const sortedRuleGroups = ICON_CATEGORIES_ORDER.reduce(
@@ -68,6 +76,7 @@ export const generateIconsObj = async (): Promise<string> => {
             .map((prefix) => ({
               name: prefix,
               charCode: generateCharCode(prefix),
+              category: group.category,
             }))
         );
       }
@@ -106,17 +115,30 @@ export const generateIconsObj = async (): Promise<string> => {
           iconEnumPropertiesMap[icon.name].property
         )
       : ts.factory.createStringLiteral(icon.name, true);
+    const category = ts.factory.createPropertyAccessChain(
+      ts.factory.createIdentifier('ICON_CATEGORIES'),
+      undefined,
+      categoryEnumPropertiesMap[icon.category]
+    );
 
     const namePropertyAssignment = ts.factory.createPropertyAssignment(
       'name',
       name
+    );
+    const groupPropertyAssignment = ts.factory.createPropertyAssignment(
+      'category',
+      category
     );
     const charCodePropertyAssignment = ts.factory.createPropertyAssignment(
       'charCode',
       ts.factory.createStringLiteral(icon.charCode, true)
     );
     const objectLiteralExpression = ts.factory.createObjectLiteralExpression(
-      [namePropertyAssignment, charCodePropertyAssignment],
+      [
+        namePropertyAssignment,
+        groupPropertyAssignment,
+        charCodePropertyAssignment,
+      ],
       true
     );
 

@@ -26,6 +26,7 @@ import type { ICON_CATEGORIES } from '@/generated/icon-categories-enum';
 export interface Icon {
   name: IconNames;
   charCode: string;
+  category: ICON_CATEGORIES;
 }
 
 export type ICON_COMMON = '_injected_innr_eraser';

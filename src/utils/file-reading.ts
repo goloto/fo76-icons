@@ -1,5 +1,7 @@
+import { INPUT_DIRECTORY } from '@/constants';
+
 export const readUnicodeMapFile = async (): Promise<string> => {
-  return await readFileAsText('./fontlab/standard.nam');
+  return await readFileAsText(`${INPUT_DIRECTORY}/standard.nam`);
 };
 
 export const readFileAsJson = async <T extends unknown>(path: string) => {

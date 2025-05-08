@@ -2,12 +2,12 @@ import type { IconNames, Rule } from '../types';
 
 export const OUTPUT_DIRECTORY = './output';
 export const INPUT_DIRECTORY = './input';
-export const ICONS_DIRECTORY = './icons';
+export const ICONS_DIRECTORY = './assets/icons';
 export const GENERATED_DIRECTORY = './src/generated';
 export const RULES_DIRECTORY = './src/rules';
 
 const onlyActualItemsRegExp = new RegExp(
-  '^((?!((zzz)|(ZZZ)|(DEl)|(DEL)|(test)|(DEPRECATED)|(cr)|(TEMPLATE)))).*(?!((NPC)|(NONPLAYABLE)))$'
+  '^((?!((zzz)|(ZZZ)|(DEl)|(DEL)|(CUT)|(test)|(DEPRECATED)|(cr)|(TEMPLATE)))).*(?!((NPC)|(NONPLAYABLE)))$'
 );
 
 export enum RightSignature {

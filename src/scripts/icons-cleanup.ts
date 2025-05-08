@@ -25,7 +25,10 @@ const cleanup = async () => {
       uselessNodes?.parentNode?.removeChild(uselessNodes);
     }
 
-    Bun.write(`./icons/${getSafeFileName(fileName)}`, dom.serialize());
+    Bun.write(
+      `${ICONS_DIRECTORY}/${getSafeFileName(fileName)}`,
+      dom.serialize()
+    );
   });
 };
 

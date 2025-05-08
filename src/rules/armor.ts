@@ -100,7 +100,7 @@ export const ARMOR_RULES_GROUP = {
         },
         {
             order: 5,
-            prefix: [ICON_ARMOR.TFivtyOne],
+            prefix: [ICON_ARMOR.TFiftyOne],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
             isInjected: false,
