@@ -61,5 +61,7 @@ export const generateTranslateFile = async () => {
     translationString
   );
 
-  await Bun.write(`${OUTPUT_DIRECTORY}/translate_ru.txt`, correctedTranslation);
+  const utf16buffer = Buffer.from(`\ufeff${correctedTranslation}`, 'utf16le');
+
+  await Bun.write(`${OUTPUT_DIRECTORY}/translate_ru.txt`, utf16buffer.buffer);
 };
