@@ -7,15 +7,15 @@ export const MISC_RULES_GROUP = {
     rules: [
         {
             order: 0,
-            prefix: [ICON_MISC.LegendaryModule],
+            prefix: [ICON_MISC.LegendaryModification],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
             isInjected: false,
             isDeleted: false,
             isAnyKeyword: false,
-            isInclusiveOr: true,
+            isInclusiveOr: false,
             isFullReplaced: false,
-            include: ["edid|miscmod", "edid|LegendaryModule"],
+            include: ["edid|LegendaryShard"],
             exclude: [],
         },
         {
@@ -72,15 +72,15 @@ export const MISC_RULES_GROUP = {
         },
         {
             order: 5,
-            prefix: [ICON_MISC.LegendaryModification],
+            prefix: [ICON_MISC.Modification],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
             isInjected: false,
             isDeleted: false,
             isAnyKeyword: false,
-            isInclusiveOr: false,
+            isInclusiveOr: true,
             isFullReplaced: false,
-            include: ["edid|LegendaryShard"],
+            include: ["edid|miscmod"],
             exclude: [],
         },
         {

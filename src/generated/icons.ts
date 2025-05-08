@@ -253,7 +253,7 @@ export const ICONS = [
         charCode: '0x020'
     },
     {
-        name: ICON_MISC.LegendaryModule,
+        name: ICON_MISC.LegendaryModification,
         category: ICON_CATEGORIES.Misc,
         charCode: '0x2297'
     },
@@ -278,7 +278,7 @@ export const ICONS = [
         charCode: '0x229b'
     },
     {
-        name: ICON_MISC.LegendaryModification,
+        name: ICON_MISC.Modification,
         category: ICON_CATEGORIES.Misc,
         charCode: '0x229c'
     },
@@ -633,503 +633,508 @@ export const ICONS = [
         charCode: '0x22e2'
     },
     {
-        name: ICON_FOOD.Egg,
+        name: ICON_FOOD.PetFood,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22e3'
     },
     {
-        name: ICON_FOOD.TickBlood,
+        name: ICON_FOOD.Egg,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22e4'
     },
     {
-        name: ICON_FOOD.Berry,
+        name: ICON_FOOD.TickBlood,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22e5'
     },
     {
-        name: ICON_FOOD.Carrot,
+        name: ICON_FOOD.Berry,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22e6'
     },
     {
-        name: ICON_FOOD.Flower,
+        name: ICON_FOOD.Carrot,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22e7'
     },
     {
-        name: ICON_FOOD.Fruit,
+        name: ICON_FOOD.Flower,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22e8'
     },
     {
-        name: ICON_FOOD.Mushrooms,
+        name: ICON_FOOD.Fruit,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22e9'
     },
     {
-        name: ICON_FOOD.Honey,
+        name: ICON_FOOD.Mushrooms,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22ea'
     },
     {
-        name: ICON_FOOD.Flavor,
+        name: ICON_FOOD.Honey,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22eb'
     },
     {
-        name: ICON_APPAREL.Glasses,
-        category: ICON_CATEGORIES.Apparel,
+        name: ICON_FOOD.Flavor,
+        category: ICON_CATEGORIES.Food,
         charCode: '0x22ec'
     },
     {
-        name: ICON_APPAREL.FedoraHat,
+        name: ICON_APPAREL.Glasses,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22ed'
     },
     {
-        name: ICON_APPAREL.Cap,
+        name: ICON_APPAREL.FedoraHat,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22ee'
     },
     {
-        name: ICON_APPAREL.Beret,
+        name: ICON_APPAREL.Cap,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22ef'
     },
     {
-        name: ICON_APPAREL.GasMask,
+        name: ICON_APPAREL.Beret,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f0'
     },
     {
-        name: ICON_APPAREL.Helmet,
+        name: ICON_APPAREL.GasMask,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f1'
     },
     {
-        name: ICON_APPAREL.FasnachtMask,
+        name: ICON_APPAREL.Helmet,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f2'
     },
     {
-        name: ICON_APPAREL.CultistHood,
+        name: ICON_APPAREL.FasnachtMask,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f3'
     },
     {
-        name: ICON_APPAREL.CarnivalCostume,
+        name: ICON_APPAREL.CultistHood,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f4'
     },
     {
-        name: ICON_APPAREL.Jumpsuit,
+        name: ICON_APPAREL.CarnivalCostume,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f5'
     },
     {
-        name: ICON_APPAREL.Dress,
+        name: ICON_APPAREL.Jumpsuit,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f6'
     },
     {
-        name: ICON_APPAREL.Suit,
+        name: ICON_APPAREL.Dress,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f7'
     },
     {
-        name: ICON_APPAREL.Apparel,
+        name: ICON_APPAREL.Suit,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f8'
     },
     {
-        name: ICON_ARMOR.PowerArmorHelmet,
-        category: ICON_CATEGORIES.Armor,
+        name: ICON_APPAREL.Apparel,
+        category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f9'
     },
     {
-        name: ICON_ARMOR.Excavator,
+        name: ICON_ARMOR.PowerArmorHelmet,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x22fa'
     },
     {
-        name: ICON_ARMOR.TFortyFive,
+        name: ICON_ARMOR.Excavator,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x22fb'
     },
     {
-        name: ICON_ARMOR.TFiftyOne,
+        name: ICON_ARMOR.TFortyFive,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x22fc'
     },
     {
-        name: ICON_ARMOR.TSixty,
+        name: ICON_ARMOR.TFiftyOne,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x22fd'
     },
     {
-        name: ICON_ARMOR.TSixtyFive,
+        name: ICON_ARMOR.TSixty,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x22fe'
     },
     {
-        name: ICON_ARMOR.XOne,
+        name: ICON_ARMOR.TSixtyFive,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x22ff'
     },
     {
-        name: ICON_ARMOR.Underarmor,
+        name: ICON_ARMOR.XOne,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x2300'
     },
     {
-        name: ICON_ARMOR.Spacesuit,
+        name: ICON_ARMOR.Underarmor,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x2301'
     },
     {
-        name: ICON_ARMOR.ChestArmor,
+        name: ICON_ARMOR.Spacesuit,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x2302'
     },
     {
-        name: ICON_ARMOR.ArmorRightArm,
+        name: ICON_ARMOR.ChestArmor,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x2303'
     },
     {
-        name: ICON_ARMOR.ArmorLeftArm,
+        name: ICON_ARMOR.ArmorRightArm,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x2304'
     },
     {
-        name: ICON_ARMOR.ArmorRightLeg,
+        name: ICON_ARMOR.ArmorLeftArm,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x2305'
     },
     {
-        name: ICON_ARMOR.ArmorLeftLeg,
+        name: ICON_ARMOR.ArmorRightLeg,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x2306'
     },
     {
-        name: ICON_WEAPONS.UniqueWeapon,
-        category: ICON_CATEGORIES.Weapons,
+        name: ICON_ARMOR.ArmorLeftLeg,
+        category: ICON_CATEGORIES.Armor,
         charCode: '0x2307'
     },
     {
-        name: ICON_WEAPONS.Binoculars,
+        name: ICON_WEAPONS.UniqueWeapon,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x2308'
     },
     {
-        name: ICON_WEAPONS.Camera,
+        name: ICON_WEAPONS.Binoculars,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x2309'
     },
     {
-        name: ICON_WEAPONS.AssaultronHead,
+        name: ICON_WEAPONS.Camera,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x230a'
     },
     {
-        name: ICON_WEAPONS.Syringer,
+        name: ICON_WEAPONS.AssaultronHead,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x230b'
     },
     {
-        name: ICON_WEAPONS.Bow,
+        name: ICON_WEAPONS.Syringer,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x230c'
     },
     {
-        name: ICON_WEAPONS.CompoundBow,
+        name: ICON_WEAPONS.Bow,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x230d'
     },
     {
-        name: ICON_WEAPONS.Weapon,
+        name: ICON_WEAPONS.CompoundBow,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x230e'
     },
     {
-        name: ICON_MELEE_WEAPONS.PowerFist,
-        category: ICON_CATEGORIES.MeleeWeapons,
+        name: ICON_WEAPONS.Weapon,
+        category: ICON_CATEGORIES.Weapons,
         charCode: '0x230f'
     },
     {
-        name: ICON_MELEE_WEAPONS.Unarmed,
+        name: ICON_MELEE_WEAPONS.PowerFist,
         category: ICON_CATEGORIES.MeleeWeapons,
         charCode: '0x2310'
     },
     {
-        name: ICON_MELEE_WEAPONS.Chainsaw,
+        name: ICON_MELEE_WEAPONS.Unarmed,
         category: ICON_CATEGORIES.MeleeWeapons,
         charCode: '0x2311'
     },
     {
-        name: ICON_MELEE_WEAPONS.Shishkebab,
+        name: ICON_MELEE_WEAPONS.Chainsaw,
         category: ICON_CATEGORIES.MeleeWeapons,
         charCode: '0x2312'
     },
     {
-        name: ICON_MELEE_WEAPONS.Ripper,
+        name: ICON_MELEE_WEAPONS.Shishkebab,
         category: ICON_CATEGORIES.MeleeWeapons,
         charCode: '0x2313'
     },
     {
-        name: ICON_MELEE_WEAPONS.Knife,
+        name: ICON_MELEE_WEAPONS.Ripper,
         category: ICON_CATEGORIES.MeleeWeapons,
         charCode: '0x2314'
     },
     {
-        name: ICON_MELEE_WEAPONS.Machete,
+        name: ICON_MELEE_WEAPONS.Knife,
         category: ICON_CATEGORIES.MeleeWeapons,
         charCode: '0x2315'
     },
     {
-        name: ICON_MELEE_WEAPONS.OneHandedAxe,
+        name: ICON_MELEE_WEAPONS.Machete,
         category: ICON_CATEGORIES.MeleeWeapons,
         charCode: '0x2316'
     },
     {
-        name: ICON_MELEE_WEAPONS.OneHandedBat,
+        name: ICON_MELEE_WEAPONS.OneHandedAxe,
         category: ICON_CATEGORIES.MeleeWeapons,
         charCode: '0x2317'
     },
     {
-        name: ICON_MELEE_WEAPONS.OneHandedMelee,
+        name: ICON_MELEE_WEAPONS.OneHandedBat,
         category: ICON_CATEGORIES.MeleeWeapons,
         charCode: '0x2318'
     },
     {
-        name: ICON_MELEE_WEAPONS.SuperSledge,
+        name: ICON_MELEE_WEAPONS.OneHandedMelee,
         category: ICON_CATEGORIES.MeleeWeapons,
         charCode: '0x2319'
     },
     {
-        name: ICON_MELEE_WEAPONS.TwoHandedBat,
+        name: ICON_MELEE_WEAPONS.SuperSledge,
         category: ICON_CATEGORIES.MeleeWeapons,
         charCode: '0x231a'
     },
     {
-        name: ICON_MELEE_WEAPONS.TwoHandedAxe,
+        name: ICON_MELEE_WEAPONS.TwoHandedBat,
         category: ICON_CATEGORIES.MeleeWeapons,
         charCode: '0x231b'
     },
     {
-        name: ICON_MELEE_WEAPONS.TwoHandedSword,
+        name: ICON_MELEE_WEAPONS.TwoHandedAxe,
         category: ICON_CATEGORIES.MeleeWeapons,
         charCode: '0x231c'
     },
     {
-        name: ICON_MELEE_WEAPONS.TwoHandedMelee,
+        name: ICON_MELEE_WEAPONS.TwoHandedSword,
         category: ICON_CATEGORIES.MeleeWeapons,
         charCode: '0x231d'
     },
     {
-        name: ICON_HEAVY_WEAPONS.Flamer,
-        category: ICON_CATEGORIES.HeavyWeapons,
+        name: ICON_MELEE_WEAPONS.TwoHandedMelee,
+        category: ICON_CATEGORIES.MeleeWeapons,
         charCode: '0x231e'
     },
     {
-        name: ICON_HEAVY_WEAPONS.Cryolator,
+        name: ICON_HEAVY_WEAPONS.Flamer,
         category: ICON_CATEGORIES.HeavyWeapons,
         charCode: '0x231f'
     },
     {
-        name: ICON_HEAVY_WEAPONS.MachineGun,
+        name: ICON_HEAVY_WEAPONS.Cryolator,
         category: ICON_CATEGORIES.HeavyWeapons,
         charCode: '0x2320'
     },
     {
-        name: ICON_HEAVY_WEAPONS.LightMachineGun,
+        name: ICON_HEAVY_WEAPONS.MachineGun,
         category: ICON_CATEGORIES.HeavyWeapons,
         charCode: '0x2321'
     },
     {
-        name: ICON_HEAVY_WEAPONS.GatlingLaser,
+        name: ICON_HEAVY_WEAPONS.LightMachineGun,
         category: ICON_CATEGORIES.HeavyWeapons,
         charCode: '0x2322'
     },
     {
-        name: ICON_HEAVY_WEAPONS.GatlingPlasma,
+        name: ICON_HEAVY_WEAPONS.GatlingLaser,
         category: ICON_CATEGORIES.HeavyWeapons,
         charCode: '0x2323'
     },
     {
-        name: ICON_HEAVY_WEAPONS.GatlingGun,
+        name: ICON_HEAVY_WEAPONS.GatlingPlasma,
         category: ICON_CATEGORIES.HeavyWeapons,
         charCode: '0x2324'
     },
     {
-        name: ICON_HEAVY_WEAPONS.PlasmaCaster,
+        name: ICON_HEAVY_WEAPONS.GatlingGun,
         category: ICON_CATEGORIES.HeavyWeapons,
         charCode: '0x2325'
     },
     {
-        name: ICON_HEAVY_WEAPONS.Minigun,
+        name: ICON_HEAVY_WEAPONS.PlasmaCaster,
         category: ICON_CATEGORIES.HeavyWeapons,
         charCode: '0x2326'
     },
     {
-        name: ICON_HEAVY_WEAPONS.Broadsider,
+        name: ICON_HEAVY_WEAPONS.Minigun,
         category: ICON_CATEGORIES.HeavyWeapons,
         charCode: '0x2327'
     },
     {
-        name: ICON_HEAVY_WEAPONS.MissileLauncher,
+        name: ICON_HEAVY_WEAPONS.Broadsider,
         category: ICON_CATEGORIES.HeavyWeapons,
         charCode: '0x2328'
     },
     {
-        name: ICON_HEAVY_WEAPONS.HellstormMissileLauncher,
+        name: ICON_HEAVY_WEAPONS.MissileLauncher,
         category: ICON_CATEGORIES.HeavyWeapons,
         charCode: '0x2329'
     },
     {
-        name: ICON_HEAVY_WEAPONS.GrenadeLauncher,
+        name: ICON_HEAVY_WEAPONS.HellstormMissileLauncher,
         category: ICON_CATEGORIES.HeavyWeapons,
         charCode: '0x232a'
     },
     {
-        name: ICON_HEAVY_WEAPONS.AutoGrenadeLauncher,
+        name: ICON_HEAVY_WEAPONS.GrenadeLauncher,
         category: ICON_CATEGORIES.HeavyWeapons,
         charCode: '0x232b'
     },
     {
-        name: ICON_HEAVY_WEAPONS.Fatman,
+        name: ICON_HEAVY_WEAPONS.AutoGrenadeLauncher,
         category: ICON_CATEGORIES.HeavyWeapons,
         charCode: '0x232c'
     },
     {
-        name: ICON_HEAVY_WEAPONS.HarpoonGun,
+        name: ICON_HEAVY_WEAPONS.Fatman,
         category: ICON_CATEGORIES.HeavyWeapons,
         charCode: '0x232d'
     },
     {
-        name: ICON_HEAVY_WEAPONS.JunkJet,
+        name: ICON_HEAVY_WEAPONS.HarpoonGun,
         category: ICON_CATEGORIES.HeavyWeapons,
         charCode: '0x232e'
     },
     {
-        name: ICON_RIFLES.Fixer,
-        category: ICON_CATEGORIES.Rifles,
+        name: ICON_HEAVY_WEAPONS.JunkJet,
+        category: ICON_CATEGORIES.HeavyWeapons,
         charCode: '0x232f'
     },
     {
-        name: ICON_RIFLES.HandmadeRifle,
+        name: ICON_RIFLES.Fixer,
         category: ICON_CATEGORIES.Rifles,
         charCode: '0x2330'
     },
     {
-        name: ICON_RIFLES.RailwayRifle,
+        name: ICON_RIFLES.HandmadeRifle,
         category: ICON_CATEGORIES.Rifles,
         charCode: '0x2331'
     },
     {
-        name: ICON_RIFLES.TeslaRifle,
+        name: ICON_RIFLES.RailwayRifle,
         category: ICON_CATEGORIES.Rifles,
         charCode: '0x2332'
     },
     {
-        name: ICON_RIFLES.AlienDisintegrator,
+        name: ICON_RIFLES.TeslaRifle,
         category: ICON_CATEGORIES.Rifles,
         charCode: '0x2333'
     },
     {
-        name: ICON_RIFLES.GaussRifle,
+        name: ICON_RIFLES.AlienDisintegrator,
         category: ICON_CATEGORIES.Rifles,
         charCode: '0x2334'
     },
     {
-        name: ICON_RIFLES.PlasmaRifle,
+        name: ICON_RIFLES.GaussRifle,
         category: ICON_CATEGORIES.Rifles,
         charCode: '0x2335'
     },
     {
-        name: ICON_RIFLES.LaserRifle,
+        name: ICON_RIFLES.PlasmaRifle,
         category: ICON_CATEGORIES.Rifles,
         charCode: '0x2336'
     },
     {
-        name: ICON_RIFLES.PipeRifle,
+        name: ICON_RIFLES.LaserRifle,
         category: ICON_CATEGORIES.Rifles,
         charCode: '0x2337'
     },
     {
-        name: ICON_RIFLES.LaserMusket,
+        name: ICON_RIFLES.PipeRifle,
         category: ICON_CATEGORIES.Rifles,
         charCode: '0x2338'
     },
     {
-        name: ICON_RIFLES.Rifle,
+        name: ICON_RIFLES.LaserMusket,
         category: ICON_CATEGORIES.Rifles,
         charCode: '0x2339'
     },
     {
+        name: ICON_RIFLES.Rifle,
+        category: ICON_CATEGORIES.Rifles,
+        charCode: '0x233a'
+    },
+    {
         name: ICON_SHOTGUNS.Shotgun,
         category: ICON_CATEGORIES.Shotguns,
-        charCode: '0x233a'
+        charCode: '0x233b'
     },
     {
         name: ICON_PISTOLS.GaussPistol,
         category: ICON_CATEGORIES.Pistols,
-        charCode: '0x233b'
+        charCode: '0x233c'
     },
     {
         name: ICON_PISTOLS.AlienBluster,
         category: ICON_CATEGORIES.Pistols,
-        charCode: '0x233c'
+        charCode: '0x233d'
     },
     {
         name: ICON_PISTOLS.GammaGun,
         category: ICON_CATEGORIES.Pistols,
-        charCode: '0x233d'
+        charCode: '0x233e'
     },
     {
         name: ICON_PISTOLS.PlasmaPistol,
         category: ICON_CATEGORIES.Pistols,
-        charCode: '0x233e'
+        charCode: '0x233f'
     },
     {
         name: ICON_PISTOLS.LaserPistol,
         category: ICON_CATEGORIES.Pistols,
-        charCode: '0x233f'
+        charCode: '0x2340'
     },
     {
         name: ICON_PISTOLS.Revolver,
         category: ICON_CATEGORIES.Pistols,
-        charCode: '0x2340'
+        charCode: '0x2341'
     },
     {
         name: ICON_PISTOLS.PipeRevolver,
         category: ICON_CATEGORIES.Pistols,
-        charCode: '0x2341'
+        charCode: '0x2342'
     },
     {
         name: ICON_PISTOLS.PipePistol,
         category: ICON_CATEGORIES.Pistols,
-        charCode: '0x2342'
+        charCode: '0x2343'
     },
     {
         name: ICON_PISTOLS.FlareGun,
         category: ICON_CATEGORIES.Pistols,
-        charCode: '0x2343'
+        charCode: '0x2344'
     },
     {
         name: ICON_PISTOLS.CrusaderPistol,
         category: ICON_CATEGORIES.Pistols,
-        charCode: '0x2344'
+        charCode: '0x2345'
     },
     {
         name: ICON_PISTOLS.ThirstZapper,
         category: ICON_CATEGORIES.Pistols,
-        charCode: '0x2345'
+        charCode: '0x2346'
     },
     {
         name: ICON_PISTOLS.BlackPowderPistol,
         category: ICON_CATEGORIES.Pistols,
-        charCode: '0x2346'
+        charCode: '0x2347'
     }
 ] as const satisfies Icon[];
