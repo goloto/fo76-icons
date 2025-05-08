@@ -194,7 +194,7 @@ export const AID_RULES_GROUP = {
         },
         {
             order: 11,
-            prefix: [ICON_AID.Magazine],
+            prefix: [ICON_AID.MysteryBox],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
             isInjected: false,
@@ -202,11 +202,27 @@ export const AID_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: true,
             isFullReplaced: false,
-            include: ["ekwd|MagazineKeyword"],
+            include: [
+                "edid|SCORE_BobbleheadBox",
+                "edid|SCORE_MagazineBookBox"
+            ],
             exclude: [],
         },
         {
             order: 12,
+            prefix: [ICON_AID.Magazine],
+            leftSignature: LeftSignature.Alchemy,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["ekwd|MagazineKeyword"],
+            exclude: [],
+        },
+        {
+            order: 13,
             prefix: [ICON_AID.Bobblehead],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,

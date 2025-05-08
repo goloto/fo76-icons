@@ -238,7 +238,7 @@
 [EndRule]
 
 [StartRule]
- Header=#magazine#
+ Header=#mystery_box#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -249,6 +249,25 @@
  preProcess=0
  fullReplace=0
  includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|SCORE_BobbleheadBox
+ Include_1=edid|SCORE_MagazineBookBox
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#magazine#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|MagazineKeyword
@@ -1537,6 +1556,42 @@
 [EndRule]
 
 [StartRule]
+ Header=#cake#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeCakesPies
+ Exclude_0=ekwd|IngredientTypeMeat
+[EndRule]
+
+[StartRule]
+ Header=#candy#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeCandy
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#canned_food#
  rSig=ALCH
  fSig=FULL
@@ -1572,42 +1627,6 @@
  fallbackBank=0
  Include_0=edid|bubblegum
  Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#candy#
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ObjectTypeCandy
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#cake#
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ObjectTypeCakesPies
- Exclude_0=ekwd|IngredientTypeMeat
 [EndRule]
 
 [StartRule]

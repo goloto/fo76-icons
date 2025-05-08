@@ -115,6 +115,7 @@ export enum ICON_AID {
     Lunchbox = 'lunchbox',
     Magazine = 'magazine',
     MutationSerum = 'mutation_serum',
+    MysteryBox = 'mystery_box',
     Radaway = 'radaway',
     Scout = 'scout',
     Stealthboy = 'stealthboy',
