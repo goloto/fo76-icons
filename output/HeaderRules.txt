@@ -3448,7 +3448,7 @@
 
 [StartRule]
  Header=⊘
- rSig=CNCY
+ rSig=MISC
  fSig=FULL
  enabled=-1
  tagID=default
@@ -3457,10 +3457,11 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=edid|LegendaryCore
+ Include_0=edid|LegendaryModule
+ Include_1=edid|LegendaryCore
  Exclude_0=
 [EndRule]
 
