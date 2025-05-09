@@ -258,7 +258,7 @@ export const ICONS = [
         charCode: '0x2297'
     },
     {
-        name: ICON_MISC.LegendaryCore,
+        name: ICON_MISC.LegendaryModule,
         category: ICON_CATEGORIES.Misc,
         charCode: '0x2298'
     },

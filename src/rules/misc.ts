@@ -20,15 +20,18 @@ export const MISC_RULES_GROUP = {
         },
         {
             order: 1,
-            prefix: [ICON_MISC.LegendaryCore],
-            leftSignature: LeftSignature.Currency,
+            prefix: [ICON_MISC.LegendaryModule],
+            leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
             isInjected: false,
             isDeleted: false,
             isAnyKeyword: false,
-            isInclusiveOr: false,
+            isInclusiveOr: true,
             isFullReplaced: false,
-            include: ["edid|LegendaryCore"],
+            include: [
+                "edid|LegendaryModule",
+                "edid|LegendaryCore"
+            ],
             exclude: [],
         },
         {
