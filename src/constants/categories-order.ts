@@ -58,27 +58,7 @@ export const ICON_CATEGORIES_ORDER = [
         order: 13,
     },
     {
-        name: ICON_CATEGORIES.MeleeWeapons,
-        order: 14,
-    },
-    {
-        name: ICON_CATEGORIES.HeavyWeapons,
-        order: 15,
-    },
-    {
-        name: ICON_CATEGORIES.Rifles,
-        order: 16,
-    },
-    {
-        name: ICON_CATEGORIES.Shotguns,
-        order: 17,
-    },
-    {
-        name: ICON_CATEGORIES.Pistols,
-        order: 18,
-    },
-    {
         name: ICON_CATEGORIES.Events,
-        order: 19,
+        order: 14,
     }
 ] as const satisfies CategoryOrder[];
