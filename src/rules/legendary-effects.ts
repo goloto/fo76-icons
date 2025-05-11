@@ -575,9 +575,6 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [
                 // unique weapons
                 "ekwd|CustomItemName",
-                "ekwd|PowerArmor",
-                "ekwd|HandmadeRifle",
-                "ekwd|PipeWrench_Flowers",
                 ...unyieldingRules,
                 ...antiArmorRules,
                 ...bloodiedRules,
@@ -613,6 +610,25 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
                 ...regeneratingRules,
                 ...weightlessRules,
             ],
+        },
+        {
+            order: 35,
+            prefix: ["_injected_innr_eraser"],
+            leftSignature: LeftSignature.InstanceNamingRules,
+            rightSignature: RightSignature.WNAM,
+            isInjected: true,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: true,
+            include: [
+                "ekwd|SilverLining",
+                "ekwd|LastBastion",
+                "ekwd|TrailWarden",
+                "ekwd|StandFast",
+                "ekwd|BlueRidgeGuardsmanArmor",
+            ],
+            exclude: [],
         }
     ],
 } as const satisfies RulesGroup<ICON_LEGENDARY_EFFECTS | ICON_COMMON>;
