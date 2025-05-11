@@ -1,24 +1,6 @@
 export enum ICON_CURRENCY {
     Caps = 'caps'
 }
-export enum ICON_THROWN_WEAPONS {
-    CryoGrenade = 'cryo_grenade',
-    Dynamite = 'dynamite',
-    FragmentationGrenade = 'fragmentation_grenade',
-    MeatClever = 'meat_clever',
-    NukaGrenade = 'nuka_grenade',
-    PlasmaGrenade = 'plasma_grenade',
-    PulseGrenade = 'pulse_grenade',
-    ThrownBomb = 'thrown_bomb'
-}
-export enum ICON_MINES {
-    BottlecapMine = 'bottlecap_mine',
-    CryoMine = 'cryo_mine',
-    FragmentationMine = 'fragmentation_mine',
-    NukeMine = 'nuke_mine',
-    PlasmaMine = 'plasma_mine',
-    PulseMine = 'pulse_mine'
-}
 export enum ICON_LEGENDARY_EFFECTS {
     AntiArmor = 'anti_armor',
     Aristocrat = 'aristocrat',
@@ -187,14 +169,24 @@ export enum ICON_ARMOR {
     XOne = 'x_one'
 }
 export enum ICON_WEAPONS {
-    AssaultronHead = 'assaultron_head',
     Binoculars = 'binoculars',
-    Bow = 'bow',
     Camera = 'camera',
-    CompoundBow = 'compound_bow',
+    Crossbow = 'crossbow',
+    Heavy = 'heavy',
+    HeavyEnergy = 'heavy_energy',
+    MeleeAuto = 'melee_auto',
+    MeleeOneHand = 'melee_one_hand',
+    MeleeTwoHand = 'melee_two_hand',
+    MeleeUnarmed = 'melee_unarmed',
+    Mine = 'mine',
+    Pistol = 'pistol',
+    PistolEnergy = 'pistol_energy',
+    Rifle = 'rifle',
+    RifleEnergy = 'rifle_energy',
+    Shotgun = 'shotgun',
+    ShotgunEnergy = 'shotgun_energy',
     Syringer = 'syringer',
-    UniqueWeapon = 'unique_weapon',
-    Weapon = 'weapon'
+    Throwing = 'throwing'
 }
 export enum ICON_EVENTS {
     BeastOfBurden = 'beast_of_burden',

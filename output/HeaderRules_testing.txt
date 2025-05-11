@@ -2734,118 +2734,6 @@
 [EndRule]
 
 [StartRule]
- Header=#cryo_mine#
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|CryoMine
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#plasma_mine#
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|PlasmaMine
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#pulse_mine#
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|PulseMine
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#bottlecap_mine#
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|BottlecapMine
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#nuke_mine#
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|NukeMine
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#fragmentation_mine#
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|WeaponTypeMine
- Exclude_0=edid|CryoMine
- Exclude_1=edid|PlasmaMine
- Exclude_2=edid|PulseMine
- Exclude_3=edid|BottlecapMine
- Exclude_4=edid|NukeMine
-[EndRule]
-
-[StartRule]
  Header=#legendary_modification#
  rSig=MISC
  fSig=FULL
@@ -3354,7 +3242,7 @@
 [EndRule]
 
 [StartRule]
- Header=#meat_clever#
+ Header=#throwing#
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3367,12 +3255,12 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ThrowingKnife
+ Include_0=ekwd|WeaponTypeThrown
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=#nuka_grenade#
+ Header=#mine#
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3385,12 +3273,12 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|NukaGrenade
+ Include_0=ekwd|WeaponTypeMine
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=#plasma_grenade#
+ Header=#heavy_energy#
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3403,12 +3291,13 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|PlasmaGrenade
+ Include_0=ekwd|WeaponTypeEnergy
+ Include_1=ekwd|WeaponTypeHeavy
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=#cryo_grenade#
+ Header=#heavy#
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3421,12 +3310,12 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|CryoGrenade
+ Include_0=ekwd|WeaponTypeHeavy
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=#pulse_grenade#
+ Header=#rifle_energy#
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3439,12 +3328,13 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|PulseGrenade
+ Include_0=ekwd|WeaponTypeRifle
+ Include_1=ekwd|WeaponTypeEnergy
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=#fragmentation_grenade#
+ Header=#rifle#
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3457,19 +3347,122 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|WeaponTypeGrenade
- Exclude_0=edid|PulseGrenade
- Exclude_1=edid|NukaGrenade
- Exclude_2=edid|SuiciderBomb
- Exclude_3=edid|PlasmaGrenade
- Exclude_4=edid|CryoGrenade
- Exclude_5=edid|dynamite
- Exclude_6=edid|m79
- Exclude_7=ekwd|ThrowingKnife
+ Include_0=ekwd|WeaponTypeRifle
+ Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=#thrown_bomb#
+ Header=#pistol_energy#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|WeaponTypeEnergy
+ Include_1=ekwd|WeaponTypePistol
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#pistol#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|WeaponTypePistol
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#crossbow#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|WeaponTypeBow
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#shotgun_energy#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|WeaponTypeEnergy
+ Include_1=ekwd|WeaponTypeShotgun
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#shotgun#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|WeaponTypeShotgun
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#syringer#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|syringer
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#melee_auto#
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3482,13 +3475,13 @@
  includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=edid|SuiciderBomb
- Include_1=edid|TurboFertFertilizer
+ Include_0=ekwd|WeaponTypeChainsaw
+ Include_1=ekwd|WeaponTypeDrill
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=#dynamite#
+ Header=#melee_unarmed#
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3501,31 +3494,12 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|dynamite
+ Include_0=ekwd|WeaponTypeUnarmed
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=#unique_weapon#
- rSig=INNR
- fSig=WNAM
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|CustomItemName
- Include_1=ekwd|_Love_
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#unique_weapon#
+ Header=#melee_one_hand#
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3535,11 +3509,28 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=-1
+ includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|PepperShaker
- Include_1=edid|PiratePunch
+ Include_0=ekwd|WeaponTypeMelee1H
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#melee_two_hand#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|WeaponTypeMelee2H
  Exclude_0=
 [EndRule]
 
@@ -3576,98 +3567,5 @@
  isFallBack=0
  fallbackBank=0
  Include_0=edid|camera
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#assaultron_head#
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|AssaultronHead
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#syringer#
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|syringer
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#bow#
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|bow
- Exclude_0=edid|CompoundBow
- Exclude_1=edid|Bowie
- Exclude_2=edid|crossbow
-[EndRule]
-
-[StartRule]
- Header=#compound_bow#
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|CompoundBow
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#weapon#
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=edid|10mm
- Include_1=edid|crossbow
  Exclude_0=
 [EndRule]

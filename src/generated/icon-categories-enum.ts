@@ -10,9 +10,7 @@ export enum ICON_CATEGORIES {
     Index = 'index',
     Keys = 'keys',
     LegendaryEffects = 'legendary-effects',
-    Mines = 'mines',
     Misc = 'misc',
     Notes = 'notes',
-    ThrownWeapons = 'thrown-weapons',
     Weapons = 'weapons'
 }

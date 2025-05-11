@@ -7,8 +7,6 @@ export * from "./food";
 export * from "./holotapes";
 export * from "./keys";
 export * from "./legendary-effects";
-export * from "./mines";
 export * from "./misc";
 export * from "./notes";
-export * from "./thrown-weapons";
 export * from "./weapons";
