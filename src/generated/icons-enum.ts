@@ -186,7 +186,8 @@ export enum ICON_WEAPONS {
     Shotgun = 'shotgun',
     ShotgunEnergy = 'shotgun_energy',
     Syringer = 'syringer',
-    Throwing = 'throwing'
+    Throwing = 'throwing',
+    Unique = 'unique'
 }
 export enum ICON_EVENTS {
     BeastOfBurden = 'beast_of_burden',

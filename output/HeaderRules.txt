@@ -3297,7 +3297,25 @@
 [EndRule]
 
 [StartRule]
- Header=⋼
+ Header=⋼⋽
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|CustomItemName_V63GatlingLaser
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋽
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3316,9 +3334,9 @@
 [EndRule]
 
 [StartRule]
- Header=⋽
- rSig=WEAP
- fSig=FULL
+ Header=⋼⋾
+ rSig=INNR
+ fSig=WNAM
  enabled=-1
  tagID=default
  noKW=0
@@ -3326,10 +3344,21 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|WeaponTypeHeavy
+ Include_0=ekwd|CustomItemName_Boomstick
+ Include_1=ekwd|CustomItemName_FoundationsVengeance
+ Include_2=ekwd|CustomItemName_GrandFinale
+ Include_3=ekwd|CustomItemName_NukaLauncher
+ Include_4=ekwd|CustomItemName_ResolveBreaker
+ Include_5=ekwd|CustomItemName_RedTerror
+ Include_6=ekwd|CustomItemName_ThePeacemaker
+ Include_7=ekwd|CustomItemName_Overkill
+ Include_8=ekwd|CustomItemName_Pyrolyzer
+ Include_9=ekwd|CustomItemName_HolyFire
+ Include_10=ekwd|CustomItemName_BunkerBuster
+ Include_11=ekwd|CustomItemName_Daisycutter
  Exclude_0=
 [EndRule]
 
@@ -3347,8 +3376,29 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|WeaponTypeRifle
- Include_1=ekwd|WeaponTypeEnergy
+ Include_0=ekwd|WeaponTypeHeavy
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋼⋿
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|CustomItemName_V63-BERTHA
+ Include_1=ekwd|CustomItemName_V63LaserRifle
+ Include_2=ekwd|CustomItemName_StrikeBreaker
+ Include_3=ekwd|CustomItemName_Valkyrie
+ Include_4=ekwd|CustomItemName_BoilingPoint
  Exclude_0=
 [EndRule]
 
@@ -3367,11 +3417,57 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|WeaponTypeRifle
+ Include_1=ekwd|WeaponTypeEnergy
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋼⌀
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|CustomItemName_LoveTap
+ Include_1=ekwd|CustomItemName_Longshot
+ Include_2=ekwd|CustomItemName_WesternSpirit
+ Include_3=ekwd|CustomItemName_LicketySplit
+ Include_4=ekwd|CustomItemName_TheFixer
+ Include_5=ekwd|CustomItemName_EldersMark
+ Include_6=ekwd|CustomItemName_TickettoRevenge
+ Include_7=ekwd|CustomItemName_ShatteredGrounds
+ Include_8=ekwd|CustomItemName_DoctorsOrders
+ Include_9=ekwd|CustomItemName_WhistleInTheDark
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=⌀
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|WeaponTypeRifle
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌁
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3390,9 +3486,9 @@
 [EndRule]
 
 [StartRule]
- Header=⌁
- rSig=WEAP
- fSig=FULL
+ Header=⋼⌂
+ rSig=INNR
+ fSig=WNAM
  enabled=-1
  tagID=default
  noKW=0
@@ -3400,10 +3496,16 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|WeaponTypePistol
+ Include_0=ekwd|CustomItemName_GunthersRevolver
+ Include_1=ekwd|CustomItemName_PerfectStorm
+ Include_2=ekwd|CustomItemName_AnchorageAce
+ Include_3=ekwd|CustomItemName_PiratePunch
+ Include_4=ekwd|CustomItemName_TheFactFinder
+ Include_5=ekwd|CustomItemName_CircuitBreaker
+ Include_6=ekwd|CustomItemName_SomersetSpecial
  Exclude_0=
 [EndRule]
 
@@ -3421,12 +3523,48 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|WeaponTypeBow
+ Include_0=ekwd|WeaponTypePistol
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋼⌃
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|CustomItemName_BurningLove
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=⌃
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|WeaponTypeBow
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌄
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3445,9 +3583,9 @@
 [EndRule]
 
 [StartRule]
- Header=⌄
- rSig=WEAP
- fSig=FULL
+ Header=⋼⌅
+ rSig=INNR
+ fSig=WNAM
  enabled=-1
  tagID=default
  noKW=0
@@ -3455,10 +3593,12 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|WeaponTypeShotgun
+ Include_0=ekwd|CustomItemName_CivilUnrest
+ Include_1=ekwd|CustomItemName_TheKabloom
+ Include_2=ekwd|CustomItemName_CrowdControl
  Exclude_0=
 [EndRule]
 
@@ -3476,12 +3616,48 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|syringer
+ Include_0=ekwd|WeaponTypeShotgun
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=⌆
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|syringer
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋼⌇
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|CustomItemName_Cauterizer
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌇
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3500,9 +3676,9 @@
 [EndRule]
 
 [StartRule]
- Header=⌇
- rSig=WEAP
- fSig=FULL
+ Header=⋼⌈
+ rSig=INNR
+ fSig=WNAM
  enabled=-1
  tagID=default
  noKW=0
@@ -3510,10 +3686,12 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|WeaponTypeUnarmed
+ Include_0=ekwd|CustomItemName_DrillFist
+ Include_1=ekwd|CustomItemName_OguaGauntlet
+ Include_2=ekwd|CustomItemName_ToneDeath
  Exclude_0=
 [EndRule]
 
@@ -3531,7 +3709,30 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|WeaponTypeMelee1H
+ Include_0=ekwd|WeaponTypeUnarmed
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋼⌉
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|CustomItemName_LucaSwitchblade
+ Include_1=ekwd|CustomItemName_BlueRidgeBrandingIron
+ Include_2=ekwd|CustomItemName_CryptidJawboneKnife
+ Include_3=ekwd|CustomItemName_V63ShockBaton
+ Include_4=ekwd|CustomItemName_TheGutter
+ Include_5=ekwd|CustomItemName_BlackDiamond
  Exclude_0=
 [EndRule]
 
@@ -3549,7 +3750,33 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|WeaponTypeMelee2H
+ Include_0=ekwd|WeaponTypeMelee1H
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋼⌊
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|CustomItemName_TheDebilitator
+ Include_1=ekwd|CustomItemName_WhackerSmacker
+ Include_2=ekwd|CustomItemName_RatBat
+ Include_3=ekwd|CustomItemName_AllRise
+ Include_4=ekwd|CustomItemName_HeadHunter
+ Include_5=ekwd|CustomItemName_UltraciteTerrorSword
+ Include_6=ekwd|CustomItemName_CultistPiercer
+ Include_7=ekwd|CustomItemName_TheFarmhand
+ Include_8=ekwd|CustomItemName_StrongmansSledgehammer
  Exclude_0=
 [EndRule]
 
@@ -3567,12 +3794,30 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|binoculars
+ Include_0=ekwd|WeaponTypeMelee2H
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=⌋
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|binoculars
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌌
  rSig=WEAP
  fSig=FULL
  enabled=-1

@@ -758,83 +758,88 @@ export const ICONS = [
         charCode: '0x22fb'
     },
     {
-        name: ICON_WEAPONS.HeavyEnergy,
+        name: ICON_WEAPONS.Unique,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x22fc'
     },
     {
-        name: ICON_WEAPONS.Heavy,
+        name: ICON_WEAPONS.HeavyEnergy,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x22fd'
     },
     {
-        name: ICON_WEAPONS.RifleEnergy,
+        name: ICON_WEAPONS.Heavy,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x22fe'
     },
     {
-        name: ICON_WEAPONS.Rifle,
+        name: ICON_WEAPONS.RifleEnergy,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x22ff'
     },
     {
-        name: ICON_WEAPONS.PistolEnergy,
+        name: ICON_WEAPONS.Rifle,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x2300'
     },
     {
-        name: ICON_WEAPONS.Pistol,
+        name: ICON_WEAPONS.PistolEnergy,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x2301'
     },
     {
-        name: ICON_WEAPONS.Crossbow,
+        name: ICON_WEAPONS.Pistol,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x2302'
     },
     {
-        name: ICON_WEAPONS.ShotgunEnergy,
+        name: ICON_WEAPONS.Crossbow,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x2303'
     },
     {
-        name: ICON_WEAPONS.Shotgun,
+        name: ICON_WEAPONS.ShotgunEnergy,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x2304'
     },
     {
-        name: ICON_WEAPONS.Syringer,
+        name: ICON_WEAPONS.Shotgun,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x2305'
     },
     {
-        name: ICON_WEAPONS.MeleeAuto,
+        name: ICON_WEAPONS.Syringer,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x2306'
     },
     {
-        name: ICON_WEAPONS.MeleeUnarmed,
+        name: ICON_WEAPONS.MeleeAuto,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x2307'
     },
     {
-        name: ICON_WEAPONS.MeleeOneHand,
+        name: ICON_WEAPONS.MeleeUnarmed,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x2308'
     },
     {
-        name: ICON_WEAPONS.MeleeTwoHand,
+        name: ICON_WEAPONS.MeleeOneHand,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x2309'
     },
     {
-        name: ICON_WEAPONS.Binoculars,
+        name: ICON_WEAPONS.MeleeTwoHand,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x230a'
     },
     {
-        name: ICON_WEAPONS.Camera,
+        name: ICON_WEAPONS.Binoculars,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x230b'
+    },
+    {
+        name: ICON_WEAPONS.Camera,
+        category: ICON_CATEGORIES.Weapons,
+        charCode: '0x230c'
     }
 ] as const satisfies Icon[];
