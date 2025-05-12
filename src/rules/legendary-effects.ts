@@ -1,5 +1,5 @@
 import { ICON_LEGENDARY_EFFECTS } from "@/generated/icons-enum";
-import { LeftSignature, RightSignature } from "@/constants";
+import { LeftSignature, POWER_ARMOR_EFFECTS, RightSignature } from "@/constants";
 import type { ICON_COMMON, IncludeProperty, RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
 const unyieldingRules = [
@@ -574,6 +574,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             include: [],
             exclude: [
                 "ekwd|CustomItemName",
+                "ekwd|PowerArmor",
                 ...unyieldingRules,
                 ...antiArmorRules,
                 ...bloodiedRules,
@@ -621,11 +622,12 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isInclusiveOr: true,
             isFullReplaced: true,
             include: [
+                POWER_ARMOR_EFFECTS,
                 "ekwd|SilverLining",
                 "ekwd|LastBastion",
                 "ekwd|TrailWarden",
                 "ekwd|StandFast",
-                "ekwd|BlueRidgeGuardsmanArmor",
+                "ekwd|BlueRidgeGuardsmanArmor"
             ],
             exclude: [],
         }

@@ -43,7 +43,8 @@ export const WEAPONS_RULES_GROUP = {
             isInclusiveOr: true,
             isFullReplaced: false,
             include: [
-                "ekwd|CustomItemName_V63GatlingLaser"
+                "ekwd|CustomItemName_V63GatlingLaser",
+                "ekwd|CustomItemName_Valkyrie",
             ],
             exclude: [],
         },
@@ -116,7 +117,6 @@ export const WEAPONS_RULES_GROUP = {
                 "ekwd|CustomItemName_V63-BERTHA",
                 "ekwd|CustomItemName_V63LaserRifle",
                 "ekwd|CustomItemName_StrikeBreaker",
-                "ekwd|CustomItemName_Valkyrie",
                 "ekwd|CustomItemName_BoilingPoint"
             ],
             exclude: [],

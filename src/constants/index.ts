@@ -6,6 +6,8 @@ export const ICONS_DIRECTORY = './assets/icons';
 export const GENERATED_DIRECTORY = './src/generated';
 export const RULES_DIRECTORY = './src/rules';
 
+export const POWER_ARMOR_EFFECTS = 'ekwd|HasLegendary_PowerArmor' as const;
+
 const onlyActualItemsRegExp = new RegExp(
   '^((?!((zzz)|(ZZZ)|(DEl)|(DEL)|(CUT)|(debug)|(test)|(Test)|(DEPRECATED)|(cr)|(TEMPLATE)))).*(?!((NPC)|(NONPLAYABLE)))$'
 );
