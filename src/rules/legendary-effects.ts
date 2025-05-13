@@ -622,7 +622,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isInclusiveOr: true,
             isFullReplaced: true,
             include: [
-                POWER_ARMOR_EFFECTS,
+                ...POWER_ARMOR_EFFECTS,
                 "ekwd|SilverLining",
                 "ekwd|LastBastion",
                 "ekwd|TrailWarden",

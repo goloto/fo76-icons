@@ -83,7 +83,9 @@ export const WEAPONS_RULES_GROUP = {
                 "ekwd|CustomItemName_RedTerror",
                 "ekwd|CustomItemName_ThePeacemaker",
                 "ekwd|CustomItemName_Overkill",
+                // bug?
                 "ekwd|CustomItemName_Pyrolyzer",
+                // bug
                 "ekwd|CustomItemName_HolyFire",
                 "ekwd|CustomItemName_BunkerBuster",
                 "ekwd|CustomItemName_Daisycutter"
@@ -418,6 +420,7 @@ export const WEAPONS_RULES_GROUP = {
                 "ekwd|CustomItemName_WhackerSmacker",
                 "ekwd|CustomItemName_RatBat",
                 "ekwd|CustomItemName_AllRise",
+                // bug
                 "ekwd|CustomItemName_HeadHunter",
                 "ekwd|CustomItemName_UltraciteTerrorSword",
                 "ekwd|CustomItemName_CultistPiercer",

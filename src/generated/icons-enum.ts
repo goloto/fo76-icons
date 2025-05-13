@@ -159,13 +159,19 @@ export enum ICON_ARMOR {
     ArmorRightLeg = 'armor_right_leg',
     ChestArmor = 'chest_armor',
     Excavator = 'excavator',
+    Hellcat = 'hellcat',
     PowerArmorHelmet = 'power_armor_helmet',
+    Raider = 'raider',
     Spacesuit = 'spacesuit',
     TFiftyOne = 't_fifty_one',
     TFortyFive = 't_forty_five',
     TSixty = 't_sixty',
     TSixtyFive = 't_sixty_five',
+    Ultracite = 'ultracite',
     Underarmor = 'underarmor',
+    Union = 'union',
+    VNinetyFour = 'v_ninety_four',
+    Vulcan = 'vulcan',
     XOne = 'x_one'
 }
 export enum ICON_WEAPONS {

@@ -949,18 +949,25 @@
  fallbackBank=0
  Include_0=ekwd|PowerArmor
  Exclude_0=ekwd|HasLegendary_PowerArmor
- Exclude_1=ekwd|PowerArmor_Helmet
- Exclude_2=ekwd|PowerArmor_LeftArm
- Exclude_3=ekwd|PowerArmor_RightArm
- Exclude_4=ekwd|PowerArmor_LeftLeg
- Exclude_5=ekwd|PowerArmor_RightLeg
- Exclude_6=ekwd|PowerArmor_Torso
- Exclude_7=ekwd|PowerArmor_Excavator
- Exclude_8=ekwd|PowerArmor_t45
- Exclude_9=ekwd|PowerArmor_t51
- Exclude_10=ekwd|PowerArmor_t60
- Exclude_11=ekwd|PowerArmor_T65
- Exclude_12=ekwd|PowerArmor_x01
+ Exclude_1=ekwd|PowerArmor_Fasnacht_FatherWinter
+ Exclude_2=ekwd|PowerArmor_EnclaveVulcan
+ Exclude_3=ekwd|PowerArmor_Excavator
+ Exclude_4=ekwd|PowerArmor_Union
+ Exclude_5=ekwd|PowerArmor_Hellcat
+ Exclude_6=ekwd|PowerArmor_Ultracite
+ Exclude_7=ekwd|PowerArmor_Raider
+ Exclude_8=ekwd|PowerArmor_V94_Ultracite
+ Exclude_9=ekwd|PowerArmor_t45
+ Exclude_10=ekwd|PowerArmor_t51
+ Exclude_11=ekwd|PowerArmor_t60
+ Exclude_12=ekwd|PowerArmor_T65
+ Exclude_13=ekwd|PowerArmor_x01
+ Exclude_14=ekwd|PowerArmor_Helmet
+ Exclude_15=ekwd|PowerArmor_LeftArm
+ Exclude_16=ekwd|PowerArmor_RightArm
+ Exclude_17=ekwd|PowerArmor_LeftLeg
+ Exclude_18=ekwd|PowerArmor_RightLeg
+ Exclude_19=ekwd|PowerArmor_Torso
 [EndRule]
 
 [StartRule]
@@ -977,7 +984,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|PowerArmor_Excavator
+ Include_0=ekwd|PowerArmor_EnclaveVulcan
  Exclude_0=
 [EndRule]
 
@@ -995,7 +1002,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|PowerArmor_t45
+ Include_0=ekwd|PowerArmor_Excavator
  Exclude_0=
 [EndRule]
 
@@ -1013,7 +1020,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|PowerArmor_t51
+ Include_0=ekwd|PowerArmor_Union
  Exclude_0=
 [EndRule]
 
@@ -1031,7 +1038,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|PowerArmor_t60
+ Include_0=ekwd|PowerArmor_V94_Ultracite
  Exclude_0=
 [EndRule]
 
@@ -1049,7 +1056,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|PowerArmor_T65
+ Include_0=ekwd|PowerArmor_Hellcat
  Exclude_0=
 [EndRule]
 
@@ -1067,12 +1074,120 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|PowerArmor_x01
+ Include_0=ekwd|PowerArmor_Ultracite
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=⋳
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PowerArmor_Raider
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋴
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PowerArmor_t45
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋵
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PowerArmor_t51
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋶
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PowerArmor_t60
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋷
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PowerArmor_T65
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋸
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PowerArmor_x01
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋹
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1090,7 +1205,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋳
+ Header=⋹
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1108,7 +1223,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋴
+ Header=⋺
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1127,7 +1242,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋵
+ Header=⋻
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1147,7 +1262,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋵
+ Header=⋻
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1165,7 +1280,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋶
+ Header=⋼
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1185,7 +1300,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋶
+ Header=⋼
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1203,7 +1318,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋷
+ Header=⋽
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1223,7 +1338,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋷
+ Header=⋽
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1241,7 +1356,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋸
+ Header=⋾
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1261,7 +1376,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋸
+ Header=⋾
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1279,7 +1394,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋹
+ Header=⋿
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1299,7 +1414,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋹
+ Header=⋿
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2838,11 +2953,12 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|HasLegendary_PowerArmor
- Include_1=ekwd|SilverLining
- Include_2=ekwd|LastBastion
- Include_3=ekwd|TrailWarden
- Include_4=ekwd|StandFast
- Include_5=ekwd|BlueRidgeGuardsmanArmor
+ Include_1=ekwd|PowerArmor_Fasnacht_FatherWinter
+ Include_2=ekwd|SilverLining
+ Include_3=ekwd|LastBastion
+ Include_4=ekwd|TrailWarden
+ Include_5=ekwd|StandFast
+ Include_6=ekwd|BlueRidgeGuardsmanArmor
  Exclude_0=
 [EndRule]
 
@@ -3355,7 +3471,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋺
+ Header=⌀
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3373,7 +3489,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋻
+ Header=⌁
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3391,7 +3507,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋼⋽
+ Header=⌂⌃
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -3410,7 +3526,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋽
+ Header=⌃
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3429,7 +3545,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋼⋾
+ Header=⌂⌄
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -3458,7 +3574,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋾
+ Header=⌄
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3476,7 +3592,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋼⋿
+ Header=⌂⌅
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -3497,7 +3613,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋿
+ Header=⌅
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3516,7 +3632,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋼⌀
+ Header=⌂⌆
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -3543,7 +3659,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌀
+ Header=⌆
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3561,7 +3677,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌁
+ Header=⌇
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3580,7 +3696,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋼⌂
+ Header=⌂⌈
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -3604,7 +3720,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌂
+ Header=⌈
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3622,7 +3738,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋼⌃
+ Header=⌂⌉
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -3640,7 +3756,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌃
+ Header=⌉
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3658,7 +3774,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌄
+ Header=⌊
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3677,7 +3793,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋼⌅
+ Header=⌂⌋
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -3697,7 +3813,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌅
+ Header=⌋
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3715,7 +3831,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌆
+ Header=⌌
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3733,7 +3849,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋼⌇
+ Header=⌂⌍
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -3751,7 +3867,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌇
+ Header=⌍
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3770,7 +3886,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋼⌈
+ Header=⌂⌎
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -3790,7 +3906,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌈
+ Header=⌎
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3808,7 +3924,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋼⌉
+ Header=⌂⌏
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -3831,7 +3947,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌉
+ Header=⌏
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3849,7 +3965,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋼⌊
+ Header=⌂⌐
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -3875,7 +3991,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊
+ Header=⌐
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3893,7 +4009,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌋
+ Header=⌑
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3911,7 +4027,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌌
+ Header=⌒
  rSig=WEAP
  fSig=FULL
  enabled=-1
