@@ -627,7 +627,12 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
                 "ekwd|LastBastion",
                 "ekwd|TrailWarden",
                 "ekwd|StandFast",
-                "ekwd|BlueRidgeGuardsmanArmor"
+                "ekwd|BlueRidgeGuardsmanArmor",
+                "ekwd|HasChainsawBar",
+                "ekwd|HasMag",
+                "ekwd|HasMuzzle",
+                "ekwd|HasReceiver",
+                "ekwd|HasBarrel"
             ],
             exclude: [],
         }

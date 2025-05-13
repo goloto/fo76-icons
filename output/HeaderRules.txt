@@ -2959,6 +2959,11 @@
  Include_4=ekwd|TrailWarden
  Include_5=ekwd|StandFast
  Include_6=ekwd|BlueRidgeGuardsmanArmor
+ Include_7=ekwd|HasChainsawBar
+ Include_8=ekwd|HasMag
+ Include_9=ekwd|HasMuzzle
+ Include_10=ekwd|HasReceiver
+ Include_11=ekwd|HasBarrel
  Exclude_0=
 [EndRule]
 
