@@ -575,6 +575,8 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [
                 "ekwd|CustomItemName",
                 "ekwd|PowerArmor",
+                "ekwd|HasGrip_Rifle",
+                "ekwd|HasGrip_Pistol",
                 ...unyieldingRules,
                 ...antiArmorRules,
                 ...bloodiedRules,
@@ -632,7 +634,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
                 "ekwd|HasMag",
                 "ekwd|HasMuzzle",
                 "ekwd|HasReceiver",
-                "ekwd|HasBarrel"
+                "ekwd|HasBarrel",
             ],
             exclude: [],
         }
