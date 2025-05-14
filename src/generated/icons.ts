@@ -838,38 +838,43 @@ export const ICONS = [
         charCode: '0x230b'
     },
     {
-        name: ICON_WEAPONS.Syringer,
+        name: ICON_WEAPONS.Explosive,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x230c'
     },
     {
-        name: ICON_WEAPONS.MeleeAuto,
+        name: ICON_WEAPONS.Syringer,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x230d'
     },
     {
-        name: ICON_WEAPONS.MeleeUnarmed,
+        name: ICON_WEAPONS.MeleeAuto,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x230e'
     },
     {
-        name: ICON_WEAPONS.MeleeOneHand,
+        name: ICON_WEAPONS.MeleeUnarmed,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x230f'
     },
     {
-        name: ICON_WEAPONS.MeleeTwoHand,
+        name: ICON_WEAPONS.MeleeOneHand,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x2310'
     },
     {
-        name: ICON_WEAPONS.Binoculars,
+        name: ICON_WEAPONS.MeleeTwoHand,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x2311'
     },
     {
-        name: ICON_WEAPONS.Camera,
+        name: ICON_WEAPONS.Binoculars,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x2312'
+    },
+    {
+        name: ICON_WEAPONS.Camera,
+        category: ICON_CATEGORIES.Weapons,
+        charCode: '0x2313'
     }
 ] as const satisfies Icon[];

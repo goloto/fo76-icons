@@ -3613,7 +3613,13 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|WeaponTypeHeavy
- Exclude_0=
+ Exclude_0=edid|AutoGrenadeLauncher
+ Exclude_1=edid|Broadsider
+ Exclude_2=edid|Fatman
+ Exclude_3=edid|BOSRocketLauncher
+ Exclude_4=edid|M79
+ Exclude_5=edid|MissileLauncher
+ Exclude_6=edid|ThirstZapper
 [EndRule]
 
 [StartRule]
@@ -3905,6 +3911,30 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|AutoGrenadeLauncher
+ Include_1=edid|Broadsider
+ Include_2=edid|Fatman
+ Include_3=edid|BOSRocketLauncher
+ Include_4=edid|M79
+ Include_5=edid|MissileLauncher
+ Include_6=edid|ThirstZapper
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌍
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
  includeOR=0
  isFallBack=0
  fallbackBank=0
@@ -3913,7 +3943,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌂⌍
+ Header=⌂⌎
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -3931,7 +3961,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌍
+ Header=⌎
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3950,7 +3980,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌂⌎
+ Header=⌂⌏
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -3970,7 +4000,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌎
+ Header=⌏
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3988,7 +4018,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌂⌏
+ Header=⌂⌐
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4011,7 +4041,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌏
+ Header=⌐
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4029,7 +4059,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌂⌐
+ Header=⌂⌑
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4055,7 +4085,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌐
+ Header=⌑
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4073,7 +4103,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌑
+ Header=⌒
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4091,7 +4121,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌒
+ Header=⌓
  rSig=WEAP
  fSig=FULL
  enabled=-1

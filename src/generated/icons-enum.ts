@@ -178,6 +178,7 @@ export enum ICON_WEAPONS {
     Binoculars = 'binoculars',
     Camera = 'camera',
     Crossbow = 'crossbow',
+    Explosive = 'explosive',
     Heavy = 'heavy',
     HeavyEnergy = 'heavy_energy',
     MeleeAuto = 'melee_auto',
