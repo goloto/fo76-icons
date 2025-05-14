@@ -2,6 +2,57 @@ import { ICON_WEAPONS } from "@/generated/icons-enum";
 import { LeftSignature, RightSignature } from "@/constants";
 import type { IncludeProperty, RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
+const uniqueHeavy = [
+    "edid|W05_COMP_Beckett_50CalMachineGun_QuestReward",
+    "edid|E08B_Minigun_FoundationsVengeance",
+    "edid|Survival_HarpoonGun_Kingfisher",
+    "edid|ResoluteVeteran",
+    "edid|TheActionHero"
+] as const satisfies IncludeProperty[];
+const uniqueRifles = [
+    "edid|DoctorsOrders",
+    "edid|E09C_SubmachineGun_LoveTap",
+    "edid|W05_MQS_203P_10mmSMG",
+    "edid|SoleSurvivor",
+    "edid|WesternSpirit",
+    "edid|WhistleInTheDark"
+] as const satisfies IncludeProperty[];
+const uniqueEnergyRifles = [
+    "edid|Survival_LaserGun_AcceptableOverkill",
+    "edid|MindOverMatter",
+    "edid|NightLight"
+] as const satisfies IncludeProperty[];
+const uniquePistols = [
+    "edid|MTR05_10mm_ScorchedTrainer",
+    "edid|MTNL01_SingleActionRevolver_Fancy",
+    "edid|E09D_SingleActionRevolver_GunthersRevolver",
+    "edid|44_MedicalMalpractice",
+    "edid|PiratePunch",
+    "edid|VoiceOfSet"
+] as const satisfies IncludeProperty[];
+const uniqueEnergyPistols = [
+    "edid|10mm_CircuitBreaker",
+    "edid|ATX_AssaultronHeadCharging_Imposter",
+    "edid|PollyAssaultronHead",
+    "edid|Astronaut_AlienBlaster",
+    "edid|GammaGun_Xerxos"
+] as const satisfies IncludeProperty[];
+const uniqueShotguns = [
+    "edid|ColdShoulder",
+    "edid|CrowdControl",
+    "edid|MTNL01_PumpActionShotgun_Fancy",
+    "edid|SaltOfTheEarth"
+] as const satisfies IncludeProperty[];
+const uniqueExplosives = [
+    "edid|CrushingBlow",
+    "edid|GrandFinale",
+    "edid|AutoGrenadeLauncher_NukaLauncher",
+    "edid|TheGuarantee"
+] as const satisfies IncludeProperty[];
+const uniqueSyringers = [
+    "edid|PipeSyringer_Karma",
+    "edid|PipeSyringer_Vox"
+] as const satisfies IncludeProperty[];
 const explosiveRules = [
     "edid|AutoGrenadeLauncher",
     "edid|Broadsider",
@@ -64,6 +115,7 @@ export const WEAPONS_RULES_GROUP = {
             isInclusiveOr: true,
             isFullReplaced: false,
             include: [
+                "ekwd|CustomItemName_BoilingPoint",
                 "ekwd|CustomItemName_V63GatlingLaser",
                 "ekwd|CustomItemName_Valkyrie",
                 "ekwd|CustomItemName_Pyrolyzer",
@@ -98,21 +150,26 @@ export const WEAPONS_RULES_GROUP = {
             isInclusiveOr: true,
             isFullReplaced: false,
             include: [
-                "ekwd|CustomItemName_Boomstick",
                 "ekwd|CustomItemName_FoundationsVengeance",
-                "ekwd|CustomItemName_GrandFinale",
-                "ekwd|CustomItemName_NukaLauncher",
-                "ekwd|CustomItemName_ResolveBreaker",
                 "ekwd|CustomItemName_RedTerror",
-                "ekwd|CustomItemName_ThePeacemaker",
-                "ekwd|CustomItemName_Overkill",
-                "ekwd|CustomItemName_BunkerBuster",
-                "ekwd|CustomItemName_Daisycutter"
             ],
             exclude: [],
         },
         {
             order: 6,
+            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Heavy],
+            leftSignature: LeftSignature.Weapon,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [...uniqueHeavy],
+            exclude: [],
+        },
+        {
+            order: 7,
             prefix: [ICON_WEAPONS.Heavy],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -122,10 +179,13 @@ export const WEAPONS_RULES_GROUP = {
             isInclusiveOr: false,
             isFullReplaced: false,
             include: ["ekwd|WeaponTypeHeavy"],
-            exclude: [...explosiveRules],
+            exclude: [
+                ...explosiveRules,
+                ...uniqueHeavy
+            ],
         },
         {
-            order: 7,
+            order: 8,
             prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.RifleEnergy],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -138,13 +198,26 @@ export const WEAPONS_RULES_GROUP = {
                 "ekwd|CustomItemName_V63-BERTHA",
                 "ekwd|CustomItemName_V63LaserRifle",
                 "ekwd|CustomItemName_StrikeBreaker",
-                "ekwd|CustomItemName_BoilingPoint",
-                "ekwd|CustomItemName_MindOverMatter"
+                "ekwd|CustomItemName_MindOverMatter",
+                "ekwd|CustomItemName_Plasma_W05MQR",
             ],
             exclude: [],
         },
         {
-            order: 8,
+            order: 9,
+            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.RifleEnergy],
+            leftSignature: LeftSignature.Weapon,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [...uniqueEnergyRifles],
+            exclude: [],
+        },
+        {
+            order: 10,
             prefix: [ICON_WEAPONS.RifleEnergy],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -157,10 +230,10 @@ export const WEAPONS_RULES_GROUP = {
                 "ekwd|WeaponTypeRifle",
                 "ekwd|WeaponTypeEnergy"
             ],
-            exclude: [],
+            exclude: [...uniqueEnergyRifles],
         },
         {
-            order: 9,
+            order: 11,
             prefix: [ICON_WEAPONS.RifleEnergy],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -174,10 +247,10 @@ export const WEAPONS_RULES_GROUP = {
                 "edid|LaserGun",
                 "edid|PlasmaGun",
             ],
-            exclude: [],
+            exclude: [...uniqueEnergyRifles],
         },
         {
-            order: 10,
+            order: 12,
             prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Rifle],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -187,6 +260,7 @@ export const WEAPONS_RULES_GROUP = {
             isInclusiveOr: true,
             isFullReplaced: false,
             include: [
+                "ekwd|CustomItemName_AnchorageAce",
                 "ekwd|CustomItemName_LoveTap",
                 "ekwd|CustomItemName_Longshot",
                 "ekwd|CustomItemName_WesternSpirit",
@@ -196,12 +270,26 @@ export const WEAPONS_RULES_GROUP = {
                 "ekwd|CustomItemName_TickettoRevenge",
                 "ekwd|CustomItemName_ShatteredGrounds",
                 "ekwd|CustomItemName_DoctorsOrders",
-                "ekwd|CustomItemName_WhistleInTheDark"
+                "ekwd|CustomItemName_WhistleInTheDark",
+                "ekwd|CustomItemName_PerfectStorm",
             ],
             exclude: [],
         },
         {
-            order: 11,
+            order: 13,
+            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Rifle],
+            leftSignature: LeftSignature.Weapon,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [...uniqueRifles],
+            exclude: [],
+        },
+        {
+            order: 14,
             prefix: [ICON_WEAPONS.Rifle],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -211,10 +299,10 @@ export const WEAPONS_RULES_GROUP = {
             isInclusiveOr: false,
             isFullReplaced: false,
             include: ["ekwd|WeaponTypeRifle"],
-            exclude: [],
+            exclude: [...uniqueRifles],
         },
         {
-            order: 12,
+            order: 15,
             prefix: [ICON_WEAPONS.Rifle],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -224,10 +312,38 @@ export const WEAPONS_RULES_GROUP = {
             isInclusiveOr: false,
             isFullReplaced: false,
             include: ["edid|PipeGun"],
+            exclude: [...uniqueRifles],
+        },
+        {
+            order: 16,
+            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.PistolEnergy],
+            leftSignature: LeftSignature.InstanceNamingRules,
+            rightSignature: RightSignature.WNAM,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [
+                "ekwd|CustomItemName_CircuitBreaker",
+            ],
             exclude: [],
         },
         {
-            order: 13,
+            order: 17,
+            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.PistolEnergy],
+            leftSignature: LeftSignature.Weapon,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [...uniqueEnergyPistols],
+            exclude: [],
+        },
+        {
+            order: 18,
             prefix: [ICON_WEAPONS.PistolEnergy],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -240,10 +356,10 @@ export const WEAPONS_RULES_GROUP = {
                 "ekwd|WeaponTypeEnergy",
                 "ekwd|WeaponTypePistol"
             ],
-            exclude: [],
+            exclude: [...uniqueEnergyPistols],
         },
         {
-            order: 14,
+            order: 19,
             prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Pistol],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -254,17 +370,27 @@ export const WEAPONS_RULES_GROUP = {
             isFullReplaced: false,
             include: [
                 "ekwd|CustomItemName_GunthersRevolver",
-                "ekwd|CustomItemName_PerfectStorm",
-                "ekwd|CustomItemName_AnchorageAce",
                 "ekwd|CustomItemName_PiratePunch",
                 "ekwd|CustomItemName_TheFactFinder",
-                "ekwd|CustomItemName_CircuitBreaker",
                 "ekwd|CustomItemName_SomersetSpecial"
             ],
             exclude: [],
         },
         {
-            order: 15,
+            order: 20,
+            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Pistol],
+            leftSignature: LeftSignature.Weapon,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [...uniquePistols],
+            exclude: [],
+        },
+        {
+            order: 21,
             prefix: [ICON_WEAPONS.Pistol],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -274,10 +400,10 @@ export const WEAPONS_RULES_GROUP = {
             isInclusiveOr: false,
             isFullReplaced: false,
             include: ["ekwd|WeaponTypePistol"],
-            exclude: [],
+            exclude: [...uniquePistols],
         },
         {
-            order: 16,
+            order: 22,
             prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Crossbow],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -292,7 +418,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 17,
+            order: 23,
             prefix: [ICON_WEAPONS.Crossbow],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -305,7 +431,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 18,
+            order: 24,
             prefix: [ICON_WEAPONS.ShotgunEnergy],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -321,7 +447,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 19,
+            order: 25,
             prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Shotgun],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -337,7 +463,19 @@ export const WEAPONS_RULES_GROUP = {
             ],
         },
         {
-            order: 20,
+            order: 26,
+            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Shotgun],
+            leftSignature: LeftSignature.Weapon,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [...uniqueShotguns],
+        },
+        {
+            order: 27,
             prefix: [ICON_WEAPONS.Shotgun],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -347,10 +485,45 @@ export const WEAPONS_RULES_GROUP = {
             isInclusiveOr: false,
             isFullReplaced: false,
             include: ["ekwd|WeaponTypeShotgun"],
+            exclude: [...uniqueShotguns],
+        },
+        {
+            order: 28,
+            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Explosive],
+            leftSignature: LeftSignature.InstanceNamingRules,
+            rightSignature: RightSignature.WNAM,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [
+                "ekwd|CustomItemName_Boomstick",
+                "ekwd|CustomItemName_BunkerBuster",
+                "ekwd|CustomItemName_Daisycutter",
+                "ekwd|CustomItemName_GrandFinale",
+                "ekwd|CustomItemName_NukaLauncher",
+                "ekwd|CustomItemName_Overkill",
+                "ekwd|CustomItemName_ResolveBreaker",
+                "ekwd|CustomItemName_ThePeacemaker",
+            ],
             exclude: [],
         },
         {
-            order: 21,
+            order: 29,
+            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Explosive],
+            leftSignature: LeftSignature.Weapon,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [...uniqueExplosives],
+            exclude: [],
+        },
+        {
+            order: 30,
             prefix: [ICON_WEAPONS.Explosive],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -360,10 +533,23 @@ export const WEAPONS_RULES_GROUP = {
             isInclusiveOr: true,
             isFullReplaced: false,
             include: [...explosiveRules],
+            exclude: [...uniqueExplosives],
+        },
+        {
+            order: 31,
+            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Syringer],
+            leftSignature: LeftSignature.Weapon,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [...uniqueSyringers],
             exclude: [],
         },
         {
-            order: 22,
+            order: 32,
             prefix: [ICON_WEAPONS.Syringer],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -373,10 +559,10 @@ export const WEAPONS_RULES_GROUP = {
             isInclusiveOr: false,
             isFullReplaced: false,
             include: ["edid|syringer"],
-            exclude: [],
+            exclude: [...uniqueSyringers],
         },
         {
-            order: 23,
+            order: 33,
             prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.MeleeAuto],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -390,7 +576,7 @@ export const WEAPONS_RULES_GROUP = {
             ],
         },
         {
-            order: 24,
+            order: 34,
             prefix: [ICON_WEAPONS.MeleeAuto],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -406,7 +592,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 25,
+            order: 35,
             prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.MeleeUnarmed],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -423,7 +609,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 26,
+            order: 36,
             prefix: [ICON_WEAPONS.MeleeUnarmed],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -436,7 +622,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 27,
+            order: 37,
             prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.MeleeOneHand],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -456,7 +642,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 28,
+            order: 38,
             prefix: [ICON_WEAPONS.MeleeOneHand],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -469,7 +655,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 29,
+            order: 39,
             prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.MeleeTwoHand],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -493,7 +679,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 30,
+            order: 40,
             prefix: [ICON_WEAPONS.MeleeTwoHand],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -506,7 +692,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 31,
+            order: 41,
             prefix: [ICON_WEAPONS.Binoculars],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -519,7 +705,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 32,
+            order: 42,
             prefix: [ICON_WEAPONS.Camera],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,

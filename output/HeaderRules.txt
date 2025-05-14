@@ -3545,10 +3545,11 @@
  includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|CustomItemName_V63GatlingLaser
- Include_1=ekwd|CustomItemName_Valkyrie
- Include_2=ekwd|CustomItemName_Pyrolyzer
- Include_3=ekwd|CustomItemName_HolyFire
+ Include_0=ekwd|CustomItemName_BoilingPoint
+ Include_1=ekwd|CustomItemName_V63GatlingLaser
+ Include_2=ekwd|CustomItemName_Valkyrie
+ Include_3=ekwd|CustomItemName_Pyrolyzer
+ Include_4=ekwd|CustomItemName_HolyFire
  Exclude_0=
 [EndRule]
 
@@ -3585,16 +3586,30 @@
  includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|CustomItemName_Boomstick
- Include_1=ekwd|CustomItemName_FoundationsVengeance
- Include_2=ekwd|CustomItemName_GrandFinale
- Include_3=ekwd|CustomItemName_NukaLauncher
- Include_4=ekwd|CustomItemName_ResolveBreaker
- Include_5=ekwd|CustomItemName_RedTerror
- Include_6=ekwd|CustomItemName_ThePeacemaker
- Include_7=ekwd|CustomItemName_Overkill
- Include_8=ekwd|CustomItemName_BunkerBuster
- Include_9=ekwd|CustomItemName_Daisycutter
+ Include_0=ekwd|CustomItemName_FoundationsVengeance
+ Include_1=ekwd|CustomItemName_RedTerror
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌂⌄
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|W05_COMP_Beckett_50CalMachineGun_QuestReward
+ Include_1=edid|E08B_Minigun_FoundationsVengeance
+ Include_2=edid|Survival_HarpoonGun_Kingfisher
+ Include_3=edid|ResoluteVeteran
+ Include_4=edid|TheActionHero
  Exclude_0=
 [EndRule]
 
@@ -3620,6 +3635,11 @@
  Exclude_4=edid|M79
  Exclude_5=edid|MissileLauncher
  Exclude_6=edid|ThirstZapper
+ Exclude_7=edid|W05_COMP_Beckett_50CalMachineGun_QuestReward
+ Exclude_8=edid|E08B_Minigun_FoundationsVengeance
+ Exclude_9=edid|Survival_HarpoonGun_Kingfisher
+ Exclude_10=edid|ResoluteVeteran
+ Exclude_11=edid|TheActionHero
 [EndRule]
 
 [StartRule]
@@ -3639,8 +3659,28 @@
  Include_0=ekwd|CustomItemName_V63-BERTHA
  Include_1=ekwd|CustomItemName_V63LaserRifle
  Include_2=ekwd|CustomItemName_StrikeBreaker
- Include_3=ekwd|CustomItemName_BoilingPoint
- Include_4=ekwd|CustomItemName_MindOverMatter
+ Include_3=ekwd|CustomItemName_MindOverMatter
+ Include_4=ekwd|CustomItemName_Plasma_W05MQR
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌂⌅
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Survival_LaserGun_AcceptableOverkill
+ Include_1=edid|MindOverMatter
+ Include_2=edid|NightLight
  Exclude_0=
 [EndRule]
 
@@ -3660,7 +3700,9 @@
  fallbackBank=0
  Include_0=ekwd|WeaponTypeRifle
  Include_1=ekwd|WeaponTypeEnergy
- Exclude_0=
+ Exclude_0=edid|Survival_LaserGun_AcceptableOverkill
+ Exclude_1=edid|MindOverMatter
+ Exclude_2=edid|NightLight
 [EndRule]
 
 [StartRule]
@@ -3680,7 +3722,9 @@
  Include_0=edid|UltraciteLaserGun
  Include_1=edid|LaserGun
  Include_2=edid|PlasmaGun
- Exclude_0=
+ Exclude_0=edid|Survival_LaserGun_AcceptableOverkill
+ Exclude_1=edid|MindOverMatter
+ Exclude_2=edid|NightLight
 [EndRule]
 
 [StartRule]
@@ -3697,16 +3741,41 @@
  includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|CustomItemName_LoveTap
- Include_1=ekwd|CustomItemName_Longshot
- Include_2=ekwd|CustomItemName_WesternSpirit
- Include_3=ekwd|CustomItemName_LicketySplit
- Include_4=ekwd|CustomItemName_TheFixer
- Include_5=ekwd|CustomItemName_EldersMark
- Include_6=ekwd|CustomItemName_TickettoRevenge
- Include_7=ekwd|CustomItemName_ShatteredGrounds
- Include_8=ekwd|CustomItemName_DoctorsOrders
- Include_9=ekwd|CustomItemName_WhistleInTheDark
+ Include_0=ekwd|CustomItemName_AnchorageAce
+ Include_1=ekwd|CustomItemName_LoveTap
+ Include_2=ekwd|CustomItemName_Longshot
+ Include_3=ekwd|CustomItemName_WesternSpirit
+ Include_4=ekwd|CustomItemName_LicketySplit
+ Include_5=ekwd|CustomItemName_TheFixer
+ Include_6=ekwd|CustomItemName_EldersMark
+ Include_7=ekwd|CustomItemName_TickettoRevenge
+ Include_8=ekwd|CustomItemName_ShatteredGrounds
+ Include_9=ekwd|CustomItemName_DoctorsOrders
+ Include_10=ekwd|CustomItemName_WhistleInTheDark
+ Include_11=ekwd|CustomItemName_PerfectStorm
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌂⌆
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|DoctorsOrders
+ Include_1=edid|E09C_SubmachineGun_LoveTap
+ Include_2=edid|W05_MQS_203P_10mmSMG
+ Include_3=edid|SoleSurvivor
+ Include_4=edid|WesternSpirit
+ Include_5=edid|WhistleInTheDark
  Exclude_0=
 [EndRule]
 
@@ -3725,7 +3794,12 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|WeaponTypeRifle
- Exclude_0=
+ Exclude_0=edid|DoctorsOrders
+ Exclude_1=edid|E09C_SubmachineGun_LoveTap
+ Exclude_2=edid|W05_MQS_203P_10mmSMG
+ Exclude_3=edid|SoleSurvivor
+ Exclude_4=edid|WesternSpirit
+ Exclude_5=edid|WhistleInTheDark
 [EndRule]
 
 [StartRule]
@@ -3743,6 +3817,51 @@
  isFallBack=0
  fallbackBank=0
  Include_0=edid|PipeGun
+ Exclude_0=edid|DoctorsOrders
+ Exclude_1=edid|E09C_SubmachineGun_LoveTap
+ Exclude_2=edid|W05_MQS_203P_10mmSMG
+ Exclude_3=edid|SoleSurvivor
+ Exclude_4=edid|WesternSpirit
+ Exclude_5=edid|WhistleInTheDark
+[EndRule]
+
+[StartRule]
+ Header=⌂⌇
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|CustomItemName_CircuitBreaker
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌂⌇
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|10mm_CircuitBreaker
+ Include_1=edid|ATX_AssaultronHeadCharging_Imposter
+ Include_2=edid|PollyAssaultronHead
+ Include_3=edid|Astronaut_AlienBlaster
+ Include_4=edid|GammaGun_Xerxos
  Exclude_0=
 [EndRule]
 
@@ -3762,7 +3881,11 @@
  fallbackBank=0
  Include_0=ekwd|WeaponTypeEnergy
  Include_1=ekwd|WeaponTypePistol
- Exclude_0=
+ Exclude_0=edid|10mm_CircuitBreaker
+ Exclude_1=edid|ATX_AssaultronHeadCharging_Imposter
+ Exclude_2=edid|PollyAssaultronHead
+ Exclude_3=edid|Astronaut_AlienBlaster
+ Exclude_4=edid|GammaGun_Xerxos
 [EndRule]
 
 [StartRule]
@@ -3780,12 +3903,32 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|CustomItemName_GunthersRevolver
- Include_1=ekwd|CustomItemName_PerfectStorm
- Include_2=ekwd|CustomItemName_AnchorageAce
- Include_3=ekwd|CustomItemName_PiratePunch
- Include_4=ekwd|CustomItemName_TheFactFinder
- Include_5=ekwd|CustomItemName_CircuitBreaker
- Include_6=ekwd|CustomItemName_SomersetSpecial
+ Include_1=ekwd|CustomItemName_PiratePunch
+ Include_2=ekwd|CustomItemName_TheFactFinder
+ Include_3=ekwd|CustomItemName_SomersetSpecial
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌂⌈
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|MTR05_10mm_ScorchedTrainer
+ Include_1=edid|MTNL01_SingleActionRevolver_Fancy
+ Include_2=edid|E09D_SingleActionRevolver_GunthersRevolver
+ Include_3=edid|44_MedicalMalpractice
+ Include_4=edid|PiratePunch
+ Include_5=edid|VoiceOfSet
  Exclude_0=
 [EndRule]
 
@@ -3804,7 +3947,12 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|WeaponTypePistol
- Exclude_0=
+ Exclude_0=edid|MTR05_10mm_ScorchedTrainer
+ Exclude_1=edid|MTNL01_SingleActionRevolver_Fancy
+ Exclude_2=edid|E09D_SingleActionRevolver_GunthersRevolver
+ Exclude_3=edid|44_MedicalMalpractice
+ Exclude_4=edid|PiratePunch
+ Exclude_5=edid|VoiceOfSet
 [EndRule]
 
 [StartRule]
@@ -3883,6 +4031,27 @@
 [EndRule]
 
 [StartRule]
+ Header=⌂⌋
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|ColdShoulder
+ Include_1=edid|CrowdControl
+ Include_2=edid|MTNL01_PumpActionShotgun_Fancy
+ Include_3=edid|SaltOfTheEarth
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=⌋
  rSig=WEAP
  fSig=FULL
@@ -3897,6 +4066,55 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|WeaponTypeShotgun
+ Exclude_0=edid|ColdShoulder
+ Exclude_1=edid|CrowdControl
+ Exclude_2=edid|MTNL01_PumpActionShotgun_Fancy
+ Exclude_3=edid|SaltOfTheEarth
+[EndRule]
+
+[StartRule]
+ Header=⌂⌌
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|CustomItemName_Boomstick
+ Include_1=ekwd|CustomItemName_BunkerBuster
+ Include_2=ekwd|CustomItemName_Daisycutter
+ Include_3=ekwd|CustomItemName_GrandFinale
+ Include_4=ekwd|CustomItemName_NukaLauncher
+ Include_5=ekwd|CustomItemName_Overkill
+ Include_6=ekwd|CustomItemName_ResolveBreaker
+ Include_7=ekwd|CustomItemName_ThePeacemaker
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌂⌌
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|CrushingBlow
+ Include_1=edid|GrandFinale
+ Include_2=edid|AutoGrenadeLauncher_NukaLauncher
+ Include_3=edid|TheGuarantee
  Exclude_0=
 [EndRule]
 
@@ -3921,6 +4139,28 @@
  Include_4=edid|M79
  Include_5=edid|MissileLauncher
  Include_6=edid|ThirstZapper
+ Exclude_0=edid|CrushingBlow
+ Exclude_1=edid|GrandFinale
+ Exclude_2=edid|AutoGrenadeLauncher_NukaLauncher
+ Exclude_3=edid|TheGuarantee
+[EndRule]
+
+[StartRule]
+ Header=⌂⌍
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|PipeSyringer_Karma
+ Include_1=edid|PipeSyringer_Vox
  Exclude_0=
 [EndRule]
 
@@ -3939,7 +4179,8 @@
  isFallBack=0
  fallbackBank=0
  Include_0=edid|syringer
- Exclude_0=
+ Exclude_0=edid|PipeSyringer_Karma
+ Exclude_1=edid|PipeSyringer_Vox
 [EndRule]
 
 [StartRule]
