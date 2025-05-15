@@ -3636,11 +3636,12 @@
  Exclude_4=edid|M79
  Exclude_5=edid|MissileLauncher
  Exclude_6=edid|ThirstZapper
- Exclude_7=edid|W05_COMP_Beckett_50CalMachineGun_QuestReward
- Exclude_8=edid|E08B_Minigun_FoundationsVengeance
- Exclude_9=edid|Survival_HarpoonGun_Kingfisher
- Exclude_10=edid|ResoluteVeteran
- Exclude_11=edid|TheActionHero
+ Exclude_7=edid|QuadLauncher
+ Exclude_8=edid|W05_COMP_Beckett_50CalMachineGun_QuestReward
+ Exclude_9=edid|E08B_Minigun_FoundationsVengeance
+ Exclude_10=edid|Survival_HarpoonGun_Kingfisher
+ Exclude_11=edid|ResoluteVeteran
+ Exclude_12=edid|TheActionHero
 [EndRule]
 
 [StartRule]
@@ -4158,6 +4159,7 @@
  Include_4=edid|M79
  Include_5=edid|MissileLauncher
  Include_6=edid|ThirstZapper
+ Include_7=edid|QuadLauncher
  Exclude_0=edid|CrushingBlow
  Exclude_1=edid|GrandFinale
  Exclude_2=edid|AutoGrenadeLauncher_NukaLauncher

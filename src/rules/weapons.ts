@@ -60,7 +60,8 @@ const explosiveRules = [
     "edid|BOSRocketLauncher",
     "edid|M79",
     "edid|MissileLauncher",
-    "edid|ThirstZapper"
+    "edid|ThirstZapper",
+    "edid|QuadLauncher"
 ] as const satisfies IncludeProperty[];
 export const WEAPONS_RULES_GROUP = {
     category: ICON_CATEGORIES.Weapons,
