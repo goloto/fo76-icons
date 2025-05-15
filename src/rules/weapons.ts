@@ -316,6 +316,19 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 16,
+            prefix: [ICON_WEAPONS.Rifle],
+            leftSignature: LeftSignature.InstanceNamingRules,
+            rightSignature: RightSignature.WNAM,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["ekwd|HandmadeAssaultRifle"],
+            exclude: [],
+        },
+        {
+            order: 17,
             prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.PistolEnergy],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -330,7 +343,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 17,
+            order: 18,
             prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.PistolEnergy],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -343,7 +356,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 18,
+            order: 19,
             prefix: [ICON_WEAPONS.PistolEnergy],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -359,7 +372,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [...uniqueEnergyPistols],
         },
         {
-            order: 19,
+            order: 20,
             prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Pistol],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -377,7 +390,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 20,
+            order: 21,
             prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Pistol],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -390,7 +403,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 21,
+            order: 22,
             prefix: [ICON_WEAPONS.Pistol],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -403,7 +416,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [...uniquePistols],
         },
         {
-            order: 22,
+            order: 23,
             prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Crossbow],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -418,7 +431,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 23,
+            order: 24,
             prefix: [ICON_WEAPONS.Crossbow],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -431,7 +444,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 24,
+            order: 25,
             prefix: [ICON_WEAPONS.ShotgunEnergy],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -447,7 +460,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 25,
+            order: 26,
             prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Shotgun],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -463,7 +476,7 @@ export const WEAPONS_RULES_GROUP = {
             ],
         },
         {
-            order: 26,
+            order: 27,
             prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Shotgun],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -475,7 +488,7 @@ export const WEAPONS_RULES_GROUP = {
             include: [...uniqueShotguns],
         },
         {
-            order: 27,
+            order: 28,
             prefix: [ICON_WEAPONS.Shotgun],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -488,7 +501,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [...uniqueShotguns],
         },
         {
-            order: 28,
+            order: 29,
             prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Explosive],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -510,7 +523,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 29,
+            order: 30,
             prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Explosive],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -523,7 +536,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 30,
+            order: 31,
             prefix: [ICON_WEAPONS.Explosive],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -536,7 +549,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [...uniqueExplosives],
         },
         {
-            order: 31,
+            order: 32,
             prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Syringer],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -549,7 +562,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 32,
+            order: 33,
             prefix: [ICON_WEAPONS.Syringer],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -562,7 +575,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [...uniqueSyringers],
         },
         {
-            order: 33,
+            order: 34,
             prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.MeleeAuto],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -576,7 +589,7 @@ export const WEAPONS_RULES_GROUP = {
             ],
         },
         {
-            order: 34,
+            order: 35,
             prefix: [ICON_WEAPONS.MeleeAuto],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -592,7 +605,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 35,
+            order: 36,
             prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.MeleeUnarmed],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -609,7 +622,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 36,
+            order: 37,
             prefix: [ICON_WEAPONS.MeleeUnarmed],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -622,7 +635,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 37,
+            order: 38,
             prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.MeleeOneHand],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -642,7 +655,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 38,
+            order: 39,
             prefix: [ICON_WEAPONS.MeleeOneHand],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -655,7 +668,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 39,
+            order: 40,
             prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.MeleeTwoHand],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -679,7 +692,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 40,
+            order: 41,
             prefix: [ICON_WEAPONS.MeleeTwoHand],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -692,7 +705,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 41,
+            order: 42,
             prefix: [ICON_WEAPONS.Binoculars],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -705,7 +718,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 42,
+            order: 43,
             prefix: [ICON_WEAPONS.Camera],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,

@@ -573,6 +573,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isFullReplaced: true,
             include: [],
             exclude: [
+                "ekwd|HandmadeAssaultRifle",
                 "ekwd|CustomItemName",
                 "ekwd|PowerArmor",
                 "ekwd|HasGrip_Rifle",
