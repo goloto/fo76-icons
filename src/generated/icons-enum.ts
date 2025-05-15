@@ -146,6 +146,7 @@ export enum ICON_APPAREL {
     Dress = 'dress',
     FasnachtMask = 'fasnacht_mask',
     FedoraHat = 'fedora_hat',
+    FlowerCrown = 'flower_crown',
     GasMask = 'gas_mask',
     Glasses = 'glasses',
     Helmet = 'helmet',
@@ -169,7 +170,7 @@ export enum ICON_ARMOR {
     TSixtyFive = 't_sixty_five',
     Ultracite = 'ultracite',
     Underarmor = 'underarmor',
-    Union = 'union',
+    UnionPa = 'union_pa',
     VNinetyFour = 'v_ninety_four',
     Vulcan = 'vulcan',
     XOne = 'x_one'

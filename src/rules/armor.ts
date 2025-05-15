@@ -126,7 +126,7 @@ export const ARMOR_RULES_GROUP = {
         },
         {
             order: 5,
-            prefix: [ICON_ARMOR.Union],
+            prefix: [ICON_ARMOR.UnionPa],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
             isInjected: false,
