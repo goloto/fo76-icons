@@ -3662,6 +3662,7 @@
  Exclude_10=edid|Survival_HarpoonGun_Kingfisher
  Exclude_11=edid|ResoluteVeteran
  Exclude_12=edid|TheActionHero
+ Exclude_13=edid|PepperShaker
 [EndRule]
 
 [StartRule]
@@ -4106,6 +4107,27 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|WeaponTypeShotgun
+ Exclude_0=edid|ColdShoulder
+ Exclude_1=edid|CrowdControl
+ Exclude_2=edid|MTNL01_PumpActionShotgun_Fancy
+ Exclude_3=edid|SaltOfTheEarth
+[EndRule]
+
+[StartRule]
+ Header=#shotgun#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|PepperShaker
  Exclude_0=edid|ColdShoulder
  Exclude_1=edid|CrowdControl
  Exclude_2=edid|MTNL01_PumpActionShotgun_Fancy
