@@ -1,24 +1,6 @@
 export enum ICON_CURRENCY {
     Caps = 'caps'
 }
-export enum ICON_THROWN_WEAPONS {
-    CryoGrenade = 'cryo_grenade',
-    Dynamite = 'dynamite',
-    FragmentationGrenade = 'fragmentation_grenade',
-    MeatClever = 'meat_clever',
-    NukaGrenade = 'nuka_grenade',
-    PlasmaGrenade = 'plasma_grenade',
-    PulseGrenade = 'pulse_grenade',
-    ThrownBomb = 'thrown_bomb'
-}
-export enum ICON_MINES {
-    BottlecapMine = 'bottlecap_mine',
-    CryoMine = 'cryo_mine',
-    FragmentationMine = 'fragmentation_mine',
-    NukeMine = 'nuke_mine',
-    PlasmaMine = 'plasma_mine',
-    PulseMine = 'pulse_mine'
-}
 export enum ICON_LEGENDARY_EFFECTS {
     AntiArmor = 'anti_armor',
     Aristocrat = 'aristocrat',
@@ -164,6 +146,7 @@ export enum ICON_APPAREL {
     Dress = 'dress',
     FasnachtMask = 'fasnacht_mask',
     FedoraHat = 'fedora_hat',
+    FlowerCrown = 'flower_crown',
     GasMask = 'gas_mask',
     Glasses = 'glasses',
     Helmet = 'helmet',
@@ -177,90 +160,42 @@ export enum ICON_ARMOR {
     ArmorRightLeg = 'armor_right_leg',
     ChestArmor = 'chest_armor',
     Excavator = 'excavator',
+    Hellcat = 'hellcat',
     PowerArmorHelmet = 'power_armor_helmet',
+    Raider = 'raider',
     Spacesuit = 'spacesuit',
     TFiftyOne = 't_fifty_one',
     TFortyFive = 't_forty_five',
     TSixty = 't_sixty',
     TSixtyFive = 't_sixty_five',
+    Ultracite = 'ultracite',
     Underarmor = 'underarmor',
+    UnionPa = 'union_pa',
+    VNinetyFour = 'v_ninety_four',
+    Vulcan = 'vulcan',
     XOne = 'x_one'
 }
 export enum ICON_WEAPONS {
-    AssaultronHead = 'assaultron_head',
     Binoculars = 'binoculars',
-    Bow = 'bow',
     Camera = 'camera',
-    CompoundBow = 'compound_bow',
-    Syringer = 'syringer',
-    UniqueWeapon = 'unique_weapon',
-    Weapon = 'weapon'
-}
-export enum ICON_MELEE_WEAPONS {
-    Chainsaw = 'chainsaw',
-    Knife = 'knife',
-    Machete = 'machete',
-    OneHandedAxe = 'one_handed_axe',
-    OneHandedBat = 'one_handed_bat',
-    OneHandedMelee = 'one_handed_melee',
-    PowerFist = 'power_fist',
-    Ripper = 'ripper',
-    Shishkebab = 'shishkebab',
-    SuperSledge = 'super_sledge',
-    TwoHandedAxe = 'two_handed_axe',
-    TwoHandedBat = 'two_handed_bat',
-    TwoHandedMelee = 'two_handed_melee',
-    TwoHandedSword = 'two_handed_sword',
-    Unarmed = 'unarmed'
-}
-export enum ICON_HEAVY_WEAPONS {
-    AutoGrenadeLauncher = 'auto_grenade_launcher',
-    Broadsider = 'broadsider',
-    Cryolator = 'cryolator',
-    Fatman = 'fatman',
-    Flamer = 'flamer',
-    GatlingGun = 'gatling_gun',
-    GatlingLaser = 'gatling_laser',
-    GatlingPlasma = 'gatling_plasma',
-    GrenadeLauncher = 'grenade_launcher',
-    HarpoonGun = 'harpoon_gun',
-    HellstormMissileLauncher = 'hellstorm_missile_launcher',
-    JunkJet = 'junk_jet',
-    LightMachineGun = 'light_machine_gun',
-    MachineGun = 'machine_gun',
-    Minigun = 'minigun',
-    MissileLauncher = 'missile_launcher',
-    PlasmaCaster = 'plasma_caster'
-}
-export enum ICON_RIFLES {
-    AlienDisintegrator = 'alien_disintegrator',
-    Fixer = 'fixer',
-    GaussRifle = 'gauss_rifle',
-    HandmadeRifle = 'handmade_rifle',
-    LaserMusket = 'laser_musket',
-    LaserRifle = 'laser_rifle',
-    PipeRifle = 'pipe_rifle',
-    PlasmaRifle = 'plasma_rifle',
-    RailwayRifle = 'railway_rifle',
+    Crossbow = 'crossbow',
+    Explosive = 'explosive',
+    Heavy = 'heavy',
+    HeavyEnergy = 'heavy_energy',
+    MeleeAuto = 'melee_auto',
+    MeleeOneHand = 'melee_one_hand',
+    MeleeTwoHand = 'melee_two_hand',
+    MeleeUnarmed = 'melee_unarmed',
+    Mine = 'mine',
+    Pistol = 'pistol',
+    PistolEnergy = 'pistol_energy',
     Rifle = 'rifle',
-    TeslaRifle = 'tesla_rifle'
-}
-export enum ICON_SHOTGUNS {
-    Shotgun = 'shotgun'
-}
-export enum ICON_PISTOLS {
-    AlienBluster = 'alien_bluster',
-    BlackPowderPistol = 'black_powder_pistol',
-    CrusaderPistol = 'crusader_pistol',
-    FlareGun = 'flare_gun',
-    GammaGun = 'gamma_gun',
-    GaussPistol = 'gauss_pistol',
-    LaserPistol = 'laser_pistol',
-    PipePistol = 'pipe_pistol',
-    PipeRevolver = 'pipe_revolver',
-    PlasmaPistol = 'plasma_pistol',
-    Revolver = 'revolver',
-    ThirstZapper = 'thirst_zapper'
+    RifleEnergy = 'rifle_energy',
+    Shotgun = 'shotgun',
+    ShotgunEnergy = 'shotgun_energy',
+    Syringer = 'syringer',
+    Throwing = 'throwing',
+    Unique = 'unique'
 }
 export enum ICON_EVENTS {
     BeastOfBurden = 'beast_of_burden',

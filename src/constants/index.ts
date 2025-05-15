@@ -1,10 +1,15 @@
-import type { IconNames, Rule } from '../types';
+import type { IconNames, IncludeProperty, Rule } from '../types';
 
 export const OUTPUT_DIRECTORY = './output';
 export const INPUT_DIRECTORY = './input';
 export const ICONS_DIRECTORY = './assets/icons';
 export const GENERATED_DIRECTORY = './src/generated';
 export const RULES_DIRECTORY = './src/rules';
+
+export const POWER_ARMOR_EFFECTS = [
+  'ekwd|HasLegendary_PowerArmor',
+  'ekwd|PowerArmor_Fasnacht_FatherWinter',
+] as const satisfies IncludeProperty[];
 
 const onlyActualItemsRegExp = new RegExp(
   '^((?!((zzz)|(ZZZ)|(DEl)|(DEL)|(CUT)|(debug)|(test)|(Test)|(DEPRECATED)|(cr)|(TEMPLATE)))).*(?!((NPC)|(NONPLAYABLE)))$'

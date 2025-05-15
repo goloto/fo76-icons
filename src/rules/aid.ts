@@ -143,9 +143,12 @@ export const AID_RULES_GROUP = {
             isInjected: false,
             isDeleted: false,
             isAnyKeyword: false,
-            isInclusiveOr: false,
+            isInclusiveOr: true,
             isFullReplaced: false,
-            include: ["edid|stealth"],
+            include: [
+                "edid|stealth",
+                "edid|PhantomDevice"
+            ],
             exclude: [],
         },
         {

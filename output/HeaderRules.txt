@@ -6,7 +6,7 @@
 [EndHeader]
 
 [StartRule]
- Header=⋀
+ Header=⊲
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -24,7 +24,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋁
+ Header=⊳
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -42,7 +42,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋂
+ Header=⊴
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -60,7 +60,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋃
+ Header=⊵
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -78,7 +78,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋄
+ Header=⊶
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -110,7 +110,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋅
+ Header=⊷
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -132,7 +132,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋆
+ Header=⊸
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -163,7 +163,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋇
+ Header=⊹
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -173,15 +173,16 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
  Include_0=edid|stealth
+ Include_1=edid|PhantomDevice
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⋈
+ Header=⊺
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -202,7 +203,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋉
+ Header=⊻
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -220,7 +221,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋊
+ Header=⊼
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -238,7 +239,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋋
+ Header=⊽
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -257,7 +258,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋌
+ Header=⊾
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -275,7 +276,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋍
+ Header=⊿
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -293,7 +294,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊶
+ Header=⊨
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -312,7 +313,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊷
+ Header=⊩
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -331,7 +332,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊸
+ Header=⊪
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -350,7 +351,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊹
+ Header=⊫
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -368,7 +369,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊺
+ Header=⊬
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -386,7 +387,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊻
+ Header=⊭
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -409,7 +410,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊼
+ Header=⊮
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -430,7 +431,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊽
+ Header=⊯
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -449,7 +450,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊾
+ Header=⊰
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -467,7 +468,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊿
+ Header=⊱
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -493,7 +494,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋭
+ Header=⋟
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -516,7 +517,131 @@
 [EndRule]
 
 [StartRule]
- Header=⋮
+ Header=⋠
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|fasnacht
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋠
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Veteran_Mask
+ Include_1=edid|ClothesMistressOfMysteryVeil
+ Include_2=edid|ClothesMistressOfMysteryWornVeil
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋡
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|FlowerCrown
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋢
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|SCORE_S11_ARMO_Headwear_SodaJerkCap
+ Include_1=edid|ATX_Headwear_MilitaryUtilityCap_Green
+ Include_2=edid|ATX_Headwear_MilitaryUtilityCap_Camo
+ Include_3=edid|XPD_AC_Headwear_Buttercup
+ Include_4=edid|Headwear_Resident7Hat
+ Include_5=edid|ATX_Headwear_PiperCap_SP1
+ Include_6=edid|Headwear_Raider_Hood
+ Include_7=edid|ATX_Headwear_LeatherCap
+ Include_8=edid|ATX_Headwear_MilitaryUtilityCap_Tan
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋣
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|beret
+ Include_1=edid|MilitaryCap
+ Include_2=edid|DLC03CaptainsDanceHat
+ Exclude_0=ekwd|fasnacht
+ Exclude_1=edid|Veteran_Mask
+ Exclude_2=edid|ClothesMistressOfMysteryVeil
+ Exclude_3=edid|ClothesMistressOfMysteryWornVeil
+[EndRule]
+
+[StartRule]
+ Header=⋤
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ClothingTypeHat
+ Include_1=ekwd|ClothingTypeCultist
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋥
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -592,60 +717,12 @@
  Exclude_54=edid|Headwear_Raider_Hood
  Exclude_55=edid|ATX_Headwear_LeatherCap
  Exclude_56=edid|ATX_Headwear_MilitaryUtilityCap_Tan
- Exclude_57=ekwd|cultist
+ Exclude_57=edid|FlowerCrown
+ Exclude_58=ekwd|cultist
 [EndRule]
 
 [StartRule]
- Header=⋯
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=edid|SCORE_S11_ARMO_Headwear_SodaJerkCap
- Include_1=edid|ATX_Headwear_MilitaryUtilityCap_Green
- Include_2=edid|ATX_Headwear_MilitaryUtilityCap_Camo
- Include_3=edid|XPD_AC_Headwear_Buttercup
- Include_4=edid|Headwear_Resident7Hat
- Include_5=edid|ATX_Headwear_PiperCap_SP1
- Include_6=edid|Headwear_Raider_Hood
- Include_7=edid|ATX_Headwear_LeatherCap
- Include_8=edid|ATX_Headwear_MilitaryUtilityCap_Tan
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⋰
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=edid|beret
- Include_1=edid|MilitaryCap
- Include_2=edid|DLC03CaptainsDanceHat
- Exclude_0=ekwd|fasnacht
- Exclude_1=edid|Veteran_Mask
- Exclude_2=edid|ClothesMistressOfMysteryVeil
- Exclude_3=edid|ClothesMistressOfMysteryWornVeil
-[EndRule]
-
-[StartRule]
- Header=⋱
+ Header=⋦
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -664,7 +741,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋲
+ Header=⋧
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -724,64 +801,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋳
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|fasnacht
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⋳
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=edid|Veteran_Mask
- Include_1=edid|ClothesMistressOfMysteryVeil
- Include_2=edid|ClothesMistressOfMysteryWornVeil
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⋴
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ClothingTypeHat
- Include_1=ekwd|ClothingTypeCultist
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⋵
+ Header=⋨
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -801,7 +821,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋶
+ Header=⋩
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -819,7 +839,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋷
+ Header=⋪
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -837,7 +857,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋸
+ Header=⋫
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -856,7 +876,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋹
+ Header=⋬
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -877,7 +897,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋹
+ Header=⋬
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -898,7 +918,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋺
+ Header=⋭
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -916,7 +936,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋺
+ Header=⋭
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -934,7 +954,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋺
+ Header=⋭
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -948,39 +968,30 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|PowerArmor
- Exclude_0=ekwd|PowerArmor_Helmet
- Exclude_1=ekwd|PowerArmor_LeftArm
- Exclude_2=ekwd|PowerArmor_RightArm
- Exclude_3=ekwd|PowerArmor_LeftLeg
- Exclude_4=ekwd|PowerArmor_RightLeg
- Exclude_5=ekwd|PowerArmor_Torso
- Exclude_6=ekwd|t45
- Exclude_7=ekwd|t51
- Exclude_8=ekwd|t60
- Exclude_9=ekwd|PowerArmor_T65
- Exclude_10=ekwd|x01
+ Exclude_0=ekwd|HasLegendary_PowerArmor
+ Exclude_1=ekwd|PowerArmor_Fasnacht_FatherWinter
+ Exclude_2=ekwd|PowerArmor_EnclaveVulcan
+ Exclude_3=ekwd|PowerArmor_Excavator
+ Exclude_4=ekwd|PowerArmor_Union
+ Exclude_5=ekwd|PowerArmor_Hellcat
+ Exclude_6=ekwd|PowerArmor_Ultracite
+ Exclude_7=ekwd|PowerArmor_Raider
+ Exclude_8=ekwd|PowerArmor_V94_Ultracite
+ Exclude_9=ekwd|PowerArmor_t45
+ Exclude_10=ekwd|PowerArmor_t51
+ Exclude_11=ekwd|PowerArmor_t60
+ Exclude_12=ekwd|PowerArmor_T65
+ Exclude_13=ekwd|PowerArmor_x01
+ Exclude_14=ekwd|PowerArmor_Helmet
+ Exclude_15=ekwd|PowerArmor_LeftArm
+ Exclude_16=ekwd|PowerArmor_RightArm
+ Exclude_17=ekwd|PowerArmor_LeftLeg
+ Exclude_18=ekwd|PowerArmor_RightLeg
+ Exclude_19=ekwd|PowerArmor_Torso
 [EndRule]
 
 [StartRule]
- Header=⋻
- rSig=INNR
- fSig=WNAM
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|excavator
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⋼
+ Header=⋮
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -993,12 +1004,12 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|t45
+ Include_0=ekwd|PowerArmor_EnclaveVulcan
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⋽
+ Header=⋯
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1011,12 +1022,12 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|t51
+ Include_0=ekwd|PowerArmor_Excavator
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⋾
+ Header=⋰
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1029,12 +1040,138 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|t60
+ Include_0=ekwd|PowerArmor_Union
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⋿
+ Header=⋱
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PowerArmor_V94_Ultracite
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋲
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PowerArmor_Hellcat
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋳
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PowerArmor_Ultracite
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋴
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PowerArmor_Raider
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋵
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PowerArmor_t45
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋶
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PowerArmor_t51
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋷
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PowerArmor_t60
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋸
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1052,7 +1189,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌀
+ Header=⋹
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1065,12 +1202,12 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|x01
+ Include_0=ekwd|PowerArmor_x01
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⌁
+ Header=⋺
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1088,7 +1225,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌁
+ Header=⋺
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1106,7 +1243,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌂
+ Header=⋻
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1125,7 +1262,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌃
+ Header=⋼
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1145,7 +1282,25 @@
 [EndRule]
 
 [StartRule]
- Header=⌄
+ Header=⋼
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PowerArmor_Torso
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋽
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1165,7 +1320,25 @@
 [EndRule]
 
 [StartRule]
- Header=⌅
+ Header=⋽
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PowerArmor_RightArm
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋾
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1185,7 +1358,25 @@
 [EndRule]
 
 [StartRule]
- Header=⌆
+ Header=⋾
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PowerArmor_LeftArm
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋿
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1205,7 +1396,25 @@
 [EndRule]
 
 [StartRule]
- Header=⌇
+ Header=⋿
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PowerArmor_RightLeg
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌀
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1222,6 +1431,24 @@
  Include_1=ekwd|ArmorBodyPartFeet
  Include_2=edid|left
  Exclude_0=ekwd|ArmorTypePower
+[EndRule]
+
+[StartRule]
+ Header=⌀
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PowerArmor_LeftLeg
+ Exclude_0=
 [EndRule]
 
 [StartRule]
@@ -1243,7 +1470,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋎
+ Header=⋀
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1266,7 +1493,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋏
+ Header=⋁
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1286,7 +1513,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋐
+ Header=⋂
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1304,7 +1531,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋑
+ Header=⋃
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1323,7 +1550,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋒
+ Header=⋄
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1341,7 +1568,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋓
+ Header=⋅
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1368,7 +1595,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋔
+ Header=⋆
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1386,7 +1613,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋕
+ Header=⋇
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1404,7 +1631,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋖
+ Header=⋈
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1422,7 +1649,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋗
+ Header=⋉
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1440,7 +1667,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋗
+ Header=⋉
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1459,7 +1686,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋘
+ Header=⋊
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1477,7 +1704,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋙
+ Header=⋋
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1496,7 +1723,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋚
+ Header=⋌
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1516,7 +1743,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋚
+ Header=⋌
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1539,7 +1766,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋛
+ Header=⋍
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1559,7 +1786,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋜
+ Header=⋎
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1577,7 +1804,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋝
+ Header=⋏
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1595,7 +1822,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋞
+ Header=⋐
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1615,7 +1842,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋟
+ Header=⋑
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1633,7 +1860,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋜
+ Header=⋎
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1660,7 +1887,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋠
+ Header=⋒
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1685,7 +1912,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋡
+ Header=⋓
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1706,7 +1933,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋢
+ Header=⋔
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1730,7 +1957,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋣
+ Header=⋕
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1748,7 +1975,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋤
+ Header=⋖
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1770,7 +1997,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋥
+ Header=⋗
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1788,7 +2015,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋦
+ Header=⋘
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1806,7 +2033,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋧
+ Header=⋙
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1826,7 +2053,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋨
+ Header=⋚
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1846,7 +2073,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋩
+ Header=⋛
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1864,7 +2091,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋪
+ Header=⋜
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1888,7 +2115,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋫
+ Header=⋝
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1907,7 +2134,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋬
+ Header=⋞
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1925,313 +2152,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌟
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|WeaponTypeFlamer
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌠
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|WeaponTypeCryolator
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌡
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|50calMachineGun
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌢
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|mg42
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌣
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|GatlingLaser
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌤
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|GatlingPlasma
- Exclude_0=ekwd|GatlingLaser
-[EndRule]
-
-[StartRule]
- Header=⌥
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|GatlingGun
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌦
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|PlasmaCaster
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌧
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|minigun
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌨
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|broadsider
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=〈
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|MissileLauncher
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=〉
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|BOSRocketLauncher
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌫
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|m79
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌬
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|GrenadeLauncher
- Exclude_0=ekwd|m79
-[EndRule]
-
-[StartRule]
- Header=⌭
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|fatman
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌮
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|HarpoonGun
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌯
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|JunkJet
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⊴
+ Header=⊦
  rSig=NOTE
  fSig=FULL
  enabled=-1
@@ -2249,7 +2170,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊵
+ Header=⊧
  rSig=NOTE
  fSig=FULL
  enabled=-1
@@ -2267,7 +2188,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊵
+ Header=⊧
  rSig=NOTE
  fSig=FULL
  enabled=-1
@@ -2285,7 +2206,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊮
+ Header=⊠
  rSig=KEYM
  fSig=FULL
  enabled=-1
@@ -2317,7 +2238,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊯
+ Header=⊡
  rSig=KEYM
  fSig=FULL
  enabled=-1
@@ -2349,7 +2270,7 @@
 [EndRule]
 
 [StartRule]
- Header=≵
+ Header=≧
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2368,7 +2289,7 @@
 [EndRule]
 
 [StartRule]
- Header=≶
+ Header=≨
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2386,7 +2307,7 @@
 [EndRule]
 
 [StartRule]
- Header=≷
+ Header=≩
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2404,7 +2325,7 @@
 [EndRule]
 
 [StartRule]
- Header=≸
+ Header=≪
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2422,7 +2343,7 @@
 [EndRule]
 
 [StartRule]
- Header=≹
+ Header=≫
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2441,7 +2362,7 @@
 [EndRule]
 
 [StartRule]
- Header=≺
+ Header=≬
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2460,7 +2381,7 @@
 [EndRule]
 
 [StartRule]
- Header=≻
+ Header=≭
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2478,7 +2399,7 @@
 [EndRule]
 
 [StartRule]
- Header=≼
+ Header=≮
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2496,7 +2417,7 @@
 [EndRule]
 
 [StartRule]
- Header=≽
+ Header=≯
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2515,7 +2436,7 @@
 [EndRule]
 
 [StartRule]
- Header=≾
+ Header=≰
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2533,7 +2454,7 @@
 [EndRule]
 
 [StartRule]
- Header=≿
+ Header=≱
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2551,7 +2472,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊀
+ Header=≲
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2569,7 +2490,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊁
+ Header=≳
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2588,7 +2509,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊂
+ Header=≴
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2607,7 +2528,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊃
+ Header=≵
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2626,7 +2547,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊄
+ Header=≶
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2645,7 +2566,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊅
+ Header=≷
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2663,7 +2584,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊆
+ Header=≸
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2682,7 +2603,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊇
+ Header=≹
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2701,7 +2622,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊈
+ Header=≺
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2719,7 +2640,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊉
+ Header=≻
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2738,7 +2659,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊊
+ Header=≼
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2756,7 +2677,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊋
+ Header=≽
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2774,7 +2695,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊌
+ Header=≾
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2792,7 +2713,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊍
+ Header=≿
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2811,7 +2732,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊎
+ Header=⊀
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2829,7 +2750,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊏
+ Header=⊁
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2847,7 +2768,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊐
+ Header=⊂
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2865,7 +2786,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊑
+ Header=⊃
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2883,7 +2804,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊒
+ Header=⊄
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2901,7 +2822,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊓
+ Header=⊅
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2919,7 +2840,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊔
+ Header=⊆
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2937,7 +2858,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊕
+ Header=⊇
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2955,7 +2876,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊖
+ Header=⊈
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2987,449 +2908,90 @@
  isFallBack=0
  fallbackBank=0
  Include_0=
- Exclude_0=ekwd|CustomItemName
- Exclude_1=ekwd|PowerArmor
- Exclude_2=ekwd|HandmadeRifle
- Exclude_3=ekwd|PipeWrench_Flowers
- Exclude_4=ekwd|HasLegendary_Weapon_Steady
- Exclude_5=ekwd|HasLegendary_Armor_LowHealthIncreasesStats
- Exclude_6=ekwd|HasLegendary_Weapon_AntiArmor
- Exclude_7=ekwd|HasLegendary_Weapon_DamageInverseHealth
- Exclude_8=ekwd|HasLegendary_Weapon_DamageAddiction
- Exclude_9=ekwd|HasLegendary_Weapon_Gourmand
- Exclude_10=ekwd|HasLegendary_Armor_Overeater
- Exclude_11=ekwd|HasLegendary_Armor_ResistancesProportionalCaps
- Exclude_12=ekwd|HasLegendary_Weapon_DamageViaCaps
- Exclude_13=ekwd|HasLegendary_Weapon_DamageFirstBlood
- Exclude_14=ekwd|HasLegendary_Weapon_DamageViaHealth
- Exclude_15=ekwd|HasLegendary_Armor_ResistancesMutation
- Exclude_16=ekwd|HasLegendary_Weapon_DamageWithMutation
- Exclude_17=ekwd|HasLegendary_Weapon_DamageUnarmored
- Exclude_18=ekwd|HasLegendary_Weapon_AmmoCapacity4x
- Exclude_19=ekwd|HasLegendary_Weapon_TwoShot
- Exclude_20=ekwd|HasLegendary_Armor_LessDMGScorched
- Exclude_21=ekwd|HasLegendary_Weapon_DamageVsScorched
- Exclude_22=ekwd|HasLegendary_Armor_ResistancesNight
- Exclude_23=ekwd|HasLegendary_Weapon_DamageNight
- Exclude_24=ekwd|HasLegendary_Armor_LessDMGBugs
- Exclude_25=ekwd|HasLegendary_Weapon_DamageVsBugs
- Exclude_26=ekwd|HasLegendary_Armor_LessDMGHumans
- Exclude_27=ekwd|HasLegendary_Weapon_DamageVsPlayers
- Exclude_28=ekwd|HasLegendary_Weapon_DamageConsecutiveHits
- Exclude_29=ekwd|HasLegendary_Weapon_DamageVsRobots
- Exclude_30=ekwd|HasLegendary_Armor_LessDMGRobots
- Exclude_31=ekwd|HasLegendary_Armor_LessDMGSupermutants
- Exclude_32=ekwd|HasLegendary_Weapon_DamageVsSupermutants
- Exclude_33=ekwd|HasLegendary_Weapon_Execute
- Exclude_34=ekwd|HasLegendary_Weapon_DamageVsAnimals
- Exclude_35=ekwd|HasLegendary_Armor_LessDMGAnimals
- Exclude_36=ekwd|HasLegendary_Armor_ResistancesInverseHealth
- Exclude_37=ekwd|HasLegendary_Weapon_AccuracyNotInCombat
- Exclude_38=ekwd|HasLegendary_Armor_Chameleon
- Exclude_39=ekwd|HasLegendary_Weapon_DamageVsGhouls
- Exclude_40=ekwd|HasLegendary_Armor_LessDMGGhouls
- Exclude_41=ekwd|HasLegendary_Armor_AutoRevive
- Exclude_42=ekwd|HasLegendary_Armor_ResistancesProportionalHealth
- Exclude_43=ekwd|HasLegendary_Armor_GettingMeleedTriggersInvisibility
- Exclude_44=ekwd|HasLegendary_Weapon_DebuffDamage
- Exclude_45=ekwd|HasLegendary_Weapon_Vampire
- Exclude_46=ekwd|HasLegendary_Weapon_Medic
- Exclude_47=ekwd|HasLegendary_Armor_LowHealthTriggersStimpak
- Exclude_48=ekwd|HasLegendary_Armor_HealthRegen
- Exclude_49=ekwd|HasLegendary_Armor_Weightless
+ Exclude_0=ekwd|HandmadeAssaultRifle
+ Exclude_1=ekwd|CustomItemName
+ Exclude_2=ekwd|PowerArmor
+ Exclude_3=ekwd|HasGrip_Rifle
+ Exclude_4=ekwd|HasGrip_Pistol
+ Exclude_5=ekwd|HasLegendary_Weapon_Steady
+ Exclude_6=ekwd|HasLegendary_Armor_LowHealthIncreasesStats
+ Exclude_7=ekwd|HasLegendary_Weapon_AntiArmor
+ Exclude_8=ekwd|HasLegendary_Weapon_DamageInverseHealth
+ Exclude_9=ekwd|HasLegendary_Weapon_DamageAddiction
+ Exclude_10=ekwd|HasLegendary_Weapon_Gourmand
+ Exclude_11=ekwd|HasLegendary_Armor_Overeater
+ Exclude_12=ekwd|HasLegendary_Armor_ResistancesProportionalCaps
+ Exclude_13=ekwd|HasLegendary_Weapon_DamageViaCaps
+ Exclude_14=ekwd|HasLegendary_Weapon_DamageFirstBlood
+ Exclude_15=ekwd|HasLegendary_Weapon_DamageViaHealth
+ Exclude_16=ekwd|HasLegendary_Armor_ResistancesMutation
+ Exclude_17=ekwd|HasLegendary_Weapon_DamageWithMutation
+ Exclude_18=ekwd|HasLegendary_Weapon_DamageUnarmored
+ Exclude_19=ekwd|HasLegendary_Weapon_AmmoCapacity4x
+ Exclude_20=ekwd|HasLegendary_Weapon_TwoShot
+ Exclude_21=ekwd|HasLegendary_Armor_LessDMGScorched
+ Exclude_22=ekwd|HasLegendary_Weapon_DamageVsScorched
+ Exclude_23=ekwd|HasLegendary_Armor_ResistancesNight
+ Exclude_24=ekwd|HasLegendary_Weapon_DamageNight
+ Exclude_25=ekwd|HasLegendary_Armor_LessDMGBugs
+ Exclude_26=ekwd|HasLegendary_Weapon_DamageVsBugs
+ Exclude_27=ekwd|HasLegendary_Armor_LessDMGHumans
+ Exclude_28=ekwd|HasLegendary_Weapon_DamageVsPlayers
+ Exclude_29=ekwd|HasLegendary_Weapon_DamageConsecutiveHits
+ Exclude_30=ekwd|HasLegendary_Weapon_DamageVsRobots
+ Exclude_31=ekwd|HasLegendary_Armor_LessDMGRobots
+ Exclude_32=ekwd|HasLegendary_Armor_LessDMGSupermutants
+ Exclude_33=ekwd|HasLegendary_Weapon_DamageVsSupermutants
+ Exclude_34=ekwd|HasLegendary_Weapon_Execute
+ Exclude_35=ekwd|HasLegendary_Weapon_DamageVsAnimals
+ Exclude_36=ekwd|HasLegendary_Armor_LessDMGAnimals
+ Exclude_37=ekwd|HasLegendary_Armor_ResistancesInverseHealth
+ Exclude_38=ekwd|HasLegendary_Weapon_AccuracyNotInCombat
+ Exclude_39=ekwd|HasLegendary_Armor_Chameleon
+ Exclude_40=ekwd|HasLegendary_Weapon_DamageVsGhouls
+ Exclude_41=ekwd|HasLegendary_Armor_LessDMGGhouls
+ Exclude_42=ekwd|HasLegendary_Armor_AutoRevive
+ Exclude_43=ekwd|HasLegendary_Armor_ResistancesProportionalHealth
+ Exclude_44=ekwd|HasLegendary_Armor_GettingMeleedTriggersInvisibility
+ Exclude_45=ekwd|HasLegendary_Weapon_DebuffDamage
+ Exclude_46=ekwd|HasLegendary_Weapon_Vampire
+ Exclude_47=ekwd|HasLegendary_Weapon_Medic
+ Exclude_48=ekwd|HasLegendary_Armor_LowHealthTriggersStimpak
+ Exclude_49=ekwd|HasLegendary_Armor_HealthRegen
+ Exclude_50=ekwd|HasLegendary_Armor_Weightless
 [EndRule]
 
 [StartRule]
- Header=⌐
- rSig=WEAP
- fSig=FULL
+ Header= 
+ rSig=INNR
+ fSig=WNAM
  enabled=-1
  tagID=default
  noKW=0
  anyKW=0
  hasCompo=0
  preProcess=0
- fullReplace=0
+ fullReplace=-1
  includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=edid|PowerFist
- Include_1=edid|Gauntlet
+ Include_0=ekwd|HasLegendary_PowerArmor
+ Include_1=ekwd|PowerArmor_Fasnacht_FatherWinter
+ Include_2=ekwd|SilverLining
+ Include_3=ekwd|LastBastion
+ Include_4=ekwd|TrailWarden
+ Include_5=ekwd|StandFast
+ Include_6=ekwd|BlueRidgeGuardsmanArmor
+ Include_7=ekwd|HasChainsawBar
+ Include_8=ekwd|HasMag
+ Include_9=ekwd|HasMuzzle
+ Include_10=ekwd|HasReceiver
+ Include_11=ekwd|HasBarrel
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⌑
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|WeaponTypeUnarmed
- Exclude_0=edid|PowerFist
- Exclude_1=edid|Gauntlet
-[EndRule]
-
-[StartRule]
- Header=⌒
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|chainsaw
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌓
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|shishkebab
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌔
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|ripper
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌕
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|knife
- Exclude_0=edid|Throwing_Knife
-[EndRule]
-
-[StartRule]
- Header=⌖
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|machete
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌗
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|WeaponTypeAxe
- Include_1=ekwd|WeaponTypeMelee1H
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌘
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|WeaponTypeBlunt
- Include_1=ekwd|WeaponTypeMelee1H
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌙
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|WeaponTypeMelee1H
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌚
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|SuperSledge
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌛
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|WeaponTypeBlunt
- Include_1=ekwd|WeaponTypeMelee2H
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌜
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|WeaponTypeAxe
- Include_1=ekwd|WeaponTypeMelee2H
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌝
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|WeaponTypeSword
- Include_1=ekwd|WeaponTypeMelee2H
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌞
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|WeaponTypeMelee2H
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=≯
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|CryoMine
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=≰
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|PlasmaMine
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=≱
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|PulseMine
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=≲
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|BottlecapMine
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=≳
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|NukeMine
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=≴
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|WeaponTypeMine
- Exclude_0=edid|CryoMine
- Exclude_1=edid|PlasmaMine
- Exclude_2=edid|PulseMine
- Exclude_3=edid|BottlecapMine
- Exclude_4=edid|NukeMine
-[EndRule]
-
-[StartRule]
- Header=⊗
+ Header=⊉
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3447,7 +3009,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊘
+ Header=⊊
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3466,7 +3028,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊙
+ Header=⊋
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3484,7 +3046,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊚
+ Header=⊌
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3502,7 +3064,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊛
+ Header=⊍
  rSig=UTIL
  fSig=FULL
  enabled=-1
@@ -3521,7 +3083,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊜
+ Header=⊎
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3539,7 +3101,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊝
+ Header=⊏
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3557,7 +3119,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊞
+ Header=⊐
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3575,7 +3137,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊟
+ Header=⊑
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3593,7 +3155,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊠
+ Header=⊒
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3611,7 +3173,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊡
+ Header=⊓
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3629,7 +3191,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊢
+ Header=⊔
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3647,7 +3209,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊣
+ Header=⊕
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3678,7 +3240,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊤
+ Header=⊖
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3696,7 +3258,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊥
+ Header=⊗
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3714,7 +3276,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊦
+ Header=⊘
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3732,7 +3294,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊧
+ Header=⊙
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3750,7 +3312,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊨
+ Header=⊚
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3770,7 +3332,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊩
+ Header=⊛
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3788,7 +3350,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊪
+ Header=⊜
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3810,7 +3372,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊫
+ Header=⊝
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3828,7 +3390,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊬
+ Header=⊞
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3846,7 +3408,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊭
+ Header=⊟
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3864,7 +3426,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊰
+ Header=⊢
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -3882,7 +3444,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊱
+ Header=⊣
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -3900,7 +3462,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊲
+ Header=⊤
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -3919,7 +3481,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊳
+ Header=⊥
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -3937,7 +3499,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌼
+ Header=⌁
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3950,492 +3512,12 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|GaussPistol
+ Include_0=ekwd|WeaponTypeThrown
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⌽
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|AlienBlaster
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌾
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|GammaGun
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌿
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⍀
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⍁
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=edid|revolver
- Include_1=edid|44
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⍂
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⍃
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|PipeBoltAction
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⍄
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|FlareGun
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⍅
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|BoSPistol
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⍆
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|ThirstZapper
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⍇
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|BlackPowder_Pistol
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌰
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|fixer
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌱
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|HandmadeRifle
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌲
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|RailwayRifle
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌳
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|LightningGun
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌴
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|AlienRifle
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌵
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|GaussRifle
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌶
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|PlasmaGun
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌷
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|LaserGun
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌸
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|PipeGun
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌹
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|LaserMusket
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌺
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|WeaponTypeRifle
- Exclude_0=edid|fixer
- Exclude_1=edid|HandmadeRifle
- Exclude_2=edid|RailwayRifle
- Exclude_3=edid|LightningGun
- Exclude_4=edid|AlienRifle
- Exclude_5=edid|GaussRifle
- Exclude_6=edid|PlasmaGun
- Exclude_7=edid|LaserGun
- Exclude_8=edid|PipeGun
- Exclude_9=edid|LaserMusket
- Exclude_10=edid|WesternSpirit
-[EndRule]
-
-[StartRule]
- Header=⌻
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=edid|shotgun
- Include_1=edid|WesternSpirit
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=≧
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ThrowingKnife
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=≨
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|NukaGrenade
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=≩
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|PlasmaGrenade
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=≪
+ Header=⌁
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4453,7 +3535,7 @@
 [EndRule]
 
 [StartRule]
- Header=≫
+ Header=⌂
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4466,74 +3548,12 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|PulseGrenade
+ Include_0=ekwd|WeaponTypeMine
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=≬
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|WeaponTypeGrenade
- Exclude_0=edid|PulseGrenade
- Exclude_1=edid|NukaGrenade
- Exclude_2=edid|SuiciderBomb
- Exclude_3=edid|PlasmaGrenade
- Exclude_4=edid|CryoGrenade
- Exclude_5=edid|dynamite
- Exclude_6=edid|m79
- Exclude_7=ekwd|ThrowingKnife
-[EndRule]
-
-[StartRule]
- Header=≭
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=edid|SuiciderBomb
- Include_1=edid|TurboFertFertilizer
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=≮
- rSig=WEAP
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|dynamite
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌈
+ Header=⌃⌄
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4546,8 +3566,343 @@
  includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|CustomItemName
- Include_1=ekwd|_Love_
+ Include_0=ekwd|CustomItemName_BoilingPoint
+ Include_1=ekwd|CustomItemName_V63GatlingLaser
+ Include_2=ekwd|CustomItemName_Valkyrie
+ Include_3=ekwd|CustomItemName_Pyrolyzer
+ Include_4=ekwd|CustomItemName_HolyFire
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌄
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|WeaponTypeEnergy
+ Include_1=ekwd|WeaponTypeHeavy
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌃⌅
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|CustomItemName_FoundationsVengeance
+ Include_1=ekwd|CustomItemName_RedTerror
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌃⌅
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|W05_COMP_Beckett_50CalMachineGun_QuestReward
+ Include_1=edid|E08B_Minigun_FoundationsVengeance
+ Include_2=edid|Survival_HarpoonGun_Kingfisher
+ Include_3=edid|ResoluteVeteran
+ Include_4=edid|TheActionHero
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌅
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|WeaponTypeHeavy
+ Exclude_0=edid|AutoGrenadeLauncher
+ Exclude_1=edid|Broadsider
+ Exclude_2=edid|Fatman
+ Exclude_3=edid|BOSRocketLauncher
+ Exclude_4=edid|M79
+ Exclude_5=edid|MissileLauncher
+ Exclude_6=edid|ThirstZapper
+ Exclude_7=edid|QuadLauncher
+ Exclude_8=edid|W05_COMP_Beckett_50CalMachineGun_QuestReward
+ Exclude_9=edid|E08B_Minigun_FoundationsVengeance
+ Exclude_10=edid|Survival_HarpoonGun_Kingfisher
+ Exclude_11=edid|ResoluteVeteran
+ Exclude_12=edid|TheActionHero
+ Exclude_13=edid|PepperShaker
+[EndRule]
+
+[StartRule]
+ Header=⌃⌆
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|CustomItemName_V63-BERTHA
+ Include_1=ekwd|CustomItemName_V63LaserRifle
+ Include_2=ekwd|CustomItemName_StrikeBreaker
+ Include_3=ekwd|CustomItemName_MindOverMatter
+ Include_4=ekwd|CustomItemName_Plasma_W05MQR
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌃⌆
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Survival_LaserGun_AcceptableOverkill
+ Include_1=edid|MindOverMatter
+ Include_2=edid|NightLight
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌆
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|WeaponTypeRifle
+ Include_1=ekwd|WeaponTypeEnergy
+ Exclude_0=edid|Survival_LaserGun_AcceptableOverkill
+ Exclude_1=edid|MindOverMatter
+ Exclude_2=edid|NightLight
+[EndRule]
+
+[StartRule]
+ Header=⌆
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|UltraciteLaserGun
+ Include_1=edid|LaserGun
+ Include_2=edid|PlasmaGun
+ Exclude_0=edid|Survival_LaserGun_AcceptableOverkill
+ Exclude_1=edid|MindOverMatter
+ Exclude_2=edid|NightLight
+[EndRule]
+
+[StartRule]
+ Header=⌃⌇
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|CustomItemName_AnchorageAce
+ Include_1=ekwd|CustomItemName_LoveTap
+ Include_2=ekwd|CustomItemName_Longshot
+ Include_3=ekwd|CustomItemName_WesternSpirit
+ Include_4=ekwd|CustomItemName_LicketySplit
+ Include_5=ekwd|CustomItemName_TheFixer
+ Include_6=ekwd|CustomItemName_EldersMark
+ Include_7=ekwd|CustomItemName_TickettoRevenge
+ Include_8=ekwd|CustomItemName_ShatteredGrounds
+ Include_9=ekwd|CustomItemName_DoctorsOrders
+ Include_10=ekwd|CustomItemName_WhistleInTheDark
+ Include_11=ekwd|CustomItemName_PerfectStorm
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌃⌇
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|DoctorsOrders
+ Include_1=edid|E09C_SubmachineGun_LoveTap
+ Include_2=edid|W05_MQS_203P_10mmSMG
+ Include_3=edid|SoleSurvivor
+ Include_4=edid|WesternSpirit
+ Include_5=edid|WhistleInTheDark
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌇
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|WeaponTypeRifle
+ Exclude_0=edid|DoctorsOrders
+ Exclude_1=edid|E09C_SubmachineGun_LoveTap
+ Exclude_2=edid|W05_MQS_203P_10mmSMG
+ Exclude_3=edid|SoleSurvivor
+ Exclude_4=edid|WesternSpirit
+ Exclude_5=edid|WhistleInTheDark
+[EndRule]
+
+[StartRule]
+ Header=⌇
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|PipeGun
+ Exclude_0=edid|DoctorsOrders
+ Exclude_1=edid|E09C_SubmachineGun_LoveTap
+ Exclude_2=edid|W05_MQS_203P_10mmSMG
+ Exclude_3=edid|SoleSurvivor
+ Exclude_4=edid|WesternSpirit
+ Exclude_5=edid|WhistleInTheDark
+[EndRule]
+
+[StartRule]
+ Header=⌇
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HandmadeAssaultRifle
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌃⌈
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|CustomItemName_CircuitBreaker
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌃⌈
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|10mm_CircuitBreaker
+ Include_1=edid|ATX_AssaultronHeadCharging_Imposter
+ Include_2=edid|PollyAssaultronHead
+ Include_3=edid|Astronaut_AlienBlaster
+ Include_4=edid|GammaGun_Xerxos
  Exclude_0=
 [EndRule]
 
@@ -4562,11 +3917,59 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|WeaponTypeEnergy
+ Include_1=ekwd|WeaponTypePistol
+ Exclude_0=edid|10mm_CircuitBreaker
+ Exclude_1=edid|ATX_AssaultronHeadCharging_Imposter
+ Exclude_2=edid|PollyAssaultronHead
+ Exclude_3=edid|Astronaut_AlienBlaster
+ Exclude_4=edid|GammaGun_Xerxos
+[EndRule]
+
+[StartRule]
+ Header=⌃⌉
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
  includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=edid|PepperShaker
- Include_1=edid|PiratePunch
+ Include_0=ekwd|CustomItemName_GunthersRevolver
+ Include_1=ekwd|CustomItemName_PiratePunch
+ Include_2=ekwd|CustomItemName_TheFactFinder
+ Include_3=ekwd|CustomItemName_SomersetSpecial
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌃⌉
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|MTR05_10mm_ScorchedTrainer
+ Include_1=edid|MTNL01_SingleActionRevolver_Fancy
+ Include_2=edid|E09D_SingleActionRevolver_GunthersRevolver
+ Include_3=edid|44_MedicalMalpractice
+ Include_4=edid|PiratePunch
+ Include_5=edid|VoiceOfSet
  Exclude_0=
 [EndRule]
 
@@ -4584,7 +3987,30 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|binoculars
+ Include_0=ekwd|WeaponTypePistol
+ Exclude_0=edid|MTR05_10mm_ScorchedTrainer
+ Exclude_1=edid|MTNL01_SingleActionRevolver_Fancy
+ Exclude_2=edid|E09D_SingleActionRevolver_GunthersRevolver
+ Exclude_3=edid|44_MedicalMalpractice
+ Exclude_4=edid|PiratePunch
+ Exclude_5=edid|VoiceOfSet
+[EndRule]
+
+[StartRule]
+ Header=⌃⌊
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|CustomItemName_BurningLove
  Exclude_0=
 [EndRule]
 
@@ -4602,7 +4028,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|camera
+ Include_0=ekwd|WeaponTypeBow
  Exclude_0=
 [EndRule]
 
@@ -4620,7 +4046,49 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|AssaultronHead
+ Include_0=ekwd|WeaponTypeEnergy
+ Include_1=ekwd|WeaponTypeShotgun
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌃⌌
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|CustomItemName_CivilUnrest
+ Include_1=ekwd|CustomItemName_TheKabloom
+ Include_2=ekwd|CustomItemName_CrowdControl
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌃⌌
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|ColdShoulder
+ Include_1=edid|CrowdControl
+ Include_2=edid|MTNL01_PumpActionShotgun_Fancy
+ Include_3=edid|SaltOfTheEarth
  Exclude_0=
 [EndRule]
 
@@ -4638,7 +4106,77 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|syringer
+ Include_0=ekwd|WeaponTypeShotgun
+ Exclude_0=edid|ColdShoulder
+ Exclude_1=edid|CrowdControl
+ Exclude_2=edid|MTNL01_PumpActionShotgun_Fancy
+ Exclude_3=edid|SaltOfTheEarth
+[EndRule]
+
+[StartRule]
+ Header=⌌
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|PepperShaker
+ Exclude_0=edid|ColdShoulder
+ Exclude_1=edid|CrowdControl
+ Exclude_2=edid|MTNL01_PumpActionShotgun_Fancy
+ Exclude_3=edid|SaltOfTheEarth
+[EndRule]
+
+[StartRule]
+ Header=⌃⌍
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|CustomItemName_Boomstick
+ Include_1=ekwd|CustomItemName_BunkerBuster
+ Include_2=ekwd|CustomItemName_Daisycutter
+ Include_3=ekwd|CustomItemName_GrandFinale
+ Include_4=ekwd|CustomItemName_NukaLauncher
+ Include_5=ekwd|CustomItemName_Overkill
+ Include_6=ekwd|CustomItemName_ResolveBreaker
+ Include_7=ekwd|CustomItemName_ThePeacemaker
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌃⌍
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|CrushingBlow
+ Include_1=edid|GrandFinale
+ Include_2=edid|AutoGrenadeLauncher_NukaLauncher
+ Include_3=edid|TheGuarantee
  Exclude_0=
 [EndRule]
 
@@ -4653,13 +4191,40 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=edid|bow
- Exclude_0=edid|CompoundBow
- Exclude_1=edid|Bowie
- Exclude_2=edid|crossbow
+ Include_0=edid|AutoGrenadeLauncher
+ Include_1=edid|Broadsider
+ Include_2=edid|Fatman
+ Include_3=edid|BOSRocketLauncher
+ Include_4=edid|M79
+ Include_5=edid|MissileLauncher
+ Include_6=edid|ThirstZapper
+ Include_7=edid|QuadLauncher
+ Exclude_0=edid|CrushingBlow
+ Exclude_1=edid|GrandFinale
+ Exclude_2=edid|AutoGrenadeLauncher_NukaLauncher
+ Exclude_3=edid|TheGuarantee
+[EndRule]
+
+[StartRule]
+ Header=⌃⌎
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|PipeSyringer_Karma
+ Include_1=edid|PipeSyringer_Vox
+ Exclude_0=
 [EndRule]
 
 [StartRule]
@@ -4676,7 +4241,26 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|CompoundBow
+ Include_0=edid|syringer
+ Exclude_0=edid|PipeSyringer_Karma
+ Exclude_1=edid|PipeSyringer_Vox
+[EndRule]
+
+[StartRule]
+ Header=⌃⌏
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|CustomItemName_Cauterizer
  Exclude_0=
 [EndRule]
 
@@ -4694,7 +4278,166 @@
  includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=edid|10mm
- Include_1=edid|crossbow
+ Include_0=ekwd|WeaponTypeChainsaw
+ Include_1=ekwd|WeaponTypeDrill
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌃⌐
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|CustomItemName_DrillFist
+ Include_1=ekwd|CustomItemName_OguaGauntlet
+ Include_2=ekwd|CustomItemName_ToneDeath
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌐
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|WeaponTypeUnarmed
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌃⌑
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|CustomItemName_LucaSwitchblade
+ Include_1=ekwd|CustomItemName_BlueRidgeBrandingIron
+ Include_2=ekwd|CustomItemName_CryptidJawboneKnife
+ Include_3=ekwd|CustomItemName_V63ShockBaton
+ Include_4=ekwd|CustomItemName_TheGutter
+ Include_5=ekwd|CustomItemName_BlackDiamond
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌑
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|WeaponTypeMelee1H
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌃⌒
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|CustomItemName_TheDebilitator
+ Include_1=ekwd|CustomItemName_WhackerSmacker
+ Include_2=ekwd|CustomItemName_RatBat
+ Include_3=ekwd|CustomItemName_AllRise
+ Include_4=ekwd|CustomItemName_HeadHunter
+ Include_5=ekwd|CustomItemName_UltraciteTerrorSword
+ Include_6=ekwd|CustomItemName_CultistPiercer
+ Include_7=ekwd|CustomItemName_TheFarmhand
+ Include_8=ekwd|CustomItemName_StrongmansSledgehammer
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌒
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|WeaponTypeMelee2H
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌓
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|binoculars
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌔
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|camera
  Exclude_0=
 [EndRule]

@@ -56,10 +56,9 @@ export const generateIconsObj = async (): Promise<string> => {
           .map((rule) => rule.prefix as IconNames[])
       );
       const iconsArray: Icon[] = [];
+      const iconsMap: Set<IconNames> = new Set();
 
       for (let index = 0; index < maxPrefixLength; index++) {
-        const iconsMap: Set<IconNames> = new Set();
-
         iconsArray.push(
           ...group.rules
             .map((rule) => rule.prefix?.[index])

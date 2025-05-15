@@ -1,5 +1,5 @@
 import { ICON_LEGENDARY_EFFECTS } from "@/generated/icons-enum";
-import { LeftSignature, RightSignature } from "@/constants";
+import { LeftSignature, POWER_ARMOR_EFFECTS, RightSignature } from "@/constants";
 import type { ICON_COMMON, IncludeProperty, RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
 const unyieldingRules = [
@@ -573,11 +573,11 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             isFullReplaced: true,
             include: [],
             exclude: [
-                // unique weapons
+                "ekwd|HandmadeAssaultRifle",
                 "ekwd|CustomItemName",
                 "ekwd|PowerArmor",
-                "ekwd|HandmadeRifle",
-                "ekwd|PipeWrench_Flowers",
+                "ekwd|HasGrip_Rifle",
+                "ekwd|HasGrip_Pistol",
                 ...unyieldingRules,
                 ...antiArmorRules,
                 ...bloodiedRules,
@@ -613,6 +613,31 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
                 ...regeneratingRules,
                 ...weightlessRules,
             ],
+        },
+        {
+            order: 35,
+            prefix: ["_injected_innr_eraser"],
+            leftSignature: LeftSignature.InstanceNamingRules,
+            rightSignature: RightSignature.WNAM,
+            isInjected: true,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: true,
+            include: [
+                ...POWER_ARMOR_EFFECTS,
+                "ekwd|SilverLining",
+                "ekwd|LastBastion",
+                "ekwd|TrailWarden",
+                "ekwd|StandFast",
+                "ekwd|BlueRidgeGuardsmanArmor",
+                "ekwd|HasChainsawBar",
+                "ekwd|HasMag",
+                "ekwd|HasMuzzle",
+                "ekwd|HasReceiver",
+                "ekwd|HasBarrel",
+            ],
+            exclude: [],
         }
     ],
 } as const satisfies RulesGroup<ICON_LEGENDARY_EFFECTS | ICON_COMMON>;

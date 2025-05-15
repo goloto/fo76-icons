@@ -6,18 +6,11 @@ export enum ICON_CATEGORIES {
     Currency = 'currency',
     Events = 'events',
     Food = 'food',
-    HeavyWeapons = 'heavy-weapons',
     Holotapes = 'holotapes',
     Index = 'index',
     Keys = 'keys',
     LegendaryEffects = 'legendary-effects',
-    MeleeWeapons = 'melee-weapons',
-    Mines = 'mines',
     Misc = 'misc',
     Notes = 'notes',
-    Pistols = 'pistols',
-    Rifles = 'rifles',
-    Shotguns = 'shotguns',
-    ThrownWeapons = 'thrown-weapons',
     Weapons = 'weapons'
 }
