@@ -139,9 +139,12 @@ export enum ICON_FOOD {
 }
 export enum ICON_APPAREL {
     Apparel = 'apparel',
+    Asylum = 'asylum',
     Beret = 'beret',
     Cap = 'cap',
     CarnivalCostume = 'carnival_costume',
+    CowboyClothing = 'cowboy_clothing',
+    CowboyHat = 'cowboy_hat',
     CultistHood = 'cultist_hood',
     Dress = 'dress',
     FasnachtMask = 'fasnacht_mask',
@@ -150,7 +153,9 @@ export enum ICON_APPAREL {
     GasMask = 'gas_mask',
     Glasses = 'glasses',
     Helmet = 'helmet',
-    Jumpsuit = 'jumpsuit',
+    MilitaryClothing = 'military_clothing',
+    SpacesuitClothing = 'spacesuit_clothing',
+    SpacesuitHat = 'spacesuit_hat',
     Suit = 'suit'
 }
 export enum ICON_ARMOR {
