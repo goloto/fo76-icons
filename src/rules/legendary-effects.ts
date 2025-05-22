@@ -1,5 +1,5 @@
 import { ICON_LEGENDARY_EFFECTS } from "@/generated/icons-enum";
-import { LeftSignature, POWER_ARMOR_EFFECTS, RightSignature } from "@/constants";
+import { BROADSIDER_RULE, LeftSignature, POWER_ARMOR_EFFECTS, RightSignature } from "@/constants";
 import type { ICON_COMMON, IncludeProperty, RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
 const unyieldingRules = [
@@ -578,6 +578,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
                 "ekwd|PowerArmor",
                 "ekwd|HasGrip_Rifle",
                 "ekwd|HasGrip_Pistol",
+                BROADSIDER_RULE,
                 ...unyieldingRules,
                 ...antiArmorRules,
                 ...bloodiedRules,
@@ -637,7 +638,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
                 "ekwd|HasReceiver",
                 "ekwd|HasBarrel",
             ],
-            exclude: [],
+            exclude: [BROADSIDER_RULE],
         }
     ],
 } as const satisfies RulesGroup<ICON_LEGENDARY_EFFECTS | ICON_COMMON>;

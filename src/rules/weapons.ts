@@ -1,5 +1,5 @@
 import { ICON_WEAPONS } from "@/generated/icons-enum";
-import { LeftSignature, RightSignature } from "@/constants";
+import { BROADSIDER_RULE, LeftSignature, RightSignature } from "@/constants";
 import type { IncludeProperty, RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
 const uniqueHeavy = [
@@ -535,6 +535,7 @@ export const WEAPONS_RULES_GROUP = {
                 "ekwd|CustomItemName_Overkill",
                 "ekwd|CustomItemName_ResolveBreaker",
                 "ekwd|CustomItemName_ThePeacemaker",
+                BROADSIDER_RULE
             ],
             exclude: [],
         },

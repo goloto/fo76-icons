@@ -3056,52 +3056,53 @@
  Exclude_2=ekwd|PowerArmor
  Exclude_3=ekwd|HasGrip_Rifle
  Exclude_4=ekwd|HasGrip_Pistol
- Exclude_5=ekwd|HasLegendary_Weapon_Steady
- Exclude_6=ekwd|HasLegendary_Armor_LowHealthIncreasesStats
- Exclude_7=ekwd|HasLegendary_Weapon_AntiArmor
- Exclude_8=ekwd|HasLegendary_Weapon_DamageInverseHealth
- Exclude_9=ekwd|HasLegendary_Weapon_DamageAddiction
- Exclude_10=ekwd|HasLegendary_Weapon_Gourmand
- Exclude_11=ekwd|HasLegendary_Armor_Overeater
- Exclude_12=ekwd|HasLegendary_Armor_ResistancesProportionalCaps
- Exclude_13=ekwd|HasLegendary_Weapon_DamageViaCaps
- Exclude_14=ekwd|HasLegendary_Weapon_DamageFirstBlood
- Exclude_15=ekwd|HasLegendary_Weapon_DamageViaHealth
- Exclude_16=ekwd|HasLegendary_Armor_ResistancesMutation
- Exclude_17=ekwd|HasLegendary_Weapon_DamageWithMutation
- Exclude_18=ekwd|HasLegendary_Weapon_DamageUnarmored
- Exclude_19=ekwd|HasLegendary_Weapon_AmmoCapacity4x
- Exclude_20=ekwd|HasLegendary_Weapon_TwoShot
- Exclude_21=ekwd|HasLegendary_Armor_LessDMGScorched
- Exclude_22=ekwd|HasLegendary_Weapon_DamageVsScorched
- Exclude_23=ekwd|HasLegendary_Armor_ResistancesNight
- Exclude_24=ekwd|HasLegendary_Weapon_DamageNight
- Exclude_25=ekwd|HasLegendary_Armor_LessDMGBugs
- Exclude_26=ekwd|HasLegendary_Weapon_DamageVsBugs
- Exclude_27=ekwd|HasLegendary_Armor_LessDMGHumans
- Exclude_28=ekwd|HasLegendary_Weapon_DamageVsPlayers
- Exclude_29=ekwd|HasLegendary_Weapon_DamageConsecutiveHits
- Exclude_30=ekwd|HasLegendary_Weapon_DamageVsRobots
- Exclude_31=ekwd|HasLegendary_Armor_LessDMGRobots
- Exclude_32=ekwd|HasLegendary_Armor_LessDMGSupermutants
- Exclude_33=ekwd|HasLegendary_Weapon_DamageVsSupermutants
- Exclude_34=ekwd|HasLegendary_Weapon_Execute
- Exclude_35=ekwd|HasLegendary_Weapon_DamageVsAnimals
- Exclude_36=ekwd|HasLegendary_Armor_LessDMGAnimals
- Exclude_37=ekwd|HasLegendary_Armor_ResistancesInverseHealth
- Exclude_38=ekwd|HasLegendary_Weapon_AccuracyNotInCombat
- Exclude_39=ekwd|HasLegendary_Armor_Chameleon
- Exclude_40=ekwd|HasLegendary_Weapon_DamageVsGhouls
- Exclude_41=ekwd|HasLegendary_Armor_LessDMGGhouls
- Exclude_42=ekwd|HasLegendary_Armor_AutoRevive
- Exclude_43=ekwd|HasLegendary_Armor_ResistancesProportionalHealth
- Exclude_44=ekwd|HasLegendary_Armor_GettingMeleedTriggersInvisibility
- Exclude_45=ekwd|HasLegendary_Weapon_DebuffDamage
- Exclude_46=ekwd|HasLegendary_Weapon_Vampire
- Exclude_47=ekwd|HasLegendary_Weapon_Medic
- Exclude_48=ekwd|HasLegendary_Armor_LowHealthTriggersStimpak
- Exclude_49=ekwd|HasLegendary_Armor_HealthRegen
- Exclude_50=ekwd|HasLegendary_Armor_Weightless
+ Exclude_5=ekwd|HasBarrel_MultiShot
+ Exclude_6=ekwd|HasLegendary_Weapon_Steady
+ Exclude_7=ekwd|HasLegendary_Armor_LowHealthIncreasesStats
+ Exclude_8=ekwd|HasLegendary_Weapon_AntiArmor
+ Exclude_9=ekwd|HasLegendary_Weapon_DamageInverseHealth
+ Exclude_10=ekwd|HasLegendary_Weapon_DamageAddiction
+ Exclude_11=ekwd|HasLegendary_Weapon_Gourmand
+ Exclude_12=ekwd|HasLegendary_Armor_Overeater
+ Exclude_13=ekwd|HasLegendary_Armor_ResistancesProportionalCaps
+ Exclude_14=ekwd|HasLegendary_Weapon_DamageViaCaps
+ Exclude_15=ekwd|HasLegendary_Weapon_DamageFirstBlood
+ Exclude_16=ekwd|HasLegendary_Weapon_DamageViaHealth
+ Exclude_17=ekwd|HasLegendary_Armor_ResistancesMutation
+ Exclude_18=ekwd|HasLegendary_Weapon_DamageWithMutation
+ Exclude_19=ekwd|HasLegendary_Weapon_DamageUnarmored
+ Exclude_20=ekwd|HasLegendary_Weapon_AmmoCapacity4x
+ Exclude_21=ekwd|HasLegendary_Weapon_TwoShot
+ Exclude_22=ekwd|HasLegendary_Armor_LessDMGScorched
+ Exclude_23=ekwd|HasLegendary_Weapon_DamageVsScorched
+ Exclude_24=ekwd|HasLegendary_Armor_ResistancesNight
+ Exclude_25=ekwd|HasLegendary_Weapon_DamageNight
+ Exclude_26=ekwd|HasLegendary_Armor_LessDMGBugs
+ Exclude_27=ekwd|HasLegendary_Weapon_DamageVsBugs
+ Exclude_28=ekwd|HasLegendary_Armor_LessDMGHumans
+ Exclude_29=ekwd|HasLegendary_Weapon_DamageVsPlayers
+ Exclude_30=ekwd|HasLegendary_Weapon_DamageConsecutiveHits
+ Exclude_31=ekwd|HasLegendary_Weapon_DamageVsRobots
+ Exclude_32=ekwd|HasLegendary_Armor_LessDMGRobots
+ Exclude_33=ekwd|HasLegendary_Armor_LessDMGSupermutants
+ Exclude_34=ekwd|HasLegendary_Weapon_DamageVsSupermutants
+ Exclude_35=ekwd|HasLegendary_Weapon_Execute
+ Exclude_36=ekwd|HasLegendary_Weapon_DamageVsAnimals
+ Exclude_37=ekwd|HasLegendary_Armor_LessDMGAnimals
+ Exclude_38=ekwd|HasLegendary_Armor_ResistancesInverseHealth
+ Exclude_39=ekwd|HasLegendary_Weapon_AccuracyNotInCombat
+ Exclude_40=ekwd|HasLegendary_Armor_Chameleon
+ Exclude_41=ekwd|HasLegendary_Weapon_DamageVsGhouls
+ Exclude_42=ekwd|HasLegendary_Armor_LessDMGGhouls
+ Exclude_43=ekwd|HasLegendary_Armor_AutoRevive
+ Exclude_44=ekwd|HasLegendary_Armor_ResistancesProportionalHealth
+ Exclude_45=ekwd|HasLegendary_Armor_GettingMeleedTriggersInvisibility
+ Exclude_46=ekwd|HasLegendary_Weapon_DebuffDamage
+ Exclude_47=ekwd|HasLegendary_Weapon_Vampire
+ Exclude_48=ekwd|HasLegendary_Weapon_Medic
+ Exclude_49=ekwd|HasLegendary_Armor_LowHealthTriggersStimpak
+ Exclude_50=ekwd|HasLegendary_Armor_HealthRegen
+ Exclude_51=ekwd|HasLegendary_Armor_Weightless
 [EndRule]
 
 [StartRule]
@@ -3130,7 +3131,7 @@
  Include_9=ekwd|HasMuzzle
  Include_10=ekwd|HasReceiver
  Include_11=ekwd|HasBarrel
- Exclude_0=
+ Exclude_0=ekwd|HasBarrel_MultiShot
 [EndRule]
 
 [StartRule]
@@ -4299,6 +4300,7 @@
  Include_5=ekwd|CustomItemName_Overkill
  Include_6=ekwd|CustomItemName_ResolveBreaker
  Include_7=ekwd|CustomItemName_ThePeacemaker
+ Include_8=ekwd|HasBarrel_MultiShot
  Exclude_0=
 [EndRule]
 
