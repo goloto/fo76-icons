@@ -8,22 +8,22 @@ export const ICONS = [
         charCode: '0x2266'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Unyielding,
+        name: ICON_LEGENDARY_EFFECTS.Furious,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2267'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.AntiArmor,
+        name: ICON_LEGENDARY_EFFECTS.TwoShot,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2268'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Bloodied,
+        name: ICON_LEGENDARY_EFFECTS.Quad,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2269'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Junkie,
+        name: ICON_LEGENDARY_EFFECTS.Unyielding,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x226a'
     },
@@ -33,142 +33,142 @@ export const ICONS = [
         charCode: '0x226b'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Aristocrat,
+        name: ICON_LEGENDARY_EFFECTS.AntiArmor,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x226c'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Instigating,
+        name: ICON_LEGENDARY_EFFECTS.Bloodied,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x226d'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Jaggernaut,
+        name: ICON_LEGENDARY_EFFECTS.Mutant,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x226e'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Mutant,
+        name: ICON_LEGENDARY_EFFECTS.Junkie,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x226f'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Berserker,
+        name: ICON_LEGENDARY_EFFECTS.Instigating,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2270'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Quad,
+        name: ICON_LEGENDARY_EFFECTS.Jaggernaut,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2271'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.TwoShot,
+        name: ICON_LEGENDARY_EFFECTS.Aristocrat,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2272'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Zealot,
+        name: ICON_LEGENDARY_EFFECTS.Troubleshooter,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2273'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Nocturnal,
+        name: ICON_LEGENDARY_EFFECTS.MutantSlayer,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2274'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Exterminator,
+        name: ICON_LEGENDARY_EFFECTS.GhoulSlayer,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2275'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Assassin,
+        name: ICON_LEGENDARY_EFFECTS.Zealot,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2276'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Furious,
+        name: ICON_LEGENDARY_EFFECTS.Assassin,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2277'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Troubleshooter,
+        name: ICON_LEGENDARY_EFFECTS.Exterminator,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2278'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.MutantSlayer,
+        name: ICON_LEGENDARY_EFFECTS.Hunter,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2279'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Executioner,
+        name: ICON_LEGENDARY_EFFECTS.Vampire,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x227a'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Hunter,
+        name: ICON_LEGENDARY_EFFECTS.Medic,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x227b'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Bolstering,
+        name: ICON_LEGENDARY_EFFECTS.Regenerating,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x227c'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Stalker,
+        name: ICON_LEGENDARY_EFFECTS.AutoStim,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x227d'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Chameleon,
+        name: ICON_LEGENDARY_EFFECTS.LifeSaving,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x227e'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.GhoulSlayer,
+        name: ICON_LEGENDARY_EFFECTS.Vanguard,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x227f'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.LifeSaving,
+        name: ICON_LEGENDARY_EFFECTS.Berserker,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2280'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Vanguard,
+        name: ICON_LEGENDARY_EFFECTS.Nocturnal,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2281'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Cloaking,
+        name: ICON_LEGENDARY_EFFECTS.Executioner,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2282'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Supressor,
+        name: ICON_LEGENDARY_EFFECTS.Bolstering,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2283'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Vampire,
+        name: ICON_LEGENDARY_EFFECTS.Stalker,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2284'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Medic,
+        name: ICON_LEGENDARY_EFFECTS.Chameleon,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2285'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.AutoStim,
+        name: ICON_LEGENDARY_EFFECTS.Cloaking,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2286'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Regenerating,
+        name: ICON_LEGENDARY_EFFECTS.Supressor,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2287'
     },

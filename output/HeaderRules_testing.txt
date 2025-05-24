@@ -2413,6 +2413,60 @@
 [EndRule]
 
 [StartRule]
+ Header=#furious#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Weapon_DamageConsecutiveHits
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#two_shot#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Weapon_TwoShot
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#quad#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Weapon_AmmoCapacity4x
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#unyielding#
  rSig=INNR
  fSig=WNAM
@@ -2428,6 +2482,25 @@
  fallbackBank=0
  Include_0=ekwd|HasLegendary_Weapon_Steady
  Include_1=ekwd|HasLegendary_Armor_LowHealthIncreasesStats
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#gourmand#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Weapon_Gourmand
+ Include_1=ekwd|HasLegendary_Armor_Overeater
  Exclude_0=
 [EndRule]
 
@@ -2468,6 +2541,25 @@
 [EndRule]
 
 [StartRule]
+ Header=#mutant#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Armor_ResistancesMutation
+ Include_1=ekwd|HasLegendary_Weapon_DamageWithMutation
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#junkie#
  rSig=INNR
  fSig=WNAM
@@ -2482,44 +2574,6 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|HasLegendary_Weapon_DamageAddiction
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#gourmand#
- rSig=INNR
- fSig=WNAM
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=-1
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|HasLegendary_Weapon_Gourmand
- Include_1=ekwd|HasLegendary_Armor_Overeater
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#aristocrat#
- rSig=INNR
- fSig=WNAM
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=-1
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|HasLegendary_Armor_ResistancesProportionalCaps
- Include_1=ekwd|HasLegendary_Weapon_DamageViaCaps
  Exclude_0=
 [EndRule]
 
@@ -2560,7 +2614,7 @@
 [EndRule]
 
 [StartRule]
- Header=#mutant#
+ Header=#aristocrat#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2573,156 +2627,8 @@
  includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|HasLegendary_Armor_ResistancesMutation
- Include_1=ekwd|HasLegendary_Weapon_DamageWithMutation
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#berserker#
- rSig=INNR
- fSig=WNAM
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=-1
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|HasLegendary_Weapon_DamageUnarmored
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#quad#
- rSig=INNR
- fSig=WNAM
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=-1
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|HasLegendary_Weapon_AmmoCapacity4x
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#two_shot#
- rSig=INNR
- fSig=WNAM
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=-1
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|HasLegendary_Weapon_TwoShot
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#zealot#
- rSig=INNR
- fSig=WNAM
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=-1
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|HasLegendary_Armor_LessDMGScorched
- Include_1=ekwd|HasLegendary_Weapon_DamageVsScorched
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#nocturnal#
- rSig=INNR
- fSig=WNAM
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=-1
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|HasLegendary_Armor_ResistancesNight
- Include_1=ekwd|HasLegendary_Weapon_DamageNight
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#exterminator#
- rSig=INNR
- fSig=WNAM
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=-1
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|HasLegendary_Armor_LessDMGBugs
- Include_1=ekwd|HasLegendary_Weapon_DamageVsBugs
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#assassin#
- rSig=INNR
- fSig=WNAM
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=-1
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|HasLegendary_Armor_LessDMGHumans
- Include_1=ekwd|HasLegendary_Weapon_DamageVsPlayers
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#furious#
- rSig=INNR
- fSig=WNAM
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=-1
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|HasLegendary_Weapon_DamageConsecutiveHits
+ Include_0=ekwd|HasLegendary_Armor_ResistancesProportionalCaps
+ Include_1=ekwd|HasLegendary_Weapon_DamageViaCaps
  Exclude_0=
 [EndRule]
 
@@ -2765,7 +2671,7 @@
 [EndRule]
 
 [StartRule]
- Header=#executioner#
+ Header=#ghoul_slayer#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -2775,10 +2681,68 @@
  hasCompo=0
  preProcess=0
  fullReplace=-1
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|HasLegendary_Weapon_Execute
+ Include_0=ekwd|HasLegendary_Weapon_DamageVsGhouls
+ Include_1=ekwd|HasLegendary_Armor_LessDMGGhouls
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#zealot#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Armor_LessDMGScorched
+ Include_1=ekwd|HasLegendary_Weapon_DamageVsScorched
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#assassin#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Armor_LessDMGHumans
+ Include_1=ekwd|HasLegendary_Weapon_DamageVsPlayers
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#exterminator#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Armor_LessDMGBugs
+ Include_1=ekwd|HasLegendary_Weapon_DamageVsBugs
  Exclude_0=
 [EndRule]
 
@@ -2798,6 +2762,169 @@
  fallbackBank=0
  Include_0=ekwd|HasLegendary_Weapon_DamageVsAnimals
  Include_1=ekwd|HasLegendary_Armor_LessDMGAnimals
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#vampire#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Weapon_Vampire
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#medic#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Weapon_Medic
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#regenerating#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Armor_HealthRegen
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#auto_stim#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Armor_LowHealthTriggersStimpak
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#life_saving#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Armor_AutoRevive
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#vanguard#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Armor_ResistancesProportionalHealth
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#berserker#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Weapon_DamageUnarmored
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#nocturnal#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Armor_ResistancesNight
+ Include_1=ekwd|HasLegendary_Weapon_DamageNight
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#executioner#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Weapon_Execute
  Exclude_0=
 [EndRule]
 
@@ -2856,61 +2983,6 @@
 [EndRule]
 
 [StartRule]
- Header=#ghoul_slayer#
- rSig=INNR
- fSig=WNAM
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=-1
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|HasLegendary_Weapon_DamageVsGhouls
- Include_1=ekwd|HasLegendary_Armor_LessDMGGhouls
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#life_saving#
- rSig=INNR
- fSig=WNAM
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=-1
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|HasLegendary_Armor_AutoRevive
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#vanguard#
- rSig=INNR
- fSig=WNAM
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=-1
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|HasLegendary_Armor_ResistancesProportionalHealth
- Exclude_0=
-[EndRule]
-
-[StartRule]
  Header=#cloaking#
  rSig=INNR
  fSig=WNAM
@@ -2943,78 +3015,6 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|HasLegendary_Weapon_DebuffDamage
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#vampire#
- rSig=INNR
- fSig=WNAM
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=-1
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|HasLegendary_Weapon_Vampire
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#medic#
- rSig=INNR
- fSig=WNAM
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=-1
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|HasLegendary_Weapon_Medic
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#auto_stim#
- rSig=INNR
- fSig=WNAM
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=-1
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|HasLegendary_Armor_LowHealthTriggersStimpak
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#regenerating#
- rSig=INNR
- fSig=WNAM
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=-1
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|HasLegendary_Armor_HealthRegen
  Exclude_0=
 [EndRule]
 
