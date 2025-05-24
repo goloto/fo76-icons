@@ -2,6 +2,8 @@ import { ICON_APPAREL } from "@/generated/icons-enum";
 import { LeftSignature, RightSignature } from "@/constants";
 import type { IncludeProperty, RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
+const clothingTypeHat = "ekwd|ClothingTypeHat" as const;
+const clothingTypeCostume = "ekwd|ClothingTypeCostume" as const;
 const flowerCrownRules = [
     "edid|FlowerCrown"
 ] as const satisfies IncludeProperty[];
@@ -159,7 +161,7 @@ export const APPAREL_RULES_GROUP = {
             isInclusiveOr: false,
             isFullReplaced: false,
             include: [
-                "ekwd|ClothingTypeHat",
+                clothingTypeHat,
                 "ekwd|ClothingTypeSpaceSuit"
             ],
             exclude: [],
@@ -230,7 +232,7 @@ export const APPAREL_RULES_GROUP = {
             isInclusiveOr: false,
             isFullReplaced: false,
             include: [
-                "ekwd|ClothingTypeHat",
+                clothingTypeHat,
                 "ekwd|ClothingTypeCultist",
             ],
             exclude: [],
@@ -336,7 +338,7 @@ export const APPAREL_RULES_GROUP = {
             isFullReplaced: false,
             include: [
                 "ekwd|ObjectTypeClothing",
-                "ekwd|ClothingTypeCostume",
+                clothingTypeCostume,
             ],
             exclude: [
                 "ekwd|ClothingTypeDress",
@@ -358,7 +360,7 @@ export const APPAREL_RULES_GROUP = {
                 "ekwd|ObjectTypeClothing",
                 "ekwd|ClothingTypeCowboy",
             ],
-            exclude: ["ekwd|ClothingTypeHat"],
+            exclude: [clothingTypeHat],
         },
         {
             order: 18,
@@ -375,7 +377,7 @@ export const APPAREL_RULES_GROUP = {
                 "ekwd|ClothingTypeSpacesuit"
             ],
             exclude: [
-                "ekwd|ClothingTypeHat",
+                clothingTypeHat,
             ],
         },
         {
@@ -393,6 +395,24 @@ export const APPAREL_RULES_GROUP = {
         },
         {
             order: 20,
+            prefix: [ICON_APPAREL.WinterJacket],
+            leftSignature: LeftSignature.Armor,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["ekwd|ClothingTypeWinter"],
+            exclude: [
+                "ekwd|ObjectTypeUnderarmor",
+                "ekwd|ObjectTypeArmor",
+                clothingTypeHat,
+                clothingTypeCostume
+            ],
+        },
+        {
+            order: 21,
             prefix: [ICON_APPAREL.MilitaryClothing],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -408,7 +428,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 21,
+            order: 22,
             prefix: [ICON_APPAREL.Suit],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -421,7 +441,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: ["ekwd|ClothingTypeDress", "edid|mask"],
         },
         {
-            order: 22,
+            order: 23,
             prefix: [ICON_APPAREL.Apparel],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -432,14 +452,14 @@ export const APPAREL_RULES_GROUP = {
             isFullReplaced: false,
             include: ["ekwd|ObjectTypeClothing"],
             exclude: [
-                "ekwd|ClothingTypeHat",
+                clothingTypeHat,
                 "ekwd|ClothingTypeGasMask",
                 "ekwd|ClothingTypeDress",
                 "ekwd|ClothingTypeFormalWear",
             ],
         },
         {
-            order: 23,
+            order: 24,
             prefix: [ICON_APPAREL.Apparel],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
