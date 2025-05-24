@@ -578,6 +578,8 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
                 "ekwd|PowerArmor",
                 "ekwd|HasGrip_Rifle",
                 "ekwd|HasGrip_Pistol",
+                "ekwd|ma_Revolver",
+                "ekwd|ma_HarpoonGun",
                 BROADSIDER_RULE,
                 ...unyieldingRules,
                 ...antiArmorRules,
