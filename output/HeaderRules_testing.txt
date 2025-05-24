@@ -944,6 +944,24 @@
 [EndRule]
 
 [StartRule]
+ Header=#cowboy_clothing#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Outfit_NukaCowboyChaps
+ Exclude_0=ekwd|ClothingTypeHat
+[EndRule]
+
+[StartRule]
  Header=#spacesuit_clothing#
  rSig=ARMO
  fSig=FULL

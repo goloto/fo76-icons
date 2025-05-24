@@ -364,6 +364,19 @@ export const APPAREL_RULES_GROUP = {
         },
         {
             order: 18,
+            prefix: [ICON_APPAREL.CowboyClothing],
+            leftSignature: LeftSignature.Armor,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["edid|Outfit_NukaCowboyChaps"],
+            exclude: [clothingTypeHat],
+        },
+        {
+            order: 19,
             prefix: [ICON_APPAREL.SpacesuitClothing],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -381,7 +394,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 19,
+            order: 20,
             prefix: [ICON_APPAREL.Dress],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -394,7 +407,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 20,
+            order: 21,
             prefix: [ICON_APPAREL.WinterJacket],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -412,7 +425,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 21,
+            order: 22,
             prefix: [ICON_APPAREL.MilitaryClothing],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -428,7 +441,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 22,
+            order: 23,
             prefix: [ICON_APPAREL.Suit],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -441,7 +454,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: ["ekwd|ClothingTypeDress", "edid|mask"],
         },
         {
-            order: 23,
+            order: 24,
             prefix: [ICON_APPAREL.Apparel],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -459,7 +472,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 24,
+            order: 25,
             prefix: [ICON_APPAREL.Apparel],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
