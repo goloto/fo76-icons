@@ -2,10 +2,11 @@ import { ICON_APPAREL } from "@/generated/icons-enum";
 import { LeftSignature, RightSignature } from "@/constants";
 import type { IncludeProperty, RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
-const objectTypeUnderarmor = "ekwd|ObjectTypeUnderarmor" as const;
+const objectTypeClothing = "ekwd|ObjectTypeClothing" as const;
 const clothingTypeHat = "ekwd|ClothingTypeHat" as const;
 const clothingTypeCostume = "ekwd|ClothingTypeCostume" as const;
 const clothingTypeHoliday = "ekwd|ClothingTypeHoliday" as const;
+const clothingTypeSwimsuit = "ekwd|ClothingTypeSwimsuit" as const;
 const flowerCrownRules = [
     "edid|FlowerCrown"
 ] as const satisfies IncludeProperty[];
@@ -304,7 +305,7 @@ export const APPAREL_RULES_GROUP = {
             isInclusiveOr: false,
             isFullReplaced: false,
             include: [
-                "ekwd|ObjectTypeClothing",
+                objectTypeClothing,
                 "ekwd|ClothingTypeAsylum",
             ],
             exclude: [],
@@ -320,7 +321,7 @@ export const APPAREL_RULES_GROUP = {
             isInclusiveOr: false,
             isFullReplaced: false,
             include: [
-                "ekwd|ObjectTypeClothing",
+                objectTypeClothing,
                 clothingTypeHoliday,
             ],
             exclude: [
@@ -339,13 +340,14 @@ export const APPAREL_RULES_GROUP = {
             isInclusiveOr: false,
             isFullReplaced: false,
             include: [
-                "ekwd|ObjectTypeClothing",
+                objectTypeClothing,
                 clothingTypeCostume,
             ],
             exclude: [
                 "ekwd|ClothingTypeDress",
                 "ekwd|ClothingTypeSpacesuit",
-                "ekwd|ClothingTypeCowboy"
+                "ekwd|ClothingTypeCowboy",
+                clothingTypeSwimsuit
             ],
         },
         {
@@ -359,7 +361,7 @@ export const APPAREL_RULES_GROUP = {
             isInclusiveOr: false,
             isFullReplaced: false,
             include: [
-                "ekwd|ObjectTypeClothing",
+                objectTypeClothing,
                 "ekwd|ClothingTypeCowboy",
             ],
             exclude: [clothingTypeHat],
@@ -388,7 +390,7 @@ export const APPAREL_RULES_GROUP = {
             isInclusiveOr: false,
             isFullReplaced: false,
             include: [
-                "ekwd|ObjectTypeClothing",
+                objectTypeClothing,
                 "ekwd|ClothingTypeSpacesuit"
             ],
             exclude: [
@@ -418,10 +420,12 @@ export const APPAREL_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: ["ekwd|ClothingTypeWinter"],
+            include: [
+                objectTypeClothing,
+                "ekwd|ClothingTypeWinter"
+            ],
             exclude: [
                 "ekwd|ObjectTypeArmor",
-                objectTypeUnderarmor,
                 clothingTypeHat,
                 clothingTypeCostume
             ],
@@ -437,7 +441,7 @@ export const APPAREL_RULES_GROUP = {
             isInclusiveOr: false,
             isFullReplaced: false,
             include: [
-                "ekwd|ObjectTypeClothing",
+                objectTypeClothing,
                 "ekwd|military"
             ],
             exclude: [],
@@ -453,7 +457,11 @@ export const APPAREL_RULES_GROUP = {
             isInclusiveOr: false,
             isFullReplaced: false,
             include: ["ekwd|ClothingTypeFormalWear"],
-            exclude: ["ekwd|ClothingTypeDress", "edid|mask"],
+            exclude: [
+                "ekwd|ClothingTypeDress",
+                "edid|mask",
+                clothingTypeSwimsuit
+            ],
         },
         {
             order: 24,
@@ -465,15 +473,33 @@ export const APPAREL_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: ["ekwd|ClothingTypeSleepwear"],
+            include: [
+                objectTypeClothing,
+                "ekwd|ClothingTypeSleepwear"
+            ],
             exclude: [
                 "ekwd|ObjectTypeSwimsuit",
                 clothingTypeHoliday,
-                objectTypeUnderarmor
             ],
         },
         {
             order: 25,
+            prefix: [ICON_APPAREL.Swimsuit],
+            leftSignature: LeftSignature.Armor,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: [
+                objectTypeClothing,
+                clothingTypeSwimsuit
+            ],
+            exclude: [],
+        },
+        {
+            order: 26,
             prefix: [ICON_APPAREL.Apparel],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -482,7 +508,7 @@ export const APPAREL_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: ["ekwd|ObjectTypeClothing"],
+            include: [objectTypeClothing],
             exclude: [
                 clothingTypeHat,
                 "ekwd|ClothingTypeGasMask",
@@ -491,7 +517,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 26,
+            order: 27,
             prefix: [ICON_APPAREL.Apparel],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -508,6 +534,7 @@ export const APPAREL_RULES_GROUP = {
             ],
             exclude: [],
         }
+        // "ekwd|ClothingTypeCostumeUnstoppables"
         // "ekwd|ObjectTypeSports"
         // "ekwd|ClothingTypeCultist"
         // "ekwd|ClothingTypeHistorical"

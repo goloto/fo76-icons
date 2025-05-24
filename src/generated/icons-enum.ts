@@ -157,6 +157,7 @@ export enum ICON_APPAREL {
     SpacesuitClothing = 'spacesuit_clothing',
     SpacesuitHat = 'spacesuit_hat',
     Suit = 'suit',
+    Swimsuit = 'swimsuit',
     WinterJacket = 'winter_jacket'
 }
 export enum ICON_ARMOR {
