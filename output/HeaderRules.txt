@@ -3056,8 +3056,8 @@
  Exclude_2=ekwd|PowerArmor
  Exclude_3=ekwd|HasGrip_Rifle
  Exclude_4=ekwd|HasGrip_Pistol
- Exclude_5=ekwd|ma_Revolver
- Exclude_6=ekwd|ma_HarpoonGun
+ Exclude_5=ekwd|ma_HarpoonGun
+ Exclude_6=ekwd|ma_Revolver
  Exclude_7=ekwd|HasBarrel_MultiShot
  Exclude_8=ekwd|HasLegendary_Weapon_Steady
  Exclude_9=ekwd|HasLegendary_Armor_LowHealthIncreasesStats
@@ -4140,6 +4140,24 @@
  Exclude_3=edid|44_MedicalMalpractice
  Exclude_4=edid|PiratePunch
  Exclude_5=edid|VoiceOfSet
+[EndRule]
+
+[StartRule]
+ Header=⌍
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ma_Revolver
+ Exclude_0=
 [EndRule]
 
 [StartRule]

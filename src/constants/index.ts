@@ -12,6 +12,7 @@ export const POWER_ARMOR_EFFECTS = [
 ] as const satisfies IncludeProperty[];
 
 export const BROADSIDER_RULE = 'ekwd|HasBarrel_MultiShot' as const;
+export const REVOLVER_RULE = 'ekwd|ma_Revolver' as const;
 
 const onlyActualItemsRegExp = new RegExp(
   '^((?!((zzz)|(ZZZ)|(DEl)|(DEL)|(CUT)|(debug)|(test)|(Test)|(DEPRECATED)|(cr)|(TEMPLATE)))).*(?!((NPC)|(NONPLAYABLE)))$'
