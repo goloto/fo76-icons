@@ -153,6 +153,7 @@ export enum ICON_APPAREL {
     Glasses = 'glasses',
     Helmet = 'helmet',
     MilitaryClothing = 'military_clothing',
+    Sleepwear = 'sleepwear',
     SpacesuitClothing = 'spacesuit_clothing',
     SpacesuitHat = 'spacesuit_hat',
     Suit = 'suit',

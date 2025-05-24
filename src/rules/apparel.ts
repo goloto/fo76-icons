@@ -2,8 +2,10 @@ import { ICON_APPAREL } from "@/generated/icons-enum";
 import { LeftSignature, RightSignature } from "@/constants";
 import type { IncludeProperty, RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
+const objectTypeUnderarmor = "ekwd|ObjectTypeUnderarmor" as const;
 const clothingTypeHat = "ekwd|ClothingTypeHat" as const;
 const clothingTypeCostume = "ekwd|ClothingTypeCostume" as const;
+const clothingTypeHoliday = "ekwd|ClothingTypeHoliday" as const;
 const flowerCrownRules = [
     "edid|FlowerCrown"
 ] as const satisfies IncludeProperty[];
@@ -319,7 +321,7 @@ export const APPAREL_RULES_GROUP = {
             isFullReplaced: false,
             include: [
                 "ekwd|ObjectTypeClothing",
-                "ekwd|ClothingTypeHoliday",
+                clothingTypeHoliday,
             ],
             exclude: [
                 "ekwd|hat",
@@ -418,8 +420,8 @@ export const APPAREL_RULES_GROUP = {
             isFullReplaced: false,
             include: ["ekwd|ClothingTypeWinter"],
             exclude: [
-                "ekwd|ObjectTypeUnderarmor",
                 "ekwd|ObjectTypeArmor",
+                objectTypeUnderarmor,
                 clothingTypeHat,
                 clothingTypeCostume
             ],
@@ -455,6 +457,23 @@ export const APPAREL_RULES_GROUP = {
         },
         {
             order: 24,
+            prefix: [ICON_APPAREL.Sleepwear],
+            leftSignature: LeftSignature.Armor,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["ekwd|ClothingTypeSleepwear"],
+            exclude: [
+                "ekwd|ObjectTypeSwimsuit",
+                clothingTypeHoliday,
+                objectTypeUnderarmor
+            ],
+        },
+        {
+            order: 25,
             prefix: [ICON_APPAREL.Apparel],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -472,7 +491,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 25,
+            order: 26,
             prefix: [ICON_APPAREL.Apparel],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
