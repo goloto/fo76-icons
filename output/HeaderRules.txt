@@ -4550,6 +4550,7 @@
  Include_6=ekwd|CustomItemName_CultistPiercer
  Include_7=ekwd|CustomItemName_TheFarmhand
  Include_8=ekwd|CustomItemName_StrongmansSledgehammer
+ Include_9=ekwd|CustomItemName_CappySmasherSledgehammer
  Exclude_0=
 [EndRule]
 

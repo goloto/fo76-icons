@@ -712,12 +712,12 @@ export const WEAPONS_RULES_GROUP = {
                 "ekwd|CustomItemName_WhackerSmacker",
                 "ekwd|CustomItemName_RatBat",
                 "ekwd|CustomItemName_AllRise",
-                // bug
                 "ekwd|CustomItemName_HeadHunter",
                 "ekwd|CustomItemName_UltraciteTerrorSword",
                 "ekwd|CustomItemName_CultistPiercer",
                 "ekwd|CustomItemName_TheFarmhand",
-                "ekwd|CustomItemName_StrongmansSledgehammer"
+                "ekwd|CustomItemName_StrongmansSledgehammer",
+                "ekwd|CustomItemName_CappySmasherSledgehammer"
             ],
             exclude: [],
         },
