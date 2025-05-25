@@ -137,15 +137,15 @@ export enum ICON_FOOD {
     Wine = 'wine'
 }
 export enum ICON_APPAREL {
-    Apparel = 'apparel',
     Asylum = 'asylum',
     CarnivalCostume = 'carnival_costume',
     CowboyClothing = 'cowboy_clothing',
     CowboyHat = 'cowboy_hat',
     CultistHood = 'cultist_hood',
+    DefaultClothing = 'default_clothing',
+    DefaultHat = 'default_hat',
     Dress = 'dress',
     FasnachtMask = 'fasnacht_mask',
-    FedoraHat = 'fedora_hat',
     FlowerCrown = 'flower_crown',
     GasMask = 'gas_mask',
     Glasses = 'glasses',

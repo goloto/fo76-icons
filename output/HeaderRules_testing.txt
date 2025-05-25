@@ -660,7 +660,7 @@
 [EndRule]
 
 [StartRule]
- Header=#fedora_hat#
+ Header=#default_hat#
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -967,7 +967,7 @@
 [EndRule]
 
 [StartRule]
- Header=#apparel#
+ Header=#default_clothing#
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -988,7 +988,7 @@
 [EndRule]
 
 [StartRule]
- Header=#apparel#
+ Header=#default_clothing#
  rSig=ARMO
  fSig=FULL
  enabled=-1

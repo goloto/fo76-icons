@@ -20301,7 +20301,7 @@
 0x22e1 spacesuit_hat
 0x22e2 cowboy_hat
 0x22e3 cultist_hood
-0x22e4 fedora_hat
+0x22e4 default_hat
 0x22e5 gas_mask
 0x22e6 military_hat
 0x22e7 helmet
@@ -20315,7 +20315,7 @@
 0x22ef suit
 0x22f0 sleepwear
 0x22f1 swimsuit
-0x22f2 apparel
+0x22f2 default_clothing
 0x22f3 power_armor_helmet
 0x22f4 vulcan
 0x22f5 excavator

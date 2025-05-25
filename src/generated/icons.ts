@@ -638,7 +638,7 @@ export const ICONS = [
         charCode: '0x22e3'
     },
     {
-        name: ICON_APPAREL.FedoraHat,
+        name: ICON_APPAREL.DefaultHat,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22e4'
     },
@@ -708,7 +708,7 @@ export const ICONS = [
         charCode: '0x22f1'
     },
     {
-        name: ICON_APPAREL.Apparel,
+        name: ICON_APPAREL.DefaultClothing,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f2'
     },

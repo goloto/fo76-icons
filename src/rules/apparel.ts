@@ -141,7 +141,7 @@ export const APPAREL_RULES_GROUP = {
         },
         {
             order: 9,
-            prefix: [ICON_APPAREL.FedoraHat],
+            prefix: [ICON_APPAREL.DefaultHat],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
             isInjected: false,
@@ -401,7 +401,7 @@ export const APPAREL_RULES_GROUP = {
         // refactor
         {
             order: 25,
-            prefix: [ICON_APPAREL.Apparel],
+            prefix: [ICON_APPAREL.DefaultClothing],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
             isInjected: false,
@@ -420,7 +420,7 @@ export const APPAREL_RULES_GROUP = {
         // refactor
         {
             order: 26,
-            prefix: [ICON_APPAREL.Apparel],
+            prefix: [ICON_APPAREL.DefaultClothing],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
             isInjected: false,
@@ -441,8 +441,10 @@ export const APPAREL_RULES_GROUP = {
         // "ekwd|ClothingTypePioneer"
         // "ekwd|CLothingTypeFormalWear"
         // "ekwd|ClothingTypeDress"
+        //
         // "ekwd|HatTypeAsylum"
         // "ekwd|HatTypeHalloween"
+        //
         // "ekwd|ObjectTypeSports"
         // "ekwd|ClothingTypeCultist"
         // "ekwd|ClothingTypeHistorical"
