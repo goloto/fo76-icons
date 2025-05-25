@@ -525,7 +525,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|fasnacht
+ Include_0=ekwd|HatTypeFasnachtMask
  Exclude_0=
 [EndRule]
 
@@ -546,6 +546,44 @@
  Include_0=edid|Veteran_Mask
  Include_1=edid|ClothesMistressOfMysteryVeil
  Include_2=edid|ClothesMistressOfMysteryWornVeil
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#mask#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ClothingTypeMask
+ Exclude_0=ekwd|HatTypeFasnachtMask
+ Exclude_1=ekwd|HatTypeMilitary
+ Exclude_2=ekwd|HatTypeHalloween
+[EndRule]
+
+[StartRule]
+ Header=#halloween_hat#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HatTypeHalloween
  Exclude_0=
 [EndRule]
 
@@ -600,7 +638,7 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|ClothingTypeHat
- Include_1=ekwd|ClothingTypeSpaceSuit
+ Include_1=ekwd|ClothingTypeSpacesuit
  Exclude_0=
 [EndRule]
 
@@ -660,6 +698,43 @@
 [EndRule]
 
 [StartRule]
+ Header=#winter_hat#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ClothingTypeHat
+ Include_1=ekwd|ClothingTypeWinter
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#fishing_hat#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ClothingTypeFishingHat
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#default_hat#
  rSig=ARMO
  fSig=FULL
@@ -711,7 +786,7 @@
  fallbackBank=0
  Include_0=ekwd|HatTypeMilitary
  Exclude_0=ekwd|ArmorBodyPartHead
- Exclude_1=ekwd|ClothingTypeCostume
+ Exclude_1=ekwd|ClothingTypeHoliday
 [EndRule]
 
 [StartRule]
@@ -752,7 +827,7 @@
 [EndRule]
 
 [StartRule]
- Header=#carnival_costume#
+ Header=#holiday_costume#
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -767,30 +842,9 @@
  fallbackBank=0
  Include_0=ekwd|ObjectTypeClothing
  Include_1=ekwd|ClothingTypeHoliday
- Exclude_0=ekwd|hat
- Exclude_1=ekwd|glasses
-[EndRule]
-
-[StartRule]
- Header=#carnival_costume#
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ObjectTypeClothing
- Include_1=ekwd|ClothingTypeCostume
- Exclude_0=ekwd|ClothingTypeDress
- Exclude_1=ekwd|ClothingTypeSpacesuit
- Exclude_2=ekwd|ClothingTypeCowboy
- Exclude_3=ekwd|ClothingTypeSwimsuit
+ Exclude_0=ekwd|ClothingTypeHat
+ Exclude_1=ekwd|ClothingTypeDress
+ Exclude_2=ekwd|ClothingTypeGlasses
 [EndRule]
 
 [StartRule]
@@ -908,6 +962,25 @@
 [EndRule]
 
 [StartRule]
+ Header=#fishing_outfit#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ClothingTypeFishingOutfit
+ Exclude_0=ekwd|ClothingTypeDress
+ Exclude_1=ekwd|ClothingTypeHat
+[EndRule]
+
+[StartRule]
  Header=#suit#
  rSig=ARMO
  fSig=FULL
@@ -923,8 +996,9 @@
  fallbackBank=0
  Include_0=ekwd|ClothingTypeFormalWear
  Exclude_0=ekwd|ClothingTypeDress
- Exclude_1=edid|mask
- Exclude_2=ekwd|ClothingTypeSwimsuit
+ Exclude_1=ekwd|ClothingTypeSleepwear
+ Exclude_2=ekwd|ClothingTypeMilitary
+ Exclude_3=edid|Veteran_Mask
 [EndRule]
 
 [StartRule]
@@ -982,9 +1056,10 @@
  fallbackBank=0
  Include_0=ekwd|ObjectTypeClothing
  Exclude_0=ekwd|ClothingTypeHat
- Exclude_1=ekwd|ClothingTypeGasMask
+ Exclude_1=ekwd|ClothingTypeGasmask
  Exclude_2=ekwd|ClothingTypeDress
  Exclude_3=ekwd|ClothingTypeFormalWear
+ Exclude_4=ekwd|ClothingTypeFishingHat
 [EndRule]
 
 [StartRule]
