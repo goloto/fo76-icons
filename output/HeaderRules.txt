@@ -651,18 +651,11 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=-1
+ includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|SCORE_S11_ARMO_Headwear_SodaJerkCap
- Include_1=edid|ATX_Headwear_MilitaryUtilityCap_Green
- Include_2=edid|ATX_Headwear_MilitaryUtilityCap_Camo
- Include_3=edid|XPD_AC_Headwear_Buttercup
- Include_4=edid|Headwear_Resident7Hat
- Include_5=edid|ATX_Headwear_PiperCap_SP1
- Include_6=edid|Headwear_Raider_Hood
- Include_7=edid|ATX_Headwear_LeatherCap
- Include_8=edid|ATX_Headwear_MilitaryUtilityCap_Tan
+ Include_0=ekwd|ClothingTypeHat
+ Include_1=ekwd|ClothingTypeCultist
  Exclude_0=
 [EndRule]
 
@@ -677,16 +670,11 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=-1
+ includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|beret
- Include_1=edid|MilitaryCap
- Include_2=edid|DLC03CaptainsDanceHat
- Exclude_0=ekwd|fasnacht
- Exclude_1=edid|Veteran_Mask
- Exclude_2=edid|ClothesMistressOfMysteryVeil
- Exclude_3=edid|ClothesMistressOfMysteryWornVeil
+ Include_0=ekwd|ClothingTypeHat
+ Exclude_0=ekwd|HatTypeMilitary
 [EndRule]
 
 [StartRule]
@@ -703,8 +691,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ClothingTypeHat
- Include_1=ekwd|ClothingTypeCultist
+ Include_0=ekwd|ClothingTypeGasmask
  Exclude_0=
 [EndRule]
 
@@ -719,72 +706,12 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=-1
+ includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|headwear
- Include_1=edid|Encryptid_Clothes_WhiteFedora
- Include_2=edid|Mini_Robot_Hat
- Include_3=edid|Tadpole_Clothes_PioneerScoutOutfit_Squirrel_Skirt
- Include_4=edid|Supermutant_KingGrognak_Headband
- Include_5=edid|Herd_Workshop_Clothes_BlueDevilHooddd
- Exclude_0=ekwd|fasnacht
- Exclude_1=edid|Veteran_Mask
- Exclude_2=edid|ClothesMistressOfMysteryVeil
- Exclude_3=edid|ClothesMistressOfMysteryWornVeil
- Exclude_4=edid|gasmask
- Exclude_5=edid|Headwear_Radicals_Mask_A
- Exclude_6=edid|beret
- Exclude_7=edid|MilitaryCap
- Exclude_8=edid|DLC03CaptainsDanceHat
- Exclude_9=edid|helmet
- Exclude_10=edid|SupermutantHat
- Exclude_11=edid|Supermutant76Hat1
- Exclude_12=edid|ATX_Headwear_VintageFootball
- Exclude_13=edid|Headwear_ChineseStealthArmor
- Exclude_14=edid|Headwear_PumpkinHeavy_Black
- Exclude_15=edid|Headwear_SpaceSuitHatClean
- Exclude_16=edid|Headwear_AlaskanWinter
- Exclude_17=edid|Headwear_CaptainCosmos
- Exclude_18=edid|Creature_Spooky_Headwear_CaptainCosmos
- Exclude_19=edid|Headwear_FreeStatesResistance
- Exclude_20=edid|Headwear_PumpkinHeavy
- Exclude_21=edid|Spooky_Headwear_PumpkinHeavy
- Exclude_22=edid|F1_Headwear_RangersUniform
- Exclude_23=edid|Headwear_HalloweenVikingBustedHorns
- Exclude_24=edid|Spooky_Headwear_HalloweenVikingBustedHorns
- Exclude_25=edid|Headwear_SkullRider_Flaming
- Exclude_26=edid|Headwear_SkullRider_Rad
- Exclude_27=edid|Armor_Raider_Skilanes_Headwear
- Exclude_28=edid|Headwear_SkullRider
- Exclude_29=edid|Headwear_CardboardRobot
- Exclude_30=edid|Headwear_Responders_FirebreatherHat
- Exclude_31=edid|Headwear_DeathclawMascot
- Exclude_32=edid|Headwear_CommunistSpaceSuit
- Exclude_33=edid|Headwear_FiremanHat
- Exclude_34=edid|Headwear_Clothes_DLC03_Marine_Arctic
- Exclude_35=edid|Headwear_FreeStatesRevolutionary
- Exclude_36=edid|Headwear_BloodEagleMerc_Charmer2
- Exclude_37=edid|Headwear_BloodEagleMerc_Charmer1
- Exclude_38=edid|Headwear_SpaceSuitHat
- Exclude_39=edid|Headwear_Union
- Exclude_40=edid|Headwear_Responders_FiremanHat
- Exclude_41=edid|Headwear_SuperMutant_Helm
- Exclude_42=edid|Headwear_MutantArmor
- Exclude_43=edid|Headwear_RangerArmor_Desert
- Exclude_44=edid|Headwear_RangerArmor_Riot
- Exclude_45=edid|Headwear_Clothes_Tempest
- Exclude_46=edid|SCORE_S11_ARMO_Headwear_SodaJerkCap
- Exclude_47=edid|ATX_Headwear_MilitaryUtilityCap_Green
- Exclude_48=edid|ATX_Headwear_MilitaryUtilityCap_Camo
- Exclude_49=edid|XPD_AC_Headwear_Buttercup
- Exclude_50=edid|Headwear_Resident7Hat
- Exclude_51=edid|ATX_Headwear_PiperCap_SP1
- Exclude_52=edid|Headwear_Raider_Hood
- Exclude_53=edid|ATX_Headwear_LeatherCap
- Exclude_54=edid|ATX_Headwear_MilitaryUtilityCap_Tan
- Exclude_55=edid|FlowerCrown
- Exclude_56=ekwd|cultist
+ Include_0=ekwd|HatTypeMilitary
+ Exclude_0=ekwd|ArmorBodyPartHead
+ Exclude_1=ekwd|ClothingTypeCostume
 [EndRule]
 
 [StartRule]
@@ -798,74 +725,15 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=-1
+ includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|gasmask
- Include_1=edid|Headwear_Radicals_Mask_A
+ Include_0=ekwd|ArmorBodyPartHead
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=⋨
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=edid|helmet
- Include_1=edid|SupermutantHat
- Include_2=edid|Supermutant76Hat1
- Include_3=edid|ATX_Headwear_VintageFootball
- Include_4=edid|Headwear_ChineseStealthArmor
- Include_5=edid|Headwear_PumpkinHeavy_Black
- Include_6=edid|Headwear_SpaceSuitHatClean
- Include_7=edid|Headwear_AlaskanWinter
- Include_8=edid|Headwear_CaptainCosmos
- Include_9=edid|Creature_Spooky_Headwear_CaptainCosmos
- Include_10=edid|Headwear_FreeStatesResistance
- Include_11=edid|Headwear_PumpkinHeavy
- Include_12=edid|Spooky_Headwear_PumpkinHeavy
- Include_13=edid|F1_Headwear_RangersUniform
- Include_14=edid|Headwear_HalloweenVikingBustedHorns
- Include_15=edid|Spooky_Headwear_HalloweenVikingBustedHorns
- Include_16=edid|Headwear_SkullRider_Flaming
- Include_17=edid|Headwear_SkullRider_Rad
- Include_18=edid|Armor_Raider_Skilanes_Headwear
- Include_19=edid|Headwear_SkullRider
- Include_20=edid|Headwear_CardboardRobot
- Include_21=edid|Headwear_Responders_FirebreatherHat
- Include_22=edid|Headwear_DeathclawMascot
- Include_23=edid|Headwear_CommunistSpaceSuit
- Include_24=edid|Headwear_FiremanHat
- Include_25=edid|Headwear_Clothes_DLC03_Marine_Arctic
- Include_26=edid|Headwear_FreeStatesRevolutionary
- Include_27=edid|Headwear_BloodEagleMerc_Charmer2
- Include_28=edid|Headwear_BloodEagleMerc_Charmer1
- Include_29=edid|Headwear_SpaceSuitHat
- Include_30=edid|Headwear_Union
- Include_31=edid|Headwear_Responders_FiremanHat
- Include_32=edid|Headwear_SuperMutant_Helm
- Include_33=edid|Headwear_MutantArmor
- Include_34=edid|Headwear_RangerArmor_Desert
- Include_35=edid|Headwear_RangerArmor_Riot
- Include_36=edid|Headwear_Clothes_Tempest
- Exclude_0=edid|nohelmet
- Exclude_1=edid|gasmask
- Exclude_2=edid|fasnacht
- Exclude_3=edid|PowerArmor
- Exclude_4=ekwd|cultist
-[EndRule]
-
-[StartRule]
- Header=⋩
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -884,7 +752,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋪
+ Header=⋩
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -904,7 +772,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋪
+ Header=⋩
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -926,7 +794,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋫
+ Header=⋪
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -945,7 +813,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋫
+ Header=⋪
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -963,7 +831,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋬
+ Header=⋫
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -982,7 +850,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋭
+ Header=⋬
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1000,7 +868,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋮
+ Header=⋭
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1021,7 +889,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋯
+ Header=⋮
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1035,12 +903,12 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|ObjectTypeClothing
- Include_1=ekwd|military
+ Include_1=ekwd|ClothingTypeMilitary
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⋰
+ Header=⋯
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1060,7 +928,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋱
+ Header=⋰
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1080,7 +948,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋲
+ Header=⋱
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1099,7 +967,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋳
+ Header=⋲
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1120,7 +988,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋳
+ Header=⋲
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1141,7 +1009,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋴
+ Header=⋳
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1159,7 +1027,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋴
+ Header=⋳
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1177,7 +1045,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋴
+ Header=⋳
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1214,7 +1082,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋵
+ Header=⋴
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1232,7 +1100,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋶
+ Header=⋵
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1250,7 +1118,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋷
+ Header=⋶
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1268,7 +1136,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋸
+ Header=⋷
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1286,7 +1154,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋹
+ Header=⋸
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1304,7 +1172,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋺
+ Header=⋹
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1322,7 +1190,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋻
+ Header=⋺
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1340,7 +1208,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋼
+ Header=⋻
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1358,7 +1226,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋽
+ Header=⋼
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1376,7 +1244,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋾
+ Header=⋽
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1394,7 +1262,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋿
+ Header=⋾
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1412,7 +1280,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌀
+ Header=⋿
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1430,7 +1298,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌁
+ Header=⌀
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1448,7 +1316,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌁
+ Header=⌀
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1466,7 +1334,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌂
+ Header=⌁
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1485,7 +1353,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌃
+ Header=⌂
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1505,7 +1373,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌃
+ Header=⌂
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1523,7 +1391,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌄
+ Header=⌃
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1543,7 +1411,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌄
+ Header=⌃
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1561,7 +1429,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌅
+ Header=⌄
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1581,7 +1449,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌅
+ Header=⌄
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1599,7 +1467,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌆
+ Header=⌅
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1619,7 +1487,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌆
+ Header=⌅
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1637,7 +1505,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌇
+ Header=⌆
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1657,7 +1525,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌇
+ Header=⌆
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -3725,7 +3593,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌈
+ Header=⌇
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3743,7 +3611,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌈
+ Header=⌇
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3761,7 +3629,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌉
+ Header=⌈
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3779,7 +3647,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊⌋
+ Header=⌉⌊
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -3801,7 +3669,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌋
+ Header=⌊
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3820,7 +3688,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊⌌
+ Header=⌉⌋
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -3839,7 +3707,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊⌌
+ Header=⌉⌋
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3861,7 +3729,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌌
+ Header=⌋
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3892,7 +3760,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊⌍
+ Header=⌉⌌
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -3914,7 +3782,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊⌍
+ Header=⌉⌌
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3934,7 +3802,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌍
+ Header=⌌
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3955,7 +3823,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌍
+ Header=⌌
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3977,7 +3845,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊⌎
+ Header=⌉⌍
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4006,7 +3874,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊⌎
+ Header=⌉⌍
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4029,7 +3897,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌎
+ Header=⌍
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4052,7 +3920,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌎
+ Header=⌍
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4075,7 +3943,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌎
+ Header=⌍
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4093,7 +3961,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊⌏
+ Header=⌉⌎
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4111,7 +3979,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊⌏
+ Header=⌉⌎
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4133,7 +4001,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌏
+ Header=⌎
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4156,7 +4024,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊⌐
+ Header=⌉⌏
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4177,7 +4045,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊⌐
+ Header=⌉⌏
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4200,7 +4068,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌐
+ Header=⌏
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4223,7 +4091,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌐
+ Header=⌏
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4241,7 +4109,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊⌑
+ Header=⌉⌐
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4259,7 +4127,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌑
+ Header=⌐
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4277,7 +4145,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌒
+ Header=⌑
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4296,7 +4164,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊⌓
+ Header=⌉⌒
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4316,7 +4184,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊⌓
+ Header=⌉⌒
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4337,7 +4205,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌓
+ Header=⌒
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4358,7 +4226,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌓
+ Header=⌒
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4379,7 +4247,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊⌔
+ Header=⌉⌓
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4405,7 +4273,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊⌔
+ Header=⌉⌓
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4426,7 +4294,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌔
+ Header=⌓
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4454,7 +4322,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊⌕
+ Header=⌉⌔
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4473,7 +4341,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌕
+ Header=⌔
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4492,7 +4360,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊⌖
+ Header=⌉⌕
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4510,7 +4378,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌖
+ Header=⌕
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4529,7 +4397,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊⌗
+ Header=⌉⌖
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4549,7 +4417,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌗
+ Header=⌖
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4567,7 +4435,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊⌘
+ Header=⌉⌗
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4590,7 +4458,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌘
+ Header=⌗
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4608,7 +4476,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊⌙
+ Header=⌉⌘
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4635,7 +4503,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌙
+ Header=⌘
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4653,7 +4521,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌚
+ Header=⌙
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4671,7 +4539,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌛
+ Header=⌚
  rSig=WEAP
  fSig=FULL
  enabled=-1

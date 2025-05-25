@@ -140,7 +140,6 @@ export enum ICON_APPAREL {
     Apparel = 'apparel',
     Asylum = 'asylum',
     Beret = 'beret',
-    Cap = 'cap',
     CarnivalCostume = 'carnival_costume',
     CowboyClothing = 'cowboy_clothing',
     CowboyHat = 'cowboy_hat',
