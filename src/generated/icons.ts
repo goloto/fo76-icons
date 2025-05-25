@@ -718,97 +718,97 @@ export const ICONS = [
         charCode: '0x22f3'
     },
     {
-        name: ICON_APPAREL.Suit,
+        name: ICON_APPAREL.RaiderClothing,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f4'
     },
     {
-        name: ICON_APPAREL.Sleepwear,
+        name: ICON_APPAREL.Suit,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f5'
     },
     {
-        name: ICON_APPAREL.Swimsuit,
+        name: ICON_APPAREL.Sleepwear,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f6'
     },
     {
-        name: ICON_APPAREL.DefaultClothing,
+        name: ICON_APPAREL.Swimsuit,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f7'
     },
     {
-        name: ICON_ARMOR.PowerArmorHelmet,
-        category: ICON_CATEGORIES.Armor,
+        name: ICON_APPAREL.DefaultClothing,
+        category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f8'
     },
     {
-        name: ICON_ARMOR.Vulcan,
+        name: ICON_ARMOR.PowerArmorHelmet,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x22f9'
     },
     {
-        name: ICON_ARMOR.Excavator,
+        name: ICON_ARMOR.Vulcan,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x22fa'
     },
     {
-        name: ICON_ARMOR.UnionPa,
+        name: ICON_ARMOR.Excavator,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x22fb'
     },
     {
-        name: ICON_ARMOR.VNinetyFour,
+        name: ICON_ARMOR.UnionPa,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x22fc'
     },
     {
-        name: ICON_ARMOR.Hellcat,
+        name: ICON_ARMOR.VNinetyFour,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x22fd'
     },
     {
-        name: ICON_ARMOR.Ultracite,
+        name: ICON_ARMOR.Hellcat,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x22fe'
     },
     {
-        name: ICON_ARMOR.Raider,
+        name: ICON_ARMOR.Ultracite,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x22ff'
     },
     {
-        name: ICON_ARMOR.TFortyFive,
+        name: ICON_ARMOR.Raider,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x2300'
     },
     {
-        name: ICON_ARMOR.TFiftyOne,
+        name: ICON_ARMOR.TFortyFive,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x2301'
     },
     {
-        name: ICON_ARMOR.TSixty,
+        name: ICON_ARMOR.TFiftyOne,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x2302'
     },
     {
-        name: ICON_ARMOR.TSixtyFive,
+        name: ICON_ARMOR.TSixty,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x2303'
     },
     {
-        name: ICON_ARMOR.XOne,
+        name: ICON_ARMOR.TSixtyFive,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x2304'
     },
     {
-        name: ICON_ARMOR.Underarmor,
+        name: ICON_ARMOR.XOne,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x2305'
     },
     {
-        name: ICON_ARMOR.Spacesuit,
+        name: ICON_ARMOR.Underarmor,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x2306'
     },

@@ -567,6 +567,7 @@
  Exclude_0=ekwd|HatTypeFasnachtMask
  Exclude_1=ekwd|HatTypeMilitary
  Exclude_2=ekwd|HatTypeHalloween
+ Exclude_3=ekwd|ClothingTypeGasmask
 [EndRule]
 
 [StartRule]
@@ -978,6 +979,26 @@
  Include_0=ekwd|ClothingTypeFishingOutfit
  Exclude_0=ekwd|ClothingTypeDress
  Exclude_1=ekwd|ClothingTypeHat
+[EndRule]
+
+[StartRule]
+ Header=#raider_clothing#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeClothing
+ Include_1=ekwd|ClothingTypeRaider
+ Exclude_0=ekwd|ClothingTypeHat
+ Exclude_1=ekwd|ObjectTypeArmor
 [EndRule]
 
 [StartRule]
@@ -1409,25 +1430,6 @@
 [EndRule]
 
 [StartRule]
- Header=#spacesuit#
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=edid|SpaceSuit
- Include_1=edid|HazmatSuit
- Exclude_0=
-[EndRule]
-
-[StartRule]
  Header=#chest_armor#
  rSig=ARMO
  fSig=FULL
@@ -1442,9 +1444,8 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|ObjectTypeArmor
- Exclude_0=ekwd|ClothingTypeSpacesuit
- Exclude_1=ekwd|ArmorBodyPartHands
- Exclude_2=ekwd|ArmorBodyPartFeet
+ Exclude_0=ekwd|ArmorBodyPartHands
+ Exclude_1=ekwd|ArmorBodyPartFeet
 [EndRule]
 
 [StartRule]
