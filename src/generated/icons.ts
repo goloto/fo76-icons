@@ -648,7 +648,7 @@ export const ICONS = [
         charCode: '0x22e5'
     },
     {
-        name: ICON_APPAREL.Beret,
+        name: ICON_APPAREL.MilitaryHat,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22e6'
     },

@@ -139,7 +139,6 @@ export enum ICON_FOOD {
 export enum ICON_APPAREL {
     Apparel = 'apparel',
     Asylum = 'asylum',
-    Beret = 'beret',
     CarnivalCostume = 'carnival_costume',
     CowboyClothing = 'cowboy_clothing',
     CowboyHat = 'cowboy_hat',
@@ -152,6 +151,7 @@ export enum ICON_APPAREL {
     Glasses = 'glasses',
     Helmet = 'helmet',
     MilitaryClothing = 'military_clothing',
+    MilitaryHat = 'military_hat',
     Sleepwear = 'sleepwear',
     SpacesuitClothing = 'spacesuit_clothing',
     SpacesuitHat = 'spacesuit_hat',

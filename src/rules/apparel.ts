@@ -167,7 +167,7 @@ export const APPAREL_RULES_GROUP = {
         },
         {
             order: 11,
-            prefix: [ICON_APPAREL.Beret],
+            prefix: [ICON_APPAREL.MilitaryHat],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
             isInjected: false,

@@ -696,7 +696,7 @@
 [EndRule]
 
 [StartRule]
- Header=#beret#
+ Header=#military_hat#
  rSig=ARMO
  fSig=FULL
  enabled=-1
