@@ -38,19 +38,14 @@ export enum ICON_LEGENDARY_EFFECTS {
     Zealot = 'zealot'
 }
 export enum ICON_MISC {
-    Bones = 'bones',
     Bulk = 'bulk',
-    Canister = 'canister',
     Cards = 'cards',
-    CircuitBoard = 'circuit_board',
     Components = 'components',
-    Corpse = 'corpse',
     FluxMisc = 'flux_misc',
     HybridFlower = 'hybrid_flower',
     Junk = 'junk',
     LegendaryModification = 'legendary_modification',
     LegendaryModule = 'legendary_module',
-    MetalScrap = 'metal_scrap',
     Modification = 'modification',
     NukeCard = 'nuke_card',
     Ore = 'ore',
@@ -58,7 +53,6 @@ export enum ICON_MISC {
     RepairKit = 'repair_kit',
     RocketToy = 'rocket_toy',
     Skull = 'skull',
-    TeddyBear = 'teddy_bear',
     Token = 'token',
     TreasureNote = 'treasure_note'
 }

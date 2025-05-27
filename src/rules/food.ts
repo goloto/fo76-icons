@@ -2,6 +2,7 @@ import { ICON_FOOD } from "@/generated/icons-enum";
 import { LeftSignature, RightSignature } from "@/constants";
 import type { IncludeProperty, RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
+const objectTypeBubblegum = "ekwd|ObjectTypeBubblegum" as const;
 const milkRules = [
     "edid|milk",
     "edid|cream"
@@ -283,7 +284,7 @@ export const FOOD_RULES_GROUP = {
             isInclusiveOr: false,
             isFullReplaced: false,
             include: ["ekwd|ObjectTypeCandy"],
-            exclude: [],
+            exclude: [objectTypeBubblegum],
         },
         {
             order: 18,
@@ -308,7 +309,7 @@ export const FOOD_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: ["edid|bubblegum"],
+            include: [objectTypeBubblegum],
             exclude: [],
         },
         {
