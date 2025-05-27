@@ -4,6 +4,7 @@ import type { IncludeProperty, RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
 const objectTypeClothing = "ekwd|ObjectTypeClothing" as const;
 const objectTypeArmor = "ekwd|ObjectTypeArmor" as const;
+const objectTypeBasicArmor = "ekwd|ObjectTypeBasicArmor" as const;
 const clothingTypeHat = "ekwd|ClothingTypeHat" as const;
 const clothingTypeFishingHat = "ekwd|ClothingTypeFishingHat" as const;
 const clothingTypeGlasses = "ekwd|ClothingTypeGlasses" as const;
