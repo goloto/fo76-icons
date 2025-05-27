@@ -620,26 +620,8 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|Headwear_Jumpsuit_SpaceSuit
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⋣
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
  Include_0=ekwd|ClothingTypeHat
- Include_1=ekwd|ClothingTypeSpacesuit
+ Include_1=ekwd|ClothingTypeCultist
  Exclude_0=
 [EndRule]
 
@@ -657,25 +639,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|HatTypeCowboy
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⋤
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|Veracio_Hat
+ Include_0=ekwd|ClothingTypeGasmask
  Exclude_0=
 [EndRule]
 
@@ -693,8 +657,43 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
+ Include_0=ekwd|ArmorBodyPartHead
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋰
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
  Include_0=ekwd|ClothingTypeHat
- Include_1=ekwd|ClothingTypeCultist
+ Exclude_0=ekwd|HatTypeMilitary
+[EndRule]
+
+[StartRule]
+ Header=⋦
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Headwear_Jumpsuit_SpaceSuit
  Exclude_0=
 [EndRule]
 
@@ -713,180 +712,12 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|ClothingTypeHat
- Include_1=ekwd|ClothingTypeWinter
+ Include_1=ekwd|ClothingTypeSpacesuit
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=⋧
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ClothingTypeFishingHat
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⋨
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ClothingTypeHat
- Exclude_0=ekwd|HatTypeMilitary
-[EndRule]
-
-[StartRule]
- Header=⋩
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ClothingTypeGasmask
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⋪
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|HatTypeMilitary
- Exclude_0=ekwd|ArmorBodyPartHead
- Exclude_1=ekwd|ClothingTypeHoliday
-[EndRule]
-
-[StartRule]
- Header=⋫
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ArmorBodyPartHead
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⋬
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ObjectTypeClothing
- Include_1=ekwd|ClothingTypeAsylum
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⋭
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ObjectTypeClothing
- Include_1=ekwd|ClothingTypeHoliday
- Exclude_0=ekwd|ClothingTypeHat
- Exclude_1=ekwd|ClothingTypeDress
- Exclude_2=ekwd|ClothingTypeGlasses
-[EndRule]
-
-[StartRule]
- Header=⋮
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ObjectTypeClothing
- Include_1=ekwd|ClothingTypeCowboy
- Exclude_0=ekwd|ClothingTypeHat
-[EndRule]
-
-[StartRule]
- Header=⋮
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|Outfit_NukaCowboyChaps
- Exclude_0=ekwd|ClothingTypeHat
-[EndRule]
-
-[StartRule]
- Header=⋯
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -905,7 +736,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋰
+ Header=⋨
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -918,12 +749,86 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ClothingTypeDress
+ Include_0=ekwd|HatTypeCowboy
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⋱
+ Header=⋨
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Veracio_Hat
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋩
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeClothing
+ Include_1=ekwd|ClothingTypeCowboy
+ Exclude_0=ekwd|ClothingTypeHat
+[EndRule]
+
+[StartRule]
+ Header=⋩
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Outfit_NukaCowboyChaps
+ Exclude_0=ekwd|ClothingTypeHat
+[EndRule]
+
+[StartRule]
+ Header=⋪
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ClothingTypeHat
+ Include_1=ekwd|ClothingTypeWinter
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋫
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -944,7 +849,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋲
+ Header=⋬
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -957,13 +862,12 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ObjectTypeClothing
- Include_1=ekwd|ClothingTypeMilitary
+ Include_0=ekwd|ClothingTypeFishingHat
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⋳
+ Header=⋭
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -982,7 +886,26 @@
 [EndRule]
 
 [StartRule]
- Header=⋴
+ Header=⋮
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HatTypeMilitary
+ Exclude_0=ekwd|ArmorBodyPartHead
+ Exclude_1=ekwd|ClothingTypeHoliday
+[EndRule]
+
+[StartRule]
+ Header=⋯
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -996,13 +919,52 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|ObjectTypeClothing
- Include_1=ekwd|ClothingTypeRaider
- Exclude_0=ekwd|ClothingTypeHat
- Exclude_1=ekwd|ObjectTypeArmor
+ Include_1=ekwd|ClothingTypeMilitary
+ Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⋵
+ Header=⋱
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeClothing
+ Include_1=ekwd|ClothingTypeAsylum
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋲
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeClothing
+ Include_1=ekwd|ClothingTypeHoliday
+ Exclude_0=ekwd|ClothingTypeHat
+ Exclude_1=ekwd|ClothingTypeDress
+ Exclude_2=ekwd|ClothingTypeGlasses
+[EndRule]
+
+[StartRule]
+ Header=⋳
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1020,6 +982,44 @@
  Exclude_1=ekwd|ClothingTypeSleepwear
  Exclude_2=ekwd|ClothingTypeMilitary
  Exclude_3=edid|Veteran_Mask
+[EndRule]
+
+[StartRule]
+ Header=⋴
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ClothingTypeDress
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋵
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeClothing
+ Include_1=ekwd|ClothingTypeRaider
+ Exclude_0=ekwd|ClothingTypeHat
+ Exclude_1=ekwd|ObjectTypeArmor
 [EndRule]
 
 [StartRule]
