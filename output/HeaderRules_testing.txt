@@ -1890,6 +1890,25 @@
 [EndRule]
 
 [StartRule]
+ Header=#salad_canned#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|IngredientTypeVegetable
+ Include_1=edid|_cannery
+ Exclude_0=ekwd|IngredientTypeMeat
+[EndRule]
+
+[StartRule]
  Header=#salad#
  rSig=ALCH
  fSig=FULL
@@ -2054,6 +2073,25 @@
 [EndRule]
 
 [StartRule]
+ Header=#meat_canned#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|IngredientTypeMeat
+ Include_1=edid|_cannery
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#meat_soup#
  rSig=ALCH
  fSig=FULL
@@ -2079,7 +2117,7 @@
 [EndRule]
 
 [StartRule]
- Header=#cooked_meat#
+ Header=#meat_cooked#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2100,7 +2138,7 @@
 [EndRule]
 
 [StartRule]
- Header=#raw_meat#
+ Header=#meat_raw#
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -3321,6 +3359,32 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|HybridFlower
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#fishing_bait#
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|LC167_SolventAttractant
+ Include_1=edid|POST_LC167_Solution_AtrMirelurk
+ Include_2=edid|MILE_CryptidBait_Grafton
+ Include_3=edid|MILE_CryptidBait_Mothman
+ Include_4=edid|MILE_CryptidBait_Ogua
+ Include_5=edid|MILE_CryptidBait_BlueDevil
+ Include_6=edid|MILE_CryptidBait_Flatwoods
+ Include_7=edid|MILE_CryptidBait_Sheepsquatch
+ Include_8=edid|COMP_RQ_RaiderPunk_MiscItem_006_AlienDecoy
  Exclude_0=
 [EndRule]
 

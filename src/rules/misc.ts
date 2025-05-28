@@ -127,6 +127,29 @@ export const MISC_RULES_GROUP = {
         },
         {
             order: 9,
+            prefix: [ICON_MISC.FishingBait],
+            leftSignature: LeftSignature.Misc,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [
+                "edid|LC167_SolventAttractant",
+                "edid|POST_LC167_Solution_AtrMirelurk",
+                "edid|MILE_CryptidBait_Grafton",
+                "edid|MILE_CryptidBait_Mothman",
+                "edid|MILE_CryptidBait_Ogua",
+                "edid|MILE_CryptidBait_BlueDevil",
+                "edid|MILE_CryptidBait_Flatwoods",
+                "edid|MILE_CryptidBait_Sheepsquatch",
+                "edid|COMP_RQ_RaiderPunk_MiscItem_006_AlienDecoy",
+            ],
+            exclude: [],
+        },
+        {
+            order: 10,
             prefix: [ICON_MISC.Cards],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -139,7 +162,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 10,
+            order: 11,
             prefix: [ICON_MISC.Bulk],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -152,7 +175,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 11,
+            order: 12,
             prefix: [ICON_MISC.Components],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -165,7 +188,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 12,
+            order: 13,
             prefix: [ICON_MISC.Skull],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -195,7 +218,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 13,
+            order: 14,
             prefix: [ICON_MISC.RocketToy],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -211,7 +234,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 14,
+            order: 15,
             prefix: [ICON_MISC.Ore],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -224,7 +247,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 15,
+            order: 16,
             prefix: [ICON_MISC.Junk],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -237,7 +260,7 @@ export const MISC_RULES_GROUP = {
             exclude: ["edid|miscmod"],
         },
         {
-            order: 16,
+            order: 17,
             prefix: [ICON_MISC.Quest],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
