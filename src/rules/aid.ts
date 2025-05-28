@@ -33,6 +33,19 @@ export const AID_RULES_GROUP = {
         },
         {
             order: 2,
+            prefix: [ICON_AID.MutantedPackage],
+            leftSignature: LeftSignature.Alchemy,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["edid|MutatedEvents_Package"],
+            exclude: [],
+        },
+        {
+            order: 3,
             prefix: [ICON_AID.TreasureHuntChest],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -45,7 +58,7 @@ export const AID_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 3,
+            order: 4,
             prefix: [ICON_AID.HolidayGift],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -58,7 +71,20 @@ export const AID_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 4,
+            order: 5,
+            prefix: [ICON_AID.SpookyBag],
+            leftSignature: LeftSignature.Alchemy,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["edid|Spooky_TreatBag"],
+            exclude: [],
+        },
+        {
+            order: 6,
             prefix: [ICON_AID.Stimpak],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -89,7 +115,7 @@ export const AID_RULES_GROUP = {
             ],
         },
         {
-            order: 5,
+            order: 7,
             prefix: [ICON_AID.Radaway],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -108,7 +134,7 @@ export const AID_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 6,
+            order: 8,
             prefix: [ICON_AID.Drugs],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -136,7 +162,7 @@ export const AID_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 7,
+            order: 9,
             prefix: [ICON_AID.Stealthboy],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -152,7 +178,7 @@ export const AID_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 8,
+            order: 10,
             prefix: [ICON_AID.BloodPack],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -170,7 +196,7 @@ export const AID_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 9,
+            order: 11,
             prefix: [ICON_AID.MutationSerum],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -183,7 +209,7 @@ export const AID_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 10,
+            order: 12,
             prefix: [ICON_AID.FluxAid],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -196,7 +222,7 @@ export const AID_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 11,
+            order: 13,
             prefix: [ICON_AID.MysteryBox],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -212,7 +238,7 @@ export const AID_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 12,
+            order: 14,
             prefix: [ICON_AID.Magazine],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,
@@ -225,7 +251,7 @@ export const AID_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 13,
+            order: 15,
             prefix: [ICON_AID.Bobblehead],
             leftSignature: LeftSignature.Alchemy,
             rightSignature: RightSignature.FULL,

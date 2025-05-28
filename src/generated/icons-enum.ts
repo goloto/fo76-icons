@@ -91,10 +91,12 @@ export enum ICON_AID {
     HolidayGift = 'holiday_gift',
     Lunchbox = 'lunchbox',
     Magazine = 'magazine',
+    MutantedPackage = 'mutanted_package',
     MutationSerum = 'mutation_serum',
     MysteryBox = 'mystery_box',
     Radaway = 'radaway',
     Scout = 'scout',
+    SpookyBag = 'spooky_bag',
     Stealthboy = 'stealthboy',
     Stimpak = 'stimpak',
     TreasureHuntChest = 'treasure_hunt_chest'
