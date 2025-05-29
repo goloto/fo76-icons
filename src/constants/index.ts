@@ -15,7 +15,7 @@ export const BROADSIDER_RULE = 'ekwd|HasBarrel_MultiShot' as const;
 export const REVOLVER_RULE = 'ekwd|ma_Revolver' as const;
 
 const onlyActualItemsRegExp = new RegExp(
-  '^((?!((zzz)|(ZZZ)|(DEl)|(DEL)|(CUT)|(debug)|(test)|(Test)|(DEPRECATED)|(cr)|(TEMPLATE)))).*(?!((NPC)|(NONPLAYABLE)))$'
+  '^((?!((zzz)|(ZZZ)|(DEl)|(DEL)|(CUT)|(debug)|(test)|(Test)|(DEPRECATED)|(cr)|(TEMPLATE)|(CreatureClothes)))).*(?!((NPC)|(NONPLAYABLE)))$'
 );
 
 export enum RightSignature {

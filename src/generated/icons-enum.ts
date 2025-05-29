@@ -170,6 +170,7 @@ export enum ICON_ARMOR {
     ArmorLeftLeg = 'armor_left_leg',
     ArmorRightArm = 'armor_right_arm',
     ArmorRightLeg = 'armor_right_leg',
+    Backpack = 'backpack',
     ChestArmor = 'chest_armor',
     Excavator = 'excavator',
     Hellcat = 'hellcat',
