@@ -6,18 +6,11 @@ import type {
   ICON_CURRENCY,
   ICON_EVENTS,
   ICON_FOOD,
-  ICON_HEAVY_WEAPONS,
   ICON_HOLOTAPES,
   ICON_KEYS,
   ICON_LEGENDARY_EFFECTS,
-  ICON_MELEE_WEAPONS,
-  ICON_MINES,
   ICON_MISC,
   ICON_NOTES,
-  ICON_PISTOLS,
-  ICON_RIFLES,
-  ICON_SHOTGUNS,
-  ICON_THROWN_WEAPONS,
   ICON_WEAPONS,
 } from '../generated/icons-enum';
 import type { LeftSignature, RightSignature } from '../constants';
@@ -35,8 +28,6 @@ export type ICON_COMMON = '_injected_innr_eraser';
 export type IconNames =
   | ICON_COMMON
   | ICON_CURRENCY
-  | ICON_THROWN_WEAPONS
-  | ICON_MINES
   | ICON_LEGENDARY_EFFECTS
   | ICON_MISC
   | ICON_KEYS
@@ -48,11 +39,6 @@ export type IconNames =
   | ICON_APPAREL
   | ICON_ARMOR
   | ICON_WEAPONS
-  | ICON_MELEE_WEAPONS
-  | ICON_HEAVY_WEAPONS
-  | ICON_RIFLES
-  | ICON_SHOTGUNS
-  | ICON_PISTOLS
   | ICON_EVENTS;
 
 export type IncludeProperty = `edid|${string}` | `ekwd|${string}`;
