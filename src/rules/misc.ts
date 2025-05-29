@@ -212,13 +212,27 @@ export const MISC_RULES_GROUP = {
                 "edid|StingwingBarb",
                 "edid|BeaverTeeth",
                 "edid|WendigoTeeth",
+            ],
+            exclude: [],
+        },
+        {
+            order: 14,
+            prefix: [ICON_MISC.Skull],
+            leftSignature: LeftSignature.Misc,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [
                 "ekwd|BoneTypeSkull",
                 "ekwd|ObjectTypeBones"
             ],
             exclude: [],
         },
         {
-            order: 14,
+            order: 15,
             prefix: [ICON_MISC.RocketToy],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -234,7 +248,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 15,
+            order: 16,
             prefix: [ICON_MISC.Ore],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -247,7 +261,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 16,
+            order: 17,
             prefix: [ICON_MISC.Junk],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -260,7 +274,7 @@ export const MISC_RULES_GROUP = {
             exclude: ["edid|miscmod"],
         },
         {
-            order: 17,
+            order: 18,
             prefix: [ICON_MISC.Quest],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
