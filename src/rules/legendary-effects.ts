@@ -639,6 +639,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
                 "ekwd|HasMuzzle",
                 "ekwd|HasReceiver",
                 "ekwd|HasBarrel",
+                "ekwd|CustomItemName_NukaShank"
             ],
             exclude: [BROADSIDER_RULE],
         }
