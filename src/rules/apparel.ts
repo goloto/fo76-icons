@@ -539,19 +539,19 @@ export const APPAREL_RULES_GROUP = {
             isFullReplaced: false,
             include: [objectTypeBasicArmor],
             exclude: [],
+        },
+        {
+            order: 33,
+            prefix: [ICON_APPAREL.HazmatSuit],
+            leftSignature: LeftSignature.Armor,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["ekwd|PlayerGhoulDisguise"],
+            exclude: [],
         }
-        // "ekwd|ClothingTypeCostumeUnstoppables"
-        // "ekwd|ClothingTypeFishingOutfit"
-        // "ekwd|ClothingTypePioneer"
-        //
-        // "ekwd|HatTypeAsylum"
-        //
-        // "ekwd|ObjectTypeSports"
-        // "ekwd|ClothingTypeHistorical"
-        // "ekwd|HatTypeClown"
-        // "ekwd|HatTypeTinfoil"
-        // "ekwd|DiseasePrevention_Inhalation"
-        // "ekwd|HatTypeHoliday"
-        // "ekwd|ClothingTypeFormalHat"
     ],
 } as const satisfies RulesGroup<ICON_APPAREL>;
