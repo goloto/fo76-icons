@@ -443,162 +443,162 @@ export const ICONS = [
         charCode: '0x22bc'
     },
     {
-        name: ICON_FOOD.Toxic,
+        name: ICON_FOOD.BottleOfWater,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22bd'
     },
     {
-        name: ICON_FOOD.BottleOfWater,
+        name: ICON_FOOD.DirtyWater,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22be'
     },
     {
-        name: ICON_FOOD.DirtyWater,
+        name: ICON_FOOD.NukaCola,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22bf'
     },
     {
-        name: ICON_FOOD.NukaCola,
+        name: ICON_FOOD.WeightIncreaser,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22c0'
     },
     {
-        name: ICON_FOOD.WeightIncreaser,
+        name: ICON_FOOD.Beer,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22c1'
     },
     {
-        name: ICON_FOOD.Beer,
+        name: ICON_FOOD.Wine,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22c2'
     },
     {
-        name: ICON_FOOD.Wine,
+        name: ICON_FOOD.Whiskey,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22c3'
     },
     {
-        name: ICON_FOOD.Whiskey,
+        name: ICON_FOOD.FermentedAlcohol,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22c4'
     },
     {
-        name: ICON_FOOD.FermentedAlcohol,
+        name: ICON_FOOD.Juice,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22c5'
     },
     {
-        name: ICON_FOOD.Juice,
+        name: ICON_FOOD.Tea,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22c6'
     },
     {
-        name: ICON_FOOD.Tea,
+        name: ICON_FOOD.Milk,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22c7'
     },
     {
-        name: ICON_FOOD.Milk,
+        name: ICON_FOOD.SaladCanned,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22c8'
     },
     {
-        name: ICON_FOOD.SaladCanned,
+        name: ICON_FOOD.Salad,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22c9'
     },
     {
-        name: ICON_FOOD.Salad,
+        name: ICON_FOOD.Soup,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22ca'
     },
     {
-        name: ICON_FOOD.Soup,
+        name: ICON_FOOD.Cake,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22cb'
     },
     {
-        name: ICON_FOOD.Cake,
+        name: ICON_FOOD.Candy,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22cc'
     },
     {
-        name: ICON_FOOD.Candy,
+        name: ICON_FOOD.CannedFood,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22cd'
     },
     {
-        name: ICON_FOOD.CannedFood,
+        name: ICON_FOOD.Bubblegum,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22ce'
     },
     {
-        name: ICON_FOOD.Bubblegum,
+        name: ICON_FOOD.MeatCanned,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22cf'
     },
     {
-        name: ICON_FOOD.MeatCanned,
+        name: ICON_FOOD.MeatSoup,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22d0'
     },
     {
-        name: ICON_FOOD.MeatSoup,
+        name: ICON_FOOD.MeatCooked,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22d1'
     },
     {
-        name: ICON_FOOD.MeatCooked,
+        name: ICON_FOOD.MeatRaw,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22d2'
     },
     {
-        name: ICON_FOOD.MeatRaw,
+        name: ICON_FOOD.PetFood,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22d3'
     },
     {
-        name: ICON_FOOD.PetFood,
+        name: ICON_FOOD.Eggs,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22d4'
     },
     {
-        name: ICON_FOOD.Eggs,
+        name: ICON_FOOD.Liquid,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22d5'
     },
     {
-        name: ICON_FOOD.TickBlood,
+        name: ICON_FOOD.Berries,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22d6'
     },
     {
-        name: ICON_FOOD.Berries,
+        name: ICON_FOOD.Vegetable,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22d7'
     },
     {
-        name: ICON_FOOD.Vegetable,
+        name: ICON_FOOD.Flowers,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22d8'
     },
     {
-        name: ICON_FOOD.Flowers,
+        name: ICON_FOOD.Mushrooms,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22d9'
     },
     {
-        name: ICON_FOOD.Mushrooms,
+        name: ICON_FOOD.Honey,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22da'
     },
     {
-        name: ICON_FOOD.Honey,
+        name: ICON_FOOD.Flavor,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22db'
     },
     {
-        name: ICON_FOOD.Flavor,
+        name: ICON_FOOD.Toxic,
         category: ICON_CATEGORIES.Food,
         charCode: '0x22dc'
     },

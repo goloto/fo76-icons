@@ -109,6 +109,8 @@ export const AID_RULES_GROUP = {
                 "edid|FormulaQ",
                 "edid|Addictol",
                 "edid|HealingSalve",
+                "edid|v96_Metabolux",
+                "edid|Innoculation_Scorched"
             ],
             exclude: [
                 "edid|VenisonAndTatoStew_Stimpak"
@@ -130,6 +132,7 @@ export const AID_RULES_GROUP = {
                 "edid|RadShield",
                 "edid|Radiation_RadXtreme",
                 "edid|TrenchMed_Pitt",
+                "edid|DetoxingSalve"
             ],
             exclude: [],
         },

@@ -142,6 +142,8 @@
  Include_12=edid|FormulaQ
  Include_13=edid|Addictol
  Include_14=edid|HealingSalve
+ Include_15=edid|v96_Metabolux
+ Include_16=edid|Innoculation_Scorched
  Exclude_0=edid|VenisonAndTatoStew_Stimpak
 [EndRule]
 
@@ -164,6 +166,7 @@
  Include_2=edid|RadShield
  Include_3=edid|Radiation_RadXtreme
  Include_4=edid|TrenchMed_Pitt
+ Include_5=edid|DetoxingSalve
  Exclude_0=
 [EndRule]
 
@@ -1683,29 +1686,6 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=-1
- isFallBack=0
- fallbackBank=0
- Include_0=edid|moldy
- Include_1=edid|diseased
- Include_2=edid|spoiled
- Include_3=edid|HighRadiationFluids
- Include_4=edid|GulperVenom
- Exclude_0=edid|milk
- Exclude_1=edid|cream
-[EndRule]
-
-[StartRule]
- Header=⊾
- rSig=ALCH
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
  includeOR=0
  isFallBack=0
  fallbackBank=0
@@ -1716,7 +1696,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊿
+ Header=⊾
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1734,7 +1714,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋀
+ Header=⊿
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1753,7 +1733,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋁
+ Header=⋀
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1771,7 +1751,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋂
+ Header=⋁
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1798,7 +1778,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋃
+ Header=⋂
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1816,7 +1796,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋄
+ Header=⋃
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1834,7 +1814,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋅
+ Header=⋄
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1852,7 +1832,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋆
+ Header=⋅
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1870,7 +1850,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋆
+ Header=⋅
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1889,7 +1869,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋇
+ Header=⋆
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1907,7 +1887,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋈
+ Header=⋇
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1926,7 +1906,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋉
+ Header=⋈
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1945,7 +1925,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋊
+ Header=⋉
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1965,7 +1945,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋊
+ Header=⋉
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1988,7 +1968,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋋
+ Header=⋊
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2008,7 +1988,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋌
+ Header=⋋
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2026,7 +2006,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋍
+ Header=⋌
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2044,7 +2024,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋎
+ Header=⋍
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2064,7 +2044,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋏
+ Header=⋎
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2082,7 +2062,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋌
+ Header=⋋
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2095,21 +2075,31 @@
  includeOR=-1
  isFallBack=0
  fallbackBank=0
- Include_0=edid|PumpkinPieTasty
- Include_1=edid|PotholePotpie
- Include_2=edid|CarnivalPie
- Include_3=edid|MysteryMeatPieTasty
- Include_4=edid|StarlightBerryCookedCobbler
- Include_5=edid|MirelurkAndBloodleafGourmet
- Include_6=edid|CranberryCookedCobbler
- Include_7=edid|SheepsquatchMeatTasty
- Include_8=edid|SweetRollGourmet
- Include_9=edid|MudCookie
- Exclude_0=
+ Include_0=ekwd|ObjectTypeCakesPies
+ Exclude_0=ekwd|IngredientTypeMeat
 [EndRule]
 
 [StartRule]
- Header=⋐
+ Header=⋋
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|MudCookie
+ Include_1=edid|SweetRollGourmet
+ Exclude_0=ekwd|IngredientTypeMeat
+[EndRule]
+
+[StartRule]
+ Header=⋏
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2128,7 +2118,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋑
+ Header=⋐
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2149,11 +2139,12 @@
  Include_5=edid|VenisonAndTatoStew_Spiced
  Include_6=edid|ChickenMeatCookedSoup
  Include_7=edid|IguanaMeatTastySoup
+ Include_8=edid|VenisonAndTatoStew_Stimpak
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⋒
+ Header=⋑
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2174,7 +2165,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋓
+ Header=⋒
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2198,7 +2189,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋔
+ Header=⋓
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2216,7 +2207,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋕
+ Header=⋔
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2238,7 +2229,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋖
+ Header=⋕
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2248,15 +2239,16 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
  Include_0=edid|TickBlood
- Exclude_0=
+ Include_1=edid|BioluminescentFluidPotion
+ Exclude_0=edid|BioluminescentFluidPotion_Spoiled
 [EndRule]
 
 [StartRule]
- Header=⋗
+ Header=⋖
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2274,7 +2266,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋘
+ Header=⋗
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2290,11 +2282,31 @@
  Include_0=ekwd|PlantTypeVegetable
  Include_1=ekwd|PlantTypeGourd
  Include_2=ekwd|PlantTypeMelon
+ Include_3=ekwd|PlantTypeSap
  Exclude_0=ekwd|PlantTypeFlowers
 [EndRule]
 
 [StartRule]
- Header=⋘
+ Header=⋗
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|CorpseFlowerSeedsFruit
+ Include_1=edid|CorpseFlowerStamenFruit
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋗
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2312,7 +2324,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋙
+ Header=⋘
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2332,7 +2344,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋚
+ Header=⋙
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2356,7 +2368,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋛
+ Header=⋚
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2375,7 +2387,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋜
+ Header=⋛
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2390,6 +2402,29 @@
  fallbackBank=0
  Include_0=ekwd|IngredientTypeFlavor
  Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋜
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|moldy
+ Include_1=edid|diseased
+ Include_2=edid|spoiled
+ Include_3=edid|HighRadiationFluids
+ Include_4=edid|GulperVenom
+ Exclude_0=edid|milk
+ Exclude_1=edid|cream
 [EndRule]
 
 [StartRule]
