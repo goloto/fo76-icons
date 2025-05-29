@@ -28,6 +28,44 @@ export const APPAREL_RULES_GROUP = {
     rules: [
         {
             order: 0,
+            prefix: [ICON_APPAREL.Backpack],
+            leftSignature: LeftSignature.Armor,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["ekwd|ObjectTypeBackpack"],
+        },
+        {
+            order: 1,
+            prefix: [ICON_APPAREL.Underarmor],
+            leftSignature: LeftSignature.Armor,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["edid|Armor_Vault118_UnderwearClean"],
+            exclude: [],
+        },
+        {
+            order: 2,
+            prefix: [ICON_APPAREL.Underarmor],
+            leftSignature: LeftSignature.Armor,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["ekwd|ObjectTypeUnderarmor",],
+            exclude: [],
+        },
+        {
+            order: 3,
             prefix: [ICON_APPAREL.Glasses],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -40,7 +78,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 1,
+            order: 4,
             prefix: [ICON_APPAREL.FasnachtMask],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -53,7 +91,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 2,
+            order: 5,
             prefix: [ICON_APPAREL.FasnachtMask],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -70,7 +108,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 3,
+            order: 6,
             prefix: [ICON_APPAREL.Mask],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -90,7 +128,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 4,
+            order: 7,
             prefix: [ICON_APPAREL.HalloweenHat],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -103,7 +141,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 5,
+            order: 8,
             prefix: [ICON_APPAREL.FlowerCrown],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -116,7 +154,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 6,
+            order: 9,
             prefix: [ICON_APPAREL.CultistHood],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -132,7 +170,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 7,
+            order: 10,
             prefix: [ICON_APPAREL.GasMask],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -145,7 +183,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 8,
+            order: 11,
             prefix: [ICON_APPAREL.Helmet],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -158,7 +196,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [objectTypeBasicArmor],
         },
         {
-            order: 9,
+            order: 12,
             prefix: [ICON_APPAREL.SpacesuitHat],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -171,7 +209,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 10,
+            order: 13,
             prefix: [ICON_APPAREL.SpacesuitHat],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -187,7 +225,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 11,
+            order: 14,
             prefix: [ICON_APPAREL.SpacesuitClothing],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -205,7 +243,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 12,
+            order: 15,
             prefix: [ICON_APPAREL.CowboyHat],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -218,7 +256,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 13,
+            order: 16,
             prefix: [ICON_APPAREL.CowboyHat],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -231,7 +269,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 14,
+            order: 17,
             prefix: [ICON_APPAREL.CowboyClothing],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -247,7 +285,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [clothingTypeHat],
         },
         {
-            order: 15,
+            order: 18,
             prefix: [ICON_APPAREL.CowboyClothing],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -260,7 +298,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [clothingTypeHat],
         },
         {
-            order: 16,
+            order: 19,
             prefix: [ICON_APPAREL.WinterHat],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -276,7 +314,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 17,
+            order: 20,
             prefix: [ICON_APPAREL.WinterJacket],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -296,7 +334,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 18,
+            order: 21,
             prefix: [ICON_APPAREL.FishingHat],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -309,7 +347,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 19,
+            order: 22,
             prefix: [ICON_APPAREL.FishingOutfit],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -325,7 +363,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 20,
+            order: 23,
             prefix: [ICON_APPAREL.MilitaryHat],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -341,7 +379,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 21,
+            order: 24,
             prefix: [ICON_APPAREL.MilitaryClothing],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -357,7 +395,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 22,
+            order: 25,
             prefix: [ICON_APPAREL.Asylum],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -373,7 +411,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 23,
+            order: 26,
             prefix: [ICON_APPAREL.HolidayCostume],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -393,7 +431,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 24,
+            order: 27,
             prefix: [ICON_APPAREL.Suit],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -411,7 +449,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 25,
+            order: 28,
             prefix: [ICON_APPAREL.Dress],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -424,7 +462,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 26,
+            order: 29,
             prefix: [ICON_APPAREL.RaiderClothing],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -443,7 +481,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 27,
+            order: 30,
             prefix: [ICON_APPAREL.Sleepwear],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -462,7 +500,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 28,
+            order: 31,
             prefix: [ICON_APPAREL.Swimsuit],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -478,7 +516,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 29,
+            order: 32,
             prefix: [ICON_APPAREL.HazmatSuit],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -491,7 +529,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 30,
+            order: 33,
             prefix: [ICON_APPAREL.HazmatSuit],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -504,7 +542,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 31,
+            order: 34,
             prefix: [ICON_APPAREL.DefaultHat],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -517,7 +555,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [hatTypeMilitary],
         },
         {
-            order: 32,
+            order: 35,
             prefix: [ICON_APPAREL.DefaultClothing],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -536,7 +574,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 33,
+            order: 36,
             prefix: [ICON_APPAREL.DefaultClothing],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,

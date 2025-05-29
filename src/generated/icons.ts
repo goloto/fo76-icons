@@ -603,217 +603,217 @@ export const ICONS = [
         charCode: '0x22dc'
     },
     {
-        name: ICON_APPAREL.Glasses,
+        name: ICON_APPAREL.Backpack,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22dd'
     },
     {
-        name: ICON_APPAREL.FasnachtMask,
+        name: ICON_APPAREL.Underarmor,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22de'
     },
     {
-        name: ICON_APPAREL.Mask,
+        name: ICON_APPAREL.Glasses,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22df'
     },
     {
-        name: ICON_APPAREL.HalloweenHat,
+        name: ICON_APPAREL.FasnachtMask,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22e0'
     },
     {
-        name: ICON_APPAREL.FlowerCrown,
+        name: ICON_APPAREL.Mask,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22e1'
     },
     {
-        name: ICON_APPAREL.CultistHood,
+        name: ICON_APPAREL.HalloweenHat,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22e2'
     },
     {
-        name: ICON_APPAREL.GasMask,
+        name: ICON_APPAREL.FlowerCrown,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22e3'
     },
     {
-        name: ICON_APPAREL.Helmet,
+        name: ICON_APPAREL.CultistHood,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22e4'
     },
     {
-        name: ICON_APPAREL.SpacesuitHat,
+        name: ICON_APPAREL.GasMask,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22e5'
     },
     {
-        name: ICON_APPAREL.SpacesuitClothing,
+        name: ICON_APPAREL.Helmet,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22e6'
     },
     {
-        name: ICON_APPAREL.CowboyHat,
+        name: ICON_APPAREL.SpacesuitHat,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22e7'
     },
     {
-        name: ICON_APPAREL.CowboyClothing,
+        name: ICON_APPAREL.SpacesuitClothing,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22e8'
     },
     {
-        name: ICON_APPAREL.WinterHat,
+        name: ICON_APPAREL.CowboyHat,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22e9'
     },
     {
-        name: ICON_APPAREL.WinterJacket,
+        name: ICON_APPAREL.CowboyClothing,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22ea'
     },
     {
-        name: ICON_APPAREL.FishingHat,
+        name: ICON_APPAREL.WinterHat,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22eb'
     },
     {
-        name: ICON_APPAREL.FishingOutfit,
+        name: ICON_APPAREL.WinterJacket,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22ec'
     },
     {
-        name: ICON_APPAREL.MilitaryHat,
+        name: ICON_APPAREL.FishingHat,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22ed'
     },
     {
-        name: ICON_APPAREL.MilitaryClothing,
+        name: ICON_APPAREL.FishingOutfit,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22ee'
     },
     {
-        name: ICON_APPAREL.Asylum,
+        name: ICON_APPAREL.MilitaryHat,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22ef'
     },
     {
-        name: ICON_APPAREL.HolidayCostume,
+        name: ICON_APPAREL.MilitaryClothing,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f0'
     },
     {
-        name: ICON_APPAREL.Suit,
+        name: ICON_APPAREL.Asylum,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f1'
     },
     {
-        name: ICON_APPAREL.Dress,
+        name: ICON_APPAREL.HolidayCostume,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f2'
     },
     {
-        name: ICON_APPAREL.RaiderClothing,
+        name: ICON_APPAREL.Suit,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f3'
     },
     {
-        name: ICON_APPAREL.Sleepwear,
+        name: ICON_APPAREL.Dress,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f4'
     },
     {
-        name: ICON_APPAREL.Swimsuit,
+        name: ICON_APPAREL.RaiderClothing,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f5'
     },
     {
-        name: ICON_APPAREL.HazmatSuit,
+        name: ICON_APPAREL.Sleepwear,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f6'
     },
     {
-        name: ICON_APPAREL.DefaultHat,
+        name: ICON_APPAREL.Swimsuit,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f7'
     },
     {
-        name: ICON_APPAREL.DefaultClothing,
+        name: ICON_APPAREL.HazmatSuit,
         category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f8'
     },
     {
-        name: ICON_ARMOR.Backpack,
-        category: ICON_CATEGORIES.Armor,
+        name: ICON_APPAREL.DefaultHat,
+        category: ICON_CATEGORIES.Apparel,
         charCode: '0x22f9'
+    },
+    {
+        name: ICON_APPAREL.DefaultClothing,
+        category: ICON_CATEGORIES.Apparel,
+        charCode: '0x22fa'
     },
     {
         name: ICON_ARMOR.PowerArmorHelmet,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x22fa'
+        charCode: '0x22fb'
     },
     {
         name: ICON_ARMOR.Vulcan,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x22fb'
+        charCode: '0x22fc'
     },
     {
         name: ICON_ARMOR.Excavator,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x22fc'
+        charCode: '0x22fd'
     },
     {
         name: ICON_ARMOR.UnionPa,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x22fd'
+        charCode: '0x22fe'
     },
     {
         name: ICON_ARMOR.VNinetyFour,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x22fe'
+        charCode: '0x22ff'
     },
     {
         name: ICON_ARMOR.Hellcat,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x22ff'
+        charCode: '0x2300'
     },
     {
         name: ICON_ARMOR.Ultracite,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x2300'
+        charCode: '0x2301'
     },
     {
         name: ICON_ARMOR.Raider,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x2301'
+        charCode: '0x2302'
     },
     {
         name: ICON_ARMOR.TFortyFive,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x2302'
+        charCode: '0x2303'
     },
     {
         name: ICON_ARMOR.TFiftyOne,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x2303'
+        charCode: '0x2304'
     },
     {
         name: ICON_ARMOR.TSixty,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x2304'
+        charCode: '0x2305'
     },
     {
         name: ICON_ARMOR.TSixtyFive,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x2305'
-    },
-    {
-        name: ICON_ARMOR.XOne,
-        category: ICON_CATEGORIES.Armor,
         charCode: '0x2306'
     },
     {
-        name: ICON_ARMOR.Underarmor,
+        name: ICON_ARMOR.XOne,
         category: ICON_CATEGORIES.Armor,
         charCode: '0x2307'
     },

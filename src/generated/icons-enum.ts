@@ -137,6 +137,7 @@ export enum ICON_FOOD {
 }
 export enum ICON_APPAREL {
     Asylum = 'asylum',
+    Backpack = 'backpack',
     CowboyClothing = 'cowboy_clothing',
     CowboyHat = 'cowboy_hat',
     CultistHood = 'cultist_hood',
@@ -162,6 +163,7 @@ export enum ICON_APPAREL {
     SpacesuitHat = 'spacesuit_hat',
     Suit = 'suit',
     Swimsuit = 'swimsuit',
+    Underarmor = 'underarmor',
     WinterHat = 'winter_hat',
     WinterJacket = 'winter_jacket'
 }
@@ -170,7 +172,6 @@ export enum ICON_ARMOR {
     ArmorLeftLeg = 'armor_left_leg',
     ArmorRightArm = 'armor_right_arm',
     ArmorRightLeg = 'armor_right_leg',
-    Backpack = 'backpack',
     ChestArmor = 'chest_armor',
     Excavator = 'excavator',
     Hellcat = 'hellcat',
@@ -181,7 +182,6 @@ export enum ICON_ARMOR {
     TSixty = 't_sixty',
     TSixtyFive = 't_sixty_five',
     Ultracite = 'ultracite',
-    Underarmor = 'underarmor',
     UnionPa = 'union_pa',
     VNinetyFour = 'v_ninety_four',
     Vulcan = 'vulcan',

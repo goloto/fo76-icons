@@ -546,7 +546,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ClothingTypeGlasses
+ Include_0=ekwd|ObjectTypeBackpack
  Exclude_0=
 [EndRule]
 
@@ -564,12 +564,66 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|HatTypeFasnachtMask
+ Include_0=edid|Armor_Vault118_UnderwearClean
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=⋞
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeUnderarmor
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋟
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ClothingTypeGlasses
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋠
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HatTypeFasnachtMask
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋠
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -589,7 +643,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋟
+ Header=⋡
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -610,7 +664,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋠
+ Header=⋢
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -628,7 +682,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋡
+ Header=⋣
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -646,7 +700,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋢
+ Header=⋤
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -665,7 +719,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋣
+ Header=⋥
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -683,7 +737,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋤
+ Header=⋦
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -701,7 +755,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋥
+ Header=⋧
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -719,7 +773,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋥
+ Header=⋧
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -738,7 +792,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋦
+ Header=⋨
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -757,7 +811,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋧
+ Header=⋩
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -775,7 +829,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋧
+ Header=⋩
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -793,7 +847,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋨
+ Header=⋪
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -812,7 +866,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋨
+ Header=⋪
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -830,7 +884,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋩
+ Header=⋫
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -849,7 +903,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋪
+ Header=⋬
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -870,7 +924,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋫
+ Header=⋭
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -888,7 +942,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋬
+ Header=⋮
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -907,7 +961,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋭
+ Header=⋯
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -926,7 +980,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋮
+ Header=⋰
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -945,7 +999,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋯
+ Header=⋱
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -964,7 +1018,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋰
+ Header=⋲
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -985,7 +1039,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋱
+ Header=⋳
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1006,7 +1060,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋲
+ Header=⋴
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1024,7 +1078,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋳
+ Header=⋵
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1044,7 +1098,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋴
+ Header=⋶
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1064,7 +1118,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋵
+ Header=⋷
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1083,7 +1137,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋶
+ Header=⋸
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1101,7 +1155,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋶
+ Header=⋸
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1119,7 +1173,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋷
+ Header=⋹
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1137,7 +1191,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋸
+ Header=⋺
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1159,7 +1213,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋸
+ Header=⋺
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1180,25 +1234,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋹
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ObjectTypeBackpack
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⋺
+ Header=⋻
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1216,7 +1252,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋺
+ Header=⋻
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1234,7 +1270,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋺
+ Header=⋻
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1271,7 +1307,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋻
+ Header=⋼
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1289,7 +1325,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋼
+ Header=⋽
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1307,7 +1343,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋽
+ Header=⋾
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1325,7 +1361,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋾
+ Header=⋿
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1343,7 +1379,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋿
+ Header=⌀
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1361,7 +1397,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌀
+ Header=⌁
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1379,7 +1415,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌁
+ Header=⌂
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1397,7 +1433,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌂
+ Header=⌃
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1415,7 +1451,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌃
+ Header=⌄
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1433,7 +1469,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌄
+ Header=⌅
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1451,7 +1487,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌅
+ Header=⌆
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1469,7 +1505,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌆
+ Header=⌇
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1483,42 +1519,6 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|PowerArmor_x01
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌇
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|Armor_Vault118_UnderwearClean
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⌇
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ObjectTypeUnderarmor
  Exclude_0=
 [EndRule]
 
