@@ -714,30 +714,12 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ClothingTypeHat
- Exclude_0=ekwd|HatTypeMilitary
-[EndRule]
-
-[StartRule]
- Header=⋦
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
  Include_0=edid|Headwear_Jumpsuit_SpaceSuit
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=⋦
+ Header=⋥
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -756,7 +738,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋧
+ Header=⋦
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -775,7 +757,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋨
+ Header=⋧
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -793,7 +775,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋨
+ Header=⋧
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -811,7 +793,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋩
+ Header=⋨
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -830,7 +812,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋩
+ Header=⋨
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -848,7 +830,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋪
+ Header=⋩
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -867,7 +849,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋫
+ Header=⋪
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -888,7 +870,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋬
+ Header=⋫
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -906,7 +888,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋭
+ Header=⋬
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -925,7 +907,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋮
+ Header=⋭
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -944,7 +926,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋯
+ Header=⋮
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -963,7 +945,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋰
+ Header=⋯
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -982,7 +964,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋱
+ Header=⋰
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1003,7 +985,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋲
+ Header=⋱
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1024,7 +1006,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋳
+ Header=⋲
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1042,7 +1024,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋴
+ Header=⋳
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1062,7 +1044,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋵
+ Header=⋴
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1082,7 +1064,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋶
+ Header=⋵
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1101,7 +1083,61 @@
 [EndRule]
 
 [StartRule]
+ Header=⋶
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeBasicArmor
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋶
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|PlayerGhoulDisguise
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=⋷
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ClothingTypeHat
+ Exclude_0=ekwd|HatTypeMilitary
+[EndRule]
+
+[StartRule]
+ Header=⋸
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1123,7 +1159,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋷
+ Header=⋸
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1140,42 +1176,6 @@
  Include_1=edid|MotivationalCollar
  Include_2=edid|WeaselCollar
  Include_3=edid|Outfit_TheMechanicOutfit_GreaseGoblin
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⋸
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|ObjectTypeBasicArmor
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⋸
- rSig=ARMO
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|PlayerGhoulDisguise
  Exclude_0=
 [EndRule]
 
