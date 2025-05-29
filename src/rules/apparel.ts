@@ -155,7 +155,7 @@ export const APPAREL_RULES_GROUP = {
             isInclusiveOr: false,
             isFullReplaced: false,
             include: [armorBodyPartHead],
-            exclude: [],
+            exclude: [objectTypeBasicArmor],
         },
         {
             order: 9,
@@ -525,6 +525,19 @@ export const APPAREL_RULES_GROUP = {
                 "edid|WeaselCollar",
                 "edid|Outfit_TheMechanicOutfit_GreaseGoblin",
             ],
+            exclude: [],
+        },
+        {
+            order: 32,
+            prefix: [ICON_APPAREL.HazmatSuit],
+            leftSignature: LeftSignature.Armor,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: [objectTypeBasicArmor],
             exclude: [],
         }
         // "ekwd|ClothingTypeCostumeUnstoppables"

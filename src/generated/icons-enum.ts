@@ -150,6 +150,7 @@ export enum ICON_APPAREL {
     GasMask = 'gas_mask',
     Glasses = 'glasses',
     HalloweenHat = 'halloween_hat',
+    HazmatSuit = 'hazmat_suit',
     Helmet = 'helmet',
     HolidayCostume = 'holiday_costume',
     Mask = 'mask',
