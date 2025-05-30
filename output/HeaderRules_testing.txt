@@ -3846,6 +3846,198 @@
 [EndRule]
 
 [StartRule]
+ Header=#plan|plan_alien|plan_year_twenty_five#
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Invaders_Workshop_Arcade_AlienWhackAMole
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#plan|plan_alien|plan_year_twenty_four|plan_quarter_four#
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Invaders_Recipe_Workshop_FloorDecor_FuturisticGlobe
+ Include_1=edid|Invaders_Recipe_workshop_Furniture_Couch_AlienCouch
+ Include_2=edid|Invaders_Recipe_FloorDecor_NukaDarkRocket
+ Include_3=edid|Invaders_Recipe_FloorDecor_NukaGrapeRocket
+ Include_4=edid|Invaders_Recipe_FloorDecor_NukaCherryRocket
+ Include_5=edid|Invaders_Recipe_FloorDecor_NukaQuantumRocket
+ Include_6=edid|Invaders_Recipe_FloorDecor_NukaTwistRocket
+ Include_7=edid|Invaders_Recipe_FloorDecor_NukaColaRocket
+ Include_8=edid|Invaders_Recipe_Armor_HazmatSuit_Pink
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#plan|plan_alien|plan_year_twenty_four#
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Invaders_AlienBlaster_Refined
+ Include_1=edid|Recipe_Invaders_Armor_HazmatSuitTeal
+ Include_2=edid|Recipe_Invaders_Workshop_Lights_AlienHeadLamp
+ Include_3=edid|Recipe_Invaders_Workshop_Tables_AlienTable
+ Include_4=edid|Recipe_Invaders_Workshop_Lights_GlowingFlatwoodsMonsterLamp
+ Include_5=edid|Recipe_Invaders_Workshop_WallDecor_AlienTargetPracticePoster
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#plan|plan_alien#
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|POST_recipe_mod_AlienBlaster_Scope_ScopeShort_NV
+ Include_1=edid|recipe_mod_AlienBlaster_AlienMag_AmmoConversion
+ Include_2=edid|Recipe_Weapon_Ranged_AlienBlaster
+ Include_3=edid|Recipe_Workshop_ZetanTube
+ Include_4=edid|recipe_mod_AlienBlaster_AlienMag_DTPoison
+ Include_5=edid|recipe_mod_AlienBlaster_AlienMag_DTCryo
+ Include_6=edid|Recipe_Weapon_Ranged_AlienRifle
+ Include_7=edid|recipe_mod_AlienRifle_Receiver_DTCryo
+ Include_8=edid|recipe_mod_AlienRifle_Receiver_DTPoison
+ Include_9=edid|recipe_mod_AlienRifle_Receiver_Sniper
+ Include_10=edid|recipe_mod_AlienRifle_Receiver_Auto
+ Include_11=edid|Recipe_mod_melee_ElectroEnforcer_Spiked
+ Include_12=edid|Recipe_Weapon_Melee_ElectroEnforcer
+ Include_13=edid|Recipe_mod_melee_ElectroEnforcer_Overcharged
+ Include_14=edid|Recipe_mod_melee_ElectroEnforcer_Poisoned
+ Include_15=edid|Recipe_mod_melee_ElectroEnforcer_Freezing
+ Include_16=edid|Recipe_Workshop_AlienOperatingBed
+ Include_17=edid|Recipe_Workshop_Container_StashBox_Zetan
+ Include_18=edid|Recipe_Workshop_FloorDecor_Asteroid
+ Include_19=edid|Recipe_Workshop_HumanMaleTube
+ Include_20=edid|Recipe_Workshop_HumanFemaleTube
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#plan|plan_mothman|plan_year_twenty_four|plan_quarter_three#
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|E07A_Recipe_Headwear_BoneChillSkullMask
+ Include_1=edid|E07A_Recipe_Headwear_HammeredSkullMask
+ Include_2=edid|E07A_Recipe_Headwear_CrudeSkullMask
+ Include_3=edid|E07A_Recipe_Workshop_Displays_MothsOfWestVirginiaCabinet
+ Include_4=edid|E07A_Recipe_Tinkers_Souvenir_Moths_LunaMoth
+ Include_5=edid|E07A_Recipe_Tinkers_Souvenir_Moths_VirginiaCreeper
+ Include_6=edid|E07A_Recipe_Tinkers_Souvenir_Moths_IoMoth
+ Include_7=edid|E07A_Recipe_Tinkers_Souvenir_Moths_AmericanDaggerMoth
+ Include_8=edid|E07A_Recipe_Tinkers_Souvenir_Moths_BeautifulWoodNymphMoth
+ Include_9=edid|E07A_Recipe_Tinkers_Souvenir_Moths_GiantLeopardMoth
+ Include_10=edid|E07A_Recipe_Workshop_Displays_MothsOfWestVirginiaBoard
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#plan|plan_mothman|plan_year_twenty_four#
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|E07A_Recipe_workshop_FloorDecor_MothVFX
+ Include_1=edid|E07A_Recipe_Headwear_CultistNeophyte
+ Include_2=edid|E07A_Recipe_Headwear_CultistIncarnateHelmet
+ Include_3=edid|E07A_Recipe_Clothes_CultistAdept
+ Include_4=edid|E07A_Recipe_Clothes_CultistEnlightened
+ Include_5=edid|E07A_Recipe_Headwear_CultistEventide
+ Include_6=edid|E07A_Recipe_Clothes_CultistEventide
+ Include_7=edid|E07A_Recipe_Headwear_CultistAdept
+ Include_8=edid|E07A_Recipe_Headwear_CultistEnlightened
+ Include_9=edid|E07A_Recipe_WallDecor_DriedFLowers
+ Include_10=edid|E07A_Recipe_Clothes_CultistNeophyte
+ Include_11=edid|E07A_recipe_Workshop_Incense_MothmanCultist
+ Include_12=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_GreenMothman
+ Include_13=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_BlueMothman
+ Include_14=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_RedMothman
+ Include_15=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_BrownMothman
+ Include_16=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_MothmanGlobe
+ Include_17=edid|E07A_Recipe_Plushie_FuzzyMothman
+ Include_18=edid|Recipe_Workshop_FloorDecor_Mothman_EnlightenedLantern
+ Include_19=edid|E07A_Mothman_Bugzapper_Mothman
+ Include_20=edid|E07A_Recipe_Furniture_SacredMothmanTome
+ Include_21=edid|Recipe_mod_Chainsaw_Paint_Skeptikill
+ Include_22=edid|E07A_Recipe_Plushie_FuzzyEnlightened
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#plan|plan_mothman#
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|E07A_Mothman_WiseMothman_Throne
+ Include_1=edid|E07A_Recipe_Backpack_Standard_Material_Cultist
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#plan|plan_empty#
  rSig=BOOK
  fSig=FULL
