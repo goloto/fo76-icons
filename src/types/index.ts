@@ -6,7 +6,6 @@ import type {
   ICON_CURRENCY,
   ICON_EVENTS,
   ICON_FOOD,
-  ICON_HOLOTAPES,
   ICON_KEYS,
   ICON_LEGENDARY_EFFECTS,
   ICON_MISC,
@@ -32,7 +31,6 @@ export type IconNames =
   | ICON_MISC
   | ICON_KEYS
   | ICON_NOTES
-  | ICON_HOLOTAPES
   | ICON_AMMO
   | ICON_AID
   | ICON_FOOD

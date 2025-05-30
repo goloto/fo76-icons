@@ -2592,60 +2592,6 @@
 [EndRule]
 
 [StartRule]
- Header=#silo_tape#
- rSig=NOTE
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|SiloStateTape
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#holotape#
- rSig=NOTE
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=-1
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#holotape#
- rSig=NOTE
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|Storm_MQ03_OberlinsHolotape
- Exclude_0=
-[EndRule]
-
-[StartRule]
  Header=#access_card#
  rSig=KEYM
  fSig=FULL
@@ -3802,6 +3748,24 @@
 [EndRule]
 
 [StartRule]
+ Header=#silo_tape#
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|SiloStateTape
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#plan#
  rSig=BOOK
  fSig=FULL
@@ -3854,6 +3818,42 @@
  Include_0=
  Exclude_0=ekwd|ObjectTypeRecipe
  Exclude_1=ekwd|MagazineKeyword
+[EndRule]
+
+[StartRule]
+ Header=#holotape#
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=-1
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#holotape#
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Storm_MQ03_OberlinsHolotape
+ Exclude_0=
 [EndRule]
 
 [StartRule]

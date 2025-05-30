@@ -1,4 +1,4 @@
-import { ICON_AID, ICON_AMMO, ICON_APPAREL, ICON_ARMOR, ICON_CURRENCY, ICON_EVENTS, ICON_FOOD, ICON_HOLOTAPES, ICON_KEYS, ICON_LEGENDARY_EFFECTS, ICON_MISC, ICON_NOTES, ICON_WEAPONS } from "@/generated/icons-enum";
+import { ICON_AID, ICON_AMMO, ICON_APPAREL, ICON_ARMOR, ICON_CURRENCY, ICON_EVENTS, ICON_FOOD, ICON_KEYS, ICON_LEGENDARY_EFFECTS, ICON_MISC, ICON_NOTES, ICON_WEAPONS } from "@/generated/icons-enum";
 import type { Icon } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
 export const ICONS = [
@@ -283,33 +283,33 @@ export const ICONS = [
         charCode: '0x229c'
     },
     {
-        name: ICON_NOTES.Plan,
+        name: ICON_NOTES.SiloTape,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x229d'
     },
     {
-        name: ICON_NOTES.TreasureMap,
+        name: ICON_NOTES.Plan,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x229e'
     },
     {
-        name: ICON_NOTES.Note,
+        name: ICON_NOTES.TreasureMap,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x229f'
     },
     {
-        name: ICON_NOTES.Check,
+        name: ICON_NOTES.Note,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22a0'
     },
     {
-        name: ICON_HOLOTAPES.SiloTape,
-        category: ICON_CATEGORIES.Holotapes,
+        name: ICON_NOTES.Holotape,
+        category: ICON_CATEGORIES.Notes,
         charCode: '0x22a1'
     },
     {
-        name: ICON_HOLOTAPES.Holotape,
-        category: ICON_CATEGORIES.Holotapes,
+        name: ICON_NOTES.Check,
+        category: ICON_CATEGORIES.Notes,
         charCode: '0x22a2'
     },
     {

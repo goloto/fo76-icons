@@ -2592,60 +2592,6 @@
 [EndRule]
 
 [StartRule]
- Header=⊡
- rSig=NOTE
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|SiloStateTape
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⊢
- rSig=NOTE
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=-1
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⊢
- rSig=NOTE
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|Storm_MQ03_OberlinsHolotape
- Exclude_0=
-[EndRule]
-
-[StartRule]
  Header=⊛
  rSig=KEYM
  fSig=FULL
@@ -3803,7 +3749,7 @@
 
 [StartRule]
  Header=⊝
- rSig=BOOK
+ rSig=NOTE
  fSig=FULL
  enabled=-1
  tagID=default
@@ -3815,7 +3761,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|ObjectTypeRecipe
+ Include_0=edid|SiloStateTape
  Exclude_0=
 [EndRule]
 
@@ -3833,12 +3779,30 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|TreasureMap
+ Include_0=ekwd|ObjectTypeRecipe
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=⊟
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|TreasureMap
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊠
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -3857,7 +3821,43 @@
 [EndRule]
 
 [StartRule]
- Header=⊠
+ Header=⊡
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=-1
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊡
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Storm_MQ03_OberlinsHolotape
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊢
  rSig=BOOK
  fSig=FULL
  enabled=-1

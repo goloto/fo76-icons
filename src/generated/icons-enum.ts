@@ -63,13 +63,11 @@ export enum ICON_KEYS {
 }
 export enum ICON_NOTES {
     Check = 'check',
+    Holotape = 'holotape',
     Note = 'note',
     Plan = 'plan',
+    SiloTape = 'silo_tape',
     TreasureMap = 'treasure_map'
-}
-export enum ICON_HOLOTAPES {
-    Holotape = 'holotape',
-    SiloTape = 'silo_tape'
 }
 export enum ICON_AMMO {
     Arrows = 'arrows',

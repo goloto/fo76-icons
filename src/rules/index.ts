@@ -4,7 +4,6 @@ export * from "./apparel";
 export * from "./armor";
 export * from "./currency";
 export * from "./food";
-export * from "./holotapes";
 export * from "./keys";
 export * from "./legendary-effects";
 export * from "./misc";

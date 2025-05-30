@@ -6,7 +6,6 @@ export enum ICON_CATEGORIES {
     Currency = 'currency',
     Events = 'events',
     Food = 'food',
-    Holotapes = 'holotapes',
     Index = 'index',
     Keys = 'keys',
     LegendaryEffects = 'legendary-effects',
