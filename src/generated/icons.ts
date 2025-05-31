@@ -353,12 +353,12 @@ export const ICONS = [
         charCode: '0x22aa'
     },
     {
-        name: ICON_NOTES.PlanQuarterFour,
+        name: ICON_NOTES.PlanQFour,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22ab'
     },
     {
-        name: ICON_NOTES.PlanQuarterThree,
+        name: ICON_NOTES.PlanQThree,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22ac'
     },

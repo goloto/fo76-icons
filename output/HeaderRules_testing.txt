@@ -3864,7 +3864,7 @@
 [EndRule]
 
 [StartRule]
- Header=#plan|plan_alien|plan_year_twenty_four|plan_quarter_four#
+ Header=#plan|plan_alien|plan_year_twenty_four|plan_q_four#
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -3951,7 +3951,7 @@
 [EndRule]
 
 [StartRule]
- Header=#plan|plan_mothman|plan_year_twenty_four|plan_quarter_three#
+ Header=#plan|plan_mothman|plan_year_twenty_four|plan_q_three#
  rSig=BOOK
  fSig=FULL
  enabled=-1

@@ -102,7 +102,7 @@ export const NOTES_RULES_GROUP = {
         },
         {
             order: 5,
-            prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanAlien, ICON_NOTES.PlanYearTwentyFour, ICON_NOTES.PlanQuarterFour],
+            prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanAlien, ICON_NOTES.PlanYearTwentyFour, ICON_NOTES.PlanQFour],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
             isInjected: false,
@@ -180,7 +180,7 @@ export const NOTES_RULES_GROUP = {
         },
         {
             order: 8,
-            prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanMothman, ICON_NOTES.PlanYearTwentyFour, ICON_NOTES.PlanQuarterThree],
+            prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanMothman, ICON_NOTES.PlanYearTwentyFour, ICON_NOTES.PlanQThree],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
             isInjected: false,
