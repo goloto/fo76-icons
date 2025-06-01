@@ -12,7 +12,7 @@ import type {
   ICON_UTILITY,
   ICON_WEAPONS,
 } from '../generated/icons-enum';
-import type { LeftSignature, RightSignature } from '../constants';
+import type { ERASER, LeftSignature, RightSignature } from '../constants';
 import type { ICON_CATEGORIES } from '@/generated/icon-categories-enum';
 
 export interface Icon {
@@ -21,11 +21,9 @@ export interface Icon {
   category: ICON_CATEGORIES;
 }
 
-export type ICON_COMMON = '_injected_innr_eraser';
-
 // TODO: generate this too
 export type IconNames =
-  | ICON_COMMON
+  | typeof ERASER
   | ICON_CURRENCY
   | ICON_LEGENDARY_EFFECTS
   | ICON_MISC

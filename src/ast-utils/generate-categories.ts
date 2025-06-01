@@ -16,6 +16,7 @@ export const generateCategories = async (): Promise<string> => {
   const categoryFiles = await readdir(RULES_DIRECTORY);
   const categories = categoryFiles
     .filter(filterOnlyTs)
+    .filter(filterIndex)
     .map(removeExtension)
     .sort();
   const enumMembers = categories.map((category) => {
@@ -37,4 +38,5 @@ export const generateCategories = async (): Promise<string> => {
 };
 
 const filterOnlyTs = (item: string) => item.includes('.ts');
+const filterIndex = (item: string) => item !== 'index.ts';
 const removeExtension = (item: string) => item.replace('.ts', '');

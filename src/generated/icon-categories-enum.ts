@@ -5,7 +5,6 @@ export enum ICON_CATEGORIES {
     Armor = 'armor',
     Currency = 'currency',
     Food = 'food',
-    Index = 'index',
     Keys = 'keys',
     LegendaryEffects = 'legendary-effects',
     Misc = 'misc',

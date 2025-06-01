@@ -1,5 +1,6 @@
 import type { IconNames } from '@/types';
 import { getNumFromHexadecimal } from './common';
+import { ERASER } from '@/constants';
 
 const HEADER_GENERATOR = (function* () {
   let start = getNumFromHexadecimal('2265');
@@ -11,7 +12,7 @@ const HEADER_GENERATOR = (function* () {
   }
 })();
 
-const ICON_NAME_MAP = new Map([['_injected_innr_eraser', '0x020']]);
+const ICON_NAME_MAP = new Map<IconNames, string>([[ERASER, '0x020']]);
 
 export const generateCharCode = (iconName: IconNames): string => {
   if (ICON_NAME_MAP.has(iconName)) {

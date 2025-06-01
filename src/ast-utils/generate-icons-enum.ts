@@ -1,5 +1,4 @@
-import { ICONS_DIRECTORY } from '@/constants';
-import { ICON_CATEGORIES_ORDER } from '@/constants/categories-order';
+import { ICONS_DIRECTORY, ICON_CATEGORIES_ORDER } from '@/constants';
 import { readdir } from 'node:fs/promises';
 import ts from 'typescript';
 

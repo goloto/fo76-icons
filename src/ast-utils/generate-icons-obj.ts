@@ -1,8 +1,8 @@
-import { ICON_CATEGORIES_ORDER } from '@/constants/categories-order';
+import { ICON_CATEGORIES_ORDER, GROUP_MAIN_ICONS_MAP } from '@/constants';
 import * as ALL_RULES from '@/rules';
 import * as ALL_ICON_ENUMS from '@/generated/icons-enum';
 import { ICON_CATEGORIES } from '@/generated/icon-categories-enum';
-import type { Icon, IconNames, RulesGroup } from '@/types';
+import type { Icon, IconNames, Rule, RulesGroup } from '@/types';
 import { getMaxLength } from '@/utils/get-max-length';
 import { generateCharCode } from '@/utils/generate-icon-char-code';
 import ts from 'typescript';
@@ -48,42 +48,48 @@ export const generateIconsObj = async (): Promise<string> => {
     <RulesGroup<IconNames>[]>[]
   );
 
-  const icons = sortedRuleGroups.reduce(
-    (accumulator, group) => {
-      const maxPrefixLength = getMaxLength(
-        group.rules
-          .filter((rule) => !!rule.prefix)
-          .map((rule) => rule.prefix as IconNames[])
-      );
-      const iconsArray: Icon[] = [];
-      const iconsMap: Set<IconNames> = new Set();
-
-      for (let index = 0; index < maxPrefixLength; index++) {
-        iconsArray.push(
-          ...group.rules
-            .map((rule) => rule.prefix?.[index])
-            .filter((prefix) => !!prefix)
-            .filter((prefix) => {
-              if (iconsMap.has(prefix)) {
-                return false;
-              }
-
-              iconsMap.add(prefix);
-
-              return true;
-            })
-            .map((prefix) => ({
-              name: prefix,
-              charCode: generateCharCode(prefix),
-              category: group.category,
-            }))
-        );
-      }
-
-      return [...accumulator, ...iconsArray];
-    },
-    <Icon[]>[]
+  // объединяем все правила для подсчёта максимальной длины префиксов
+  const concatenatedRules = sortedRuleGroups.reduce(
+    (accumulator, group) => [...accumulator, ...group.rules],
+    <Rule<IconNames>[]>[]
   );
+  const prefixesLength = getMaxLength(
+    concatenatedRules
+      .filter((rule) => !!rule.prefix)
+      .map((rule) => rule.prefix as IconNames[])
+  );
+  const uniqueIconsSet: Set<IconNames> = new Set();
+  const icons: Icon[] = [];
+
+  sortedRuleGroups.forEach((group) => {
+    for (let prefixIndex = 0; prefixIndex < prefixesLength; prefixIndex++) {
+      icons.push(
+        ...group.rules
+          .map((rule) => rule.prefix?.[prefixIndex])
+          .filter((prefix) => !!prefix)
+          .filter((prefix) => {
+            // фильтруем только основные для текущей категории иконки, игнорируя такие, как, к примеру, ICON_UTILITY
+            if (!GROUP_MAIN_ICONS_MAP[group.category].includes(prefix)) {
+              return false;
+            }
+
+            // проверяем, встречалась ли уже эта иконка
+            if (uniqueIconsSet.has(prefix)) {
+              return false;
+            }
+
+            uniqueIconsSet.add(prefix);
+
+            return true;
+          })
+          .map((prefix) => ({
+            name: prefix,
+            charCode: generateCharCode(prefix),
+            category: group.category,
+          }))
+      );
+    }
+  });
 
   const templateFile = await Bun.file(
     './src/generated/icons.template.ts'
