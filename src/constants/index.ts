@@ -1,4 +1,4 @@
-import type { IconNames, IncludeProperty, Rule } from '../types';
+import type { IncludeProperty } from '../types';
 
 export const OUTPUT_DIRECTORY = './output';
 export const INPUT_DIRECTORY = './input';

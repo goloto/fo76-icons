@@ -46,7 +46,7 @@ export const ICON_CATEGORIES_ORDER = [
         order: 10,
     },
     {
-        name: ICON_CATEGORIES.Events,
+        name: ICON_CATEGORIES.Utility,
         order: 11,
     }
 ] as const satisfies CategoryOrder[];

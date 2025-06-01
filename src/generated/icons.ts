@@ -1,4 +1,4 @@
-import { ICON_AID, ICON_AMMO, ICON_APPAREL, ICON_ARMOR, ICON_CURRENCY, ICON_EVENTS, ICON_FOOD, ICON_KEYS, ICON_LEGENDARY_EFFECTS, ICON_MISC, ICON_NOTES, ICON_WEAPONS } from "@/generated/icons-enum";
+import { ICON_AID, ICON_AMMO, ICON_APPAREL, ICON_ARMOR, ICON_CURRENCY, ICON_FOOD, ICON_KEYS, ICON_LEGENDARY_EFFECTS, ICON_MISC, ICON_NOTES, ICON_UTILITY, ICON_WEAPONS } from "@/generated/icons-enum";
 import type { Icon } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
 export const ICONS = [
@@ -453,7 +453,7 @@ export const ICONS = [
         charCode: '0x22be'
     },
     {
-        name: ICON_NOTES.PlanEmpty,
+        name: ICON_UTILITY.Empty,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22bf'
     },
@@ -1151,5 +1151,10 @@ export const ICONS = [
         name: ICON_WEAPONS.Camera,
         category: ICON_CATEGORIES.Weapons,
         charCode: '0x234a'
+    },
+    {
+        name: ICON_UTILITY.Empty,
+        category: ICON_CATEGORIES.Utility,
+        charCode: '0x22bf'
     }
 ] as const satisfies Icon[];

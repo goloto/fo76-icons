@@ -1,4 +1,4 @@
-import { ICON_NOTES } from "@/generated/icons-enum";
+import { ICON_NOTES, ICON_UTILITY } from "@/generated/icons-enum";
 import { LeftSignature, RightSignature } from "@/constants";
 import type { RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
@@ -95,6 +95,9 @@ export const NOTES_RULES_GROUP = {
                 "edid|Recipe_Weapon_Ranged_GatlingPlasma_Muzzle_Fast",
                 "edid|recipe_Armor_PowerArmor_T60_Helmet",
                 "edid|recipe_mod_armor_UnderArmor_Casual_Mk5",
+                // vendorbots
+                "edid|Recipe_Workshop_WallDecor_WallClocks_Cuckoo",
+                "edid|Recipe_Workshop_WallDecor_WallClocks_NukaCola"
             ],
             exclude: [],
         },
@@ -1283,7 +1286,7 @@ export const NOTES_RULES_GROUP = {
         },
         {
             order: 38,
-            prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanEmpty],
+            prefix: [ICON_NOTES.Plan, ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
             isInjected: false,
@@ -1361,4 +1364,4 @@ export const NOTES_RULES_GROUP = {
             translationReplacing: ["$Known", "$KNOWN"],
         }
     ],
-} as const satisfies RulesGroup<ICON_NOTES>;
+} as const satisfies RulesGroup<ICON_NOTES | ICON_UTILITY>;

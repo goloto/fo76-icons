@@ -4,12 +4,12 @@ import type {
   ICON_APPAREL,
   ICON_ARMOR,
   ICON_CURRENCY,
-  ICON_EVENTS,
   ICON_FOOD,
   ICON_KEYS,
   ICON_LEGENDARY_EFFECTS,
   ICON_MISC,
   ICON_NOTES,
+  ICON_UTILITY,
   ICON_WEAPONS,
 } from '../generated/icons-enum';
 import type { LeftSignature, RightSignature } from '../constants';
@@ -37,7 +37,7 @@ export type IconNames =
   | ICON_APPAREL
   | ICON_ARMOR
   | ICON_WEAPONS
-  | ICON_EVENTS;
+  | ICON_UTILITY;
 
 export type IncludeProperty = `edid|${string}` | `ekwd|${string}`;
 

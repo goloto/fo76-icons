@@ -74,7 +74,6 @@ export enum ICON_NOTES {
     PlanCampfireTales = 'plan_campfire_tales',
     PlanColossalProblem = 'plan_colossal_problem',
     PlanDangerousPastimes = 'plan_dangerous_pastimes',
-    PlanEmpty = 'plan_empty',
     PlanFasnacht = 'plan_fasnacht',
     PlanGift = 'plan_gift',
     PlanGrahm = 'plan_grahm',
@@ -254,14 +253,6 @@ export enum ICON_WEAPONS {
     Throwing = 'throwing',
     Unique = 'unique'
 }
-export enum ICON_EVENTS {
-    BeastOfBurden = 'beast_of_burden',
-    DailyOps = 'daily_ops',
-    EvictionNotice = 'eviction_notice',
-    Fasnacht = 'fasnacht',
-    MeetWeek = 'meet_week',
-    MoonshineJamboree = 'moonshine_jamboree',
-    MostWanted = 'most_wanted',
-    MothmanEquinox = 'mothman_equinox',
-    SafeAndSound = 'safe_and_sound'
+export enum ICON_UTILITY {
+    Empty = 'empty'
 }

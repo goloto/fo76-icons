@@ -5110,7 +5110,7 @@
 [EndRule]
 
 [StartRule]
- Header=#plan|plan_empty#
+ Header=#plan|empty#
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -5215,6 +5215,24 @@
  isFallBack=0
  fallbackBank=0
  Include_0=
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#empty#
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|absolutely_not_existed_edid
  Exclude_0=
 [EndRule]
 
