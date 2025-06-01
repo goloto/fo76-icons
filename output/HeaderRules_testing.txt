@@ -4156,7 +4156,7 @@
 [EndRule]
 
 [StartRule]
- Header=#plan|plan_ogua#
+ Header=#plan|#
  rSig=BOOK
  fSig=FULL
  enabled=-1

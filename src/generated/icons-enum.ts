@@ -83,6 +83,7 @@ export enum ICON_NOTES {
     PlanMothman = 'plan_mothman',
     PlanNeurologicalWarfare = 'plan_neurological_warfare',
     PlanNukaWorld = 'plan_nuka_world',
+    PlanOgua = 'plan_ogua',
     PlanOperations = 'plan_operations',
     PlanPitt = 'plan_pitt',
     PlanQFour = 'plan_q_four',
