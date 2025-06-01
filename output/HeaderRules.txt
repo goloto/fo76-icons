@@ -643,7 +643,26 @@
 [EndRule]
 
 [StartRule]
- Header=⌊
+ Header=⌊⍊
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Headwear_EnclaveScoutUniform_Mask_Urban
+ Include_1=edid|Headwear_EnclaveScoutUniform_Mask_Forest
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌊⍋
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -999,7 +1018,25 @@
 [EndRule]
 
 [StartRule]
- Header=⌚
+ Header=⌚⍊
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Clothes_AsylumWorkerUniformRed
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌚⍋
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1078,7 +1115,27 @@
 [EndRule]
 
 [StartRule]
- Header=⌞
+ Header=⌞⍊
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Clothes_Raider_Suit_01_GlovesB
+ Include_1=edid|Clothes_Raider_Suit_02A_GlovesC
+ Include_2=edid|Clothes_Raider_Suit_02B_GlovesC
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌞⍋
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1173,7 +1230,25 @@
 [EndRule]
 
 [StartRule]
- Header=⌢
+ Header=⌢⍊
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Headwear_Responders_FiremanHat
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌢⍋
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1191,7 +1266,28 @@
 [EndRule]
 
 [StartRule]
- Header=⌣
+ Header=⌣⍊
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Clothes_Jumpsuit_WhitePowder
+ Include_1=edid|Clothes_Jumpsuit_BOS
+ Include_2=edid|Clothes_Responders_FiremanUniform
+ Include_3=edid|Clothes_Jumpsuit_ForestCamo
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌣⍋
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1213,7 +1309,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌣
+ Header=⌣⍋
  rSig=ARMO
  fSig=FULL
  enabled=-1
