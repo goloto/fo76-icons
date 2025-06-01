@@ -74,6 +74,7 @@ export enum ICON_NOTES {
     PlanCampfireTales = 'plan_campfire_tales',
     PlanColossalProblem = 'plan_colossal_problem',
     PlanDangerousPastimes = 'plan_dangerous_pastimes',
+    PlanEncryptid = 'plan_encryptid',
     PlanFasnacht = 'plan_fasnacht',
     PlanGift = 'plan_gift',
     PlanGrahm = 'plan_grahm',
@@ -91,7 +92,6 @@ export enum ICON_NOTES {
     PlanQOne = 'plan_q_one',
     PlanQThree = 'plan_q_three',
     PlanQTwo = 'plan_q_two',
-    PlanRare = 'plan_rare',
     PlanRidingShotgun = 'plan_riding_shotgun',
     PlanScorchedEarth = 'plan_scorched_earth',
     PlanSeismicActivity = 'plan_seismic_activity',
@@ -254,5 +254,6 @@ export enum ICON_WEAPONS {
     Unique = 'unique'
 }
 export enum ICON_UTILITY {
-    Empty = 'empty'
+    Empty = 'empty',
+    Expensive = 'expensive'
 }

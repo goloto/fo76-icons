@@ -1,6 +1,6 @@
 import { ICON_LEGENDARY_EFFECTS } from "@/generated/icons-enum";
-import { BROADSIDER_RULE, LeftSignature, POWER_ARMOR_EFFECTS, REVOLVER_RULE, RightSignature } from "@/constants";
-import type { ICON_COMMON, IncludeProperty, RulesGroup } from "@/types";
+import { BROADSIDER_RULE, ERASER, LeftSignature, POWER_ARMOR_EFFECTS, REVOLVER_RULE, RightSignature } from "@/constants";
+import type { IncludeProperty, RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
 const unyieldingRules = [
     "ekwd|HasLegendary_Weapon_Steady",
@@ -563,7 +563,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
         },
         {
             order: 34,
-            prefix: ["_injected_innr_eraser"],
+            prefix: [ERASER],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
             isInjected: true,
@@ -619,7 +619,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
         },
         {
             order: 35,
-            prefix: ["_injected_innr_eraser"],
+            prefix: [ERASER],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
             isInjected: true,
@@ -644,4 +644,4 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [BROADSIDER_RULE],
         }
     ],
-} as const satisfies RulesGroup<ICON_LEGENDARY_EFFECTS | ICON_COMMON>;
+} as const satisfies RulesGroup<ICON_LEGENDARY_EFFECTS | typeof ERASER>;

@@ -313,92 +313,92 @@ export const ICONS = [
         charCode: '0x22a2'
     },
     {
-        name: ICON_NOTES.PlanRare,
+        name: ICON_NOTES.PlanBigFish,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22a3'
     },
     {
-        name: ICON_NOTES.PlanBigFish,
+        name: ICON_NOTES.PlanGrahm,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22a4'
     },
     {
-        name: ICON_NOTES.PlanGrahm,
+        name: ICON_NOTES.PlanGift,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22a5'
     },
     {
-        name: ICON_NOTES.PlanGift,
+        name: ICON_NOTES.PlanBigBloom,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22a6'
     },
     {
-        name: ICON_NOTES.PlanBigBloom,
+        name: ICON_NOTES.PlanTreasureHunt,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22a7'
     },
     {
-        name: ICON_NOTES.PlanTreasureHunt,
+        name: ICON_NOTES.PlanMischiefNight,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22a8'
     },
     {
-        name: ICON_NOTES.PlanMischiefNight,
+        name: ICON_NOTES.PlanFasnacht,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22a9'
     },
     {
-        name: ICON_NOTES.PlanFasnacht,
+        name: ICON_NOTES.PlanMeatWeek,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22aa'
     },
     {
-        name: ICON_NOTES.PlanMeatWeek,
+        name: ICON_NOTES.PlanAlien,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22ab'
     },
     {
-        name: ICON_NOTES.PlanAlien,
+        name: ICON_NOTES.PlanMothman,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22ac'
     },
     {
-        name: ICON_NOTES.PlanMothman,
+        name: ICON_NOTES.PlanOperations,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22ad'
     },
     {
-        name: ICON_NOTES.PlanOperations,
+        name: ICON_NOTES.PlanNeurologicalWarfare,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22ae'
     },
     {
-        name: ICON_NOTES.PlanNeurologicalWarfare,
+        name: ICON_NOTES.PlanSeismicActivity,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22af'
     },
     {
-        name: ICON_NOTES.PlanSeismicActivity,
+        name: ICON_NOTES.PlanColossalProblem,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22b0'
     },
     {
-        name: ICON_NOTES.PlanColossalProblem,
+        name: ICON_NOTES.PlanScorchedEarth,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22b1'
     },
     {
-        name: ICON_NOTES.PlanScorchedEarth,
+        name: ICON_NOTES.PlanRidingShotgun,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22b2'
     },
     {
-        name: ICON_NOTES.PlanRidingShotgun,
+        name: ICON_NOTES.PlanDangerousPastimes,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22b3'
     },
     {
-        name: ICON_NOTES.PlanDangerousPastimes,
+        name: ICON_NOTES.PlanEncryptid,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22b4'
     },
@@ -453,708 +453,708 @@ export const ICONS = [
         charCode: '0x22be'
     },
     {
-        name: ICON_UTILITY.Empty,
+        name: ICON_NOTES.PlanYearTwentyThree,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22bf'
     },
     {
-        name: ICON_NOTES.PlanYearTwentyThree,
+        name: ICON_NOTES.PlanYearTwenty,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22c0'
     },
     {
-        name: ICON_NOTES.PlanYearTwenty,
+        name: ICON_NOTES.PlanYearTwentyOne,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22c1'
     },
     {
-        name: ICON_NOTES.PlanYearTwentyOne,
+        name: ICON_NOTES.PlanYearTwentyFour,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22c2'
     },
     {
-        name: ICON_NOTES.PlanYearTwentyFour,
+        name: ICON_NOTES.PlanYearTwentyFive,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22c3'
     },
     {
-        name: ICON_NOTES.PlanYearTwentyFive,
+        name: ICON_NOTES.PlanQFour,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22c4'
     },
     {
-        name: ICON_NOTES.PlanQFour,
+        name: ICON_NOTES.PlanQThree,
         category: ICON_CATEGORIES.Notes,
         charCode: '0x22c5'
     },
     {
-        name: ICON_NOTES.PlanQThree,
-        category: ICON_CATEGORIES.Notes,
-        charCode: '0x22c6'
-    },
-    {
         name: ICON_AMMO.MiniNuke,
         category: ICON_CATEGORIES.Ammo,
-        charCode: '0x22c7'
+        charCode: '0x22c6'
     },
     {
         name: ICON_AMMO.FusionCore,
         category: ICON_CATEGORIES.Ammo,
-        charCode: '0x22c8'
+        charCode: '0x22c7'
     },
     {
         name: ICON_AMMO.Rocket,
         category: ICON_CATEGORIES.Ammo,
-        charCode: '0x22c9'
+        charCode: '0x22c8'
     },
     {
         name: ICON_AMMO.FortyMmGrenade,
         category: ICON_CATEGORIES.Ammo,
-        charCode: '0x22ca'
+        charCode: '0x22c9'
     },
     {
         name: ICON_AMMO.Fuel,
         category: ICON_CATEGORIES.Ammo,
-        charCode: '0x22cb'
+        charCode: '0x22ca'
     },
     {
         name: ICON_AMMO.FusionCell,
         category: ICON_CATEGORIES.Ammo,
-        charCode: '0x22cc'
+        charCode: '0x22cb'
     },
     {
         name: ICON_AMMO.NukaColaAmmo,
         category: ICON_CATEGORIES.Ammo,
-        charCode: '0x22cd'
+        charCode: '0x22cc'
     },
     {
         name: ICON_AMMO.Arrows,
         category: ICON_CATEGORIES.Ammo,
-        charCode: '0x22ce'
+        charCode: '0x22cd'
     },
     {
         name: ICON_AMMO.CameraFilm,
         category: ICON_CATEGORIES.Ammo,
-        charCode: '0x22cf'
+        charCode: '0x22ce'
     },
     {
         name: ICON_AMMO.BallisticAmmo,
         category: ICON_CATEGORIES.Ammo,
-        charCode: '0x22d0'
+        charCode: '0x22cf'
     },
     {
         name: ICON_AID.Lunchbox,
         category: ICON_CATEGORIES.Aid,
-        charCode: '0x22d1'
+        charCode: '0x22d0'
     },
     {
         name: ICON_AID.Scout,
         category: ICON_CATEGORIES.Aid,
-        charCode: '0x22d2'
+        charCode: '0x22d1'
     },
     {
         name: ICON_AID.MutantedPackage,
         category: ICON_CATEGORIES.Aid,
-        charCode: '0x22d3'
+        charCode: '0x22d2'
     },
     {
         name: ICON_AID.TreasureHuntChest,
         category: ICON_CATEGORIES.Aid,
-        charCode: '0x22d4'
+        charCode: '0x22d3'
     },
     {
         name: ICON_AID.HolidayGift,
         category: ICON_CATEGORIES.Aid,
-        charCode: '0x22d5'
+        charCode: '0x22d4'
     },
     {
         name: ICON_AID.SpookyBag,
         category: ICON_CATEGORIES.Aid,
-        charCode: '0x22d6'
+        charCode: '0x22d5'
     },
     {
         name: ICON_AID.Stimpak,
         category: ICON_CATEGORIES.Aid,
-        charCode: '0x22d7'
+        charCode: '0x22d6'
     },
     {
         name: ICON_AID.Radaway,
         category: ICON_CATEGORIES.Aid,
-        charCode: '0x22d8'
+        charCode: '0x22d7'
     },
     {
         name: ICON_AID.Drugs,
         category: ICON_CATEGORIES.Aid,
-        charCode: '0x22d9'
+        charCode: '0x22d8'
     },
     {
         name: ICON_AID.Stealthboy,
         category: ICON_CATEGORIES.Aid,
-        charCode: '0x22da'
+        charCode: '0x22d9'
     },
     {
         name: ICON_AID.BloodPack,
         category: ICON_CATEGORIES.Aid,
-        charCode: '0x22db'
+        charCode: '0x22da'
     },
     {
         name: ICON_AID.MutationSerum,
         category: ICON_CATEGORIES.Aid,
-        charCode: '0x22dc'
+        charCode: '0x22db'
     },
     {
         name: ICON_AID.FluxAid,
         category: ICON_CATEGORIES.Aid,
-        charCode: '0x22dd'
+        charCode: '0x22dc'
     },
     {
         name: ICON_AID.MysteryBox,
         category: ICON_CATEGORIES.Aid,
-        charCode: '0x22de'
+        charCode: '0x22dd'
     },
     {
         name: ICON_AID.Magazine,
         category: ICON_CATEGORIES.Aid,
-        charCode: '0x22df'
+        charCode: '0x22de'
     },
     {
         name: ICON_AID.Bobblehead,
         category: ICON_CATEGORIES.Aid,
-        charCode: '0x22e0'
+        charCode: '0x22df'
     },
     {
         name: ICON_FOOD.BottleOfWater,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22e1'
+        charCode: '0x22e0'
     },
     {
         name: ICON_FOOD.DirtyWater,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22e2'
+        charCode: '0x22e1'
     },
     {
         name: ICON_FOOD.NukaCola,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22e3'
+        charCode: '0x22e2'
     },
     {
         name: ICON_FOOD.WeightIncreaser,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22e4'
+        charCode: '0x22e3'
     },
     {
         name: ICON_FOOD.Beer,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22e5'
+        charCode: '0x22e4'
     },
     {
         name: ICON_FOOD.Wine,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22e6'
+        charCode: '0x22e5'
     },
     {
         name: ICON_FOOD.Whiskey,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22e7'
+        charCode: '0x22e6'
     },
     {
         name: ICON_FOOD.FermentedAlcohol,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22e8'
+        charCode: '0x22e7'
     },
     {
         name: ICON_FOOD.Juice,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22e9'
+        charCode: '0x22e8'
     },
     {
         name: ICON_FOOD.Tea,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22ea'
+        charCode: '0x22e9'
     },
     {
         name: ICON_FOOD.Milk,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22eb'
+        charCode: '0x22ea'
     },
     {
         name: ICON_FOOD.SaladCanned,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22ec'
+        charCode: '0x22eb'
     },
     {
         name: ICON_FOOD.Salad,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22ed'
+        charCode: '0x22ec'
     },
     {
         name: ICON_FOOD.Soup,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22ee'
+        charCode: '0x22ed'
     },
     {
         name: ICON_FOOD.Cake,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22ef'
+        charCode: '0x22ee'
     },
     {
         name: ICON_FOOD.Candy,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22f0'
+        charCode: '0x22ef'
     },
     {
         name: ICON_FOOD.CannedFood,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22f1'
+        charCode: '0x22f0'
     },
     {
         name: ICON_FOOD.Bubblegum,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22f2'
+        charCode: '0x22f1'
     },
     {
         name: ICON_FOOD.MeatCanned,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22f3'
+        charCode: '0x22f2'
     },
     {
         name: ICON_FOOD.MeatSoup,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22f4'
+        charCode: '0x22f3'
     },
     {
         name: ICON_FOOD.MeatCooked,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22f5'
+        charCode: '0x22f4'
     },
     {
         name: ICON_FOOD.MeatRaw,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22f6'
+        charCode: '0x22f5'
     },
     {
         name: ICON_FOOD.FishLegend,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22f7'
+        charCode: '0x22f6'
     },
     {
         name: ICON_FOOD.FishAxolotl,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22f8'
+        charCode: '0x22f7'
     },
     {
         name: ICON_FOOD.FishGlowing,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22f9'
+        charCode: '0x22f8'
     },
     {
         name: ICON_FOOD.FishUncommon,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22fa'
+        charCode: '0x22f9'
     },
     {
         name: ICON_FOOD.FishCommon,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22fb'
+        charCode: '0x22fa'
     },
     {
         name: ICON_FOOD.FishGeneric,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22fc'
+        charCode: '0x22fb'
     },
     {
         name: ICON_FOOD.PetFood,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22fd'
+        charCode: '0x22fc'
     },
     {
         name: ICON_FOOD.Eggs,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22fe'
+        charCode: '0x22fd'
     },
     {
         name: ICON_FOOD.Liquid,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x22ff'
+        charCode: '0x22fe'
     },
     {
         name: ICON_FOOD.Berries,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x2300'
+        charCode: '0x22ff'
     },
     {
         name: ICON_FOOD.Vegetable,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x2301'
+        charCode: '0x2300'
     },
     {
         name: ICON_FOOD.Flowers,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x2302'
+        charCode: '0x2301'
     },
     {
         name: ICON_FOOD.Mushrooms,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x2303'
+        charCode: '0x2302'
     },
     {
         name: ICON_FOOD.Honey,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x2304'
+        charCode: '0x2303'
     },
     {
         name: ICON_FOOD.Flavor,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x2305'
+        charCode: '0x2304'
     },
     {
         name: ICON_FOOD.Toxic,
         category: ICON_CATEGORIES.Food,
-        charCode: '0x2306'
+        charCode: '0x2305'
     },
     {
         name: ICON_APPAREL.Backpack,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x2307'
+        charCode: '0x2306'
     },
     {
         name: ICON_APPAREL.Underarmor,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x2308'
+        charCode: '0x2307'
     },
     {
         name: ICON_APPAREL.Glasses,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x2309'
+        charCode: '0x2308'
     },
     {
         name: ICON_APPAREL.FasnachtMask,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x230a'
+        charCode: '0x2309'
     },
     {
         name: ICON_APPAREL.Mask,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x230b'
+        charCode: '0x230a'
     },
     {
         name: ICON_APPAREL.HalloweenHat,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x230c'
+        charCode: '0x230b'
     },
     {
         name: ICON_APPAREL.FlowerCrown,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x230d'
+        charCode: '0x230c'
     },
     {
         name: ICON_APPAREL.CultistHood,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x230e'
+        charCode: '0x230d'
     },
     {
         name: ICON_APPAREL.GasMask,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x230f'
+        charCode: '0x230e'
     },
     {
         name: ICON_APPAREL.Helmet,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x2310'
+        charCode: '0x230f'
     },
     {
         name: ICON_APPAREL.SpacesuitHat,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x2311'
+        charCode: '0x2310'
     },
     {
         name: ICON_APPAREL.SpacesuitClothing,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x2312'
+        charCode: '0x2311'
     },
     {
         name: ICON_APPAREL.CowboyHat,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x2313'
+        charCode: '0x2312'
     },
     {
         name: ICON_APPAREL.CowboyClothing,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x2314'
+        charCode: '0x2313'
     },
     {
         name: ICON_APPAREL.WinterHat,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x2315'
+        charCode: '0x2314'
     },
     {
         name: ICON_APPAREL.WinterJacket,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x2316'
+        charCode: '0x2315'
     },
     {
         name: ICON_APPAREL.FishingHat,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x2317'
+        charCode: '0x2316'
     },
     {
         name: ICON_APPAREL.FishingOutfit,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x2318'
+        charCode: '0x2317'
     },
     {
         name: ICON_APPAREL.MilitaryHat,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x2319'
+        charCode: '0x2318'
     },
     {
         name: ICON_APPAREL.MilitaryClothing,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x231a'
+        charCode: '0x2319'
     },
     {
         name: ICON_APPAREL.Asylum,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x231b'
+        charCode: '0x231a'
     },
     {
         name: ICON_APPAREL.HolidayCostume,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x231c'
+        charCode: '0x231b'
     },
     {
         name: ICON_APPAREL.Suit,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x231d'
+        charCode: '0x231c'
     },
     {
         name: ICON_APPAREL.Dress,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x231e'
+        charCode: '0x231d'
     },
     {
         name: ICON_APPAREL.RaiderClothing,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x231f'
+        charCode: '0x231e'
     },
     {
         name: ICON_APPAREL.Sleepwear,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x2320'
+        charCode: '0x231f'
     },
     {
         name: ICON_APPAREL.Swimsuit,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x2321'
+        charCode: '0x2320'
     },
     {
         name: ICON_APPAREL.HazmatSuit,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x2322'
+        charCode: '0x2321'
     },
     {
         name: ICON_APPAREL.DefaultHat,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x2323'
+        charCode: '0x2322'
     },
     {
         name: ICON_APPAREL.DefaultClothing,
         category: ICON_CATEGORIES.Apparel,
-        charCode: '0x2324'
+        charCode: '0x2323'
     },
     {
         name: ICON_ARMOR.PowerArmorHelmet,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x2325'
+        charCode: '0x2324'
     },
     {
         name: ICON_ARMOR.Vulcan,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x2326'
+        charCode: '0x2325'
     },
     {
         name: ICON_ARMOR.Excavator,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x2327'
+        charCode: '0x2326'
     },
     {
         name: ICON_ARMOR.UnionPa,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x2328'
+        charCode: '0x2327'
     },
     {
         name: ICON_ARMOR.VNinetyFour,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x2329'
+        charCode: '0x2328'
     },
     {
         name: ICON_ARMOR.Hellcat,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x232a'
+        charCode: '0x2329'
     },
     {
         name: ICON_ARMOR.Ultracite,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x232b'
+        charCode: '0x232a'
     },
     {
         name: ICON_ARMOR.Raider,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x232c'
+        charCode: '0x232b'
     },
     {
         name: ICON_ARMOR.TFortyFive,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x232d'
+        charCode: '0x232c'
     },
     {
         name: ICON_ARMOR.TFiftyOne,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x232e'
+        charCode: '0x232d'
     },
     {
         name: ICON_ARMOR.TSixty,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x232f'
+        charCode: '0x232e'
     },
     {
         name: ICON_ARMOR.TSixtyFive,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x2330'
+        charCode: '0x232f'
     },
     {
         name: ICON_ARMOR.XOne,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x2331'
+        charCode: '0x2330'
     },
     {
         name: ICON_ARMOR.ChestArmor,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x2332'
+        charCode: '0x2331'
     },
     {
         name: ICON_ARMOR.ArmorRightArm,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x2333'
+        charCode: '0x2332'
     },
     {
         name: ICON_ARMOR.ArmorLeftArm,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x2334'
+        charCode: '0x2333'
     },
     {
         name: ICON_ARMOR.ArmorRightLeg,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x2335'
+        charCode: '0x2334'
     },
     {
         name: ICON_ARMOR.ArmorLeftLeg,
         category: ICON_CATEGORIES.Armor,
-        charCode: '0x2336'
+        charCode: '0x2335'
     },
     {
         name: ICON_WEAPONS.Throwing,
         category: ICON_CATEGORIES.Weapons,
-        charCode: '0x2337'
+        charCode: '0x2336'
     },
     {
         name: ICON_WEAPONS.Mine,
         category: ICON_CATEGORIES.Weapons,
-        charCode: '0x2338'
+        charCode: '0x2337'
     },
     {
         name: ICON_WEAPONS.Unique,
         category: ICON_CATEGORIES.Weapons,
-        charCode: '0x2339'
+        charCode: '0x2338'
     },
     {
         name: ICON_WEAPONS.HeavyEnergy,
         category: ICON_CATEGORIES.Weapons,
-        charCode: '0x233a'
+        charCode: '0x2339'
     },
     {
         name: ICON_WEAPONS.Heavy,
         category: ICON_CATEGORIES.Weapons,
-        charCode: '0x233b'
+        charCode: '0x233a'
     },
     {
         name: ICON_WEAPONS.RifleEnergy,
         category: ICON_CATEGORIES.Weapons,
-        charCode: '0x233c'
+        charCode: '0x233b'
     },
     {
         name: ICON_WEAPONS.Rifle,
         category: ICON_CATEGORIES.Weapons,
-        charCode: '0x233d'
+        charCode: '0x233c'
     },
     {
         name: ICON_WEAPONS.PistolEnergy,
         category: ICON_CATEGORIES.Weapons,
-        charCode: '0x233e'
+        charCode: '0x233d'
     },
     {
         name: ICON_WEAPONS.Pistol,
         category: ICON_CATEGORIES.Weapons,
-        charCode: '0x233f'
+        charCode: '0x233e'
     },
     {
         name: ICON_WEAPONS.Crossbow,
         category: ICON_CATEGORIES.Weapons,
-        charCode: '0x2340'
+        charCode: '0x233f'
     },
     {
         name: ICON_WEAPONS.ShotgunEnergy,
         category: ICON_CATEGORIES.Weapons,
-        charCode: '0x2341'
+        charCode: '0x2340'
     },
     {
         name: ICON_WEAPONS.Shotgun,
         category: ICON_CATEGORIES.Weapons,
-        charCode: '0x2342'
+        charCode: '0x2341'
     },
     {
         name: ICON_WEAPONS.Explosive,
         category: ICON_CATEGORIES.Weapons,
-        charCode: '0x2343'
+        charCode: '0x2342'
     },
     {
         name: ICON_WEAPONS.Syringer,
         category: ICON_CATEGORIES.Weapons,
-        charCode: '0x2344'
+        charCode: '0x2343'
     },
     {
         name: ICON_WEAPONS.MeleeAuto,
         category: ICON_CATEGORIES.Weapons,
-        charCode: '0x2345'
+        charCode: '0x2344'
     },
     {
         name: ICON_WEAPONS.MeleeUnarmed,
         category: ICON_CATEGORIES.Weapons,
-        charCode: '0x2346'
+        charCode: '0x2345'
     },
     {
         name: ICON_WEAPONS.MeleeOneHand,
         category: ICON_CATEGORIES.Weapons,
-        charCode: '0x2347'
+        charCode: '0x2346'
     },
     {
         name: ICON_WEAPONS.MeleeTwoHand,
         category: ICON_CATEGORIES.Weapons,
-        charCode: '0x2348'
+        charCode: '0x2347'
     },
     {
         name: ICON_WEAPONS.Binoculars,
         category: ICON_CATEGORIES.Weapons,
-        charCode: '0x2349'
+        charCode: '0x2348'
     },
     {
         name: ICON_WEAPONS.Camera,
         category: ICON_CATEGORIES.Weapons,
+        charCode: '0x2349'
+    },
+    {
+        name: ICON_UTILITY.Expensive,
+        category: ICON_CATEGORIES.Utility,
         charCode: '0x234a'
     },
     {
         name: ICON_UTILITY.Empty,
         category: ICON_CATEGORIES.Utility,
-        charCode: '0x22bf'
+        charCode: '0x234b'
     }
 ] as const satisfies Icon[];

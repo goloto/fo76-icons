@@ -1,4 +1,4 @@
-import { ICON_MISC } from "@/generated/icons-enum";
+import { ICON_MISC, ICON_UTILITY } from "@/generated/icons-enum";
 import { LeftSignature, RightSignature } from "@/constants";
 import type { RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
@@ -75,7 +75,24 @@ export const MISC_RULES_GROUP = {
         },
         {
             order: 5,
-            prefix: [ICON_MISC.Modification],
+            prefix: [ICON_MISC.Modification, ICON_UTILITY.Expensive],
+            leftSignature: LeftSignature.Misc,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [
+                "edid|miscmod_mod_GatlingPlasma_Mag_ArmorPen",
+                "edid|miscmod_mod_GatlingPlasma_Muzzle_Fast",
+                "edid|miscmod_mod_GatlingPlasma_Receiver_CritDMG",
+            ],
+            exclude: [],
+        },
+        {
+            order: 6,
+            prefix: [ICON_MISC.Modification, ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
             isInjected: false,
@@ -87,7 +104,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 6,
+            order: 7,
             prefix: [ICON_MISC.FluxMisc],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -100,7 +117,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 7,
+            order: 8,
             prefix: [ICON_MISC.Token],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -113,7 +130,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 8,
+            order: 9,
             prefix: [ICON_MISC.HybridFlower],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -126,7 +143,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 9,
+            order: 10,
             prefix: [ICON_MISC.FishingBait],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -149,7 +166,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 10,
+            order: 11,
             prefix: [ICON_MISC.Cards],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -162,7 +179,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 11,
+            order: 12,
             prefix: [ICON_MISC.Bulk],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -175,7 +192,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 12,
+            order: 13,
             prefix: [ICON_MISC.Components],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -188,7 +205,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 13,
+            order: 14,
             prefix: [ICON_MISC.Skull],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -216,7 +233,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 14,
+            order: 15,
             prefix: [ICON_MISC.Skull],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -232,7 +249,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 15,
+            order: 16,
             prefix: [ICON_MISC.RocketToy],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -248,7 +265,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 16,
+            order: 17,
             prefix: [ICON_MISC.Ore],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -261,7 +278,7 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 17,
+            order: 18,
             prefix: [ICON_MISC.Junk],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -274,7 +291,7 @@ export const MISC_RULES_GROUP = {
             exclude: ["edid|miscmod"],
         },
         {
-            order: 18,
+            order: 19,
             prefix: [ICON_MISC.Quest],
             leftSignature: LeftSignature.Misc,
             rightSignature: RightSignature.FULL,
@@ -287,4 +304,4 @@ export const MISC_RULES_GROUP = {
             exclude: [],
         }
     ],
-} as const satisfies RulesGroup<ICON_MISC>;
+} as const satisfies RulesGroup<ICON_MISC | ICON_UTILITY>;

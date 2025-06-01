@@ -3473,7 +3473,27 @@
 [EndRule]
 
 [StartRule]
- Header=#modification#
+ Header=#modification|expensive#
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|miscmod_mod_GatlingPlasma_Mag_ArmorPen
+ Include_1=edid|miscmod_mod_GatlingPlasma_Muzzle_Fast
+ Include_2=edid|miscmod_mod_GatlingPlasma_Receiver_CritDMG
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#modification|empty#
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3766,7 +3786,7 @@
 [EndRule]
 
 [StartRule]
- Header=#plan|plan_rare#
+ Header=#plan|expensive#
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -3830,6 +3850,8 @@
  Include_48=edid|Recipe_Weapon_Ranged_GatlingPlasma_Muzzle_Fast
  Include_49=edid|recipe_Armor_PowerArmor_T60_Helmet
  Include_50=edid|recipe_mod_armor_UnderArmor_Casual_Mk5
+ Include_51=edid|Recipe_Workshop_WallDecor_WallClocks_Cuckoo
+ Include_52=edid|Recipe_Workshop_WallDecor_WallClocks_NukaCola
  Exclude_0=
 [EndRule]
 
@@ -4765,6 +4787,24 @@
 [EndRule]
 
 [StartRule]
+ Header=#plan|plan_encryptid#
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Weapon_Ranged_TheFixer
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#plan|plan_blue_devil#
  rSig=BOOK
  fSig=FULL
@@ -5215,6 +5255,24 @@
  isFallBack=0
  fallbackBank=0
  Include_0=
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#expensive#
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|absolutely_not_existed_edid
  Exclude_0=
 [EndRule]
 

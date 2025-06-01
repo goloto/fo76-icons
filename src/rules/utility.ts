@@ -7,6 +7,19 @@ export const UTILITY_RULES_GROUP = {
     rules: [
         {
             order: 0,
+            prefix: [ICON_UTILITY.Expensive],
+            leftSignature: LeftSignature.Note,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["edid|absolutely_not_existed_edid"],
+            exclude: [],
+        },
+        {
+            order: 1,
             prefix: [ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Note,
             rightSignature: RightSignature.FULL,
