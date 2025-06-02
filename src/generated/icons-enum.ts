@@ -88,10 +88,12 @@ export enum ICON_NOTES {
     PlanOgua = 'plan_ogua',
     PlanOperations = 'plan_operations',
     PlanPitt = 'plan_pitt',
+    PlanPossumBadge = 'plan_possum_badge',
     PlanQFour = 'plan_q_four',
     PlanQOne = 'plan_q_one',
     PlanQThree = 'plan_q_three',
     PlanQTwo = 'plan_q_two',
+    PlanRadiationRumble = 'plan_radiation_rumble',
     PlanRidingShotgun = 'plan_riding_shotgun',
     PlanScorchedEarth = 'plan_scorched_earth',
     PlanSeismicActivity = 'plan_seismic_activity',
@@ -255,5 +257,8 @@ export enum ICON_WEAPONS {
 }
 export enum ICON_UTILITY {
     Empty = 'empty',
-    Expensive = 'expensive'
+    Expensive = 'expensive',
+    RareOne = 'rare_one',
+    RareThree = 'rare_three',
+    RareTwo = 'rare_two'
 }

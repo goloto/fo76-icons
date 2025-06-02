@@ -2,6 +2,7 @@ import { ICON_UTILITY } from "@/generated/icons-enum";
 import type { RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
 import { LeftSignature, RightSignature } from "@/constants";
+const notExistedEdid = "edid|absolutely_not_existed_edid" as const;
 export const UTILITY_RULES_GROUP = {
     category: ICON_CATEGORIES.Utility,
     rules: [
@@ -15,11 +16,50 @@ export const UTILITY_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: ["edid|absolutely_not_existed_edid"],
+            include: [notExistedEdid],
             exclude: [],
         },
         {
             order: 1,
+            prefix: [ICON_UTILITY.RareThree],
+            leftSignature: LeftSignature.Note,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: [notExistedEdid],
+            exclude: [],
+        },
+        {
+            order: 2,
+            prefix: [ICON_UTILITY.RareTwo],
+            leftSignature: LeftSignature.Note,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: [notExistedEdid],
+            exclude: [],
+        },
+        {
+            order: 3,
+            prefix: [ICON_UTILITY.RareOne],
+            leftSignature: LeftSignature.Note,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: [notExistedEdid],
+            exclude: [],
+        },
+        {
+            order: 4,
             prefix: [ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Note,
             rightSignature: RightSignature.FULL,
@@ -28,7 +68,7 @@ export const UTILITY_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: ["edid|absolutely_not_existed_edid"],
+            include: [notExistedEdid],
             exclude: [],
         }
     ],

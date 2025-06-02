@@ -173,11 +173,40 @@ export const NOTES_RULES_GROUP = {
             ],
             exclude: [],
         },
+        {
+            order: 5,
+            prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanPossumBadge],
+            leftSignature: LeftSignature.Book,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [
+                // possum next
+                "edid|P01C_Tadpole_Recipe_Backpack_Effect_Refrigerated",
+                "edid|P01C_Tadpole_Recipe_Backpack_Effect_HighCapacity",
+                "edid|P01C_Tadpole_Recipe_Backpack_Effect_Insulated",
+                "edid|P01C_Tadpole_Recipe_Mod_Camera_SnapMatic_Lens_NightVision",
+                "edid|P01C_Tadpole_Recipe_Workshop_FloorDecor_Misc_PioneerScout_Possum",
+                "edid|P01C_Recipe_Workshop_Container_PioneerScout_StashBox",
+                "edid|P01C_Tadpole_Recipe_Backpack_Effect_LeadLined",
+                "edid|P01C_Tadpole_Recipe_Backpack_Standard_Material_Scout_Possum",
+                "edid|P01C_Tadpole_Recipe_Backpack_Effect_ArmorPlated",
+                // tadpole next
+                "edid|P01C_Tadpole_Recipe_Workshop_WallDecor_FlagsUSA_Clean",
+                "edid|P01C_Tadpole_Recipe_Workshop_FloorDecor_Misc_PioneerScout_Tadpole",
+                "edid|P01C_Tadpole_Recipe_Workshop_WallDecor_Posters_PioneerScout_Plants",
+                "edid|P01C_Tadpole_Recipe_Workshop_Bed_PioneerScout_SleepingBag",
+            ],
+            exclude: [],
+        },
         // ***
         // TIME-LIMIT EVENTS NEXT
         // ***
         {
-            order: 5,
+            order: 6,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanGift, ICON_NOTES.PlanYearTwenty],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -197,7 +226,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 6,
+            order: 7,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanGift, ICON_NOTES.PlanYearTwentyOne],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -224,7 +253,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 7,
+            order: 8,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanGift, ICON_NOTES.PlanYearTwentyThree],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -253,7 +282,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 8,
+            order: 9,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanGift, ICON_NOTES.PlanYearTwentyFour],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -274,7 +303,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 9,
+            order: 10,
             // TODO: add rare
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanBigBloom],
             leftSignature: LeftSignature.Book,
@@ -315,7 +344,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 10,
+            order: 11,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanTreasureHunt],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -364,7 +393,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 11,
+            order: 12,
             // TODO: add years
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanMischiefNight],
             leftSignature: LeftSignature.Book,
@@ -410,7 +439,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 12,
+            order: 13,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanFasnacht, ICON_NOTES.PlanYearTwentyFive, ICON_NOTES.PlanQOne],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -434,7 +463,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 13,
+            order: 14,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanFasnacht, ICON_NOTES.PlanYearTwentyFour],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -455,7 +484,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 14,
+            order: 15,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanFasnacht, ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -498,7 +527,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 15,
+            order: 16,
             // TODO: add years
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanMeatWeek],
             leftSignature: LeftSignature.Book,
@@ -556,7 +585,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 16,
+            order: 17,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanAlien, ICON_NOTES.PlanYearTwentyFive],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -569,7 +598,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 17,
+            order: 18,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanAlien, ICON_NOTES.PlanYearTwentyFour, ICON_NOTES.PlanQFour],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -592,7 +621,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 18,
+            order: 19,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanAlien, ICON_NOTES.PlanYearTwentyFour],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -612,7 +641,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 19,
+            order: 20,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanAlien],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -647,7 +676,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 20,
+            order: 21,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanMothman, ICON_NOTES.PlanYearTwentyFour, ICON_NOTES.PlanQThree],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -672,7 +701,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 21,
+            order: 22,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanMothman, ICON_NOTES.PlanYearTwentyFour],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -709,7 +738,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 22,
+            order: 23,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanMothman],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -725,7 +754,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 23,
+            order: 24,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanOperations],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -815,7 +844,7 @@ export const NOTES_RULES_GROUP = {
         // BOMBS EVENTS NEXT
         // ***
         {
-            order: 24,
+            order: 25,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanNeurologicalWarfare],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -851,7 +880,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 25,
+            order: 26,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanSeismicActivity],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -874,7 +903,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 26,
+            order: 27,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanColossalProblem],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -896,7 +925,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 27,
+            order: 28,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanScorchedEarth],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -947,7 +976,7 @@ export const NOTES_RULES_GROUP = {
         // REGULAR PUBLIC EVENTS NEXT
         // ***
         {
-            order: 28,
+            order: 29,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanRidingShotgun],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -963,7 +992,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 29,
+            order: 30,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanDangerousPastimes],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -994,20 +1023,33 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 30,
+            order: 31,
+            prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanRadiationRumble],
+            leftSignature: LeftSignature.Book,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["edid|Recipe_Workshop_FloorDecor_E05_RadioactiveBarrel"],
+            exclude: [],
+        },
+        {
+            order: 32,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanEncryptid],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
             isInjected: false,
             isDeleted: false,
             isAnyKeyword: false,
-            isInclusiveOr: true,
+            isInclusiveOr: false,
             isFullReplaced: false,
             include: ["edid|Recipe_Weapon_Ranged_TheFixer"],
             exclude: [],
         },
         {
-            order: 31,
+            order: 33,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanBlueDevil],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1040,7 +1082,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 32,
+            order: 34,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanOgua],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1068,7 +1110,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 33,
+            order: 35,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanTunnelOfLove],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1094,7 +1136,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 34,
+            order: 36,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanMostWanted],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1123,7 +1165,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 35,
+            order: 37,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanSpinTheWheel],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1150,7 +1192,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 36,
+            order: 38,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanNukaWorld],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1177,7 +1219,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 37,
+            order: 39,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanMoonshineJamboree],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1197,7 +1239,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 38,
+            order: 40,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanCampfireTales],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1216,7 +1258,7 @@ export const NOTES_RULES_GROUP = {
         // EXPEDITIONS NEXT
         // ***
         {
-            order: 39,
+            order: 41,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanAtlanticCity],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1267,7 +1309,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 40,
+            order: 42,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanPitt],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1325,7 +1367,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 41,
+            order: 43,
             prefix: [ICON_NOTES.Plan, ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1338,7 +1380,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 42,
+            order: 44,
             prefix: [ICON_NOTES.TreasureMap],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1351,7 +1393,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 43,
+            order: 45,
             prefix: [ICON_NOTES.Note],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1364,7 +1406,7 @@ export const NOTES_RULES_GROUP = {
             exclude: ["ekwd|ObjectTypeRecipe", "ekwd|MagazineKeyword"],
         },
         {
-            order: 44,
+            order: 46,
             prefix: [ICON_NOTES.Holotape],
             leftSignature: LeftSignature.Note,
             rightSignature: RightSignature.FULL,
@@ -1377,7 +1419,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 45,
+            order: 47,
             prefix: [ICON_NOTES.Holotape],
             leftSignature: LeftSignature.Note,
             rightSignature: RightSignature.FULL,
@@ -1390,7 +1432,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 46,
+            order: 48,
             prefix: [ICON_NOTES.Check],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
