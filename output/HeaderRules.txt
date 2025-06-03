@@ -5021,7 +5021,70 @@
 [EndRule]
 
 [StartRule]
- Header=⊞⊲
+ Header=⊞⊲⍇
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_Reactive
+ Include_1=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_Tesla
+ Include_2=edid|recipe_mod_PowerArmor_Ultracite_Helmet_Misc_DetectLife
+ Include_3=edid|recipe_mod_PowerArmor_Ultracite_Leg_Misc_Carry
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊲⍈
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|recipe_mod_PowerArmor_Ultracite_Leg_Misc_OptimizedServos
+ Include_1=edid|recipe_mod_PowerArmor_Ultracite_Leg_Misc_SprintBoost
+ Include_2=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_Emergency
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊲⍉
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_Cleanser
+ Include_1=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_Kinetic
+ Include_2=edid|recipe_mod_PowerArmor_Ultracite_Leg_Misc_APRegen
+ Include_3=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_DMGShield
+ Include_4=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_BatRegen
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊲⍖
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -5036,38 +5099,26 @@
  fallbackBank=0
  Include_0=edid|Recipe_Workshop_MiscStructures_DeconArch
  Include_1=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_MedicPump
- Include_2=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_Cleanser
- Include_3=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_Kinetic
- Include_4=edid|recipe_mod_PowerArmor_Ultracite_Arm_Misc_Unarmed
- Include_5=edid|recipe_Armor_PowerArmor_Ultracite_ArmRight
- Include_6=edid|recipe_Armor_PowerArmor_Ultracite_LegRight
- Include_7=edid|recipe_mod_PowerArmor_Ultracite_Leg_Misc_OptimizedServos
- Include_8=edid|recipe_mod_PowerArmor_Ultracite_Leg_Misc_SprintBoost
- Include_9=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_Reactive
- Include_10=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_Tesla
- Include_11=edid|recipe_mod_PowerArmor_T60_Torso_Misc_Jetpack
- Include_12=edid|recipe_mod_PowerArmor_Ultracite_Leg_Misc_APRegen
- Include_13=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_Emergency
- Include_14=edid|recipe_mod_PowerArmor_T51_Torso_Misc_JetPack
- Include_15=edid|recipe_mod_PowerArmor_Ultracite_Arm_Misc_Optimized
- Include_16=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_Str
- Include_17=edid|recipe_Armor_PowerArmor_Ultracite_LegLeft
- Include_18=edid|recipe_Armor_PowerArmor_Ultracite_Torso
- Include_19=edid|recipe_mod_PowerArmor_Ultracite_Helmet_Misc_DetectLife
- Include_20=edid|recipe_mod_PowerArmor_Ultracite_Leg_Misc_Carry
- Include_21=edid|recipe_mod_PowerArmor_Ultracite_Arm_Misc_Bleed
- Include_22=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_DMGShield
- Include_23=edid|recipe_Armor_PowerArmor_Ultracite_ArmLeft
- Include_24=edid|recipe_mod_PowerArmor_Ultracite_Helmet_Misc_Sensor
- Include_25=edid|recipe_mod_PowerArmor_Ultracite_Helmet_Misc_Int
- Include_26=edid|recipe_mod_PowerArmor_T45_Torso_Misc_JetPack
- Include_27=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_BatRegen
- Include_28=edid|recipe_Armor_PowerArmor_Ultracite_Helmet
- Include_29=edid|Recipe_Workshop_WallDecor_76Taxidermy_ScorchedBeastQueen
- Include_30=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_JetPack
- Include_31=edid|recipe_mod_PowerArmor_Raider_Torso_Misc_JetPack
- Include_32=edid|recipe_mod_PowerArmor_Ultracite_Leg_Misc_ExplVent
- Include_33=edid|recipe_mod_PowerArmor_Material_Paint_Outcast
+ Include_2=edid|recipe_mod_PowerArmor_Ultracite_Arm_Misc_Unarmed
+ Include_3=edid|recipe_Armor_PowerArmor_Ultracite_ArmRight
+ Include_4=edid|recipe_Armor_PowerArmor_Ultracite_LegRight
+ Include_5=edid|recipe_mod_PowerArmor_T60_Torso_Misc_Jetpack
+ Include_6=edid|recipe_mod_PowerArmor_T51_Torso_Misc_JetPack
+ Include_7=edid|recipe_mod_PowerArmor_Ultracite_Arm_Misc_Optimized
+ Include_8=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_Str
+ Include_9=edid|recipe_Armor_PowerArmor_Ultracite_LegLeft
+ Include_10=edid|recipe_Armor_PowerArmor_Ultracite_Torso
+ Include_11=edid|recipe_mod_PowerArmor_Ultracite_Arm_Misc_Bleed
+ Include_12=edid|recipe_Armor_PowerArmor_Ultracite_ArmLeft
+ Include_13=edid|recipe_mod_PowerArmor_Ultracite_Helmet_Misc_Sensor
+ Include_14=edid|recipe_mod_PowerArmor_Ultracite_Helmet_Misc_Int
+ Include_15=edid|recipe_mod_PowerArmor_T45_Torso_Misc_JetPack
+ Include_16=edid|recipe_Armor_PowerArmor_Ultracite_Helmet
+ Include_17=edid|Recipe_Workshop_WallDecor_76Taxidermy_ScorchedBeastQueen
+ Include_18=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_JetPack
+ Include_19=edid|recipe_mod_PowerArmor_Raider_Torso_Misc_JetPack
+ Include_20=edid|recipe_mod_PowerArmor_Ultracite_Leg_Misc_ExplVent
+ Include_21=edid|recipe_mod_PowerArmor_Material_Paint_Outcast
  Exclude_0=
 [EndRule]
 
