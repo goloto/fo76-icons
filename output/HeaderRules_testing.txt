@@ -3970,7 +3970,7 @@
 [EndRule]
 
 [StartRule]
- Header=#plan|plan_grahm#
+ Header=#plan|plan_grahm|empty#
  rSig=BOOK
  fSig=FULL
  enabled=-1

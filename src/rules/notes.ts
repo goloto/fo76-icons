@@ -119,7 +119,7 @@ export const NOTES_RULES_GROUP = {
         },
         {
             order: 3,
-            prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanGrahm],
+            prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanGrahm, ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
             isInjected: false,
