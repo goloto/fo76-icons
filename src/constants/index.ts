@@ -24,7 +24,7 @@ export const GENERATED_DIRECTORY = './src/generated';
 export const RULES_DIRECTORY = './src/rules';
 
 /** Используется для удаления строк */
-export const ERASER = '_injected_innr_eraser' as const;
+export const SPACE = '_space_' as const;
 
 /** Главные иконки для каждой из категорий. Нужно для корректной авто-сортировки иконок */
 export const GROUP_MAIN_ICONS_MAP: Record<ICON_CATEGORIES, Array<IconNames>> = {
@@ -37,7 +37,7 @@ export const GROUP_MAIN_ICONS_MAP: Record<ICON_CATEGORIES, Array<IconNames>> = {
   [ICON_CATEGORIES.Keys]: Object.values(ICON_KEYS),
   [ICON_CATEGORIES.LegendaryEffects]: [
     ...Object.values(ICON_LEGENDARY_EFFECTS),
-    ERASER,
+    SPACE,
   ],
   [ICON_CATEGORIES.Misc]: Object.values(ICON_MISC),
   [ICON_CATEGORIES.Notes]: Object.values(ICON_NOTES),

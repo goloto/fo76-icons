@@ -1,5 +1,5 @@
 import { ICON_LEGENDARY_EFFECTS } from "@/generated/icons-enum";
-import { BROADSIDER_RULE, ERASER, HARPOONGUN_RULE, LeftSignature, POWER_ARMOR_EFFECTS, REVOLVER_RULE, RightSignature } from "@/constants";
+import { BROADSIDER_RULE, SPACE, HARPOONGUN_RULE, LeftSignature, POWER_ARMOR_EFFECTS, REVOLVER_RULE, RightSignature } from "@/constants";
 import type { IncludeProperty, RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
 const unyieldingRules = [
@@ -563,7 +563,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
         },
         {
             order: 34,
-            prefix: [ERASER],
+            prefix: [SPACE],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
             isInjected: true,
@@ -619,7 +619,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
         },
         {
             order: 35,
-            prefix: [ERASER],
+            prefix: [SPACE],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
             isInjected: true,
@@ -647,4 +647,4 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             ],
         }
     ],
-} as const satisfies RulesGroup<ICON_LEGENDARY_EFFECTS | typeof ERASER>;
+} as const satisfies RulesGroup<ICON_LEGENDARY_EFFECTS | typeof SPACE>;
