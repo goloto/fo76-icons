@@ -605,7 +605,50 @@
 [EndRule]
 
 [StartRule]
- Header=#fasnacht_mask#
+ Header=#fasnacht_mask|expensive#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Headwear_Fasnacht_Mask_OldManWinter
+ Include_1=edid|ATX_Headwear_Fasnacht_Mask_Deathclaw
+ Include_2=edid|Headwear_Fasnacht_Mask_Raven
+ Include_3=edid|Armor_PowerArmor_Fasnacht_FatherWinter_Helmet
+ Include_4=edid|Headwear_Fasnacht_Mask_CrazyGuy
+ Include_5=edid|Headwear_Fasnacht_Mask_Demon
+ Include_6=edid|Headwear_Fasnacht_Mask_Brahmin
+ Include_7=edid|Headwear_Fasnacht_Mask_Jester
+ Include_8=edid|Headwear_Fasnacht_Mask_Deathclaw
+ Include_9=edid|Headwear_Fasnacht_Mask_Loon
+ Include_10=edid|Headwear_Fasnacht_Mask_Hag
+ Include_11=edid|Headwear_Fasnacht_Mask_Fiend
+ Include_12=edid|Headwear_Fasnacht_Mask_Turkey_Glow
+ Include_13=edid|Headwear_Fasnacht_Mask_ScorchBeastQueen_Glow
+ Include_14=edid|Headwear_Fasnacht_Mask_BlueDevil_Glow
+ Include_15=edid|Headwear_Fasnacht_Mask_HoneyBee_Glow
+ Include_16=edid|Headwear_Fasnacht_Mask_ScorchBeast_Glow
+ Include_17=edid|Headwear_Fasnacht_Mask_Alien_Glow
+ Include_18=edid|Headwear_Fasnacht_Mask_Pig_Glow
+ Include_19=edid|Headwear_Fasnacht_Mask_Robot_Glow
+ Include_20=edid|Headwear_Fasnacht_Mask_Unicorn_Glow
+ Include_21=edid|Headwear_Fasnacht_Mask_Minotaur_Glow
+ Include_22=edid|Headwear_Fasnacht_Mask_VeggieMan_Glow
+ Include_23=edid|Headwear_Fasnacht_Mask_Abe_Glow
+ Include_24=edid|Headwear_Fasnacht_Mask_Bigfoot_Glow
+ Include_25=edid|Headwear_Fasnacht_Mask_Jackalope_Glow
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#fasnacht_mask|empty#
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -623,7 +666,7 @@
 [EndRule]
 
 [StartRule]
- Header=#fasnacht_mask#
+ Header=#fasnacht_mask|empty#
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -4411,7 +4454,89 @@
 [EndRule]
 
 [StartRule]
- Header=#plan|plan_meat_week#
+ Header=#plan|plan_meat_week|plan_year_twenty_four#
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Meat_Backpack_Standard_Material_WastelandHunter
+ Include_1=edid|Meat_Recipe_Workshop_Souvenirs_MegalonyxLeftLeg
+ Include_2=edid|Meat_Recipe_Workshop_Displays_MegalonyxDisplayRack
+ Include_3=edid|Meat_Recipe_Workshop_Souvenirs_MegalonyxRightLeg
+ Include_4=edid|Meat_Recipe_Workshop_Souvenirs_MegalonyxSkull
+ Include_5=edid|Meat_Recipe_Workshop_Souvenirs_MegalonyxTorso
+ Include_6=edid|Meat_Recipe_Workshop_Souvenirs_MegalonyxRightArm
+ Include_7=edid|Meat_Recipe_Workshop_Souvenirs_MegalonyxLeftArm
+ Include_8=edid|Meat_Recipe_Plushie_RottedGroundMeat
+ Include_9=edid|Meat_Recipe_Plushie_GroundMeat
+ Include_10=edid|Meat_Recipe_Plushie_Steak
+ Include_11=edid|Meat_Recipe_Plushie_RottedRib
+ Include_12=edid|Recipe_Meat_Workshop_WallDecor_BrahminFlourBillboards
+ Include_13=edid|Meat_Recipe_workshop_floordecor_FliesVFX
+ Include_14=edid|Meat_Recipe_Plushie_RottedSteak
+ Include_15=edid|Meat_Recipe_Plushie_Rib
+ Include_16=edid|Meat_Recipe_Workshop_CAMP_Utility_WeenieWagon
+ Include_17=edid|Recipe_Meat_NukaShank
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#plan|plan_meat_week|plan_year_twenty_three#
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Workshop_FloorDecor_Plushie_WilberMcPigg
+ Include_1=edid|Recipe_Workshop_FloorDecor_Plushie_Punty
+ Include_2=edid|Recipe_Workshop_FloorDecor_Plushie_Peppino
+ Include_3=edid|Recipe_Workshop_Lights_Wall_SuperMutantDiagram
+ Include_4=edid|Recipe_Workshop_Lights_Wall_MutantHoundDiagram
+ Include_5=edid|Recipe_Workshop_FloorDecor_Rugs_Bloody
+ Include_6=edid|Recipe_Workshop_CurtainDoor_Bloody
+ Include_7=edid|Recipe_Workshop_FloorDecor_StuffedMutantHound
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#plan|plan_meat_week|plan_year_twenty_one#
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Weapon_Ranged_PepperShaker
+ Include_1=edid|Recipe_Workshop_WallDecor_PlasticFruitWreath
+ Include_2=edid|Recipe_Workshop_Crafting_CraftingCooking_GroceryCartGrill
+ Include_3=edid|Recipe_Workshop_FloorDecor_DecoyDuckSet
+ Include_4=edid|Recipe_Workshop_FloorDecor_PlasticFruitBowl
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#plan|plan_meat_week|plan_year_twenty#
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -4426,47 +4551,33 @@
  fallbackBank=0
  Include_0=edid|Recipe_Workshop_Crafting_CraftingCooking_Animalistic_Grill
  Include_1=edid|Recipe_Backpack_Standard_Material_Chally
- Include_2=edid|Recipe_Weapon_Ranged_PepperShaker
- Include_3=edid|Recipe_Meat_Backpack_Standard_Material_WastelandHunter
- Include_4=edid|Recipe_Workshop_FloorDecor_Misc_MeatWeek_PoleFlag3
- Include_5=edid|Recipe_Cooking_E02A_Meat_ChallysFeed
- Include_6=edid|recipe_mod_melee_MeatTenderizer_Peppered
- Include_7=edid|Recipe_Workshop_FloorDecor_Misc_MeatWeek_PoleFlag1
- Include_8=edid|recipe_mod_melee_MeatTenderizer_Salted
- Include_9=edid|recipe_mod_melee_MeatTenderizer_Heated
- Include_10=edid|Recipe_Workshop_FloorDecor_Misc_MeatWeek_PoleFlag2
- Include_11=edid|Recipe_Cooking_MeatWeek_TatoSalad
- Include_12=edid|Recipe_Weapon_Melee_MeatTenderizer
- Include_13=edid|Recipe_Weapon_Thrown_MeatCleaver
- Include_14=edid|Recipe_Workshop_WallDecor_PlasticFruitWreath
- Include_15=edid|Recipe_Workshop_Crafting_CraftingCooking_GroceryCartGrill
- Include_16=edid|Recipe_Workshop_FloorDecor_DecoyDuckSet
- Include_17=edid|Recipe_Workshop_FloorDecor_PlasticFruitBowl
- Include_18=edid|Recipe_Workshop_FloorDecor_Plushie_WilberMcPigg
- Include_19=edid|Recipe_Workshop_FloorDecor_Plushie_Punty
- Include_20=edid|Recipe_Workshop_FloorDecor_Plushie_Peppino
- Include_21=edid|Recipe_Workshop_Lights_Wall_SuperMutantDiagram
- Include_22=edid|Recipe_Workshop_Lights_Wall_MutantHoundDiagram
- Include_23=edid|Recipe_Workshop_FloorDecor_Rugs_Bloody
- Include_24=edid|Recipe_Workshop_CurtainDoor_Bloody
- Include_25=edid|Recipe_Workshop_FloorDecor_StuffedMutantHound
- Include_26=edid|Meat_Recipe_Workshop_Souvenirs_MegalonyxLeftLeg
- Include_27=edid|Meat_Recipe_Workshop_Displays_MegalonyxDisplayRack
- Include_28=edid|Meat_Recipe_Workshop_Souvenirs_MegalonyxRightLeg
- Include_29=edid|Meat_Recipe_Workshop_Souvenirs_MegalonyxSkull
- Include_30=edid|Meat_Recipe_Workshop_Souvenirs_MegalonyxTorso
- Include_31=edid|Meat_Recipe_Workshop_Souvenirs_MegalonyxRightArm
- Include_32=edid|Meat_Recipe_Workshop_Souvenirs_MegalonyxLeftArm
- Include_33=edid|Meat_Recipe_Plushie_RottedGroundMeat
- Include_34=edid|Meat_Recipe_Plushie_GroundMeat
- Include_35=edid|Meat_Recipe_Plushie_Steak
- Include_36=edid|Meat_Recipe_Plushie_RottedRib
- Include_37=edid|Recipe_Meat_Workshop_WallDecor_BrahminFlourBillboards
- Include_38=edid|Meat_Recipe_workshop_floordecor_FliesVFX
- Include_39=edid|Meat_Recipe_Plushie_RottedSteak
- Include_40=edid|Meat_Recipe_Plushie_Rib
- Include_41=edid|Meat_Recipe_Workshop_CAMP_Utility_WeenieWagon
- Include_42=edid|Recipe_Meat_NukaShank
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#plan|plan_meat_week|empty#
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Workshop_FloorDecor_Misc_MeatWeek_PoleFlag3
+ Include_1=edid|Recipe_Cooking_E02A_Meat_ChallysFeed
+ Include_2=edid|recipe_mod_melee_MeatTenderizer_Peppered
+ Include_3=edid|Recipe_Workshop_FloorDecor_Misc_MeatWeek_PoleFlag1
+ Include_4=edid|recipe_mod_melee_MeatTenderizer_Salted
+ Include_5=edid|recipe_mod_melee_MeatTenderizer_Heated
+ Include_6=edid|Recipe_Workshop_FloorDecor_Misc_MeatWeek_PoleFlag2
+ Include_7=edid|Recipe_Cooking_MeatWeek_TatoSalad
+ Include_8=edid|Recipe_Weapon_Melee_MeatTenderizer
+ Include_9=edid|Recipe_Weapon_Thrown_MeatCleaver
  Exclude_0=
 [EndRule]
 
