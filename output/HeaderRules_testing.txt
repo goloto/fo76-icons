@@ -4818,7 +4818,7 @@
 [EndRule]
 
 [StartRule]
- Header=#plan|plan_colossal_problem#
+ Header=#plan|plan_colossal_problem|rare_three#
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -4831,14 +4831,65 @@
  includeOR=-1
  isFallBack=0
  fallbackBank=0
+ Include_0=edid|Recipe_Workshop_Container_StashBox_Supply_Crate_Large
+ Include_1=edid|recipe_mod_weapon_LaserGun_material_HotRodFlames
+ Include_2=edid|recipe_Headwear_CenturionHelmet
+ Include_3=edid|recipe_mod_PowerArmor_Material_Paint_Inferno_Mk_3
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#plan|plan_colossal_problem|rare_two#
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|E06_Colossus_Recipe_Workshop_FloorDecor_Taxidermy_WendigoColossus
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#plan|plan_colossal_problem|rare_one#
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
  Include_0=edid|E06_Colossus_Recipe_Workshop_FloorDecor_Rugs_Colossus_Rug
- Include_1=edid|E06_Colossus_Recipe_Workshop_FloorDecor_Taxidermy_WendigoColossus
- Include_2=edid|E06_Colossus_Recipe_Workshop_FloorDecor_WendigoColossus_Plushie
- Include_3=edid|E06_Colossus_Recipe_Workshop_FloorDecor_WendigoColossusMeatPile
- Include_4=edid|Recipe_Workshop_Container_StashBox_Supply_Crate_Large
- Include_5=edid|recipe_mod_weapon_LaserGun_material_HotRodFlames
- Include_6=edid|recipe_Headwear_CenturionHelmet
- Include_7=edid|recipe_mod_PowerArmor_Material_Paint_Inferno_Mk_3
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#plan|plan_colossal_problem|empty#
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|E06_Colossus_Recipe_Workshop_FloorDecor_WendigoColossus_Plushie
+ Include_1=edid|E06_Colossus_Recipe_Workshop_FloorDecor_WendigoColossusMeatPile
  Exclude_0=
 [EndRule]
 

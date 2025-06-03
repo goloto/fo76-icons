@@ -904,7 +904,7 @@ export const NOTES_RULES_GROUP = {
         },
         {
             order: 27,
-            prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanColossalProblem],
+            prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanColossalProblem, ICON_UTILITY.RareThree],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
             isInjected: false,
@@ -913,10 +913,6 @@ export const NOTES_RULES_GROUP = {
             isInclusiveOr: true,
             isFullReplaced: false,
             include: [
-                "edid|E06_Colossus_Recipe_Workshop_FloorDecor_Rugs_Colossus_Rug",
-                "edid|E06_Colossus_Recipe_Workshop_FloorDecor_Taxidermy_WendigoColossus",
-                "edid|E06_Colossus_Recipe_Workshop_FloorDecor_WendigoColossus_Plushie",
-                "edid|E06_Colossus_Recipe_Workshop_FloorDecor_WendigoColossusMeatPile",
                 "edid|Recipe_Workshop_Container_StashBox_Supply_Crate_Large",
                 "edid|recipe_mod_weapon_LaserGun_material_HotRodFlames",
                 "edid|recipe_Headwear_CenturionHelmet",
@@ -926,6 +922,48 @@ export const NOTES_RULES_GROUP = {
         },
         {
             order: 28,
+            prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanColossalProblem, ICON_UTILITY.RareTwo],
+            leftSignature: LeftSignature.Book,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["edid|E06_Colossus_Recipe_Workshop_FloorDecor_Taxidermy_WendigoColossus"],
+            exclude: [],
+        },
+        {
+            order: 29,
+            prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanColossalProblem, ICON_UTILITY.RareOne],
+            leftSignature: LeftSignature.Book,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["edid|E06_Colossus_Recipe_Workshop_FloorDecor_Rugs_Colossus_Rug"],
+            exclude: [],
+        },
+        {
+            order: 30,
+            prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanColossalProblem, ICON_UTILITY.Empty],
+            leftSignature: LeftSignature.Book,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [
+                "edid|E06_Colossus_Recipe_Workshop_FloorDecor_WendigoColossus_Plushie",
+                "edid|E06_Colossus_Recipe_Workshop_FloorDecor_WendigoColossusMeatPile",
+            ],
+            exclude: [],
+        },
+        {
+            order: 31,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanScorchedEarth],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -976,7 +1014,7 @@ export const NOTES_RULES_GROUP = {
         // REGULAR PUBLIC EVENTS NEXT
         // ***
         {
-            order: 29,
+            order: 32,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanRidingShotgun],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -992,7 +1030,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 30,
+            order: 33,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanDangerousPastimes],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1023,7 +1061,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 31,
+            order: 34,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanProjectParadise, ICON_UTILITY.RareTwo],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1036,7 +1074,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 32,
+            order: 35,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanProjectParadise, ICON_UTILITY.RareOne],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1053,7 +1091,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 33,
+            order: 36,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanProjectParadise, ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1066,7 +1104,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 34,
+            order: 37,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanRadiationRumble],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1079,7 +1117,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 35,
+            order: 38,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanEncryptid],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1092,7 +1130,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 36,
+            order: 39,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanBlueDevil],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1125,7 +1163,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 37,
+            order: 40,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanOgua],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1153,7 +1191,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 38,
+            order: 41,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanTunnelOfLove],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1179,7 +1217,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 39,
+            order: 42,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanMostWanted],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1208,7 +1246,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 40,
+            order: 43,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanSpinTheWheel],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1235,7 +1273,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 41,
+            order: 44,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanNukaWorld],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1262,7 +1300,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 42,
+            order: 45,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanMoonshineJamboree],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1282,7 +1320,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 43,
+            order: 46,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanCampfireTales],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1301,7 +1339,7 @@ export const NOTES_RULES_GROUP = {
         // EXPEDITIONS NEXT
         // ***
         {
-            order: 44,
+            order: 47,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanAtlanticCity],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1352,7 +1390,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 45,
+            order: 48,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanPitt],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1410,7 +1448,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 46,
+            order: 49,
             prefix: [ICON_NOTES.Plan, ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1423,7 +1461,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 47,
+            order: 50,
             prefix: [ICON_NOTES.TreasureMap],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1436,7 +1474,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 48,
+            order: 51,
             prefix: [ICON_NOTES.Note],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1449,7 +1487,7 @@ export const NOTES_RULES_GROUP = {
             exclude: ["ekwd|ObjectTypeRecipe", "ekwd|MagazineKeyword"],
         },
         {
-            order: 49,
+            order: 52,
             prefix: [ICON_NOTES.Holotape],
             leftSignature: LeftSignature.Note,
             rightSignature: RightSignature.FULL,
@@ -1462,7 +1500,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 50,
+            order: 53,
             prefix: [ICON_NOTES.Holotape],
             leftSignature: LeftSignature.Note,
             rightSignature: RightSignature.FULL,
@@ -1475,7 +1513,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 51,
+            order: 54,
             prefix: [ICON_NOTES.Check],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
