@@ -89,6 +89,7 @@ export enum ICON_NOTES {
     PlanOperations = 'plan_operations',
     PlanPitt = 'plan_pitt',
     PlanPossumBadge = 'plan_possum_badge',
+    PlanProjectParadise = 'plan_project_paradise',
     PlanQFour = 'plan_q_four',
     PlanQOne = 'plan_q_one',
     PlanQThree = 'plan_q_three',
