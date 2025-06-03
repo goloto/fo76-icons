@@ -4,13 +4,11 @@ export enum ICON_CATEGORIES {
     Apparel = 'apparel',
     Armor = 'armor',
     Currency = 'currency',
-    Events = 'events',
     Food = 'food',
-    Holotapes = 'holotapes',
-    Index = 'index',
     Keys = 'keys',
     LegendaryEffects = 'legendary-effects',
     Misc = 'misc',
     Notes = 'notes',
+    Utility = 'utility',
     Weapons = 'weapons'
 }

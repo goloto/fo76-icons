@@ -63,13 +63,42 @@ export enum ICON_KEYS {
 }
 export enum ICON_NOTES {
     Check = 'check',
+    Holotape = 'holotape',
     Note = 'note',
     Plan = 'plan',
+    PlanAlien = 'plan_alien',
+    PlanAtlanticCity = 'plan_atlantic_city',
+    PlanBigBloom = 'plan_big_bloom',
+    PlanBigFish = 'plan_big_fish',
+    PlanBlueDevil = 'plan_blue_devil',
+    PlanCampfireTales = 'plan_campfire_tales',
+    PlanColossalProblem = 'plan_colossal_problem',
+    PlanDangerousPastimes = 'plan_dangerous_pastimes',
+    PlanEncryptid = 'plan_encryptid',
+    PlanFasnacht = 'plan_fasnacht',
+    PlanGift = 'plan_gift',
+    PlanGrahm = 'plan_grahm',
+    PlanMeatWeek = 'plan_meat_week',
+    PlanMischiefNight = 'plan_mischief_night',
+    PlanMoonshineJamboree = 'plan_moonshine_jamboree',
+    PlanMostWanted = 'plan_most_wanted',
+    PlanMothman = 'plan_mothman',
+    PlanNeurologicalWarfare = 'plan_neurological_warfare',
+    PlanNukaWorld = 'plan_nuka_world',
+    PlanOgua = 'plan_ogua',
+    PlanOperations = 'plan_operations',
+    PlanPitt = 'plan_pitt',
+    PlanPossumBadge = 'plan_possum_badge',
+    PlanProjectParadise = 'plan_project_paradise',
+    PlanRadiationRumble = 'plan_radiation_rumble',
+    PlanRidingShotgun = 'plan_riding_shotgun',
+    PlanScorchedEarth = 'plan_scorched_earth',
+    PlanSeismicActivity = 'plan_seismic_activity',
+    PlanSpinTheWheel = 'plan_spin_the_wheel',
+    PlanTreasureHunt = 'plan_treasure_hunt',
+    PlanTunnelOfLove = 'plan_tunnel_of_love',
+    SiloTape = 'silo_tape',
     TreasureMap = 'treasure_map'
-}
-export enum ICON_HOLOTAPES {
-    Holotape = 'holotape',
-    SiloTape = 'silo_tape'
 }
 export enum ICON_AMMO {
     Arrows = 'arrows',
@@ -112,6 +141,12 @@ export enum ICON_FOOD {
     DirtyWater = 'dirty_water',
     Eggs = 'eggs',
     FermentedAlcohol = 'fermented_alcohol',
+    FishAxolotl = 'fish_axolotl',
+    FishCommon = 'fish_common',
+    FishGeneric = 'fish_generic',
+    FishGlowing = 'fish_glowing',
+    FishLegend = 'fish_legend',
+    FishUncommon = 'fish_uncommon',
     Flavor = 'flavor',
     Flowers = 'flowers',
     Honey = 'honey',
@@ -209,14 +244,22 @@ export enum ICON_WEAPONS {
     Throwing = 'throwing',
     Unique = 'unique'
 }
-export enum ICON_EVENTS {
-    BeastOfBurden = 'beast_of_burden',
-    DailyOps = 'daily_ops',
-    EvictionNotice = 'eviction_notice',
-    Fasnacht = 'fasnacht',
-    MeetWeek = 'meet_week',
-    MoonshineJamboree = 'moonshine_jamboree',
-    MostWanted = 'most_wanted',
-    MothmanEquinox = 'mothman_equinox',
-    SafeAndSound = 'safe_and_sound'
+export enum ICON_UTILITY {
+    Empty = 'empty',
+    Expensive = 'expensive',
+    QFour = 'q_four',
+    QOne = 'q_one',
+    QThree = 'q_three',
+    QTwo = 'q_two',
+    RareOne = 'rare_one',
+    RareThree = 'rare_three',
+    RareTwo = 'rare_two',
+    YearTwenty = 'year_twenty',
+    YearTwentyFive = 'year_twenty_five',
+    YearTwentyFour = 'year_twenty_four',
+    YearTwentyOne = 'year_twenty_one',
+    YearTwentySeven = 'year_twenty_seven',
+    YearTwentySix = 'year_twenty_six',
+    YearTwentyThree = 'year_twenty_three',
+    YearTwentyTwo = 'year_twenty_two'
 }

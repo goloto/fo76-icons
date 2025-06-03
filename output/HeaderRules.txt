@@ -6,7 +6,7 @@
 [EndHeader]
 
 [StartRule]
- Header=⊭
+ Header=⋌
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -24,7 +24,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊮
+ Header=⋍
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -42,7 +42,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊯
+ Header=⋎
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -60,7 +60,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊰
+ Header=⋏
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -78,7 +78,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊱
+ Header=⋐
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -96,7 +96,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊲
+ Header=⋑
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -114,7 +114,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊳
+ Header=⋒
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -148,7 +148,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊴
+ Header=⋓
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -171,7 +171,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊵
+ Header=⋔
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -202,7 +202,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊶
+ Header=⋕
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -221,7 +221,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊷
+ Header=⋖
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -242,7 +242,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊸
+ Header=⋗
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -260,7 +260,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊹
+ Header=⋘
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -278,7 +278,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊺
+ Header=⋙
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -297,7 +297,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊻
+ Header=⋚
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -315,7 +315,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊼
+ Header=⋛
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -333,7 +333,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊣
+ Header=⋂
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -352,7 +352,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊤
+ Header=⋃
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -371,7 +371,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊥
+ Header=⋄
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -390,7 +390,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊦
+ Header=⋅
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -408,7 +408,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊧
+ Header=⋆
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -426,7 +426,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊨
+ Header=⋇
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -449,7 +449,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊩
+ Header=⋈
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -470,7 +470,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊪
+ Header=⋉
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -489,7 +489,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊫
+ Header=⋊
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -507,7 +507,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊬
+ Header=⋋
  rSig=AMMO
  fSig=FULL
  enabled=-1
@@ -533,7 +533,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋝
+ Header=⌂
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -551,7 +551,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋞
+ Header=⌃
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -569,7 +569,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋞
+ Header=⌃
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -587,7 +587,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋟
+ Header=⌄
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -605,7 +605,50 @@
 [EndRule]
 
 [StartRule]
- Header=⋠
+ Header=⌅⍆
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Headwear_Fasnacht_Mask_OldManWinter
+ Include_1=edid|ATX_Headwear_Fasnacht_Mask_Deathclaw
+ Include_2=edid|Headwear_Fasnacht_Mask_Raven
+ Include_3=edid|Armor_PowerArmor_Fasnacht_FatherWinter_Helmet
+ Include_4=edid|Headwear_Fasnacht_Mask_CrazyGuy
+ Include_5=edid|Headwear_Fasnacht_Mask_Demon
+ Include_6=edid|Headwear_Fasnacht_Mask_Brahmin
+ Include_7=edid|Headwear_Fasnacht_Mask_Jester
+ Include_8=edid|Headwear_Fasnacht_Mask_Deathclaw
+ Include_9=edid|Headwear_Fasnacht_Mask_Loon
+ Include_10=edid|Headwear_Fasnacht_Mask_Hag
+ Include_11=edid|Headwear_Fasnacht_Mask_Fiend
+ Include_12=edid|Headwear_Fasnacht_Mask_Turkey_Glow
+ Include_13=edid|Headwear_Fasnacht_Mask_ScorchBeastQueen_Glow
+ Include_14=edid|Headwear_Fasnacht_Mask_BlueDevil_Glow
+ Include_15=edid|Headwear_Fasnacht_Mask_HoneyBee_Glow
+ Include_16=edid|Headwear_Fasnacht_Mask_ScorchBeast_Glow
+ Include_17=edid|Headwear_Fasnacht_Mask_Alien_Glow
+ Include_18=edid|Headwear_Fasnacht_Mask_Pig_Glow
+ Include_19=edid|Headwear_Fasnacht_Mask_Robot_Glow
+ Include_20=edid|Headwear_Fasnacht_Mask_Unicorn_Glow
+ Include_21=edid|Headwear_Fasnacht_Mask_Minotaur_Glow
+ Include_22=edid|Headwear_Fasnacht_Mask_VeggieMan_Glow
+ Include_23=edid|Headwear_Fasnacht_Mask_Abe_Glow
+ Include_24=edid|Headwear_Fasnacht_Mask_Bigfoot_Glow
+ Include_25=edid|Headwear_Fasnacht_Mask_Jackalope_Glow
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌅⍖
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -623,7 +666,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋠
+ Header=⌅⍖
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -643,7 +686,26 @@
 [EndRule]
 
 [StartRule]
- Header=⋡
+ Header=⌆⍆
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Headwear_EnclaveScoutUniform_Mask_Urban
+ Include_1=edid|Headwear_EnclaveScoutUniform_Mask_Forest
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌆⍖
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -664,7 +726,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋢
+ Header=⌇
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -682,7 +744,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋣
+ Header=⌈
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -700,7 +762,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋤
+ Header=⌉
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -719,7 +781,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋥
+ Header=⌊
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -737,7 +799,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋦
+ Header=⌋
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -755,7 +817,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋧
+ Header=⌌
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -773,7 +835,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋧
+ Header=⌌
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -792,7 +854,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋨
+ Header=⌍
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -811,7 +873,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋩
+ Header=⌎
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -829,7 +891,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋩
+ Header=⌎
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -847,7 +909,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋪
+ Header=⌏
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -866,7 +928,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋪
+ Header=⌏
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -884,7 +946,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋫
+ Header=⌐
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -903,7 +965,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋬
+ Header=⌑
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -924,7 +986,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋭
+ Header=⌒
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -942,7 +1004,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋮
+ Header=⌓
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -961,7 +1023,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋯
+ Header=⌔
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -980,7 +1042,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋰
+ Header=⌕
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -999,7 +1061,25 @@
 [EndRule]
 
 [StartRule]
- Header=⋱
+ Header=⌖⍆
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Clothes_AsylumWorkerUniformRed
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌖⍖
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1018,7 +1098,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋲
+ Header=⌗
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1039,7 +1119,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋳
+ Header=⌘
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1060,7 +1140,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋴
+ Header=⌙
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1078,7 +1158,27 @@
 [EndRule]
 
 [StartRule]
- Header=⋵
+ Header=⌚⍆
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Clothes_Raider_Suit_01_GlovesB
+ Include_1=edid|Clothes_Raider_Suit_02A_GlovesC
+ Include_2=edid|Clothes_Raider_Suit_02B_GlovesC
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌚⍖
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1098,7 +1198,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋶
+ Header=⌛
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1118,7 +1218,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋷
+ Header=⌜
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1137,7 +1237,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋸
+ Header=⌝
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1155,7 +1255,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋸
+ Header=⌝
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1173,7 +1273,25 @@
 [EndRule]
 
 [StartRule]
- Header=⋹
+ Header=⌞⍆
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Headwear_Responders_FiremanHat
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌞⍖
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1191,7 +1309,28 @@
 [EndRule]
 
 [StartRule]
- Header=⋺
+ Header=⌟⍆
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Clothes_Jumpsuit_WhitePowder
+ Include_1=edid|Clothes_Jumpsuit_BOS
+ Include_2=edid|Clothes_Responders_FiremanUniform
+ Include_3=edid|Clothes_Jumpsuit_ForestCamo
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌟⍖
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1213,7 +1352,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋺
+ Header=⌟⍖
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1234,7 +1373,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋻
+ Header=⌠
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1252,7 +1391,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋻
+ Header=⌠
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1270,7 +1409,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋻
+ Header=⌠
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1307,7 +1446,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋼
+ Header=⌡
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1325,7 +1464,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋽
+ Header=⌢
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1343,7 +1482,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋾
+ Header=⌣
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1361,7 +1500,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋿
+ Header=⌤
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1379,7 +1518,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌀
+ Header=⌥
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1397,7 +1536,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌁
+ Header=⌦
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1415,7 +1554,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌂
+ Header=⌧
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1433,7 +1572,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌃
+ Header=⌨
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1451,7 +1590,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌄
+ Header=〈
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1469,7 +1608,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌅
+ Header=〉
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1487,7 +1626,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌆
+ Header=⌫
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1505,7 +1644,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌇
+ Header=⌬
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1523,7 +1662,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌈
+ Header=⌭
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1542,7 +1681,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌈
+ Header=⌭
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1560,7 +1699,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌉
+ Header=⌮
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1580,7 +1719,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌉
+ Header=⌮
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1598,7 +1737,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊
+ Header=⌯
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1618,7 +1757,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌊
+ Header=⌯
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1636,7 +1775,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌋
+ Header=⌰
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1656,7 +1795,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌋
+ Header=⌰
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1674,7 +1813,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌌
+ Header=⌱
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -1694,7 +1833,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌌
+ Header=⌱
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -1730,7 +1869,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊽
+ Header=⋜
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1750,7 +1889,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊾
+ Header=⋝
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1768,7 +1907,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊿
+ Header=⋞
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1787,7 +1926,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋀
+ Header=⋟
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1805,7 +1944,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋁
+ Header=⋠
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1832,7 +1971,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋂
+ Header=⋡
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1850,7 +1989,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋃
+ Header=⋢
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1868,7 +2007,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋄
+ Header=⋣
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1886,7 +2025,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋅
+ Header=⋤
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1904,7 +2043,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋅
+ Header=⋤
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1923,7 +2062,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋆
+ Header=⋥
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1941,7 +2080,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋇
+ Header=⋦
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1956,11 +2095,11 @@
  fallbackBank=0
  Include_0=edid|milk
  Include_1=edid|cream
- Exclude_0=
+ Exclude_0=ekwd|ObjectTypeFish
 [EndRule]
 
 [StartRule]
- Header=⋈
+ Header=⋧
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1979,7 +2118,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋉
+ Header=⋨
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -1999,7 +2138,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋉
+ Header=⋨
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2022,7 +2161,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋊
+ Header=⋩
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2042,7 +2181,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋋
+ Header=⋪
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2060,7 +2199,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋌
+ Header=⋫
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2078,7 +2217,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋍
+ Header=⋬
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2098,7 +2237,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋎
+ Header=⋭
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2116,7 +2255,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋋
+ Header=⋪
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2134,7 +2273,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋋
+ Header=⋪
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2153,7 +2292,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋏
+ Header=⋮
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2172,7 +2311,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋐
+ Header=⋯
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2198,7 +2337,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋑
+ Header=⋰
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2219,7 +2358,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋒
+ Header=⋱
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2235,15 +2374,125 @@
  Include_0=ekwd|ObjectTypeFood
  Include_1=ekwd|IngredientTypeMeat
  Exclude_0=ekwd|MealTypeCooked
- Exclude_1=edid|MirelurkEgg
- Exclude_2=edid|DeathclawEgg
- Exclude_3=edid|MothmanEgg
- Exclude_4=edid|RadToadEgg
- Exclude_5=edid|RadscorpionEgg
+ Exclude_1=ekwd|ObjectTypeFish
+ Exclude_2=edid|MirelurkEgg
+ Exclude_3=edid|DeathclawEgg
+ Exclude_4=edid|MothmanEgg
+ Exclude_5=edid|RadToadEgg
+ Exclude_6=edid|RadscorpionEgg
 [EndRule]
 
 [StartRule]
- Header=⋓
+ Header=⋲
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|Fishing_FishType_LocalLegend
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋳
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|Fishing_FishType_Axolotl
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋴
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|Fishing_FishType_Glowing
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋵
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|ObjectTypeFish
+ Exclude_0=ekwd|Fishing_FishType_Sawgill
+ Exclude_1=ekwd|Fishing_FishType_generic
+[EndRule]
+
+[StartRule]
+ Header=⋶
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|Fishing_FishType_Sawgill
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋷
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|Fishing_FishType_generic
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⋸
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2261,7 +2510,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋔
+ Header=⋹
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2283,7 +2532,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋕
+ Header=⋺
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2302,7 +2551,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋖
+ Header=⋻
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2320,7 +2569,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋗
+ Header=⋼
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2341,7 +2590,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋗
+ Header=⋼
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2360,7 +2609,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋗
+ Header=⋼
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2378,7 +2627,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋘
+ Header=⋽
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2398,7 +2647,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋙
+ Header=⋾
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2422,7 +2671,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋚
+ Header=⋿
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2441,7 +2690,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋛
+ Header=⌀
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2459,7 +2708,7 @@
 [EndRule]
 
 [StartRule]
- Header=⋜
+ Header=⌁
  rSig=ALCH
  fSig=FULL
  enabled=-1
@@ -2479,60 +2728,6 @@
  Include_4=edid|GulperVenom
  Exclude_0=edid|milk
  Exclude_1=edid|cream
-[EndRule]
-
-[StartRule]
- Header=⊡
- rSig=NOTE
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|SiloStateTape
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⊢
- rSig=NOTE
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=-1
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=⊢
- rSig=NOTE
- fSig=FULL
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=0
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=edid|Storm_MQ03_OberlinsHolotape
- Exclude_0=
 [EndRule]
 
 [StartRule]
@@ -3243,7 +3438,7 @@
  Exclude_2=ekwd|PowerArmor
  Exclude_3=ekwd|HasGrip_Rifle
  Exclude_4=ekwd|HasGrip_Pistol
- Exclude_5=ekwd|ma_HarpoonGun
+ Exclude_5=ekwd|DLC03_ma_HarpoonGun
  Exclude_6=ekwd|ma_Revolver
  Exclude_7=ekwd|HasBarrel_MultiShot
  Exclude_8=ekwd|HasLegendary_Weapon_Steady
@@ -3322,6 +3517,7 @@
  Include_11=ekwd|HasBarrel
  Include_12=ekwd|CustomItemName_NukaShank
  Exclude_0=ekwd|HasBarrel_MultiShot
+ Exclude_1=ekwd|DLC03_ma_HarpoonGun
 [EndRule]
 
 [StartRule]
@@ -3417,7 +3613,27 @@
 [EndRule]
 
 [StartRule]
- Header=⊎
+ Header=⊎⍆
+ rSig=MISC
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|miscmod_mod_GatlingPlasma_Mag_ArmorPen
+ Include_1=edid|miscmod_mod_GatlingPlasma_Muzzle_Fast
+ Include_2=edid|miscmod_mod_GatlingPlasma_Receiver_CritDMG
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊎⍖
  rSig=MISC
  fSig=FULL
  enabled=-1
@@ -3693,6 +3909,1746 @@
 
 [StartRule]
  Header=⊝
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|SiloStateTape
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⍆
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|recipe_DLC04_mod_melee_BaseballBat_Heated
+ Include_1=edid|recipe_Headwear_CivilWarHatUnion
+ Include_2=edid|recipe_mod_melee_Shishkebab_ExtraFlameJets
+ Include_3=edid|recipe_Armor_VaultSuitVT_Underarmor
+ Include_4=edid|Recipe_Weapon_Ranged_LaserGun
+ Include_5=edid|recipe_Armor_Casual_Underarmor_ShirtJeans
+ Include_6=edid|Recipe_Weapon_Melee_ChineseOfficerSword
+ Include_7=edid|recipe_mod_melee_Powerfist_Heated
+ Include_8=edid|recipe_DLC03_mod_melee_polehook_Multihook
+ Include_9=edid|recipe_DLC04_mod_melee_BaseballBat_Rocket_SpikesLarge_Heated
+ Include_10=edid|recipe_DLC04_mod_melee_BaseballBat_Rocket
+ Include_11=edid|recipe_Armor_Marine_Underarmor_Helmet
+ Include_12=edid|recipe_mod_melee_Ripper_BladesLarge
+ Include_13=edid|Recipe_Weapon_Ranged_Ultracite_GatlingLaser
+ Include_14=edid|recipe_Armor_Casual_Underarmor_FlannelJeans
+ Include_15=edid|recipe_Armor_BoS_Officer_Underarmor
+ Include_16=edid|recipe_Armor_BoS_Knight_Underarmor
+ Include_17=edid|recipe_Clothes_CivilWarUniformUnion
+ Include_18=edid|recipe_Clothes_CivilWarUniformConfederate
+ Include_19=edid|recipe_Armor_BoS_Soldier_Underarmor
+ Include_20=edid|recipe_mod_melee_ChineseOfficerSword_Shock
+ Include_21=edid|recipe_mod_melee_ChineseOfficerSword_ShockAndSerrated
+ Include_22=edid|recipe_mod_melee_BoxingGlove_ExtraHeavyHead
+ Include_23=edid|Recipe_Weapon_Ranged_GatlingPlasma_Mag_Ammo
+ Include_24=edid|recipe_DLC03_mod_armor_Trapper_Lining_Torso_Explosion2
+ Include_25=edid|recipe_DLC03_miscmod_mod_armor_Marine_Lining_Torso_Explosion2
+ Include_26=edid|Recipe_Weapon_Ranged_GatlingPlasma_Mag_ReloadSpeed
+ Include_27=edid|Recipe_Weapon_Ranged_GatlingPlasma_Receiver_Burning
+ Include_28=edid|Recipe_Weapon_Ranged_GatlingPlasma_Mag_ArmorPen
+ Include_29=edid|recipe_mod_melee_Switchblade_Serrated
+ Include_30=edid|Recipe_Weapon_Ranged_GatlingPlasma_Receiver_CritDMG
+ Include_31=edid|recipe_Armor_PowerArmor_T60_LegLeft
+ Include_32=edid|recipe_Armor_PowerArmor_T60_ArmLeft
+ Include_33=edid|recipe_DLC04_mod_melee_DLC04_CommieWhacker_BladesLarge
+ Include_34=edid|recipe_mod_PowerArmor_T60_Material_Paint_BOSOfficer
+ Include_35=edid|recipe_mod_PowerArmor_T60_Material_Paint_BOSPaladin
+ Include_36=edid|recipe_mod_PowerArmor_T60_Material_Paint_BOSKnightCaptain
+ Include_37=edid|recipe_mod_PowerArmor_T60_Material_Paint_BOSKnight
+ Include_38=edid|recipe_mod_PowerArmor_T60_Material_Paint_BOSKnightSgt
+ Include_39=edid|recipe_mod_PowerArmor_T60_Material_Paint_BOSElder
+ Include_40=edid|recipe_Armor_PowerArmor_T60_LegRight
+ Include_41=edid|recipe_Armor_PowerArmor_T60_ArmRight
+ Include_42=edid|recipe_mod_DoubleBarrelShotgun_Receiver_ScorchedKiller
+ Include_43=edid|recipe_mod_LeverGun_Receiver_ScorchedKiller
+ Include_44=edid|recipe_mod_melee_Machete_Sacrificial
+ Include_45=edid|recipe_DLC04_mod_melee_Sledgehammer_ExtraHeavyHead_Rocket_Blades_Heated
+ Include_46=edid|recipe_DLC04_mod_melee_Sledgehammer_ExtraHeavyHead_Rocket_Blades
+ Include_47=edid|recipe_DLC04_mod_melee_Sledgehammer_ExtraHeavyHead_Rocket_Spikes
+ Include_48=edid|Recipe_Weapon_Ranged_GatlingPlasma_Muzzle_Fast
+ Include_49=edid|recipe_Armor_PowerArmor_T60_Helmet
+ Include_50=edid|recipe_mod_armor_UnderArmor_Casual_Mk5
+ Include_51=edid|Recipe_Workshop_WallDecor_WallClocks_Cuckoo
+ Include_52=edid|Recipe_Workshop_WallDecor_WallClocks_NukaCola
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊣
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Fishing_Workshop
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊤⍖
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Workshop_Benches_Stone
+ Include_1=edid|Recipe_Workshop_WallDecor_WallClocks_Starburst
+ Include_2=edid|Recipe_Workshop_Benches_Wood_Park
+ Include_3=edid|Recipe_Workshop_Lights_MirrorBall01
+ Include_4=edid|Recipe_Workshop_Tables_PlayerHouse_Ruin_Kitchen
+ Include_5=edid|Recipe_Workshop_Tables_NpcTableVaultSit02
+ Include_6=edid|Recipe_Workshop_Trap_Radiation
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊤⍒
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Workshop_Benches_Wood_CleanPark
+ Include_1=edid|Recipe_Workshop_Tables_DomesticKitchen_Brown
+ Include_2=edid|Recipe_Workshop_Tables_DomesticKitchen_Black
+ Include_3=edid|Recipe_Workshop_Tables_DomesticKitchen_White
+ Include_4=edid|Recipe_Workshop_Container_Prewar_Suitcase_Clothes_Clean_Purple
+ Include_5=edid|Recipe_Workshop_Lights_MirrorBall_Blue
+ Include_6=edid|Recipe_Workshop_Container_Prewar_Suitcase_Clothes_Clean_Black
+ Include_7=edid|Recipe_Workshop_Container_Prewar_Suitcase_Clothes_Clean_Blue
+ Include_8=edid|Recipe_Workshop_Container_Prewar_Suitcase_Clothes_Clean_Green
+ Include_9=edid|Recipe_Workshop_Container_Prewar_Suitcase_Clothes_Clean_Pink
+ Include_10=edid|Recipe_Workshop_Container_Prewar_Suitcase_Clothes_Clean_Yellow
+ Include_11=edid|Recipe_Workshop_Container_Prewar_Suitcase_Clothes_Clean_Red
+ Include_12=edid|Recipe_Workshop_Lights_MirrorBall_Pink
+ Include_13=edid|Recipe_Workshop_Container_Prewar_Suitcase_Clothes_Clean_Orange
+ Include_14=edid|Recipe_Workshop_Lights_MirrorBall_Green
+ Include_15=edid|Recipe_Workshop_Lights_MirrorBall_Red
+ Include_16=edid|Recipe_Workshop_Tables_MetalPicnic_Pink
+ Include_17=edid|Recipe_Workshop_Tables_MetalPicnic_Green
+ Include_18=edid|Recipe_Workshop_Tables_MetalPicnic_White
+ Include_19=edid|Recipe_Workshop_Tables_MetalPicnic_Blue
+ Include_20=edid|Recipe_Workshop_Tables_MetalPicnic_Red
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊥
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|P01C_Tadpole_Recipe_Backpack_Effect_Refrigerated
+ Include_1=edid|P01C_Tadpole_Recipe_Backpack_Effect_HighCapacity
+ Include_2=edid|P01C_Tadpole_Recipe_Backpack_Effect_Insulated
+ Include_3=edid|P01C_Tadpole_Recipe_Mod_Camera_SnapMatic_Lens_NightVision
+ Include_4=edid|P01C_Tadpole_Recipe_Workshop_FloorDecor_Misc_PioneerScout_Possum
+ Include_5=edid|P01C_Recipe_Workshop_Container_PioneerScout_StashBox
+ Include_6=edid|P01C_Tadpole_Recipe_Backpack_Effect_LeadLined
+ Include_7=edid|P01C_Tadpole_Recipe_Backpack_Standard_Material_Scout_Possum
+ Include_8=edid|P01C_Tadpole_Recipe_Backpack_Effect_ArmorPlated
+ Include_9=edid|P01C_Tadpole_Recipe_Workshop_WallDecor_FlagsUSA_Clean
+ Include_10=edid|P01C_Tadpole_Recipe_Workshop_FloorDecor_Misc_PioneerScout_Tadpole
+ Include_11=edid|P01C_Tadpole_Recipe_Workshop_WallDecor_Posters_PioneerScout_Plants
+ Include_12=edid|P01C_Tadpole_Recipe_Workshop_Bed_PioneerScout_SleepingBag
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊦⍕
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Workshop_WallDecor_WindChime_Molerat
+ Include_1=edid|Recipe_Workshop_Bed_PrincessCastlePink_SleepingBag
+ Include_2=edid|Recipe_Workshop_WallDecor_CondemnedNotificationSigns
+ Include_3=edid|Recipe_Workshop_Ceiling_Light_Truck
+ Include_4=edid|Recipe_Workshop_FloorDecor_Musket_Stack_Monument
+ Include_5=edid|Recipe_Workshop_FloorDecor_Plushie_Brahmin
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊦⍔
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Workshop_DefensiveStructures_BarbedWireFence
+ Include_1=edid|Recipe_Workshop_WallDecor_WallMountedFan
+ Include_2=edid|Recipe_Workshop_WallDecor_TatteredCurtainsDUPLICATE000DUPLICATE000
+ Include_3=edid|Recipe_Workshop_Lights_RedRocketGasStationLamp
+ Include_4=edid|Recipe_Workshop_Lights_RedRocketGasPumpWallLight
+ Include_5=edid|Recipe_Workshop_FloorDecor_Plushie_BehemothBoss
+ Include_6=edid|Recipe_Workshop_FloorDecor_VintageWaterCooler_2
+ Include_7=edid|Recipe_Workshop_FloorDecor_AreaRug_NukaGirl
+ Include_8=edid|Recipe_Workshop_WallDecor_TatteredCurtainsDUPLICATE000_Copy01
+ Include_9=edid|Recipe_Workshop_FloorDecor_VintageWaterCoolerDUPLICATE000
+ Include_10=edid|recipe_Armor_VaultSuit51_Underarmor
+ Include_11=edid|recipe_mod_PowerArmor_Material_Paint_CamoBlue
+ Include_12=edid|recipe_mod_weapon_44_material_CamoBlue
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊦⍒
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Workshop_Lights_StarLight_Copy01
+ Include_1=edid|Recipe_Workshop_Lights_PlastiformGingerBread
+ Include_2=edid|Recipe_Workshop_Lights_PlastiformNutcracker
+ Include_3=edid|Recipe_Workshop_Lights_PlastiformCandle
+ Include_4=edid|Recipe_Workshop_Lights_PlastiformSanta
+ Include_5=edid|Recipe_Workshop_Lights_PlastiformSantaSleigh
+ Include_6=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_RibbonBell
+ Include_7=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_Target
+ Include_8=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_Snowflake_01
+ Include_9=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_Santa_01
+ Include_10=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_HolidayTree_02
+ Include_11=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_HolidayTree_01
+ Include_12=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_Snowman
+ Include_13=edid|Recipe_Workshop_Lights_StarLight
+ Include_14=edid|Recipe_Workshop_FloorDecor_StrawGoat
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊦⍑
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Outfit_JitterbugJudy
+ Include_1=edid|Recipe_Workshop_Lights_PlastiformVaultBoyElf
+ Include_2=edid|Recipe_Workshop_Lights_PlastiformSnowman
+ Include_3=edid|Recipe_PeppermintFlair
+ Include_4=edid|Recipe_SnowmanHeadFlair
+ Include_5=edid|Recipe_Backpack_Standard_Material_AtomicSetLtdHandbag
+ Include_6=edid|Recipe_Workshop_FloorDecor_GiantBrontosaurus_Red
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊧⍈
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|SSE_Recipe_Headwear_FlowerCrown_Candykill
+ Include_1=edid|SSE_Recipe_Headwear_FlowerCrown_Gigablossom
+ Include_2=edid|SSE_Recipe_Workshop_HoneyBeastTube
+ Include_3=edid|SSE_Recipe_Clothes_FlowerPrintedSundress
+ Include_4=edid|SSE_Recipe_Workshop_Display_HoneyBeastVase
+ Include_5=edid|SSE_Recipe_Workshop_Display_LargeGlazedPot
+ Include_6=edid|SSE_Recipe_Clothes_PantSuit_FlowerSuit
+ Include_7=edid|SSE_Recipe_Cooking_SusanSoothin
+ Include_8=edid|SSE_Recipe_mod_CombatKnife_Material_Paint_GardenTrowel
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊧⍉
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|SSE_Recipe_Headwear_FlowerCrown_Seesprout
+ Include_1=edid|SSE_Recipe_Headwear_WastelandFloristSunhat
+ Include_2=edid|SSE_Recipe_Headwear_FlowerCrown_Glorybell
+ Include_3=edid|SSE_Recipe_Workshop_Display_MediumGlazedPot
+ Include_4=edid|SSE_Recipe_Workshop_Display_SmallGlazedPot
+ Include_5=edid|SSE_Recipe_Clothes_WastelandFloristApron
+ Include_6=edid|SSE_Recipe_Workshop_PotRadlily
+ Include_7=edid|SSE_Recipe_Workshop_PotCrystalCup
+ Include_8=edid|SSE_Recipe_Workshop_PotCarnalWeeper
+ Include_9=edid|SSE_Recipe_Cooking_GammaGreenTea
+ Include_10=edid|SSE_Recipe_Headwear_FlowerCrown_GreenInvader
+ Include_11=edid|SSE_Recipe_Headwear_FlowerCrown_Embergold
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊧⍖
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|SSE_Recipe_Headwear_FlowerCrown_CarnalWeeper
+ Include_1=edid|SSE_Recipe_Headwear_FlowerCrown_Radlily
+ Include_2=edid|SSE_Recipe_Headwear_FlowerCrown_Crystalcup
+ Include_3=edid|SSE_Recipe_Tinkers_HybridFlowers_01
+ Include_4=edid|SSE_Recipe_Headwear_FlowerCrown_Starlace
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊨
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Headwear_Marine_Helmet
+ Include_1=edid|Recipe_mod_SuperSledge_Melee_Paint_StrongmanHammer
+ Include_2=edid|Recipe_Workshop_FloorDecor_Plushie_Wannamango
+ Include_3=edid|Recipe_Workshop_FloorDecor_BalloonArch
+ Include_4=edid|Recipe_Workshop_FloorDecor_CarnivalBalloons
+ Include_5=edid|Recipe_Workshop_FloorDecor_AreaRug_Vault76
+ Include_6=edid|Recipe_Workshop_YaoGuaiTube
+ Include_7=edid|Recipe_Workshop_FloorDecor_Junkyard_Fountain
+ Include_8=edid|Recipe_Backpack_Standard_Material_Responders_Camo
+ Include_9=edid|Recipe_Workshop_TV_Aquarium
+ Include_10=edid|Recipe_Workshop_CaveCricketTube
+ Include_11=edid|Recipe_Workshop_RawCement_Barricade_Spikes
+ Include_12=edid|Recipe_Workshop_FireStationBell
+ Include_13=edid|Recipe_Backpack_Standard_Material_Safari_Gorilla
+ Include_14=edid|Recipe_Backpack_Standard_Material_Safari_Crocolossus
+ Include_15=edid|Recipe_Clothes_InsurgentOutfit
+ Include_16=edid|Recipe_Headwear_TreasureHunter
+ Include_17=edid|Recipe_Clothes_TreasureHunterOutfit
+ Include_18=edid|Recipe_Workshop_FloorDecor_Circus_Trailer
+ Include_19=edid|Recipe_Headwear_Insurgent
+ Include_20=edid|recipe_mod_melee_Knife_Dagger_Radstag
+ Include_21=edid|Recipe_Workshop_Bed_BedofNails
+ Include_22=edid|Recipe_Workshop_Lights_Grafton_Monster_Lamp
+ Include_23=edid|Recipe_Workshop_FloorDecor_Animatronic_Clown
+ Include_24=edid|Recipe_Workshop_ScorchedTube
+ Include_25=edid|Recipe_Workshop_WallDecor_WallClocks_NeonLightDiner
+ Include_26=edid|Recipe_Workshop_FloorDecor_Plushie_ScorchbeastQueen
+ Include_27=edid|Recipe_Workshop_FloorDecor_Plushie_Snallygaster
+ Include_28=edid|Recipe_Workshop_FloorDecor_AreaRug_WVStateBird
+ Include_29=edid|Recipe_Workshop_FloorDecor_Statue_Small_Posed_VaultGirl
+ Include_30=edid|recipe_mod_weapon_LaserGun_material_CamoBlue
+ Include_31=edid|Recipe_Workshop_Container_StashBox_Supply_Crate_Small
+ Include_32=edid|recipe_mod_PowerArmor_Material_Paint_PinkSprinkles
+ Include_33=edid|recipe_mod_weapon_MissileLauncher_material_AtomCats
+ Include_34=edid|Recipe_Workshop_GolfCarts_TreasureHunter
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊩
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Workshop_FloorDecor_PumpkinRack04
+ Include_1=edid|Recipe_Workshop_FloorDecor_PumpkinRack03
+ Include_2=edid|Recipe_Workshop_FloorDecor_PumpkinCarved06
+ Include_3=edid|Recipe_Workshop_FloorDecor_PumpkinRack01
+ Include_4=edid|Recipe_Workshop_FloorDecor_PumpkinCarved02
+ Include_5=edid|Recipe_Workshop_FloorDecor_PumpkinCarved01
+ Include_6=edid|Recipe_Workshop_FloorDecor_PumpkinRack02
+ Include_7=edid|Recipe_Workshop_FloorDecor_PumpkinCarved08
+ Include_8=edid|Recipe_Workshop_FloorDecor_PumpkinCarved10
+ Include_9=edid|Recipe_Workshop_FloorDecor_PumpkinCarved05
+ Include_10=edid|Recipe_Workshop_FloorDecor_PumpkinCarved09
+ Include_11=edid|Recipe_Workshop_FloorDecor_PumpkinCarved04
+ Include_12=edid|Recipe_Workshop_FloorDecor_PumpkinCarved07
+ Include_13=edid|Recipe_Workshop_FloorDecor_PumpkinCarved03
+ Include_14=edid|Recipe_Workshop_FloorDecor_Statues_GrimReaperCardboardCutouts
+ Include_15=edid|Recipe_mod_Chainsaw_Paint_GhostlyGrinder
+ Include_16=edid|Recipe_Headwear_SkullRider_Rad
+ Include_17=edid|recipe_mod_PowerArmor_Material_Paint_Hellfire_Variant_Helmet
+ Include_18=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_Ghost1
+ Include_19=edid|recipe_mod_PowerArmor_Material_Paint_Hellfire_Variant_Arms
+ Include_20=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_Spider
+ Include_21=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_Jackolantern1
+ Include_22=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_Jackolantern2
+ Include_23=edid|Recipe_Headwear_Executioner2
+ Include_24=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_Ghost2
+ Include_25=edid|Recipe_Workshop_FloorDecor_GiantDinosaur_Red
+ Include_26=edid|Recipe_mod_AssaultRifle_Paint_WraithsWrath
+ Include_27=edid|recipe_mod_PowerArmor_Material_Paint_Hellfire_Variant_Legs
+ Include_28=edid|Recipe_workshop_FloorDecor_Skeleton_DrBones
+ Include_29=edid|Recipe_Backpack_Standard_Material_Princess
+ Include_30=edid|recipe_mod_PowerArmor_Material_Paint_Hellfire_Variant_Torso
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊪⍐⍊
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Workshop_WallDecor_FlowerBoxAshRose
+ Include_1=edid|Recipe_Workshop_WallDecor_FlowerBoxAster
+ Include_2=edid|Recipe_Workshop_WallDecor_FlowerBoxMutatedFern
+ Include_3=edid|Recipe_Workshop_WallDecor_FlowerBoxRhododendron
+ Include_4=edid|Recipe_Workshop_WallDecor_FlowerBoxSootFlower
+ Include_5=edid|Recipe_Workshop_WallDecor_FloweringBoxMutatedFern
+ Include_6=edid|Recipe_Workshop_WallDecor_FloweringBoxSootFlower
+ Include_7=edid|Recipe_Workshop_WallDecor_FloweringBoxAshRose
+ Include_8=edid|Recipe_Workshop_WallDecor_FloweringBoxAster
+ Include_9=edid|Recipe_Workshop_WallDecor_FloweringBoxRhododendron
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊪⍑
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Workshop_FloorDecor_Fasnacht_BeerStein_ScorchbeastQueen
+ Include_1=edid|Recipe_Workshop_FloorDecor_HerdsmansBell_Fasnacht
+ Include_2=edid|Recipe_Workshop_FloorDecor_HerdsmansBell_Lincoln
+ Include_3=edid|Recipe_Workshop_Lights_Fasnacht_BeeswaxCandle
+ Include_4=edid|Recipe_Workshop_FloorDecor_Fasnacht_Helvetian_FlowerDisplay
+ Include_5=edid|Recipe_Workshop_CAMP_Utility_Fasnacht_MotorizedButterChurn
+ Include_6=edid|Recipe_Workshop_FloorDecor_Fasnacht_BeerStein_VeggieMan
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊪⍖
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Workshop_WallDecor_76Taxidermy_Megasloth
+ Include_1=edid|Recipe_Cooking_Sausage_Fasnacht
+ Include_2=edid|Recipe_Cooking_Donut_Fasnacht
+ Include_3=edid|Recipe_Workshop_FloorDecor_Statues_Fasnacht_OldManWinter
+ Include_4=edid|Recipe_Workshop_FloorDecor_Rugs_Fasnacht_ConfettiPile_02
+ Include_5=edid|Recipe_Workshop_WallDecor_Misc_Fasnacht_MountedRibbons_01
+ Include_6=edid|Recipe_Workshop_FloorDecor_Misc_Fasnacht_RibbonsPole_01
+ Include_7=edid|Recipe_Workshop_CeilingDecor_Misc_Fasnacht_Snowflakes_02
+ Include_8=edid|Recipe_Workshop_CeilingDecor_Misc_Fasnacht_HangingRibbons_01
+ Include_9=edid|Recipe_Workshop_WallDecor_Misc_Fasnacht_Streamers_01
+ Include_10=edid|Recipe_Workshop_WallDecor_Misc_Fasnacht_BranchGarland_02
+ Include_11=edid|Recipe_Workshop_WallDecor_Misc_Fasnacht_MountedRibbons_02
+ Include_12=edid|Recipe_Workshop_WallDecor_Misc_Fasnacht_Garland_02
+ Include_13=edid|Recipe_Workshop_FloorDecor_Misc_Fasnacht_LanternPole_02
+ Include_14=edid|Recipe_Workshop_FloorDecor_Misc_Fasnacht_FlagPole_02
+ Include_15=edid|Recipe_Workshop_WallDecor_Misc_Fasnacht_WallFlag_01
+ Include_16=edid|Recipe_Workshop_FloorDecor_Misc_Fasnacht_RibbonsPole_02
+ Include_17=edid|Recipe_Workshop_FloorDecor_Rugs_Fasnacht_ConfettiPile_01
+ Include_18=edid|Recipe_Workshop_WallDecor_Misc_Fasnacht_Garland_01
+ Include_19=edid|Recipe_Workshop_FloorDecor_Misc_Fasnacht_Balloons_02
+ Include_20=edid|Recipe_Workshop_WallDecor_Misc_Fasnacht_BranchGarland_01
+ Include_21=edid|Recipe_Workshop_FloorDecor_Misc_Fasnacht_Balloons_01
+ Include_22=edid|Recipe_Workshop_CeilingDecor_Misc_Fasnacht_Snowflakes_01
+ Include_23=edid|Recipe_Workshop_WallDecor_Misc_Fasnacht_WallFlag_02
+ Include_24=edid|Recipe_Workshop_FloorDecor_Misc_Fasnacht_FlagPole_01
+ Include_25=edid|Recipe_Workshop_FloorDecor_Misc_Fasnacht_LanternPole_01
+ Include_26=edid|Recipe_Workshop_WallDecor_Misc_Fasnacht_Streamers_02
+ Include_27=edid|Recipe_Workshop_CeilingDecor_Misc_Fasnacht_HangingRibbons_02
+ Include_28=edid|Recipe_Workshop_FloorDecor_Rugs_MegaSloth
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊫⍑
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Meat_Backpack_Standard_Material_WastelandHunter
+ Include_1=edid|Meat_Recipe_Workshop_Souvenirs_MegalonyxLeftLeg
+ Include_2=edid|Meat_Recipe_Workshop_Displays_MegalonyxDisplayRack
+ Include_3=edid|Meat_Recipe_Workshop_Souvenirs_MegalonyxRightLeg
+ Include_4=edid|Meat_Recipe_Workshop_Souvenirs_MegalonyxSkull
+ Include_5=edid|Meat_Recipe_Workshop_Souvenirs_MegalonyxTorso
+ Include_6=edid|Meat_Recipe_Workshop_Souvenirs_MegalonyxRightArm
+ Include_7=edid|Meat_Recipe_Workshop_Souvenirs_MegalonyxLeftArm
+ Include_8=edid|Meat_Recipe_Plushie_RottedGroundMeat
+ Include_9=edid|Meat_Recipe_Plushie_GroundMeat
+ Include_10=edid|Meat_Recipe_Plushie_Steak
+ Include_11=edid|Meat_Recipe_Plushie_RottedRib
+ Include_12=edid|Recipe_Meat_Workshop_WallDecor_BrahminFlourBillboards
+ Include_13=edid|Meat_Recipe_workshop_floordecor_FliesVFX
+ Include_14=edid|Meat_Recipe_Plushie_RottedSteak
+ Include_15=edid|Meat_Recipe_Plushie_Rib
+ Include_16=edid|Meat_Recipe_Workshop_CAMP_Utility_WeenieWagon
+ Include_17=edid|Recipe_Meat_NukaShank
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊫⍒
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Workshop_FloorDecor_Plushie_WilberMcPigg
+ Include_1=edid|Recipe_Workshop_FloorDecor_Plushie_Punty
+ Include_2=edid|Recipe_Workshop_FloorDecor_Plushie_Peppino
+ Include_3=edid|Recipe_Workshop_Lights_Wall_SuperMutantDiagram
+ Include_4=edid|Recipe_Workshop_Lights_Wall_MutantHoundDiagram
+ Include_5=edid|Recipe_Workshop_FloorDecor_Rugs_Bloody
+ Include_6=edid|Recipe_Workshop_CurtainDoor_Bloody
+ Include_7=edid|Recipe_Workshop_FloorDecor_StuffedMutantHound
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊫⍔
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Weapon_Ranged_PepperShaker
+ Include_1=edid|Recipe_Workshop_WallDecor_PlasticFruitWreath
+ Include_2=edid|Recipe_Workshop_Crafting_CraftingCooking_GroceryCartGrill
+ Include_3=edid|Recipe_Workshop_FloorDecor_DecoyDuckSet
+ Include_4=edid|Recipe_Workshop_FloorDecor_PlasticFruitBowl
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊫⍕
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Workshop_Crafting_CraftingCooking_Animalistic_Grill
+ Include_1=edid|Recipe_Backpack_Standard_Material_Chally
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊫⍖
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Workshop_FloorDecor_Misc_MeatWeek_PoleFlag3
+ Include_1=edid|Recipe_Cooking_E02A_Meat_ChallysFeed
+ Include_2=edid|recipe_mod_melee_MeatTenderizer_Peppered
+ Include_3=edid|Recipe_Workshop_FloorDecor_Misc_MeatWeek_PoleFlag1
+ Include_4=edid|recipe_mod_melee_MeatTenderizer_Salted
+ Include_5=edid|recipe_mod_melee_MeatTenderizer_Heated
+ Include_6=edid|Recipe_Workshop_FloorDecor_Misc_MeatWeek_PoleFlag2
+ Include_7=edid|Recipe_Cooking_MeatWeek_TatoSalad
+ Include_8=edid|Recipe_Weapon_Melee_MeatTenderizer
+ Include_9=edid|Recipe_Weapon_Thrown_MeatCleaver
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊬⍐
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Invaders_Workshop_Arcade_AlienWhackAMole
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊬⍑⍍
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Invaders_Recipe_Workshop_FloorDecor_FuturisticGlobe
+ Include_1=edid|Invaders_Recipe_workshop_Furniture_Couch_AlienCouch
+ Include_2=edid|Invaders_Recipe_FloorDecor_NukaDarkRocket
+ Include_3=edid|Invaders_Recipe_FloorDecor_NukaGrapeRocket
+ Include_4=edid|Invaders_Recipe_FloorDecor_NukaCherryRocket
+ Include_5=edid|Invaders_Recipe_FloorDecor_NukaQuantumRocket
+ Include_6=edid|Invaders_Recipe_FloorDecor_NukaTwistRocket
+ Include_7=edid|Invaders_Recipe_FloorDecor_NukaColaRocket
+ Include_8=edid|Invaders_Recipe_Armor_HazmatSuit_Pink
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊬⍑⍖
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Invaders_AlienBlaster_Refined
+ Include_1=edid|Recipe_Invaders_Armor_HazmatSuitTeal
+ Include_2=edid|Recipe_Invaders_Workshop_Lights_AlienHeadLamp
+ Include_3=edid|Recipe_Invaders_Workshop_Tables_AlienTable
+ Include_4=edid|Recipe_Invaders_Workshop_Lights_GlowingFlatwoodsMonsterLamp
+ Include_5=edid|Recipe_Invaders_Workshop_WallDecor_AlienTargetPracticePoster
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊬⍖
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|POST_recipe_mod_AlienBlaster_Scope_ScopeShort_NV
+ Include_1=edid|recipe_mod_AlienBlaster_AlienMag_AmmoConversion
+ Include_2=edid|Recipe_Weapon_Ranged_AlienBlaster
+ Include_3=edid|Recipe_Workshop_ZetanTube
+ Include_4=edid|recipe_mod_AlienBlaster_AlienMag_DTPoison
+ Include_5=edid|recipe_mod_AlienBlaster_AlienMag_DTCryo
+ Include_6=edid|Recipe_Weapon_Ranged_AlienRifle
+ Include_7=edid|recipe_mod_AlienRifle_Receiver_DTCryo
+ Include_8=edid|recipe_mod_AlienRifle_Receiver_DTPoison
+ Include_9=edid|recipe_mod_AlienRifle_Receiver_Sniper
+ Include_10=edid|recipe_mod_AlienRifle_Receiver_Auto
+ Include_11=edid|Recipe_mod_melee_ElectroEnforcer_Spiked
+ Include_12=edid|Recipe_Weapon_Melee_ElectroEnforcer
+ Include_13=edid|Recipe_mod_melee_ElectroEnforcer_Overcharged
+ Include_14=edid|Recipe_mod_melee_ElectroEnforcer_Poisoned
+ Include_15=edid|Recipe_mod_melee_ElectroEnforcer_Freezing
+ Include_16=edid|Recipe_Workshop_AlienOperatingBed
+ Include_17=edid|Recipe_Workshop_Container_StashBox_Zetan
+ Include_18=edid|Recipe_Workshop_FloorDecor_Asteroid
+ Include_19=edid|Recipe_Workshop_HumanMaleTube
+ Include_20=edid|Recipe_Workshop_HumanFemaleTube
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊭⍑⍌
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|E07A_Recipe_Headwear_BoneChillSkullMask
+ Include_1=edid|E07A_Recipe_Headwear_HammeredSkullMask
+ Include_2=edid|E07A_Recipe_Headwear_CrudeSkullMask
+ Include_3=edid|E07A_Recipe_Workshop_Displays_MothsOfWestVirginiaCabinet
+ Include_4=edid|E07A_Recipe_Tinkers_Souvenir_Moths_LunaMoth
+ Include_5=edid|E07A_Recipe_Tinkers_Souvenir_Moths_VirginiaCreeper
+ Include_6=edid|E07A_Recipe_Tinkers_Souvenir_Moths_IoMoth
+ Include_7=edid|E07A_Recipe_Tinkers_Souvenir_Moths_AmericanDaggerMoth
+ Include_8=edid|E07A_Recipe_Tinkers_Souvenir_Moths_BeautifulWoodNymphMoth
+ Include_9=edid|E07A_Recipe_Tinkers_Souvenir_Moths_GiantLeopardMoth
+ Include_10=edid|E07A_Recipe_Workshop_Displays_MothsOfWestVirginiaBoard
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊭⍑⍖
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|E07A_Recipe_workshop_FloorDecor_MothVFX
+ Include_1=edid|E07A_Recipe_Headwear_CultistNeophyte
+ Include_2=edid|E07A_Recipe_Headwear_CultistIncarnateHelmet
+ Include_3=edid|E07A_Recipe_Clothes_CultistAdept
+ Include_4=edid|E07A_Recipe_Clothes_CultistEnlightened
+ Include_5=edid|E07A_Recipe_Headwear_CultistEventide
+ Include_6=edid|E07A_Recipe_Clothes_CultistEventide
+ Include_7=edid|E07A_Recipe_Headwear_CultistAdept
+ Include_8=edid|E07A_Recipe_Headwear_CultistEnlightened
+ Include_9=edid|E07A_Recipe_WallDecor_DriedFLowers
+ Include_10=edid|E07A_Recipe_Clothes_CultistNeophyte
+ Include_11=edid|E07A_recipe_Workshop_Incense_MothmanCultist
+ Include_12=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_GreenMothman
+ Include_13=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_BlueMothman
+ Include_14=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_RedMothman
+ Include_15=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_BrownMothman
+ Include_16=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_MothmanGlobe
+ Include_17=edid|E07A_Recipe_Plushie_FuzzyMothman
+ Include_18=edid|Recipe_Workshop_FloorDecor_Mothman_EnlightenedLantern
+ Include_19=edid|E07A_Mothman_Bugzapper_Mothman
+ Include_20=edid|E07A_Recipe_Furniture_SacredMothmanTome
+ Include_21=edid|Recipe_mod_Chainsaw_Paint_Skeptikill
+ Include_22=edid|E07A_Recipe_Plushie_FuzzyEnlightened
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊭⍖
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|E07A_Mothman_WiseMothman_Throne
+ Include_1=edid|E07A_Recipe_Backpack_Standard_Material_Cultist
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊮⍉
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Weapon_Melee_WarGlaive
+ Include_1=edid|Recipe_Weapon_Ranged_BoSPistol_29
+ Include_2=edid|Recipe_Armor_BOSInfantry_Torso
+ Include_3=edid|Recipe_Armor_BOSInfantry_LegRight
+ Include_4=edid|Recipe_Armor_BOSInfantry_LegLeft
+ Include_5=edid|Recipe_Armor_BOSInfantry_ArmRight
+ Include_6=edid|Recipe_Armor_BOSInfantry_Helmet
+ Include_7=edid|Recipe_Armor_BOSInfantry_ArmLeft
+ Include_8=edid|Recipe_Weapon_Melee_PlasmaSword
+ Include_9=edid|Recipe_Weapon_Ranged_BOSRocketLauncher
+ Include_10=edid|recipe_mod_weapon_AutoGrenadeLauncher_material_BloodEagle
+ Include_11=edid|Recipe_mod_Handmade_Material_Paint_HotRod
+ Include_12=edid|Recipe_Brewing_LiquidCourage
+ Include_13=edid|Recipe_Weapon_Melee_AssaultronBlade_TheGutter
+ Include_14=edid|Recipe_Weapon_Ranged_AssaultRifle_WhistleInTheDark
+ Include_15=edid|Recipe_Workshop_Power_Generator_SuperReactor
+ Include_16=edid|Recipe_Workshop_MiscStructures_SymptoMatic
+ Include_17=edid|Recipe_Workshop_Container_StashBox_MeatBag_Floor
+ Include_18=edid|recipe_mod_PowerArmor_X01_Material_Paint_Scorched
+ Include_19=edid|Recipe_Armor_EnclaveScoutUniform_Torso_Covert
+ Include_20=edid|Recipe_Headwear_EnclaveScoutUniform_Mask_Covert
+ Include_21=edid|Recipe_Armor_EnclaveScoutUniform_LegLeft_Covert
+ Include_22=edid|Recipe_Armor_EnclaveScoutUniform_LegRight_Covert
+ Include_23=edid|Recipe_Armor_EnclaveScoutUniform_ArmRight_Covert
+ Include_24=edid|Recipe_Armor_EnclaveScoutUniform_ArmLeft_Covert
+ Include_25=edid|Recipe_Weapon_Melee_DeathclawGauntlet_UnstoppableMonster
+ Include_26=edid|Recipe_Weapon_Ranged_44_MedicalMalpractice
+ Include_27=edid|Recipe_Weapon_Melee_FaceBreaker
+ Include_28=edid|Recipe_Headwear_Marine_Arctic_Helmet_30
+ Include_29=edid|Recipe_Armor_Marine_Arctic_Torso_30
+ Include_30=edid|Recipe_Armor_Marine_Arctic_LegLeft_30
+ Include_31=edid|Recipe_Armor_Marine_Arctic_ArmLeft_30
+ Include_32=edid|Recipe_Armor_Marine_Arctic_LegRight_30
+ Include_33=edid|Recipe_Armor_Marine_Arctic_ArmRight_30
+ Include_34=edid|recipe_mod_PowerArmor_AlienInvaderV2_Torso_Misc_JetPack
+ Include_35=edid|recipe_Armor_PowerArmor_AlienInvaderV2_Helmet
+ Include_36=edid|recipe_Armor_PowerArmor_AlienInvaderV2_Torso
+ Include_37=edid|recipe_Armor_PowerArmor_AlienInvaderV2_Arms
+ Include_38=edid|recipe_Armor_PowerArmor_AlienInvaderV2_Legs
+ Include_39=edid|Recipe_Backpack_Standard_Material_Alien
+ Include_40=edid|Recipe_Weapon_Ranged_LeverGun_SoleSurvivor_30
+ Include_41=edid|Recipe_Weapon_Melee_PipeWrench_MechanicsBestFriend_30
+ Include_42=edid|Recipe_Workshop_Power_Generator_SolarPanels
+ Include_43=edid|Recipe_Workshop_MirelurkKingTube_30
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊮⍖
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|POST_recipe_Armor_VaultSuit94_Underarmor_Clean
+ Include_1=edid|Recipe_Workshop_Container_StashBox_Vault94
+ Include_2=edid|Recipe_Workshop_Lights_CagedBulbLights
+ Include_3=edid|Recipe_Workshop_WallDecor_ValleyGalleriaSigns
+ Include_4=edid|Recipe_Armor_VaultSuit94_Underarmor
+ Include_5=edid|Recipe_Workshop_WallDecor_BurrowsSigns
+ Include_6=edid|Recipe_Workshop_Lights_AsylumLight
+ Include_7=edid|Recipe_Workshop_Benches_CrowdBench
+ Include_8=edid|Recipe_Workshop_Lights_NeonSignHello
+ Include_9=edid|Recipe_Workshop_Lights_NeonSignOpen
+ Include_10=edid|Recipe_Workshop_Bed_Poodle_SleepingBag
+ Include_11=edid|Recipe_Workshop_SuperMutantTube
+ Include_12=edid|Recipe_Workshop_WendigoTube_31
+ Include_13=edid|Recipe_Workshop_WallDecor_BOSMedallion
+ Include_14=edid|Recipe_Workshop_FloorDecor_EnclaveMedallion
+ Include_15=edid|Recipe_Workshop_WallDecor_EmmetMountainSigns
+ Include_16=edid|Recipe_Workshop_WallDecor_ScienceChalkboards
+ Include_17=edid|Recipe_Workshop_FloaterTubes
+ Include_18=edid|Recipe_Workshop_FlatwoodsMonsterTube
+ Include_19=edid|Recipe_mod_Handmade_Material_Paint_Intergalactic
+ Include_20=edid|MOON_DO_Workshop_Recipe_CowboyDuster
+ Include_21=edid|MOON_DO_Workshop_Recipe_CowboyChaps
+ Include_22=edid|MOON_DO_Workshop_Recipe_CowboyHat
+ Include_23=edid|MOON_DO_Workshop_Recipe_KidsTruckBed
+ Include_24=edid|MOON_DO_Workshop_Recipe_UmbrellaHat
+ Include_25=edid|MOON_DO_Workshop_Recipe_BrahminSofa
+ Include_26=edid|MOON_DO_Workshop_Recipe_FeralGhoulChair
+ Include_27=edid|MOON_DO_Workshop_Recipe_GorillaChair
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊯
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Storm_Recipe_Turkey_Backpack
+ Include_1=edid|Storm_Clothes_Recipe_LostMediumArmour
+ Include_2=edid|Storm_Clothes_Recipe_LostMediumHelmet
+ Include_3=edid|Storm_Clothes_Recipe_LostHeavyArmour
+ Include_4=edid|Storm_Clothes_Recipe_LostLightArmour
+ Include_5=edid|Storm_Clothes_Recipe_LostHeavyHelmet
+ Include_6=edid|Storm_Clothes_Recipe_LostLightHelmet
+ Include_7=edid|Storm_Recipe_Workshop_FloorDecor_RobotBossLegDisplay
+ Include_8=edid|Storm_Recipe_Workshop_Chair_BossArmChair01
+ Include_9=edid|Storm_Recipe_Workshop_FloorDecor_RobotBossCockpit
+ Include_10=edid|Storm_Recipe_Workshop_FloorDecor_RobotBossArmDisplay
+ Include_11=edid|Storm_Recipe_Workshop_FloorDecor_MiniBossFigure
+ Include_12=edid|Storm_Recipe_Workshop_WallDecor_V63ZweihaenderBlueprint
+ Include_13=edid|Storm_Recipe_Workshop_WallDecor_SecurityBatonBlueprint
+ Include_14=edid|Storm_Recipe_Workshop_WallDecor_WeatherMachineBlueprint
+ Include_15=edid|Storm_Recipe_Workshop_FloorDecor_ShenandoahMapTable
+ Include_16=edid|Storm_Recipe_Workshop_FloorDecor_TaxidermyRadTurkey
+ Include_17=edid|Storm_Recipe_Workshop_WallDecor_TaxidermyRadTurkeyHead
+ Include_18=edid|Storm_Recipe_Workshop_WallDecor_Poster_MoeMole02
+ Include_19=edid|Storm_Recipe_Workshop_WallDecor_Poster_MoeMole01
+ Include_20=edid|Storm_Recipe_Workshop_WallDecor_Poster_MoeMole03
+ Include_21=edid|Storm_Recipe_Workshop_FloorDecor_ShenandoahSign03
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊰
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|E09A_Recipe_Workshop_NWOT_DesktopNukaLauncher
+ Include_1=edid|E09A_Recipe_Workshop_NWOT_NukaLauncher_Ornament
+ Include_2=edid|E09A_Recipe_UltraciteTitanFlair
+ Include_3=edid|E09A_Recipe_Workshop_Abomination_Plushie
+ Include_4=edid|E09A_Recipe_Workshop_FloorDecor_Snowglobe_NukaLauncher
+ Include_5=edid|E09A_Recipe_Workshop_StandalonePoster
+ Include_6=edid|NWOT_Recipe_Workshop_FloorDecor_LargeUltraciteShard
+ Include_7=edid|E09A_Recipe_Workshop_FloorDecor_LargeUltraciteShard
+ Include_8=edid|E09A_Recipe_Workshop_NWOTCoaster_Toy
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊱⍇
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Workshop_Container_StashBox_Supply_Crate_Large
+ Include_1=edid|recipe_mod_weapon_LaserGun_material_HotRodFlames
+ Include_2=edid|recipe_Headwear_CenturionHelmet
+ Include_3=edid|recipe_mod_PowerArmor_Material_Paint_Inferno_Mk_3
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊱⍈
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|E06_Colossus_Recipe_Workshop_FloorDecor_Taxidermy_WendigoColossus
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊱⍉
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|E06_Colossus_Recipe_Workshop_FloorDecor_Rugs_Colossus_Rug
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊱⍖
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|E06_Colossus_Recipe_Workshop_FloorDecor_WendigoColossus_Plushie
+ Include_1=edid|E06_Colossus_Recipe_Workshop_FloorDecor_WendigoColossusMeatPile
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊲⍇
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_Reactive
+ Include_1=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_Tesla
+ Include_2=edid|recipe_mod_PowerArmor_Ultracite_Helmet_Misc_DetectLife
+ Include_3=edid|recipe_mod_PowerArmor_Ultracite_Leg_Misc_Carry
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊲⍈
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|recipe_mod_PowerArmor_Ultracite_Leg_Misc_OptimizedServos
+ Include_1=edid|recipe_mod_PowerArmor_Ultracite_Leg_Misc_SprintBoost
+ Include_2=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_Emergency
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊲⍉
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_Cleanser
+ Include_1=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_Kinetic
+ Include_2=edid|recipe_mod_PowerArmor_Ultracite_Leg_Misc_APRegen
+ Include_3=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_DMGShield
+ Include_4=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_BatRegen
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊲⍖
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Workshop_MiscStructures_DeconArch
+ Include_1=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_MedicPump
+ Include_2=edid|recipe_mod_PowerArmor_Ultracite_Arm_Misc_Unarmed
+ Include_3=edid|recipe_Armor_PowerArmor_Ultracite_ArmRight
+ Include_4=edid|recipe_Armor_PowerArmor_Ultracite_LegRight
+ Include_5=edid|recipe_mod_PowerArmor_T60_Torso_Misc_Jetpack
+ Include_6=edid|recipe_mod_PowerArmor_T51_Torso_Misc_JetPack
+ Include_7=edid|recipe_mod_PowerArmor_Ultracite_Arm_Misc_Optimized
+ Include_8=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_Str
+ Include_9=edid|recipe_Armor_PowerArmor_Ultracite_LegLeft
+ Include_10=edid|recipe_Armor_PowerArmor_Ultracite_Torso
+ Include_11=edid|recipe_mod_PowerArmor_Ultracite_Arm_Misc_Bleed
+ Include_12=edid|recipe_Armor_PowerArmor_Ultracite_ArmLeft
+ Include_13=edid|recipe_mod_PowerArmor_Ultracite_Helmet_Misc_Sensor
+ Include_14=edid|recipe_mod_PowerArmor_Ultracite_Helmet_Misc_Int
+ Include_15=edid|recipe_mod_PowerArmor_T45_Torso_Misc_JetPack
+ Include_16=edid|recipe_Armor_PowerArmor_Ultracite_Helmet
+ Include_17=edid|Recipe_Workshop_WallDecor_76Taxidermy_ScorchedBeastQueen
+ Include_18=edid|recipe_mod_PowerArmor_Ultracite_Torso_Misc_JetPack
+ Include_19=edid|recipe_mod_PowerArmor_Raider_Torso_Misc_JetPack
+ Include_20=edid|recipe_mod_PowerArmor_Ultracite_Leg_Misc_ExplVent
+ Include_21=edid|recipe_mod_PowerArmor_Material_Paint_Outcast
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊳
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Workshop_WallDecor_BRCCFlag01
+ Include_1=edid|Recipe_Backpack_Standard_Material_Blueridge
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊴
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Storm_Recipe_Workshop_LostInATube
+ Include_1=edid|Storm_Clothes_Recipe_BurntLabCoat01
+ Include_2=edid|Storm_Clothes_Recipe_BurntLabCoat02
+ Include_3=edid|Storm_Clothes_Workshop_Recipe_ShenandoahTShirtSlacks
+ Include_4=edid|Storm_Recipe_Workshop_FloorDecor_MoetheMole_CutOut
+ Include_5=edid|Storm_Clothes_Recipe_LostLightArmour_Burnt
+ Include_6=edid|Storm_Recipe_Workshop_FloorDecor_WildLifeSign03
+ Include_7=edid|Storm_Clothes_Recipe_LostMediumHelmet_Burnt
+ Include_8=edid|Storm_Clothes_Recipe_LostMediumArmour_Burnt
+ Include_9=edid|Storm_Clothes_Recipe_LostHeavyArmour_Burnt
+ Include_10=edid|Storm_Recipe_Workshop_FloorDecor_LightningHarvester
+ Include_11=edid|Storm_Recipe_Workshop_WallDecor_Poster_Turkey
+ Include_12=edid|Storm_Clothes_Recipe_LostHeavyHelmet_Burnt
+ Include_13=edid|Storm_Recipe_Workshop_FloorDecor_WildLifeSign04
+ Include_14=edid|Storm_Clothes_Recipe_LostLightHelmet_Burnt
+ Include_15=edid|Storm_Recipe_Workshop_FloorDecor_WildLifeSign01
+ Include_16=edid|Storm_Recipe_Workshop_FloorDecor_WildLifeSign08
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊵⍈
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Chem_StimGas
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊵⍉
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Weapon_Melee_BearArm
+ Include_1=edid|recipe_mod_melee_BearArm_Puncturing
+ Include_2=edid|recipe_mod_melee_BearArm_Heavy
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊵⍖
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Chems_SFS09_FormulaP
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊶⍉
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Workshop_FloorDecor_E05_RadioactiveBarrel
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊷⍈
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Weapon_Ranged_TheFixer
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊸
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|MOON_Herd_Workshop_Recipe_PaddockFence
+ Include_1=edid|MOON_Herd_Workshop_Recipe_BlueDevilOutfit
+ Include_2=edid|MOON_Herd_Workshop_Recipe_BlueDevilHood
+ Include_3=edid|Moon_Herd_Workshop_Recipe_BlueDevilTrophy
+ Include_4=edid|MOON_Herd_Workshop_Recipe_TaxidermyBlueDevil
+ Include_5=edid|MOON_Herd_Workshop_Recipe_CurtainBlueDevil
+ Include_6=edid|MOON_Herd_Workshop_Recipe_BrahminBackpack
+ Include_7=edid|MOON_Herd_Workshop_Recipe_BlueDevilPlushie
+ Include_8=edid|MOON_Herd_Workshop_Recipe_KidsCowClock
+ Include_9=edid|MOON_Herd_Workshop_Recipe_CartographyTable
+ Include_10=edid|MOON_Herd_Workshop_Recipe_TrailerTruckGear
+ Include_11=edid|MOON_Herd_Workshop_Recipe_BlueDevilFlair
+ Include_12=edid|MOON_Herd_Workshop_Recipe_Milkman
+ Include_13=edid|MOON_Herd_Workshop_Recipe_MilkmanHat
+ Include_14=edid|MOON_Herd_Workshop_Recipe_BrahminPlushie
+ Include_15=edid|MOON_Herd_Workshop_Recipe_PaddockGate
+ Include_16=edid|Moon_Recipe_Workshop_FloorDecor_Rugs_BrahminRug
+ Include_17=edid|MOON_Herd_Workshop_Recipe_Rug
+ Include_18=edid|MOON_Herd_Workshop_Recipe_TravellersWagon
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊹
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|MOON_Herd_Workshop_Recipe_OguaHunterHood
+ Include_1=edid|MOON_Herd_Workshop_Recipe_OguaHunterOutfit
+ Include_2=edid|MOON_Ambush_Recipe_OguaShellBackpack
+ Include_3=edid|MOON_Ambush_Workshop_Recipe_SleepingBag
+ Include_4=edid|MOON_Ambush_Workshop_Recipe_BlueRidgeScoutOutfit
+ Include_5=edid|MOON_Ambush_Workshop_Recipe_CurtainOgua
+ Include_6=edid|Moon_Ambush_Workshop_Recipe_OguaTrophy
+ Include_7=edid|MOON_Ambush_Workshop_Recipe_OguaPlushie
+ Include_8=edid|MOON_Ambush_Workshop_Recipe_SleepingBagFur
+ Include_9=edid|MOON_Ambush_Workshop_Recipe_OguaFlair
+ Include_10=edid|MOON_Ambush_Workshop_Recipe_Tent
+ Include_11=edid|MOON_Ambush_Workshop_Recipe_CryptidHunterBoonieHat
+ Include_12=edid|MOON_Ambush_Workshop_Recipe_Mobile
+ Include_13=edid|MOON_Ambush_Workshop_Recipe_OguaEgg
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊺
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|NWOT_Recipe_Food_CarnivalPie
+ Include_1=edid|NWOT_Recipe_Food_GulperStuffedFoot
+ Include_2=edid|NWOT_Recipe_Food_YaoGuaiPastry
+ Include_3=edid|NWOT_Recipe_Food_RadscorpionKebab
+ Include_4=edid|NWOT_Recipe_Food_CaramelMutfruit
+ Include_5=edid|NWOT_Recipe_Food_RadroachSkewer2
+ Include_6=edid|NWOT_Recipe_Food_NukaDog
+ Include_7=edid|NWOT_Recipe_Food_BrahminBurgers
+ Include_8=edid|E09C_Recipe_Workshop_FloorDecor_Snowglobe_ToL
+ Include_9=edid|E09C_Recipe_Workshop_StandalonePoster
+ Include_10=edid|NWOT_Recipe_Food_RadscorpionSkewer
+ Include_11=edid|E09C_Recipe_Workshop_CupidCappy
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊻
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|E09D_Recipe_Headwear_DeputysHat
+ Include_1=edid|E09D_Recipe_Headwear_SheriffsHat
+ Include_2=edid|E09D_Recipe_Workshop_TownsFolk
+ Include_3=edid|E09D_Recipe_Workshop_WantedPoster
+ Include_4=edid|E09D_Recipe_Workshop_Tombstone
+ Include_5=edid|E09D_Recipe_Workshop_SafeWall
+ Include_6=edid|E09D_Recipe_Workshop_Cappy&amp;BottleCowboys
+ Include_7=edid|E09D_Recipe_Workshop_EntranceSign
+ Include_8=edid|E09D_Recipe_Workshop_PokerSet
+ Include_9=edid|E09D_Recipe_Workshop_WesternMural
+ Include_10=edid|E09D_Recipe_Workshop_Wagon
+ Include_11=edid|E09D_Recipe_NukaCowboyHat
+ Include_12=edid|E09D_Recipe_NukaCowboyDuster
+ Include_13=edid|E09D_Recipe_Workshop_FloorDecor_Snowglobe_MostWanted
+ Include_14=edid|E09D_Recipe_Workshop_StandalonePoster
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊼
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|E09B_Workshop_Recipe_CappyPlush
+ Include_1=edid|E09B_Workshop_Recipe_Stilts
+ Include_2=edid|E09B_Workshop_Recipe_BottlePlush
+ Include_3=edid|E09B_Workshop_Recipe_Stairs
+ Include_4=edid|E09B_Workshop_Recipe_SeeSaw
+ Include_5=edid|E09B_Workshop_Recipe_Ball
+ Include_6=edid|E09B_Workshop_Recipe_HulaHoop
+ Include_7=edid|E09B_Workshop_Recipe_CubeToy
+ Include_8=edid|E09B_Workshop_Recipe_StageTrim
+ Include_9=edid|E09B_Workshop_Recipe_CircusStool
+ Include_10=edid|E09B_Workshop_Recipe_Ornament
+ Include_11=edid|E09B_Recipe_Workshop_FloorDecor_Snowglobe_STW
+ Include_12=edid|E09B_Workshop_Recipe_Poster
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊽
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Workshop_NWOT_CappyClapper
+ Include_1=edid|Recipe_Workshop_NWOT_BottleBot
+ Include_2=edid|Recipe_Workshop_FloorDecor_NWOT_Carnival_Statue_04
+ Include_3=edid|Recipe_Workshop_FloorDecor_NWOT_Carnival_Statue_03
+ Include_4=edid|Recipe_Workshop_FloorDecor_NWOT_Carnival_Statue_01
+ Include_5=edid|Recipe_Workshop_FloorDecor_NWOT_Carnival_Statue_02
+ Include_6=edid|NWOT_Recipe_CappyFlair
+ Include_7=edid|NWOT_Recipe_BottleFlair
+ Include_8=edid|NWOT_Recipe_mod_SuperSledge_Melee_Paint_CappySmasher
+ Include_9=edid|NWOT_Recipe_Workshop_Structure_NukaStallCrates
+ Include_10=edid|NWOT_Recipe_Workshop_FloorDecor_AdBarriers
+ Include_11=edid|NWOT_Recipe_Workshop_StandalonePoster
+ Include_12=edid|Recipe_Workshop_NWOTBalloon
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊾
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|E08A_Recipe_Workshop_GulperRug
+ Include_1=edid|E08A_Recipe_Workshop_GulperHead
+ Include_2=edid|E08A_Recipe_Mod_Melee_GulperSmacker_Blades
+ Include_3=edid|E08A_Recipe_Mod_Melee_GulperSmacker_Chains
+ Include_4=edid|E08A_Recipe_Weapon_Melee_GulperSmacker
+ Include_5=edid|E08A_Recipe_Mod_Melee_GulperSmacker_Nails
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⊿
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Cooking_Smores
+ Include_1=edid|Recipe_Workshop_MiscStructures_Tent_CampfireTales
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⋀
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_XPD_AC_Workshop_Lights_MezzanineLights
+ Include_1=edid|Recipe_XPD_AC_Workshop_FloorDecor_NightclubExtSign
+ Include_2=edid|Recipe_XPD_AC_Workshop_FloorDecor_AtlanticCitySign
+ Include_3=edid|Recipe_XPD_AC_Workshop_NeapolitanExtSign
+ Include_4=edid|Recipe_XPD_AC_Workshop_OvergrownRusherTube
+ Include_5=edid|Recipe_XPD_AC_Workshop_OvergrownPollinatorTube
+ Include_6=edid|Recipe_XPD_AC_Workshop_OvergrownElderTube
+ Include_7=edid|Recipe_XPD_AC_Workshop_Tables_DiceTable
+ Include_8=edid|Recipe_XPD_AC_Clothes_BatsuuriTwins
+ Include_9=edid|Recipe_XPD_AC_Headwear_Veracio
+ Include_10=edid|Recipe_XPD_AC_Clothes_Veracio
+ Include_11=edid|Recipe_XPD_AC_Outfit_MotherCharlotte
+ Include_12=edid|Recipe_XPD_AC_Armor_Muni_Underarmor
+ Include_13=edid|Recipe_XPD_AC_Clothes_MuniWorker_Operator
+ Include_14=edid|Recipe_XPD_AC_Clothes_MuniWorker_Drudge
+ Include_15=edid|Recipe_XPD_AC_Clothes_MuniWorker_Worker
+ Include_16=edid|Recipe_XPD_AC_Workshop_FloorDecor_GameShowSigns
+ Include_17=edid|Recipe_XPD_AC_Workshop_FloorDecor_SlotMachines
+ Include_18=edid|Recipe_XPD_AC_Workshop_FloorDecor_WorldsBiggestSlotMachine
+ Include_19=edid|Recipe_XPD_AC_Workshop_FloorDecor_AquariumPillar
+ Include_20=edid|Recipe_XPD_AC_Workshop_FloorDecor_HorseRacingMachine
+ Include_21=edid|Recipe_XPD_AC_Workshop_Tables_RouletteTable
+ Include_22=edid|Recipe_XPD_AC_Workshop_Tables_CardTables
+ Include_23=edid|Recipe_XPD_AC_RouletteRevolverPaint
+ Include_24=edid|Recipe_XPD_AC_Workshop_OvergrownVehicle
+ Include_25=edid|Recipe_XPD_AC_Outfit_MayorTimOutfit
+ Include_26=edid|Recipe_XPD_AC_Headwear_MayorTimOutfit
+ Include_27=edid|Recipe_XPD_AC_Outfit_ButtercupOutfit
+ Include_28=edid|Recipe_XPD_AC_Workshop_LesserDevilPlushie
+ Include_29=edid|Recipe_XPD_AC_ShowstopperShotgunPaint
+ Include_30=edid|Recipe_XPD_AC_Workshop_AquariumWhaleDisplay
+ Include_31=edid|Recipe_XPD_AC_OvergrownMissileLauncher
+ Include_32=edid|Recipe_XPD_AC_OvergrownAssaultRifle
+ Include_33=edid|Recipe_XPD_AC_OvergrownDeathclawGauntlet
+ Include_34=edid|Recipe_XPD_AC_Workshop_FloorDecor_SlotMachinePodiums
+ Include_35=edid|Recipe_XPD_AC_Workshop_QuentinosSign
+ Include_36=edid|Recipe_XPD_AC_Workshop_SeaAnimalPillars
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⋁
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_XPD_Workshop_StreetKit_Pitt
+ Include_1=edid|Recipe_XPD_Workshop_FanaticBarricade_Pitt
+ Include_2=edid|Recipe_XPD_Workshop_PittCityLimitSigns
+ Include_3=edid|Recipe_XPD_Workshop_Floodlight_Pitt
+ Include_4=edid|Recipe_XPD_mod_PowerArmor_Union_Torso_Misc_Tesla
+ Include_5=edid|Recipe_XPD_mod_PowerArmor_Union_Arm_Misc_Optimized
+ Include_6=edid|Recipe_XPD_mod_PowerArmor_Union_Helmet_Misc_Recon
+ Include_7=edid|Recipe_XPD_mod_PowerArmor_Union_Leg_Misc_Carry
+ Include_8=edid|Recipe_XPD_mod_PowerArmor_Union_Leg_Misc_OptimizedServos
+ Include_9=edid|Recipe_XPD_mod_PowerArmor_Union_Helmet_Misc_VATSChance
+ Include_10=edid|Recipe_XPD_mod_PowerArmor_Union_Torso_Misc_BatRegen
+ Include_11=edid|Recipe_XPD_mod_PowerArmor_Union_Leg_Misc_SprintBoost
+ Include_12=edid|Recipe_XPD_mod_PowerArmor_Union_Torso_Misc_MedicPump
+ Include_13=edid|Recipe_XPD_mod_PowerArmor_Union_Arm_Misc_ShockDmg
+ Include_14=edid|Recipe_XPD_mod_PowerArmor_Union_Torso_Misc_Kinetic
+ Include_15=edid|Recipe_XPD_mod_PowerArmor_Union_Torso_Misc_Cleanser
+ Include_16=edid|Recipe_XPD_mod_PowerArmor_Union_Leg_Misc_ExplVent
+ Include_17=edid|Recipe_XPD_mod_PowerArmor_Union_Torso_Misc_Reactive
+ Include_18=edid|Recipe_XPD_mod_PowerArmor_Union_Torso_Misc_Str
+ Include_19=edid|Recipe_XPD_mod_PowerArmor_Union_Helmet_Misc_Sensor
+ Include_20=edid|Recipe_XPD_mod_PowerArmor_Union_Torso_Misc_StealthBoy
+ Include_21=edid|Recipe_XPD_mod_PowerArmor_Union_Arm_Misc_Bleed
+ Include_22=edid|Recipe_XPD_mod_PowerArmor_Union_Helmet_Misc_DetectLife
+ Include_23=edid|Recipe_XPD_mod_PowerArmor_Union_Torso_Misc_Emergency
+ Include_24=edid|Recipe_XPD_mod_PowerArmor_Union_Leg_Misc_APRegen
+ Include_25=edid|Recipe_XPD_mod_PowerArmor_Union_Helmet_Misc_Int
+ Include_26=edid|Recipe_XPD_mod_PowerArmor_Union_Arm_Misc_Unarmed
+ Include_27=edid|Recipe_XPD_Workshop_WallDecor_Union42Banners
+ Include_28=edid|Recipe_XPD_mod_PowerArmor_Union_Helmet_Headlamp_Purple
+ Include_29=edid|Recipe_XPD_mod_PowerArmor_Union_Helmet_Headlamp_Blue
+ Include_30=edid|Recipe_XPD_mod_PowerArmor_Union_Helmet_Headlamp_Bright
+ Include_31=edid|Recipe_XPD_mod_PowerArmor_Union_Helmet_Headlamp_VaultBoy
+ Include_32=edid|Recipe_XPD_mod_PowerArmor_Union_Helmet_Headlamp_RedTactical
+ Include_33=edid|Recipe_mod_AutoAxe_Poisoned
+ Include_34=edid|Recipe_mod_AutoAxe_Turbo
+ Include_35=edid|Recipe_mod_AutoAxe_Electrified
+ Include_36=edid|Recipe_mod_AutoAxe_Burning
+ Include_37=edid|Recipe_XPD_Headwear_SkippysOutfit
+ Include_38=edid|Recipe_XPD_Headwear_DanilosOutfit
+ Include_39=edid|Recipe_XPD_Clothes_SkippysOutfit
+ Include_40=edid|Recipe_XPD_Clothes_DanilosOutfit
+ Include_41=edid|Recipe_XPD_Workshop_TrogTube
+ Include_42=edid|Recipe_XPD_mod_PumpActionShotgun_Material_Paint_Fanatics
+ Include_43=edid|Recipe_mod_HuntingRifle_Material_Paint_XPD_Union
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊞⍖
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -3710,7 +5666,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊞
+ Header=⊟
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -3728,7 +5684,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊟
+ Header=⊠
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -3747,7 +5703,43 @@
 [EndRule]
 
 [StartRule]
- Header=⊠
+ Header=⊡
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=-1
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊡
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Storm_MQ03_OberlinsHolotape
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊢
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -3765,7 +5757,313 @@
 [EndRule]
 
 [StartRule]
- Header=⌍
+ Header=⍆
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|absolutely_not_existed_edid
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⍇
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|absolutely_not_existed_edid
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⍈
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|absolutely_not_existed_edid
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⍉
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|absolutely_not_existed_edid
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⍊
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|absolutely_not_existed_edid
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⍋
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|absolutely_not_existed_edid
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⍌
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|absolutely_not_existed_edid
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⍍
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|absolutely_not_existed_edid
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⍎
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|absolutely_not_existed_edid
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⍏
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|absolutely_not_existed_edid
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⍐
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|absolutely_not_existed_edid
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⍑
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|absolutely_not_existed_edid
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⍒
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|absolutely_not_existed_edid
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⍓
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|absolutely_not_existed_edid
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⍔
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|absolutely_not_existed_edid
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⍕
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|absolutely_not_existed_edid
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⍖
+ rSig=NOTE
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|absolutely_not_existed_edid
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌲
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3783,7 +6081,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌍
+ Header=⌲
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3801,7 +6099,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌎
+ Header=⌳
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3819,7 +6117,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌏⌐
+ Header=⌴⌵
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -3841,7 +6139,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌐
+ Header=⌵
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3860,7 +6158,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌏⌑
+ Header=⌴⌶
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -3879,7 +6177,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌏⌑
+ Header=⌴⌶
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3901,7 +6199,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌑
+ Header=⌶
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3932,7 +6230,25 @@
 [EndRule]
 
 [StartRule]
- Header=⌏⌒
+ Header=⌶
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|DLC03_ma_HarpoonGun
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⌴⌷
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -3954,7 +6270,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌏⌒
+ Header=⌴⌷
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3974,7 +6290,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌒
+ Header=⌷
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -3995,7 +6311,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌒
+ Header=⌷
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4017,7 +6333,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌏⌓
+ Header=⌴⌸
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4046,7 +6362,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌏⌓
+ Header=⌴⌸
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4069,7 +6385,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌓
+ Header=⌸
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4092,7 +6408,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌓
+ Header=⌸
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4115,7 +6431,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌓
+ Header=⌸
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4133,7 +6449,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌏⌔
+ Header=⌴⌹
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4151,7 +6467,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌏⌔
+ Header=⌴⌹
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4173,7 +6489,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌔
+ Header=⌹
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4196,7 +6512,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌏⌕
+ Header=⌴⌺
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4217,7 +6533,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌏⌕
+ Header=⌴⌺
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4240,7 +6556,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌕
+ Header=⌺
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4263,7 +6579,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌕
+ Header=⌺
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4281,7 +6597,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌏⌖
+ Header=⌴⌻
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4299,7 +6615,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌖
+ Header=⌻
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4317,7 +6633,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌗
+ Header=⌼
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4336,7 +6652,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌏⌘
+ Header=⌴⌽
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4356,7 +6672,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌏⌘
+ Header=⌴⌽
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4377,7 +6693,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌘
+ Header=⌽
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4398,7 +6714,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌘
+ Header=⌽
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4419,7 +6735,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌏⌙
+ Header=⌴⌾
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4445,7 +6761,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌏⌙
+ Header=⌴⌾
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4466,7 +6782,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌙
+ Header=⌾
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4494,7 +6810,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌏⌚
+ Header=⌴⌿
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4513,7 +6829,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌚
+ Header=⌿
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4532,7 +6848,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌏⌛
+ Header=⌴⍀
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4550,7 +6866,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌛
+ Header=⍀
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4569,7 +6885,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌏⌜
+ Header=⌴⍁
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4589,7 +6905,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌜
+ Header=⍁
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4607,7 +6923,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌏⌝
+ Header=⌴⍂
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4630,7 +6946,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌝
+ Header=⍂
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4648,7 +6964,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌏⌞
+ Header=⌴⍃
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -4675,7 +6991,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌞
+ Header=⍃
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4693,7 +7009,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌟
+ Header=⍄
  rSig=WEAP
  fSig=FULL
  enabled=-1
@@ -4711,7 +7027,7 @@
 [EndRule]
 
 [StartRule]
- Header=⌠
+ Header=⍅
  rSig=WEAP
  fSig=FULL
  enabled=-1

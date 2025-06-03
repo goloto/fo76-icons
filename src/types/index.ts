@@ -4,16 +4,15 @@ import type {
   ICON_APPAREL,
   ICON_ARMOR,
   ICON_CURRENCY,
-  ICON_EVENTS,
   ICON_FOOD,
-  ICON_HOLOTAPES,
   ICON_KEYS,
   ICON_LEGENDARY_EFFECTS,
   ICON_MISC,
   ICON_NOTES,
+  ICON_UTILITY,
   ICON_WEAPONS,
 } from '../generated/icons-enum';
-import type { LeftSignature, RightSignature } from '../constants';
+import type { SPACE, LeftSignature, RightSignature } from '../constants';
 import type { ICON_CATEGORIES } from '@/generated/icon-categories-enum';
 
 export interface Icon {
@@ -22,24 +21,21 @@ export interface Icon {
   category: ICON_CATEGORIES;
 }
 
-export type ICON_COMMON = '_injected_innr_eraser';
-
 // TODO: generate this too
 export type IconNames =
-  | ICON_COMMON
+  | typeof SPACE
   | ICON_CURRENCY
   | ICON_LEGENDARY_EFFECTS
   | ICON_MISC
   | ICON_KEYS
   | ICON_NOTES
-  | ICON_HOLOTAPES
   | ICON_AMMO
   | ICON_AID
   | ICON_FOOD
   | ICON_APPAREL
   | ICON_ARMOR
   | ICON_WEAPONS
-  | ICON_EVENTS;
+  | ICON_UTILITY;
 
 export type IncludeProperty = `edid|${string}` | `ekwd|${string}`;
 

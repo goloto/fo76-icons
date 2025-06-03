@@ -22,35 +22,31 @@ export const ICON_CATEGORIES_ORDER = [
         order: 4,
     },
     {
-        name: ICON_CATEGORIES.Holotapes,
+        name: ICON_CATEGORIES.Ammo,
         order: 5,
     },
     {
-        name: ICON_CATEGORIES.Ammo,
+        name: ICON_CATEGORIES.Aid,
         order: 6,
     },
     {
-        name: ICON_CATEGORIES.Aid,
+        name: ICON_CATEGORIES.Food,
         order: 7,
     },
     {
-        name: ICON_CATEGORIES.Food,
+        name: ICON_CATEGORIES.Apparel,
         order: 8,
     },
     {
-        name: ICON_CATEGORIES.Apparel,
+        name: ICON_CATEGORIES.Armor,
         order: 9,
     },
     {
-        name: ICON_CATEGORIES.Armor,
+        name: ICON_CATEGORIES.Weapons,
         order: 10,
     },
     {
-        name: ICON_CATEGORIES.Weapons,
+        name: ICON_CATEGORIES.Utility,
         order: 11,
-    },
-    {
-        name: ICON_CATEGORIES.Events,
-        order: 12,
     }
 ] as const satisfies CategoryOrder[];
