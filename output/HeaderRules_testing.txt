@@ -5072,7 +5072,7 @@
 [EndRule]
 
 [StartRule]
- Header=#plan|plan_encryptid#
+ Header=#plan|plan_encryptid|rare_two#
  rSig=BOOK
  fSig=FULL
  enabled=-1

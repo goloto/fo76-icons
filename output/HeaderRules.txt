@@ -5072,7 +5072,7 @@
 [EndRule]
 
 [StartRule]
- Header=⊞⊷
+ Header=⊞⊷⍐
  rSig=BOOK
  fSig=FULL
  enabled=-1

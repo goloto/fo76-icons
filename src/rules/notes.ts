@@ -1118,7 +1118,7 @@ export const NOTES_RULES_GROUP = {
         },
         {
             order: 38,
-            prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanEncryptid],
+            prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanEncryptid, ICON_UTILITY.RareTwo],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
             isInjected: false,
