@@ -3438,7 +3438,7 @@
  Exclude_2=ekwd|PowerArmor
  Exclude_3=ekwd|HasGrip_Rifle
  Exclude_4=ekwd|HasGrip_Pistol
- Exclude_5=ekwd|ma_HarpoonGun
+ Exclude_5=ekwd|DLC03_ma_HarpoonGun
  Exclude_6=ekwd|ma_Revolver
  Exclude_7=ekwd|HasBarrel_MultiShot
  Exclude_8=ekwd|HasLegendary_Weapon_Steady
@@ -3517,6 +3517,7 @@
  Include_11=ekwd|HasBarrel
  Include_12=ekwd|CustomItemName_NukaShank
  Exclude_0=ekwd|HasBarrel_MultiShot
+ Exclude_1=ekwd|DLC03_ma_HarpoonGun
 [EndRule]
 
 [StartRule]
@@ -6226,6 +6227,24 @@
  Exclude_11=edid|ResoluteVeteran
  Exclude_12=edid|TheActionHero
  Exclude_13=edid|PepperShaker
+[EndRule]
+
+[StartRule]
+ Header=#heavy#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|DLC03_ma_HarpoonGun
+ Exclude_0=
 [EndRule]
 
 [StartRule]

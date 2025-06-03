@@ -1,5 +1,5 @@
 import { ICON_LEGENDARY_EFFECTS } from "@/generated/icons-enum";
-import { BROADSIDER_RULE, ERASER, LeftSignature, POWER_ARMOR_EFFECTS, REVOLVER_RULE, RightSignature } from "@/constants";
+import { BROADSIDER_RULE, ERASER, HARPOONGUN_RULE, LeftSignature, POWER_ARMOR_EFFECTS, REVOLVER_RULE, RightSignature } from "@/constants";
 import type { IncludeProperty, RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
 const unyieldingRules = [
@@ -578,7 +578,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
                 "ekwd|PowerArmor",
                 "ekwd|HasGrip_Rifle",
                 "ekwd|HasGrip_Pistol",
-                "ekwd|ma_HarpoonGun",
+                HARPOONGUN_RULE,
                 REVOLVER_RULE,
                 BROADSIDER_RULE,
                 ...unyieldingRules,
@@ -641,7 +641,10 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
                 "ekwd|HasBarrel",
                 "ekwd|CustomItemName_NukaShank"
             ],
-            exclude: [BROADSIDER_RULE],
+            exclude: [
+                BROADSIDER_RULE,
+                HARPOONGUN_RULE
+            ],
         }
     ],
 } as const satisfies RulesGroup<ICON_LEGENDARY_EFFECTS | typeof ERASER>;
