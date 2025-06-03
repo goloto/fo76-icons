@@ -3419,7 +3419,7 @@
 [EndRule]
 
 [StartRule]
- Header=#_injected_innr_eraser#
+ Header=#_space_#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -3490,7 +3490,7 @@
 [EndRule]
 
 [StartRule]
- Header=#_injected_innr_eraser#
+ Header=#_space_#
  rSig=INNR
  fSig=WNAM
  enabled=-1

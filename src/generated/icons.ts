@@ -178,7 +178,7 @@ export const ICONS = [
         charCode: '0x2288'
     },
     {
-        name: '_injected_innr_eraser',
+        name: '_space_',
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x020'
     },
