@@ -90,10 +90,6 @@ export enum ICON_NOTES {
     PlanPitt = 'plan_pitt',
     PlanPossumBadge = 'plan_possum_badge',
     PlanProjectParadise = 'plan_project_paradise',
-    PlanQFour = 'plan_q_four',
-    PlanQOne = 'plan_q_one',
-    PlanQThree = 'plan_q_three',
-    PlanQTwo = 'plan_q_two',
     PlanRadiationRumble = 'plan_radiation_rumble',
     PlanRidingShotgun = 'plan_riding_shotgun',
     PlanScorchedEarth = 'plan_scorched_earth',
@@ -101,14 +97,6 @@ export enum ICON_NOTES {
     PlanSpinTheWheel = 'plan_spin_the_wheel',
     PlanTreasureHunt = 'plan_treasure_hunt',
     PlanTunnelOfLove = 'plan_tunnel_of_love',
-    PlanYearTwenty = 'plan_year_twenty',
-    PlanYearTwentyFive = 'plan_year_twenty_five',
-    PlanYearTwentyFour = 'plan_year_twenty_four',
-    PlanYearTwentyOne = 'plan_year_twenty_one',
-    PlanYearTwentySeven = 'plan_year_twenty_seven',
-    PlanYearTwentySix = 'plan_year_twenty_six',
-    PlanYearTwentyThree = 'plan_year_twenty_three',
-    PlanYearTwentyTwo = 'plan_year_twenty_two',
     SiloTape = 'silo_tape',
     TreasureMap = 'treasure_map'
 }
@@ -259,7 +247,19 @@ export enum ICON_WEAPONS {
 export enum ICON_UTILITY {
     Empty = 'empty',
     Expensive = 'expensive',
+    QFour = 'q_four',
+    QOne = 'q_one',
+    QThree = 'q_three',
+    QTwo = 'q_two',
     RareOne = 'rare_one',
     RareThree = 'rare_three',
-    RareTwo = 'rare_two'
+    RareTwo = 'rare_two',
+    YearTwenty = 'year_twenty',
+    YearTwentyFive = 'year_twenty_five',
+    YearTwentyFour = 'year_twenty_four',
+    YearTwentyOne = 'year_twenty_one',
+    YearTwentySeven = 'year_twenty_seven',
+    YearTwentySix = 'year_twenty_six',
+    YearTwentyThree = 'year_twenty_three',
+    YearTwentyTwo = 'year_twenty_two'
 }
