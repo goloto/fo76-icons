@@ -4214,7 +4214,33 @@
 [EndRule]
 
 [StartRule]
- Header=#plan|plan_big_bloom#
+ Header=#plan|plan_big_bloom|rare_two#
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|SSE_Recipe_Headwear_FlowerCrown_Candykill
+ Include_1=edid|SSE_Recipe_Headwear_FlowerCrown_Gigablossom
+ Include_2=edid|SSE_Recipe_Workshop_HoneyBeastTube
+ Include_3=edid|SSE_Recipe_Clothes_FlowerPrintedSundress
+ Include_4=edid|SSE_Recipe_Workshop_Display_HoneyBeastVase
+ Include_5=edid|SSE_Recipe_Workshop_Display_LargeGlazedPot
+ Include_6=edid|SSE_Recipe_Clothes_PantSuit_FlowerSuit
+ Include_7=edid|SSE_Recipe_Cooking_SusanSoothin
+ Include_8=edid|SSE_Recipe_mod_CombatKnife_Material_Paint_GardenTrowel
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#plan|plan_big_bloom|rare_one#
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -4228,31 +4254,39 @@
  isFallBack=0
  fallbackBank=0
  Include_0=edid|SSE_Recipe_Headwear_FlowerCrown_Seesprout
- Include_1=edid|SSE_Recipe_Headwear_FlowerCrown_CarnalWeeper
- Include_2=edid|SSE_Recipe_Headwear_FlowerCrown_Radlily
- Include_3=edid|SSE_Recipe_Headwear_FlowerCrown_Candykill
- Include_4=edid|SSE_Recipe_Headwear_FlowerCrown_Gigablossom
- Include_5=edid|SSE_Recipe_Headwear_WastelandFloristSunhat
- Include_6=edid|SSE_Recipe_Headwear_FlowerCrown_Crystalcup
- Include_7=edid|SSE_Recipe_Headwear_FlowerCrown_Glorybell
- Include_8=edid|SSE_Recipe_Workshop_HoneyBeastTube
- Include_9=edid|SSE_Recipe_Tinkers_HybridFlowers_01
- Include_10=edid|SSE_Recipe_Workshop_Display_MediumGlazedPot
- Include_11=edid|SSE_Recipe_Workshop_Display_SmallGlazedPot
- Include_12=edid|SSE_Recipe_Clothes_FlowerPrintedSundress
- Include_13=edid|SSE_Recipe_Workshop_Display_HoneyBeastVase
- Include_14=edid|SSE_Recipe_Workshop_Display_LargeGlazedPot
- Include_15=edid|SSE_Recipe_Clothes_PantSuit_FlowerSuit
- Include_16=edid|SSE_Recipe_Clothes_WastelandFloristApron
- Include_17=edid|SSE_Recipe_Workshop_PotRadlily
- Include_18=edid|SSE_Recipe_Workshop_PotCrystalCup
- Include_19=edid|SSE_Recipe_Workshop_PotCarnalWeeper
- Include_20=edid|SSE_Recipe_Cooking_SusanSoothin
- Include_21=edid|SSE_Recipe_Cooking_GammaGreenTea
- Include_22=edid|SSE_Recipe_Headwear_FlowerCrown_GreenInvader
- Include_23=edid|SSE_Recipe_mod_CombatKnife_Material_Paint_GardenTrowel
- Include_24=edid|SSE_Recipe_Headwear_FlowerCrown_Embergold
- Include_25=edid|SSE_Recipe_Headwear_FlowerCrown_Starlace
+ Include_1=edid|SSE_Recipe_Headwear_WastelandFloristSunhat
+ Include_2=edid|SSE_Recipe_Headwear_FlowerCrown_Glorybell
+ Include_3=edid|SSE_Recipe_Workshop_Display_MediumGlazedPot
+ Include_4=edid|SSE_Recipe_Workshop_Display_SmallGlazedPot
+ Include_5=edid|SSE_Recipe_Clothes_WastelandFloristApron
+ Include_6=edid|SSE_Recipe_Workshop_PotRadlily
+ Include_7=edid|SSE_Recipe_Workshop_PotCrystalCup
+ Include_8=edid|SSE_Recipe_Workshop_PotCarnalWeeper
+ Include_9=edid|SSE_Recipe_Cooking_GammaGreenTea
+ Include_10=edid|SSE_Recipe_Headwear_FlowerCrown_GreenInvader
+ Include_11=edid|SSE_Recipe_Headwear_FlowerCrown_Embergold
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#plan|plan_big_bloom|empty#
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|SSE_Recipe_Headwear_FlowerCrown_CarnalWeeper
+ Include_1=edid|SSE_Recipe_Headwear_FlowerCrown_Radlily
+ Include_2=edid|SSE_Recipe_Headwear_FlowerCrown_Crystalcup
+ Include_3=edid|SSE_Recipe_Tinkers_HybridFlowers_01
+ Include_4=edid|SSE_Recipe_Headwear_FlowerCrown_Starlace
  Exclude_0=
 [EndRule]
 
