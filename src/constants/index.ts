@@ -62,6 +62,7 @@ export enum RightSignature {
   WNAM = 'WNAM',
   DESC = 'DESC',
   FULL = 'FULL',
+  MCM = '*MCM',
 }
 
 export enum LeftSignature {
@@ -80,6 +81,7 @@ export enum LeftSignature {
   Keyword = 'KYWD',
   Location = 'LCTN',
   Legendary = 'LGDI',
+  MCM = '*MCM',
   Message = 'MESG',
   Misc = 'MISC',
   Note = 'NOTE',

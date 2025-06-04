@@ -1652,16 +1652,15 @@ export const NOTES_RULES_GROUP = {
         {
             order: 64,
             prefix: [ICON_NOTES.Check],
-            leftSignature: LeftSignature.Book,
-            rightSignature: RightSignature.FULL,
+            leftSignature: LeftSignature.MCM,
+            rightSignature: RightSignature.MCM,
             isInjected: false,
             isDeleted: false,
             isAnyKeyword: false,
             isInclusiveOr: false,
-            isFullReplaced: false,
-            include: [],
+            isFullReplaced: true,
+            include: ["edid|#^\\$known$"],
             exclude: [],
-            translationReplacing: ["$Known", "$KNOWN"],
         }
     ],
 } as const satisfies RulesGroup<ICON_NOTES | ICON_UTILITY>;

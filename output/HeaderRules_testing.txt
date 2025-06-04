@@ -3715,18 +3715,10 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=-1
+ includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=edid|LC167_SolventAttractant
- Include_1=edid|POST_LC167_Solution_AtrMirelurk
- Include_2=edid|MILE_CryptidBait_Grafton
- Include_3=edid|MILE_CryptidBait_Mothman
- Include_4=edid|MILE_CryptidBait_Ogua
- Include_5=edid|MILE_CryptidBait_BlueDevil
- Include_6=edid|MILE_CryptidBait_Flatwoods
- Include_7=edid|MILE_CryptidBait_Sheepsquatch
- Include_8=edid|COMP_RQ_RaiderPunk_MiscItem_006_AlienDecoy
+ Include_0=edid|Fishing_Bait
  Exclude_0=
 [EndRule]
 
@@ -5740,19 +5732,19 @@
 
 [StartRule]
  Header=#check#
- rSig=BOOK
- fSig=FULL
+ rSig=*MCM
+ fSig=*MCM
  enabled=-1
  tagID=default
  noKW=0
  anyKW=0
  hasCompo=0
  preProcess=0
- fullReplace=0
+ fullReplace=-1
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=
+ Include_0=edid|#^\$known$
  Exclude_0=
 [EndRule]
 
