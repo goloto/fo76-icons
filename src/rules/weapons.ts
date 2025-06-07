@@ -699,6 +699,19 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 42,
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.MeleeOneHand],
+            leftSignature: LeftSignature.Weapon,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["edid|MTNS04_NailerSword"],
+            exclude: [],
+        },
+        {
+            order: 43,
             prefix: [ICON_WEAPONS.MeleeOneHand],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -711,7 +724,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 43,
+            order: 44,
             prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.MeleeTwoHand],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -735,7 +748,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 44,
+            order: 45,
             prefix: [ICON_WEAPONS.MeleeTwoHand],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -748,7 +761,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 45,
+            order: 46,
             prefix: [ICON_WEAPONS.Binoculars],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -761,7 +774,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 46,
+            order: 47,
             prefix: [ICON_WEAPONS.Camera],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
