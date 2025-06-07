@@ -31,6 +31,7 @@ export enum ICON_LEGENDARY_EFFECTS {
     Supressor = 'supressor',
     Troubleshooter = 'troubleshooter',
     TwoShot = 'two_shot',
+    Unique = 'unique',
     Unyielding = 'unyielding',
     Vampire = 'vampire',
     Vanguard = 'vanguard',
@@ -241,8 +242,7 @@ export enum ICON_WEAPONS {
     Shotgun = 'shotgun',
     ShotgunEnergy = 'shotgun_energy',
     Syringer = 'syringer',
-    Throwing = 'throwing',
-    Unique = 'unique'
+    Throwing = 'throwing'
 }
 export enum ICON_UTILITY {
     Empty = 'empty',

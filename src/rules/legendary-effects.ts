@@ -1,5 +1,5 @@
 import { ICON_LEGENDARY_EFFECTS } from "@/generated/icons-enum";
-import { BROADSIDER_RULE, SPACE, HARPOONGUN_RULE, LeftSignature, POWER_ARMOR_EFFECTS, REVOLVER_RULE, RightSignature } from "@/constants";
+import { BROADSIDER_RULE, SPACE, HARPOONGUN_RULE, LeftSignature, POWER_ARMOR_EFFECTS, REVOLVER_RULE, RightSignature, NOT_EXISTED_EDID } from "@/constants";
 import type { IncludeProperty, RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
 const unyieldingRules = [
@@ -121,6 +121,19 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
     rules: [
         {
             order: 0,
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique],
+            leftSignature: LeftSignature.InstanceNamingRules,
+            rightSignature: RightSignature.WNAM,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: [NOT_EXISTED_EDID],
+            exclude: [],
+        },
+        {
+            order: 1,
             prefix: [ICON_LEGENDARY_EFFECTS.Furious],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -133,7 +146,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 1,
+            order: 2,
             prefix: [ICON_LEGENDARY_EFFECTS.TwoShot],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -146,7 +159,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 2,
+            order: 3,
             prefix: [ICON_LEGENDARY_EFFECTS.Quad],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -159,7 +172,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 3,
+            order: 4,
             prefix: [ICON_LEGENDARY_EFFECTS.Unyielding],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -172,7 +185,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 4,
+            order: 5,
             prefix: [ICON_LEGENDARY_EFFECTS.Gourmand],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -185,7 +198,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 5,
+            order: 6,
             prefix: [ICON_LEGENDARY_EFFECTS.AntiArmor],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -198,7 +211,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 6,
+            order: 7,
             prefix: [ICON_LEGENDARY_EFFECTS.Bloodied],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -211,7 +224,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 7,
+            order: 8,
             prefix: [ICON_LEGENDARY_EFFECTS.Mutant],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -224,7 +237,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 8,
+            order: 9,
             prefix: [ICON_LEGENDARY_EFFECTS.Junkie],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -237,7 +250,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 9,
+            order: 10,
             prefix: [ICON_LEGENDARY_EFFECTS.Instigating],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -250,7 +263,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 10,
+            order: 11,
             prefix: [ICON_LEGENDARY_EFFECTS.Jaggernaut],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -263,7 +276,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 11,
+            order: 12,
             prefix: [ICON_LEGENDARY_EFFECTS.Aristocrat],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -276,7 +289,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 12,
+            order: 13,
             prefix: [ICON_LEGENDARY_EFFECTS.Troubleshooter],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -289,7 +302,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 13,
+            order: 14,
             prefix: [ICON_LEGENDARY_EFFECTS.MutantSlayer],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -302,7 +315,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 14,
+            order: 15,
             prefix: [ICON_LEGENDARY_EFFECTS.GhoulSlayer],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -315,7 +328,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 15,
+            order: 16,
             prefix: [ICON_LEGENDARY_EFFECTS.Zealot],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -328,7 +341,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 16,
+            order: 17,
             prefix: [ICON_LEGENDARY_EFFECTS.Assassin],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -341,7 +354,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 17,
+            order: 18,
             prefix: [ICON_LEGENDARY_EFFECTS.Exterminator],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -354,7 +367,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 18,
+            order: 19,
             prefix: [ICON_LEGENDARY_EFFECTS.Hunter],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -367,7 +380,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 19,
+            order: 20,
             prefix: [ICON_LEGENDARY_EFFECTS.Vampire],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -380,7 +393,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 20,
+            order: 21,
             prefix: [ICON_LEGENDARY_EFFECTS.Medic],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -393,7 +406,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 21,
+            order: 22,
             prefix: [ICON_LEGENDARY_EFFECTS.Regenerating],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -406,7 +419,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 22,
+            order: 23,
             prefix: [ICON_LEGENDARY_EFFECTS.AutoStim],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -419,7 +432,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 23,
+            order: 24,
             prefix: [ICON_LEGENDARY_EFFECTS.LifeSaving],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -432,7 +445,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 24,
+            order: 25,
             prefix: [ICON_LEGENDARY_EFFECTS.Vanguard],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -445,7 +458,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 25,
+            order: 26,
             prefix: [ICON_LEGENDARY_EFFECTS.Berserker],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -458,7 +471,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 26,
+            order: 27,
             prefix: [ICON_LEGENDARY_EFFECTS.Nocturnal],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -471,7 +484,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 27,
+            order: 28,
             prefix: [ICON_LEGENDARY_EFFECTS.Executioner],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -484,7 +497,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 28,
+            order: 29,
             prefix: [ICON_LEGENDARY_EFFECTS.Bolstering],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -497,7 +510,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 29,
+            order: 30,
             prefix: [ICON_LEGENDARY_EFFECTS.Stalker],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -510,7 +523,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 30,
+            order: 31,
             prefix: [ICON_LEGENDARY_EFFECTS.Chameleon],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -523,7 +536,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 31,
+            order: 32,
             prefix: [ICON_LEGENDARY_EFFECTS.Cloaking],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -536,7 +549,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 32,
+            order: 33,
             prefix: [ICON_LEGENDARY_EFFECTS.Supressor],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -549,7 +562,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 33,
+            order: 34,
             prefix: [ICON_LEGENDARY_EFFECTS.Weightless],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -562,7 +575,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 34,
+            order: 35,
             prefix: [SPACE],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -618,7 +631,7 @@ export const LEGENDARY_EFFECTS_RULES_GROUP = {
             ],
         },
         {
-            order: 35,
+            order: 36,
             prefix: [SPACE],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,

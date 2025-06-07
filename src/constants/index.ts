@@ -23,6 +23,8 @@ export const ICONS_DIRECTORY = './assets/icons';
 export const GENERATED_DIRECTORY = './src/generated';
 export const RULES_DIRECTORY = './src/rules';
 
+export const NOT_EXISTED_EDID = 'edid|absolutely_not_existed_edid' as const;
+
 /** Используется для удаления строк */
 export const SPACE = '_space_' as const;
 

@@ -2795,6 +2795,24 @@
 [EndRule]
 
 [StartRule]
+ Header=#unique#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|absolutely_not_existed_edid
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#furious#
  rSig=INNR
  fSig=WNAM

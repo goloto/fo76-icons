@@ -1,8 +1,7 @@
 import { ICON_UTILITY } from "@/generated/icons-enum";
 import type { RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
-import { LeftSignature, RightSignature } from "@/constants";
-const notExistedEdid = "edid|absolutely_not_existed_edid" as const;
+import { LeftSignature, NOT_EXISTED_EDID, RightSignature } from "@/constants";
 export const UTILITY_RULES_GROUP = {
     category: ICON_CATEGORIES.Utility,
     rules: [
@@ -16,7 +15,7 @@ export const UTILITY_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: [notExistedEdid],
+            include: [NOT_EXISTED_EDID],
             exclude: [],
         },
         {
@@ -29,7 +28,7 @@ export const UTILITY_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: [notExistedEdid],
+            include: [NOT_EXISTED_EDID],
             exclude: [],
         },
         {
@@ -42,7 +41,7 @@ export const UTILITY_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: [notExistedEdid],
+            include: [NOT_EXISTED_EDID],
             exclude: [],
         },
         {
@@ -55,7 +54,7 @@ export const UTILITY_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: [notExistedEdid],
+            include: [NOT_EXISTED_EDID],
             exclude: [],
         },
         {
@@ -68,7 +67,7 @@ export const UTILITY_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: [notExistedEdid],
+            include: [NOT_EXISTED_EDID],
             exclude: [],
         },
         {
@@ -81,7 +80,7 @@ export const UTILITY_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: [notExistedEdid],
+            include: [NOT_EXISTED_EDID],
             exclude: [],
         },
         {
@@ -94,7 +93,7 @@ export const UTILITY_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: [notExistedEdid],
+            include: [NOT_EXISTED_EDID],
             exclude: [],
         },
         {
@@ -107,7 +106,7 @@ export const UTILITY_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: [notExistedEdid],
+            include: [NOT_EXISTED_EDID],
             exclude: [],
         },
         {
@@ -120,7 +119,7 @@ export const UTILITY_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: [notExistedEdid],
+            include: [NOT_EXISTED_EDID],
             exclude: [],
         },
         {
@@ -133,7 +132,7 @@ export const UTILITY_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: [notExistedEdid],
+            include: [NOT_EXISTED_EDID],
             exclude: [],
         },
         {
@@ -146,7 +145,7 @@ export const UTILITY_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: [notExistedEdid],
+            include: [NOT_EXISTED_EDID],
             exclude: [],
         },
         {
@@ -159,7 +158,7 @@ export const UTILITY_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: [notExistedEdid],
+            include: [NOT_EXISTED_EDID],
             exclude: [],
         },
         {
@@ -172,7 +171,7 @@ export const UTILITY_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: [notExistedEdid],
+            include: [NOT_EXISTED_EDID],
             exclude: [],
         },
         {
@@ -185,7 +184,7 @@ export const UTILITY_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: [notExistedEdid],
+            include: [NOT_EXISTED_EDID],
             exclude: [],
         },
         {
@@ -198,7 +197,7 @@ export const UTILITY_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: [notExistedEdid],
+            include: [NOT_EXISTED_EDID],
             exclude: [],
         },
         {
@@ -211,7 +210,7 @@ export const UTILITY_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: [notExistedEdid],
+            include: [NOT_EXISTED_EDID],
             exclude: [],
         },
         {
@@ -224,7 +223,7 @@ export const UTILITY_RULES_GROUP = {
             isAnyKeyword: false,
             isInclusiveOr: false,
             isFullReplaced: false,
-            include: [notExistedEdid],
+            include: [NOT_EXISTED_EDID],
             exclude: [],
         }
     ],
