@@ -144,6 +144,7 @@ export enum ICON_FOOD {
     FermentedAlcohol = 'fermented_alcohol',
     FishAxolotl = 'fish_axolotl',
     FishCommon = 'fish_common',
+    FishCooked = 'fish_cooked',
     FishGeneric = 'fish_generic',
     FishGlowing = 'fish_glowing',
     FishLegend = 'fish_legend',
