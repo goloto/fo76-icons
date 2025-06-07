@@ -749,6 +749,19 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 45,
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.MeleeTwoHand],
+            leftSignature: LeftSignature.Weapon,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["edid|E08B_SuperSledge_TheDebilitator",],
+            exclude: [],
+        },
+        {
+            order: 46,
             prefix: [ICON_WEAPONS.MeleeTwoHand],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -761,7 +774,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 46,
+            order: 47,
             prefix: [ICON_WEAPONS.Binoculars],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -774,7 +787,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 47,
+            order: 48,
             prefix: [ICON_WEAPONS.Camera],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
