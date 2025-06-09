@@ -5,5 +5,6 @@ export * from './generate-icon-char-code';
 export * from './generate-icons-enum-file';
 export * from './generate-icons-file';
 export * from './generate-unicode-map-file';
+export * from './generate-overview-file';
 export * from './sort-categories';
 export * from './sort-rules';
