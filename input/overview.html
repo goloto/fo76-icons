@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Goloto's Icons Overview</title>
+  <link href="./Goloto's_icons_font.ttf" as="font" type="font/ttf" />
+  <style>
+    @font-face {
+      font-family: "Goloto's Icons";
+      src: url("Goloto's_icons_font.ttf");
+    }
+
+    body {
+      height: 100vh;
+      width: 100vw;
+      margin: 0;
+
+      background: linear-gradient(90deg,rgba(245, 203, 91, 1) 0%, rgba(249, 227, 144, 1) 50%, rgba(245, 203, 91, 1) 100%);
+    }
+
+    #overview-grid {
+      display: grid;
+      grid: repeat(8, 70px) / auto-flow;
+      max-width: 1920px;
+    }
+
+    #icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      font-size: 50px;
+      font-family: "Goloto's Icons";
+    }
+  </style>
+</head>
+<body>
+  <div id="overview-grid"></div>
+</body>
+</html>

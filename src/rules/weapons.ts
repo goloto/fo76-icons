@@ -1,4 +1,4 @@
-import { ICON_WEAPONS } from "@/generated/icons-enum";
+import { ICON_LEGENDARY_EFFECTS, ICON_WEAPONS } from "@/generated/icons-enum";
 import { BROADSIDER_RULE, HARPOONGUN_RULE, LeftSignature, REVOLVER_RULE, RightSignature } from "@/constants";
 import type { IncludeProperty, RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
@@ -108,7 +108,7 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 3,
-            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.HeavyEnergy],
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.HeavyEnergy],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
             isInjected: false,
@@ -143,7 +143,7 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 5,
-            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Heavy],
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.Heavy],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
             isInjected: false,
@@ -159,7 +159,7 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 6,
-            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Heavy],
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.Heavy],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
             isInjected: false,
@@ -202,7 +202,7 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 9,
-            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.RifleEnergy],
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.RifleEnergy],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
             isInjected: false,
@@ -221,7 +221,7 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 10,
-            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.RifleEnergy],
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.RifleEnergy],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
             isInjected: false,
@@ -267,7 +267,7 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 13,
-            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Rifle],
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.Rifle],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
             isInjected: false,
@@ -293,7 +293,7 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 14,
-            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Rifle],
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.Rifle],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
             isInjected: false,
@@ -345,7 +345,7 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 18,
-            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.PistolEnergy],
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.PistolEnergy],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
             isInjected: false,
@@ -360,7 +360,7 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 19,
-            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.PistolEnergy],
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.PistolEnergy],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
             isInjected: false,
@@ -389,7 +389,7 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 21,
-            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Pistol],
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.Pistol],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
             isInjected: false,
@@ -407,7 +407,7 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 22,
-            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Pistol],
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.Pistol],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
             isInjected: false,
@@ -446,7 +446,7 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 25,
-            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Crossbow],
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.Crossbow],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
             isInjected: false,
@@ -490,7 +490,7 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 28,
-            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Shotgun],
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.Shotgun],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
             isInjected: false,
@@ -506,7 +506,7 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 29,
-            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Shotgun],
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.Shotgun],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
             isInjected: false,
@@ -544,7 +544,7 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 32,
-            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Explosive],
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.Explosive],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
             isInjected: false,
@@ -567,7 +567,7 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 33,
-            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Explosive],
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.Explosive],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
             isInjected: false,
@@ -593,7 +593,7 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 35,
-            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.Syringer],
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.Syringer],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
             isInjected: false,
@@ -619,7 +619,7 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 37,
-            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.MeleeAuto],
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.MeleeAuto],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
             isInjected: false,
@@ -649,7 +649,7 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 39,
-            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.MeleeUnarmed],
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.MeleeUnarmed],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
             isInjected: false,
@@ -679,7 +679,7 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 41,
-            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.MeleeOneHand],
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.MeleeOneHand],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
             isInjected: false,
@@ -699,6 +699,19 @@ export const WEAPONS_RULES_GROUP = {
         },
         {
             order: 42,
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.MeleeOneHand],
+            leftSignature: LeftSignature.Weapon,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["edid|MTNS04_NailerSword"],
+            exclude: [],
+        },
+        {
+            order: 43,
             prefix: [ICON_WEAPONS.MeleeOneHand],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -711,8 +724,8 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 43,
-            prefix: [ICON_WEAPONS.Unique, ICON_WEAPONS.MeleeTwoHand],
+            order: 44,
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.MeleeTwoHand],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
             isInjected: false,
@@ -735,7 +748,20 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 44,
+            order: 45,
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.MeleeTwoHand],
+            leftSignature: LeftSignature.Weapon,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["edid|E08B_SuperSledge_TheDebilitator",],
+            exclude: [],
+        },
+        {
+            order: 46,
             prefix: [ICON_WEAPONS.MeleeTwoHand],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -748,7 +774,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 45,
+            order: 47,
             prefix: [ICON_WEAPONS.Binoculars],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -761,7 +787,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 46,
+            order: 48,
             prefix: [ICON_WEAPONS.Camera],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -774,4 +800,4 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         }
     ],
-} as const satisfies RulesGroup<ICON_WEAPONS>;
+} as const satisfies RulesGroup<ICON_WEAPONS | ICON_LEGENDARY_EFFECTS>;

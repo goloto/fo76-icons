@@ -2311,6 +2311,29 @@
 [EndRule]
 
 [StartRule]
+ Header=#fish_cooked#
+ rSig=ALCH
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Fishing_GrilledFish
+ Include_1=edid|Fishing_GrilledFish_Glowing
+ Include_2=edid|Fishing_FishandTatos
+ Include_3=edid|Fishing_FishandTatos_Glowing
+ Include_4=edid|Fishing_FishChowder
+ Include_5=edid|Fishing_FishChowder_Glowing
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#meat_soup#
  rSig=ALCH
  fSig=FULL
@@ -2792,6 +2815,24 @@
  Exclude_12=edid|RDClearance
  Exclude_13=edid|TaggerdyID
  Exclude_14=edid|SeniorExecID
+[EndRule]
+
+[StartRule]
+ Header=#unique#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|absolutely_not_existed_edid
+ Exclude_0=
 [EndRule]
 
 [StartRule]
@@ -5203,6 +5244,45 @@
 [EndRule]
 
 [StartRule]
+ Header=#plan|plan_free_range#
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_Weapon_Melee_ShepherdsCrook
+ Include_1=edid|recipe_mod_melee_ShepherdsCrook_Toothed
+ Include_2=edid|Recipe_Weapon_Melee_SheepsquatchStaff
+ Include_3=edid|Recipe_Weapon_Melee_SheepsquatchClub
+ Include_4=edid|recipe_mod_melee_SheepsquatchClub_Barbwire
+ Include_5=edid|recipe_mod_melee_SheepsquatchClub_BurningBarbwire
+ Include_6=edid|recipe_mod_melee_SheepsquatchStaff_Barbwire
+ Include_7=edid|recipe_mod_melee_ShepherdsCrook_GlassCovered
+ Include_8=edid|recipe_mod_melee_SheepsquatchStaff_BurningBarbwire
+ Include_9=edid|recipe_mod_melee_ShepherdsCrook_SheepSquatchHorn
+ Include_10=edid|recipe_mod_melee_ShepherdsCrook_Spiked
+ Include_11=edid|recipe_mod_melee_ShepherdsCrook_Shock
+ Include_12=edid|Recipe_Weapon_Thrown_SheepsquatchShard
+ Include_13=edid|recipe_mod_melee_SheepsquatchStaff_Poison
+ Include_14=edid|recipe_mod_melee_SheepsquatchStaff_Heavy
+ Include_15=edid|recipe_mod_melee_SheepsquatchClub_Burning
+ Include_16=edid|recipe_mod_melee_SheepsquatchClub_Heavy
+ Include_17=edid|recipe_mod_melee_SheepsquatchStaff_Shock
+ Include_18=edid|recipe_mod_melee_SheepsquatchClub_Poison
+ Include_19=edid|recipe_mod_melee_SheepsquatchClub_Shock
+ Include_20=edid|recipe_mod_melee_SheepsquatchStaff_Burning
+ Include_21=edid|Recipe_Cooking_SheepsquatchMeatTasty
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#plan|plan_project_paradise|rare_two#
  rSig=BOOK
  fSig=FULL
@@ -6938,6 +7018,24 @@
 [EndRule]
 
 [StartRule]
+ Header=#unique|melee_one_hand#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|MTNS04_NailerSword
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#melee_one_hand#
  rSig=WEAP
  fSig=FULL
@@ -6979,6 +7077,24 @@
  Include_7=ekwd|CustomItemName_TheFarmhand
  Include_8=ekwd|CustomItemName_StrongmansSledgehammer
  Include_9=ekwd|CustomItemName_CappySmasherSledgehammer
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#unique|melee_two_hand#
+ rSig=WEAP
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|E08B_SuperSledge_TheDebilitator
  Exclude_0=
 [EndRule]
 

@@ -31,6 +31,7 @@ export enum ICON_LEGENDARY_EFFECTS {
     Supressor = 'supressor',
     Troubleshooter = 'troubleshooter',
     TwoShot = 'two_shot',
+    Unique = 'unique',
     Unyielding = 'unyielding',
     Vampire = 'vampire',
     Vanguard = 'vanguard',
@@ -76,6 +77,7 @@ export enum ICON_NOTES {
     PlanDangerousPastimes = 'plan_dangerous_pastimes',
     PlanEncryptid = 'plan_encryptid',
     PlanFasnacht = 'plan_fasnacht',
+    PlanFreeRange = 'plan_free_range',
     PlanGift = 'plan_gift',
     PlanGrahm = 'plan_grahm',
     PlanMeatWeek = 'plan_meat_week',
@@ -143,6 +145,7 @@ export enum ICON_FOOD {
     FermentedAlcohol = 'fermented_alcohol',
     FishAxolotl = 'fish_axolotl',
     FishCommon = 'fish_common',
+    FishCooked = 'fish_cooked',
     FishGeneric = 'fish_generic',
     FishGlowing = 'fish_glowing',
     FishLegend = 'fish_legend',
@@ -241,8 +244,7 @@ export enum ICON_WEAPONS {
     Shotgun = 'shotgun',
     ShotgunEnergy = 'shotgun_energy',
     Syringer = 'syringer',
-    Throwing = 'throwing',
-    Unique = 'unique'
+    Throwing = 'throwing'
 }
 export enum ICON_UTILITY {
     Empty = 'empty',
