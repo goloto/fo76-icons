@@ -77,6 +77,7 @@ export enum ICON_NOTES {
     PlanDangerousPastimes = 'plan_dangerous_pastimes',
     PlanEncryptid = 'plan_encryptid',
     PlanFasnacht = 'plan_fasnacht',
+    PlanFreeRange = 'plan_free_range',
     PlanGift = 'plan_gift',
     PlanGrahm = 'plan_grahm',
     PlanMeatWeek = 'plan_meat_week',
