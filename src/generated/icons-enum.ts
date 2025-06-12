@@ -195,6 +195,7 @@ export enum ICON_APPAREL {
     Mask = 'mask',
     MilitaryClothing = 'military_clothing',
     MilitaryHat = 'military_hat',
+    MrFuzzyHead = 'mr_fuzzy_head',
     RaiderClothing = 'raider_clothing',
     Sleepwear = 'sleepwear',
     SpacesuitClothing = 'spacesuit_clothing',

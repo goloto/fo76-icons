@@ -37,7 +37,10 @@ export type IconNames =
   | ICON_WEAPONS
   | ICON_UTILITY;
 
-export type IncludeProperty = `edid|${string}` | `ekwd|${string}`;
+export type IncludeProperty =
+  | `edid|${string}`
+  | `ekwd|${string}`
+  | `form|${string}`;
 
 export interface Rule<T extends IconNames> {
   order: number;

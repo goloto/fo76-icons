@@ -1098,7 +1098,119 @@
 [EndRule]
 
 [StartRule]
- Header=#holiday_costume#
+ Header=#mr_fuzzy_head|expensive#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=form|MTR04_Clothes_AmusementPark_Camden_MascotXHead|0012879A
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#mr_fuzzy_head|empty#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HatTypeMrFuzzy
+ Include_1=ekwd|ClothingTypeHat
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#mr_fuzzy_head|empty#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|mascot
+ Include_1=edid|head
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#mr_fuzzy_head|empty#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|mascot
+ Include_1=edid|head
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#holiday_costume|expensive#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=form|MTR04_Clothes_AmusementPark_Camden_MascotX|0009D22F
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#holiday_costume|empty#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|mascot
+ Include_1=edid|clothes
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#holiday_costume|empty#
  rSig=ARMO
  fSig=FULL
  enabled=-1
