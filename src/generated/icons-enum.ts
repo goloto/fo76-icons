@@ -85,6 +85,7 @@ export enum ICON_NOTES {
     PlanMoonshineJamboree = 'plan_moonshine_jamboree',
     PlanMostWanted = 'plan_most_wanted',
     PlanMothman = 'plan_mothman',
+    PlanMutated = 'plan_mutated',
     PlanNeurologicalWarfare = 'plan_neurological_warfare',
     PlanNukaWorld = 'plan_nuka_world',
     PlanOgua = 'plan_ogua',
