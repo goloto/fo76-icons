@@ -4489,7 +4489,36 @@
 [EndRule]
 
 [StartRule]
- Header=#plan|plan_mischief_night#
+ Header=#plan|plan_mischief_night|rare_one#
+ rSig=BOOK
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Recipe_mod_Chainsaw_Paint_GhostlyGrinder
+ Include_1=edid|Recipe_Headwear_SkullRider_Rad
+ Include_2=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_Ghost1
+ Include_3=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_Spider
+ Include_4=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_Jackolantern1
+ Include_5=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_Jackolantern2
+ Include_6=edid|Recipe_Headwear_Executioner2
+ Include_7=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_Ghost2
+ Include_8=edid|Recipe_Workshop_FloorDecor_GiantDinosaur_Red
+ Include_9=edid|Recipe_mod_AssaultRifle_Paint_WraithsWrath
+ Include_10=edid|Recipe_workshop_FloorDecor_Skeleton_DrBones
+ Include_11=edid|Recipe_Backpack_Standard_Material_Princess
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#plan|plan_mischief_night|empty#
  rSig=BOOK
  fSig=FULL
  enabled=-1
@@ -4517,22 +4546,10 @@
  Include_12=edid|Recipe_Workshop_FloorDecor_PumpkinCarved07
  Include_13=edid|Recipe_Workshop_FloorDecor_PumpkinCarved03
  Include_14=edid|Recipe_Workshop_FloorDecor_Statues_GrimReaperCardboardCutouts
- Include_15=edid|Recipe_mod_Chainsaw_Paint_GhostlyGrinder
- Include_16=edid|Recipe_Headwear_SkullRider_Rad
- Include_17=edid|recipe_mod_PowerArmor_Material_Paint_Hellfire_Variant_Helmet
- Include_18=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_Ghost1
- Include_19=edid|recipe_mod_PowerArmor_Material_Paint_Hellfire_Variant_Arms
- Include_20=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_Spider
- Include_21=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_Jackolantern1
- Include_22=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_Jackolantern2
- Include_23=edid|Recipe_Headwear_Executioner2
- Include_24=edid|Recipe_Workshop_CeilingDecor_Honeycomb_Paper_Ghost2
- Include_25=edid|Recipe_Workshop_FloorDecor_GiantDinosaur_Red
- Include_26=edid|Recipe_mod_AssaultRifle_Paint_WraithsWrath
- Include_27=edid|recipe_mod_PowerArmor_Material_Paint_Hellfire_Variant_Legs
- Include_28=edid|Recipe_workshop_FloorDecor_Skeleton_DrBones
- Include_29=edid|Recipe_Backpack_Standard_Material_Princess
- Include_30=edid|recipe_mod_PowerArmor_Material_Paint_Hellfire_Variant_Torso
+ Include_15=edid|recipe_mod_PowerArmor_Material_Paint_Hellfire_Variant_Helmet
+ Include_16=edid|recipe_mod_PowerArmor_Material_Paint_Hellfire_Variant_Arms
+ Include_17=edid|recipe_mod_PowerArmor_Material_Paint_Hellfire_Variant_Legs
+ Include_18=edid|recipe_mod_PowerArmor_Material_Paint_Hellfire_Variant_Torso
  Exclude_0=
 [EndRule]
 
