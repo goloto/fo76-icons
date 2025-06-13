@@ -16,7 +16,7 @@ const files = [
   },
 ] as const satisfies TCopyingInfo[];
 
-const updateFontsSwf = () => {
+const resetFontsSwf = () => {
   for (const info of files) {
     const file = Bun.file(`${INPUT_DIRECTORY}/${info.origin}`);
 
@@ -24,4 +24,4 @@ const updateFontsSwf = () => {
   }
 };
 
-updateFontsSwf();
+resetFontsSwf();
