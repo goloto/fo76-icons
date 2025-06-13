@@ -1507,6 +1507,31 @@ export const NOTES_RULES_GROUP = {
         },
         {
             order: 58,
+            prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanTestYourMetal],
+            leftSignature: LeftSignature.Book,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [
+                "edid|Recipe_Workshop_WallDecor_RustEagleBanner",
+                "edid|recipe_mod_PowerArmor_T51_Material_Paint_NewBOS_Knight",
+                "edid|recipe_mod_PowerArmor_T51_Material_Paint_NewBOS_Paladin",
+                "edid|Recipe_Workshop_Displays_BeerSteins_Robot",
+                "edid|Recipe_Workshop_FloorDecor_Globe_Mars",
+                "edid|Recipe_Workshop_Bed_CryogenicBed",
+                "edid|Recipe_Armor_Botsmith_ArmRight",
+                "edid|Recipe_Armor_Botsmith_ArmLeft",
+                "edid|Recipe_Armor_Botsmith_LegLeft",
+                "edid|Recipe_Armor_Botsmith_LegRight",
+                "edid|Recipe_Armor_Botsmith_Torso",
+            ],
+            exclude: [],
+        },
+        {
+            order: 59,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanCampfireTales],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1522,7 +1547,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 59,
+            order: 60,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanMutated, ICON_UTILITY.RareOne],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1588,7 +1613,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 60,
+            order: 61,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanMutated, ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1672,7 +1697,7 @@ export const NOTES_RULES_GROUP = {
         // RAIDS NEXT
         // ***
         {
-            order: 61,
+            order: 62,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanGleamingDepths],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1746,7 +1771,7 @@ export const NOTES_RULES_GROUP = {
         // EXPEDITIONS NEXT
         // ***
         {
-            order: 62,
+            order: 63,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanAtlanticCity],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1797,7 +1822,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 63,
+            order: 64,
             prefix: [ICON_NOTES.Plan, ICON_NOTES.PlanPitt],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1855,7 +1880,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 64,
+            order: 65,
             prefix: [ICON_NOTES.Plan, ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1868,7 +1893,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 65,
+            order: 66,
             prefix: [ICON_NOTES.TreasureMap],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1881,7 +1906,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 66,
+            order: 67,
             prefix: [ICON_NOTES.Note],
             leftSignature: LeftSignature.Book,
             rightSignature: RightSignature.FULL,
@@ -1894,7 +1919,7 @@ export const NOTES_RULES_GROUP = {
             exclude: ["ekwd|ObjectTypeRecipe", "ekwd|MagazineKeyword"],
         },
         {
-            order: 67,
+            order: 68,
             prefix: [ICON_NOTES.Holotape],
             leftSignature: LeftSignature.Note,
             rightSignature: RightSignature.FULL,
@@ -1907,7 +1932,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 68,
+            order: 69,
             prefix: [ICON_NOTES.Holotape],
             leftSignature: LeftSignature.Note,
             rightSignature: RightSignature.FULL,
@@ -1920,7 +1945,7 @@ export const NOTES_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 69,
+            order: 70,
             prefix: [ICON_NOTES.Check],
             leftSignature: LeftSignature.MCM,
             rightSignature: RightSignature.MCM,

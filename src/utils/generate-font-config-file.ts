@@ -2,7 +2,24 @@ import { getCharFromHexadecimal } from '@/utils/common';
 import { ICONS } from '@/generated/icons';
 import { INPUT_DIRECTORY, OUTPUT_DIRECTORY } from '@/constants';
 
-const languages = ['ru', 'en'] as const;
+type TLangInfo = {
+  lang: 'ru' | 'en';
+  inputFile: string;
+  outputFile: string;
+};
+
+const languages: TLangInfo[] = [
+  {
+    lang: 'ru',
+    inputFile: 'fontconfig_ru (Cyrillic Font Library).txt',
+    outputFile: 'fontconfig_ru.txt',
+  },
+  {
+    lang: 'en',
+    inputFile: 'fontconfig_en.txt',
+    outputFile: 'fontconfig_en.txt',
+  },
+];
 
 export const generateFontConfigFile = async () => {
   const characters = ICONS.reduce(
@@ -13,10 +30,8 @@ export const generateFontConfigFile = async () => {
 
   await Bun.write(`${OUTPUT_DIRECTORY}/custom_characters.txt`, characters);
 
-  languages.forEach(async (lang) => {
-    const fontConfigFile = Bun.file(
-      `${INPUT_DIRECTORY}/fontconfig_${lang}.txt`
-    );
+  languages.forEach(async ({ inputFile, outputFile }) => {
+    const fontConfigFile = Bun.file(`${INPUT_DIRECTORY}/${inputFile}`);
     const fontConfig = await fontConfigFile.text();
     const lineIndex = fontConfig.indexOf('validNameChars');
     const charsIndex = fontConfig.indexOf('\n', lineIndex) - 1;
@@ -27,6 +42,6 @@ export const generateFontConfigFile = async () => {
       '\\'
     );
 
-    await Bun.write(`${OUTPUT_DIRECTORY}/fontconfig_${lang}.txt`, result);
+    await Bun.write(`${OUTPUT_DIRECTORY}/${outputFile}`, result);
   });
 };

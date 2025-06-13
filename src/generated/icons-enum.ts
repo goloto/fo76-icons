@@ -99,6 +99,7 @@ export enum ICON_NOTES {
     PlanScorchedEarth = 'plan_scorched_earth',
     PlanSeismicActivity = 'plan_seismic_activity',
     PlanSpinTheWheel = 'plan_spin_the_wheel',
+    PlanTestYourMetal = 'plan_test_your_metal',
     PlanTreasureHunt = 'plan_treasure_hunt',
     PlanTunnelOfLove = 'plan_tunnel_of_love',
     SiloTape = 'silo_tape',
