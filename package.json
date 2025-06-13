@@ -1,6 +1,7 @@
 {
   "name": "fo76-icon-tags",
   "type": "module",
+  "version": "0.7.0",
   "scripts": {
     "build-all": "bun run ./src/scripts/build-all.ts",
     "reset-fonts-swf": "bun run ./src/scripts/reset-fonts-swf.ts",
