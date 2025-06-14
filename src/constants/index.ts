@@ -5,7 +5,6 @@ import {
   ICON_AMMO,
   ICON_APPAREL,
   ICON_ARMOR,
-  ICON_CURRENCY,
   ICON_FOOD,
   ICON_KEYS,
   ICON_LEGENDARY_EFFECTS,
@@ -34,7 +33,6 @@ export const GROUP_MAIN_ICONS_MAP: Record<ICON_CATEGORIES, Array<IconNames>> = {
   [ICON_CATEGORIES.Ammo]: Object.values(ICON_AMMO),
   [ICON_CATEGORIES.Apparel]: Object.values(ICON_APPAREL),
   [ICON_CATEGORIES.Armor]: Object.values(ICON_ARMOR),
-  [ICON_CATEGORIES.Currency]: Object.values(ICON_CURRENCY),
   [ICON_CATEGORIES.Food]: Object.values(ICON_FOOD),
   [ICON_CATEGORIES.Keys]: Object.values(ICON_KEYS),
   [ICON_CATEGORIES.LegendaryEffects]: [

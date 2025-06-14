@@ -1,6 +1,3 @@
-export enum ICON_CURRENCY {
-    Caps = 'caps'
-}
 export enum ICON_LEGENDARY_EFFECTS {
     AntiArmor = 'anti_armor',
     Aristocrat = 'aristocrat',
@@ -79,12 +76,14 @@ export enum ICON_NOTES {
     PlanFasnacht = 'plan_fasnacht',
     PlanFreeRange = 'plan_free_range',
     PlanGift = 'plan_gift',
+    PlanGleamingDepths = 'plan_gleaming_depths',
     PlanGrahm = 'plan_grahm',
     PlanMeatWeek = 'plan_meat_week',
     PlanMischiefNight = 'plan_mischief_night',
     PlanMoonshineJamboree = 'plan_moonshine_jamboree',
     PlanMostWanted = 'plan_most_wanted',
     PlanMothman = 'plan_mothman',
+    PlanMutated = 'plan_mutated',
     PlanNeurologicalWarfare = 'plan_neurological_warfare',
     PlanNukaWorld = 'plan_nuka_world',
     PlanOgua = 'plan_ogua',
@@ -97,6 +96,7 @@ export enum ICON_NOTES {
     PlanScorchedEarth = 'plan_scorched_earth',
     PlanSeismicActivity = 'plan_seismic_activity',
     PlanSpinTheWheel = 'plan_spin_the_wheel',
+    PlanTestYourMetal = 'plan_test_your_metal',
     PlanTreasureHunt = 'plan_treasure_hunt',
     PlanTunnelOfLove = 'plan_tunnel_of_love',
     SiloTape = 'silo_tape',
@@ -195,6 +195,7 @@ export enum ICON_APPAREL {
     Mask = 'mask',
     MilitaryClothing = 'military_clothing',
     MilitaryHat = 'military_hat',
+    MrFuzzyHead = 'mr_fuzzy_head',
     RaiderClothing = 'raider_clothing',
     Sleepwear = 'sleepwear',
     SpacesuitClothing = 'spacesuit_clothing',
