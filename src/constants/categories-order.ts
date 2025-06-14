@@ -2,51 +2,47 @@ import type { CategoryOrder } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
 export const ICON_CATEGORIES_ORDER = [
     {
-        name: ICON_CATEGORIES.Currency,
+        name: ICON_CATEGORIES.LegendaryEffects,
         order: 0,
     },
     {
-        name: ICON_CATEGORIES.LegendaryEffects,
+        name: ICON_CATEGORIES.Misc,
         order: 1,
     },
     {
-        name: ICON_CATEGORIES.Misc,
+        name: ICON_CATEGORIES.Keys,
         order: 2,
     },
     {
-        name: ICON_CATEGORIES.Keys,
+        name: ICON_CATEGORIES.Notes,
         order: 3,
     },
     {
-        name: ICON_CATEGORIES.Notes,
+        name: ICON_CATEGORIES.Ammo,
         order: 4,
     },
     {
-        name: ICON_CATEGORIES.Ammo,
+        name: ICON_CATEGORIES.Aid,
         order: 5,
     },
     {
-        name: ICON_CATEGORIES.Aid,
+        name: ICON_CATEGORIES.Food,
         order: 6,
     },
     {
-        name: ICON_CATEGORIES.Food,
+        name: ICON_CATEGORIES.Apparel,
         order: 7,
     },
     {
-        name: ICON_CATEGORIES.Apparel,
+        name: ICON_CATEGORIES.Armor,
         order: 8,
     },
     {
-        name: ICON_CATEGORIES.Armor,
+        name: ICON_CATEGORIES.Weapons,
         order: 9,
     },
     {
-        name: ICON_CATEGORIES.Weapons,
-        order: 10,
-    },
-    {
         name: ICON_CATEGORIES.Utility,
-        order: 11,
+        order: 10,
     }
 ] as const satisfies CategoryOrder[];

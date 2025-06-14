@@ -3,7 +3,6 @@ import type {
   ICON_AMMO,
   ICON_APPAREL,
   ICON_ARMOR,
-  ICON_CURRENCY,
   ICON_FOOD,
   ICON_KEYS,
   ICON_LEGENDARY_EFFECTS,
@@ -24,7 +23,6 @@ export interface Icon {
 // TODO: generate this too
 export type IconNames =
   | typeof SPACE
-  | ICON_CURRENCY
   | ICON_LEGENDARY_EFFECTS
   | ICON_MISC
   | ICON_KEYS

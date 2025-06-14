@@ -1,6 +1,3 @@
-export enum ICON_CURRENCY {
-    Caps = 'caps'
-}
 export enum ICON_LEGENDARY_EFFECTS {
     AntiArmor = 'anti_armor',
     Aristocrat = 'aristocrat',
