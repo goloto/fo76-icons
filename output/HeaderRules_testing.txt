@@ -3391,6 +3391,24 @@
 [EndRule]
 
 [StartRule]
+ Header=#berserker#
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Weapon_DamageUnarmored
+ Exclude_0=
+[EndRule]
+
+[StartRule]
  Header=#vanguard#
  rSig=INNR
  fSig=WNAM
@@ -3409,7 +3427,7 @@
 [EndRule]
 
 [StartRule]
- Header=#berserker#
+ Header=#bolstering#
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -3422,7 +3440,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|HasLegendary_Weapon_DamageUnarmored
+ Include_0=ekwd|HasLegendary_Armor_ResistancesInverseHealth
  Exclude_0=
 [EndRule]
 
@@ -3460,24 +3478,6 @@
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|HasLegendary_Weapon_Execute
- Exclude_0=
-[EndRule]
-
-[StartRule]
- Header=#bolstering#
- rSig=INNR
- fSig=WNAM
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=-1
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|HasLegendary_Armor_ResistancesInverseHealth
  Exclude_0=
 [EndRule]
 

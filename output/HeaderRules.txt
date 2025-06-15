@@ -3404,7 +3404,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|HasLegendary_Armor_ResistancesProportionalHealth
+ Include_0=ekwd|HasLegendary_Weapon_DamageUnarmored
  Exclude_0=
 [EndRule]
 
@@ -3422,12 +3422,30 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|HasLegendary_Weapon_DamageUnarmored
+ Include_0=ekwd|HasLegendary_Armor_ResistancesProportionalHealth
  Exclude_0=
 [EndRule]
 
 [StartRule]
  Header=⊂
+ rSig=INNR
+ fSig=WNAM
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=-1
+ includeOR=0
+ isFallBack=0
+ fallbackBank=0
+ Include_0=ekwd|HasLegendary_Armor_ResistancesInverseHealth
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=⊃
  rSig=INNR
  fSig=WNAM
  enabled=-1
@@ -3446,24 +3464,6 @@
 [EndRule]
 
 [StartRule]
- Header=⊃
- rSig=INNR
- fSig=WNAM
- enabled=-1
- tagID=default
- noKW=0
- anyKW=0
- hasCompo=0
- preProcess=0
- fullReplace=-1
- includeOR=0
- isFallBack=0
- fallbackBank=0
- Include_0=ekwd|HasLegendary_Weapon_Execute
- Exclude_0=
-[EndRule]
-
-[StartRule]
  Header=⊄
  rSig=INNR
  fSig=WNAM
@@ -3477,7 +3477,7 @@
  includeOR=0
  isFallBack=0
  fallbackBank=0
- Include_0=ekwd|HasLegendary_Armor_ResistancesInverseHealth
+ Include_0=ekwd|HasLegendary_Weapon_Execute
  Exclude_0=
 [EndRule]
 

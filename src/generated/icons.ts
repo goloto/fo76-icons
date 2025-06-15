@@ -133,27 +133,27 @@ export const ICONS = [
         charCode: '0x227f'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Vanguard,
+        name: ICON_LEGENDARY_EFFECTS.Berserker,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2280'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Berserker,
+        name: ICON_LEGENDARY_EFFECTS.Vanguard,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2281'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Nocturnal,
+        name: ICON_LEGENDARY_EFFECTS.Bolstering,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2282'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Executioner,
+        name: ICON_LEGENDARY_EFFECTS.Nocturnal,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2283'
     },
     {
-        name: ICON_LEGENDARY_EFFECTS.Bolstering,
+        name: ICON_LEGENDARY_EFFECTS.Executioner,
         category: ICON_CATEGORIES.LegendaryEffects,
         charCode: '0x2284'
     },
