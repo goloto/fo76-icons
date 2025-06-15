@@ -2,6 +2,7 @@ export * from "./aid";
 export * from "./ammo";
 export * from "./apparel";
 export * from "./armor";
+export * from "./currency";
 export * from "./food";
 export * from "./keys";
 export * from "./legendary-effects";
