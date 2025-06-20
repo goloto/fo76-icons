@@ -1,0 +1,54 @@
+[b][size=4]About this mod[/size]
+[/b]
+This mod is an alternative to [url=http://www.nexusmods.com/fallout76/mods/146]IconSortingTags[/url]﻿, but with fewer icons.
+
+My main goals are: different style, more simple and readable UI and few other improvements without loss of functionality.
+
+
+[b][size=4]Installation[/size]
+[/b]
+Installation is same as [url=http://www.nexusmods.com/fallout76/mods/146]IconSortingTags[/url]﻿.
+
+[b]WARNING![/b] You need to follow steps 4-11 after each game update.
+
+[list=1]
+[*]Install latest version of [xTranslator](http://www.nexusmods.com/starfield/mods/313)
+[*]Open xTranslator and choose Fallout 76
+[*]Open `Options` -> `Dictionary and languages` window. Set `Source language`, `Destination language` parameters to your current game language and `./data` and `./strings/` parameters to `Data` folder in your current game directory. After setting those parameters xTranslator should not display any errors in this window.
+[*]Select SeventySix.esm in `File` -> `Load Esp/Esm`
+[*]Extract mod files in `Data/Interface` folder in your current game directory
+[*]Open `Wizards` -> `HeaderProcessor Wizrd` window
+[*]Click `Create ba2 backup` for creating backup files
+[*]Make sure, that game path and language on step 1 and 2 are correct
+[*]Click `Load Rules` on step 3 and chose file `HeaderRules.txt` from mod files
+[*]Click `Run Processor` on step 6 and wait until it's complete
+[*]Click `Patch game files` on step 7 and wait until it's complete
+[/list]
+
+[b][size=4]Troubleshooting[/size]
+[/b]
+- If there are `LOOKUP FAILED` messages in the game, you need to re-install mod
+- If there are squares instead of icons, most likely you forgot to complete step 11
+
+
+[b][size=4]Key features[/size]
+[/b]
+- icons for new events and items, including Big Bloom, fishing, legendary mods, canned cooked food, mystery boxes and other
+- icons for item sources (events, vendors, raids etc.)
+- icons for rare items
+- strict sorting for plans and items, the newest and rarest items are displayed first
+- removed all armor/weapon suffixes/prefixes for non-legendary modifications
+- cyrillized fonts for RU version
+
+
+[b][size=4]Credits[/size]
+[/b]
+Most of the icons are generated with [url=http://huggingface.co/black-forest-labs/FLUX.1-dev]flux.1-dev[/url] and then mannually modified by myself.
+
+All of fonts, icons and source code are available at [url=http://github.com/goloto/fo76-icon-tags]GitHub[/url]﻿ by MIT and OFL licenses.
+
+Thanks to [url=http://next.nexusmods.com/profile/mcguffin]mcguffin[/url] and his [url=http://www.nexusmods.com/starfield/mods/313]xTranslator[/url], without which I would not have been able to make this mod.
+
+Thanks to [url=http://next.nexusmods.com/profile/BiggerDigger]BiggerDigger[/url] and his [url=http://www.nexusmods.com/fallout76/mods/362]Cyrillized Font Library[/url], which mod i take for russian version of this mod.
+
+Thanks to my wife for most ambitious and interesting icon ideas. 
