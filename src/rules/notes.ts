@@ -1953,7 +1953,7 @@ export const NOTES_RULES_GROUP = {
             isDeleted: false,
             isAnyKeyword: false,
             isInclusiveOr: false,
-            isFullReplaced: false,
+            isFullReplaced: true,
             include: ["edid|#^\\$known$"],
             exclude: [],
         }
