@@ -57,7 +57,6 @@ export interface Rule<T extends IconNames> {
   isFallback?: boolean;
   prefix?: T[];
   postfix?: T[];
-  translationReplacing?: string[];
 }
 
 export type RulesGroup<T extends IconNames> = {

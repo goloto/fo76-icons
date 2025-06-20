@@ -62,7 +62,19 @@ export const KEYS_RULES_GROUP = {
                 "edid|TaggerdyID",
                 "edid|SeniorExecID",
             ],
-            translationReplacing: ["$Keyring",],
+        },
+        {
+            order: 2,
+            prefix: [ICON_KEYS.Key],
+            leftSignature: LeftSignature.MCM,
+            rightSignature: RightSignature.MCM,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: false,
+            isFullReplaced: false,
+            include: ["edid|#^\\$Keyring$"],
+            exclude: [],
         }
     ],
 } as const satisfies RulesGroup<ICON_KEYS>;
