@@ -37,7 +37,10 @@ export type IconNames =
   | ICON_WEAPONS
   | ICON_UTILITY;
 
-export type IncludeProperty = `edid|${string}` | `ekwd|${string}`;
+export type IncludeProperty =
+  | `edid|${string}`
+  | `ekwd|${string}`
+  | `form|${string}`;
 
 export interface Rule<T extends IconNames> {
   order: number;
@@ -54,7 +57,6 @@ export interface Rule<T extends IconNames> {
   isFallback?: boolean;
   prefix?: T[];
   postfix?: T[];
-  translationReplacing?: string[];
 }
 
 export type RulesGroup<T extends IconNames> = {

@@ -1,8 +1,11 @@
 {
   "name": "fo76-icon-tags",
   "type": "module",
+  "version": "0.6.0",
   "scripts": {
     "build-all": "bun run ./src/scripts/build-all.ts",
+    "reset-fonts-swf": "bun run ./src/scripts/reset-fonts-swf.ts",
+    "update-fontlab": "bun run ./src/scripts/update-fontlab.ts",
     "icons-cleanup": "bun run ./src/scripts/icons-cleanup.ts",
     "optimize-svg": "svgo ./assets/icons/aid ./assets/icons/ammo ./assets/icons/apparel ./assets/icons/armor ./assets/icons/currency ./assets/icons/events ./assets/icons/food ./assets/icons/holotapes ./assets/icons/keys ./assets/icons/legendary-effects ./assets/icons/misc  ./assets/icons/notes ./assets/icons/weapons"
   },
