@@ -1,6 +1,6 @@
 import { ICON_APPAREL, ICON_UTILITY } from "@/generated/icons-enum";
 import { LeftSignature, RightSignature } from "@/constants";
-import type { IncludeProperty, RulesGroup } from "@/types";
+import type { RulesGroup } from "@/types";
 import { ICON_CATEGORIES } from "@/generated/icon-categories-enum";
 const objectTypeClothing = "ekwd|ObjectTypeClothing" as const;
 const objectTypeArmor = "ekwd|ObjectTypeArmor" as const;
@@ -23,6 +23,7 @@ const hatTypeMilitary = "ekwd|HatTypeMilitary" as const;
 const hatTypeFasnachtMask = "ekwd|HatTypeFasnachtMask" as const;
 const hatTypeHalloween = "ekwd|HatTypeHalloween" as const;
 const veteranMask = "edid|Veteran_Mask" as const;
+// source for fasnacht: https://www.theduchessflame.com/post/fasnacht-day-parade-all-rewards
 export const APPAREL_RULES_GROUP = {
     category: ICON_CATEGORIES.Apparel,
     rules: [
@@ -79,7 +80,7 @@ export const APPAREL_RULES_GROUP = {
         },
         {
             order: 4,
-            prefix: [ICON_APPAREL.FasnachtMask, ICON_UTILITY.Expensive],
+            prefix: [ICON_APPAREL.FasnachtMask, ICON_UTILITY.Expensive, ICON_UTILITY.Empty, ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
             isInjected: false,
@@ -88,53 +89,143 @@ export const APPAREL_RULES_GROUP = {
             isInclusiveOr: true,
             isFullReplaced: false,
             include: [
+                // 2019
                 "edid|Headwear_Fasnacht_Mask_OldManWinter",
-                "edid|ATX_Headwear_Fasnacht_Mask_Deathclaw",
-                "edid|Headwear_Fasnacht_Mask_Raven",
-                "edid|Armor_PowerArmor_Fasnacht_FatherWinter_Helmet",
-                "edid|Headwear_Fasnacht_Mask_CrazyGuy",
-                "edid|Headwear_Fasnacht_Mask_Demon",
-                "edid|Headwear_Fasnacht_Mask_Brahmin",
-                "edid|Headwear_Fasnacht_Mask_Jester",
-                "edid|Headwear_Fasnacht_Mask_Deathclaw",
-                // 2024
-                "edid|Headwear_Fasnacht_Mask_Loon",
-                "edid|Headwear_Fasnacht_Mask_Hag",
-                "edid|Headwear_Fasnacht_Mask_Fiend",
-                "edid|Headwear_Fasnacht_Mask_Turkey_Glow",
-                "edid|Headwear_Fasnacht_Mask_ScorchBeastQueen_Glow",
-                "edid|Headwear_Fasnacht_Mask_BlueDevil_Glow",
-                "edid|Headwear_Fasnacht_Mask_HoneyBee_Glow",
-                "edid|Headwear_Fasnacht_Mask_ScorchBeast_Glow",
-                "edid|Headwear_Fasnacht_Mask_Alien_Glow",
-                "edid|Headwear_Fasnacht_Mask_Pig_Glow",
-                "edid|Headwear_Fasnacht_Mask_Robot_Glow",
-                "edid|Headwear_Fasnacht_Mask_Unicorn_Glow",
-                "edid|Headwear_Fasnacht_Mask_Minotaur_Glow",
-                // 2025
-                "edid|Headwear_Fasnacht_Mask_VeggieMan_Glow",
-                "edid|Headwear_Fasnacht_Mask_Abe_Glow",
-                "edid|Headwear_Fasnacht_Mask_Bigfoot_Glow",
-                "edid|Headwear_Fasnacht_Mask_Jackalope_Glow",
             ],
             exclude: [],
         },
         {
             order: 5,
-            prefix: [ICON_APPAREL.FasnachtMask, ICON_UTILITY.Empty],
+            prefix: [ICON_APPAREL.FasnachtMask, ICON_UTILITY.Expensive, ICON_UTILITY.YearTwenty, ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
             isInjected: false,
             isDeleted: false,
             isAnyKeyword: false,
-            isInclusiveOr: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [
+                "edid|Armor_PowerArmor_Fasnacht_FatherWinter_Helmet",
+                "edid|Headwear_Fasnacht_Mask_CrazyGuy",
+                "edid|ATX_Headwear_Fasnacht_Mask_Deathclaw",
+                "edid|Headwear_Fasnacht_Mask_Raven",
+            ],
+            exclude: [
+                "edid|ATX_Headwear_Fasnacht_Mask_CrazyGuy_Blue",
+                "edid|ATX_Headwear_Fasnacht_Mask_CrazyGuy_Green"
+            ],
+        },
+        {
+            order: 6,
+            prefix: [ICON_APPAREL.FasnachtMask, ICON_UTILITY.Expensive, ICON_UTILITY.YearTwentyOne, ICON_UTILITY.Empty],
+            leftSignature: LeftSignature.Armor,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [
+                "edid|Headwear_Fasnacht_Mask_Brahmin",
+                "edid|Headwear_Fasnacht_Mask_Jester",
+                "edid|Headwear_Fasnacht_Mask_Demon",
+            ],
+            exclude: [],
+        },
+        {
+            order: 7,
+            prefix: [ICON_APPAREL.FasnachtMask, ICON_UTILITY.Expensive, ICON_UTILITY.YearTwentyTwo, ICON_UTILITY.Empty],
+            leftSignature: LeftSignature.Armor,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [
+                "edid|Headwear_Fasnacht_Mask_Fiend",
+                "edid|Headwear_Fasnacht_Mask_Hag",
+                "edid|Headwear_Fasnacht_Mask_Loon",
+            ],
+            exclude: [],
+        },
+        {
+            order: 8,
+            prefix: [ICON_APPAREL.FasnachtMask, ICON_UTILITY.Expensive, ICON_UTILITY.YearTwentyFour, ICON_UTILITY.Empty],
+            leftSignature: LeftSignature.Armor,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [
+                "edid|Headwear_Fasnacht_Mask_Alien_Glow",
+                "edid|Headwear_Fasnacht_Mask_BlueDevil_Glow",
+                "edid|Headwear_Fasnacht_Mask_HoneyBee_Glow",
+                "edid|Headwear_Fasnacht_Mask_Minotaur_Glow",
+                "edid|Headwear_Fasnacht_Mask_Pig_Glow",
+                "edid|Headwear_Fasnacht_Mask_Robot_Glow",
+                "edid|Headwear_Fasnacht_Mask_ScorchBeast_Glow",
+                "edid|Headwear_Fasnacht_Mask_ScorchBeastQueen_Glow",
+                "edid|Headwear_Fasnacht_Mask_Turkey_Glow",
+                "edid|Headwear_Fasnacht_Mask_Unicorn_Glow",
+            ],
+            exclude: [],
+        },
+        {
+            order: 9,
+            prefix: [ICON_APPAREL.FasnachtMask, ICON_UTILITY.Expensive, ICON_UTILITY.YearTwentyFive, ICON_UTILITY.QOne],
+            leftSignature: LeftSignature.Armor,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [
+                "edid|Headwear_Fasnacht_Mask_Abe_Glow",
+                "edid|Headwear_Fasnacht_Mask_Bigfoot_Glow",
+                "edid|Headwear_Fasnacht_Mask_Jackalope_Glow",
+                "edid|Headwear_Fasnacht_Mask_VeggieMan_Glow",
+            ],
+            exclude: [],
+        },
+        {
+            order: 10,
+            prefix: [ICON_APPAREL.FasnachtMask, ICON_UTILITY.Expensive, ICON_UTILITY.YearTwentyFive, ICON_UTILITY.QThree],
+            leftSignature: LeftSignature.Armor,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [
+                "edid|ARMO_Headwear_FasnachtMask_Owl_Glow",
+                "edid|ARMO_Headwear_FasnachtMask_Jester_Glow",
+                "edid|ARMO_Headwear_FasnachtCornCob_Glowing",
+                "edid|ARMO_Headwear_FasnachtMask_Skull_Glow",
+                "edid|ARMO_Headwear_FasnachtMask_Sun_Glow"
+            ],
+            exclude: [],
+        },
+        {
+            order: 11,
+            prefix: [ICON_APPAREL.FasnachtMask, ICON_UTILITY.Empty, ICON_UTILITY.Empty, ICON_UTILITY.Empty],
+            leftSignature: LeftSignature.Armor,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
             isFullReplaced: false,
             include: [hatTypeFasnachtMask],
             exclude: [],
         },
         {
-            order: 6,
-            prefix: [ICON_APPAREL.FasnachtMask, ICON_UTILITY.Empty],
+            order: 12,
+            prefix: [ICON_APPAREL.FasnachtMask, ICON_UTILITY.Empty, ICON_UTILITY.Empty, ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
             isInjected: false,
@@ -150,7 +241,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 7,
+            order: 13,
             prefix: [ICON_APPAREL.Mask, ICON_UTILITY.Expensive],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -166,7 +257,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 8,
+            order: 14,
             prefix: [ICON_APPAREL.Mask, ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -186,7 +277,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 9,
+            order: 15,
             prefix: [ICON_APPAREL.HalloweenHat],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -199,7 +290,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 10,
+            order: 16,
             prefix: [ICON_APPAREL.FlowerCrown],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -212,7 +303,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 11,
+            order: 17,
             prefix: [ICON_APPAREL.CultistHood],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -228,7 +319,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 12,
+            order: 18,
             prefix: [ICON_APPAREL.GasMask],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -241,7 +332,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 13,
+            order: 19,
             prefix: [ICON_APPAREL.Helmet],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -254,7 +345,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [objectTypeBasicArmor],
         },
         {
-            order: 14,
+            order: 20,
             prefix: [ICON_APPAREL.SpacesuitHat],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -267,7 +358,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 15,
+            order: 21,
             prefix: [ICON_APPAREL.SpacesuitHat],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -283,7 +374,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 16,
+            order: 22,
             prefix: [ICON_APPAREL.SpacesuitClothing],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -301,7 +392,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 17,
+            order: 23,
             prefix: [ICON_APPAREL.CowboyHat],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -314,7 +405,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 18,
+            order: 24,
             prefix: [ICON_APPAREL.CowboyHat],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -327,7 +418,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 19,
+            order: 25,
             prefix: [ICON_APPAREL.CowboyClothing],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -343,7 +434,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [clothingTypeHat],
         },
         {
-            order: 20,
+            order: 26,
             prefix: [ICON_APPAREL.CowboyClothing],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -356,7 +447,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [clothingTypeHat],
         },
         {
-            order: 21,
+            order: 27,
             prefix: [ICON_APPAREL.WinterHat],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -372,7 +463,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 22,
+            order: 28,
             prefix: [ICON_APPAREL.WinterJacket],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -392,7 +483,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 23,
+            order: 29,
             prefix: [ICON_APPAREL.FishingHat],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -405,7 +496,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 24,
+            order: 30,
             prefix: [ICON_APPAREL.FishingOutfit],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -421,7 +512,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 25,
+            order: 31,
             prefix: [ICON_APPAREL.MilitaryHat],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -437,7 +528,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 26,
+            order: 32,
             prefix: [ICON_APPAREL.MilitaryClothing],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -453,7 +544,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 27,
+            order: 33,
             prefix: [ICON_APPAREL.Asylum, ICON_UTILITY.Expensive],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -466,7 +557,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 28,
+            order: 34,
             prefix: [ICON_APPAREL.Asylum, ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -482,7 +573,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 29,
+            order: 35,
             prefix: [ICON_APPAREL.MrFuzzyHead, ICON_UTILITY.Expensive],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -495,7 +586,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 30,
+            order: 36,
             prefix: [ICON_APPAREL.MrFuzzyHead, ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -511,7 +602,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 31,
+            order: 37,
             prefix: [ICON_APPAREL.MrFuzzyHead, ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -527,7 +618,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 32,
+            order: 38,
             prefix: [ICON_APPAREL.MrFuzzyHead, ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -543,7 +634,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 33,
+            order: 39,
             prefix: [ICON_APPAREL.HolidayCostume, ICON_UTILITY.Expensive],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -556,7 +647,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 34,
+            order: 40,
             prefix: [ICON_APPAREL.HolidayCostume, ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -572,7 +663,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 35,
+            order: 41,
             prefix: [ICON_APPAREL.HolidayCostume, ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -592,7 +683,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 36,
+            order: 42,
             prefix: [ICON_APPAREL.Suit],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -610,7 +701,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 37,
+            order: 43,
             prefix: [ICON_APPAREL.Dress],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -623,7 +714,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 38,
+            order: 44,
             prefix: [ICON_APPAREL.RaiderClothing, ICON_UTILITY.Expensive],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -640,7 +731,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 39,
+            order: 45,
             prefix: [ICON_APPAREL.RaiderClothing, ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -659,7 +750,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 40,
+            order: 46,
             prefix: [ICON_APPAREL.Sleepwear],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -678,7 +769,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 41,
+            order: 47,
             prefix: [ICON_APPAREL.Swimsuit],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -694,7 +785,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 42,
+            order: 48,
             prefix: [ICON_APPAREL.HazmatSuit],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -707,7 +798,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 43,
+            order: 49,
             prefix: [ICON_APPAREL.HazmatSuit],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -720,7 +811,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 44,
+            order: 50,
             prefix: [ICON_APPAREL.DefaultHat, ICON_UTILITY.Expensive],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -733,7 +824,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 45,
+            order: 51,
             prefix: [ICON_APPAREL.DefaultHat, ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -746,7 +837,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [hatTypeMilitary],
         },
         {
-            order: 46,
+            order: 52,
             prefix: [ICON_APPAREL.DefaultClothing, ICON_UTILITY.Expensive],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -764,7 +855,7 @@ export const APPAREL_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 47,
+            order: 53,
             prefix: [ICON_APPAREL.DefaultClothing, ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,
@@ -783,7 +874,7 @@ export const APPAREL_RULES_GROUP = {
             ],
         },
         {
-            order: 48,
+            order: 54,
             prefix: [ICON_APPAREL.DefaultClothing, ICON_UTILITY.Empty],
             leftSignature: LeftSignature.Armor,
             rightSignature: RightSignature.FULL,

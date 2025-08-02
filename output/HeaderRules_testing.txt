@@ -605,7 +605,7 @@
 [EndRule]
 
 [StartRule]
- Header=#fasnacht_mask|expensive#
+ Header=#fasnacht_mask|expensive|empty|empty#
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -619,36 +619,11 @@
  isFallBack=0
  fallbackBank=0
  Include_0=edid|Headwear_Fasnacht_Mask_OldManWinter
- Include_1=edid|ATX_Headwear_Fasnacht_Mask_Deathclaw
- Include_2=edid|Headwear_Fasnacht_Mask_Raven
- Include_3=edid|Armor_PowerArmor_Fasnacht_FatherWinter_Helmet
- Include_4=edid|Headwear_Fasnacht_Mask_CrazyGuy
- Include_5=edid|Headwear_Fasnacht_Mask_Demon
- Include_6=edid|Headwear_Fasnacht_Mask_Brahmin
- Include_7=edid|Headwear_Fasnacht_Mask_Jester
- Include_8=edid|Headwear_Fasnacht_Mask_Deathclaw
- Include_9=edid|Headwear_Fasnacht_Mask_Loon
- Include_10=edid|Headwear_Fasnacht_Mask_Hag
- Include_11=edid|Headwear_Fasnacht_Mask_Fiend
- Include_12=edid|Headwear_Fasnacht_Mask_Turkey_Glow
- Include_13=edid|Headwear_Fasnacht_Mask_ScorchBeastQueen_Glow
- Include_14=edid|Headwear_Fasnacht_Mask_BlueDevil_Glow
- Include_15=edid|Headwear_Fasnacht_Mask_HoneyBee_Glow
- Include_16=edid|Headwear_Fasnacht_Mask_ScorchBeast_Glow
- Include_17=edid|Headwear_Fasnacht_Mask_Alien_Glow
- Include_18=edid|Headwear_Fasnacht_Mask_Pig_Glow
- Include_19=edid|Headwear_Fasnacht_Mask_Robot_Glow
- Include_20=edid|Headwear_Fasnacht_Mask_Unicorn_Glow
- Include_21=edid|Headwear_Fasnacht_Mask_Minotaur_Glow
- Include_22=edid|Headwear_Fasnacht_Mask_VeggieMan_Glow
- Include_23=edid|Headwear_Fasnacht_Mask_Abe_Glow
- Include_24=edid|Headwear_Fasnacht_Mask_Bigfoot_Glow
- Include_25=edid|Headwear_Fasnacht_Mask_Jackalope_Glow
  Exclude_0=
 [EndRule]
 
 [StartRule]
- Header=#fasnacht_mask|empty#
+ Header=#fasnacht_mask|expensive|year_twenty|empty#
  rSig=ARMO
  fSig=FULL
  enabled=-1
@@ -658,7 +633,139 @@
  hasCompo=0
  preProcess=0
  fullReplace=0
- includeOR=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Armor_PowerArmor_Fasnacht_FatherWinter_Helmet
+ Include_1=edid|Headwear_Fasnacht_Mask_CrazyGuy
+ Include_2=edid|ATX_Headwear_Fasnacht_Mask_Deathclaw
+ Include_3=edid|Headwear_Fasnacht_Mask_Raven
+ Exclude_0=edid|ATX_Headwear_Fasnacht_Mask_CrazyGuy_Blue
+ Exclude_1=edid|ATX_Headwear_Fasnacht_Mask_CrazyGuy_Green
+[EndRule]
+
+[StartRule]
+ Header=#fasnacht_mask|expensive|year_twenty_one|empty#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Headwear_Fasnacht_Mask_Brahmin
+ Include_1=edid|Headwear_Fasnacht_Mask_Jester
+ Include_2=edid|Headwear_Fasnacht_Mask_Demon
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#fasnacht_mask|expensive|year_twenty_two|empty#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Headwear_Fasnacht_Mask_Fiend
+ Include_1=edid|Headwear_Fasnacht_Mask_Hag
+ Include_2=edid|Headwear_Fasnacht_Mask_Loon
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#fasnacht_mask|expensive|year_twenty_four|empty#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Headwear_Fasnacht_Mask_Alien_Glow
+ Include_1=edid|Headwear_Fasnacht_Mask_BlueDevil_Glow
+ Include_2=edid|Headwear_Fasnacht_Mask_HoneyBee_Glow
+ Include_3=edid|Headwear_Fasnacht_Mask_Minotaur_Glow
+ Include_4=edid|Headwear_Fasnacht_Mask_Pig_Glow
+ Include_5=edid|Headwear_Fasnacht_Mask_Robot_Glow
+ Include_6=edid|Headwear_Fasnacht_Mask_ScorchBeast_Glow
+ Include_7=edid|Headwear_Fasnacht_Mask_ScorchBeastQueen_Glow
+ Include_8=edid|Headwear_Fasnacht_Mask_Turkey_Glow
+ Include_9=edid|Headwear_Fasnacht_Mask_Unicorn_Glow
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#fasnacht_mask|expensive|year_twenty_five|q_one#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|Headwear_Fasnacht_Mask_Abe_Glow
+ Include_1=edid|Headwear_Fasnacht_Mask_Bigfoot_Glow
+ Include_2=edid|Headwear_Fasnacht_Mask_Jackalope_Glow
+ Include_3=edid|Headwear_Fasnacht_Mask_VeggieMan_Glow
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#fasnacht_mask|expensive|year_twenty_five|q_three#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
+ isFallBack=0
+ fallbackBank=0
+ Include_0=edid|ARMO_Headwear_FasnachtMask_Owl_Glow
+ Include_1=edid|ARMO_Headwear_FasnachtMask_Jester_Glow
+ Include_2=edid|ARMO_Headwear_FasnachtCornCob_Glowing
+ Include_3=edid|ARMO_Headwear_FasnachtMask_Skull_Glow
+ Include_4=edid|ARMO_Headwear_FasnachtMask_Sun_Glow
+ Exclude_0=
+[EndRule]
+
+[StartRule]
+ Header=#fasnacht_mask|empty|empty|empty#
+ rSig=ARMO
+ fSig=FULL
+ enabled=-1
+ tagID=default
+ noKW=0
+ anyKW=0
+ hasCompo=0
+ preProcess=0
+ fullReplace=0
+ includeOR=-1
  isFallBack=0
  fallbackBank=0
  Include_0=ekwd|HatTypeFasnachtMask
@@ -666,7 +773,7 @@
 [EndRule]
 
 [StartRule]
- Header=#fasnacht_mask|empty#
+ Header=#fasnacht_mask|empty|empty|empty#
  rSig=ARMO
  fSig=FULL
  enabled=-1
