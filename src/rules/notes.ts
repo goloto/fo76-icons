@@ -112,9 +112,12 @@ export const NOTES_RULES_GROUP = {
             isInjected: false,
             isDeleted: false,
             isAnyKeyword: false,
-            isInclusiveOr: false,
+            isInclusiveOr: true,
             isFullReplaced: false,
-            include: ["edid|Fishing_Workshop"],
+            include: [
+                "edid|Fishing_Workshop",
+                "edid|Fishing_Recipe"
+            ],
             exclude: [],
         },
         {
