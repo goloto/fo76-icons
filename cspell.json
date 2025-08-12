@@ -1,0 +1,30 @@
+{
+  "languageSettings": [{
+    "languageId": ["typescript"],
+    "locale": "en",
+    "words": [
+      "ekwd",
+      "edid",
+      "Fasnacht",
+      "Headwear",
+      "Jackalope",
+      "ARMO",
+      "WNAM",
+      "NWOT",
+      "Nuka",
+      "Underarmor",
+      "Stimpak",
+      "Addictol",
+      "Bloodpack",
+      "Radaway",
+      "Ultracite",
+      "Tato",
+      "Stim",
+      "miscmod",
+      "Mothman",
+      "Syringers",
+      "Syringer",
+      "Cryptid"
+    ],
+  }]
+}
