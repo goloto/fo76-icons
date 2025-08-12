@@ -88,9 +88,12 @@ export const WEAPONS_RULES_GROUP = {
             isInjected: false,
             isDeleted: false,
             isAnyKeyword: false,
-            isInclusiveOr: false,
+            isInclusiveOr: true,
             isFullReplaced: false,
-            include: ["edid|CryoGrenade"],
+            include: [
+                "edid|CryoGrenade",
+                "edid|WorkshopVertibirdGrenade"
+            ],
             exclude: [],
         },
         {
