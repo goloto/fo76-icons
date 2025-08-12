@@ -1588,6 +1588,7 @@
  Include_1=edid|MotivationalCollar
  Include_2=edid|WeaselCollar
  Include_3=edid|Outfit_TheMechanicOutfit_GreaseGoblin
+ Include_4=edid|ClothesMistressOfMysteryEyeOfRa
  Exclude_0=
 [EndRule]
 

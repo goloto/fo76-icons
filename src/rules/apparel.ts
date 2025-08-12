@@ -888,6 +888,7 @@ export const APPAREL_RULES_GROUP = {
                 "edid|MotivationalCollar",
                 "edid|WeaselCollar",
                 "edid|Outfit_TheMechanicOutfit_GreaseGoblin",
+                "edid|ClothesMistressOfMysteryEyeOfRa"
             ],
             exclude: [],
         }
