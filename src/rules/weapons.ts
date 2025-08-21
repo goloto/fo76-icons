@@ -663,12 +663,27 @@ export const WEAPONS_RULES_GROUP = {
             include: [
                 "ekwd|CustomItemName_DrillFist",
                 "ekwd|CustomItemName_OguaGauntlet",
-                "ekwd|CustomItemName_ToneDeath"
+                "ekwd|CustomItemName_ToneDeath",
             ],
             exclude: [],
         },
         {
             order: 40,
+            prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.MeleeUnarmed],
+            leftSignature: LeftSignature.Weapon,
+            rightSignature: RightSignature.FULL,
+            isInjected: false,
+            isDeleted: false,
+            isAnyKeyword: false,
+            isInclusiveOr: true,
+            isFullReplaced: false,
+            include: [
+                "edid|ToneDeath",
+            ],
+            exclude: [],
+        },
+        {
+            order: 41,
             prefix: [ICON_WEAPONS.MeleeUnarmed],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -681,7 +696,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 41,
+            order: 42,
             prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.MeleeOneHand],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -701,7 +716,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 42,
+            order: 43,
             prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.MeleeOneHand],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -714,7 +729,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 43,
+            order: 44,
             prefix: [ICON_WEAPONS.MeleeOneHand],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -727,7 +742,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 44,
+            order: 45,
             prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.MeleeTwoHand],
             leftSignature: LeftSignature.InstanceNamingRules,
             rightSignature: RightSignature.WNAM,
@@ -751,7 +766,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 45,
+            order: 46,
             prefix: [ICON_LEGENDARY_EFFECTS.Unique, ICON_WEAPONS.MeleeTwoHand],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -764,7 +779,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 46,
+            order: 47,
             prefix: [ICON_WEAPONS.MeleeTwoHand],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -777,7 +792,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 47,
+            order: 48,
             prefix: [ICON_WEAPONS.Binoculars],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
@@ -790,7 +805,7 @@ export const WEAPONS_RULES_GROUP = {
             exclude: [],
         },
         {
-            order: 48,
+            order: 49,
             prefix: [ICON_WEAPONS.Camera],
             leftSignature: LeftSignature.Weapon,
             rightSignature: RightSignature.FULL,
