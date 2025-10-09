@@ -20,6 +20,13 @@ Installation is same as [IconSortingTags](http://www.nexusmods.com/fallout76/mod
 10. Click `Run Processor` on step 6 and wait until it's complete
 11. Click `Patch game files` on step 7 and wait until it's complete
 
+## Recommendation
+For better icon quality, I recommend adding following lines to the [Display] section of your Fallout76Prefs.ini:
+```
+uPipboyTargetHeight=1400
+uPipboyTargetWidth=1752
+```
+
 ## Troubleshooting
 
 - If there are `LOOKUP FAILED` messages in the game, you need to re-install mod

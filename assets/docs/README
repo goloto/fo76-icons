@@ -22,11 +22,16 @@ Installation is same as [url=http://www.nexusmods.com/fallout76/mods/146]IconSor
 [*]Click `Patch game files` on step 7 and wait until it's complete
 [/list]
 
+[b][size=4]Recommendation[/size]
+[/b]
+For better icon quality, I recommend adding following lines to the [Display] section of your Fallout76Prefs.ini:
+[code]uPipboyTargetHeight=1400
+uPipboyTargetWidth=1752[/code]
+
 [b][size=4]Troubleshooting[/size]
 [/b]
 - If there are `LOOKUP FAILED` messages in the game, you need to re-install mod
 - If there are squares instead of icons, most likely you forgot to complete step 11
-
 
 [b][size=4]Key features[/size]
 [/b]
