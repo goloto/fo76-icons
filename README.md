@@ -1,49 +1,49 @@
 # fo76-icons
 
-Это инструментарий и исходный код мода [Goloto's Icons](https://www.nexusmods.com/fallout76/mods/3224) для Fallout 76. 
+This is toolkit and source code of the [Goloto's Icons](https://www.nexusmods.com/fallout76/mods/3224) mod for Fallout 76.
 
-## Установка
+## Installation
 
-1. Установить `bun` по [инструкции](https://bun.sh/)
-2. Выполнить `bun install` в корневой директории проекта
+1. Install `bun` with this [guide](https://bun.sh/)
+2. Run `bun install` in root project folder
 
-Для работы некоторых скриптов требуется создать файл `.env` и заполнить его по примеру `.env.sample`, указав в нём путь к директориям Fontlab и Fallout 76.
+For some scripts to work, you need to create a `.env` file and fill it in using example of `.env.sample`, specifying path to Fontlab and Fallout 76 directories in it.
 
-## Структура
+## Structure
 
- - `assets` - иконки, их черновики, проект шрифта и прочее
- - `input` - исходные файлы игры и шаблон для обзорной страницы
- - `output` - конечные файлы игры, шрифт, unicode-карта и обзорная страница
- - `src` - исходный код утилит
+ - `assets` - icons, draft icons, images, docs and other
+ - `input` - source game files and template for overview page
+ - `output` - final game files, font, unicode-map and overview page
+ - `src` - source code for toolkit
 
-## Скрипты
+## Scripts
 
- - `build-all` - запускает процесс обновления и генерация всех правил и конфигураций иконок
- - `reset-fonts-swf` - обновляет `fonts_*.swf` файлы, копируя их из `/input` директории в `/output`
- - `update-fontlab` - заменяет файл `standard.nam` в директории Fontlab аналогичным файлом из директории `/output`
+ - `build-all` - starts update process and generation of all icon rules and configurations
+ - `reset-fonts-swf` - updates `fonts_*.swf` files by copying them from `/input` directory to `/output`
+ - `update-fontlab` - replaces `standard.nam` file in the Fontlab directory with a similar file from `/output' directory
 
-## Скрипт `build-all`
+## Script `build-all`
 
-1. Сортирует категории
-2. Сортирует правила иконок
-3. Генерирует категории
-4. Генерирует иконки
-5. Генерирует файл заголовков
-6. Генерирует файл конфигурации шрифта
-7. Генерирует unicode-карту
-8. Генерирует обзорную страницу
+1. Sorts categories
+2. Sorts icon rules
+3. Generates categories
+4. Generates icons
+5. Generates a header file
+6. Generates a font configuration file
+7. Generates a unicode map
+8. Generates an overview page
 
-## Прочее
+## Other
 
-### Автоматическая сортировка
+### Automatic sorting
 
-Иконки сортируются по следующим правилам:
- - сортируются группы согласно `src\constants\categories-order.ts`
- - порядок иконок повторяет порядок их использования в правилах группы
- - сначала сортируются все иконки, стоящие на первой позиции префикса, затем на второй и т.д.
- - все повторные встречи иконок игнорируются
- - все не-главные иконки группы игнорируются (главные иконки для каждой из группы определены здесь: `src\constants\index.ts`)
+The icons are sorted according to the following rules:
+ - groups are sorted according to `src\constants\categories-order.ts`
+ - the order of icons repeats the order of their use in the group rules
+ - first, all icons are sorted in the first position of the prefix, then in the second, etc.
+ - all repeated icon encounters are ignored
+ - all non-main group icons are ignored (the main icons for each group are defined here: `src\constants\index.ts`)
 
-### Отступы у некоторых иконок
+### Icons margin
 
-Иконки событий, лет, кварталов, редкости и дороговизны имеют отступ с левой стороны равный 100. Он необходим для лучшего восприятия этих иконок, т.к. они всегда следуют за другой иконкой.
+Icons for events, years, quarters, rarity, and high cost have an indentation of 100 on the left side. It is necessary for a better perception of these icons, because they always follow another icon.

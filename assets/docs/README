@@ -1,9 +1,6 @@
 [b][size=4]About this mod[/size]
 [/b]
-This mod is an alternative to [url=http://www.nexusmods.com/fallout76/mods/146]IconSortingTags[/url]﻿, but with fewer icons.
-
-My main goals are: different style, more simple and readable UI and few other improvements without loss of functionality.
-
+This mod is an alternative to [url=http://www.nexusmods.com/fallout76/mods/146]IconSortingTags[/url]﻿, but with fewer icons, different style and highlighting rare items and plans.
 
 [b][size=4]Installation[/size]
 [/b]
@@ -40,15 +37,20 @@ Installation is same as [url=http://www.nexusmods.com/fallout76/mods/146]IconSor
 - removed all armor/weapon suffixes/prefixes for non-legendary modifications
 - cyrillized fonts for RU version
 
+[b][size=4]Feedback[/size]
+[/b]
+I will be glad to hear bug reports and suggestions for new icons. You can leave them on this page or create an issue on [url=http://github.com/goloto/fo76-icons]GitHub[/url].
 
 [b][size=4]Credits[/size]
 [/b]
-Most of the icons are generated with [url=http://huggingface.co/black-forest-labs/FLUX.1-dev]flux.1-dev[/url] and then mannually modified by myself.
+If you want to thank me, star this project on [url=http://github.com/goloto/fo76-icons]GitHub[/url].
 
-All of fonts, icons and source code are available at [url=http://github.com/goloto/fo76-icon-tags]GitHub[/url]﻿ by MIT and OFL licenses.
+Most of the icons are generated with [url=http://huggingface.co/black-forest-labs/FLUX.1-dev]flux.1-dev[/url] and then manually modified by myself.
+
+All of fonts, icons and source code are available on [url=http://github.com/goloto/fo76-icons]GitHub[/url] by MIT and OFL licenses.
 
 Thanks to [url=http://next.nexusmods.com/profile/mcguffin]mcguffin[/url] and his [url=http://www.nexusmods.com/starfield/mods/313]xTranslator[/url], without which I would not have been able to make this mod.
 
 Thanks to [url=http://next.nexusmods.com/profile/BiggerDigger]BiggerDigger[/url] and his [url=http://www.nexusmods.com/fallout76/mods/362]Cyrillized Font Library[/url], which mod i take for russian version of this mod.
 
-Thanks to my wife for most ambitious and interesting icon ideas. 
+Thanks to my wife for most ambitious and interesting icon ideas.

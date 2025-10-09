@@ -1,9 +1,7 @@
 # Goloto's Icons
 
 ## About this mod
-This mod is an alternative to [IconSortingTags](http://www.nexusmods.com/fallout76/mods/146), but with fewer icons.
-
-My main goals are: different style, more simple and readable UI and few other improvements without loss of functionality.
+This mod is an alternative to [IconSortingTags](http://www.nexusmods.com/fallout76/mods/146), but with fewer icons, different style and highlighting rare items and plans.
 
 ## Installation
 Installation is same as [IconSortingTags](http://www.nexusmods.com/fallout76/mods/146).
@@ -35,10 +33,15 @@ Installation is same as [IconSortingTags](http://www.nexusmods.com/fallout76/mod
 - removed all armor/weapon suffixes/prefixes for non-legendary modifications
 - cyrillized fonts for RU version
 
-## Credits
-Most of the icons are generated with [flux.1-dev](http://huggingface.co/black-forest-labs/FLUX.1-dev) and then mannually modified by myself.
+## Feedback
+I will be glad to hear bug reports and suggestions for new icons. You can leave them on this page or create an issue on [GitHub](http://github.com/goloto/fo76-icons).
 
-All of fonts, icons and source code are available at [GitHub](http://github.com/goloto/fo76-icon-tags) by MIT and OFL licenses.
+## Credits
+If you want to thank me, star this project on [GitHub](http://github.com/goloto/fo76-icons).
+
+Most of the icons are generated with [flux.1-dev](http://huggingface.co/black-forest-labs/FLUX.1-dev) and then manually modified by myself.
+
+All of fonts, icons and source code are available on [GitHub](http://github.com/goloto/fo76-icons) by MIT and OFL licenses.
 
 Thanks to [mcguffin](http://next.nexusmods.com/profile/mcguffin) and his [xTranslator](http://www.nexusmods.com/starfield/mods/313), without which I would not have been able to make this mod.
 
