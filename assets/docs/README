@@ -1,8 +1,6 @@
 [b][size=4]About this mod[/size]
 [/b]
-This mod is an alternative to [url=http://www.nexusmods.com/fallout76/mods/146]IconSortingTags[/url]﻿, but with fewer icons.
-
-My main goals are: different style, more simple and readable UI and few other improvements without loss of functionality.
+This mod is an alternative to [url=http://www.nexusmods.com/fallout76/mods/146]IconSortingTags[/url]﻿, but with fewer icons, different style and highlighting rare items and plans.
 
 
 [b][size=4]Installation[/size]
@@ -14,20 +12,28 @@ Installation is same as [url=http://www.nexusmods.com/fallout76/mods/146]IconSor
 [list=1]
 [*]Install latest version of [url=http://www.nexusmods.com/starfield/mods/313]xTranslator[/url]
 [*]Open xTranslator and choose Fallout 76
-[*]Open `Options` -> `Dictionary and languages` window. Set `Source language`, `Destination language` parameters to your current game language and `./data` and `./strings/` parameters to `Data` folder in your current game directory. After setting those parameters xTranslator should not display any errors in this window.
-[*]Select SeventySix.esm in `File` -> `Load Esp/Esm`
-[*]Extract mod files in `Data/Interface` folder in your current game directory
-[*]Open `Wizards` -> `HeaderProcessor Wizrd` window
-[*]Click `Create ba2 backup` for creating backup files
+[*]Open [i]Options[/i] -> [i]Dictionary and languages[/i] window. Set [i]Source language[/i], [i]Destination language[/i] parameters to your current game language and [i]./data[/i] and [i]./strings[/i] parameters to [i]Data[/i] folder in your current game directory. After setting those parameters xTranslator should not display any errors in this window.
+[*]Select SeventySix.esm in [i]File[/i] -> [i]Load Esp/Esm[/i]
+[*]Extract mod files in [i]Data/Interface[/i] folder in your current game directory
+[*]Open [i]Wizards[/i] -> [i]HeaderProcessor Wizard[/i] window
+[*]Click [i]Create ba2 backup[/i] for creating backup files
 [*]Make sure, that game path and language on step 1 and 2 are correct
-[*]Click `Load Rules` on step 3 and chose file `HeaderRules.txt` from mod files
-[*]Click `Run Processor` on step 6 and wait until it's complete
-[*]Click `Patch game files` on step 7 and wait until it's complete
+[*]Click [i]Load Rules[/i] on step 3 and chose file [i]HeaderRules.txt[/i] from mod files
+[*]Click [i]Run Processor[/i] on step 6 and wait until it's complete
+[*]Click [i]Patch game files[/i] on step 7 and wait until it's complete
 [/list]
+
+[b][size=4]Recommendation[/size]
+[/b]
+For better icon quality, I recommend adding following lines to the [Display] section of your Fallout76Prefs.ini:
+
+[code]uPipboyTargetHeight=1400
+uPipboyTargetWidth=1752[/code]
+
 
 [b][size=4]Troubleshooting[/size]
 [/b]
-- If there are `LOOKUP FAILED` messages in the game, you need to re-install mod
+- If there are [i]LOOKUP FAILED[/i] messages in the game, you need to re-install mod
 - If there are squares instead of icons, most likely you forgot to complete step 11
 
 
@@ -41,14 +47,21 @@ Installation is same as [url=http://www.nexusmods.com/fallout76/mods/146]IconSor
 - cyrillized fonts for RU version
 
 
+[b][size=4]Feedback[/size]
+[/b]
+I will be glad to hear bug reports and suggestions for new icons. You can leave them on this page or create an issue on [url=http://github.com/goloto/fo76-icons]GitHub[/url].
+
+
 [b][size=4]Credits[/size]
 [/b]
-Most of the icons are generated with [url=http://huggingface.co/black-forest-labs/FLUX.1-dev]flux.1-dev[/url] and then mannually modified by myself.
+If you want to thank me, star this project on [url=http://github.com/goloto/fo76-icons]GitHub[/url].
 
-All of fonts, icons and source code are available at [url=http://github.com/goloto/fo76-icon-tags]GitHub[/url]﻿ by MIT and OFL licenses.
+Most of the icons are generated with [url=http://huggingface.co/black-forest-labs/FLUX.1-dev]flux.1-dev[/url] and then manually modified by myself.
+
+All of fonts, icons and source code are available on [url=http://github.com/goloto/fo76-icons]GitHub[/url] by MIT and OFL licenses.
 
 Thanks to [url=http://next.nexusmods.com/profile/mcguffin]mcguffin[/url] and his [url=http://www.nexusmods.com/starfield/mods/313]xTranslator[/url], without which I would not have been able to make this mod.
 
 Thanks to [url=http://next.nexusmods.com/profile/BiggerDigger]BiggerDigger[/url] and his [url=http://www.nexusmods.com/fallout76/mods/362]Cyrillized Font Library[/url], which mod i take for russian version of this mod.
 
-Thanks to my wife for most ambitious and interesting icon ideas. 
+Thanks to my wife for most ambitious and interesting icon ideas.
