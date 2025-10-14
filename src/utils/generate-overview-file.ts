@@ -2,6 +2,7 @@ import { JSDOM } from 'jsdom';
 import { INPUT_DIRECTORY, OUTPUT_DIRECTORY } from '@/constants';
 import { ICONS } from '@/generated/icons';
 import { getCharFromHexadecimal } from './common';
+import { createElement } from './dom';
 
 const overviewFileName = 'overview.html';
 
@@ -17,13 +18,12 @@ export const generateOverviewFile = async () => {
   }
 
   ICONS.forEach((icon) => {
-    const iconElement = window.createElement('div');
-    const iconText = window.createTextNode(
-      getCharFromHexadecimal(icon.charCode)
-    );
+    const iconElement = createElement(window, {
+      tag: 'div',
+      id: 'icon',
+      text: getCharFromHexadecimal(icon.charCode),
+    });
 
-    iconElement.setAttribute('id', 'icon');
-    iconElement.appendChild(iconText);
     root.appendChild(iconElement);
   });
 

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Goloto's Icons Legend</title>
+  <link href="./Goloto's_icons_font.ttf" as="font" type="font/ttf" />
+  <style>
+    @font-face {
+      font-family: "Goloto's Icons";
+      src: url("Goloto's_icons_font.ttf");
+    }
+
+    :root {
+      font-family: 'Roboto Condensed';
+
+      --icon-size: 40px;
+    }
+
+    body {
+      height: 100vh;
+      width: 100vw;
+      margin: 0;
+    }
+
+    h2 {
+      margin: 0;
+
+      font-size: var(--icon-size);
+    }
+
+    #legend-container {
+      max-width: 1024px;
+
+      display: flex;
+      flex-direction: column;
+      gap: var(--icon-size);
+
+      background: linear-gradient(90deg,rgba(245, 203, 91, 1) 0%, rgba(249, 227, 144, 1) 50%, rgba(245, 203, 91, 1) 100%);
+    }
+
+    #screenshot-container {
+      display: flex;
+      flex-direction: column;
+      gap: var(--icon-size);
+    }
+
+    #category-container {
+      padding: 0 calc(var(--icon-size) / 2);
+
+      display: flex;
+      flex-direction: column;
+      gap: calc(var(--icon-size ) / 4);
+    }
+
+    #category-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0 calc(var(--icon-size) / 4);
+    }
+
+    #line {
+      height: 1px;
+      width: max-content;
+      background-color: black;
+    }
+
+    #icon-container {
+      display: grid;
+      grid-template-columns: var(--icon-size) 1fr;
+      gap: calc(var(--icon-size) / 2);
+      align-items: center;
+
+      font-size: calc(var(--icon-size) / 2);
+    }
+
+    #icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      font-size: var(--icon-size);
+      font-family: "Goloto's Icons";
+    }
+  </style>
+</head>
+<body>
+  <div id="legend-container"></div>
+</body>
+</html>

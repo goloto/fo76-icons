@@ -6,6 +6,7 @@ import {
   generateIconsFile,
   generateUnicodeMapFile,
   generateOverviewFile,
+  generateLegendFile,
   sortCategories,
   sortRules,
 } from '@/utils';
@@ -21,6 +22,7 @@ const build = async () => {
   await generateFontConfigFile();
   await generateUnicodeMapFile();
   await generateOverviewFile();
+  await generateLegendFile();
 };
 
 await build();
