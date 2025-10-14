@@ -20,6 +20,7 @@ For some scripts to work, you need to create a `.env` file and fill it in using 
 
  - `build-all` - starts update process and generation of all icon rules and configurations
  - `reset-fonts-swf` - updates `fonts_*.swf` files by copying them from `/input` directory to `/output`
+ - `reset-interface` - erases all files in `Interface` game folder
  - `update-fontlab` - replaces `standard.nam` file in the Fontlab directory with a similar file from `/output' directory
 
 ## Script `build-all`
