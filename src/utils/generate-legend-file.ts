@@ -3,6 +3,7 @@ import { INPUT_DIRECTORY, OUTPUT_DIRECTORY } from '@/constants';
 import { ICONS } from '@/generated/icons';
 import { getCharFromHexadecimal } from './common';
 import { ICON_CATEGORIES } from '@/generated/icon-categories-enum';
+import { createElement } from './dom';
 
 const legendFileName = 'legend.html';
 
@@ -26,25 +27,22 @@ export const generateLegendFile = async () => {
   );
 
   ICONS.forEach((icon) => {
-    const iconContainerElement = window.createElement('div');
-
-    iconContainerElement.setAttribute('id', 'icon-container');
-
-    const iconElement = window.createElement('div');
-    const iconTextNode = window.createTextNode(
-      getCharFromHexadecimal(icon.charCode)
-    );
-
-    iconElement.setAttribute('id', 'icon');
-    iconElement.appendChild(iconTextNode);
-
-    const descriptionElement = window.createElement('p');
-    const formattedIconName = icon.name
-      .replaceAll('-', ' ')
-      .replaceAll('_', ' ');
-    const descriptionTextNode = window.createTextNode(formattedIconName);
-
-    descriptionElement.appendChild(descriptionTextNode);
+    const iconContainerElement = createElement({
+      window,
+      tag: 'div',
+      id: 'icon-container',
+    });
+    const iconElement = createElement({
+      window,
+      tag: 'div',
+      id: 'icon',
+      text: getCharFromHexadecimal(icon.charCode),
+    });
+    const descriptionElement = createElement({
+      window,
+      tag: 'p',
+      text: icon.name.replaceAll('-', ' ').replaceAll('_', ' '),
+    });
 
     iconContainerElement.appendChild(iconElement);
     iconContainerElement.appendChild(descriptionElement);
@@ -52,15 +50,17 @@ export const generateLegendFile = async () => {
   });
 
   Object.entries(categoryIconsMap).forEach(([key, value]) => {
-    const titleElement = window.createElement('h2');
-    const titleText = window.createTextNode(key);
-
-    titleElement.setAttribute('id', 'title');
-    titleElement.appendChild(titleText);
-
-    const categoryContainer = window.createElement('div');
-
-    categoryContainer.setAttribute('id', 'category-container');
+    const titleElement = createElement({
+      window,
+      tag: 'h2',
+      id: 'title',
+      text: key,
+    });
+    const categoryContainer = createElement({
+      window,
+      tag: 'div',
+      id: 'category-container',
+    });
 
     root.appendChild(titleElement);
 
