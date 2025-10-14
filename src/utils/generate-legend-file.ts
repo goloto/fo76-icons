@@ -25,6 +25,8 @@ export const generateLegendFile = async () => {
     }),
     <Record<ICON_CATEGORIES, Array<HTMLElement>>>{}
   );
+  const categoriesArray: HTMLDivElement[] = [];
+  const groupedCategories: HTMLDivElement[][] = [];
 
   ICONS.forEach((icon) => {
     const iconContainerElement = createElement(window, {
@@ -41,8 +43,7 @@ export const generateLegendFile = async () => {
       text: icon.name.replaceAll('-', ' ').replaceAll('_', ' '),
     });
 
-    iconContainerElement.appendChild(iconElement);
-    iconContainerElement.appendChild(descriptionElement);
+    iconContainerElement.append(iconElement, descriptionElement);
     categoryIconsMap[icon.category].push(iconContainerElement);
   });
 
@@ -52,18 +53,40 @@ export const generateLegendFile = async () => {
       id: 'title',
       text: key,
     });
+    const categoryGrid = createElement(window, {
+      tag: 'div',
+      id: 'category-grid',
+    });
     const categoryContainer = createElement(window, {
       tag: 'div',
       id: 'category-container',
     });
 
-    root.appendChild(titleElement);
+    categoryContainer.append(titleElement);
+    categoryContainer.append(categoryGrid);
 
     value.forEach((iconElement) => {
-      categoryContainer.appendChild(iconElement);
+      categoryGrid.append(iconElement);
     });
 
-    root.appendChild(categoryContainer);
+    categoriesArray.push(categoryContainer);
+  });
+
+  for (let index = 0; index < categoriesArray.length / 2; index++) {
+    groupedCategories.push([
+      categoriesArray[index * 2],
+      categoriesArray[index * 2 + 1],
+    ]);
+  }
+
+  groupedCategories.forEach((group) => {
+    const groupContainer = createElement(window, {
+      tag: 'div',
+      id: 'screenshot-container',
+    });
+
+    groupContainer.append(...group);
+    root.append(groupContainer);
   });
 
   Bun.write(`${OUTPUT_DIRECTORY}/${legendFileName}`, dom.serialize());
