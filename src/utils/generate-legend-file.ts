@@ -27,19 +27,16 @@ export const generateLegendFile = async () => {
   );
 
   ICONS.forEach((icon) => {
-    const iconContainerElement = createElement({
-      window,
+    const iconContainerElement = createElement(window, {
       tag: 'div',
       id: 'icon-container',
     });
-    const iconElement = createElement({
-      window,
+    const iconElement = createElement(window, {
       tag: 'div',
       id: 'icon',
       text: getCharFromHexadecimal(icon.charCode),
     });
-    const descriptionElement = createElement({
-      window,
+    const descriptionElement = createElement(window, {
       tag: 'p',
       text: icon.name.replaceAll('-', ' ').replaceAll('_', ' '),
     });
@@ -50,14 +47,12 @@ export const generateLegendFile = async () => {
   });
 
   Object.entries(categoryIconsMap).forEach(([key, value]) => {
-    const titleElement = createElement({
-      window,
+    const titleElement = createElement(window, {
       tag: 'h2',
       id: 'title',
       text: key,
     });
-    const categoryContainer = createElement({
-      window,
+    const categoryContainer = createElement(window, {
       tag: 'div',
       id: 'category-container',
     });

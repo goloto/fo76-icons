@@ -18,8 +18,7 @@ export const generateOverviewFile = async () => {
   }
 
   ICONS.forEach((icon) => {
-    const iconElement = createElement({
-      window,
+    const iconElement = createElement(window, {
       tag: 'div',
       id: 'icon',
       text: getCharFromHexadecimal(icon.charCode),
