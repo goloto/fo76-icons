@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Goloto's Icons Legend</title>
+  <link href="./Goloto's_icons_font.ttf" as="font" type="font/ttf" />
+  <style>
+    @font-face {
+      font-family: "Goloto's Icons";
+      src: url("Goloto's_icons_font.ttf");
+    }
+
+    :root {
+      font-family: 'Roboto Condensed';
+
+      --icon-size: 40px;
+    }
+
+    body {
+      height: 100vh;
+      width: 100vw;
+      margin: 0;
+      padding: calc(var(--icon-size) / 2);
+
+      background: linear-gradient(90deg,rgba(245, 203, 91, 1) 0%, rgba(249, 227, 144, 1) 50%, rgba(245, 203, 91, 1) 100%);
+    }
+
+    #category-container {
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      gap: calc(var(--icon-size) / 4);
+    }
+
+    #legend-container {
+      display: flex;
+      flex-direction: column;
+      gap: calc(var(--icon-size) / 2);
+      max-width: 1920px;
+    }
+
+    #icon-container {
+      display: grid;
+      grid-template-columns: var(--icon-size) 1fr;
+      align-items: center;
+      gap: calc(var(--icon-size) / 2);
+      font-size: calc(var(--icon-size) / 2);
+    }
+
+    #icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      font-size: var(--icon-size);
+      font-family: "Goloto's Icons";
+    }
+  </style>
+</head>
+<body>
+  <div id="legend-container"></div>
+</body>
+</html>
