@@ -1,6 +1,6 @@
 # fo76-icons
 
-This is toolkit and source code of the [Goloto's Icons](https://www.nexusmods.com/fallout76/mods/3224) mod for Fallout 76.
+This is toolkit and source code of the [Goloto's Icons](https://www.nexusmods.com/fallout76/mods/3487) mod for Fallout 76.
 
 ## Installation
 
@@ -11,17 +11,17 @@ For some scripts to work, you need to create a `.env` file and fill it in using 
 
 ## Structure
 
- - `assets` - icons, draft icons, images, docs and other
- - `input` - source game files and template for overview page
- - `output` - final game files, font, unicode-map and overview page
- - `src` - source code for toolkit
+- `assets` - icons, draft icons, images, docs and other
+- `input` - source game files and template for overview page
+- `output` - final game files, font, unicode-map and overview page
+- `src` - source code for toolkit
 
 ## Scripts
 
- - `build-all` - starts update process and generation of all icon rules and configurations
- - `reset-fonts-swf` - updates `fonts_*.swf` files by copying them from `/input` directory to `/output`
- - `reset-interface` - erases all files in `Interface` game folder
- - `update-fontlab` - replaces `standard.nam` file in the Fontlab directory with a similar file from `/output' directory
+- `build-all` - starts update process and generation of all icon rules and configurations
+- `reset-fonts-swf` - updates `fonts_*.swf` files by copying them from `/input` directory to `/output`
+- `reset-interface` - erases all files in `Interface` game folder
+- `update-fontlab` - replaces `standard.nam` file in the Fontlab directory with a similar file from `/output' directory
 
 ## Script `build-all`
 
@@ -39,11 +39,12 @@ For some scripts to work, you need to create a `.env` file and fill it in using 
 ### Automatic sorting
 
 The icons are sorted according to the following rules:
- - groups are sorted according to `src\constants\categories-order.ts`
- - the order of icons repeats the order of their use in the group rules
- - first, all icons are sorted in the first position of the prefix, then in the second, etc.
- - all repeated icon encounters are ignored
- - all non-main group icons are ignored (the main icons for each group are defined here: `src\constants\index.ts`)
+
+- groups are sorted according to `src\constants\categories-order.ts`
+- the order of icons repeats the order of their use in the group rules
+- first, all icons are sorted in the first position of the prefix, then in the second, etc.
+- all repeated icon encounters are ignored
+- all non-main group icons are ignored (the main icons for each group are defined here: `src\constants\index.ts`)
 
 ### Icons margin
 
